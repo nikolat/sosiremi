@@ -13,6 +13,11 @@ if (file_exists('./repos/'. $search_filename)) {
 else {
     $dl = true;
 }
+if (isset($_GET['force'])) {
+    if ($_GET['force'] == 'true') {
+        $dl = true;
+    }
+}
 header('Content-type: text/javascript; charset=UTF-8');
 if ($dl) {
     ob_start();
