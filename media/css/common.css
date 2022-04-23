@@ -40,9 +40,7 @@ a:active {
 body {
 	color: #333;
 	background-color: #edf;
-	background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
+	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
 	background-attachment: fixed;
 }
 body, input {
@@ -360,7 +358,7 @@ input[type="search"], input[type="password"] {
 }
 .hfeed .hentry table .t_graph span {
 	display: block;
-	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.2));
+	background-image: linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.2));
 }
 .hfeed .hentry table .t_graph .outer {
 	background-color: #fff;

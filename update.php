@@ -20,8 +20,8 @@ if ($dl) {
     $html = ob_get_contents();
     ob_end_clean();
     file_put_contents(__DIR__. '/index.html', $html);
-    echo 'console.log("index.html: updated");';
+    echo 'console.log("index.html: update");';
 }
 else {
-    echo 'console.log("index.html: keeped");';
+    echo 'console.log("index.html: keep");';
 }

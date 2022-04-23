@@ -37,7 +37,7 @@ a:active {
 body {
 	color: #333;
 	background-color: #edf;
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
+	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
 	background-attachment: fixed;
 }
 body, input {
@@ -162,8 +162,12 @@ margin-bottom: 5px;
 	border-bottom: 1px dashed #003;
 	margin-bottom: 10px;
 }
-.about-readme .unable h1 {
-	margin-top: 30px;
+.about-readme .qa dl dt {
+	float: none;
+	margin-top: 1.5em;
+}
+.about-readme .qa dl dd {
+	margin-left: 0px;
 }
 .hfeed .hentry dt {
 	font-weight: bold;
@@ -296,7 +300,7 @@ margin-bottom: 5px;
 }
 .hfeed .hentry table .t_graph span {
 	display: block;
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.2));
+	background-image: linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.2));
 }
 .hfeed .hentry table .t_graph .outer {
 	background-color: #fff;
