@@ -250,6 +250,9 @@ input[type="search"], input[type="password"] {
 	text-shadow: none;
 	line-height: 150%;
 }
+.hfeed .hentry .profile .install a:after {
+	content: "";
+}
 .hfeed .hentry .profile .download:after {
 	content: "unclickable";
 	text-indent: -9999px;

@@ -152,6 +152,7 @@ function s($s)
 					<dd class="updated"><time datetime="<?php echo s($repos[$i]['updated_at_time']); ?>"><?php echo s($repos[$i]['updated_at_str']); ?></time></dd>
 				</dl>
 				<p class="download"><a href="<?php echo s($repos[$i]['browser_download_url']); ?>" title="<?php echo s($repos[$i]['browser_download_url']); ?>" rel="nofollow" data-filesize="<?php echo s($repos[$i]['filesize']); ?>">download</a></p>
+				<p class="download install"><a href="<?php echo s('x-ukagaka-link:type=install&url='. urlencode($repos[$i]['browser_download_url'])); ?>" title="<?php echo s($repos[$i]['browser_download_url']); ?>" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme">
 				<h1>readme</h1>
