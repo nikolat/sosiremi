@@ -120,6 +120,9 @@ function s($s)
 <link rel="stylesheet" href="./media/css/common.css" media="screen and (min-device-width: 481px)" />
 <link rel="stylesheet" href="./media/css/smartphone.css" media="only screen and (max-device-width: 480px)" />
 <link rel="help" href="./about.html" />
+<?php for ($i = 0; $i < count($repos); $i++) { ?>
+<link rel="alternate" type="application/x-nar" title="<?php echo s($repos[$i]['title']); ?>" href="<?php echo s($repos[$i]['browser_download_url']); ?>" />
+<?php } ?>
 <script src="./update.php" defer="defer"></script>
 </head>
 <body>
