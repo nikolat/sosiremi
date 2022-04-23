@@ -85,7 +85,7 @@ for ($i = 0; $i < $n; $i++) {
             'updated_at_time' => $data_latest['assets'][$j]['updated_at'],
             'updated_at_str' => date("Y-m-d H:i:s", strtotime($data_latest['assets'][$j]['updated_at'])),
             'browser_download_url' => $data_latest['assets'][$j]['browser_download_url'],
-            'filesize' => $data_latest['assets'][$j]['size'] / 1000,
+            'filesize' => round($data_latest['assets'][$j]['size'] / 1024, 1),
             'readme' => $readme
         ];
         $repos[$c] = $repo;
