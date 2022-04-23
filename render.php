@@ -109,7 +109,7 @@ function download_file($url, $filename)
 }
 function s($s)
 {
-    return htmlspecialchars($s);
+    return htmlspecialchars($s, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401);
 }
 ?><!DOCTYPE html>
 <html lang="ja">
