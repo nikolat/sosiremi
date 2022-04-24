@@ -37,7 +37,7 @@ a:active {
 body {
 	color: #333;
 	background-color: #edf;
-	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
 	background-attachment: fixed;
 }
 body, input {
@@ -63,7 +63,7 @@ input[type="search"] {
 	line-height: 140%;
 margin-bottom: 5px;
 }
-#header #site-navigation-area h1 {
+#header #site-navigation-area h2 {
 	display: none;
 }
 #header #site-navigation-area{
@@ -152,9 +152,6 @@ margin-bottom: 5px;
 .hfeed .entries-caption {
 	display: none;
 }
-.hfeed .entry {
-	display: none;
-}
 .hfeed .hentry .profile {
 	margin: 5px;
 }
@@ -217,7 +214,7 @@ margin-bottom: 5px;
 	text-shadow: 0 1px #000;
 	box-shadow: 0 0 3px #202020;
 }
-.hfeed .hentry .readme h1 {
+.hfeed .hentry .readme h3 {
 	display: none;
 }
 .hfeed .hentry:not(:only-of-type) .readme pre {
@@ -300,7 +297,7 @@ margin-bottom: 5px;
 }
 .hfeed .hentry table .t_graph span {
 	display: block;
-	background-image: linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.2));
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.2));
 }
 .hfeed .hentry table .t_graph .outer {
 	background-color: #fff;

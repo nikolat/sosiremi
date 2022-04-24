@@ -117,8 +117,8 @@ function s($s)
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
 <title>偽SoSiReMi</title>
-<link rel="stylesheet" href="./media/css/common.css" media="screen and (min-device-width: 481px)" />
-<link rel="stylesheet" href="./media/css/smartphone.css" media="only screen and (max-device-width: 480px)" />
+<link rel="stylesheet" href="./media/css/common.css" media="screen and (min-width: 481px)" />
+<link rel="stylesheet" href="./media/css/smartphone.css" media="only screen and (max-width: 480px)" />
 <link rel="help" href="./about.html" />
 <?php for ($i = 0; $i < count($repos); $i++) { ?>
 <link rel="alternate" type="application/x-nar" title="<?php echo s($repos[$i]['title']); ?>" href="<?php echo s($repos[$i]['browser_download_url']); ?>" />
@@ -131,19 +131,18 @@ function s($s)
 			<h1 id="title"><a href="./">偽SoSiReMi</a></h1>
 		</div>
 		<nav id="site-navigation-area">
-			<h1>navigation</h1>
+			<h2>navigation</h2>
 			<ul>
 				<li class="about"><a href="./about.html" rel="help">このサイトについて</a></li>
 			</ul>
 		</nav>
 	</header>
 	<section id="content" class="hfeed">
-		<h1 class="entries-caption">entries</h1>
+		<h2 class="entries-caption">entries</h2>
 <?php for ($i = 0; $i < count($repos); $i++) { ?>
 		<article id="<?php echo s($repos[$i]['id']); ?>" class="hentry autopagerize_page_element">
-    		<h1 class="entry"><?php echo s($repos[$i]['id']); ?></h1>
 			<div class="profile">
-				<h1 class="entry-title"><a href="<?php echo s($repos[$i]['html_url']); ?>" rel="bookmark"><?php echo s($repos[$i]['title']); ?></a></h1>
+				<h3 class="entry-title"><a href="<?php echo s($repos[$i]['html_url']); ?>" rel="bookmark"><?php echo s($repos[$i]['title']); ?></a></h3>
 				<dl>
 					<dt class="category">カテゴリ</dt>
 					<dd class="category"><?php echo s($repos[$i]['category']); ?></dd>
@@ -158,7 +157,7 @@ function s($s)
 				<p class="download install"><a href="<?php echo s('x-ukagaka-link:type=install&url='. urlencode($repos[$i]['browser_download_url'])); ?>" title="<?php echo s($repos[$i]['browser_download_url']); ?>" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme">
-				<h1>readme</h1>
+				<h3>readme</h3>
 <pre>
 <?php echo s($repos[$i]['readme']); ?>
 </pre>
