@@ -86,6 +86,7 @@ for ($i = 0; $i < $n; $i++) {
             'updated_at_str' => date("Y-m-d H:i:s", strtotime($data_latest['assets'][$j]['updated_at'])),
             'browser_download_url' => $data_latest['assets'][$j]['browser_download_url'],
             'filesize' => round($data_latest['assets'][$j]['size'] / 1024, 1),
+            'download_count' => $data_latest['assets'][$j]['download_count'],
             'readme' => $readme
         ];
         $repos[$c] = $repo;
@@ -153,7 +154,7 @@ function s($s)
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="<?php echo s($repos[$i]['updated_at_time']); ?>"><?php echo s($repos[$i]['updated_at_str']); ?></time></dd>
 				</dl>
-				<p class="download"><a href="<?php echo s($repos[$i]['browser_download_url']); ?>" title="<?php echo s($repos[$i]['browser_download_url']); ?>" rel="nofollow" data-filesize="<?php echo s($repos[$i]['filesize']); ?>">download</a></p>
+				<p class="download"><a href="<?php echo s($repos[$i]['browser_download_url']); ?>" title="<?php echo s($repos[$i]['browser_download_url']); ?>" rel="nofollow" data-filesize="<?php echo s($repos[$i]['filesize']); ?>" data-download_count="<?php echo s($repos[$i]['download_count']); ?>">download</a></p>
 				<p class="download install"><a href="<?php echo s('x-ukagaka-link:type=install&url='. urlencode($repos[$i]['browser_download_url'])); ?>" title="<?php echo s($repos[$i]['browser_download_url']); ?>" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme">
