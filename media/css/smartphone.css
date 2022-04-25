@@ -214,7 +214,7 @@ margin-bottom: 5px;
 	text-shadow: 0 1px #000;
 	box-shadow: 0 0 3px #202020;
 }
-.hfeed .hentry .readme h3 {
+.hfeed .hentry .readme h4 {
 	display: none;
 }
 .hfeed .hentry:not(:only-of-type) .readme pre {

@@ -256,7 +256,7 @@ input[type="search"], input[type="password"] {
 	width: 200%;
 	line-height: 160%;
 }
-.hfeed .hentry .readme h3 {
+.hfeed .hentry .readme h4 {
 	display: none;
 }
 .hfeed .hentry .readme pre {

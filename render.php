@@ -157,7 +157,7 @@ function s($s)
 				<p class="download install"><a href="<?php echo s('x-ukagaka-link:type=install&url='. urlencode($repos[$i]['browser_download_url'])); ?>" title="<?php echo s($repos[$i]['browser_download_url']); ?>" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme">
-				<h3>readme</h3>
+				<h4>readme</h4>
 <pre>
 <?php echo s($repos[$i]['readme']); ?>
 </pre>
