@@ -1,0 +1,32 @@
+name: Crawl
+on:
+  workflow_dispatch:
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+    - name: Setup PHP
+      id: setup-php
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Execute PHP code
+      run: php update.php
+    - name: Diff
+      id: diff
+      run: |
+        git add -N .
+        git diff --name-only --exit-code
+      continue-on-error: true
+    - name: Commit & Push
+      run: |
+        set -x
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        git add .
+        git commit -m 'update'
+        git push
+      if: steps.diff.outcome == 'failure'

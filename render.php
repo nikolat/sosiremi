@@ -127,7 +127,6 @@ function s($s)
 <?php for ($i = 0; $i < count($repos); $i++) { ?>
 <link rel="alternate" type="application/x-nar" title="<?php echo s($repos[$i]['title']); ?>" href="<?php echo s($repos[$i]['browser_download_url']); ?>" />
 <?php } ?>
-<script src="./update.php" defer="defer"></script>
 </head>
 <body>
 	<header id="header">
