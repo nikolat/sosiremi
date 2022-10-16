@@ -65,7 +65,7 @@ for ($i = 0; $i < $n; $i++) {
     }
     $assets = $data_latest['assets'];
     for ($j = 0; $j < count($assets); $j++) {
-        if ($assets[$j]['content_type'] != 'application/x-nar') {
+        if (!in_array($assets[$j]['content_type'], ['application/x-nar', 'application/zip'])) {
             continue;
         }
         $readme_filename = str_replace('/', '_', $item['full_name']). '.txt';
