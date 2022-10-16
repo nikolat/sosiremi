@@ -98,8 +98,8 @@ for ($i = 0; $i < $n; $i++) {
         break;
     }
     if (is_null($repo)) {
-        $mirror_repo_txt_url = 'https://raw.githubusercontent.com/'. $item['full_name']. '/'. $item['default_branch']. '/.ukagaka_links/mirror_repo.txt';
-        $nar_release_repo_txt_url = 'https://raw.githubusercontent.com/'. $item['full_name']. '/'. $item['default_branch']. '/.ukagaka_links/nar_release_repo.txt';
+        $mirror_repo_txt_url = 'https://raw.githubusercontent.com/'. $item['full_name']. '/'. $item['default_branch']. '/.ukagaka/links/mirror_repo.txt';
+        $nar_release_repo_txt_url = 'https://raw.githubusercontent.com/'. $item['full_name']. '/'. $item['default_branch']. '/.ukagaka/links/nar_release_repo.txt';
         $mirror_repo_txt_filename = str_replace('/', '_', $item['full_name']). '_mirror_repo.txt';
         $nar_release_repo_txt_filename = str_replace('/', '_', $item['full_name']). '_nar_release_repo.txt';
         if ($dl) {
