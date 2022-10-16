@@ -64,6 +64,7 @@ for ($i = 0; $i < $n; $i++) {
         continue;
     }
     $assets = $data_latest['assets'];
+    $repo = NULL;
     for ($j = 0; $j < count($assets); $j++) {
         if (!in_array($assets[$j]['content_type'], ['application/x-nar', 'application/zip'])) {
             continue;
@@ -95,6 +96,69 @@ for ($i = 0; $i < $n; $i++) {
         $repos[$c] = $repo;
         $c++;
         break;
+    }
+    if (is_null($repo)) {
+        $mirror_repo_txt_url = 'https://raw.githubusercontent.com/'. $item['full_name']. '/'. $item['default_branch']. '/.ukagaka_links/mirror_repo.txt';
+        $nar_release_repo_txt_url = 'https://raw.githubusercontent.com/'. $item['full_name']. '/'. $item['default_branch']. '/.ukagaka_links/nar_release_repo.txt';
+        $mirror_repo_txt_filename = str_replace('/', '_', $item['full_name']). '_mirror_repo.txt';
+        $nar_release_repo_txt_filename = str_replace('/', '_', $item['full_name']). '_nar_release_repo.txt';
+        if ($dl) {
+            download_file($mirror_repo_txt_url, 'repos/'. $mirror_repo_txt_filename);
+            download_file($nar_release_repo_txt_url, 'repos/'. $nar_release_repo_txt_filename);
+        }
+        $lines = file(__DIR__. '/repos/'. $mirror_repo_txt_filename, FILE_IGNORE_NEW_LINES);
+        $mirror_repo_url = $lines[0];
+        $lines = file(__DIR__. '/repos/'. $nar_release_repo_txt_filename, FILE_IGNORE_NEW_LINES);
+        $nar_release_repo_url = $lines[0];
+
+        $mirror_repo_full_name = str_replace('https://github.com/', '', $mirror_repo_url);
+        $nar_release_repo_full_name = str_replace('https://github.com/', '', $nar_release_repo_url);
+        $latest_filename = str_replace('/', '_', $nar_release_repo_full_name). '.json';
+        $latest_url = 'https://api.github.com/repos/'. $nar_release_repo_full_name. '/releases/latest';
+        if ($dl) {
+            download_file($latest_url, 'repos/'. $latest_filename);
+        }
+        $json = file_get_contents(__DIR__. '/repos/'. $latest_filename);
+        if ($json === false) {
+            throw new \RuntimeException('file not found.');
+        }
+        $data_latest = json_decode($json, true);
+        if (!isset($data_latest['assets'])) {
+            continue;
+        }
+        $assets = $data_latest['assets'];
+        for ($j = 0; $j < count($assets); $j++) {
+            if (!in_array($assets[$j]['content_type'], ['application/x-nar', 'application/zip'])) {
+                continue;
+            }
+            $readme_filename = str_replace('/', '_', $mirror_repo_full_name). '.txt';
+            $readme_url = 'https://raw.githubusercontent.com/'. $mirror_repo_full_name. '/'. $item['default_branch']. '/readme.txt';
+            if ($dl) {
+                download_file($readme_url, 'readme/'. $readme_filename);
+            }
+            $readme = file_get_contents(__DIR__. '/readme/'. $readme_filename);
+            if ($readme === false) {
+                throw new \RuntimeException('file not found.');
+            }
+            $repo = [
+                'id' => str_replace('/', '_', $item['full_name']),
+                'title' => $item['name'],
+                'category' => $type,
+                'author' => $item['owner']['login'],
+                'html_url' => $item['html_url'],
+                'created_at_time' => $data_latest['assets'][$j]['created_at'],
+                'created_at_str' => date("Y-m-d H:i:s", strtotime($data_latest['assets'][$j]['created_at'])),
+                'updated_at_time' => $data_latest['assets'][$j]['updated_at'],
+                'updated_at_str' => date("Y-m-d H:i:s", strtotime($data_latest['assets'][$j]['updated_at'])),
+                'browser_download_url' => $data_latest['assets'][$j]['browser_download_url'],
+                'filesize' => round($data_latest['assets'][$j]['size'] / 1024, 1),
+                'download_count' => $data_latest['assets'][$j]['download_count'],
+                'readme' => $readme
+            ];
+            $repos[$c] = $repo;
+            $c++;
+            break;
+        }
     }
 }
 function download_file($url, $filename)
