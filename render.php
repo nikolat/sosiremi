@@ -110,7 +110,9 @@ for ($i = 0; $i < $n; $i++) {
         $mirror_repo_url = $lines[0];
         $lines = file(__DIR__. '/repos/'. $nar_release_repo_txt_filename, FILE_IGNORE_NEW_LINES);
         $nar_release_repo_url = $lines[0];
-
+        if (!(preg_match('/^https?:\/\/.+$/', $mirror_repo_url) && preg_match('/^https?:\/\/.+$/', $nar_release_repo_url))) {
+            continue;
+        }
         $mirror_repo_full_name = str_replace('https://github.com/', '', $mirror_repo_url);
         $nar_release_repo_full_name = str_replace('https://github.com/', '', $nar_release_repo_url);
         $latest_filename = str_replace('/', '_', $nar_release_repo_full_name). '.json';
