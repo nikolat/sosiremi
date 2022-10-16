@@ -134,7 +134,7 @@ for ($i = 0; $i < $n; $i++) {
                 continue;
             }
             $readme_filename = str_replace('/', '_', $mirror_repo_full_name). '.txt';
-            $readme_url = 'https://raw.githubusercontent.com/'. $mirror_repo_full_name. '/'. $item['default_branch']. '/readme.txt';
+            $readme_url = 'https://raw.githubusercontent.com/'. $item['full_name']. '/'. $item['default_branch']. '/.ukagaka/infos/sosiremi.txt';
             if ($dl) {
                 download_file($readme_url, 'readme/'. $readme_filename);
             }
