@@ -4,7 +4,7 @@
 <title>{{ config.site_title }}</title>
 <link>{{ config.self_url }}</link>
 <description>{{ config.site_description }}</description>
-<atom:link href="{{ self_url }}rss2.xml" rel="self" type="application/rss+xml" />{% for item in entries %}
+<atom:link href="{{ config.self_url }}rss2.xml" rel="self" type="application/rss+xml" />{% for item in entries %}
 <item>
     <title>{{ item.title }}</title>
     <link>{{ item.html_url }}</link>
