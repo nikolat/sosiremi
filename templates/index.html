@@ -3,17 +3,18 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
-<title>偽SoSiReMi</title>
+<title>{{ config.site_title }}</title>
 <link rel="icon" href="./favicon.ico" />
 <link rel="stylesheet" href="./media/css/common.css" media="screen and (min-width: 481px)" />
 <link rel="stylesheet" href="./media/css/smartphone.css" media="only screen and (max-width: 480px)" />
-<link rel="help" href="./about.html" />{% for item in entries %}
+<link rel="help" href="./about.html" />
+<link rel="alternate" type="application/rss+xml" href="./rss2.xml" />{% for item in entries %}
 <link rel="alternate" type="{{ item.content_type }}" title="{{ item.title }}" href="{{ item.browser_download_url }}" />{% endfor %}
 </head>
 <body>
 	<header id="header">
 		<div id="title-area">
-			<h1 id="title"><a href="./">偽SoSiReMi</a></h1>
+			<h1 id="title"><a href="./">{{ config.site_title }}</a></h1>
 		</div>
 		<nav id="site-navigation-area">
 			<h2>navigation</h2>
@@ -48,7 +49,7 @@
 		</article>{% endfor %}
 	</section>
 	<footer id="footer">
-		<p id="copyright"><small>Copyright &#169; 2022 <a href="./">偽SoSiReMi</a></small></p>
+		<p id="copyright"><small>Copyright &#169; 2022 <a href="./">{{ config.site_title }}</a></small></p>
 	</footer>
 </body>
 </html>

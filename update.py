@@ -61,6 +61,7 @@ if __name__ == '__main__':
 				'created_at_str': dt_created.strftime('%Y-%m-%d %H:%M:%S'),
 				'updated_at_time': asset['updated_at'],
 				'updated_at_str': dt_updated.strftime('%Y-%m-%d %H:%M:%S'),
+				'updated_at_rss2': dt_updated.strftime('%a, %d %b %Y %H:%M:%S %z'),
 				'browser_download_url': asset['browser_download_url'],
 				'install_uri': 'x-ukagaka-link:type=install&url=' + urllib.parse.quote_plus(asset['browser_download_url']),
 				'filesize': Decimal(asset['size'] / 1024).quantize(Decimal('0.1')),
@@ -71,8 +72,9 @@ if __name__ == '__main__':
 	env = Environment(loader=FileSystemLoader('./templates', encoding='utf8'), autoescape=True)
 	data = {
 		'entries': entries,
+		'config': config
 	}
-	for filename in ['index.html']:
+	for filename in ['index.html', 'rss2.xml']:
 		template = env.get_template(filename)
 		rendered = template.render(data)
 		with open(f'docs/{filename}', 'w', encoding='utf-8') as f:
