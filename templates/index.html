@@ -41,7 +41,7 @@
 				<p class="download"><a href="{{ item.browser_download_url }}" title="{{ item.browser_download_url }}" rel="nofollow" data-filesize="{{ item.filesize }}" data-download_count="{{ item.download_count }}">download</a></p>
 				<p class="download install"><a href="{{ item.install_uri }}" title="{{ item.browser_download_url }}" rel="nofollow">install</a></p>
 			</div>
-			<aside class="readme">
+			<aside class="readme" aria-label="{{ item.title }}">
 				<h4>readme</h4>
 <pre>
 {{ item.readme }}</pre>
