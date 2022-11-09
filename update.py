@@ -38,6 +38,8 @@ if __name__ == '__main__':
 			latest_url = item['releases_url'].replace('{/id}', '/latest')
 			response = requests.get(latest_url)
 			l_item = response.json()
+			if 'assets' not in l_item:
+				continue
 			assets = [a for a in l_item['assets'] if a['content_type'] in ['application/x-nar', 'application/zip']]
 			if len(assets) == 0:
 				continue
