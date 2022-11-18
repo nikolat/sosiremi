@@ -27,8 +27,8 @@ jobs:
       - name: Commit & Push
         run: |
           set -x
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config user.name beefriends
+          git config user.email ${{ secrets.BEEFRIENDS_EMAIL_ADDRESS }}
           git add .
           git commit -m 'update'
           git push
