@@ -6,6 +6,7 @@ import yaml
 import urllib.parse
 from decimal import Decimal
 from jinja2 import Environment, FileSystemLoader
+from os import getenv
 
 if __name__ == '__main__':
 	jst = zoneinfo.ZoneInfo('Asia/Tokyo')
@@ -13,16 +14,17 @@ if __name__ == '__main__':
 	with open(config_filename, encoding='utf-8') as file:
 		config = yaml.safe_load(file)
 	url = 'https://api.github.com/search/repositories'
+	headers = {'Authorization': f'Bearer {getenv("GITHUB_TOKEN")}'}
 	payload = {'q': f'topic:{config["search_key"]}', 'sort': 'updated'}
 	responses = []
-	response = requests.get(url, params=payload)
+	response = requests.get(url, params=payload, headers=headers)
 	response.raise_for_status()
 	responses.append(response)
 	pattern = re.compile(r'<(.+?)>; rel="next"')
 	result = pattern.search(response.headers['link']) if 'link' in response.headers else None
 	while result:
 		url = result.group(1)
-		response = requests.get(url)
+		response = requests.get(url, headers=headers)
 		response.raise_for_status()
 		responses.append(response)
 		result = pattern.search(response.headers['link']) if 'link' in response.headers else None
@@ -36,7 +38,7 @@ if __name__ == '__main__':
 			if item['full_name'] in config['redirect'] and 'nar' in config['redirect'][item['full_name']]:
 				item['releases_url'] = item['releases_url'].replace(item['full_name'], config['redirect'][item['full_name']]['nar'])
 			latest_url = item['releases_url'].replace('{/id}', '/latest')
-			response = requests.get(latest_url)
+			response = requests.get(latest_url, headers=headers)
 			l_item = response.json()
 			if 'assets' not in l_item:
 				continue
