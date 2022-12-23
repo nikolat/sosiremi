@@ -14,7 +14,7 @@ if __name__ == '__main__':
 	with open(config_filename, encoding='utf-8') as file:
 		config = yaml.safe_load(file)
 	url = 'https://api.github.com/search/repositories'
-	headers = {'Authorization': f'Bearer {getenv("GITHUB_TOKEN")}'}
+	headers = {'Authorization': f'Bearer {getenv("GITHUB_TOKEN")}', 'User-Agent': 'Mozilla/1.0 (Win3.1)'}
 	payload = {'q': f'topic:{config["search_key"]}', 'sort': 'updated'}
 	responses = []
 	response = requests.get(url, params=payload, headers=headers)
