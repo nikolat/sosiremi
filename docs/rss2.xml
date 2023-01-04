@@ -6,6 +6,18 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>bee</title>
+    <link>https://github.com/nikolat/bee</link>
+    <guid>https://github.com/nikolat/bee</guid>
+    <pubDate>Mon, 02 Jan 2023 10:40:13 +0900</pubDate>
+</item>
+<item>
+    <title>ghostbook</title>
+    <link>https://github.com/nikolat/ghostbook</link>
+    <guid>https://github.com/nikolat/ghostbook</guid>
+    <pubDate>Mon, 02 Jan 2023 10:39:19 +0900</pubDate>
+</item>
+<item>
     <title>taidanaSanoSan</title>
     <link>https://github.com/tukinami/taidanaSanoSan</link>
     <guid>https://github.com/tukinami/taidanaSanoSan</guid>
