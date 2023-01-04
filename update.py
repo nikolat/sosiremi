@@ -53,6 +53,7 @@ if __name__ == '__main__':
 			else:
 				readme_url = f'https://raw.githubusercontent.com/{item["full_name"]}/{item["default_branch"]}/readme.txt'
 			response = requests.get(readme_url)
+			response.encoding = response.apparent_encoding
 			readme = response.text
 			entry = {
 				'id': item['full_name'].replace('/', '_'),
