@@ -5,7 +5,7 @@
  * @see http://www.hamashun.me/archives/682353.html
  */
 html, body, div, h1, h2, h3, p, pre, table, caption, tr, th, td, ul, li, dl, dt, dd, form, label, span, a, img, script, small,
-section, article, aside, figure, footer, header, nav, figcaption, time, meter {
+section, article, aside, figure, footer, header, nav, figcaption, time {
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
@@ -15,12 +15,6 @@ section, article, aside, figure, figcaption, footer, header, nav {
 }
 li {
 	list-style-type: none;
-}
-a img {
-	border: none;
-}
-img {
-	vertical-align: bottom;
 }
 /**
  * main css
@@ -40,14 +34,9 @@ a:active {
 body {
 	color: #333;
 	background-color: #edf;
-	background-image: linear-gradient(to bottom , rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
 	background-attachment: fixed;
-}
-body, input {
 	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-}
-input[type="search"], input[type="password"] {
-	width: 20em;
 }
 #header {
 	margin: 30px 30px 0 30px;
@@ -82,33 +71,6 @@ input[type="search"], input[type="password"] {
 	float: left;
 	margin-left: 20px;
 }
-#header .headerform {
-	clear: left;
-	border: 2px solid #336;
-	background-color: #fef;
-	margin: 5px;
-	padding: 0;
-	border-radius: 10px;
-	line-height: 200%;
-}
-#header .headerform h1 {
-	float: left;
-	color: #eef;
-	background-color: #99b;
-	border-top-left-radius: 7px;
-	border-bottom-left-radius: 7px;
-	padding-left: 0.5em;
-	padding-right: 1.5em;
-}
-#header .headerform dt {
-	font-weight: bold;
-	float: left;
-	margin-left: 0.5em;
-}
-#header .headerform dd {
-	float: left;
-	margin-left: 0.5em;
-}
 .hfeed {
 	clear: left;
 	margin: 0 30px;
@@ -124,12 +86,6 @@ input[type="search"], input[type="password"] {
 .about-readme li {
 	list-style-type: disc;
 	margin-left: 20px;
-}
-.rejectednars > h1 {
-	display: none;
-}
-.rejectednars .hentry {
-	min-height: 120px;
 }
 .hfeed .entries-caption {
 	display: none;
@@ -157,42 +113,6 @@ input[type="search"], input[type="password"] {
 }
 .hfeed .hentry dd {
 	margin-left: 100px;
-}
-.config .hentry dd {
-	margin-left: 300px;
-}
-.hfeed .hentry .profile .thumbnail {
-	display: none;
-}
-.hfeed .hentry .profile > .thumbnail {
-	display: block;
-	visibility: hidden;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	opacity: 0.3;
-	transform: scaleX(0.95);
-	transition: all 0.1s ease-in-out;
-}
-.hfeed .hentry:hover .profile .thumbnail {
-	visibility: visible;
-	opacity: 1;
-	transform: scaleX(1);
-}
-.hfeed .hentry .profile .thumbnail img {
-	display: block;
-}
-.hfeed .hentry .profile .thumbnail figcaption {
-	display: block;
-	line-height: 2em;
-	text-align: center;
-	background-color: #ddd;
-	border: 1px solid #eee;
-	color: #333;
-	opacity: 0.8;
-	border-radius: 5px;
-	margin-top: 3px;
-	font-size: smaller;
 }
 .hfeed .hentry .profile .download {
 	margin: 2px auto auto 2px;
@@ -266,131 +186,6 @@ input[type="search"], input[type="password"] {
 	border: 1px solid #666;
 	line-height: normal;
 	width: 65%;
-}
-.hfeed .form-clear-cache h1,
-.hfeed .form-delete-all h1 {
-	display: none;
-}
-.hfeed .hentry .sub-entry {
-	clear: both;
-	border: 1px solid #336;
-	background-color: #edc;
-	margin: 10px 5px 5px;
-	padding: 10px;
-	border-radius: 10px;
-}
-.hfeed .hentry .form-upload {
-	width: 45%;
-	float: left;
-}
-.hfeed .hentry .form-delete {
-	clear: none;
-	width: 45%;
-	float: right;
-}
-.hfeed .hentry .form-delete:after {
-	content: "\0020";
-	display: block;
-	height: 0px;
-	visibility: hidden;
-	clear: both;
-}
-.hfeed .hentry .form-upload h1 {
-	color: green;
-}
-.hfeed .hentry .form-delete h1 {
-	color: red;
-}
-.hfeed .hentry table {
-	margin: 5px auto;
-	border-collapse: collapse;
-	width: 100%;
-	word-break: break-all;
-}
-.hfeed .hentry table caption {
-	font-weight: bold;
-	margin: 5px auto;
-}
-.hfeed .hentry table th {
-	background-color: #cdc;
-}
-.hfeed .hentry table,
-.hfeed .hentry table th,
-.hfeed .hentry table td {
-	border: 1px solid #363;
-}
-.hfeed .hentry table td {
-	background-color: #ded;
-	font-size: small;
-	line-height: 120%;
-}
-.hfeed .hentry table tr:nth-child(even) > td {
-	background-color: #ddd;
-}
-.hfeed .hentry table .t_datetime {
-	width: 20%;
-}
-.hfeed .hentry table .t_referrer {
-	width: 30%;
-}
-.hfeed .hentry table .t_useragent {
-	width: auto;
-}
-.hfeed .hentry table .t_date {
-	width: 20%;
-}
-.hfeed .hentry table .t_count {
-	width: 10%;
-}
-.hfeed .hentry table td.t_count {
-	text-align: right;
-	padding-right: 5px;
-}
-.hfeed .hentry table .t_graph {
-	width: auto;
-	padding: 2px 0;
-}
-.hfeed .hentry table .t_graph meter {
-	width: 100%;
-}
-.hfeed .hentry table .t_graph span {
-	display: block;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.2));
-}
-.hfeed .hentry table .t_graph .outer {
-	background-color: #fff;
-}
-.hfeed .hentry table .t_graph .inner {
-	background-color: #ccf;
-	text-indent: -9999px;
-}
-#paging {
-	margin: 0px 30px 15px 30px;
-}
-#paging h1 {
-	display: none;
-}
-#paging ul {
-	float: right;
-}
-#paging ul li {
-	float: left;
-}
-#paging ul li a {
-	display: block;
-	margin: auto 5px;
-	padding: 0px 5px;
-	border: 2px solid #336;
-	background-color: #fef;
-	border-radius: 5px;
-}
-#paging ul .previous a:before {
-	content: "« ";
-	font-size: x-small;
-}
-#paging ul .next a:after {
-	content: " »";
-	font-size: x-small;
 }
 #footer {
 	margin-top: 2em;

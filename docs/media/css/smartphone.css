@@ -16,12 +16,6 @@ section, article, aside, figure, figcaption, footer, header, nav {
 li {
 	list-style-type: none;
 }
-a img {
-	border: none;
-}
-img {
-	vertical-align: bottom;
-}
 /**
  * main css
  */
@@ -39,12 +33,7 @@ body {
 	background-color: #edf;
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.3));
 	background-attachment: fixed;
-}
-body, input {
 	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-}
-input[type="search"] {
-	width: 10em;
 }
 #header {
 	padding: 0 5px;
@@ -61,12 +50,12 @@ input[type="search"] {
 	text-shadow: 1px 1px 1px #ccc;
 	vertical-align: middle;
 	line-height: 140%;
-margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 #header #site-navigation-area h2 {
 	display: none;
 }
-#header #site-navigation-area{
+#header #site-navigation-area {
 	float: right;
 }
 #header #site-navigation-area .about a {
@@ -81,51 +70,6 @@ margin-bottom: 5px;
 #header #title-area,
 #header #site-navigation-area li {
 	float: left;
-}
-#header .headerform {
-	clear: both;
-	border: 2px solid #336;
-	background-color: #fef;
-	padding: 0;
-	border-radius: 10px;
-	line-height: 200%;
-}
-#header .headerform:after {
-	content: "\0020";
-	display: block;
-	height: 0px;
-	visibility: hidden;
-	clear: both;
-}
-#header .headerform h1 {
-	color: #eef;
-	background-color: #99b;
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-	padding-left: 0.5em;
-	padding-right: 1.5em;
-}
-#header .headerform dt {
-	font-weight: bold;
-	clear: left;
-	float: left;
-	margin-left: 0.5em;
-	width: 5em;
-}
-#header .headerform dd {
-	float: left;
-	margin-left: 0.5em;
-}
-#header .actions {
-	clear: left;
-	margin-left: 0.5em;
-}
-#upload-area {
-	display: none;
-}
-.form-upload,
-.form-delete {
-	display: none;
 }
 .hfeed {
 	clear: left;
@@ -142,12 +86,6 @@ margin-bottom: 5px;
 .about-readme li {
 	list-style-type: disc;
 	margin-left: 20px;
-}
-.rejectednars > h1 {
-	display: none;
-}
-.rejectednars .hentry {
-	min-height: 120px;
 }
 .hfeed .entries-caption {
 	display: none;
@@ -175,12 +113,6 @@ margin-bottom: 5px;
 .hfeed .hentry dd {
 	margin-left: 5em;
 	line-height: 150%;
-}
-.config .hentry dd {
-	margin-left: 5em;
-}
-.hfeed .hentry .profile .thumbnail {
-	display: none;
 }
 .hfeed .hentry .profile .download {
 	margin: 2px auto auto 2px;
@@ -217,9 +149,6 @@ margin-bottom: 5px;
 .hfeed .hentry .readme h4 {
 	display: none;
 }
-.hfeed .hentry:not(:only-of-type) .readme pre {
-	display: none;
-}
 .hfeed .hentry .readme pre {
 	background-color: #eee;
 	height: 200px;
@@ -228,111 +157,6 @@ margin-bottom: 5px;
 	line-height: normal;
 	font-size: xx-small;
 	margin: 0 2px;
-}
-.hfeed .form-clear-cache h1,
-.hfeed .form-delete-all h1 {
-	display: none;
-}
-.hfeed .hentry .sub-entry {
-	clear: left;
-	border: 1px solid #336;
-	background-color: #edc;
-	margin: 2px;
-	padding: 2px;
-	border-radius: 5px;
-	font-size: x-small;
-}
-.hfeed .hentry table {
-	margin: 2px auto;
-	border-collapse: collapse;
-	width: 100%;
-	word-break: break-all;
-}
-.hfeed .hentry table caption {
-	font-weight: bold;
-	margin: 5px auto;
-}
-.hfeed .hentry table th {
-	background-color: #cdc;
-}
-.hfeed .hentry table,
-.hfeed .hentry table th,
-.hfeed .hentry table td {
-	border: 1px solid #363;
-}
-.hfeed .hentry table td {
-	background-color: #ded;
-	font-size: xx-small;
-	line-height: 120%;
-}
-.hfeed .hentry table tr:nth-child(even) > td {
-	background-color: #ddd;
-}
-.hfeed .hentry table .t_datetime {
-	width: 25%;
-	word-break: normal;
-}
-.hfeed .hentry table .t_referrer {
-	width: 25%;
-}
-.hfeed .hentry table .t_useragent {
-	width: auto;
-}
-.hfeed .hentry table .t_date {
-	width: 25%;
-}
-.hfeed .hentry table .t_count {
-	width: 15%;
-}
-.hfeed .hentry table td.t_count {
-	text-align: right;
-	padding-right: 5px;
-}
-.hfeed .hentry table .t_graph {
-	width: auto;
-	padding: 2px 0;
-}
-.hfeed .hentry table .t_graph meter {
-	width: 100%;
-}
-.hfeed .hentry table .t_graph span {
-	display: block;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 20%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.2));
-}
-.hfeed .hentry table .t_graph .outer {
-	background-color: #fff;
-}
-.hfeed .hentry table .t_graph .inner {
-	background-color: #ccf;
-	text-indent: -9999px;
-}
-#paging {
-	margin: 0px 5px 5px;
-}
-#paging h1 {
-	display: none;
-}
-#paging ul {
-	float: right;
-}
-#paging ul li {
-	float: left;
-}
-#paging ul li a {
-	display: block;
-	margin: auto 5px;
-	padding: 0px 5px;
-	border: 2px solid #336;
-	background-color: #fef;
-	border-radius: 5px;
-}
-#paging ul .previous a:before {
-	content: "« ";
-	font-size: x-small;
-}
-#paging ul .next a:after {
-	content: " »";
-	font-size: x-small;
 }
 #footer {
 	margin-top: 5px;
