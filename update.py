@@ -29,7 +29,7 @@ if __name__ == '__main__':
 		response.raise_for_status()
 		responses.append(response)
 		result = pattern.search(response.headers['link']) if 'link' in response.headers else None
-	now = datetime.datetime.now(jst)
+	now = datetime.datetime.now()
 	entries = []
 	authors = []
 	for response in responses:
@@ -93,7 +93,7 @@ if __name__ == '__main__':
 			f.write(rendered + '\n')
 	data = {
 		'authors': authors,
-		'now': now.isoformat(timespec='seconds'),
+		'now': now.strftime('%Y-%m-%d'),
 		'config': config
 	}
 	filename = 'sitemap.xml'
