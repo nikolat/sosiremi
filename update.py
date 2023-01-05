@@ -42,7 +42,7 @@ if __name__ == '__main__':
 			l_item = response.json()
 			if 'assets' not in l_item:
 				continue
-			assets = [a for a in l_item['assets'] if a['content_type'] in ['application/x-nar', 'application/zip', 'application/octet-stream']]
+			assets = [a for a in l_item['assets'] if a['content_type'] in ['application/x-nar', 'application/zip', 'application/x-zip-compressed', 'application/octet-stream']]
 			if len(assets) == 0:
 				continue
 			asset = assets[0]
