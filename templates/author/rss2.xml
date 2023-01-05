@@ -4,7 +4,7 @@
 <title>{{ entries[0].author }} | {{ config.site_title }}</title>
 <link>{{ config.self_url }}author/{{ entries[0].author }}/</link>
 <description>{{ config.site_description }}</description>
-<atom:link href="{{ config.self_url }}/author/{{ entries[0].author }}/rss2.xml" rel="self" type="application/rss+xml" />{% for item in entries %}
+<atom:link href="{{ config.self_url }}author/{{ entries[0].author }}/rss2.xml" rel="self" type="application/rss+xml" />{% for item in entries %}
 <item>
     <title>{{ item.title }}</title>
     <link>{{ item.html_url }}</link>
