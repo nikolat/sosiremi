@@ -29,6 +29,7 @@ if __name__ == '__main__':
 		response.raise_for_status()
 		responses.append(response)
 		result = pattern.search(response.headers['link']) if 'link' in response.headers else None
+	now = datetime.datetime.now(jst)
 	entries = []
 	authors = []
 	for response in responses:
@@ -90,6 +91,16 @@ if __name__ == '__main__':
 		rendered = template.render(data)
 		with open(f'docs/{filename}', 'w', encoding='utf-8') as f:
 			f.write(rendered + '\n')
+	data = {
+		'authors': authors,
+		'now': now.isoformat(timespec='seconds'),
+		'config': config
+	}
+	filename = 'sitemap.xml'
+	template = env.get_template(filename)
+	rendered = template.render(data)
+	with open(f'docs/{filename}', 'w', encoding='utf-8') as f:
+		f.write(rendered + '\n')
 	for author in authors:
 		os.mkdir(f'docs/author/{author}/')
 		data = {
