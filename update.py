@@ -15,7 +15,7 @@ if __name__ == '__main__':
 		config = yaml.safe_load(file)
 	url = 'https://api.github.com/search/repositories'
 	headers = {'Authorization': f'Bearer {getenv("GITHUB_TOKEN")}', 'User-Agent': 'Mozilla/1.0 (Win3.1)'}
-	payload = {'q': f'topic:{config["search_key"]}', 'sort': 'updated'}
+	payload = {'q': config['search_query'], 'sort': 'updated'}
 	responses = []
 	response = requests.get(url, params=payload, headers=headers)
 	response.raise_for_status()
