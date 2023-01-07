@@ -2,6 +2,7 @@ import re
 import datetime
 import shutil
 import os
+import time
 import zoneinfo
 import requests
 import yaml
@@ -28,7 +29,16 @@ if __name__ == '__main__':
 		response.raise_for_status()
 	except requests.RequestException as e:
 		print(e.response.text)
-		raise
+		if 'Retry-After' in response.headers:
+			wait = int(response.headers['Retry-After'])
+			time.sleep(wait)
+			try:
+				response = requests.get(url, params=payload, headers=headers)
+			except requests.RequestException as e:
+				print(e.response.text)
+				raise
+		else:
+			raise
 	responses.append(response)
 	pattern = re.compile(r'<(.+?)>; rel="next"')
 	result = pattern.search(response.headers['link']) if 'link' in response.headers else None
