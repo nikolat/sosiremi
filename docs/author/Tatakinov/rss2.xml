@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Tatakinov | 偽SoSiReMi</title>
+<link>https://nikolat.github.io/sosiremi/author/Tatakinov/</link>
+<description>GitHubで公開されているNARファイルを一覧表示する</description>
+<atom:link href="https://nikolat.github.io/sosiremi/author/Tatakinov/rss2.xml" rel="self" type="application/rss+xml" />
+<item>
+    <title>mosu</title>
+    <link>https://github.com/Tatakinov/mosu</link>
+    <guid>https://github.com/Tatakinov/mosu</guid>
+    <pubDate>Sat, 07 Jan 2023 14:37:04 +0900</pubDate>
+</item>
+<item>
+    <title>desktop_tempter_casino_chip_green</title>
+    <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_green</link>
+    <guid>https://github.com/Tatakinov/desktop_tempter_casino_chip_green</guid>
+    <pubDate>Sat, 07 Jan 2023 14:29:01 +0900</pubDate>
+</item>
+<item>
+    <title>desktop_tempter_casino_chip_red</title>
+    <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_red</link>
+    <guid>https://github.com/Tatakinov/desktop_tempter_casino_chip_red</guid>
+    <pubDate>Sat, 07 Jan 2023 14:26:58 +0900</pubDate>
+</item>
+</channel>
+</rss>
