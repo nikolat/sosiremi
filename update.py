@@ -24,7 +24,11 @@ if __name__ == '__main__':
 	payload = {'q': config['search_query'], 'sort': 'updated'}
 	responses = []
 	response = requests.get(url, params=payload, headers=headers)
-	response.raise_for_status()
+	try:
+		response.raise_for_status()
+	except requests.RequestException as e:
+		print(e.response.text)
+		raise
 	responses.append(response)
 	pattern = re.compile(r'<(.+?)>; rel="next"')
 	result = pattern.search(response.headers['link']) if 'link' in response.headers else None
