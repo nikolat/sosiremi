@@ -45,7 +45,122 @@
 			<aside class="readme" aria-label="UkagakaPlugin_DBdiary">
 				<h4>readme</h4>
 <pre>
-404: Not Found</pre>
+# DBdiary
+簡単な日記を作成するためのプログラムです。
+
+## 使用可能な関数一覧
+```
+&#34;\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]&#34;
+&#34;\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]&#34;
+&#34;\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]&#34;
+
+
+//20230104追加関数
+&#34;\![raiseplugin,DBdiary,OnCheckWrittenDiary]&#34;
+```
+
+## 日記を書く
+二種類の方法で日記を書くことができます。
+- DirtyDiary&lt;br&gt;
+    保存名が日付+日記内容.txtになります。&lt;br&gt;
+    日記の中には「Dirty Diary」に統一されます。&lt;br&gt;
+
+- BeautifulDiary&lt;br&gt;
+    保存名が日付.txtになります。&lt;br&gt;
+    こちらはゴーストから日記内容を取得できるようにしています。&lt;br&gt;
+
+#### 日記の保存先
+プラグインフォルダ/Diary/yyyymmdd{Dirty Diary only}.txt
+
+
+## DirtyDiaryを呼び出す。
+このプラグインをインストールしている状態で下記のサクラスクリプトを打ち込んでください。&lt;br&gt;
+入力欄が出てきます。&lt;br&gt;
+ゴーストに発言させる場合はbefore_textやafter_textの部分を適時書き換えてください。&lt;br&gt;
+他のテキストと相性が悪かったためこのような形になりました。&lt;br&gt;
+```
+&#34;\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]&#34;
+```
+
+## BeautifulDiaryを呼び出す。
+使用方法は同じです。
+```
+&#34;\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]&#34;
+```
+
+## 日記の内容を引っ張り出す。
+同じくbefore_text,after_textをうまく使ってやってください。&lt;br&gt;
+指定した日付の日記の内容を取得します。&lt;br&gt;
+notWriteは何も書かれていなかった時、&lt;br&gt;
+notExistは日記がなかった時に表示されます。&lt;br&gt;
+```
+&#34;\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]&#34;
+```
+
+
+## 日記の内容を引っ張り出す。2
+先ほどの関数ではゴーストから扱いづらいので別の関数を用意しました。
+引数は不要でこのサクラスクリプトを実行するだけです。
+```
+&#34;\![raiseplugin,DBdiary,OnCheckWrittenDiary]&#34;
+```
+ただし、ゴースト側で下記のOnRecieveCheckWrittenDiary関数を実装してください。
+この関数はreference0に ファイルが存在してかつ、空のファイルじゃなかった場合はBeautifulDiaryの本文が格納されています。
+
+以下は実装例。
+```
+OnRecieveCheckWrittenDiary {
+    _res = reference[0]
+    if ( _res == &#34;notExist&#34; ) {
+        &#34;書いてないやんけ。&#34;
+
+    } elseif ( _res == &#34;notWrite&#34; ) {
+        &#34;白紙やぞ。&#34;
+
+    } else {
+        _text = &#34;この日の日記は &#34; + _res + &#34;だったんだね。&#34;
+    }
+}
+```
+
+
+
+## お借りしたもの
+yaya.dll
+[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
+
+
+## Other
+このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。&lt;br&gt;
+またゴースト等に同梱して配布していただいて構いません。&lt;br&gt;
+main.uka内部を好きに書き換えてくれて構いません。&lt;br&gt;
+
+
+## 小言
+実際に作ってみたものの、raisepluginが使いづらく、&lt;br&gt;
+プラグイン化のメリットはゴーストのデータを汚さないことぐらいでしょうか.&lt;br&gt;
+
+FREADで読み込めるのは一行だけの都合、日記を読み込む際に複数行書かれた場合(追記モードに変更したのであり得る)最初の一行しか引っ張れない問題がある。
+
+
+
+
+## Author
+[ambergon](https://twitter.com/Sc_lFoxGon)
+
+o
+
+
+
+
+
+
+
+
+
+
+
+</pre>
 			</aside>
 		</article>
 		<article id="ambergon_UkakagaPlugin_CeVIO-Talker" class="hentry">
@@ -67,7 +182,32 @@
 			<aside class="readme" aria-label="UkakagaPlugin_CeVIO-Talker">
 				<h4>readme</h4>
 <pre>
-404: Not Found</pre>
+# CeVIO-Talker
+このプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。
+
+
+[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)
+
+
+## お借りしたもの
+yaya.dll
+[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
+
+proxy_ex.dll
+[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)
+
+
+## Other
+このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。
+
+
+## Author
+[ambergon](https://twitter.com/Sc_lFoxGon)
+
+
+
+
+</pre>
 			</aside>
 		</article>
 	</section>
