@@ -55,9 +55,25 @@ if __name__ == '__main__':
 				readme_url = config['redirect'][item['full_name']]['readme']
 			else:
 				readme_url = f'https://raw.githubusercontent.com/{item["full_name"]}/{item["default_branch"]}/readme.txt'
-			response = requests.get(readme_url)
-			response.encoding = response.apparent_encoding
-			readme = response.text
+			response = requests.get(readme_url, headers=headers)
+			try:
+				response.raise_for_status()
+				response.encoding = response.apparent_encoding
+				readme = response.text
+			except requests.HTTPError as e:
+				readme_url = None
+				url = f'https://api.github.com/repos/{item["full_name"]}/readme'
+				response = requests.get(url, headers=headers)
+				if response.status_code == requests.codes.ok:
+					r_item = response.json()
+					if 'download_url' in r_item:
+						readme_url = r_item['download_url']
+				if readme_url:
+					response = requests.get(readme_url, headers=headers)
+					response.encoding = response.apparent_encoding
+					readme = response.text
+				else:
+					readme = 'readme.txt not found'
 			entry = {
 				'id': item['full_name'].replace('/', '_'),
 				'title': item['name'],
