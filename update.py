@@ -19,7 +19,7 @@ if __name__ == '__main__':
 		'Accept': 'application/vnd.github+json',
 		'Authorization': f'Bearer {os.getenv("GITHUB_TOKEN")}',
 		'X-GitHub-Api-Version': '2022-11-28',
-		'User-Agent': 'Mozilla/1.0 (Win3.1)'
+		'User-Agent': 'nikolat/github-nar-station'
 	}
 	payload = {'q': config['search_query'], 'sort': 'updated'}
 	responses = []
