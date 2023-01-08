@@ -1,5 +1,6 @@
 import re
 import datetime
+import logging
 import shutil
 import os
 import time
@@ -10,41 +11,65 @@ import urllib.parse
 from decimal import Decimal
 from jinja2 import Environment, FileSystemLoader
 
-if __name__ == '__main__':
-	jst = zoneinfo.ZoneInfo('Asia/Tokyo')
-	config_filename = 'config.yml'
-	with open(config_filename, encoding='utf-8') as file:
-		config = yaml.safe_load(file)
-	url = 'https://api.github.com/search/repositories'
+def get_log_handler():
+	custom_logger = logging.getLogger('custom_logger')
+	custom_logger.setLevel(logging.DEBUG)
+	handler = logging.StreamHandler()
+	handler.setLevel(logging.DEBUG)
+	custom_logger.addHandler(handler)
+	handler_formatter = logging.Formatter(
+		'%(asctime)s - [%(levelname)s]: %(message)s', datefmt='%Y-%m-%dT%H:%M:%SZ'
+	)
+	handler_formatter.converter = time.gmtime
+	handler.setFormatter(handler_formatter)
+	return custom_logger
+
+def request_with_retry(url, payload, logger, retry=True):
 	headers = {
 		'Accept': 'application/vnd.github+json',
 		'Authorization': f'Bearer {os.getenv("GITHUB_TOKEN")}',
 		'X-GitHub-Api-Version': '2022-11-28',
 		'User-Agent': 'nikolat/github-nar-station'
 	}
-	payload = {'q': config['search_query'], 'sort': 'updated'}
-	responses = []
 	response = requests.get(url, params=payload, headers=headers)
 	try:
 		response.raise_for_status()
 	except requests.RequestException as e:
-		print(e.response.text)
-		if 'Retry-After' in response.headers:
-			wait = int(response.headers['Retry-After'])
-		else:
-			wait = 180
-		time.sleep(wait)
-		try:
+		logger.warning(f'Status: {response.status_code}, URL: {url}')
+		logger.debug(e.response.text)
+		if retry:
+			if 'Retry-After' in response.headers:
+				wait = int(response.headers['Retry-After'])
+			else:
+				wait = 180
+			logger.debug(f'wait = {wait}')
+			time.sleep(wait)
 			response = requests.get(url, params=payload, headers=headers)
-		except requests.RequestException as e:
-			print(e.response.text)
-			raise
+			logger.debug(f'Status: {response.status_code}')
+			try:
+				response.raise_for_status()
+			except requests.RequestException as e:
+				logger.warning(f'Status: {response.status_code}, URL: {url}')
+				logger.debug(e.response.text)
+				raise
+	return response
+
+if __name__ == '__main__':
+	logger = get_log_handler()
+	jst = zoneinfo.ZoneInfo('Asia/Tokyo')
+	config_filename = 'config.yml'
+	with open(config_filename, encoding='utf-8') as file:
+		config = yaml.safe_load(file)
+	url = 'https://api.github.com/search/repositories'
+	payload = {'q': config['search_query'], 'sort': 'updated'}
+	responses = []
+	response = request_with_retry(url, payload, logger)
 	responses.append(response)
 	pattern = re.compile(r'<(.+?)>; rel="next"')
 	result = pattern.search(response.headers['link']) if 'link' in response.headers else None
 	while result:
 		url = result.group(1)
-		response = requests.get(url, headers=headers)
+		response = request_with_retry(url, None, logger)
 		response.raise_for_status()
 		responses.append(response)
 		result = pattern.search(response.headers['link']) if 'link' in response.headers else None
@@ -60,7 +85,7 @@ if __name__ == '__main__':
 			if item['full_name'] in config['redirect'] and 'nar' in config['redirect'][item['full_name']]:
 				item['releases_url'] = item['releases_url'].replace(item['full_name'], config['redirect'][item['full_name']]['nar'])
 			latest_url = item['releases_url'].replace('{/id}', '/latest')
-			response = requests.get(latest_url, headers=headers)
+			response = request_with_retry(latest_url, None, logger)
 			l_item = response.json()
 			if 'assets' not in l_item:
 				continue
@@ -80,19 +105,18 @@ if __name__ == '__main__':
 				response.encoding = response.apparent_encoding
 				readme = response.text
 			except requests.HTTPError as e:
-				readme_url = None
 				url = f'https://api.github.com/repos/{item["full_name"]}/readme'
-				response = requests.get(url, headers=headers)
-				if response.status_code == requests.codes.ok:
-					r_item = response.json()
-					if 'download_url' in r_item:
-						readme_url = r_item['download_url']
-				if readme_url:
+				response = request_with_retry(url, None, logger, retry=False)
+				r_item = response.json()
+				if 'download_url' in r_item:
+					readme_url = r_item['download_url']
 					response = requests.get(readme_url)
 					response.encoding = response.apparent_encoding
 					readme = response.text
+					logger.debug(f'README is found at {readme_url} in {item["full_name"]}')
 				else:
 					readme = 'readme.txt not found'
+					logger.debug(f'README is not found in {item["full_name"]}')
 			entry = {
 				'id': item['full_name'].replace('/', '_'),
 				'title': item['name'],
