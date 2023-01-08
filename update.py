@@ -70,7 +70,6 @@ if __name__ == '__main__':
 	while result:
 		url = result.group(1)
 		response = request_with_retry(url, None, logger)
-		response.raise_for_status()
 		responses.append(response)
 		result = pattern.search(response.headers['link']) if 'link' in response.headers else None
 	now = datetime.datetime.now()
