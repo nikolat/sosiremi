@@ -31,13 +31,13 @@ if __name__ == '__main__':
 		print(e.response.text)
 		if 'Retry-After' in response.headers:
 			wait = int(response.headers['Retry-After'])
-			time.sleep(wait)
-			try:
-				response = requests.get(url, params=payload, headers=headers)
-			except requests.RequestException as e:
-				print(e.response.text)
-				raise
 		else:
+			wait = 180
+		time.sleep(wait)
+		try:
+			response = requests.get(url, params=payload, headers=headers)
+		except requests.RequestException as e:
+			print(e.response.text)
 			raise
 	responses.append(response)
 	pattern = re.compile(r'<(.+?)>; rel="next"')
