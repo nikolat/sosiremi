@@ -81,21 +81,27 @@ if __name__ == '__main__':
 			types = [t.replace('ukagaka-', '') for t in item['topics'] if 'ukagaka-' in t]
 			types = [t for t in types if t in ['ghost', 'shell', 'balloon', 'plugin', 'supplement']]
 			if len(types) == 0:
+				logger.debug(f'ukagaka-* topic is not found in {item["full_name"]}')
 				continue
 			if item['full_name'] in config['redirect'] and 'nar' in config['redirect'][item['full_name']]:
+				logger.debug(f'NAR file redirect form {item["full_name"]} to {config["redirect"][item["full_name"]]["nar"]}')
 				item['releases_url'] = item['releases_url'].replace(item['full_name'], config['redirect'][item['full_name']]['nar'])
 			latest_url = item['releases_url'].replace('{/id}', '/latest')
 			response = request_with_retry(latest_url, None, logger)
 			l_item = response.json()
 			if 'assets' not in l_item:
+				logger.debug(f'assets are not found in {item["full_name"]}')
 				continue
 			assets = [a for a in l_item['assets'] if a['content_type'] in ['application/x-nar', 'application/zip', 'application/x-zip-compressed', 'application/octet-stream']]
 			if len(assets) == 0:
+				logger.debug(f'NAR file is not found in {item["full_name"]}')
+				logger.debug(f'content_type: {l_item["assets"][0]["content_type"]}')
 				continue
 			asset = assets[0]
 			dt_created = datetime.datetime.strptime(asset['created_at'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc).astimezone(tz=jst)
 			dt_updated = datetime.datetime.strptime(asset['updated_at'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc).astimezone(tz=jst)
 			if item['full_name'] in config['redirect'] and 'readme' in config['redirect'][item['full_name']]:
+				logger.debug(f'README file redirect form {item["full_name"]} to {config["redirect"][item["full_name"]]["readme"]}')
 				readme_url = config['redirect'][item['full_name']]['readme']
 			else:
 				readme_url = f'https://raw.githubusercontent.com/{item["full_name"]}/{item["default_branch"]}/readme.txt'
