@@ -83,7 +83,7 @@ if __name__ == '__main__':
 				logger.debug(f'ukagaka-* topic is not found in {item["full_name"]}')
 				continue
 			if item['full_name'] in config['redirect'] and 'nar' in config['redirect'][item['full_name']]:
-				logger.debug(f'releases_url is redirect form {item["full_name"]} to {config["redirect"][item["full_name"]]["nar"]}')
+				logger.debug(f'releases_url is redirected form {item["full_name"]} to {config["redirect"][item["full_name"]]["nar"]}')
 				item['releases_url'] = item['releases_url'].replace(item['full_name'], config['redirect'][item['full_name']]['nar'])
 			latest_url = item['releases_url'].replace('{/id}', '/latest')
 			response = request_with_retry(latest_url, None, logger)
@@ -100,7 +100,7 @@ if __name__ == '__main__':
 			dt_created = datetime.datetime.strptime(asset['created_at'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc).astimezone(tz=jst)
 			dt_updated = datetime.datetime.strptime(asset['updated_at'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc).astimezone(tz=jst)
 			if item['full_name'] in config['redirect'] and 'readme' in config['redirect'][item['full_name']]:
-				logger.debug(f'README file is redirect form {item["full_name"]} to {config["redirect"][item["full_name"]]["readme"]}')
+				logger.debug(f'README file is redirected form {item["full_name"]} to {config["redirect"][item["full_name"]]["readme"]}')
 				readme_url = config['redirect'][item['full_name']]['readme']
 			else:
 				readme_url = f'https://raw.githubusercontent.com/{item["full_name"]}/{item["default_branch"]}/readme.txt'
