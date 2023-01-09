@@ -6,6 +6,12 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>ukagakaPlugin_CeVIO-Talker</title>
+    <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</link>
+    <guid>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</guid>
+    <pubDate>Tue, 10 Jan 2023 08:19:48 +0900</pubDate>
+</item>
+<item>
     <title>banjou_no_sumikko_de</title>
     <link>https://github.com/Tatakinov/banjou_no_sumikko_de</link>
     <guid>https://github.com/Tatakinov/banjou_no_sumikko_de</guid>
@@ -94,12 +100,6 @@
     <link>https://github.com/Taromati2/Taromati2</link>
     <guid>https://github.com/Taromati2/Taromati2</guid>
     <pubDate>Sat, 07 Jan 2023 15:43:47 +0900</pubDate>
-</item>
-<item>
-    <title>ukagakaPlugin_CeVIO-Talker</title>
-    <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</link>
-    <guid>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</guid>
-    <pubDate>Wed, 28 Dec 2022 22:03:07 +0900</pubDate>
 </item>
 <item>
     <title>Bouyomi</title>
