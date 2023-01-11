@@ -83,6 +83,8 @@ class GitHubApiCrawler(object):
 
 class GitHubNarStation(GitHubApiCrawler):
 
+	__ALLOWED_CATEGORIES = ['ghost', 'shell', 'balloon', 'plugin', 'supplement']
+
 	def __init__(self):
 		super().__init__('nikolat/GitHubNarStation')
 
@@ -96,9 +98,12 @@ class GitHubNarStation(GitHubApiCrawler):
 		for response in responses:
 			for item in response.json()['items']:
 				types = [t.replace('ukagaka-', '') for t in item['topics'] if 'ukagaka-' in t]
-				types = [t for t in types if t in ['ghost', 'shell', 'balloon', 'plugin', 'supplement']]
 				if len(types) == 0:
 					logger.debug(f'ukagaka-* topic is not found in {item["full_name"]}')
+					continue
+				types = [t for t in types if t in self.__ALLOWED_CATEGORIES]
+				if len(types) == 0:
+					logger.debug(f'ukagaka-* topic is not allowed in {item["full_name"]}')
 					continue
 				if item['full_name'] in config['redirect'] and 'nar' in config['redirect'][item['full_name']]:
 					logger.debug(f'releases_url is redirected form {item["full_name"]} to {config["redirect"][item["full_name"]]["nar"]}')
@@ -169,28 +174,19 @@ class GitHubNarStation(GitHubApiCrawler):
 		entries = self.__entries
 		authors = self.__authors
 		env = Environment(loader=FileSystemLoader('./templates', encoding='utf8'), autoescape=True)
+		# top page
 		data = {
 			'entries': entries,
 			'config': config
 		}
-		shutil.rmtree('docs/author/', ignore_errors=True)
-		os.mkdir('docs/author/')
 		for filename in ['index.html', 'rss2.xml']:
 			template = env.get_template(filename)
 			rendered = template.render(data)
 			with open(f'docs/{filename}', 'w', encoding='utf-8') as f:
 				f.write(rendered + '\n')
-		now = datetime.datetime.now()
-		data = {
-			'authors': authors,
-			'now': now.strftime('%Y-%m-%d'),
-			'config': config
-		}
-		filename = 'sitemap.xml'
-		template = env.get_template(filename)
-		rendered = template.render(data)
-		with open(f'docs/{filename}', 'w', encoding='utf-8') as f:
-			f.write(rendered + '\n')
+		# author
+		shutil.rmtree('docs/author/', ignore_errors=True)
+		os.mkdir('docs/author/')
 		for author in authors:
 			os.mkdir(f'docs/author/{author}/')
 			data = {
@@ -202,6 +198,17 @@ class GitHubNarStation(GitHubApiCrawler):
 				rendered = template.render(data)
 				with open(f'docs/author/{author}/{filename}', 'w', encoding='utf-8') as f:
 					f.write(rendered + '\n')
+		# sitemap
+		data = {
+			'authors': authors,
+			'now': datetime.datetime.now().strftime('%Y-%m-%d'),
+			'config': config
+		}
+		filename = 'sitemap.xml'
+		template = env.get_template(filename)
+		rendered = template.render(data)
+		with open(f'docs/{filename}', 'w', encoding='utf-8') as f:
+			f.write(rendered + '\n')
 
 if __name__ == '__main__':
 	g = GitHubNarStation()
