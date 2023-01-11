@@ -11,14 +11,15 @@ import urllib.parse
 from decimal import Decimal
 from jinja2 import Environment, FileSystemLoader
 
-class GitHubApiCrawler:
+class GitHubApiCrawler(object):
 
 	__CONFIG_FILENAME = 'config.yml'
 
-	def __init__(self):
+	def __init__(self, user_agent='nikolat/GitHubApiCrawler'):
 		self._logger = self.__get_custom_logger()
 		with open(self.__CONFIG_FILENAME, encoding='utf-8') as file:
 			self._config = yaml.safe_load(file)
+		self.__user_agent = user_agent
 
 	def __get_custom_logger(self):
 		custom_logger = logging.getLogger('custom_logger')
@@ -39,7 +40,7 @@ class GitHubApiCrawler:
 			'Accept': 'application/vnd.github+json',
 			'Authorization': f'Bearer {os.getenv("GITHUB_TOKEN")}',
 			'X-GitHub-Api-Version': '2022-11-28',
-			'User-Agent': 'nikolat/github-nar-station'
+			'User-Agent': self.__user_agent
 		}
 		response = requests.get(url, params=payload, headers=headers)
 		try:
@@ -81,6 +82,9 @@ class GitHubApiCrawler:
 		self._responses = responses
 
 class GitHubNarStation(GitHubApiCrawler):
+
+	def __init__(self):
+		super().__init__('nikolat/GitHubNarStation')
 
 	def crawl(self):
 		jst = zoneinfo.ZoneInfo('Asia/Tokyo')
