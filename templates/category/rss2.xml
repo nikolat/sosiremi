@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>{{ entries[0].category }} | {{ config.site_title }}</title>
+<link>{{ config.self_url }}{{ entries[0].category }}/</link>
+<description>{{ config.site_description }}</description>
+<atom:link href="{{ config.self_url }}{{ entries[0].category }}/rss2.xml" rel="self" type="application/rss+xml" />{% for item in entries %}
+<item>
+    <title>{{ item.title }}</title>
+    <link>{{ item.html_url }}</link>
+    <guid>{{ item.html_url }}</guid>
+    <pubDate>{{ item.updated_at_rss2 }}</pubDate>
+</item>{% endfor %}
+</channel>
+</rss>

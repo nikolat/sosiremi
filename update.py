@@ -167,11 +167,13 @@ class GitHubNarStation(GitHubApiCrawler):
 				if item['owner']['login'] not in authors:
 					authors.append(item['owner']['login'])
 		self.__entries = entries
+		self.__categories = self.__ALLOWED_CATEGORIES
 		self.__authors = authors
 
 	def export(self):
 		config = self._config
 		entries = self.__entries
+		categories = self.__categories
 		authors = self.__authors
 		env = Environment(loader=FileSystemLoader('./templates', encoding='utf8'), autoescape=True)
 		# top page
@@ -184,6 +186,22 @@ class GitHubNarStation(GitHubApiCrawler):
 			rendered = template.render(data)
 			with open(f'docs/{filename}', 'w', encoding='utf-8') as f:
 				f.write(rendered + '\n')
+		# category
+		for category in categories:
+			shutil.rmtree(f'docs/{category}/', ignore_errors=True)
+			entries_category = [e for e in entries if e['category'] == category]
+			if len(entries_category) == 0:
+				continue
+			os.mkdir(f'docs/{category}/')
+			data = {
+				'entries': entries_category,
+				'config': config
+			}
+			for filename in ['index.html', 'rss2.xml']:
+				template = env.get_template(f'category/{filename}')
+				rendered = template.render(data)
+				with open(f'docs/{category}/{filename}', 'w', encoding='utf-8') as f:
+					f.write(rendered + '\n')
 		# author
 		shutil.rmtree('docs/author/', ignore_errors=True)
 		os.mkdir('docs/author/')
@@ -200,6 +218,7 @@ class GitHubNarStation(GitHubApiCrawler):
 					f.write(rendered + '\n')
 		# sitemap
 		data = {
+			'categories': categories,
 			'authors': authors,
 			'now': datetime.datetime.now().strftime('%Y-%m-%d'),
 			'config': config
