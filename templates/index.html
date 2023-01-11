@@ -32,7 +32,7 @@
 					<dt class="category">カテゴリ</dt>
 					<dd class="category">{{ item.category }}</dd>
 					<dt class="author">作者名</dt>
-					<dd class="author">{{ item.author }}</dd>
+					<dd class="author"><a href="./author/{{ item.author }}/">{{ item.author }}</a></dd>
 					<dt class="created">投稿日時</dt>
 					<dd class="created"><time datetime="{{ item.created_at_time }}">{{ item.created_at_str }}</time></dd>
 					<dt class="updated">更新日時</dt>
