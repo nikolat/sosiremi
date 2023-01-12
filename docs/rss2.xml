@@ -6,6 +6,12 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>Taromati2</title>
+    <link>https://github.com/Taromati2/Taromati2</link>
+    <guid>https://github.com/Taromati2/Taromati2</guid>
+    <pubDate>Sat, 07 Jan 2023 15:43:47 +0900</pubDate>
+</item>
+<item>
     <title>ukagakaPlugin_CeVIO-Talker</title>
     <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</link>
     <guid>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</guid>
@@ -94,12 +100,6 @@
     <link>https://github.com/nikolat/ghostbook</link>
     <guid>https://github.com/nikolat/ghostbook</guid>
     <pubDate>Mon, 02 Jan 2023 10:39:19 +0900</pubDate>
-</item>
-<item>
-    <title>Taromati2</title>
-    <link>https://github.com/Taromati2/Taromati2</link>
-    <guid>https://github.com/Taromati2/Taromati2</guid>
-    <pubDate>Sat, 07 Jan 2023 15:43:47 +0900</pubDate>
 </item>
 <item>
     <title>Bouyomi</title>

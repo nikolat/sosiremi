@@ -6,6 +6,12 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/ghost/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>Taromati2</title>
+    <link>https://github.com/Taromati2/Taromati2</link>
+    <guid>https://github.com/Taromati2/Taromati2</guid>
+    <pubDate>Sat, 07 Jan 2023 15:43:47 +0900</pubDate>
+</item>
+<item>
     <title>banjou_no_sumikko_de</title>
     <link>https://github.com/Tatakinov/banjou_no_sumikko_de</link>
     <guid>https://github.com/Tatakinov/banjou_no_sumikko_de</guid>
@@ -76,12 +82,6 @@
     <link>https://github.com/nikolat/ghostbook</link>
     <guid>https://github.com/nikolat/ghostbook</guid>
     <pubDate>Mon, 02 Jan 2023 10:39:19 +0900</pubDate>
-</item>
-<item>
-    <title>Taromati2</title>
-    <link>https://github.com/Taromati2/Taromati2</link>
-    <guid>https://github.com/Taromati2/Taromati2</guid>
-    <pubDate>Sat, 07 Jan 2023 15:43:47 +0900</pubDate>
 </item>
 <item>
     <title>bath_ane</title>
