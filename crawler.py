@@ -51,16 +51,17 @@ class GitHubApiCrawler(abc.ABC):
 					wait = int(response.headers['Retry-After'])
 				else:
 					wait = 180
-				logger.debug(f'wait = {wait}')
+				logger.debug(f'Sleeping to retry after {wait} seconds.')
 				time.sleep(wait)
 				response = requests.get(url, params=payload, headers=headers)
-				logger.debug(f'Status: {response.status_code}')
 				try:
 					response.raise_for_status()
 				except requests.RequestException as e:
 					logger.warning(f'Status: {response.status_code}, URL: {url}')
 					logger.debug(e.response.text)
 					raise
+				else:
+					logger.debug(f'Status: {response.status_code}, URL: {url}')
 		return response
 
 	def search(self):
