@@ -136,7 +136,9 @@ class GitHubNarStation(crawler.GitHubApiCrawler):
 							'mime_type': e['content_type'],
 							'title': e['attachments_title'],
 							'size_in_bytes': e['size_in_bytes'],
-							'_download_count': e['download_count']
+							'_ex': {
+								'download_count': e['download_count']
+							}
 						}
 					]
 				}
