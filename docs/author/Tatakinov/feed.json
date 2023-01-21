@@ -32,7 +32,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "banjou_no_sumikko_de.nar",
                     "size_in_bytes": 6446304,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         },
@@ -63,7 +65,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "desktop_tempter.nar",
                     "size_in_bytes": 441657,
-                    "_download_count": 2
+                    "_ex": {
+                        "download_count": 2
+                    }
                 }
             ]
         },
@@ -94,7 +98,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "desktop_tempter_casino_chip_blue.nar",
                     "size_in_bytes": 497848,
-                    "_download_count": 2
+                    "_ex": {
+                        "download_count": 2
+                    }
                 }
             ]
         },
@@ -125,7 +131,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "desktop_tempter_casino_chip_green.nar",
                     "size_in_bytes": 559082,
-                    "_download_count": 1
+                    "_ex": {
+                        "download_count": 1
+                    }
                 }
             ]
         },
@@ -156,7 +164,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "desktop_tempter_casino_chip_red.nar",
                     "size_in_bytes": 403274,
-                    "_download_count": 1
+                    "_ex": {
+                        "download_count": 1
+                    }
                 }
             ]
         }

@@ -32,7 +32,9 @@
                     "mime_type": "application/x-nar",
                     "title": "taidanaSanoSan.nar",
                     "size_in_bytes": 1513594,
-                    "_download_count": 22
+                    "_ex": {
+                        "download_count": 22
+                    }
                 }
             ]
         },
@@ -63,7 +65,9 @@
                     "mime_type": "application/x-zip-compressed",
                     "title": "myalice2nd.zip",
                     "size_in_bytes": 1251871,
-                    "_download_count": 10
+                    "_ex": {
+                        "download_count": 10
+                    }
                 }
             ]
         },
@@ -102,7 +106,9 @@
                     "mime_type": "application/zip",
                     "title": "full_data_pack.nar",
                     "size_in_bytes": 9138177,
-                    "_download_count": 11
+                    "_ex": {
+                        "download_count": 11
+                    }
                 }
             ]
         },
@@ -133,7 +139,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "banjou_no_sumikko_de.nar",
                     "size_in_bytes": 6446304,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         },
@@ -164,7 +172,9 @@
                     "mime_type": "application/x-nar",
                     "title": "d2k.nar",
                     "size_in_bytes": 3171098,
-                    "_download_count": 25
+                    "_ex": {
+                        "download_count": 25
+                    }
                 }
             ]
         },
@@ -195,7 +205,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "desktop_tempter.nar",
                     "size_in_bytes": 441657,
-                    "_download_count": 2
+                    "_ex": {
+                        "download_count": 2
+                    }
                 }
             ]
         },
@@ -226,7 +238,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "desktop_tempter_casino_chip_blue.nar",
                     "size_in_bytes": 497848,
-                    "_download_count": 2
+                    "_ex": {
+                        "download_count": 2
+                    }
                 }
             ]
         },
@@ -257,7 +271,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "desktop_tempter_casino_chip_green.nar",
                     "size_in_bytes": 559082,
-                    "_download_count": 1
+                    "_ex": {
+                        "download_count": 1
+                    }
                 }
             ]
         },
@@ -288,7 +304,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "desktop_tempter_casino_chip_red.nar",
                     "size_in_bytes": 403274,
-                    "_download_count": 1
+                    "_ex": {
+                        "download_count": 1
+                    }
                 }
             ]
         },
@@ -319,7 +337,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "HamirLore.nar",
                     "size_in_bytes": 1491084,
-                    "_download_count": 189
+                    "_ex": {
+                        "download_count": 189
+                    }
                 }
             ]
         },
@@ -349,7 +369,9 @@
                     "mime_type": "application/zip",
                     "title": "omoideno.nar",
                     "size_in_bytes": 1086608,
-                    "_download_count": 38
+                    "_ex": {
+                        "download_count": 38
+                    }
                 }
             ]
         },
@@ -380,7 +402,9 @@
                     "mime_type": "application/x-nar",
                     "title": "oregayome.nar",
                     "size_in_bytes": 3074648,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         },
@@ -412,7 +436,9 @@
                     "mime_type": "application/x-nar",
                     "title": "bee.nar",
                     "size_in_bytes": 1237319,
-                    "_download_count": 4
+                    "_ex": {
+                        "download_count": 4
+                    }
                 }
             ]
         },
@@ -444,7 +470,9 @@
                     "mime_type": "application/x-nar",
                     "title": "ghostbook.nar",
                     "size_in_bytes": 466758,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         },
@@ -475,7 +503,9 @@
                     "mime_type": "application/x-zip-compressed",
                     "title": "bathane.zip",
                     "size_in_bytes": 2696528,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         },
@@ -507,7 +537,9 @@
                     "mime_type": "application/x-nar",
                     "title": "shellbook.nar",
                     "size_in_bytes": 2069822,
-                    "_download_count": 12
+                    "_ex": {
+                        "download_count": 12
+                    }
                 }
             ]
         },
@@ -542,7 +574,9 @@
                     "mime_type": "application/x-nar",
                     "title": "jong-chunchun.nar",
                     "size_in_bytes": 899478,
-                    "_download_count": 22
+                    "_ex": {
+                        "download_count": 22
+                    }
                 }
             ]
         },
@@ -577,7 +611,9 @@
                     "mime_type": "application/x-nar",
                     "title": "jong-whanwhan.nar",
                     "size_in_bytes": 792193,
-                    "_download_count": 24
+                    "_ex": {
+                        "download_count": 24
+                    }
                 }
             ]
         },
@@ -612,7 +648,9 @@
                     "mime_type": "application/x-nar",
                     "title": "jong-rinrin.nar",
                     "size_in_bytes": 1035939,
-                    "_download_count": 21
+                    "_ex": {
+                        "download_count": 21
+                    }
                 }
             ]
         },
@@ -645,7 +683,9 @@
                     "mime_type": "application/x-nar",
                     "title": "party-parrot.nar",
                     "size_in_bytes": 1173834,
-                    "_download_count": 20
+                    "_ex": {
+                        "download_count": 20
+                    }
                 }
             ]
         },
@@ -677,7 +717,9 @@
                     "mime_type": "application/x-nar",
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1368599,
-                    "_download_count": 16
+                    "_ex": {
+                        "download_count": 16
+                    }
                 }
             ]
         },
@@ -709,7 +751,9 @@
                     "mime_type": "application/x-nar",
                     "title": "crawler_uploader.nar",
                     "size_in_bytes": 658145,
-                    "_download_count": 36
+                    "_ex": {
+                        "download_count": 36
+                    }
                 }
             ]
         },
@@ -744,7 +788,9 @@
                     "mime_type": "application/x-nar",
                     "title": "jong-bari.nar",
                     "size_in_bytes": 1044498,
-                    "_download_count": 28
+                    "_ex": {
+                        "download_count": 28
+                    }
                 }
             ]
         },
@@ -777,7 +823,9 @@
                     "mime_type": "application/x-nar",
                     "title": "hakoirimusume.nar",
                     "size_in_bytes": 952496,
-                    "_download_count": 27
+                    "_ex": {
+                        "download_count": 27
+                    }
                 }
             ]
         },
@@ -810,7 +858,9 @@
                     "mime_type": "application/x-nar",
                     "title": "reshibainu.nar",
                     "size_in_bytes": 40903,
-                    "_download_count": 24
+                    "_ex": {
+                        "download_count": 24
+                    }
                 }
             ]
         }

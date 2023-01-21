@@ -31,7 +31,9 @@
                     "mime_type": "application/x-nar",
                     "title": "ukagaka-caramelldansen-patch.nar",
                     "size_in_bytes": 824559,
-                    "_download_count": 11
+                    "_ex": {
+                        "download_count": 11
+                    }
                 }
             ]
         }

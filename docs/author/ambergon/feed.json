@@ -32,7 +32,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "ukagakaPlugin_CeVIO-Talker.nar",
                     "size_in_bytes": 963855,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         },
@@ -63,7 +65,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "ukagakaPlugin_getWindowTitle.nar",
                     "size_in_bytes": 951624,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         },
@@ -94,7 +98,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "UkagakaPlugin_DBdiary.nar",
                     "size_in_bytes": 832334,
-                    "_download_count": 3
+                    "_ex": {
+                        "download_count": 3
+                    }
                 }
             ]
         }

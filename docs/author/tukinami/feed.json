@@ -32,7 +32,9 @@
                     "mime_type": "application/x-nar",
                     "title": "taidanaSanoSan.nar",
                     "size_in_bytes": 1513594,
-                    "_download_count": 22
+                    "_ex": {
+                        "download_count": 22
+                    }
                 }
             ]
         },
@@ -63,7 +65,9 @@
                     "mime_type": "application/x-nar",
                     "title": "talismanic_beast_pattern.nar",
                     "size_in_bytes": 1838846,
-                    "_download_count": 7
+                    "_ex": {
+                        "download_count": 7
+                    }
                 }
             ]
         }

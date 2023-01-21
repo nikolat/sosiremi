@@ -32,7 +32,9 @@
                     "mime_type": "application/octet-stream",
                     "title": "HamirLore.nar",
                     "size_in_bytes": 1491084,
-                    "_download_count": 189
+                    "_ex": {
+                        "download_count": 189
+                    }
                 }
             ]
         }

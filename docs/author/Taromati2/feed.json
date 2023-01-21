@@ -40,7 +40,9 @@
                     "mime_type": "application/zip",
                     "title": "full_data_pack.nar",
                     "size_in_bytes": 9138177,
-                    "_download_count": 11
+                    "_ex": {
+                        "download_count": 11
+                    }
                 }
             ]
         }

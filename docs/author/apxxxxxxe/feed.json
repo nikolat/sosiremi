@@ -31,7 +31,9 @@
                     "mime_type": "application/zip",
                     "title": "Bouyomi.nar",
                     "size_in_bytes": 2871212,
-                    "_download_count": 1
+                    "_ex": {
+                        "download_count": 1
+                    }
                 }
             ]
         },
@@ -61,7 +63,9 @@
                     "mime_type": "application/zip",
                     "title": "omoideno.nar",
                     "size_in_bytes": 1086608,
-                    "_download_count": 38
+                    "_ex": {
+                        "download_count": 38
+                    }
                 }
             ]
         }

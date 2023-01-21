@@ -32,7 +32,9 @@
                     "mime_type": "application/x-zip-compressed",
                     "title": "myalice2nd.zip",
                     "size_in_bytes": 1251871,
-                    "_download_count": 10
+                    "_ex": {
+                        "download_count": 10
+                    }
                 }
             ]
         },
@@ -63,7 +65,9 @@
                     "mime_type": "application/x-nar",
                     "title": "d2k.nar",
                     "size_in_bytes": 3171098,
-                    "_download_count": 25
+                    "_ex": {
+                        "download_count": 25
+                    }
                 }
             ]
         },
@@ -94,7 +98,9 @@
                     "mime_type": "application/x-nar",
                     "title": "oregayome.nar",
                     "size_in_bytes": 3074648,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         },
@@ -125,7 +131,9 @@
                     "mime_type": "application/x-zip-compressed",
                     "title": "bathane.zip",
                     "size_in_bytes": 2696528,
-                    "_download_count": 6
+                    "_ex": {
+                        "download_count": 6
+                    }
                 }
             ]
         }

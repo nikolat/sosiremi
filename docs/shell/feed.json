@@ -33,7 +33,9 @@
                     "mime_type": "application/x-nar",
                     "title": "near-future.nar",
                     "size_in_bytes": 406976,
-                    "_download_count": 7
+                    "_ex": {
+                        "download_count": 7
+                    }
                 }
             ]
         },
@@ -65,7 +67,9 @@
                     "mime_type": "application/x-nar",
                     "title": "cultural-festival.nar",
                     "size_in_bytes": 1387864,
-                    "_download_count": 21
+                    "_ex": {
+                        "download_count": 21
+                    }
                 }
             ]
         },
@@ -99,7 +103,9 @@
                     "mime_type": "application/x-nar",
                     "title": "jb-standard.nar",
                     "size_in_bytes": 562934,
-                    "_download_count": 11
+                    "_ex": {
+                        "download_count": 11
+                    }
                 }
             ]
         }
