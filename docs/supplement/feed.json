@@ -1,0 +1,39 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "supplement | 偽SoSiReMi",
+    "home_page_url": "https://nikolat.github.io/sosiremi/supplement/",
+    "feed_url": "https://nikolat.github.io/sosiremi/supplement/feed.json",
+    "description": "GitHubで公開されているNARファイルを一覧表示する",
+    "items": [
+        {
+            "id": "nikolat/ukagaka-caramelldansen-patch",
+            "url": "https://github.com/nikolat/ukagaka-caramelldansen-patch",
+            "title": "ukagaka-caramelldansen-patch",
+            "content_text": "",
+            "summary": "caramelldansen修正用supplement",
+            "date_published": "2022-05-30T10:25:08Z",
+            "date_modified": "2022-05-30T10:25:17Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka-supplement"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ukagaka-caramelldansen-patch/releases/download/v1.3/ukagaka-caramelldansen-patch.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "ukagaka-caramelldansen-patch.nar",
+                    "size_in_bytes": 824559,
+                    "_download_count": 11
+                }
+            ]
+        }
+    ]
+}

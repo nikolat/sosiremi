@@ -1,0 +1,107 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "shell | 偽SoSiReMi",
+    "home_page_url": "https://nikolat.github.io/sosiremi/shell/",
+    "feed_url": "https://nikolat.github.io/sosiremi/shell/feed.json",
+    "description": "GitHubで公開されているNARファイルを一覧表示する",
+    "items": [
+        {
+            "id": "nikolat/si-near-future",
+            "url": "https://github.com/nikolat/si-near-future",
+            "title": "si-near-future",
+            "content_text": "additional shell for simultaneous-interpreter\n\npowered by YAYA as MAKOTO\nhttps://emily.shillest.net/ayaya/index.php?YAYA+as+MAKOTO\n",
+            "summary": "additional shell for simultaneous-interpreter",
+            "date_published": "2022-12-04T11:20:10Z",
+            "date_modified": "2022-12-04T11:20:12Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell",
+                "yaya"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/si-near-future/releases/download/v1.0/near-future.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "near-future.nar",
+                    "size_in_bytes": 406976,
+                    "_download_count": 7
+                }
+            ]
+        },
+        {
+            "id": "nikolat/cultural-festival",
+            "url": "https://github.com/nikolat/cultural-festival",
+            "title": "cultural-festival",
+            "content_text": "\nゴースト「卓上誘技」用追加シェル「文化祭」\n\n「卓上誘技」配布元: いろいろ置いておく場所\nhttps://tatakinov.github.io/\n\n[ライセンス]\nCreative Commons - CC0 1.0 Universal\nhttp://creativecommons.org/publicdomain/zero/1.0/\n\n[使用素材]\nvector-playing-cards (public domain)\nhttps://code.google.com/archive/p/vector-playing-cards/\n\nambientCG (public domain)\nhttps://ambientcg.com/\nFabric 069\nhttps://ambientcg.com/view?id=Fabric069\nMetal 027\nhttps://ambientcg.com/view?id=Metal027\n\nJFドットAyuゴシック18 (public domain)\nhttp://jikasei.me/font/jf-dotfont/\n\nYAYA as MAKOTO (AYA Ver.5 license)\nhttps://emily.shillest.net/ayaya/?YAYA+as+MAKOTO\nyaya.dll (Dual-licensing: AYA Ver.5 license, BSD-3-Clause license)\nhttps://github.com/YAYA-shiori/yaya-shiori\n\n[使用ツール]\nERNIE-ViLG\nhttps://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG\n",
+            "summary": "ゴースト「卓上誘技」用追加シェル",
+            "date_published": "2022-11-09T11:29:22Z",
+            "date_modified": "2022-11-09T11:29:24Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell",
+                "yaya"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/cultural-festival/releases/download/v1.0.0/cultural-festival.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "cultural-festival.nar",
+                    "size_in_bytes": 1387864,
+                    "_download_count": 21
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jb-standard",
+            "url": "https://github.com/nikolat/jb-standard",
+            "title": "jb-standard",
+            "content_text": "\n■概要\n\n  ゴースト「雀々BARIBARI」用追加シェル「standard」\n\n  雀々BARIBARI\n    https://github.com/nikolat/jong-bari\n\n■ライセンス\n\n□以下のサイトで配布されている牌画像を加工して使用しております。\n\n  麻雀豆腐\n    https://majandofu.com/mahjong-images\n\n□画像内の文字に「Nishiki-teki」フォントを使用しております。\n\n  にしき的フォント - TYPVS LITTERARVM NISICIAE\n    https://umihotaru.work/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n  著作者人格権はDonに帰属します\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n\n",
+            "summary": "ゴースト「雀々BARIBARI」用追加シェル",
+            "date_published": "2022-05-14T11:15:52Z",
+            "date_modified": "2022-05-14T11:15:54Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jb-standard/releases/download/v1.0.5/jb-standard.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jb-standard.nar",
+                    "size_in_bytes": 562934,
+                    "_download_count": 11
+                }
+            ]
+        }
+    ]
+}
