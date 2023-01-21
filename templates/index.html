@@ -8,7 +8,8 @@
 <link rel="stylesheet" href="./media/css/common.css" media="screen and (min-width: 481px)" />
 <link rel="stylesheet" href="./media/css/smartphone.css" media="only screen and (max-width: 480px)" />
 <link rel="help" href="./about.html" />
-<link rel="alternate" type="application/rss+xml" href="./rss2.xml" />{% for item in entries %}
+<link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
+<link rel="alternate" type="application/feed+json" href="./feed.json" />{% for item in entries %}
 <link rel="alternate" type="{{ item.content_type }}" title="{{ item.title }}" href="{{ item.browser_download_url }}" />{% endfor %}
 </head>
 <body>

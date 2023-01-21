@@ -8,7 +8,7 @@
 <item>
     <title>{{ item.title }}</title>
     <link>{{ item.html_url }}</link>
-    <guid>{{ item.html_url }}</guid>
+    <guid>{{ item.id }}</guid>
     <pubDate>{{ item.updated_at_rss2 }}</pubDate>
 </item>{% endfor %}
 </channel>

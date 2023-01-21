@@ -7,11 +7,13 @@ import time
 import requests
 import yaml
 import abc
+import json
 from jinja2 import Environment, FileSystemLoader
 
 class GitHubApiCrawler(abc.ABC):
 
 	__CONFIG_FILENAME = 'config.yml'
+	_JSON_FEED_FILENAME = 'feed.json'
 
 	def __init__(self, user_agent='nikolat/GitHubApiCrawler'):
 		self._logger = self.__get_custom_logger()
@@ -88,11 +90,16 @@ class GitHubApiCrawler(abc.ABC):
 		self._authors = []
 		return self
 
+	@abc.abstractmethod
+	def _get_feed_dict(self):
+		return {}
+
 	def export(self):
 		config = self._config
 		entries = self._entries
 		categories = self._categories
 		authors = self._authors
+		filename_json = self._JSON_FEED_FILENAME
 		env = Environment(loader=FileSystemLoader('./templates', encoding='utf8'), autoescape=True)
 		# top page
 		data = {
@@ -104,12 +111,15 @@ class GitHubApiCrawler(abc.ABC):
 			rendered = template.render(data)
 			with open(f'docs/{filename}', 'w', encoding='utf-8') as f:
 				f.write(rendered + '\n')
+		with open(f'docs/{filename_json}', 'w', encoding='utf-8') as f:
+			json.dump(self._get_feed_dict(config['site_title'], config['self_url'], config['site_description'], entries), f, ensure_ascii=False, indent=4)
 		# category
 		for category in categories:
 			shutil.rmtree(f'docs/{category}/', ignore_errors=True)
 			os.mkdir(f'docs/{category}/')
+			target_entries = [e for e in entries if e['category'] == category]
 			data = {
-				'entries': [e for e in entries if e['category'] == category],
+				'entries': target_entries,
 				'config': config
 			}
 			for filename in ['index.html', 'rss2.xml']:
@@ -117,13 +127,16 @@ class GitHubApiCrawler(abc.ABC):
 				rendered = template.render(data)
 				with open(f'docs/{category}/{filename}', 'w', encoding='utf-8') as f:
 					f.write(rendered + '\n')
+			with open(f'docs/{category}/{filename_json}', 'w', encoding='utf-8') as f:
+				json.dump(self._get_feed_dict(f'{category} | {config["site_title"]}', f'{config["self_url"]}{category}/', config['site_description'], target_entries), f, ensure_ascii=False, indent=4)
 		# author
 		shutil.rmtree('docs/author/', ignore_errors=True)
 		os.mkdir('docs/author/')
 		for author in authors:
 			os.mkdir(f'docs/author/{author}/')
+			target_entries = [e for e in entries if e['author'] == author]
 			data = {
-				'entries': [e for e in entries if e['author'] == author],
+				'entries': target_entries,
 				'config': config
 			}
 			for filename in ['index.html', 'rss2.xml']:
@@ -131,6 +144,8 @@ class GitHubApiCrawler(abc.ABC):
 				rendered = template.render(data)
 				with open(f'docs/author/{author}/{filename}', 'w', encoding='utf-8') as f:
 					f.write(rendered + '\n')
+			with open(f'docs/author/{author}/{filename_json}', 'w', encoding='utf-8') as f:
+				json.dump(self._get_feed_dict(f'{author} | {config["site_title"]}', f'{config["self_url"]}author/{author}/', config['site_description'], target_entries), f, ensure_ascii=False, indent=4)
 		# sitemap
 		data = {
 			'categories': categories,

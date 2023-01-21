@@ -69,13 +69,18 @@ class GitHubNarStation(crawler.GitHubApiCrawler):
 						readme = response.text
 						logger.debug(f'README is found at {readme_url} in {item["full_name"]}')
 					else:
-						readme = 'readme.txt not found'
+						readme = None
 						logger.debug(f'README is not found in {item["full_name"]}')
 				entry = {
-					'id': item['full_name'].replace('/', '_'),
+					'id': item['full_name'],
 					'title': item['name'],
 					'category': category,
 					'author': item['owner']['login'],
+					'author_url': item['owner']['html_url'],
+					'author_avatar': item['owner']['avatar_url'],
+					'content_text': readme if readme is not None else '',
+					'summary': item['description'] if item['description'] is not None else '',
+					'tags': item['topics'],
 					'html_url': item['html_url'],
 					'content_type': asset['content_type'],
 					'created_at_time': asset['created_at'],
@@ -83,11 +88,13 @@ class GitHubNarStation(crawler.GitHubApiCrawler):
 					'updated_at_time': asset['updated_at'],
 					'updated_at_str': dt_updated.strftime('%Y-%m-%d %H:%M:%S'),
 					'updated_at_rss2': dt_updated.strftime('%a, %d %b %Y %H:%M:%S %z'),
+					'attachments_title': asset['name'],
 					'browser_download_url': asset['browser_download_url'],
 					'install_uri': 'x-ukagaka-link:type=install&url=' + urllib.parse.quote_plus(asset['browser_download_url']),
 					'filesize': Decimal(asset['size'] / 1024).quantize(Decimal('0.1')),
+					'size_in_bytes': asset['size'],
 					'download_count': asset['download_count'],
-					'readme': readme
+					'readme': readme if readme is not None else 'readme.txt not found',
 				}
 				entries.append(entry)
 				if category not in categories:
@@ -98,6 +105,43 @@ class GitHubNarStation(crawler.GitHubApiCrawler):
 		self._categories = categories
 		self._authors = authors
 		return self
+
+	def _get_feed_dict(self, title, base_url, description, entries):
+		return {
+			'version': 'https://jsonfeed.org/version/1.1',
+			'title': title,
+			'home_page_url': base_url,
+			'feed_url': f'{base_url}{self._JSON_FEED_FILENAME}',
+			'description': description,
+			'items': [
+				{
+					'id': e['id'],
+					'url': e['html_url'],
+					'title': e['title'],
+					'content_text': e['content_text'],
+					'summary': e['summary'],
+					'date_published': e['created_at_time'],
+					'date_modified': e['updated_at_time'],
+					'authors': [
+						{
+							'name': e['author'],
+							'url': e['author_url'],
+							'avatar': e['author_avatar']
+						}
+					],
+					'tags': e['tags'],
+					'attachments': [
+						{
+							'url': e['browser_download_url'],
+							'mime_type': e['content_type'],
+							'title': e['attachments_title'],
+							'size_in_bytes': e['size_in_bytes'],
+							'_download_count': e['download_count']
+						}
+					]
+				}
+			for e in entries]
+		}
 
 if __name__ == '__main__':
 	g = GitHubNarStation()
