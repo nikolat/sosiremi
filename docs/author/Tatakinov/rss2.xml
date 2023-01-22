@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>Tatakinov | 偽SoSiReMi</title>
 <link>https://nikolat.github.io/sosiremi/author/Tatakinov/</link>
@@ -8,31 +8,46 @@
 <item>
     <title>banjou_no_sumikko_de</title>
     <link>https://github.com/Tatakinov/banjou_no_sumikko_de</link>
-    <guid>Tatakinov/banjou_no_sumikko_de</guid>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/banjou_no_sumikko_de</guid>
     <pubDate>Sun, 08 Jan 2023 22:11:28 +0900</pubDate>
 </item>
 <item>
     <title>desktop_tempter</title>
     <link>https://github.com/Tatakinov/desktop_tempter</link>
-    <guid>Tatakinov/desktop_tempter</guid>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/desktop_tempter</guid>
     <pubDate>Sat, 07 Jan 2023 14:42:08 +0900</pubDate>
 </item>
 <item>
     <title>desktop_tempter_casino_chip_blue</title>
     <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_blue</link>
-    <guid>Tatakinov/desktop_tempter_casino_chip_blue</guid>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_blue</guid>
     <pubDate>Sat, 07 Jan 2023 14:38:50 +0900</pubDate>
 </item>
 <item>
     <title>desktop_tempter_casino_chip_green</title>
     <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_green</link>
-    <guid>Tatakinov/desktop_tempter_casino_chip_green</guid>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_green</guid>
     <pubDate>Sat, 07 Jan 2023 14:29:01 +0900</pubDate>
 </item>
 <item>
     <title>desktop_tempter_casino_chip_red</title>
     <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_red</link>
-    <guid>Tatakinov/desktop_tempter_casino_chip_red</guid>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_red</guid>
     <pubDate>Sat, 07 Jan 2023 14:26:58 +0900</pubDate>
 </item>
 </channel>

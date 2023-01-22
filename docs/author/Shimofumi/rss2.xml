@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>Shimofumi | 偽SoSiReMi</title>
 <link>https://nikolat.github.io/sosiremi/author/Shimofumi/</link>
@@ -8,7 +8,10 @@
 <item>
     <title>HamirLore</title>
     <link>https://github.com/Shimofumi/HamirLore</link>
-    <guid>Shimofumi/HamirLore</guid>
+    <description>Ukagaka ghost HamirLore</description>
+    <category>ghost</category>
+    <dc:creator>Shimofumi</dc:creator>
+    <guid isPermaLink="false">Shimofumi/HamirLore</guid>
     <pubDate>Thu, 29 Dec 2022 22:19:11 +0900</pubDate>
 </item>
 </channel>

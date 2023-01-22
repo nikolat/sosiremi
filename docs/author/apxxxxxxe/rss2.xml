@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>apxxxxxxe | 偽SoSiReMi</title>
 <link>https://nikolat.github.io/sosiremi/author/apxxxxxxe/</link>
@@ -8,13 +8,19 @@
 <item>
     <title>Bouyomi</title>
     <link>https://github.com/apxxxxxxe/Bouyomi</link>
-    <guid>apxxxxxxe/Bouyomi</guid>
+    <description>伺かプラグイン</description>
+    <category>plugin</category>
+    <dc:creator>apxxxxxxe</dc:creator>
+    <guid isPermaLink="false">apxxxxxxe/Bouyomi</guid>
     <pubDate>Thu, 19 Jan 2023 00:53:11 +0900</pubDate>
 </item>
 <item>
     <title>Youto</title>
     <link>https://github.com/apxxxxxxe/Youto</link>
-    <guid>apxxxxxxe/Youto</guid>
+    <description>伺かゴースト</description>
+    <category>ghost</category>
+    <dc:creator>apxxxxxxe</dc:creator>
+    <guid isPermaLink="false">apxxxxxxe/Youto</guid>
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
 </item>
 </channel>

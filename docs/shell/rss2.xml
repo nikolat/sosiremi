@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>shell | 偽SoSiReMi</title>
 <link>https://nikolat.github.io/sosiremi/shell/</link>
@@ -8,19 +8,28 @@
 <item>
     <title>si-near-future</title>
     <link>https://github.com/nikolat/si-near-future</link>
-    <guid>nikolat/si-near-future</guid>
+    <description>additional shell for simultaneous-interpreter</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/si-near-future</guid>
     <pubDate>Sun, 04 Dec 2022 20:20:12 +0900</pubDate>
 </item>
 <item>
     <title>cultural-festival</title>
     <link>https://github.com/nikolat/cultural-festival</link>
-    <guid>nikolat/cultural-festival</guid>
+    <description>ゴースト「卓上誘技」用追加シェル</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/cultural-festival</guid>
     <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
 </item>
 <item>
     <title>jb-standard</title>
     <link>https://github.com/nikolat/jb-standard</link>
-    <guid>nikolat/jb-standard</guid>
+    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jb-standard</guid>
     <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
 </item>
 </channel>

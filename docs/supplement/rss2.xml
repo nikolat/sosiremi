@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>supplement | 偽SoSiReMi</title>
 <link>https://nikolat.github.io/sosiremi/supplement/</link>
@@ -8,7 +8,10 @@
 <item>
     <title>ukagaka-caramelldansen-patch</title>
     <link>https://github.com/nikolat/ukagaka-caramelldansen-patch</link>
-    <guid>nikolat/ukagaka-caramelldansen-patch</guid>
+    <description>caramelldansen修正用supplement</description>
+    <category>supplement</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukagaka-caramelldansen-patch</guid>
     <pubDate>Mon, 30 May 2022 19:25:17 +0900</pubDate>
 </item>
 </channel>

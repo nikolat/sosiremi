@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>etwaslangsam | 偽SoSiReMi</title>
 <link>https://nikolat.github.io/sosiremi/author/etwaslangsam/</link>
@@ -8,25 +8,37 @@
 <item>
     <title>myalice2</title>
     <link>https://github.com/etwaslangsam/myalice2</link>
-    <guid>etwaslangsam/myalice2</guid>
+    <description>ゴースト「僕のアリス2」</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
     <pubDate>Sat, 14 Jan 2023 22:54:55 +0900</pubDate>
 </item>
 <item>
     <title>d2k</title>
     <link>https://github.com/etwaslangsam/d2k</link>
-    <guid>etwaslangsam/d2k</guid>
+    <description>芹那と妃音with玄恵</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/d2k</guid>
     <pubDate>Sun, 08 Jan 2023 22:07:21 +0900</pubDate>
 </item>
 <item>
     <title>Gertrude</title>
     <link>https://github.com/etwaslangsam/Gertrude</link>
-    <guid>etwaslangsam/Gertrude</guid>
+    <description>俺が嫁</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/Gertrude</guid>
     <pubDate>Sun, 01 Jan 2023 21:30:43 +0900</pubDate>
 </item>
 <item>
     <title>bath_ane</title>
     <link>https://github.com/etwaslangsam/bath_ane</link>
-    <guid>etwaslangsam/bath_ane</guid>
+    <description>風呂上がりの姉貴</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/bath_ane</guid>
     <pubDate>Fri, 16 Dec 2022 22:19:28 +0900</pubDate>
 </item>
 </channel>
