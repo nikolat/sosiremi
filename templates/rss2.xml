@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
 <title>{{ config.site_title }}</title>
 <link>{{ config.self_url }}</link>
@@ -8,7 +8,10 @@
 <item>
     <title>{{ item.title }}</title>
     <link>{{ item.html_url }}</link>
-    <guid>{{ item.id }}</guid>
+    <description>{{ item.summary }}</description>
+    <category>{{ item.category }}</category>
+    <dc:creator>{{ item.author }}</dc:creator>
+    <guid isPermaLink="false">{{ item.id }}</guid>
     <pubDate>{{ item.updated_at_rss2 }}</pubDate>
 </item>{% endfor %}
 </channel>
