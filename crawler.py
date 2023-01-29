@@ -73,13 +73,13 @@ class GitHubApiCrawler(abc.ABC):
 		responses = []
 		response = self._request_with_retry(url, payload)
 		responses.append(response)
-		pattern = re.compile(r'<(.+?)>; rel="next"')
-		result = pattern.search(response.headers['link']) if 'link' in response.headers else None
-		while result:
-			url = result.group(1)
+		pattern = re.compile(r'<(.+?)>; rel="(\w+?)"')
+		links = {m.group(2): m.group(1) for m in pattern.finditer(response.headers['link'] if 'link' in response.headers else '')}
+		while 'next' in links:
+			url = links['next']
 			response = self._request_with_retry(url, None)
 			responses.append(response)
-			result = pattern.search(response.headers['link']) if 'link' in response.headers else None
+			links = {m.group(2): m.group(1) for m in pattern.finditer(response.headers['link'] if 'link' in response.headers else '')}
 		self._responses = responses
 		return self
 
