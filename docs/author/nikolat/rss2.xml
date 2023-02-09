@@ -69,15 +69,6 @@
     <pubDate>Sat, 12 Nov 2022 20:37:09 +0900</pubDate>
 </item>
 <item>
-    <title>jong-rinrin</title>
-    <link>https://github.com/nikolat/jong-rinrin</link>
-    <description>麻雀クライアントゴースト</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jong-rinrin</guid>
-    <pubDate>Sat, 12 Nov 2022 20:34:32 +0900</pubDate>
-</item>
-<item>
     <title>si-near-future</title>
     <link>https://github.com/nikolat/si-near-future</link>
     <description>additional shell for simultaneous-interpreter</description>
@@ -141,6 +132,42 @@
     <pubDate>Wed, 27 Apr 2022 18:51:06 +0900</pubDate>
 </item>
 <item>
+    <title>reshibainu</title>
+    <link>https://github.com/nikolat/reshibainu</link>
+    <description>「里々」ログビューア「れしば.NET」のゴースト版</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/reshibainu</guid>
+    <pubDate>Wed, 27 Apr 2022 18:49:51 +0900</pubDate>
+</item>
+<item>
+    <title>crawler_uploader</title>
+    <link>https://github.com/nikolat/crawler_uploader</link>
+    <description>UKAGAKA Ghost</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/crawler_uploader</guid>
+    <pubDate>Fri, 29 Apr 2022 10:21:32 +0900</pubDate>
+</item>
+<item>
+    <title>jong-bari</title>
+    <link>https://github.com/nikolat/jong-bari</link>
+    <description>麻雀サーバーゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jong-bari</guid>
+    <pubDate>Wed, 27 Apr 2022 18:50:12 +0900</pubDate>
+</item>
+<item>
+    <title>ukagaka-hakoirimusume</title>
+    <link>https://github.com/nikolat/ukagaka-hakoirimusume</link>
+    <description>Klotski for UKAGAKA</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukagaka-hakoirimusume</guid>
+    <pubDate>Wed, 27 Apr 2022 18:51:06 +0900</pubDate>
+</item>
+<item>
     <title>ukaten</title>
     <link>https://github.com/nikolat/ukaten</link>
     <description>伺か天気予報プラグイン</description>
@@ -175,15 +202,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/jb-standard</guid>
     <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
-</item>
-<item>
-    <title>CharameLNetwork</title>
-    <link>https://github.com/nikolat/CharameLNetwork</link>
-    <description>CharameLをSNS風に見せる何か</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
-    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
 </item>
 <item>
     <title>balloonselector</title>
