@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "etwaslangsam/myalice2",
+            "url": "https://github.com/etwaslangsam/myalice2",
+            "title": "myalice2",
+            "content_text": "==================================================\n\n\t僕のアリス2nd\t概要\n\n==================================================\n■注意\n このゴーストには18歳未満は使用禁止です。\n このゴーストを利用して如何なる不利益があっても当方は責任を負いません。\n\n==================================================\n■登場人物\n\n\\0アリス（通称：白アリス）\n\n フルネームはアリス・ヴァロ・高千穂\n 街中で出会ったハーフの少女。 母親がフィンランド人\n\n\\1ありす（通称：黒ありす）\n\n 貴方の義妹である少女、以前の経歴は不明\n 一緒に暮らす対価として自分の体を差し出した\n\n==================================================\n■内容\n このゴーストは「僕のアリス」と「僕のアリス2nd」\n という二部構成になっています。\n \n■僕のアリス\n 白アリスとの出会い、 黒ありすの登場\n 二人との関係を深めていく\n\n 起動数回で「僕のアリス2nd」へ移行可能\n \n■僕のアリス2nd\n 白アリスと黒ありすの出会い、二人の他愛もない会話\n 白アリスと更に関係を深めていく\n\n■操作\ncキーでコミュニケート（2nd）\nsキーでスキンシップ（2nd）\n\n==================================================\n■クレジット\n【動作環境】\t最新のWindowsおよびSSP\n【製作者】\tてにてに\n【配布元】\tほっとぺっぱぁ団（https://hotpepar.blogspot.com/）\n【連絡先】\t連絡フォーム（https://goo.gl/forms/EjYcD6PhA14dl9Nv2）\n\n==================================================\n■謝辞\n 蟻の住む木様作フリーシェル『アリスA』『アリスB』を使用させていただいてます。\n 一部にうみほたる様作フォント『にしき的』を使用させていただいでます。\n この場を借りて感謝を申し上げます。\n\n",
+            "summary": "ゴースト「僕のアリス2」",
+            "date_published": "2023-02-11T01:55:15Z",
+            "date_modified": "2023-02-11T01:55:18Z",
+            "authors": [
+                {
+                    "name": "etwaslangsam",
+                    "url": "https://github.com/etwaslangsam",
+                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/etwaslangsam/myalice2/releases/download/v4.62/myalice2nd.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "myalice2nd.zip",
+                    "size_in_bytes": 1261156,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "tukinami/taidanaSanoSan",
             "url": "https://github.com/tukinami/taidanaSanoSan",
             "title": "taidanaSanoSan",
@@ -344,39 +377,6 @@
                     "size_in_bytes": 1792468,
                     "_ex": {
                         "download_count": 12
-                    }
-                }
-            ]
-        },
-        {
-            "id": "etwaslangsam/myalice2",
-            "url": "https://github.com/etwaslangsam/myalice2",
-            "title": "myalice2",
-            "content_text": "==================================================\n\n\t僕のアリス2nd\t概要\n\n==================================================\n■注意\n このゴーストには18歳未満は使用禁止です。\n このゴーストを利用して如何なる不利益があっても当方は責任を負いません。\n\n==================================================\n■登場人物\n\n\\0アリス（通称：白アリス）\n\n フルネームはアリス・ヴァロ・高千穂\n 街中で出会ったハーフの少女。 母親がフィンランド人\n\n\\1ありす（通称：黒ありす）\n\n 貴方の義妹である少女、以前の経歴は不明\n 一緒に暮らす対価として自分の体を差し出した\n\n==================================================\n■内容\n このゴーストは「僕のアリス」と「僕のアリス2nd」\n という二部構成になっています。\n \n■僕のアリス\n 白アリスとの出会い、 黒ありすの登場\n 二人との関係を深めていく\n\n 起動数回で「僕のアリス2nd」へ移行可能\n \n■僕のアリス2nd\n 白アリスと黒ありすの出会い、二人の他愛もない会話\n 白アリスと更に関係を深めていく\n\n■操作\ncキーでコミュニケート（2nd）\nsキーでスキンシップ（2nd）\n\n==================================================\n■クレジット\n【動作環境】\t最新のWindowsおよびSSP\n【製作者】\tてにてに\n【配布元】\tほっとぺっぱぁ団（https://hotpepar.blogspot.com/）\n【連絡先】\t連絡フォーム（https://goo.gl/forms/EjYcD6PhA14dl9Nv2）\n\n==================================================\n■謝辞\n 蟻の住む木様作フリーシェル『アリスA』『アリスB』を使用させていただいてます。\n 一部にうみほたる様作フォント『にしき的』を使用させていただいでます。\n この場を借りて感謝を申し上げます。\n\n",
-            "summary": "ゴースト「僕のアリス2」",
-            "date_published": "2023-01-14T13:54:52Z",
-            "date_modified": "2023-01-14T13:54:55Z",
-            "authors": [
-                {
-                    "name": "etwaslangsam",
-                    "url": "https://github.com/etwaslangsam",
-                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/etwaslangsam/myalice2/releases/download/%EF%BD%964.54/myalice2nd.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "myalice2nd.zip",
-                    "size_in_bytes": 1251871,
-                    "_ex": {
-                        "download_count": 16
                     }
                 }
             ]

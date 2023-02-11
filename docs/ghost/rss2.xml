@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/ghost/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>myalice2</title>
+    <link>https://github.com/etwaslangsam/myalice2</link>
+    <description>ゴースト「僕のアリス2」</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
+    <pubDate>Sat, 11 Feb 2023 10:55:18 +0900</pubDate>
+</item>
+<item>
     <title>taidanaSanoSan</title>
     <link>https://github.com/tukinami/taidanaSanoSan</link>
     <description>伺か雑談系ゴースト</description>
@@ -49,15 +58,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ghostbook</guid>
     <pubDate>Mon, 02 Jan 2023 10:39:19 +0900</pubDate>
-</item>
-<item>
-    <title>myalice2</title>
-    <link>https://github.com/etwaslangsam/myalice2</link>
-    <description>ゴースト「僕のアリス2」</description>
-    <category>ghost</category>
-    <dc:creator>etwaslangsam</dc:creator>
-    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
-    <pubDate>Sat, 14 Jan 2023 22:54:55 +0900</pubDate>
 </item>
 <item>
     <title>d2k</title>
