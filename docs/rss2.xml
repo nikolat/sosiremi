@@ -311,59 +311,5 @@
     <guid isPermaLink="false">nikolat/ukaten</guid>
     <pubDate>Wed, 27 Apr 2022 18:50:49 +0900</pubDate>
 </item>
-<item>
-    <title>reshibainu</title>
-    <link>https://github.com/nikolat/reshibainu</link>
-    <description>「里々」ログビューア「れしば.NET」のゴースト版</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/reshibainu</guid>
-    <pubDate>Wed, 27 Apr 2022 18:49:51 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard-balloon</title>
-    <link>https://github.com/nikolat/jb-standard-balloon</link>
-    <description>ゴースト「雀々BARIBARI」用バルーン</description>
-    <category>balloon</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
-    <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard</title>
-    <link>https://github.com/nikolat/jb-standard</link>
-    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard</guid>
-    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
-</item>
-<item>
-    <title>CharameLNetwork</title>
-    <link>https://github.com/nikolat/CharameLNetwork</link>
-    <description>CharameLをSNS風に見せる何か</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
-    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
-</item>
-<item>
-    <title>balloonselector</title>
-    <link>https://github.com/nikolat/balloonselector</link>
-    <description>バルーン選択支援プラグイン</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/balloonselector</guid>
-    <pubDate>Sun, 10 Jul 2022 19:55:18 +0900</pubDate>
-</item>
-<item>
-    <title>ukagaka-caramelldansen-patch</title>
-    <link>https://github.com/nikolat/ukagaka-caramelldansen-patch</link>
-    <description>caramelldansen修正用supplement</description>
-    <category>supplement</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-caramelldansen-patch</guid>
-    <pubDate>Mon, 30 May 2022 19:25:17 +0900</pubDate>
-</item>
 </channel>
 </rss>
