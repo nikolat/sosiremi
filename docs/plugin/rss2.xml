@@ -68,5 +68,23 @@
     <guid isPermaLink="false">nikolat/ukaten</guid>
     <pubDate>Wed, 27 Apr 2022 18:50:49 +0900</pubDate>
 </item>
+<item>
+    <title>CharameLNetwork</title>
+    <link>https://github.com/nikolat/CharameLNetwork</link>
+    <description>CharameLをSNS風に見せる何か</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
+    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
+</item>
+<item>
+    <title>balloonselector</title>
+    <link>https://github.com/nikolat/balloonselector</link>
+    <description>バルーン選択支援プラグイン</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/balloonselector</guid>
+    <pubDate>Sun, 10 Jul 2022 19:55:18 +0900</pubDate>
+</item>
 </channel>
 </rss>

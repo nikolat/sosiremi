@@ -9,7 +9,7 @@
             "id": "ambergon/ukagakaPlugin_CeVIO-Talker",
             "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker",
             "title": "ukagakaPlugin_CeVIO-Talker",
-            "content_text": "500: Internal Server Error",
+            "content_text": "# CeVIO-Talker\nこのプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。\n\n\n[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)\n\n\n## お借りしたもの\nyaya.dll\n[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)\n\nproxy_ex.dll\n[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。\n\n\n## Author\n[ambergon](https://twitter.com/Sc_lFoxGon)\n\n\n\n\n",
             "summary": "伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。",
             "date_published": "2023-01-27T12:01:52Z",
             "date_modified": "2023-01-27T12:01:54Z",
