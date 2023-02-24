@@ -105,15 +105,6 @@
     <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
 </item>
 <item>
-    <title>ukagaka-simultaneous-interpreter</title>
-    <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
-    <description>Simultaneous Interpreter Ghost</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-simultaneous-interpreter</guid>
-    <pubDate>Mon, 31 Oct 2022 20:10:27 +0900</pubDate>
-</item>
-<item>
     <title>crawler_uploader</title>
     <link>https://github.com/nikolat/crawler_uploader</link>
     <description>UKAGAKA Ghost</description>
@@ -157,15 +148,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/reshibainu</guid>
     <pubDate>Wed, 27 Apr 2022 18:49:51 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard-balloon</title>
-    <link>https://github.com/nikolat/jb-standard-balloon</link>
-    <description>ゴースト「雀々BARIBARI」用バルーン</description>
-    <category>balloon</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
-    <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
 </item>
 <item>
     <title>jb-standard</title>

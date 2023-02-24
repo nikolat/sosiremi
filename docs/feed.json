@@ -992,40 +992,6 @@
             ]
         },
         {
-            "id": "nikolat/ukagaka-simultaneous-interpreter",
-            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
-            "title": "ukagaka-simultaneous-interpreter",
-            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
-            "summary": "Simultaneous Interpreter Ghost",
-            "date_published": "2022-10-31T10:35:16Z",
-            "date_modified": "2022-10-31T11:10:27Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.0/simultaneous-interpreter.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "simultaneous-interpreter.nar",
-                    "size_in_bytes": 1368599,
-                    "_ex": {
-                        "download_count": 27
-                    }
-                }
-            ]
-        },
-        {
             "id": "nikolat/crawler_uploader",
             "url": "https://github.com/nikolat/crawler_uploader",
             "title": "crawler_uploader",
@@ -1197,42 +1163,6 @@
                     "size_in_bytes": 40903,
                     "_ex": {
                         "download_count": 24
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/jb-standard-balloon",
-            "url": "https://github.com/nikolat/jb-standard-balloon",
-            "title": "jb-standard-balloon",
-            "content_text": "\n■概要\n\n  ゴースト「雀々BARIBARI」用バルーン「雀卓用透明バルーン」\n\n  雀々BARIBARI\n    https://github.com/nikolat/jong-bari\n\n  追加シェル「standard」と一緒に使うことを想定しています。\n\n  jb-standard\n    https://github.com/nikolat/jb-standard\n\n  フォントに「Nishiki-teki」フォントを指定しています。\n  以下のサイトよりインストールしてお使いください。\n\n  にしき的フォント - TYPVS LITTERARVM NISICIAE\n    https://umihotaru.work/\n\n■ライセンス\n\n□画像内の文字に「Nishiki-teki」フォントを使用しております。\n\n  にしき的フォント - TYPVS LITTERARVM NISICIAE\n    https://umihotaru.work/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n  著作者人格権はDonに帰属します\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n\n",
-            "summary": "ゴースト「雀々BARIBARI」用バルーン",
-            "date_published": "2021-08-14T00:56:35Z",
-            "date_modified": "2022-04-27T09:51:42Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "japanese-mahjong",
-                "mahjong",
-                "riichi-mahjong",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-balloon"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/jb-standard-balloon/releases/download/v1.0.0/jb-standard-balloon.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "jb-standard-balloon.nar",
-                    "size_in_bytes": 20272,
-                    "_ex": {
-                        "download_count": 50
                     }
                 }
             ]
