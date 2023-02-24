@@ -186,6 +186,15 @@
     <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
 </item>
 <item>
+    <title>ukagaka-simultaneous-interpreter</title>
+    <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
+    <description>Simultaneous Interpreter Ghost</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukagaka-simultaneous-interpreter</guid>
+    <pubDate>Mon, 31 Oct 2022 20:10:27 +0900</pubDate>
+</item>
+<item>
     <title>crawler_uploader</title>
     <link>https://github.com/nikolat/crawler_uploader</link>
     <description>UKAGAKA Ghost</description>
