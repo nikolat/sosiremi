@@ -6,6 +6,47 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "Taromati2/Taromati2",
+            "url": "https://github.com/Taromati2/Taromati2",
+            "title": "Taromati2",
+            "content_text": "This ghost only supports Chinese at the moment, feel free to visit the following URL to participate in the translation\nこのゴーストは現在、中国語のみ対応しています。以下のURLにアクセスし、翻訳に参加してください。\n这个ghost目前只支持中文，欢迎访问以下网址来参与翻译\nhttps://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md\n\n原作：http://unvollendet.web.fc2.com/\n详细信息：https://github.com/Taromati2/Taromati2\n免责声明：https://github.com/Taromati2/Taromati2#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\n贡献者名单：https://github.com/Taromati2/Taromati2/blob/master/docs/CONTRIBUTORS.md\n\n\n",
+            "summary": "黑色的猫咪 银发的少女 没有结局的故事",
+            "date_published": "2023-02-07T18:01:25Z",
+            "date_modified": "2023-02-07T18:01:26Z",
+            "authors": [
+                {
+                    "name": "Taromati2",
+                    "url": "https://github.com/Taromati2",
+                    "avatar": "https://avatars.githubusercontent.com/u/79416721?v=4"
+                }
+            ],
+            "tags": [
+                "a-topic",
+                "aya",
+                "ghost",
+                "kikka",
+                "nar",
+                "sakurascript",
+                "sirefaso",
+                "sosiremi",
+                "taromati",
+                "taromati2",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Taromati2/package-factory/releases/download/4116814638/full_data_pack.nar",
+                    "mime_type": "application/zip",
+                    "title": "full_data_pack.nar",
+                    "size_in_bytes": 9138177,
+                    "_ex": {
+                        "download_count": 13
+                    }
+                }
+            ]
+        },
+        {
             "id": "Shimofumi/HamirLore",
             "url": "https://github.com/Shimofumi/HamirLore",
             "title": "HamirLore",
@@ -197,47 +238,6 @@
                     "size_in_bytes": 6446304,
                     "_ex": {
                         "download_count": 12
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Taromati2/Taromati2",
-            "url": "https://github.com/Taromati2/Taromati2",
-            "title": "Taromati2",
-            "content_text": "This ghost only supports Chinese at the moment, feel free to visit the following URL to participate in the translation\nこのゴーストは現在、中国語のみ対応しています。以下のURLにアクセスし、翻訳に参加してください。\n这个ghost目前只支持中文，欢迎访问以下网址来参与翻译\nhttps://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md\n\n原作：http://unvollendet.web.fc2.com/\n详细信息：https://github.com/Taromati2/Taromati2\n免责声明：https://github.com/Taromati2/Taromati2#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\n贡献者名单：https://github.com/Taromati2/Taromati2/blob/master/docs/CONTRIBUTORS.md\n\n\n",
-            "summary": "黑色的猫咪 银发的少女 没有结局的故事",
-            "date_published": "2023-02-07T18:01:25Z",
-            "date_modified": "2023-02-07T18:01:26Z",
-            "authors": [
-                {
-                    "name": "Taromati2",
-                    "url": "https://github.com/Taromati2",
-                    "avatar": "https://avatars.githubusercontent.com/u/79416721?v=4"
-                }
-            ],
-            "tags": [
-                "a-topic",
-                "aya",
-                "ghost",
-                "kikka",
-                "nar",
-                "sakurascript",
-                "sirefaso",
-                "sosiremi",
-                "taromati",
-                "taromati2",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Taromati2/package-factory/releases/download/4116814638/full_data_pack.nar",
-                    "mime_type": "application/zip",
-                    "title": "full_data_pack.nar",
-                    "size_in_bytes": 9138177,
-                    "_ex": {
-                        "download_count": 13
                     }
                 }
             ]
