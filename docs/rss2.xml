@@ -78,6 +78,15 @@
     <pubDate>Sun, 08 Jan 2023 22:11:28 +0900</pubDate>
 </item>
 <item>
+    <title>ukagakaPlugin_CeVIO-Talker</title>
+    <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</link>
+    <description>伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。</description>
+    <category>plugin</category>
+    <dc:creator>ambergon</dc:creator>
+    <guid isPermaLink="false">ambergon/ukagakaPlugin_CeVIO-Talker</guid>
+    <pubDate>Fri, 27 Jan 2023 21:01:54 +0900</pubDate>
+</item>
+<item>
     <title>talismanic_beast_pattern</title>
     <link>https://github.com/tukinami/talismanic_beast_pattern</link>
     <description>伺か用バルーン「魔除けの獣面紋」</description>
@@ -112,15 +121,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
     <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
-</item>
-<item>
-    <title>ukagakaPlugin_CeVIO-Talker</title>
-    <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</link>
-    <description>伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。</description>
-    <category>plugin</category>
-    <dc:creator>ambergon</dc:creator>
-    <guid isPermaLink="false">ambergon/ukagakaPlugin_CeVIO-Talker</guid>
-    <pubDate>Fri, 27 Jan 2023 21:01:54 +0900</pubDate>
 </item>
 <item>
     <title>ukadonyu</title>

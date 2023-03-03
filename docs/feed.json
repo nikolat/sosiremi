@@ -277,6 +277,39 @@
             ]
         },
         {
+            "id": "ambergon/ukagakaPlugin_CeVIO-Talker",
+            "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker",
+            "title": "ukagakaPlugin_CeVIO-Talker",
+            "content_text": "# CeVIO-Talker\nこのプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。\n\n\n[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)\n\n\n## お借りしたもの\nyaya.dll\n[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)\n\nproxy_ex.dll\n[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。\n\n\n## Author\n[ambergon](https://twitter.com/Sc_lFoxGon)\n\n\n\n\n",
+            "summary": "伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。",
+            "date_published": "2023-01-27T12:01:52Z",
+            "date_modified": "2023-01-27T12:01:54Z",
+            "authors": [
+                {
+                    "name": "ambergon",
+                    "url": "https://github.com/ambergon",
+                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker/releases/download/version1.0.7/ukagakaPlugin_CeVIO-Talker.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ukagakaPlugin_CeVIO-Talker.nar",
+                    "size_in_bytes": 460161,
+                    "_ex": {
+                        "download_count": 16
+                    }
+                }
+            ]
+        },
+        {
             "id": "tukinami/talismanic_beast_pattern",
             "url": "https://github.com/tukinami/talismanic_beast_pattern",
             "title": "talismanic_beast_pattern",
@@ -408,39 +441,6 @@
                     "size_in_bytes": 1383936,
                     "_ex": {
                         "download_count": 7
-                    }
-                }
-            ]
-        },
-        {
-            "id": "ambergon/ukagakaPlugin_CeVIO-Talker",
-            "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker",
-            "title": "ukagakaPlugin_CeVIO-Talker",
-            "content_text": "# CeVIO-Talker\nこのプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。\n\n\n[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)\n\n\n## お借りしたもの\nyaya.dll\n[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)\n\nproxy_ex.dll\n[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。\n\n\n## Author\n[ambergon](https://twitter.com/Sc_lFoxGon)\n\n\n\n\n",
-            "summary": "伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。",
-            "date_published": "2023-01-27T12:01:52Z",
-            "date_modified": "2023-01-27T12:01:54Z",
-            "authors": [
-                {
-                    "name": "ambergon",
-                    "url": "https://github.com/ambergon",
-                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-plugin"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker/releases/download/version1.0.7/ukagakaPlugin_CeVIO-Talker.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "ukagakaPlugin_CeVIO-Talker.nar",
-                    "size_in_bytes": 460161,
-                    "_ex": {
-                        "download_count": 16
                     }
                 }
             ]
