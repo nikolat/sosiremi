@@ -6,8 +6,8 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "apxxxxxxe/Bouyomi",
-            "url": "https://github.com/apxxxxxxe/Bouyomi",
+            "id": "qitoso/Bouyomi",
+            "url": "https://github.com/qitoso/Bouyomi",
             "title": "Bouyomi",
             "content_text": "プラグイン「Bouyomi」\r\nSSPでのみ動作確認\r\n\r\n------------------------------\r\nこのプラグインは、YAYA as PLUGINを使用して作られています。\r\n作成にあたり、プラグイン「第弐版仮想道頓堀水泳拡張」をテンプレートとして使用させていただきました。\r\n\r\n------------------------------\r\n## 何をするもの？\r\n棒読みちゃん(https://chi.usamimi.info/Program/Application/BouyomiChan/)\r\nと連携し、ゴーストのトークの読み上げを可能にします。\r\n\r\n## どうやって使うの？\r\n棒読みちゃんを起動した状態でゴーストを起動するだけでトークを読み上げが可能になります。\r\n「棒読みちゃん送信」と共存する場合、片方を無効化しておくことを推奨します。\r\n\r\n## 有効/無効の切り替え\r\nインストール直後は自動的に有効化されています。特別な操作は必要ありません。\r\n無効化する際は、ゴーストの上で右クリック→機能→エクスプローラ→種類→プラグインの順に選択し、\r\n本プラグインの右クリックメニューから有効/無効の切り替えが可能です。\r\n\r\n## 注意\r\nインストール直後はバージョンが古い場合があります。*必ず*ネットワーク更新を行ってください。\r\n本プラグインの右クリックメニューからネットワーク更新が可能です。\r\n",
             "summary": "伺かプラグイン",
@@ -15,8 +15,8 @@
             "date_modified": "2023-02-14T05:22:14Z",
             "authors": [
                 {
-                    "name": "apxxxxxxe",
-                    "url": "https://github.com/apxxxxxxe",
+                    "name": "qitoso",
+                    "url": "https://github.com/qitoso",
                     "avatar": "https://avatars.githubusercontent.com/u/39634779?v=4"
                 }
             ],
@@ -27,7 +27,7 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.3.6/Bouyomi.nar",
+                    "url": "https://github.com/qitoso/Bouyomi/releases/download/v1.3.6/Bouyomi.nar",
                     "mime_type": "application/zip",
                     "title": "Bouyomi.nar",
                     "size_in_bytes": 2871170,
