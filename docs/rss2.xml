@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>taidanaSanoSan</title>
+    <link>https://github.com/tukinami/taidanaSanoSan</link>
+    <description>伺か雑談系ゴースト</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
+    <pubDate>Sun, 26 Feb 2023 17:03:29 +0900</pubDate>
+</item>
+<item>
     <title>myalice2</title>
     <link>https://github.com/etwaslangsam/myalice2</link>
     <description>ゴースト「僕のアリス2」</description>
@@ -22,15 +31,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/jong-rinrin</guid>
     <pubDate>Sat, 12 Nov 2022 20:34:32 +0900</pubDate>
-</item>
-<item>
-    <title>taidanaSanoSan</title>
-    <link>https://github.com/tukinami/taidanaSanoSan</link>
-    <description>伺か雑談系ゴースト</description>
-    <category>ghost</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
-    <pubDate>Sun, 26 Feb 2023 17:03:29 +0900</pubDate>
 </item>
 <item>
     <title>Taromati2</title>
