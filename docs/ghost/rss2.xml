@@ -159,24 +159,6 @@
     <pubDate>Fri, 16 Dec 2022 22:19:28 +0900</pubDate>
 </item>
 <item>
-    <title>jong-chunchun</title>
-    <link>https://github.com/nikolat/jong-chunchun</link>
-    <description>麻雀クライアントゴースト</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jong-chunchun</guid>
-    <pubDate>Sat, 12 Nov 2022 20:35:54 +0900</pubDate>
-</item>
-<item>
-    <title>jong-whanwhan</title>
-    <link>https://github.com/nikolat/jong-whanwhan</link>
-    <description>麻雀クライアントゴースト</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jong-whanwhan</guid>
-    <pubDate>Sat, 12 Nov 2022 20:37:09 +0900</pubDate>
-</item>
-<item>
     <title>ukagaka-party-parrot</title>
     <link>https://github.com/nikolat/ukagaka-party-parrot</link>
     <description>Party Parrot for UKAGAKA</description>
@@ -184,6 +166,33 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukagaka-party-parrot</guid>
     <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
+</item>
+<item>
+    <title>ukagaka-simultaneous-interpreter</title>
+    <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
+    <description>Simultaneous Interpreter Ghost</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukagaka-simultaneous-interpreter</guid>
+    <pubDate>Mon, 31 Oct 2022 20:10:27 +0900</pubDate>
+</item>
+<item>
+    <title>crawler_uploader</title>
+    <link>https://github.com/nikolat/crawler_uploader</link>
+    <description>UKAGAKA Ghost</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/crawler_uploader</guid>
+    <pubDate>Fri, 29 Apr 2022 10:21:32 +0900</pubDate>
+</item>
+<item>
+    <title>jong-bari</title>
+    <link>https://github.com/nikolat/jong-bari</link>
+    <description>麻雀サーバーゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jong-bari</guid>
+    <pubDate>Wed, 27 Apr 2022 18:50:12 +0900</pubDate>
 </item>
 <item>
     <title>ukagaka-simultaneous-interpreter</title>
