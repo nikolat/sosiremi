@@ -87,6 +87,15 @@
     <pubDate>Sat, 12 Nov 2022 20:34:32 +0900</pubDate>
 </item>
 <item>
+    <title>shellbook</title>
+    <link>https://github.com/nikolat/shellbook</link>
+    <description>freeshell Wiki viewer</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/shellbook</guid>
+    <pubDate>Tue, 13 Dec 2022 21:55:00 +0900</pubDate>
+</item>
+<item>
     <title>HamirLore</title>
     <link>https://github.com/Shimofumi/HamirLore</link>
     <description>Ukagaka ghost HamirLore</description>
@@ -256,15 +265,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/si-near-future</guid>
     <pubDate>Sun, 04 Dec 2022 20:20:12 +0900</pubDate>
-</item>
-<item>
-    <title>ukagaka-party-parrot</title>
-    <link>https://github.com/nikolat/ukagaka-party-parrot</link>
-    <description>Party Parrot for UKAGAKA</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-party-parrot</guid>
-    <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
 </item>
 <item>
     <title>ukagaka-party-parrot</title>
