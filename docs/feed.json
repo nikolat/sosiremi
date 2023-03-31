@@ -77,6 +77,39 @@
             ]
         },
         {
+            "id": "ambergon/ukagakaPlugin_SSP-SlaveConsole",
+            "url": "https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole",
+            "title": "ukagakaPlugin_SSP-SlaveConsole",
+            "content_text": "# SSP-SlaveConsole\n今後、伺かによって情報収集をする際に、<br>\nバルーンに表示した内容をすべて確認するのは大変だと考え、<br>\n必要な情報のみを通知できる仕組みを作ろうと思い作成しました。<br>\n<br>\n実行時にコンソールが表示されます。<br>\nこれはこのプラグインを使って実行したコマンドの結果なども出力されるほか、SSPで読み込まれている他のdllなどで出力があれば流れてきます。<br>\n\n\n## 出来ること。\nゴーストやプラグインが発言したトークを拾って`Filter_`から始まる関数でマッチします。<br>\nマッチした場合、サクラスクリプトの`trayballoon`のような通知を流したり、事前に設定したコマンドを実行できます。<br>\n\n\n#### 非プログラマ向けの簡単な使い方\n[【伺か】一部のサクラスクリプトを通知する仕組みを作ってみた。【プラグイン】 -- 異風堂々](https://ambergonslibrary.com/ukagaka/8695/)<br>\n\n\n## 課題。\nluaから通知用のbatファイルへの実行がshift-jisになってしまい、日本語等を使うと文字化けします。<br>\n対策として、日本語を使わない。もしくはluaの設定ファイルの返すタイトル・メッセージをshift-jisで記入する方法があります。<br>\n\n\n## 実行環境\nwin10/SSP/2.6.41で確認している。<br>\n\n\n## 依存\nPowerShellが実行可能なこと。<br>\n\n\n## 設定ファイル\nluaファイル/func.luaによって設定します。<br>\n```\nfunction Filter_Sample( sakuraScript )\n    -- 検索文字列\n    local filter    = \"\"\n    -- 通知タイトル。\n    local title     = \"\"\n    -- 通知内容\n    local msg       = \"\"\n    -- 実行コマンド\n    local cmd       = \"\"\n    -- 継続するかどうか。\n    local breakFlag = true\n    if not ( filter == \"\" ) and not ( string.match( sakuraScript , filter ) == nil ) then\n        return title , msg , cmd ,breakFlag\n    end\n    return nil , nil , nil , false\nend\n```\n検索にヒットした場合、通知タイトルがあれば通知を行います。<br>\n実行コマンドがあれば実行します。<br>\nこれらはどちらも行うことができます。<br>\n<br>\nbreakFlagをtrueにした場合、この実行のみでこのサクラスクリプトに対しての検索を終了します。<br>\nfalseにした場合、同じサクラスクリプトに対して残りのFilterも確認して実行します。<br>\n<br>\nFilterの実行順番は指定することはできません。<br>\nまた、これらは別スレッドで実行されるため、SSPや栞の挙動に影響を与えません。<br>\n\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。<br>\n\n\n",
+            "summary": "伺かのトークを拾って通知したりコマンドを実行したりできるプラグイン。設定はlua。",
+            "date_published": "2023-03-29T13:29:35Z",
+            "date_modified": "2023-03-29T13:29:37Z",
+            "authors": [
+                {
+                    "name": "ambergon",
+                    "url": "https://github.com/ambergon",
+                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole/releases/download/1.0.0/ukagakaPlugin_SlaveConsole.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ukagakaPlugin_SlaveConsole.nar",
+                    "size_in_bytes": 316118,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/jong-whanwhan",
             "url": "https://github.com/nikolat/jong-whanwhan",
             "title": "jong-whanwhan",
