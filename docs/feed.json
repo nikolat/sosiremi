@@ -35,7 +35,41 @@
                     "title": "hakoirimusume.nar",
                     "size_in_bytes": 952496,
                     "_ex": {
-                        "download_count": 32
+                        "download_count": 33
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/ukagaka-simultaneous-interpreter",
+            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
+            "title": "ukagaka-simultaneous-interpreter",
+            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
+            "summary": "Simultaneous Interpreter Ghost",
+            "date_published": "2022-10-31T10:35:16Z",
+            "date_modified": "2022-10-31T11:10:27Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.0/simultaneous-interpreter.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "simultaneous-interpreter.nar",
+                    "size_in_bytes": 1368599,
+                    "_ex": {
+                        "download_count": 33
                     }
                 }
             ]
@@ -75,13 +109,13 @@
             ]
         },
         {
-            "id": "nikolat/ukagaka-simultaneous-interpreter",
-            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
-            "title": "ukagaka-simultaneous-interpreter",
-            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
-            "summary": "Simultaneous Interpreter Ghost",
-            "date_published": "2022-10-31T10:35:16Z",
-            "date_modified": "2022-10-31T11:10:27Z",
+            "id": "nikolat/jong-bari",
+            "url": "https://github.com/nikolat/jong-bari",
+            "title": "jong-bari",
+            "content_text": "========================================================================\n【ソフト名称】雀々BARIBARI\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.42\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/06/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  麻雀をするためのサーバーゴーストです。\n  他にクライアントゴーストを3体召喚してお楽しみください。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀サーバーゴースト",
+            "date_published": "2023-03-29T02:48:10Z",
+            "date_modified": "2023-03-29T02:48:26Z",
             "authors": [
                 {
                     "name": "nikolat",
@@ -91,6 +125,9 @@
             ],
             "tags": [
                 "akari",
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
                 "sirefaso",
                 "sosiremi",
                 "ukagaka",
@@ -98,12 +135,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.0/simultaneous-interpreter.nar",
+                    "url": "https://github.com/nikolat/jong-bari/releases/download/v1.0.5/jong-bari.nar",
                     "mime_type": "application/x-nar",
-                    "title": "simultaneous-interpreter.nar",
-                    "size_in_bytes": 1368599,
+                    "title": "jong-bari.nar",
+                    "size_in_bytes": 1047843,
                     "_ex": {
-                        "download_count": 32
+                        "download_count": 4
                     }
                 }
             ]
@@ -144,13 +181,13 @@
             ]
         },
         {
-            "id": "nikolat/jong-bari",
-            "url": "https://github.com/nikolat/jong-bari",
-            "title": "jong-bari",
-            "content_text": "========================================================================\n【ソフト名称】雀々BARIBARI\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.42\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/06/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  麻雀をするためのサーバーゴーストです。\n  他にクライアントゴーストを3体召喚してお楽しみください。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "麻雀サーバーゴースト",
-            "date_published": "2023-03-29T02:48:10Z",
-            "date_modified": "2023-03-29T02:48:26Z",
+            "id": "nikolat/crawler_uploader",
+            "url": "https://github.com/nikolat/crawler_uploader",
+            "title": "crawler_uploader",
+            "content_text": "========================================================================\n【ソフト名称】クローラ＆ロダ\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.15\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2011/04/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  \\0妹: ゴーストのネットワーク更新を捕捉する仕事をしている\n  \\1姉: NARを預かり、ネットワーク更新をサポートする仕事をしている\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェル・画像素材を使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    narをアップするところ\n      (配布元消失)\n\n  フリーシェル「mof」\n    パン耳手帳\n      (配布元消失)\n\n  browser-logos\n    https://github.com/alrra/browser-logos\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
+            "summary": "UKAGAKA Ghost",
+            "date_published": "2022-04-29T01:21:30Z",
+            "date_modified": "2022-04-29T01:21:32Z",
             "authors": [
                 {
                     "name": "nikolat",
@@ -159,10 +196,7 @@
                 }
             ],
             "tags": [
-                "akari",
-                "japanese-mahjong",
-                "mahjong",
-                "riichi-mahjong",
+                "dotnet-framework",
                 "sirefaso",
                 "sosiremi",
                 "ukagaka",
@@ -170,12 +204,47 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/nikolat/jong-bari/releases/download/v1.0.5/jong-bari.nar",
+                    "url": "https://github.com/nikolat/crawler_uploader/releases/download/v1.0.0/crawler_uploader.nar",
                     "mime_type": "application/x-nar",
-                    "title": "jong-bari.nar",
-                    "size_in_bytes": 1047843,
+                    "title": "crawler_uploader.nar",
+                    "size_in_bytes": 658145,
                     "_ex": {
-                        "download_count": 4
+                        "download_count": 42
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/reshibainu",
+            "url": "https://github.com/nikolat/reshibainu",
+            "title": "reshibainu",
+            "content_text": "========================================================================\n【ソフト名称】れしばいぬ\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2013/09/15\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  「里々」のログビューア「れしば.NET」のゴースト版です。\n  普通に「れしば.NET」単体で起動したほうが便利だと思います。\n\n  れしば.NET\n    https://github.com/nikolat/recv_net\n\n■謝辞\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    作者  ：摂理\n    配布元：narをアップするところ（配布元消失）\n\n  フリーシェル「まめしばわんこ」\n    作者  ：いとうべん太\n    配布元：ふぐ提灯（配布元消失）\n\n■ライセンス\n\n  ライセンスは「NYSL Version 0.9982」です。\n    NYSL\n      http://www.kmonos.net/nysl/\n\nA. 本ソフトウェアは Everyone'sWare です。このソフトを手にした一人一人が、\n   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. フリーウェアです。作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。\n  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。\n  A-4. 変更したものや部分的に使用したものは、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. このソフトを利用することによって生じた損害等について、作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権は Don に帰属します。著作権は放棄します。\n\nD. 以上の３項は、ソース・実行バイナリの双方に適用されます。\n\n",
+            "summary": "「里々」ログビューア「れしば.NET」のゴースト版",
+            "date_published": "2022-01-26T03:31:06Z",
+            "date_modified": "2022-04-27T09:49:51Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "dotnet-framework",
+                "satori",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/reshibainu/releases/download/v1.0.0/reshibainu.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "reshibainu.nar",
+                    "size_in_bytes": 40903,
+                    "_ex": {
+                        "download_count": 26
                     }
                 }
             ]
@@ -1198,40 +1267,6 @@
             ]
         },
         {
-            "id": "nikolat/crawler_uploader",
-            "url": "https://github.com/nikolat/crawler_uploader",
-            "title": "crawler_uploader",
-            "content_text": "========================================================================\n【ソフト名称】クローラ＆ロダ\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.15\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2011/04/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  \\0妹: ゴーストのネットワーク更新を捕捉する仕事をしている\n  \\1姉: NARを預かり、ネットワーク更新をサポートする仕事をしている\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェル・画像素材を使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    narをアップするところ\n      (配布元消失)\n\n  フリーシェル「mof」\n    パン耳手帳\n      (配布元消失)\n\n  browser-logos\n    https://github.com/alrra/browser-logos\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
-            "summary": "UKAGAKA Ghost",
-            "date_published": "2022-04-29T01:21:30Z",
-            "date_modified": "2022-04-29T01:21:32Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "dotnet-framework",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/crawler_uploader/releases/download/v1.0.0/crawler_uploader.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "crawler_uploader.nar",
-                    "size_in_bytes": 658145,
-                    "_ex": {
-                        "download_count": 42
-                    }
-                }
-            ]
-        },
-        {
             "id": "nikolat/ukaten",
             "url": "https://github.com/nikolat/ukaten",
             "title": "ukaten",
@@ -1262,41 +1297,6 @@
                     "size_in_bytes": 874823,
                     "_ex": {
                         "download_count": 43
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/reshibainu",
-            "url": "https://github.com/nikolat/reshibainu",
-            "title": "reshibainu",
-            "content_text": "========================================================================\n【ソフト名称】れしばいぬ\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2013/09/15\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  「里々」のログビューア「れしば.NET」のゴースト版です。\n  普通に「れしば.NET」単体で起動したほうが便利だと思います。\n\n  れしば.NET\n    https://github.com/nikolat/recv_net\n\n■謝辞\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    作者  ：摂理\n    配布元：narをアップするところ（配布元消失）\n\n  フリーシェル「まめしばわんこ」\n    作者  ：いとうべん太\n    配布元：ふぐ提灯（配布元消失）\n\n■ライセンス\n\n  ライセンスは「NYSL Version 0.9982」です。\n    NYSL\n      http://www.kmonos.net/nysl/\n\nA. 本ソフトウェアは Everyone'sWare です。このソフトを手にした一人一人が、\n   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. フリーウェアです。作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。\n  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。\n  A-4. 変更したものや部分的に使用したものは、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. このソフトを利用することによって生じた損害等について、作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権は Don に帰属します。著作権は放棄します。\n\nD. 以上の３項は、ソース・実行バイナリの双方に適用されます。\n\n",
-            "summary": "「里々」ログビューア「れしば.NET」のゴースト版",
-            "date_published": "2022-01-26T03:31:06Z",
-            "date_modified": "2022-04-27T09:49:51Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "dotnet-framework",
-                "satori",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/reshibainu/releases/download/v1.0.0/reshibainu.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "reshibainu.nar",
-                    "size_in_bytes": 40903,
-                    "_ex": {
-                        "download_count": 26
                     }
                 }
             ]
