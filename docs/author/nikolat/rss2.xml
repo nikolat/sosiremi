@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/nikolat/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>jong-whanwhan</title>
+    <link>https://github.com/nikolat/jong-whanwhan</link>
+    <description>麻雀クライアントゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jong-whanwhan</guid>
+    <pubDate>Sat, 12 Nov 2022 20:37:09 +0900</pubDate>
+</item>
+<item>
     <title>ukagaka-hakoirimusume</title>
     <link>https://github.com/nikolat/ukagaka-hakoirimusume</link>
     <description>Klotski for UKAGAKA</description>
@@ -76,15 +85,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/wallet_of_unyu</guid>
     <pubDate>Sun, 26 Mar 2023 12:35:27 +0900</pubDate>
-</item>
-<item>
-    <title>jong-whanwhan</title>
-    <link>https://github.com/nikolat/jong-whanwhan</link>
-    <description>麻雀クライアントゴースト</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jong-whanwhan</guid>
-    <pubDate>Sat, 12 Nov 2022 20:37:09 +0900</pubDate>
 </item>
 <item>
     <title>jong-rinrin</title>
