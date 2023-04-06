@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>ukagakaPlugin_CeVIO-Talker</title>
+    <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</link>
+    <description>伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。</description>
+    <category>plugin</category>
+    <dc:creator>ambergon</dc:creator>
+    <guid isPermaLink="false">ambergon/ukagakaPlugin_CeVIO-Talker</guid>
+    <pubDate>Fri, 27 Jan 2023 21:01:54 +0900</pubDate>
+</item>
+<item>
     <title>Bouyomi</title>
     <link>https://github.com/apxxxxxxe/Bouyomi</link>
     <description>伺かプラグイン</description>
@@ -229,15 +238,6 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Youto</guid>
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
-</item>
-<item>
-    <title>ukagakaPlugin_CeVIO-Talker</title>
-    <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</link>
-    <description>伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。</description>
-    <category>plugin</category>
-    <dc:creator>ambergon</dc:creator>
-    <guid isPermaLink="false">ambergon/ukagakaPlugin_CeVIO-Talker</guid>
-    <pubDate>Fri, 27 Jan 2023 21:01:54 +0900</pubDate>
 </item>
 <item>
     <title>talismanic_beast_pattern</title>
