@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "Shimofumi/HamirLore",
+            "url": "https://github.com/Shimofumi/HamirLore",
+            "title": "HamirLore",
+            "content_text": "----------------\nヘイミル・ロゥ\n----------------\n\n\n\n【ストーリー】\n\n　クッソ長生きなどらごんが酒を飲む\n  アンニュイな雑談ゴーストです。\n  \n　好感度・起動回数などという複雑なものはありません。\n　気長にお付き合いくださいませ。\n\n【舞台】\n\n　通信機（PC・SSP含む）越しのやりとりということで伺かの形になっていますが、\n　作者が勝手に言ってるだけなので無視して、対面のやり取りと解釈しても良いです。\n\n【登場人物】\n\nユーザ･貴君：\n    ふとした事から、ヘイミル・ロゥと他愛ないやりとりができるようになった\n\t\n\nヘイミル・ロゥ：\n    めっちゃ長生きのどらごん\n    本人も忘れているが、かなへびの親戚、とかげの遠戚　\n\n【おことわり】\n\n　実在の出来事、人物、名称とは一切関係在りません。\n　一部、人を選ぶ不謹慎、あるいは暴力的な表現等、不快になる恐れのある過激な表現が含まれています。\n　何かを悪意をもって貶めるような意図はありません。\n　実在と架空の区別がつかない方はプレイしないで下さい。\n\n　当ゴーストを利用した事によって発生したいかなる不利益、\n　損害にも著作者は関知しません。\n\n　以上の注意に危機感を覚える方はプレイを控えてください。\n\n【推奨環境】\n\n　ＳＳＰ最新版をご利用下さい。\n\n　\n【スペシャルサンクス】\n\n　うかどんの各位\n\n【参考にしたサイト、使用したツール、オマージュ、引用元等】\n　\n　下記を参考、また使用させて頂きました。ありがとうございました。\n　一点の曇りもない\n　https://nanachi.sakura.ne.jp\n　UKADOC project\n　http://ssp.shillest.net/ukadoc/manual/index.html\n　YAYA Information Wiki\n　https://emily.shillest.net/ayaya/?FrontPage\n　\n\n　\n\n【二次創作等】\n　　\n　制限はありません。一枚絵から同人誌まで、\n　創作されたものを教えて頂けると、とても嬉しく思います。\n　Ｒ-18作品についての制限も当然ありませんが、\n　製作者はTwitterの誕生日設定をしていないため、\n　年齢制限のかかっているコンテンツは見ることができません、\n  よってそもそも観測ができない可能性があります。\n　あらかじめご了承ください。\n\n【再配布・改変等】\n\n　シェルを含め、本作品の再配布は基本的にＯＫ\n　また、改変後の配布は改変者の名前で行ってください。\n　改変後のものに関して製作者は関知しません\n\n　本作品（ヘイミル・ロゥ）に限って実験的に創作再配布改変の規約を緩くしてみる意図があります。\n　それ以外の創作物には一切言及していないことに留意してください。\n　別のゴーストや別製作者さんのイラストなどにこの規約を持ち出さないでください。\n\n【あれこれ】\n\n　Q.シェルがでかい！！\t\n\t  A.そこで酔っぱらってるどらごんを右クリックしてSSPのシェル倍率を変更してください。\n　\n　Q.シェル倍率変更したらフキダシも小さくなった！！\t\n    A.設定のゴーストごとの設定、シェル倍率のバルーンも連携するのチェックを外してください。\n\n\n【製作者】（同一人物）\n　\n　しもふみ　／　下田文雄（しもだ ふみお）\n　\n\n  https://ukadon.shillest.net/@Shimofumi\n\ttwitter：@Shimofumi\n\n",
+            "summary": "Ukagaka ghost HamirLore",
+            "date_published": "2022-12-29T13:19:06Z",
+            "date_modified": "2022-12-29T13:19:11Z",
+            "authors": [
+                {
+                    "name": "Shimofumi",
+                    "url": "https://github.com/Shimofumi",
+                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Shimofumi/HamirLore/releases/download/v1.0.0/HamirLore.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "HamirLore.nar",
+                    "size_in_bytes": 1491084,
+                    "_ex": {
+                        "download_count": 259
+                    }
+                }
+            ]
+        },
+        {
             "id": "tukinami/taidanaSanoSan",
             "url": "https://github.com/tukinami/taidanaSanoSan",
             "title": "taidanaSanoSan",
@@ -630,39 +663,6 @@
                     "size_in_bytes": 1263251,
                     "_ex": {
                         "download_count": 15
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Shimofumi/HamirLore",
-            "url": "https://github.com/Shimofumi/HamirLore",
-            "title": "HamirLore",
-            "content_text": "----------------\nヘイミル・ロゥ\n----------------\n\n\n\n【ストーリー】\n\n　クッソ長生きなどらごんが酒を飲む\n  アンニュイな雑談ゴーストです。\n  \n　好感度・起動回数などという複雑なものはありません。\n　気長にお付き合いくださいませ。\n\n【舞台】\n\n　通信機（PC・SSP含む）越しのやりとりということで伺かの形になっていますが、\n　作者が勝手に言ってるだけなので無視して、対面のやり取りと解釈しても良いです。\n\n【登場人物】\n\nユーザ･貴君：\n    ふとした事から、ヘイミル・ロゥと他愛ないやりとりができるようになった\n\t\n\nヘイミル・ロゥ：\n    めっちゃ長生きのどらごん\n    本人も忘れているが、かなへびの親戚、とかげの遠戚　\n\n【おことわり】\n\n　実在の出来事、人物、名称とは一切関係在りません。\n　一部、人を選ぶ不謹慎、あるいは暴力的な表現等、不快になる恐れのある過激な表現が含まれています。\n　何かを悪意をもって貶めるような意図はありません。\n　実在と架空の区別がつかない方はプレイしないで下さい。\n\n　当ゴーストを利用した事によって発生したいかなる不利益、\n　損害にも著作者は関知しません。\n\n　以上の注意に危機感を覚える方はプレイを控えてください。\n\n【推奨環境】\n\n　ＳＳＰ最新版をご利用下さい。\n\n　\n【スペシャルサンクス】\n\n　うかどんの各位\n\n【参考にしたサイト、使用したツール、オマージュ、引用元等】\n　\n　下記を参考、また使用させて頂きました。ありがとうございました。\n　一点の曇りもない\n　https://nanachi.sakura.ne.jp\n　UKADOC project\n　http://ssp.shillest.net/ukadoc/manual/index.html\n　YAYA Information Wiki\n　https://emily.shillest.net/ayaya/?FrontPage\n　\n\n　\n\n【二次創作等】\n　　\n　制限はありません。一枚絵から同人誌まで、\n　創作されたものを教えて頂けると、とても嬉しく思います。\n　Ｒ-18作品についての制限も当然ありませんが、\n　製作者はTwitterの誕生日設定をしていないため、\n　年齢制限のかかっているコンテンツは見ることができません、\n  よってそもそも観測ができない可能性があります。\n　あらかじめご了承ください。\n\n【再配布・改変等】\n\n　シェルを含め、本作品の再配布は基本的にＯＫ\n　また、改変後の配布は改変者の名前で行ってください。\n　改変後のものに関して製作者は関知しません\n\n　本作品（ヘイミル・ロゥ）に限って実験的に創作再配布改変の規約を緩くしてみる意図があります。\n　それ以外の創作物には一切言及していないことに留意してください。\n　別のゴーストや別製作者さんのイラストなどにこの規約を持ち出さないでください。\n\n【あれこれ】\n\n　Q.シェルがでかい！！\t\n\t  A.そこで酔っぱらってるどらごんを右クリックしてSSPのシェル倍率を変更してください。\n　\n　Q.シェル倍率変更したらフキダシも小さくなった！！\t\n    A.設定のゴーストごとの設定、シェル倍率のバルーンも連携するのチェックを外してください。\n\n\n【製作者】（同一人物）\n　\n　しもふみ　／　下田文雄（しもだ ふみお）\n　\n\n  https://ukadon.shillest.net/@Shimofumi\n\ttwitter：@Shimofumi\n\n",
-            "summary": "Ukagaka ghost HamirLore",
-            "date_published": "2022-12-29T13:19:06Z",
-            "date_modified": "2022-12-29T13:19:11Z",
-            "authors": [
-                {
-                    "name": "Shimofumi",
-                    "url": "https://github.com/Shimofumi",
-                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Shimofumi/HamirLore/releases/download/v1.0.0/HamirLore.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "HamirLore.nar",
-                    "size_in_bytes": 1491084,
-                    "_ex": {
-                        "download_count": 259
                     }
                 }
             ]
