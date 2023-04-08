@@ -15,6 +15,15 @@
     <pubDate>Thu, 29 Dec 2022 22:19:11 +0900</pubDate>
 </item>
 <item>
+    <title>ukagakaPlugin_CeVIO-TalkerV2</title>
+    <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2</link>
+    <description></description>
+    <category>plugin</category>
+    <dc:creator>ambergon</dc:creator>
+    <guid isPermaLink="false">ambergon/ukagakaPlugin_CeVIO-TalkerV2</guid>
+    <pubDate>Thu, 06 Apr 2023 15:09:17 +0900</pubDate>
+</item>
+<item>
     <title>ukagakaPlugin_CeVIO-Talker</title>
     <link>https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker</link>
     <description>伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。</description>

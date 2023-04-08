@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "ambergon/ukagakaPlugin_CeVIO-TalkerV2",
+            "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2",
+            "title": "ukagakaPlugin_CeVIO-TalkerV2",
+            "content_text": "# SSP-CeVIO-TalkerV2\n[GitHub - ambergon/ukagakaPlugin_CeVIO-Talker: 伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)<br>\n以前作成した伺か/SSPのプラグインをリメイクしました。<br>\n\n\n## 既存の出来ること。<br>\n- ゴーストごとに読み上げる対象を変更する。<br>\n    ゴースト切り替えメニューで表示される名前毎に使用する読み上げる音声を変更できます。<br>\n- 読み上げ音声の細かい調整。<br>\n    音量やトーン、感情値の変更が出来ます。<br>\n\n\n## 変更点<br>\n- 一人目/二人目/三人目をそれぞれ別の声で再生できるように変更されました。<br>\n- SSP上で設定変更するのではなく、設定ファイルを記入する方式に変更。<br>\n- コンソールが表示されないように変更。<br>\n- プラグインメニューを呼んだ時にクリップボードにゴーストのメニュー名が格納されるように。<br>\n\n\n## 他<br>\n前回はyayaを使いSSPに読み込ませ、プロセス間通信を利用したモノでしたが、<br>\nいちいちコンソールが立ち上がるのが少々煩わしく、またSSPが落ちたときの復帰処理が面倒でした。<br>\n今回はdllごと作り直したので、yayaに依存することなく、コンソールもいらなくなりました。<br>\n\n\n## 注意点<br>\n前回の時点で記載を忘れていたのですが、dlsiteで購入したものはバージョンが古く、APIに対応していないものでした。<br>\n現在こちらで動作を確認しているのは下記の環境になります。<br>\nCeVIOの公式サイトからversion up用のファイルが公開されているはずなのでご確認ください。(なぜかchromeからでははじかれ、edgeでDLしました。)<br>\n\n- SSP 2.6.45<br>\n- CeVIO AI 8.4.5.0<br>\n\n\n## 設定例<br>\n[【伺か】ゴーストの発言を読み上げるツールを作り直した。【CeVIO AI】 -- 異風堂々](https://ambergonslibrary.com/ukagaka/8738/)<br>\n\n\n## その他<br>\nこのプログラムを利用したことによるいかなる問題や損害に対して、私は責任を負いません。<br>\n\n\n\n",
+            "summary": "",
+            "date_published": "2023-04-06T06:09:15Z",
+            "date_modified": "2023-04-06T06:09:17Z",
+            "authors": [
+                {
+                    "name": "ambergon",
+                    "url": "https://github.com/ambergon",
+                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2/releases/download/1.0.0/SSP-CeVIO-TalkerV2.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "SSP-CeVIO-TalkerV2.nar",
+                    "size_in_bytes": 11701,
+                    "_ex": {
+                        "download_count": 4
+                    }
+                }
+            ]
+        },
+        {
             "id": "ambergon/ukagakaPlugin_CeVIO-Talker",
             "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker",
             "title": "ukagakaPlugin_CeVIO-Talker",

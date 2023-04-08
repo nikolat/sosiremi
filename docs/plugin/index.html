@@ -10,6 +10,7 @@
 <link rel="help" href="../about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
+<link rel="alternate" type="application/octet-stream" title="ukagakaPlugin_CeVIO-TalkerV2" href="https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2/releases/download/1.0.0/SSP-CeVIO-TalkerV2.nar" />
 <link rel="alternate" type="application/octet-stream" title="ukagakaPlugin_CeVIO-Talker" href="https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker/releases/download/version1.0.7/ukagakaPlugin_CeVIO-Talker.nar" />
 <link rel="alternate" type="application/zip" title="Bouyomi" href="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.3.7/Bouyomi.nar" />
 <link rel="alternate" type="application/x-nar" title="wallet_of_unyu" href="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.0.0/wallet_of_unyu.nar" />
@@ -37,6 +38,71 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
+		<article id="ambergon/ukagakaPlugin_CeVIO-TalkerV2" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2" rel="bookmark">ukagakaPlugin_CeVIO-TalkerV2</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./">plugin</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="../author/ambergon/">ambergon</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2023-04-06T06:09:15Z">2023-04-06 15:09:15</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2023-04-06T06:09:17Z">2023-04-06 15:09:17</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2/releases/download/1.0.0/SSP-CeVIO-TalkerV2.nar" title="https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2/releases/download/1.0.0/SSP-CeVIO-TalkerV2.nar" rel="nofollow" data-filesize="11.4" data-download_count="4">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fambergon%2FukagakaPlugin_CeVIO-TalkerV2%2Freleases%2Fdownload%2F1.0.0%2FSSP-CeVIO-TalkerV2.nar" title="https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2/releases/download/1.0.0/SSP-CeVIO-TalkerV2.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="ukagakaPlugin_CeVIO-TalkerV2">
+				<h4>readme</h4>
+<pre>
+# SSP-CeVIO-TalkerV2
+[GitHub - ambergon/ukagakaPlugin_CeVIO-Talker: 伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)&lt;br&gt;
+以前作成した伺か/SSPのプラグインをリメイクしました。&lt;br&gt;
+
+
+## 既存の出来ること。&lt;br&gt;
+- ゴーストごとに読み上げる対象を変更する。&lt;br&gt;
+    ゴースト切り替えメニューで表示される名前毎に使用する読み上げる音声を変更できます。&lt;br&gt;
+- 読み上げ音声の細かい調整。&lt;br&gt;
+    音量やトーン、感情値の変更が出来ます。&lt;br&gt;
+
+
+## 変更点&lt;br&gt;
+- 一人目/二人目/三人目をそれぞれ別の声で再生できるように変更されました。&lt;br&gt;
+- SSP上で設定変更するのではなく、設定ファイルを記入する方式に変更。&lt;br&gt;
+- コンソールが表示されないように変更。&lt;br&gt;
+- プラグインメニューを呼んだ時にクリップボードにゴーストのメニュー名が格納されるように。&lt;br&gt;
+
+
+## 他&lt;br&gt;
+前回はyayaを使いSSPに読み込ませ、プロセス間通信を利用したモノでしたが、&lt;br&gt;
+いちいちコンソールが立ち上がるのが少々煩わしく、またSSPが落ちたときの復帰処理が面倒でした。&lt;br&gt;
+今回はdllごと作り直したので、yayaに依存することなく、コンソールもいらなくなりました。&lt;br&gt;
+
+
+## 注意点&lt;br&gt;
+前回の時点で記載を忘れていたのですが、dlsiteで購入したものはバージョンが古く、APIに対応していないものでした。&lt;br&gt;
+現在こちらで動作を確認しているのは下記の環境になります。&lt;br&gt;
+CeVIOの公式サイトからversion up用のファイルが公開されているはずなのでご確認ください。(なぜかchromeからでははじかれ、edgeでDLしました。)&lt;br&gt;
+
+- SSP 2.6.45&lt;br&gt;
+- CeVIO AI 8.4.5.0&lt;br&gt;
+
+
+## 設定例&lt;br&gt;
+[【伺か】ゴーストの発言を読み上げるツールを作り直した。【CeVIO AI】 -- 異風堂々](https://ambergonslibrary.com/ukagaka/8738/)&lt;br&gt;
+
+
+## その他&lt;br&gt;
+このプログラムを利用したことによるいかなる問題や損害に対して、私は責任を負いません。&lt;br&gt;
+
+
+
+</pre>
+			</aside>
+		</article>
 		<article id="ambergon/ukagakaPlugin_CeVIO-Talker" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker" rel="bookmark">ukagakaPlugin_CeVIO-Talker</a></h3>
