@@ -33,15 +33,6 @@
     <pubDate>Wed, 29 Mar 2023 22:29:37 +0900</pubDate>
 </item>
 <item>
-    <title>ukagakaPlugin_getWindowTitle</title>
-    <link>https://github.com/ambergon/ukagakaPlugin_getWindowTitle</link>
-    <description>伺か ・ゴーストがあなたの作業を覗き込むようになるプラグイン。</description>
-    <category>plugin</category>
-    <dc:creator>ambergon</dc:creator>
-    <guid isPermaLink="false">ambergon/ukagakaPlugin_getWindowTitle</guid>
-    <pubDate>Sat, 07 Jan 2023 22:36:50 +0900</pubDate>
-</item>
-<item>
     <title>UkagakaPlugin_DBdiary</title>
     <link>https://github.com/ambergon/UkagakaPlugin_DBdiary</link>
     <description>伺か・ゴーストから日記を書いたり読んだりするyaya as plugin</description>
