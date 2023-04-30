@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>bath_ane</title>
+    <link>https://github.com/etwaslangsam/bath_ane</link>
+    <description>風呂上がりの姉貴</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/bath_ane</guid>
+    <pubDate>Fri, 16 Dec 2022 22:19:28 +0900</pubDate>
+</item>
+<item>
     <title>myalice2</title>
     <link>https://github.com/etwaslangsam/myalice2</link>
     <description>ゴースト「僕のアリス2」</description>
@@ -319,15 +328,6 @@
     <dc:creator>ambergon</dc:creator>
     <guid isPermaLink="false">ambergon/UkagakaPlugin_DBdiary</guid>
     <pubDate>Wed, 04 Jan 2023 16:56:15 +0900</pubDate>
-</item>
-<item>
-    <title>bath_ane</title>
-    <link>https://github.com/etwaslangsam/bath_ane</link>
-    <description>風呂上がりの姉貴</description>
-    <category>ghost</category>
-    <dc:creator>etwaslangsam</dc:creator>
-    <guid isPermaLink="false">etwaslangsam/bath_ane</guid>
-    <pubDate>Fri, 16 Dec 2022 22:19:28 +0900</pubDate>
 </item>
 <item>
     <title>si-near-future</title>

@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "etwaslangsam/bath_ane",
+            "url": "https://github.com/etwaslangsam/bath_ane",
+            "title": "bath_ane",
+            "content_text": "\n■ゴースト「風呂上がりの姉貴」\n\n\n■使用素材\n\tフリーシェル「パリピ学園バイブス天国」（蟻の住む木 さん）\n\n■さわり反応\n\n\t頭：なで\n\t胸：つつき\n\t太もも：なで",
+            "summary": "風呂上がりの姉貴",
+            "date_published": "2022-12-16T13:19:25Z",
+            "date_modified": "2022-12-16T13:19:28Z",
+            "authors": [
+                {
+                    "name": "etwaslangsam",
+                    "url": "https://github.com/etwaslangsam",
+                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/etwaslangsam/bath_ane/releases/download/v0.26/bathane.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "bathane.zip",
+                    "size_in_bytes": 2696528,
+                    "_ex": {
+                        "download_count": 15
+                    }
+                }
+            ]
+        },
+        {
             "id": "etwaslangsam/myalice2",
             "url": "https://github.com/etwaslangsam/myalice2",
             "title": "myalice2",
@@ -1194,39 +1227,6 @@
                     "size_in_bytes": 832334,
                     "_ex": {
                         "download_count": 12
-                    }
-                }
-            ]
-        },
-        {
-            "id": "etwaslangsam/bath_ane",
-            "url": "https://github.com/etwaslangsam/bath_ane",
-            "title": "bath_ane",
-            "content_text": "\n■ゴースト「風呂上がりの姉貴」\n\n\n■使用素材\n\tフリーシェル「パリピ学園バイブス天国」（蟻の住む木 さん）\n\n■さわり反応\n\n\t頭：なで\n\t胸：つつき\n\t太もも：なで",
-            "summary": "風呂上がりの姉貴",
-            "date_published": "2022-12-16T13:19:25Z",
-            "date_modified": "2022-12-16T13:19:28Z",
-            "authors": [
-                {
-                    "name": "etwaslangsam",
-                    "url": "https://github.com/etwaslangsam",
-                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/etwaslangsam/bath_ane/releases/download/v0.26/bathane.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "bathane.zip",
-                    "size_in_bytes": 2696528,
-                    "_ex": {
-                        "download_count": 15
                     }
                 }
             ]
