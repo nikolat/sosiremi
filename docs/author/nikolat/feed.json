@@ -45,8 +45,8 @@
             "title": "ukagaka-simultaneous-interpreter",
             "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
             "summary": "Simultaneous Interpreter Ghost",
-            "date_published": "2022-10-31T10:35:16Z",
-            "date_modified": "2022-10-31T11:10:27Z",
+            "date_published": "2023-05-05T22:47:06Z",
+            "date_modified": "2023-05-05T22:47:09Z",
             "authors": [
                 {
                     "name": "nikolat",
@@ -63,12 +63,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.0/simultaneous-interpreter.nar",
+                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.1/simultaneous-interpreter.nar",
                     "mime_type": "application/x-nar",
                     "title": "simultaneous-interpreter.nar",
-                    "size_in_bytes": 1368599,
+                    "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 74
+                        "download_count": 1
                     }
                 }
             ]
