@@ -525,41 +525,6 @@
             ]
         },
         {
-            "id": "nikolat/reshibainu",
-            "url": "https://github.com/nikolat/reshibainu",
-            "title": "reshibainu",
-            "content_text": "========================================================================\n【ソフト名称】れしばいぬ\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2013/09/15\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  「里々」のログビューア「れしば.NET」のゴースト版です。\n  普通に「れしば.NET」単体で起動したほうが便利だと思います。\n\n  れしば.NET\n    https://github.com/nikolat/recv_net\n\n■謝辞\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    作者  ：摂理\n    配布元：narをアップするところ（配布元消失）\n\n  フリーシェル「まめしばわんこ」\n    作者  ：いとうべん太\n    配布元：ふぐ提灯（配布元消失）\n\n■ライセンス\n\n  ライセンスは「NYSL Version 0.9982」です。\n    NYSL\n      http://www.kmonos.net/nysl/\n\nA. 本ソフトウェアは Everyone'sWare です。このソフトを手にした一人一人が、\n   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. フリーウェアです。作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。\n  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。\n  A-4. 変更したものや部分的に使用したものは、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. このソフトを利用することによって生じた損害等について、作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権は Don に帰属します。著作権は放棄します。\n\nD. 以上の３項は、ソース・実行バイナリの双方に適用されます。\n\n",
-            "summary": "「里々」ログビューア「れしば.NET」のゴースト版",
-            "date_published": "2022-01-26T03:31:06Z",
-            "date_modified": "2022-04-27T09:49:51Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "dotnet-framework",
-                "satori",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/reshibainu/releases/download/v1.0.0/reshibainu.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "reshibainu.nar",
-                    "size_in_bytes": 40903,
-                    "_ex": {
-                        "download_count": 28
-                    }
-                }
-            ]
-        },
-        {
             "id": "nikolat/jong-rinrin",
             "url": "https://github.com/nikolat/jong-rinrin",
             "title": "jong-rinrin",
