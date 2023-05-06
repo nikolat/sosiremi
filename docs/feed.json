@@ -34,7 +34,7 @@
                     "title": "wallet_of_unyu.nar",
                     "size_in_bytes": 400503,
                     "_ex": {
-                        "download_count": 0
+                        "download_count": 1
                     }
                 }
             ]
@@ -201,7 +201,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 3
+                        "download_count": 4
                     }
                 }
             ]
@@ -1329,7 +1329,7 @@
                     "title": "ukaten.nar",
                     "size_in_bytes": 874823,
                     "_ex": {
-                        "download_count": 49
+                        "download_count": 50
                     }
                 }
             ]
