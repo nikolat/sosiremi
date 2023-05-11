@@ -273,6 +273,39 @@
             ]
         },
         {
+            "id": "ambergon/ukagakaPlugin_CeVIO-Talker",
+            "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker",
+            "title": "ukagakaPlugin_CeVIO-Talker",
+            "content_text": "# CeVIO-Talker\nこのプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。\n[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)\n\n2023/04/06 リメイクしました。\n[GitHub - ambergon/ukagakaPlugin_CeVIO-TalkerV2](https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2)\n\n\n\n## お借りしたもの\nyaya.dll\n[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)\n\nproxy_ex.dll\n[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。\n\n\n## Author\n[ambergon](https://twitter.com/Sc_lFoxGon)\n\n\n\n\n",
+            "summary": "伺かSSPからCeVIO AIにトークを流し込んで読み上げてもらうプラグイン。調声が可能。読み上げるゴーストおよび声の設定が可能。",
+            "date_published": "2023-01-27T12:01:52Z",
+            "date_modified": "2023-01-27T12:01:54Z",
+            "authors": [
+                {
+                    "name": "ambergon",
+                    "url": "https://github.com/ambergon",
+                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker/releases/download/version1.0.7/ukagakaPlugin_CeVIO-Talker.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ukagakaPlugin_CeVIO-Talker.nar",
+                    "size_in_bytes": 460161,
+                    "_ex": {
+                        "download_count": 32
+                    }
+                }
+            ]
+        },
+        {
             "id": "apxxxxxxe/Bouyomi",
             "url": "https://github.com/apxxxxxxe/Bouyomi",
             "title": "Bouyomi",
@@ -407,6 +440,43 @@
                     "size_in_bytes": 441657,
                     "_ex": {
                         "download_count": 8
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-whanwhan",
+            "url": "https://github.com/nikolat/jong-whanwhan",
+            "title": "jong-whanwhan",
+            "content_text": "========================================================================\n【ソフト名称】雀-ホワンホワン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「里々」を使用しています。\n\n    satoriya-shiori\n      https://github.com/ukatech/satoriya-shiori\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p009（耳尻尾by）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:36:57Z",
+            "date_modified": "2022-11-12T11:37:09Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "satori",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-whanwhan/releases/download/v1.1.0/jong-whanwhan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-whanwhan.nar",
+                    "size_in_bytes": 792193,
+                    "_ex": {
+                        "download_count": 33
                     }
                 }
             ]
@@ -692,6 +762,43 @@
             ]
         },
         {
+            "id": "nikolat/jong-chunchun",
+            "url": "https://github.com/nikolat/jong-chunchun",
+            "title": "jong-chunchun",
+            "content_text": "========================================================================\n【ソフト名称】雀-チュンチュン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「華和梨」を使用しています。\n\n    プログラマブル準AI 華和梨\n      https://kawari.github.io/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p008（耳尻尾br）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:35:44Z",
+            "date_modified": "2022-11-12T11:35:54Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "kawari",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-chunchun/releases/download/v1.1.0/jong-chunchun.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-chunchun.nar",
+                    "size_in_bytes": 899478,
+                    "_ex": {
+                        "download_count": 32
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/ghostbook",
             "url": "https://github.com/nikolat/ghostbook",
             "title": "ghostbook",
@@ -792,6 +899,41 @@
             ]
         },
         {
+            "id": "nikolat/ukadonyu",
+            "url": "https://github.com/nikolat/ukadonyu",
+            "title": "ukadonyu",
+            "content_text": "========================================================================\n【ソフト名称】うかどんゅう\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.27\n【 タ イ プ 】「伺か」用プラグイン\n【 取扱種別 】フリーウェア\n【 配布月日 】2021-11-23\n【 配 布 元 】http://nikolat.starfree.jp/ukadonyu/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するMastodonクライアント機能拡張プラグインです。\n  主に「うかどん」を想定した設計になっていますが、\n  うかどん以外のMastodonサーバーでも動作するはずです(未検証)。\n\n  うかどん\n    https://ukadon.shillest.net/\n\n  単体で動作させることはできません。\n  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを\n  別途ご用意ください。\n\n  ばぐとら研究所\n    http://ssp.shillest.net/\n\n■使用方法\n\n  設定画面にて以下のパラメータを設定してください\n  Access Tokenのパラメータは必須です。\n  設定画面一番下の「get Access Token (open browser)」から\n  認証手続きを行って下さい。\n\n  Access Token        : 認証用パラメータ\n  Server URL          : MastodonのURL\n  TL get interval     : タイムラインおよびリプライを取得し\n                        タスクトレイバルーン通知をする間隔（分）\n  num of post getting : 一度に取得する投稿数\n\n  上部アイコンをクリックすることで以下の動作をします。\n  左から順番に記述します。\n\n  comment       : トゥート用入力バー準備\n  refresh       : 全ての取得情報を更新\n  home          : メインとなるタイムラインを表示\n  local         : ローカルタイムラインを表示\n  notifications : 返信画面を表示\n  conversations : ダイレクトメッセージ画面を表示\n  favourites    : お気に入り画面を表示\n  settings      : 設定画面表示\n  cancel        : バルーンを閉じる\n\n  タイムライン表示中のアイコンについて\n\n  ・ユーザアイコンをクリックすると返信用トゥート入力バーを表示します。\n  ・トップのユーザアイコンの右のアイコンクリックで\n    ブースト確認画面を開きます。\n  ・その右の星アイコンクリックで\n    表示中のトゥートをfavouritesに追加します。\n  ・さらに右の地球アイコンクリックで\n    表示中のトゥートをブラウザで開きます。\n  ・さらに右の鉛筆アイコンクリックで\n    クリップボードにテキストをコピーします。\n\n  Access Tokenについて\n\n  設定画面からAccess Token設定ページをブラウザで開くことが出来ます。\n  うかどんにアクセスして認証が完了すると必要なパラメータが表示されますので、\n  設定画面から入力してください。\n\n  うかどん以外のサーバーで利用する場合は自分でAccess Tokenを用意する必要があります。\n  参考: https://ouvill.net/from_twitter_to_mastdon/#i-4\n  また、設定画面にてServer URLを自分が利用しているMastodonサーバーのURLに\n  変更してください。\n\n■更新履歴\n\n2021-11-23  Ver0.1  ・新規作成\n2021-11-24  Ver1.0  ・正式版公開\n2021-11-28  Ver1.1  ・ローカルタイムライン追加(認証不要)\n2021-11-29  Ver1.2  ・改行を改良\n2021-12-01  Ver1.3  ・スタンプを大きく表示\n                    ・添付画像を表示\n2021-12-04  Ver1.4  ・\"&apos;\" を \"'\" に変換\n2021-12-12  Ver1.5  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした\n2021-12-15  Ver1.6  ・透過っぽい絵文字は可能な限り透過表示にした\n                      アイコン画像の変更、レイアウト変更\n2022-01-30  Ver1.7  ・API Proxyを廃止し、直接Mastodonサーバーにアクセスするようにした\n                      ※うかどん以外のMastodonサーバーでも使えるようになりました\n2022-02-27  Ver1.8  ・日本語以外の環境で正常に起動できない不具合を修正\n                      display name が未設定の場合に投稿できない不具合を修正\n2022-02-27  Ver1.9  ・display name が未設定のuserのトゥートは代わりにusernameを表示するよう変更\n2022-03-02  Ver2.0  ・非同期処理の不安定化によるエラーの抑制\n                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正\n2022-08-04  Ver2.1  ・バルーン幅の取得に失敗した際にレイアウトをキャッシュしないように変更\n2023-01-19  Ver2.2  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止\n                    ・新バージョンの更新通知時メニューからネットワーク更新を追加\n",
+            "summary": "うかどんクライアント",
+            "date_published": "2023-01-18T23:49:28Z",
+            "date_modified": "2023-01-18T23:49:32Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "mastodon-client",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ukadonyu/releases/download/v2.2/ukadonyu.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "ukadonyu.nar",
+                    "size_in_bytes": 1792468,
+                    "_ex": {
+                        "download_count": 22
+                    }
+                }
+            ]
+        },
+        {
             "id": "apxxxxxxe/Youto",
             "url": "https://github.com/apxxxxxxe/Youto",
             "title": "Youto",
@@ -852,140 +994,6 @@
                     "size_in_bytes": 1838846,
                     "_ex": {
                         "download_count": 16
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/sudohaikuyu",
-            "url": "https://github.com/nikolat/sudohaikuyu",
-            "title": "sudohaikuyu",
-            "content_text": "========================================================================\n【ソフト名称】すどはいくゅう\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.28\n【 タ イ プ 】「伺か」用プラグイン\n【 取扱種別 】フリーウェア\n【 配布月日 】2021-11-29\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するスドハイククライアント機能拡張プラグインです。\n  単体で動作させることはできません。\n  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを\n  別途ご用意ください。\n\n  Sudo Haiku\n    https://h.sudo.ne.jp/\n\n  ばぐとら研究所\n    http://ssp.shillest.net/\n\n■使用方法\n\n  設定画面にて以下のパラメータを設定してください\n\n  TL get interval     : タイムラインを取得し\n                        タスクトレイバルーン通知をする間隔（分）\n\n  上部アイコンをクリックすることで以下の動作をします。\n  左から順番に記述します。\n\n  refresh       : 全ての取得情報を更新\n  home          : メインとなるタイムラインを表示\n  settings      : 設定画面表示\n  cancel        : バルーンを閉じる\n\n  タイムライン表示中のアイコンについて\n\n  ・鉛筆アイコンクリックで\n    クリップボードにテキストをコピーします。\n\n■更新履歴\n\n2021-11-29  Ver0.1  ・新規作成\n2022-03-02  Ver0.2  ・日本語以外の環境で正常に起動できない不具合を修正\n                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正\n2022-03-02  Ver0.3  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした\n                    ・非同期処理の不安定化によるエラーの抑制\n2023-01-20  Ver0.4  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止\n                    ・新バージョンの更新通知時メニューからネットワーク更新を追加\n",
-            "summary": "スドハイククライアント",
-            "date_published": "2023-01-20T10:37:14Z",
-            "date_modified": "2023-01-20T10:37:15Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "sudo-haiku",
-                "ukagaka",
-                "ukagaka-plugin"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/sudohaikuyu/releases/download/v0.4/sudohaikuyu.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "sudohaikuyu.nar",
-                    "size_in_bytes": 1383936,
-                    "_ex": {
-                        "download_count": 9
-                    }
-                }
-            ]
-        },
-        {
-            "id": "etwaslangsam/d2k",
-            "url": "https://github.com/etwaslangsam/d2k",
-            "title": "d2k",
-            "content_text": "ゴースト「芹那と妃音with玄恵」\n\n▼あらすじ\n ある日、あなたはベランダ（またはそれに類する場所）の鍵をかけ忘れて出かけたら部屋を狐耳と尻尾の生えたガラの悪そうなJKたちに部屋を占拠されていた。\n\n▼キャラクター紹介\n\t\n芹那（せりな）\n 画面右側の狐っ娘JK。不良グループ「蛇突鬼<ダッキ>」のメンバー。一人称がオレ。処女。\n\t\n妃音（きと）\n 画面中央の狐っ娘JK。不良グループ「蛇突鬼<ダッキ>」のリーダー。髪のお下げに見える部分も尻尾。処女。\n\t\n玄恵（くろえ）\n 画面左側の狐っ娘JK。しばらく起動させると出てくる。「蛇突鬼」とは関係ない優等生。処女。\n\n▼謝辞\n ボトル猫氏のフリーシェル「p013」「p014」「p015」を使用させていただいてます。\n また有志の方に一部画像を加工していただきました。ありがとうございます。\n\t\n▼免責事項\n このゴーストを使用し発生した如何なる問題について作者は一切の責任を負いません。\n\n▼その他\n 作者：てにてに\n 動作確認 OS：Windows10　SSP:最新 でしか確認してません\n\n▼著作意識の回答\n[1.ゴーストダウンロードページに直接リンクされる]\n[11.ゴーストアーカイブへの直リンク]\n\n\tダウンロードページへのリンクは問題ありません。\n\tアーカイブへの直リンはご遠慮ください。\n\n[2.ゴーストのネタバレをされる]\n[9.トークをウェブ上に転載]\n\n\t問題ありません。\n\tトーク転載の場合は出典を明記して下さい。\n\n[3.ゴーストに対し批判的な意見を言われる]\n\n\t言いがかり等ではないのなら貴重な意見として承ります。\n\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\n[5.原作の設定と大きくかけ離れた二次創作をされる]\n[6.18禁二次創作をされる]\n\n\t問題ありません。\n\t一言ご連絡いただけたら嬉しいです。\n\t18禁の場合は必ず教えて下さい！\n\n[7.追加シェル、バルーン等を配布される]\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\n\n\t追加シェル等の配布は大歓迎です。\n\tマスターシェルの改変・素材化等はシェル側の利用規約に従って下さい。\n\n[12.公開中ゴーストをウェブ上で再配布]\n[13.配布終了したゴーストをウェブ上で再配布]\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\n\n\t作者を騙らない限りは問題ありません。\n\tまた、改変した場合にも改変者名を明記して下さい。\n\n[15.ゴーストの同人誌収録]\n[16.ゴーストの商業誌収録]\n\n\t同人誌への収録時には一言ご連絡頂ければ問題ありません。\n\t商業誌への収録はご遠慮ください。",
-            "summary": "芹那と妃音with玄恵",
-            "date_published": "2023-01-08T13:07:18Z",
-            "date_modified": "2023-01-08T13:07:21Z",
-            "authors": [
-                {
-                    "name": "etwaslangsam",
-                    "url": "https://github.com/etwaslangsam",
-                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/etwaslangsam/d2k/releases/download/v1.52/d2k.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "d2k.nar",
-                    "size_in_bytes": 3171098,
-                    "_ex": {
-                        "download_count": 64
-                    }
-                }
-            ]
-        },
-        {
-            "id": "ambergon/ukagakaPlugin_getWindowTitle",
-            "url": "https://github.com/ambergon/ukagakaPlugin_getWindowTitle",
-            "title": "ukagakaPlugin_getWindowTitle",
-            "content_text": "# GetWindowTitle\nユーザーが現在開いているウィンドウのタイトルをゴーストが覗けるようになるプラグイン。<br>\n過去に書いた記事のものをプラグイン化しました。<br>\n[【伺か】Ghostからアクションを起こしてほしかったので、ユーザーの画面の覗き込むコードを書いた【yaya】 -- 異風堂々](https://ambergonslibrary.com/ukagaka/7360/)<br>\n\n\n## 動作環境\n- Windows10\n- SSP/2.6.25 (20221225-2; Windows NT 10.0.19045)\n\n\n## 使い方\n#### 呼び出し。\nコードが実行されたタイミングで現在トップで表示されているウィンドウ名を取得します。<br>\n受け取り方は後述。<br>\nゴーストがトップの場合はゴーストの名前が取得されます。<br>\nこの挙動はベースウェアが、ゴースト名をウィンドウタイトルとして使用している様です。<br>\nこちらからsakura.nameにアクセスしているわけではありません。<br>\n\nなので、ユーザーが見つめているかどうかの判定にも使えます。<br>\n```\n\"\\![raiseplugin,GetWindowTitle,OnGetWindowTitle]\"\n```\n\nまた、下記のようにすると少したってから実行されるので、デバッグテストにでもお使いください。<br>\n```\n\"\\w9\\w9\\w9\\w9\\w9\\![raiseplugin,GetWindowTitle,OnGetWindowTitle]\"\n```\n\n\n#### ウィンドウタイトルの受け取り\nゴースト側に下記の関数を実装してください。<br>\n下記の例だと、呼び出しを受けた際にウィンドウタイトル名を読み上げるようになっています。<br>\n```\nOnRecieveGetWindowTitle {\n    _title = reference[0]\n    _title\n}\n```\n\n\n#### ウィンドウタイトルの受け取りの実装例。\n下記の実装例は、自前ゴーストに導入するつもりだったものの廃案になったものです。<br>\n参考にでもしてください。<br>\nyayaで書かれています。<br>\n```\nOnRecieveGetWindowTitle {\n    _window_title = reference[0]\n\n    //マッチしてしまうとそこで確定してしまうのでデカいカテゴリほど後ろに回すとよい。\n    if ( RE_SEARCH( _window_title , \"iTunes\") == 1 ) {\n        \"どんな曲が好き？\\n/\n        私はJAZZアレンジとかがいいな。\\n/\n        もとがアニメやゲームの曲のアレンジ曲とか大好きだよ\\e\"\n        \"私、レトロゲームのサウンドトラックとかもよく聞いちゃうんだけどね、ネットでは売ってないんだ・・・iTunesもあんまり扱ってないんだよね・・・\"\n\n    } elseif ( RE_SEARCH( _window_title , \"AviUtl\") == 1 ) || ( RE_SEARCH( _window_title , \"拡張編集\") == 1 ){\n        \"今日は動画編集の日？\\n/\n        頑張って！\"\n\n    } elseif ( RE_SEARCH( _window_title , \"Studio One\") == 1 ) {\n        \"今日は作曲？編曲の日？\"\n\n    } elseif ( RE_SEARCH( _window_title , \"ラジオ\") == 1 ) || ( RE_SEARCH( _window_title , \"radio\") == 1 ) {\n        \"実はラジオ動画の投稿なんかもしてたり。。。 \\nこれ、秘密ね。\"\n\n    } elseif ( RE_SEARCH( _window_title , \"TRPG\") == 1 ) {\n        \"TRPGって面白そうだよね。 いつかやってみたいんだけど環境がね～。 まずTRPGを楽しんでくれる友人を用意します！ ・・・ハァ。。\"\n\n\n    //以下デカいカテゴリ\n    } elseif ( RE_SEARCH( _window_title , \"ASMR\") == 1 ) {\n        \"耳舐め。。。いや、何でもないです。\"\n        \"耳をふさいでる音ってすごいよね。。\"\n\n    } elseif ( RE_SEARCH( _window_title , \"FANZA\") == 1 ) || ( RE_SEARCH( _window_title , \"アダルト\") == 1 ) || ( RE_SEARCH( _window_title , \"エロい単語とかその辺\") == 1 ) {\n        \"ッ！！。。。。！！！！ \"\n\n    } elseif ( RE_SEARCH( _window_title , \"VOICEROID2\") == 1 ) {\n        \"調声って難しいよねぇ。。。\"\n\n    } elseif ( RE_SEARCH( _window_title , \"ニコニコ動画\") == 1 ) {\n        \"ニ～コニコ動画♪  ドワンゴじゃない何かが 。。。今何時だっけ。%(hour)時過ぎをお知らせするよ～\"\n\n    } elseif ( RE_SEARCH( _window_title , \"\") == 1 ) {\n        //\"\"\n    } elseif ( RE_SEARCH( _window_title , \"\") == 1 ) {\n    } else {\n        //_window_title\n    }\n}\n```\n\n\n## お借りしたもの\nyaya.dll<br>\n[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)<br>\n\nproxy_ex.dll<br>\n[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)<br>\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。<br>\nこれらをゴースト等に同梱して配布していただいて構いません。<br>\nまた、プラグインとしてではなく、ゴースト本体に組み込んでいただいてもかまいません。<br>\n\n\n## 小言\nこれを書いた当初はゴーストに可能な限りそこにいる雰囲気を出してくれることを望んでいたのですが、<br>\n迷走した果てに没になりました。<br>\nもしよければ遊んでみてください。<br>\n\n\n\n## Author\n[ambergon](https://twitter.com/Sc_lFoxGon)\n\n\n\n\n",
-            "summary": "伺か ・ゴーストがあなたの作業を覗き込むようになるプラグイン。",
-            "date_published": "2023-01-07T13:36:48Z",
-            "date_modified": "2023-01-07T13:36:50Z",
-            "authors": [
-                {
-                    "name": "ambergon",
-                    "url": "https://github.com/ambergon",
-                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-plugin"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/ambergon/ukagakaPlugin_getWindowTitle/releases/download/1.0.0/ukagakaPlugin_getWindowTitle.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "ukagakaPlugin_getWindowTitle.nar",
-                    "size_in_bytes": 951624,
-                    "_ex": {
-                        "download_count": 19
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/desktop_tempter_casino_chip_blue",
-            "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_blue",
-            "title": "desktop_tempter_casino_chip_blue",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】カジノチップ(青)\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサス・ホールデムのクライアントゴーストです。\r\n遊ぶにはサーバーゴーストを入れる必要があります。\r\nまた、クライアントゴーストのサンプルゴーストでもあります。\r\n自分で思考部分作りたい方は\r\nghost/master/README.txt、ghost/master/dic_texas_holdem.dic、\r\nghost/master/dic_texas_holdem_ai.dicを参照してみてください。\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\nSAORIにTexasHoldemUtilを使用しています。\r\n\r\n",
-            "summary": "",
-            "date_published": "2023-01-07T05:38:47Z",
-            "date_modified": "2023-01-07T05:38:50Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_blue/releases/download/1.0.0/desktop_tempter_casino_chip_blue.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "desktop_tempter_casino_chip_blue.nar",
-                    "size_in_bytes": 497848,
-                    "_ex": {
-                        "download_count": 3
                     }
                 }
             ]

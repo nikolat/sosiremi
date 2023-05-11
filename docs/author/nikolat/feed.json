@@ -108,6 +108,43 @@
             ]
         },
         {
+            "id": "nikolat/jong-whanwhan",
+            "url": "https://github.com/nikolat/jong-whanwhan",
+            "title": "jong-whanwhan",
+            "content_text": "========================================================================\n【ソフト名称】雀-ホワンホワン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「里々」を使用しています。\n\n    satoriya-shiori\n      https://github.com/ukatech/satoriya-shiori\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p009（耳尻尾by）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:36:57Z",
+            "date_modified": "2022-11-12T11:37:09Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "satori",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-whanwhan/releases/download/v1.1.0/jong-whanwhan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-whanwhan.nar",
+                    "size_in_bytes": 792193,
+                    "_ex": {
+                        "download_count": 33
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/ukagaka-hakoirimusume",
             "url": "https://github.com/nikolat/ukagaka-hakoirimusume",
             "title": "ukagaka-hakoirimusume",
@@ -355,6 +392,43 @@
             ]
         },
         {
+            "id": "nikolat/jong-chunchun",
+            "url": "https://github.com/nikolat/jong-chunchun",
+            "title": "jong-chunchun",
+            "content_text": "========================================================================\n【ソフト名称】雀-チュンチュン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「華和梨」を使用しています。\n\n    プログラマブル準AI 華和梨\n      https://kawari.github.io/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p008（耳尻尾br）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:35:44Z",
+            "date_modified": "2022-11-12T11:35:54Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "kawari",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-chunchun/releases/download/v1.1.0/jong-chunchun.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-chunchun.nar",
+                    "size_in_bytes": 899478,
+                    "_ex": {
+                        "download_count": 32
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/ghostbook",
             "url": "https://github.com/nikolat/ghostbook",
             "title": "ghostbook",
@@ -389,13 +463,13 @@
             ]
         },
         {
-            "id": "nikolat/sudohaikuyu",
-            "url": "https://github.com/nikolat/sudohaikuyu",
-            "title": "sudohaikuyu",
-            "content_text": "========================================================================\n【ソフト名称】すどはいくゅう\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.28\n【 タ イ プ 】「伺か」用プラグイン\n【 取扱種別 】フリーウェア\n【 配布月日 】2021-11-29\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するスドハイククライアント機能拡張プラグインです。\n  単体で動作させることはできません。\n  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを\n  別途ご用意ください。\n\n  Sudo Haiku\n    https://h.sudo.ne.jp/\n\n  ばぐとら研究所\n    http://ssp.shillest.net/\n\n■使用方法\n\n  設定画面にて以下のパラメータを設定してください\n\n  TL get interval     : タイムラインを取得し\n                        タスクトレイバルーン通知をする間隔（分）\n\n  上部アイコンをクリックすることで以下の動作をします。\n  左から順番に記述します。\n\n  refresh       : 全ての取得情報を更新\n  home          : メインとなるタイムラインを表示\n  settings      : 設定画面表示\n  cancel        : バルーンを閉じる\n\n  タイムライン表示中のアイコンについて\n\n  ・鉛筆アイコンクリックで\n    クリップボードにテキストをコピーします。\n\n■更新履歴\n\n2021-11-29  Ver0.1  ・新規作成\n2022-03-02  Ver0.2  ・日本語以外の環境で正常に起動できない不具合を修正\n                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正\n2022-03-02  Ver0.3  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした\n                    ・非同期処理の不安定化によるエラーの抑制\n2023-01-20  Ver0.4  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止\n                    ・新バージョンの更新通知時メニューからネットワーク更新を追加\n",
-            "summary": "スドハイククライアント",
-            "date_published": "2023-01-20T10:37:14Z",
-            "date_modified": "2023-01-20T10:37:15Z",
+            "id": "nikolat/ukadonyu",
+            "url": "https://github.com/nikolat/ukadonyu",
+            "title": "ukadonyu",
+            "content_text": "========================================================================\n【ソフト名称】うかどんゅう\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.27\n【 タ イ プ 】「伺か」用プラグイン\n【 取扱種別 】フリーウェア\n【 配布月日 】2021-11-23\n【 配 布 元 】http://nikolat.starfree.jp/ukadonyu/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するMastodonクライアント機能拡張プラグインです。\n  主に「うかどん」を想定した設計になっていますが、\n  うかどん以外のMastodonサーバーでも動作するはずです(未検証)。\n\n  うかどん\n    https://ukadon.shillest.net/\n\n  単体で動作させることはできません。\n  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを\n  別途ご用意ください。\n\n  ばぐとら研究所\n    http://ssp.shillest.net/\n\n■使用方法\n\n  設定画面にて以下のパラメータを設定してください\n  Access Tokenのパラメータは必須です。\n  設定画面一番下の「get Access Token (open browser)」から\n  認証手続きを行って下さい。\n\n  Access Token        : 認証用パラメータ\n  Server URL          : MastodonのURL\n  TL get interval     : タイムラインおよびリプライを取得し\n                        タスクトレイバルーン通知をする間隔（分）\n  num of post getting : 一度に取得する投稿数\n\n  上部アイコンをクリックすることで以下の動作をします。\n  左から順番に記述します。\n\n  comment       : トゥート用入力バー準備\n  refresh       : 全ての取得情報を更新\n  home          : メインとなるタイムラインを表示\n  local         : ローカルタイムラインを表示\n  notifications : 返信画面を表示\n  conversations : ダイレクトメッセージ画面を表示\n  favourites    : お気に入り画面を表示\n  settings      : 設定画面表示\n  cancel        : バルーンを閉じる\n\n  タイムライン表示中のアイコンについて\n\n  ・ユーザアイコンをクリックすると返信用トゥート入力バーを表示します。\n  ・トップのユーザアイコンの右のアイコンクリックで\n    ブースト確認画面を開きます。\n  ・その右の星アイコンクリックで\n    表示中のトゥートをfavouritesに追加します。\n  ・さらに右の地球アイコンクリックで\n    表示中のトゥートをブラウザで開きます。\n  ・さらに右の鉛筆アイコンクリックで\n    クリップボードにテキストをコピーします。\n\n  Access Tokenについて\n\n  設定画面からAccess Token設定ページをブラウザで開くことが出来ます。\n  うかどんにアクセスして認証が完了すると必要なパラメータが表示されますので、\n  設定画面から入力してください。\n\n  うかどん以外のサーバーで利用する場合は自分でAccess Tokenを用意する必要があります。\n  参考: https://ouvill.net/from_twitter_to_mastdon/#i-4\n  また、設定画面にてServer URLを自分が利用しているMastodonサーバーのURLに\n  変更してください。\n\n■更新履歴\n\n2021-11-23  Ver0.1  ・新規作成\n2021-11-24  Ver1.0  ・正式版公開\n2021-11-28  Ver1.1  ・ローカルタイムライン追加(認証不要)\n2021-11-29  Ver1.2  ・改行を改良\n2021-12-01  Ver1.3  ・スタンプを大きく表示\n                    ・添付画像を表示\n2021-12-04  Ver1.4  ・\"&apos;\" を \"'\" に変換\n2021-12-12  Ver1.5  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした\n2021-12-15  Ver1.6  ・透過っぽい絵文字は可能な限り透過表示にした\n                      アイコン画像の変更、レイアウト変更\n2022-01-30  Ver1.7  ・API Proxyを廃止し、直接Mastodonサーバーにアクセスするようにした\n                      ※うかどん以外のMastodonサーバーでも使えるようになりました\n2022-02-27  Ver1.8  ・日本語以外の環境で正常に起動できない不具合を修正\n                      display name が未設定の場合に投稿できない不具合を修正\n2022-02-27  Ver1.9  ・display name が未設定のuserのトゥートは代わりにusernameを表示するよう変更\n2022-03-02  Ver2.0  ・非同期処理の不安定化によるエラーの抑制\n                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正\n2022-08-04  Ver2.1  ・バルーン幅の取得に失敗した際にレイアウトをキャッシュしないように変更\n2023-01-19  Ver2.2  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止\n                    ・新バージョンの更新通知時メニューからネットワーク更新を追加\n",
+            "summary": "うかどんクライアント",
+            "date_published": "2023-01-18T23:49:28Z",
+            "date_modified": "2023-01-18T23:49:32Z",
             "authors": [
                 {
                     "name": "nikolat",
@@ -405,20 +479,20 @@
             ],
             "tags": [
                 "akari",
+                "mastodon-client",
                 "sirefaso",
                 "sosiremi",
-                "sudo-haiku",
                 "ukagaka",
                 "ukagaka-plugin"
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/nikolat/sudohaikuyu/releases/download/v0.4/sudohaikuyu.nar",
+                    "url": "https://github.com/nikolat/ukadonyu/releases/download/v2.2/ukadonyu.nar",
                     "mime_type": "application/x-nar",
-                    "title": "sudohaikuyu.nar",
-                    "size_in_bytes": 1383936,
+                    "title": "ukadonyu.nar",
+                    "size_in_bytes": 1792468,
                     "_ex": {
-                        "download_count": 9
+                        "download_count": 22
                     }
                 }
             ]
