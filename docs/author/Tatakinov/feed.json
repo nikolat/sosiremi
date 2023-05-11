@@ -105,6 +105,39 @@
             ]
         },
         {
+            "id": "Tatakinov/desktop_tempter_casino_chip_blue",
+            "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_blue",
+            "title": "desktop_tempter_casino_chip_blue",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】カジノチップ(青)\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサス・ホールデムのクライアントゴーストです。\r\n遊ぶにはサーバーゴーストを入れる必要があります。\r\nまた、クライアントゴーストのサンプルゴーストでもあります。\r\n自分で思考部分作りたい方は\r\nghost/master/README.txt、ghost/master/dic_texas_holdem.dic、\r\nghost/master/dic_texas_holdem_ai.dicを参照してみてください。\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\nSAORIにTexasHoldemUtilを使用しています。\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-01-07T05:38:47Z",
+            "date_modified": "2023-01-07T05:38:50Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_blue/releases/download/1.0.0/desktop_tempter_casino_chip_blue.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "desktop_tempter_casino_chip_blue.nar",
+                    "size_in_bytes": 497848,
+                    "_ex": {
+                        "download_count": 3
+                    }
+                }
+            ]
+        },
+        {
             "id": "Tatakinov/desktop_tempter_casino_chip_green",
             "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_green",
             "title": "desktop_tempter_casino_chip_green",

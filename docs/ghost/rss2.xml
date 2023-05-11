@@ -87,15 +87,6 @@
     <pubDate>Sat, 07 Jan 2023 14:42:08 +0900</pubDate>
 </item>
 <item>
-    <title>jong-whanwhan</title>
-    <link>https://github.com/nikolat/jong-whanwhan</link>
-    <description>麻雀クライアントゴースト</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jong-whanwhan</guid>
-    <pubDate>Sat, 12 Nov 2022 20:37:09 +0900</pubDate>
-</item>
-<item>
     <title>ukagaka-hakoirimusume</title>
     <link>https://github.com/nikolat/ukagaka-hakoirimusume</link>
     <description>Klotski for UKAGAKA</description>
@@ -159,15 +150,6 @@
     <pubDate>Sat, 12 Nov 2022 20:34:32 +0900</pubDate>
 </item>
 <item>
-    <title>jong-chunchun</title>
-    <link>https://github.com/nikolat/jong-chunchun</link>
-    <description>麻雀クライアントゴースト</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jong-chunchun</guid>
-    <pubDate>Sat, 12 Nov 2022 20:35:54 +0900</pubDate>
-</item>
-<item>
     <title>ghostbook</title>
     <link>https://github.com/nikolat/ghostbook</link>
     <description>伺かゴースト</description>
@@ -193,6 +175,24 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Youto</guid>
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
+</item>
+<item>
+    <title>d2k</title>
+    <link>https://github.com/etwaslangsam/d2k</link>
+    <description>芹那と妃音with玄恵</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/d2k</guid>
+    <pubDate>Sun, 08 Jan 2023 22:07:21 +0900</pubDate>
+</item>
+<item>
+    <title>desktop_tempter_casino_chip_blue</title>
+    <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_blue</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_blue</guid>
+    <pubDate>Sat, 07 Jan 2023 14:38:50 +0900</pubDate>
 </item>
 <item>
     <title>d2k</title>
