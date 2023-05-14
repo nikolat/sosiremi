@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/taidanaSanoSan",
+            "url": "https://github.com/tukinami/taidanaSanoSan",
+            "title": "taidanaSanoSan",
+            "content_text": " 怠惰な佐野さん\r\n============================================================\r\n面倒くさがりな少年「佐野 伊織」と、猫又の「きぬ」の\r\n雑談系ゴーストです。\r\n\r\n満腹度によって、わずかばかりトークが増減します。\r\nまた、ユーザーがおやつをあげることもできます。\r\n\r\n(トークの内容について、不正確な内容も含まれるかと思います。\r\n引用等につきましては、その点ご注意下さい。)\r\n\r\n追加シェル「master-s」(小さなドット絵シェル)、\r\nバルーン「怠惰な猫の青い石」を同梱してます。\r\n\r\n\r\n基本的な操作\r\n============================================================\r\nゴースト上でダブルクリックすると、メニューが出ます。\r\nこのゴーストの設定・おやつなどはここからどうぞ。\r\n\r\n\r\n対応プラグイン\r\n============================================================\r\n・SwissArmyKnife\r\n・スタンプ帳\r\n    http://navy.nm.land.to/post/\r\n・GetWindowTitle\r\n    https://github.com/ambergon/ukagakaPlugin_getWindowTitle\r\n\r\n\r\nバグ報告など\r\n============================================================\r\nバグ報告・感想などは、現在、\r\n・Peing質問箱(https://peing.net/ja/tukinami_seika)\r\nまたは、\r\n・Mastodon(@tukinami_seika@fedibird.com)\r\n・Twitter(@tukinami_s)(ほとんど放置)\r\nでのDM、リプライで受け付けています。\r\n\r\nバグ報告については\r\nGitHubのIssues(https://github.com/tukinami/taidanaSanoSan/issues)\r\nでも受け付けています。\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n使用しているものについて\r\n============================================================\r\nYAYA(SHIORI)\r\nhttps://github.com/ponapalt/yaya-shiori/wiki\r\n紺野ややめ(テンプレートゴースト)\r\nhttp://ms.shillest.net/yayame.xhtml\r\n\r\n\r\n謝辞\r\n============================================================\r\nEmily/Phase4.5\r\nCopyright (C) 2004- Emily/Phase4.5 Project.\r\nhttp://ssp.shillest.net/\r\nゴースト作成において大変参考にさせていただきました。\r\nありがとうございます。\r\n\r\n\r\nゴーストの著作権等について(2022.12.12 現在)\r\n============================================================\r\n\r\nゴースト著作権意識についての質問\r\nhttp://emily.shillest.net/specwiki/index.php?ueda%2F%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E8%91%97%E4%BD%9C%E6%A8%A9%E6%84%8F%E8%AD%98%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E8%B3%AA%E5%95%8F\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n 可能。URLが変わるかもしれない点に気を付けて下さい。\r\n\r\n[2.ゴーストのネタバレをされる]\r\n OK。\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n OK。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n 月波清火個人の著作物 : OK。個人の範囲で。\r\n その他の方の著作物 : その著作物の規則に従って下さい。\r\n\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n OK。\r\n\r\n[6.18禁二次創作をされる]\r\n OK。個人の責で。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n OK。喜びます。\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n OK。改変したことを明記の上。\r\n\r\n[9.トークをウェブ上に転載]\r\n OK。\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n 月波清火の著作物ならば可能。\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n 不可。\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n OK。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n OK。\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n OK。改変したこと、元がそのゴーストであることを明記の上。\r\n\r\n[15.ゴーストの同人誌収録]\r\n OK。事後でも報告があるとありがたいです。\r\n\r\n[16.ゴーストの商業誌収録]\r\n 事前報告後判断いたします。\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/taidanaSanoSan\r\n",
+            "summary": "伺か雑談系ゴースト",
+            "date_published": "2023-02-26T08:03:25Z",
+            "date_modified": "2023-02-26T08:03:29Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/taidanaSanoSan/releases/download/v1.2.0/taidanaSanoSan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "taidanaSanoSan.nar",
+                    "size_in_bytes": 1530498,
+                    "_ex": {
+                        "download_count": 8
+                    }
+                }
+            ]
+        },
+        {
             "id": "Tatakinov/banjou_no_sumikko_de",
             "url": "https://github.com/Tatakinov/banjou_no_sumikko_de",
             "title": "banjou_no_sumikko_de",
@@ -338,39 +371,6 @@
             ]
         },
         {
-            "id": "tukinami/taidanaSanoSan",
-            "url": "https://github.com/tukinami/taidanaSanoSan",
-            "title": "taidanaSanoSan",
-            "content_text": " 怠惰な佐野さん\r\n============================================================\r\n面倒くさがりな少年「佐野 伊織」と、猫又の「きぬ」の\r\n雑談系ゴーストです。\r\n\r\n満腹度によって、わずかばかりトークが増減します。\r\nまた、ユーザーがおやつをあげることもできます。\r\n\r\n(トークの内容について、不正確な内容も含まれるかと思います。\r\n引用等につきましては、その点ご注意下さい。)\r\n\r\n追加シェル「master-s」(小さなドット絵シェル)、\r\nバルーン「怠惰な猫の青い石」を同梱してます。\r\n\r\n\r\n基本的な操作\r\n============================================================\r\nゴースト上でダブルクリックすると、メニューが出ます。\r\nこのゴーストの設定・おやつなどはここからどうぞ。\r\n\r\n\r\n対応プラグイン\r\n============================================================\r\n・SwissArmyKnife\r\n・スタンプ帳\r\n    http://navy.nm.land.to/post/\r\n・GetWindowTitle\r\n    https://github.com/ambergon/ukagakaPlugin_getWindowTitle\r\n\r\n\r\nバグ報告など\r\n============================================================\r\nバグ報告・感想などは、現在、\r\n・Peing質問箱(https://peing.net/ja/tukinami_seika)\r\nまたは、\r\n・Mastodon(@tukinami_seika@fedibird.com)\r\n・Twitter(@tukinami_s)(ほとんど放置)\r\nでのDM、リプライで受け付けています。\r\n\r\nバグ報告については\r\nGitHubのIssues(https://github.com/tukinami/taidanaSanoSan/issues)\r\nでも受け付けています。\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n使用しているものについて\r\n============================================================\r\nYAYA(SHIORI)\r\nhttps://github.com/ponapalt/yaya-shiori/wiki\r\n紺野ややめ(テンプレートゴースト)\r\nhttp://ms.shillest.net/yayame.xhtml\r\n\r\n\r\n謝辞\r\n============================================================\r\nEmily/Phase4.5\r\nCopyright (C) 2004- Emily/Phase4.5 Project.\r\nhttp://ssp.shillest.net/\r\nゴースト作成において大変参考にさせていただきました。\r\nありがとうございます。\r\n\r\n\r\nゴーストの著作権等について(2022.12.12 現在)\r\n============================================================\r\n\r\nゴースト著作権意識についての質問\r\nhttp://emily.shillest.net/specwiki/index.php?ueda%2F%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E8%91%97%E4%BD%9C%E6%A8%A9%E6%84%8F%E8%AD%98%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E8%B3%AA%E5%95%8F\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n 可能。URLが変わるかもしれない点に気を付けて下さい。\r\n\r\n[2.ゴーストのネタバレをされる]\r\n OK。\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n OK。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n 月波清火個人の著作物 : OK。個人の範囲で。\r\n その他の方の著作物 : その著作物の規則に従って下さい。\r\n\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n OK。\r\n\r\n[6.18禁二次創作をされる]\r\n OK。個人の責で。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n OK。喜びます。\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n OK。改変したことを明記の上。\r\n\r\n[9.トークをウェブ上に転載]\r\n OK。\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n 月波清火の著作物ならば可能。\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n 不可。\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n OK。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n OK。\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n OK。改変したこと、元がそのゴーストであることを明記の上。\r\n\r\n[15.ゴーストの同人誌収録]\r\n OK。事後でも報告があるとありがたいです。\r\n\r\n[16.ゴーストの商業誌収録]\r\n 事前報告後判断いたします。\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/taidanaSanoSan\r\n",
-            "summary": "伺か雑談系ゴースト",
-            "date_published": "2023-02-26T08:03:25Z",
-            "date_modified": "2023-02-26T08:03:29Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/taidanaSanoSan/releases/download/v1.2.0/taidanaSanoSan.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "taidanaSanoSan.nar",
-                    "size_in_bytes": 1530498,
-                    "_ex": {
-                        "download_count": 8
-                    }
-                }
-            ]
-        },
-        {
             "id": "Taromati2/Taromati2",
             "url": "https://github.com/Taromati2/Taromati2",
             "title": "Taromati2",
@@ -406,7 +406,7 @@
                     "title": "full_data_pack.nar",
                     "size_in_bytes": 9370662,
                     "_ex": {
-                        "download_count": 5
+                        "download_count": 6
                     }
                 }
             ]
