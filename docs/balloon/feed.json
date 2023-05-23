@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/talismanic_beast_pattern",
+            "url": "https://github.com/tukinami/talismanic_beast_pattern",
+            "title": "talismanic_beast_pattern",
+            "content_text": "伺か用バルーン「魔除けの獣面紋」\r\n\r\n制作: 月波 清火\r\n公開日: 2023-01-19\r\n動作確認: SSP/2.6.28\r\n------------------------------------------------------------\r\n\r\n古代中国をイメージしたバルーンで、\r\n獣面紋(饕餮文とも)や怪獣文をアレンジして取り入れています。\r\n\r\n特徴\r\n・大き目(フォントサイズ15、縦長め)\r\n・左右同一デザイン\r\n・スクロール用矢印がやや特殊(右が前への、左が後ろへの矢印)\r\n\r\n\r\nライセンス\r\n------------------------------------------------------------\r\n画像内の文字に、 SIMO様制作「青柳隷書しも」を使用しています。\r\nhttps://opentype.jp/aoyagireisho.htm\r\n\r\nまた、公開レポジトリにある「balloontown-preview.png」の文字に、\r\n「ＭＳ 明朝」、「ＭＳ ゴシック」を使用しています。\r\n(data:株式会社リコー typeface:リョービイマジクス(株))\r\n(「ＭＳ 明朝」、「ＭＳ ゴシック」は米国Microsoft Corporationの\r\n米国及びその他の国の登録商標または商標です。)\r\n\r\n上記以外のファイルについては、\r\n「CC0 1.0 Universal」にて配布いたします。\r\nhttps://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n\r\n連絡先\r\n------------------------------------------------------------\r\nPeing質問箱(https://peing.net/ja/tukinami_seika)\r\n\r\nバグ報告・感想・要望等、お気軽にどうぞ。\r\n\r\n\r\n更新履歴\r\n------------------------------------------------------------\r\n2013-01-24: readme.txt更新(レポジトリのみ)。\r\n2023-01-19: 初版公開。\r\n",
+            "summary": "伺か用バルーン「魔除けの獣面紋」",
+            "date_published": "2023-01-19T12:57:39Z",
+            "date_modified": "2023-01-19T12:57:44Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-balloon"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/talismanic_beast_pattern/releases/download/v1.0.0/talismanic_beast_pattern.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "talismanic_beast_pattern.nar",
+                    "size_in_bytes": 1838846,
+                    "_ex": {
+                        "download_count": 16
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/jb-standard-balloon",
             "url": "https://github.com/nikolat/jb-standard-balloon",
             "title": "jb-standard-balloon",

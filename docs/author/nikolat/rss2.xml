@@ -132,6 +132,15 @@
     <pubDate>Thu, 19 Jan 2023 08:49:32 +0900</pubDate>
 </item>
 <item>
+    <title>sudohaikuyu</title>
+    <link>https://github.com/nikolat/sudohaikuyu</link>
+    <description>スドハイククライアント</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
+    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
+</item>
+<item>
     <title>si-near-future</title>
     <link>https://github.com/nikolat/si-near-future</link>
     <description>additional shell for simultaneous-interpreter</description>
@@ -184,6 +193,15 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
     <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
+</item>
+<item>
+    <title>balloonselector</title>
+    <link>https://github.com/nikolat/balloonselector</link>
+    <description>バルーン選択支援プラグイン</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/balloonselector</guid>
+    <pubDate>Sun, 10 Jul 2022 19:55:18 +0900</pubDate>
 </item>
 <item>
     <title>ukagaka-caramelldansen-patch</title>
