@@ -42,6 +42,15 @@
     <pubDate>Sun, 30 Apr 2023 11:49:02 +0900</pubDate>
 </item>
 <item>
+    <title>myalice2</title>
+    <link>https://github.com/etwaslangsam/myalice2</link>
+    <description>ゴースト「僕のアリス2」</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
+    <pubDate>Wed, 22 Feb 2023 22:21:23 +0900</pubDate>
+</item>
+<item>
     <title>bee</title>
     <link>https://github.com/nikolat/bee</link>
     <description>伺かゴースト</description>
@@ -51,6 +60,15 @@
     <pubDate>Mon, 02 Jan 2023 10:40:13 +0900</pubDate>
 </item>
 <item>
+    <title>ukagaka-simultaneous-interpreter</title>
+    <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
+    <description>Simultaneous Interpreter Ghost</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukagaka-simultaneous-interpreter</guid>
+    <pubDate>Sat, 06 May 2023 07:47:09 +0900</pubDate>
+</item>
+<item>
     <title>HamirLore</title>
     <link>https://github.com/Shimofumi/HamirLore</link>
     <description>Ukagaka ghost HamirLore</description>
@@ -58,6 +76,15 @@
     <dc:creator>Shimofumi</dc:creator>
     <guid isPermaLink="false">Shimofumi/HamirLore</guid>
     <pubDate>Thu, 29 Dec 2022 22:19:11 +0900</pubDate>
+</item>
+<item>
+    <title>Taromati2</title>
+    <link>https://github.com/Taromati2/Taromati2</link>
+    <description>黑色的猫咪 银发的少女 没有结局的故事</description>
+    <category>ghost</category>
+    <dc:creator>Taromati2</dc:creator>
+    <guid isPermaLink="false">Taromati2/Taromati2</guid>
+    <pubDate>Sun, 07 May 2023 09:43:34 +0900</pubDate>
 </item>
 <item>
     <title>desktop_tempter</title>
