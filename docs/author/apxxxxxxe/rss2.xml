@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/apxxxxxxe/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>Bouyomi</title>
+    <link>https://github.com/apxxxxxxe/Bouyomi</link>
+    <description>伺かプラグイン</description>
+    <category>plugin</category>
+    <dc:creator>apxxxxxxe</dc:creator>
+    <guid isPermaLink="false">apxxxxxxe/Bouyomi</guid>
+    <pubDate>Wed, 05 Apr 2023 20:05:05 +0900</pubDate>
+</item>
+<item>
     <title>Youto</title>
     <link>https://github.com/apxxxxxxe/Youto</link>
     <description>伺かゴースト</description>
