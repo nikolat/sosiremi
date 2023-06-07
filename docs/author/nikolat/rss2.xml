@@ -33,15 +33,6 @@
     <pubDate>Mon, 02 Jan 2023 10:40:13 +0900</pubDate>
 </item>
 <item>
-    <title>wallet_of_unyu</title>
-    <link>https://github.com/nikolat/wallet_of_unyu</link>
-    <description>伺かの世界で流通する暗号通貨UNYUのウォレット</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/wallet_of_unyu</guid>
-    <pubDate>Sat, 06 May 2023 07:36:14 +0900</pubDate>
-</item>
-<item>
     <title>ukagaka-simultaneous-interpreter</title>
     <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
     <description>Simultaneous Interpreter Ghost</description>
@@ -49,6 +40,15 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukagaka-simultaneous-interpreter</guid>
     <pubDate>Sat, 06 May 2023 07:47:09 +0900</pubDate>
+</item>
+<item>
+    <title>wallet_of_unyu</title>
+    <link>https://github.com/nikolat/wallet_of_unyu</link>
+    <description>伺かの世界で流通する暗号通貨UNYUのウォレット</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/wallet_of_unyu</guid>
+    <pubDate>Sat, 06 May 2023 07:36:14 +0900</pubDate>
 </item>
 <item>
     <title>jong-whanwhan</title>
