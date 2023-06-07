@@ -78,15 +78,6 @@
     <pubDate>Sat, 06 May 2023 07:36:14 +0900</pubDate>
 </item>
 <item>
-    <title>bath_ane</title>
-    <link>https://github.com/etwaslangsam/bath_ane</link>
-    <description>風呂上がりの姉貴</description>
-    <category>ghost</category>
-    <dc:creator>etwaslangsam</dc:creator>
-    <guid isPermaLink="false">etwaslangsam/bath_ane</guid>
-    <pubDate>Sun, 30 Apr 2023 11:49:02 +0900</pubDate>
-</item>
-<item>
     <title>myalice2</title>
     <link>https://github.com/etwaslangsam/myalice2</link>
     <description>ゴースト「僕のアリス2」</description>
@@ -265,6 +256,15 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Youto</guid>
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
+</item>
+<item>
+    <title>talismanic_beast_pattern</title>
+    <link>https://github.com/tukinami/talismanic_beast_pattern</link>
+    <description>伺か用バルーン「魔除けの獣面紋」</description>
+    <category>balloon</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/talismanic_beast_pattern</guid>
+    <pubDate>Thu, 19 Jan 2023 21:57:44 +0900</pubDate>
 </item>
 <item>
     <title>talismanic_beast_pattern</title>
