@@ -42,6 +42,15 @@
     <pubDate>Sat, 12 Nov 2022 20:34:32 +0900</pubDate>
 </item>
 <item>
+    <title>bee</title>
+    <link>https://github.com/nikolat/bee</link>
+    <description>伺かゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/bee</guid>
+    <pubDate>Mon, 02 Jan 2023 10:40:13 +0900</pubDate>
+</item>
+<item>
     <title>d2k</title>
     <link>https://github.com/etwaslangsam/d2k</link>
     <description>芹那と妃音with玄恵</description>
@@ -222,6 +231,15 @@
     <pubDate>Thu, 23 Mar 2023 17:45:09 +0900</pubDate>
 </item>
 <item>
+    <title>SSP-AIVOICE</title>
+    <link>https://github.com/opera7133/SSP-AIVOICE</link>
+    <description>伺かとA.I.VOICEを連携</description>
+    <category>plugin</category>
+    <dc:creator>opera7133</dc:creator>
+    <guid isPermaLink="false">opera7133/SSP-AIVOICE</guid>
+    <pubDate>Fri, 17 Mar 2023 23:38:46 +0900</pubDate>
+</item>
+<item>
     <title>ukadonyu</title>
     <link>https://github.com/nikolat/ukadonyu</link>
     <description>うかどんクライアント</description>
@@ -238,24 +256,6 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Youto</guid>
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
-</item>
-<item>
-    <title>talismanic_beast_pattern</title>
-    <link>https://github.com/tukinami/talismanic_beast_pattern</link>
-    <description>伺か用バルーン「魔除けの獣面紋」</description>
-    <category>balloon</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/talismanic_beast_pattern</guid>
-    <pubDate>Thu, 19 Jan 2023 21:57:44 +0900</pubDate>
-</item>
-<item>
-    <title>sudohaikuyu</title>
-    <link>https://github.com/nikolat/sudohaikuyu</link>
-    <description>スドハイククライアント</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
-    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
 </item>
 <item>
     <title>talismanic_beast_pattern</title>

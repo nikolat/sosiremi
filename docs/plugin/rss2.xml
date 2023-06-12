@@ -42,6 +42,15 @@
     <pubDate>Wed, 29 Mar 2023 22:29:37 +0900</pubDate>
 </item>
 <item>
+    <title>SSP-AIVOICE</title>
+    <link>https://github.com/opera7133/SSP-AIVOICE</link>
+    <description>伺かとA.I.VOICEを連携</description>
+    <category>plugin</category>
+    <dc:creator>opera7133</dc:creator>
+    <guid isPermaLink="false">opera7133/SSP-AIVOICE</guid>
+    <pubDate>Fri, 17 Mar 2023 23:38:46 +0900</pubDate>
+</item>
+<item>
     <title>ukadonyu</title>
     <link>https://github.com/nikolat/ukadonyu</link>
     <description>うかどんクライアント</description>
@@ -49,15 +58,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukadonyu</guid>
     <pubDate>Thu, 19 Jan 2023 08:49:32 +0900</pubDate>
-</item>
-<item>
-    <title>sudohaikuyu</title>
-    <link>https://github.com/nikolat/sudohaikuyu</link>
-    <description>スドハイククライアント</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
-    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
 </item>
 <item>
     <title>sudohaikuyu</title>

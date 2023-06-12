@@ -1,0 +1,42 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "opera7133 | 偽SoSiReMi",
+    "home_page_url": "https://nikolat.github.io/sosiremi/author/opera7133/",
+    "feed_url": "https://nikolat.github.io/sosiremi/author/opera7133/feed.json",
+    "description": "GitHubで公開されているNARファイルを一覧表示する",
+    "items": [
+        {
+            "id": "opera7133/SSP-AIVOICE",
+            "url": "https://github.com/opera7133/SSP-AIVOICE",
+            "title": "SSP-AIVOICE",
+            "content_text": "# A.I.VOICE 送信プラグイン\n\n伺かとA.I.VOICEを連携させるプラグインです。\n\n## 元\n\nこのプラグインは[CeVIO-Talker](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)をもとに製作されました。\n\n## ライブラリ\n\n- [CSaori Project / proxy_ex](https://github.com/ukatech/csaori/)\n- [Newtonsoft / Json.NET](https://github.com/JamesNK/Newtonsoft.Json)\n- [整備班(SEIBIHAN) / YAYA](https://github.com/YAYA-shiori/yaya-shiori)\n\n## コンパイル（Windows）\n\n- check.cs\n\n```bash\ncsc /r:\"（AI.Talk.Editor.Api.dllのパス）\" /t:exe .\\check.cs\n```\n\n- client.cs\n\n```bash\ncsc /t:winexe .\\client.cs\n```\n\n- server.cs\n\n```bash\ncsc /r:\"（AI.Talk.Editor.Api.dllのパス）\" /r:Newtonsoft.Json.dll /t:winexe .\\server.cs\n```\n",
+            "summary": "伺かとA.I.VOICEを連携",
+            "date_published": "2023-03-17T14:38:44Z",
+            "date_modified": "2023-03-17T14:38:46Z",
+            "authors": [
+                {
+                    "name": "opera7133",
+                    "url": "https://github.com/opera7133",
+                    "avatar": "https://avatars.githubusercontent.com/u/39876629?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/opera7133/SSP-AIVOICE/releases/download/v1.0.2/AIVOICE.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "AIVOICE.nar",
+                    "size_in_bytes": 1597770,
+                    "_ex": {
+                        "download_count": 16
+                    }
+                }
+            ]
+        }
+    ]
+}
