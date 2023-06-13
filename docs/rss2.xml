@@ -258,42 +258,6 @@
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
 </item>
 <item>
-    <title>talismanic_beast_pattern</title>
-    <link>https://github.com/tukinami/talismanic_beast_pattern</link>
-    <description>伺か用バルーン「魔除けの獣面紋」</description>
-    <category>balloon</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/talismanic_beast_pattern</guid>
-    <pubDate>Thu, 19 Jan 2023 21:57:44 +0900</pubDate>
-</item>
-<item>
-    <title>sudohaikuyu</title>
-    <link>https://github.com/nikolat/sudohaikuyu</link>
-    <description>スドハイククライアント</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
-    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
-</item>
-<item>
-    <title>ukagakaPlugin_getWindowTitle</title>
-    <link>https://github.com/ambergon/ukagakaPlugin_getWindowTitle</link>
-    <description>伺か ・ゴーストがあなたの作業を覗き込むようになるプラグイン。</description>
-    <category>plugin</category>
-    <dc:creator>ambergon</dc:creator>
-    <guid isPermaLink="false">ambergon/ukagakaPlugin_getWindowTitle</guid>
-    <pubDate>Sat, 07 Jan 2023 22:36:50 +0900</pubDate>
-</item>
-<item>
-    <title>desktop_tempter_casino_chip_blue</title>
-    <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_blue</link>
-    <description></description>
-    <category>ghost</category>
-    <dc:creator>Tatakinov</dc:creator>
-    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_blue</guid>
-    <pubDate>Sat, 07 Jan 2023 14:38:50 +0900</pubDate>
-</item>
-<item>
     <title>desktop_tempter_casino_chip_green</title>
     <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_green</link>
     <description></description>
