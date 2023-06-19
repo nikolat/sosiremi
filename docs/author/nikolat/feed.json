@@ -148,40 +148,6 @@
             ]
         },
         {
-            "id": "nikolat/ukagaka-simultaneous-interpreter",
-            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
-            "title": "ukagaka-simultaneous-interpreter",
-            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
-            "summary": "Simultaneous Interpreter Ghost",
-            "date_published": "2023-05-05T22:47:06Z",
-            "date_modified": "2023-05-05T22:47:09Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.1/simultaneous-interpreter.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "simultaneous-interpreter.nar",
-                    "size_in_bytes": 1370318,
-                    "_ex": {
-                        "download_count": 31
-                    }
-                }
-            ]
-        },
-        {
             "id": "nikolat/wallet_of_unyu",
             "url": "https://github.com/nikolat/wallet_of_unyu",
             "title": "wallet_of_unyu",
@@ -493,6 +459,41 @@
                     "size_in_bytes": 1792468,
                     "_ex": {
                         "download_count": 24
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/sudohaikuyu",
+            "url": "https://github.com/nikolat/sudohaikuyu",
+            "title": "sudohaikuyu",
+            "content_text": "========================================================================\n【ソフト名称】すどはいくゅう\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.28\n【 タ イ プ 】「伺か」用プラグイン\n【 取扱種別 】フリーウェア\n【 配布月日 】2021-11-29\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するスドハイククライアント機能拡張プラグインです。\n  単体で動作させることはできません。\n  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを\n  別途ご用意ください。\n\n  Sudo Haiku\n    https://h.sudo.ne.jp/\n\n  ばぐとら研究所\n    http://ssp.shillest.net/\n\n■使用方法\n\n  設定画面にて以下のパラメータを設定してください\n\n  TL get interval     : タイムラインを取得し\n                        タスクトレイバルーン通知をする間隔（分）\n\n  上部アイコンをクリックすることで以下の動作をします。\n  左から順番に記述します。\n\n  refresh       : 全ての取得情報を更新\n  home          : メインとなるタイムラインを表示\n  settings      : 設定画面表示\n  cancel        : バルーンを閉じる\n\n  タイムライン表示中のアイコンについて\n\n  ・鉛筆アイコンクリックで\n    クリップボードにテキストをコピーします。\n\n■更新履歴\n\n2021-11-29  Ver0.1  ・新規作成\n2022-03-02  Ver0.2  ・日本語以外の環境で正常に起動できない不具合を修正\n                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正\n2022-03-02  Ver0.3  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした\n                    ・非同期処理の不安定化によるエラーの抑制\n2023-01-20  Ver0.4  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止\n                    ・新バージョンの更新通知時メニューからネットワーク更新を追加\n",
+            "summary": "スドハイククライアント",
+            "date_published": "2023-01-20T10:37:14Z",
+            "date_modified": "2023-01-20T10:37:15Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "sirefaso",
+                "sosiremi",
+                "sudo-haiku",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/sudohaikuyu/releases/download/v0.4/sudohaikuyu.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "sudohaikuyu.nar",
+                    "size_in_bytes": 1383936,
+                    "_ex": {
+                        "download_count": 12
                     }
                 }
             ]

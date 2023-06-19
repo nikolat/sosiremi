@@ -247,40 +247,6 @@
             ]
         },
         {
-            "id": "nikolat/ukagaka-simultaneous-interpreter",
-            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
-            "title": "ukagaka-simultaneous-interpreter",
-            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
-            "summary": "Simultaneous Interpreter Ghost",
-            "date_published": "2023-05-05T22:47:06Z",
-            "date_modified": "2023-05-05T22:47:09Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.1/simultaneous-interpreter.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "simultaneous-interpreter.nar",
-                    "size_in_bytes": 1370318,
-                    "_ex": {
-                        "download_count": 31
-                    }
-                }
-            ]
-        },
-        {
             "id": "etwaslangsam/bath_ane",
             "url": "https://github.com/etwaslangsam/bath_ane",
             "title": "bath_ane",
@@ -314,39 +280,6 @@
             ]
         },
         {
-            "id": "etwaslangsam/myalice2",
-            "url": "https://github.com/etwaslangsam/myalice2",
-            "title": "myalice2",
-            "content_text": "==================================================\n\n\t僕のアリス2nd\t概要\n\n==================================================\n■注意\n このゴーストには18歳未満は使用禁止です。\n このゴーストを利用して如何なる不利益があっても当方は責任を負いません。\n\n==================================================\n■登場人物\n\n\\0アリス（通称：白アリス）\n\n フルネームはアリス・ヴァロ・高千穂\n 街中で出会ったハーフの少女。 母親がフィンランド人\n\n\\1ありす（通称：黒ありす）\n\n 貴方の義妹である少女、以前の経歴は不明\n 一緒に暮らす対価として自分の体を差し出した\n\n==================================================\n■内容\n このゴーストは「僕のアリス」と「僕のアリス2nd」\n という二部構成になっています。\n \n■僕のアリス\n 白アリスとの出会い、 黒ありすの登場\n 二人との関係を深めていく\n\n 起動数回で「僕のアリス2nd」へ移行可能\n \n■僕のアリス2nd\n 白アリスと黒ありすの出会い、二人の他愛もない会話\n 白アリスと更に関係を深めていく\n\n■操作\ncキーでコミュニケート（2nd）\nsキーでスキンシップ（2nd）\n\n==================================================\n■クレジット\n【動作環境】\t最新のWindowsおよびSSP\n【製作者】\tてにてに\n【配布元】\tほっとぺっぱぁ団（https://hotpepar.blogspot.com/）\n【連絡先】\t連絡フォーム（https://goo.gl/forms/EjYcD6PhA14dl9Nv2）\n\n==================================================\n■謝辞\n 蟻の住む木様作フリーシェル『アリスA』『アリスB』を使用させていただいてます。\n 一部にうみほたる様作フォント『にしき的』を使用させていただいでます。\n この場を借りて感謝を申し上げます。\n\n",
-            "summary": "ゴースト「僕のアリス2」",
-            "date_published": "2023-02-22T13:21:21Z",
-            "date_modified": "2023-02-22T13:21:23Z",
-            "authors": [
-                {
-                    "name": "etwaslangsam",
-                    "url": "https://github.com/etwaslangsam",
-                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/etwaslangsam/myalice2/releases/download/v4.73/myalice2nd.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "myalice2nd.zip",
-                    "size_in_bytes": 1263251,
-                    "_ex": {
-                        "download_count": 33
-                    }
-                }
-            ]
-        },
-        {
             "id": "Shimofumi/HamirLore",
             "url": "https://github.com/Shimofumi/HamirLore",
             "title": "HamirLore",
@@ -375,47 +308,6 @@
                     "size_in_bytes": 1491084,
                     "_ex": {
                         "download_count": 285
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Taromati2/Taromati2",
-            "url": "https://github.com/Taromati2/Taromati2",
-            "title": "Taromati2",
-            "content_text": "This ghost only supports Chinese at the moment, feel free to visit the following URL to participate in the translation\nこのゴーストは現在、中国語のみ対応しています。以下のURLにアクセスし、翻訳に参加してください。\n这个ghost目前只支持中文，欢迎访问以下网址来参与翻译\nhttps://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md\n\n原作：http://unvollendet.web.fc2.com/\n详细信息：https://github.com/Taromati2/Taromati2\n免责声明：https://github.com/Taromati2/Taromati2#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\n贡献者名单：https://github.com/Taromati2/Taromati2/blob/master/docs/CONTRIBUTORS.md\n\n\n",
-            "summary": "黑色的猫咪 银发的少女 没有结局的故事",
-            "date_published": "2023-06-05T09:52:01Z",
-            "date_modified": "2023-06-05T09:52:02Z",
-            "authors": [
-                {
-                    "name": "Taromati2",
-                    "url": "https://github.com/Taromati2",
-                    "avatar": "https://avatars.githubusercontent.com/u/79416721?v=4"
-                }
-            ],
-            "tags": [
-                "a-topic",
-                "aya",
-                "ghost",
-                "kikka",
-                "nar",
-                "sakurascript",
-                "sirefaso",
-                "sosiremi",
-                "taromati",
-                "taromati2",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Taromati2/package-factory/releases/download/5175723252/full_data_pack.nar",
-                    "mime_type": "application/zip",
-                    "title": "full_data_pack.nar",
-                    "size_in_bytes": 9434044,
-                    "_ex": {
-                        "download_count": 15
                     }
                 }
             ]
