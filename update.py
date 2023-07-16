@@ -45,7 +45,17 @@ class GitHubNarStation(crawler.GitHubApiCrawler):
 					logger.debug(f'NAR file is not found in {item["full_name"]}')
 					logger.debug(f'content_type: {l_item["assets"][0]["content_type"]}')
 					continue
-				asset = assets[0]
+				if item['full_name'] in config['redirect'] and 'filename' in config['redirect'][item['full_name']]:
+					for ast in assets:
+						if config['redirect'][item['full_name']]['filename'] in ast['browser_download_url']:
+							logger.debug(f'{config["redirect"][item["full_name"]]["filename"]} is found')
+							asset = ast
+							break
+					else:
+						logger.warning(f'{config["redirect"][item["full_name"]]["filename"]} is not found')
+						continue
+				else:
+					asset = assets[0]
 				dt_created = datetime.datetime.strptime(asset['created_at'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc).astimezone(tz=jst)
 				dt_updated = datetime.datetime.strptime(asset['updated_at'], '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc).astimezone(tz=jst)
 				if item['full_name'] in config['redirect'] and 'readme' in config['redirect'][item['full_name']]:

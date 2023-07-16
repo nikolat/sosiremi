@@ -6,3 +6,4 @@ redirect:
   Taromati2/Taromati2:
     nar: Taromati2/package-factory
     readme: https://raw.githubusercontent.com/Taromati2/Taromati2/master/.ukagaka/infos/sosiremi.txt
+    filename: Taromati2.nar
