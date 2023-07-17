@@ -69,15 +69,6 @@
     <pubDate>Mon, 22 May 2023 21:37:32 +0900</pubDate>
 </item>
 <item>
-    <title>ukagaka-simultaneous-interpreter</title>
-    <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
-    <description>Simultaneous Interpreter Ghost</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-simultaneous-interpreter</guid>
-    <pubDate>Sat, 06 May 2023 07:47:09 +0900</pubDate>
-</item>
-<item>
     <title>wallet_of_unyu</title>
     <link>https://github.com/nikolat/wallet_of_unyu</link>
     <description>伺かの世界で流通する暗号通貨UNYUのウォレット</description>
@@ -94,15 +85,6 @@
     <dc:creator>etwaslangsam</dc:creator>
     <guid isPermaLink="false">etwaslangsam/bath_ane</guid>
     <pubDate>Sun, 30 Apr 2023 11:49:02 +0900</pubDate>
-</item>
-<item>
-    <title>myalice2</title>
-    <link>https://github.com/etwaslangsam/myalice2</link>
-    <description>ゴースト「僕のアリス2」</description>
-    <category>ghost</category>
-    <dc:creator>etwaslangsam</dc:creator>
-    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
-    <pubDate>Wed, 22 Feb 2023 22:21:23 +0900</pubDate>
 </item>
 <item>
     <title>HamirLore</title>
@@ -130,15 +112,6 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Bouyomi</guid>
     <pubDate>Wed, 05 Apr 2023 20:05:05 +0900</pubDate>
-</item>
-<item>
-    <title>Taromati2</title>
-    <link>https://github.com/Taromati2/Taromati2</link>
-    <description>黑色的猫咪 银发的少女 没有结局的故事</description>
-    <category>ghost</category>
-    <dc:creator>Taromati2</dc:creator>
-    <guid isPermaLink="false">Taromati2/Taromati2</guid>
-    <pubDate>Fri, 07 Jul 2023 09:55:34 +0900</pubDate>
 </item>
 <item>
     <title>desktop_tempter</title>
@@ -256,6 +229,33 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Youto</guid>
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
+</item>
+<item>
+    <title>talismanic_beast_pattern</title>
+    <link>https://github.com/tukinami/talismanic_beast_pattern</link>
+    <description>伺か用バルーン「魔除けの獣面紋」</description>
+    <category>balloon</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/talismanic_beast_pattern</guid>
+    <pubDate>Thu, 19 Jan 2023 21:57:44 +0900</pubDate>
+</item>
+<item>
+    <title>sudohaikuyu</title>
+    <link>https://github.com/nikolat/sudohaikuyu</link>
+    <description>スドハイククライアント</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
+    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
+</item>
+<item>
+    <title>ukagakaPlugin_getWindowTitle</title>
+    <link>https://github.com/ambergon/ukagakaPlugin_getWindowTitle</link>
+    <description>伺か ・ゴーストがあなたの作業を覗き込むようになるプラグイン。</description>
+    <category>plugin</category>
+    <dc:creator>ambergon</dc:creator>
+    <guid isPermaLink="false">ambergon/ukagakaPlugin_getWindowTitle</guid>
+    <pubDate>Sat, 07 Jan 2023 22:36:50 +0900</pubDate>
 </item>
 <item>
     <title>talismanic_beast_pattern</title>
