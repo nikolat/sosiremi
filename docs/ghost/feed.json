@@ -247,6 +247,39 @@
             ]
         },
         {
+            "id": "etwaslangsam/d2k",
+            "url": "https://github.com/etwaslangsam/d2k",
+            "title": "d2k",
+            "content_text": "ゴースト「芹那と妃音with玄恵」\n\n▼あらすじ\n ある日、あなたはベランダ（またはそれに類する場所）の鍵をかけ忘れて出かけたら部屋を狐耳と尻尾の生えたガラの悪そうなJKたちに部屋を占拠されていた。\n\n▼キャラクター紹介\n\t\n芹那（せりな）\n 画面右側の狐っ娘JK。不良グループ「蛇突鬼<ダッキ>」のメンバー。一人称がオレ。処女。\n\t\n妃音（きと）\n 画面中央の狐っ娘JK。不良グループ「蛇突鬼<ダッキ>」のリーダー。髪のお下げに見える部分も尻尾。処女。\n\t\n玄恵（くろえ）\n 画面左側の狐っ娘JK。しばらく起動させると出てくる。「蛇突鬼」とは関係ない優等生。処女。\n\n▼謝辞\n ボトル猫氏のフリーシェル「p013」「p014」「p015」を使用させていただいてます。\n また有志の方に一部画像を加工していただきました。ありがとうございます。\n\t\n▼免責事項\n このゴーストを使用し発生した如何なる問題について作者は一切の責任を負いません。\n\n▼その他\n 作者：てにてに\n 動作確認 OS：Windows10　SSP:最新 でしか確認してません\n\n▼著作意識の回答\n[1.ゴーストダウンロードページに直接リンクされる]\n[11.ゴーストアーカイブへの直リンク]\n\n\tダウンロードページへのリンクは問題ありません。\n\tアーカイブへの直リンはご遠慮ください。\n\n[2.ゴーストのネタバレをされる]\n[9.トークをウェブ上に転載]\n\n\t問題ありません。\n\tトーク転載の場合は出典を明記して下さい。\n\n[3.ゴーストに対し批判的な意見を言われる]\n\n\t言いがかり等ではないのなら貴重な意見として承ります。\n\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\n[5.原作の設定と大きくかけ離れた二次創作をされる]\n[6.18禁二次創作をされる]\n\n\t問題ありません。\n\t一言ご連絡いただけたら嬉しいです。\n\t18禁の場合は必ず教えて下さい！\n\n[7.追加シェル、バルーン等を配布される]\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\n\n\t追加シェル等の配布は大歓迎です。\n\tマスターシェルの改変・素材化等はシェル側の利用規約に従って下さい。\n\n[12.公開中ゴーストをウェブ上で再配布]\n[13.配布終了したゴーストをウェブ上で再配布]\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\n\n\t作者を騙らない限りは問題ありません。\n\tまた、改変した場合にも改変者名を明記して下さい。\n\n[15.ゴーストの同人誌収録]\n[16.ゴーストの商業誌収録]\n\n\t同人誌への収録時には一言ご連絡頂ければ問題ありません。\n\t商業誌への収録はご遠慮ください。",
+            "summary": "芹那と妃音with玄恵",
+            "date_published": "2023-05-22T12:37:30Z",
+            "date_modified": "2023-05-22T12:37:32Z",
+            "authors": [
+                {
+                    "name": "etwaslangsam",
+                    "url": "https://github.com/etwaslangsam",
+                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/etwaslangsam/d2k/releases/download/v1.54/d2k.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "d2k.nar",
+                    "size_in_bytes": 3171362,
+                    "_ex": {
+                        "download_count": 29
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/ukagaka-simultaneous-interpreter",
             "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
             "title": "ukagaka-simultaneous-interpreter",
@@ -486,6 +519,75 @@
                     "size_in_bytes": 792193,
                     "_ex": {
                         "download_count": 41
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/ukagaka-hakoirimusume",
+            "url": "https://github.com/nikolat/ukagaka-hakoirimusume",
+            "title": "ukagaka-hakoirimusume",
+            "content_text": "========================================================================\n【ソフト名称】箱入り娘\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/05/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n箱入り娘（はこいりむすめ）は、スライディングブロックパズルの一種である。\n木でできた駒を動かして特定の駒を外に出すのが目的の一人遊び。\n\n小さな容器の中に駒が敷き詰められており、\nその中の駒はすき間が開いている場所に水平移動させることができる。\n駒は「娘」「父親」「母親」など家族に関係がある文字が書かれており、\n初期状態でいちばん上に配置されていた「娘」の駒だけを下の隙間から外に出すのが目的。\n「箱入り娘」の名称は、一番奥に「娘」の駒があり家族が大事に娘を包んでいるように見えることから。\n\n出典: フリー百科事典『ウィキペディア（Wikipedia）』\n箱入り娘 (パズル)\nhttps://ja.wikipedia.org/wiki/%E7%AE%B1%E5%85%A5%E3%82%8A%E5%A8%98_(%E3%83%91%E3%82%BA%E3%83%AB)\n\n[操作方法]\n・マウス操作\n移動したい駒をクリックし、移動させたいエリアをクリックすると移動します。\nまたは移動したい駒をダブルクリックすると空いてる場所へ自動で移動します。\n・キーボード操作\n上下左右キーで空いてる場所に隣接する駒を移動させることができます。\n候補が2つある場合は選択肢を表示し、1か2のキーで選択できます。\n\nどうしてもクリアできない場合は「a」キーを押すと答えが表示されます。\n\n■ライセンス\n\n  以下のモジュールを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
+            "summary": "Klotski for UKAGAKA",
+            "date_published": "2021-11-10T12:07:56Z",
+            "date_modified": "2022-04-27T09:51:06Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "klotski",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ukagaka-hakoirimusume/releases/download/v1.0.0/hakoirimusume.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "hakoirimusume.nar",
+                    "size_in_bytes": 952496,
+                    "_ex": {
+                        "download_count": 39
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/shellbook",
+            "url": "https://github.com/nikolat/shellbook",
+            "title": "shellbook",
+            "content_text": "========================================================================\n【ソフト名称】しぇるずかん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.31\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/05/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  下記サイトをデスクトップで見るための何か。\n  「freeshell Wiki*」\n  https://wikiwiki.jp/feeshell/\n\n■便利機能\n\n  [ショートカットキー]\n   m: メニュー表示\n   r: リロード\n  →: 次のページへ\n  ←: 前のページへ\n  ↑: 最初のページへ\n  ↓: 最後のページへ\n\n  [マウスホイール]\n  ページめくり\n\n  このゴーストが起動中にHTTP通信により取得した情報は\n  全てSHIORIおよびghostフォルダ内にキャッシュしています。\n  リロードによりキャッシュがクリアされます。\n\n■注意事項\n\n  「freeshell Wiki*」へのHTTPリクエストおよび\n  画像ダウンロードによる負荷の増加を考慮し、\n  「全取得」メニューの上限値を設けて50件を超える場合は\n  「全取得」メニューを無効化しています。\n\n  一部のページで情報が正しく取得できないことを確認しています。\n  ・特定のフォーマットの画像が表示されない\n    複数の画像が貼られている場合に対応していない\n  ・一部の作者名、配布サイト名が正しく表示されない\n    それに付随するアンカーが正しく飛ばない\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  resizedpngmini.dll\n    Resized Png Mini\n      https://github.com/tukinami/saori-resized-png-mini\n\n  フリーシェル「かのこ」\n    食卓塩\n      http://tablesalt.o0o0.jp/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
+            "summary": "freeshell Wiki viewer",
+            "date_published": "2022-12-13T12:54:50Z",
+            "date_modified": "2022-12-13T12:55:00Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/shellbook/releases/download/v1.0.3/shellbook.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "shellbook.nar",
+                    "size_in_bytes": 2069822,
+                    "_ex": {
+                        "download_count": 35
                     }
                 }
             ]
