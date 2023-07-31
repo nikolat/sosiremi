@@ -177,24 +177,6 @@
     <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
 </item>
 <item>
-    <title>jb-standard</title>
-    <link>https://github.com/nikolat/jb-standard</link>
-    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard</guid>
-    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
-</item>
-<item>
-    <title>CharameLNetwork</title>
-    <link>https://github.com/nikolat/CharameLNetwork</link>
-    <description>CharameLをSNS風に見せる何か</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
-    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
-</item>
-<item>
     <title>balloonselector</title>
     <link>https://github.com/nikolat/balloonselector</link>
     <description>バルーン選択支援プラグイン</description>
