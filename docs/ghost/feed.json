@@ -6,21 +6,25 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "Tatakinov/banjou_no_sumikko_de",
-            "url": "https://github.com/Tatakinov/banjou_no_sumikko_de",
-            "title": "banjou_no_sumikko_de",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】盤上の隅っこで\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 5.7以降 / SSP 2.4.72\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\n将棋ゴーストです。\r\n将棋以外にも色々なボードゲームで遊べます。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n- シェルについて\r\n    辞書内ではsurfacesのalias.txtに書かれたaliasを\r\n    利用するようにしているため、masterシェルと同じ番号にしなくても\r\n    aliasさえ一致していれば大丈夫です。\r\n    そのため、シェルのファイル名およびsurfaceIDは\r\n    masterシェルと同じである必要はありません。\r\n    ただし、あくまでsurfaceIDだけなので扇子のanimationIDは\r\n    一致させる必要があります。\r\n- 扇子の文字\r\n    1. 涓滴(けんてき)             藤井猛九段の揮毫。\r\n    2. 百折不撓(ひゃくせつふとう) 木村一基九段の揮毫。\r\n    3. 平安(へいあん)             鈴木大介九段の揮毫。\r\n- 盤や駒の画像について\r\n    追加シェルの場合は駒や盤などの画像を用意するのが大変であれば\r\n    masterのものをコピーしても大丈夫です。\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n△\r\n要相談。\r\n\r\n[16.ゴーストの商業誌収録]\r\n×\r\n\r\n\r\n# 棋譜の読み上げ音声について\r\n\r\n「VOICEVOX:四国めたん」を利用しています。\r\nホームページ → https://voicevox.hiroshiba.jp/\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\nただし、例外的にEigenのライセンスは\r\nghost/master/saori/cocoa/以下のCOPYINGを参照してください。\r\n(サードパーティのライブラリがどれか確認が取れていないため)\r\n\r\nLua                         | https://www.lua.org/\r\nsol2                        | https://github.com/ThePhD/sol2/\r\nluautf8                     | https://github.com/starwing/luautf8/\r\nluaex(in Luachild)          | https://github.com/LuaDist/luaex/\r\nLuachild                    | https://github.com/pocomane/luachild/\r\nLPeg                        | http://www.inf.puc-rio.br/~roberto/lpeg/\\\r\nshogi686                    | https://github.com/merom686/shogi686_sdt5/\r\nsunfish4                    | https://github.com/sunfish-shogi/sunfish4/\r\nluacheck                    | https://github.com/mpeterv/luacheck/\r\nargparse(in luacheck)       | https://github.com/mpeterv/argparse\r\nluafilesystem(in luacheck)  | https://github.com/keplerproject/luafilesystem\r\nlanes(in luacheck)          | https://github.com/LuaLanes/lanes\r\nMahjongUtil                 | https://github.com/nikolat/MahjongUtil\r\nluasocket                   | https://github.com/diegonehab/luasocket\r\nArasan                      | https://www.arasanchess.org/\r\nNAIST Japanese Dictionary   | https://ja.osdn.net/projects/naist-jdic/\r\nKataGo                      | https://github.com/lightvector/KataGo\r\nclblast(in KataGo)          | ↑のcpp/external参照\r\nfilesystem-1.5.8(in KataGo) | ↑同上\r\nhalf-2.1.0(in KataGo)       | ↑同上\r\nhttplib(in KataGo)          | ↑同上\r\nnlohmann_json(in KataGo)    | ↑同上\r\ntclap-1.2.2(in KataGo)      | ↑同上\r\nsha2.cpp(in KataGo)         | ↑のcpp/core/sha2.cppを参照\r\nopenssl(in KataGo)          | https://github.com/openssl/openssl\r\nEigen(in cocoa/kay)         | https://eigen.tuxfamily.org/index.php?title=Main_Page\r\nminpack(in Eigen)           | 不明\r\n\r\n\r\n## 使用フォント\r\n\r\n駒や指し手などの文字にM+ BITMAP FONTを使用しています。\r\nライセンス詳細はshell\\master\\shogi\\LICENSE.txtを参照してください。\r\n\r\nメニューのサイドバーにみかちゃんフォントを使用しています。\r\nライセンス詳細はshell\\master\\menu\\LICENSE.mikachan.txtを参照してください。\r\n\r\n\r\n## 棋譜について\r\n\r\n基本的には作者が将棋を指したり、将棋ソフトで検討()したり、棋書(本)を読んだり、\r\n動画を見たりして得た知識(※)を元に作っています。\r\n出典がある場合は該当するトークが書かれている辞書またはkifファイルに\r\nコメントで記載してあります。\r\nなお、プロの棋譜を用いた部分については\r\n棋譜利用のガイドライン | https://www.shogi.or.jp/kifuguideline/terms.html\r\nを守った範囲で利用しているはずです。\r\n万が一上記のガイドラインを無視した棋譜利用がありましたら\r\n連絡をお願いいたします。\r\n\r\n※棋書で詳細に書かれている変化についてはあまり触れないはずです。\r\n相振り飛車を指しこなす本くらいしかまともに読んでいませんが念のため。\r\n\r\n\r\n## メニューの詰将棋のようなものについて\r\n\r\n作者が考えてはいますが、万が一\r\n同一作品が存在していた場合は連絡してくださると助かります。\r\n\r\n\r\n## 参考にしたあれこれ\r\n\r\n- 栞関連\r\n\r\n  UKADOC Project\r\n    さくらスクリプトリスト/ http://ssp.shillest.net/ukadoc/manual/list_sakura_script.html\r\n  lua-users wiki          / http://lua-users.org/wiki/\r\n  tkytk                   / https://github.com/kinokon/tkytk\r\n  山茱萸しゃしゃぶ        / リンク切れ\r\n\r\n\r\n- ゴースト作成\r\n\r\n  着せ替えやアニメーションの作り方\r\n                          / http://earlduant.github.io/ukagaka-shell-description/animations.html\r\n\r\n\r\n- SAORI(process.dll)\r\n\r\n  さおり                  / http://www.boreas.dti.ne.jp/~sdn/saori.html\r\n  伺か - SSTPプロトコル   / http://usada.sakura.vg/contents/sstp.html\r\n  伺か - メモリオブジェクト\r\n                          / http://usada.sakura.vg/contents/objects.html\r\n\r\n\r\n- フォント\r\n\r\n  mieki256's diary - BDFフォントをアウトラインフォントにしてみたい\r\n                          / http://blawat2015.no-ip.com/~mieki256/diary/201905281.html\r\n\r\n\r\n- 棋譜フォーマットやUSIプロトコル\r\n\r\n  JSON棋譜フォーマット    / https://github.com/na2hiro/json-kifu-format\r\n  USIプロトコルとは       / http://shogidokoro.starfree.jp/usi.html\r\n  棋譜の表記方法          / https://www.shogi.or.jp/faq/kihuhyouki.html\r\n\r\n\r\n- 将棋トーク\r\n\r\n  将棋盤局面図を作成      / http://sfenreader.appspot.com/ja/create_board.html\r\n  将棋講座(ButaneGorilla) / https://www.nicovideo.jp/mylist/50368976\r\n\r\n- デバッグ(luacheck)のコンパイル\r\n  luastatic               / https://github.com/ers35/luastatic\r\n\r\n- オセロ\r\n  おせろAIの教科書|にゃにゃん(山名琢翔) / https://note.com/nyanyan_cubetech/m/m54104c8d2f12\r\n\r\n## サプリメントについて\r\n\r\n「盤上の隅っこで」には将棋の思考エンジンを導入するためのサプリメントが存在します。\r\nゴーストをつつくと出てくるメニューから「対局する」を選ぶと\r\n対局メニューが出てきます。\r\nそのメニューから「思考エンジンのインストール」を選択すると導入出来ます。\r\n\r\n\r\n### 配布元について\r\n\r\nhttps://github.com/Tatakinov/banjou_no_sumikko_de_supplement\r\n\r\n\r\n### 将棋の思考エンジンについて\r\n\r\n#### shogi686_sdt5\r\natomic_intやsizeof関係のコンパイルエラーが出ていた部分を修正しています。\r\nまた、指し手にランダム性を持たせるために、\r\nソースコードに少し手を加えています。\r\n評価関数は適当に何日か学習させたものを作成しました。\r\n\r\n#### sunfish4\r\n32bitでは_BitScanFoward64が無くてコンパイルエラーが出ていたので\r\nソースコード内に存在する代替関数を使うように修正しています。\r\n評価関数は、作者の将棋倶楽部24と81dojoの棋譜を学習させたものになっています。\r\nまた、序盤が弱いので最低限の定跡を入れてあります。\r\n\r\n",
-            "summary": "",
-            "date_published": "2023-01-08T13:11:11Z",
-            "date_modified": "2023-01-08T13:11:28Z",
+            "id": "nikolat/jong-bari",
+            "url": "https://github.com/nikolat/jong-bari",
+            "title": "jong-bari",
+            "content_text": "========================================================================\n【ソフト名称】雀々BARIBARI\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.42\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/06/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  麻雀をするためのサーバーゴーストです。\n  他にクライアントゴーストを3体召喚してお楽しみください。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀サーバーゴースト",
+            "date_published": "2023-06-09T08:01:08Z",
+            "date_modified": "2023-06-09T08:01:11Z",
             "authors": [
                 {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
                 }
             ],
             "tags": [
+                "akari",
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
                 "sirefaso",
                 "sosiremi",
                 "ukagaka",
@@ -28,12 +32,329 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/Tatakinov/banjou_no_sumikko_de/releases/download/1.0.0/banjou_no_sumikko_de.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "banjou_no_sumikko_de.nar",
-                    "size_in_bytes": 6446304,
+                    "url": "https://github.com/nikolat/jong-bari/releases/download/v1.0.6/jong-bari.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-bari.nar",
+                    "size_in_bytes": 1049602,
                     "_ex": {
-                        "download_count": 28
+                        "download_count": 12
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/ukagaka-simultaneous-interpreter",
+            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
+            "title": "ukagaka-simultaneous-interpreter",
+            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
+            "summary": "Simultaneous Interpreter Ghost",
+            "date_published": "2023-05-05T22:47:06Z",
+            "date_modified": "2023-05-05T22:47:09Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.1/simultaneous-interpreter.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "simultaneous-interpreter.nar",
+                    "size_in_bytes": 1370318,
+                    "_ex": {
+                        "download_count": 37
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/ukagaka-hakoirimusume",
+            "url": "https://github.com/nikolat/ukagaka-hakoirimusume",
+            "title": "ukagaka-hakoirimusume",
+            "content_text": "========================================================================\n【ソフト名称】箱入り娘\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/05/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n箱入り娘（はこいりむすめ）は、スライディングブロックパズルの一種である。\n木でできた駒を動かして特定の駒を外に出すのが目的の一人遊び。\n\n小さな容器の中に駒が敷き詰められており、\nその中の駒はすき間が開いている場所に水平移動させることができる。\n駒は「娘」「父親」「母親」など家族に関係がある文字が書かれており、\n初期状態でいちばん上に配置されていた「娘」の駒だけを下の隙間から外に出すのが目的。\n「箱入り娘」の名称は、一番奥に「娘」の駒があり家族が大事に娘を包んでいるように見えることから。\n\n出典: フリー百科事典『ウィキペディア（Wikipedia）』\n箱入り娘 (パズル)\nhttps://ja.wikipedia.org/wiki/%E7%AE%B1%E5%85%A5%E3%82%8A%E5%A8%98_(%E3%83%91%E3%82%BA%E3%83%AB)\n\n[操作方法]\n・マウス操作\n移動したい駒をクリックし、移動させたいエリアをクリックすると移動します。\nまたは移動したい駒をダブルクリックすると空いてる場所へ自動で移動します。\n・キーボード操作\n上下左右キーで空いてる場所に隣接する駒を移動させることができます。\n候補が2つある場合は選択肢を表示し、1か2のキーで選択できます。\n\nどうしてもクリアできない場合は「a」キーを押すと答えが表示されます。\n\n■ライセンス\n\n  以下のモジュールを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
+            "summary": "Klotski for UKAGAKA",
+            "date_published": "2021-11-10T12:07:56Z",
+            "date_modified": "2022-04-27T09:51:06Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "klotski",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ukagaka-hakoirimusume/releases/download/v1.0.0/hakoirimusume.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "hakoirimusume.nar",
+                    "size_in_bytes": 952496,
+                    "_ex": {
+                        "download_count": 40
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/shellbook",
+            "url": "https://github.com/nikolat/shellbook",
+            "title": "shellbook",
+            "content_text": "========================================================================\n【ソフト名称】しぇるずかん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.31\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/05/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  下記サイトをデスクトップで見るための何か。\n  「freeshell Wiki*」\n  https://wikiwiki.jp/feeshell/\n\n■便利機能\n\n  [ショートカットキー]\n   m: メニュー表示\n   r: リロード\n  →: 次のページへ\n  ←: 前のページへ\n  ↑: 最初のページへ\n  ↓: 最後のページへ\n\n  [マウスホイール]\n  ページめくり\n\n  このゴーストが起動中にHTTP通信により取得した情報は\n  全てSHIORIおよびghostフォルダ内にキャッシュしています。\n  リロードによりキャッシュがクリアされます。\n\n■注意事項\n\n  「freeshell Wiki*」へのHTTPリクエストおよび\n  画像ダウンロードによる負荷の増加を考慮し、\n  「全取得」メニューの上限値を設けて50件を超える場合は\n  「全取得」メニューを無効化しています。\n\n  一部のページで情報が正しく取得できないことを確認しています。\n  ・特定のフォーマットの画像が表示されない\n    複数の画像が貼られている場合に対応していない\n  ・一部の作者名、配布サイト名が正しく表示されない\n    それに付随するアンカーが正しく飛ばない\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  resizedpngmini.dll\n    Resized Png Mini\n      https://github.com/tukinami/saori-resized-png-mini\n\n  フリーシェル「かのこ」\n    食卓塩\n      http://tablesalt.o0o0.jp/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
+            "summary": "freeshell Wiki viewer",
+            "date_published": "2022-12-13T12:54:50Z",
+            "date_modified": "2022-12-13T12:55:00Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/shellbook/releases/download/v1.0.3/shellbook.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "shellbook.nar",
+                    "size_in_bytes": 2069822,
+                    "_ex": {
+                        "download_count": 36
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/reshibainu",
+            "url": "https://github.com/nikolat/reshibainu",
+            "title": "reshibainu",
+            "content_text": "========================================================================\n【ソフト名称】れしばいぬ\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2013/09/15\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  「里々」のログビューア「れしば.NET」のゴースト版です。\n  普通に「れしば.NET」単体で起動したほうが便利だと思います。\n\n  れしば.NET\n    https://github.com/nikolat/recv_net\n\n■謝辞\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    作者  ：摂理\n    配布元：narをアップするところ（配布元消失）\n\n  フリーシェル「まめしばわんこ」\n    作者  ：いとうべん太\n    配布元：ふぐ提灯（配布元消失）\n\n■ライセンス\n\n  ライセンスは「NYSL Version 0.9982」です。\n    NYSL\n      http://www.kmonos.net/nysl/\n\nA. 本ソフトウェアは Everyone'sWare です。このソフトを手にした一人一人が、\n   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. フリーウェアです。作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。\n  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。\n  A-4. 変更したものや部分的に使用したものは、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. このソフトを利用することによって生じた損害等について、作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権は Don に帰属します。著作権は放棄します。\n\nD. 以上の３項は、ソース・実行バイナリの双方に適用されます。\n\n",
+            "summary": "「里々」ログビューア「れしば.NET」のゴースト版",
+            "date_published": "2022-01-26T03:31:06Z",
+            "date_modified": "2022-04-27T09:49:51Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "dotnet-framework",
+                "satori",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/reshibainu/releases/download/v1.0.0/reshibainu.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "reshibainu.nar",
+                    "size_in_bytes": 40903,
+                    "_ex": {
+                        "download_count": 36
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-whanwhan",
+            "url": "https://github.com/nikolat/jong-whanwhan",
+            "title": "jong-whanwhan",
+            "content_text": "========================================================================\n【ソフト名称】雀-ホワンホワン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「里々」を使用しています。\n\n    satoriya-shiori\n      https://github.com/ukatech/satoriya-shiori\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p009（耳尻尾by）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:36:57Z",
+            "date_modified": "2022-11-12T11:37:09Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "satori",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-whanwhan/releases/download/v1.1.0/jong-whanwhan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-whanwhan.nar",
+                    "size_in_bytes": 792193,
+                    "_ex": {
+                        "download_count": 43
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-rinrin",
+            "url": "https://github.com/nikolat/jong-rinrin",
+            "title": "jong-rinrin",
+            "content_text": "========================================================================\n【ソフト名称】雀-リンリン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「YAYA」を使用しています。\n\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p007（耳尻尾bb）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:34:17Z",
+            "date_modified": "2022-11-12T11:34:32Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost",
+                "yaya"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-rinrin/releases/download/v1.1.0/jong-rinrin.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-rinrin.nar",
+                    "size_in_bytes": 1035939,
+                    "_ex": {
+                        "download_count": 58
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-chunchun",
+            "url": "https://github.com/nikolat/jong-chunchun",
+            "title": "jong-chunchun",
+            "content_text": "========================================================================\n【ソフト名称】雀-チュンチュン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「華和梨」を使用しています。\n\n    プログラマブル準AI 華和梨\n      https://kawari.github.io/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p008（耳尻尾br）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:35:44Z",
+            "date_modified": "2022-11-12T11:35:54Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "kawari",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-chunchun/releases/download/v1.1.0/jong-chunchun.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-chunchun.nar",
+                    "size_in_bytes": 899478,
+                    "_ex": {
+                        "download_count": 42
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/ghostbook",
+            "url": "https://github.com/nikolat/ghostbook",
+            "title": "ghostbook",
+            "content_text": "========================================================================\n【ソフト名称】ごーすとじてん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.28\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2007/07/08\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  SSPにおいて動作を確認しております。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  インストール済みの他のゴーストの情報を検索し、表示する機能を有します。\n  また、特殊な対応が施されたゴーストに対しては\n  同時起動中にそのゴーストに関する追加情報を取得することができます。\n  さらにその情報を利用して模擬戦闘などのミニゲームをすることが可能です。\n\n■便利機能\n\n  [ショートカットキー]\n  d: ドキュメントファイルオープン（ゴーストマスタ様向け仕様書）\n  m: メニュー表示\n  r: リロード\n\n  [マウスホイール]\n  ページめくり\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを\n  同梱のライセンスに従って使用させて頂いております。\n  ありがとうございます。\n\n  yaya.dll\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n  フリーシェル「黒と預言書」\n    mid.\n      http://mid.yu.to/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  CC0 1.0 Universalの下で公開します。\n",
+            "summary": "伺かゴースト",
+            "date_published": "2023-01-02T01:39:17Z",
+            "date_modified": "2023-01-02T01:39:19Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost",
+                "yaya"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ghostbook/releases/download/v1.0.0/ghostbook.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "ghostbook.nar",
+                    "size_in_bytes": 466758,
+                    "_ex": {
+                        "download_count": 39
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/crawler_uploader",
+            "url": "https://github.com/nikolat/crawler_uploader",
+            "title": "crawler_uploader",
+            "content_text": "========================================================================\n【ソフト名称】クローラ＆ロダ\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.15\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2011/04/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  \\0妹: ゴーストのネットワーク更新を捕捉する仕事をしている\n  \\1姉: NARを預かり、ネットワーク更新をサポートする仕事をしている\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェル・画像素材を使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    narをアップするところ\n      (配布元消失)\n\n  フリーシェル「mof」\n    パン耳手帳\n      (配布元消失)\n\n  browser-logos\n    https://github.com/alrra/browser-logos\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
+            "summary": "UKAGAKA Ghost",
+            "date_published": "2022-04-29T01:21:30Z",
+            "date_modified": "2022-04-29T01:21:32Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "dotnet-framework",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/crawler_uploader/releases/download/v1.0.0/crawler_uploader.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "crawler_uploader.nar",
+                    "size_in_bytes": 658145,
+                    "_ex": {
+                        "download_count": 69
                     }
                 }
             ]
@@ -68,6 +389,39 @@
                     "size_in_bytes": 1237319,
                     "_ex": {
                         "download_count": 27
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/banjou_no_sumikko_de",
+            "url": "https://github.com/Tatakinov/banjou_no_sumikko_de",
+            "title": "banjou_no_sumikko_de",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】盤上の隅っこで\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 5.7以降 / SSP 2.4.72\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\n将棋ゴーストです。\r\n将棋以外にも色々なボードゲームで遊べます。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n- シェルについて\r\n    辞書内ではsurfacesのalias.txtに書かれたaliasを\r\n    利用するようにしているため、masterシェルと同じ番号にしなくても\r\n    aliasさえ一致していれば大丈夫です。\r\n    そのため、シェルのファイル名およびsurfaceIDは\r\n    masterシェルと同じである必要はありません。\r\n    ただし、あくまでsurfaceIDだけなので扇子のanimationIDは\r\n    一致させる必要があります。\r\n- 扇子の文字\r\n    1. 涓滴(けんてき)             藤井猛九段の揮毫。\r\n    2. 百折不撓(ひゃくせつふとう) 木村一基九段の揮毫。\r\n    3. 平安(へいあん)             鈴木大介九段の揮毫。\r\n- 盤や駒の画像について\r\n    追加シェルの場合は駒や盤などの画像を用意するのが大変であれば\r\n    masterのものをコピーしても大丈夫です。\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n△\r\n要相談。\r\n\r\n[16.ゴーストの商業誌収録]\r\n×\r\n\r\n\r\n# 棋譜の読み上げ音声について\r\n\r\n「VOICEVOX:四国めたん」を利用しています。\r\nホームページ → https://voicevox.hiroshiba.jp/\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\nただし、例外的にEigenのライセンスは\r\nghost/master/saori/cocoa/以下のCOPYINGを参照してください。\r\n(サードパーティのライブラリがどれか確認が取れていないため)\r\n\r\nLua                         | https://www.lua.org/\r\nsol2                        | https://github.com/ThePhD/sol2/\r\nluautf8                     | https://github.com/starwing/luautf8/\r\nluaex(in Luachild)          | https://github.com/LuaDist/luaex/\r\nLuachild                    | https://github.com/pocomane/luachild/\r\nLPeg                        | http://www.inf.puc-rio.br/~roberto/lpeg/\\\r\nshogi686                    | https://github.com/merom686/shogi686_sdt5/\r\nsunfish4                    | https://github.com/sunfish-shogi/sunfish4/\r\nluacheck                    | https://github.com/mpeterv/luacheck/\r\nargparse(in luacheck)       | https://github.com/mpeterv/argparse\r\nluafilesystem(in luacheck)  | https://github.com/keplerproject/luafilesystem\r\nlanes(in luacheck)          | https://github.com/LuaLanes/lanes\r\nMahjongUtil                 | https://github.com/nikolat/MahjongUtil\r\nluasocket                   | https://github.com/diegonehab/luasocket\r\nArasan                      | https://www.arasanchess.org/\r\nNAIST Japanese Dictionary   | https://ja.osdn.net/projects/naist-jdic/\r\nKataGo                      | https://github.com/lightvector/KataGo\r\nclblast(in KataGo)          | ↑のcpp/external参照\r\nfilesystem-1.5.8(in KataGo) | ↑同上\r\nhalf-2.1.0(in KataGo)       | ↑同上\r\nhttplib(in KataGo)          | ↑同上\r\nnlohmann_json(in KataGo)    | ↑同上\r\ntclap-1.2.2(in KataGo)      | ↑同上\r\nsha2.cpp(in KataGo)         | ↑のcpp/core/sha2.cppを参照\r\nopenssl(in KataGo)          | https://github.com/openssl/openssl\r\nEigen(in cocoa/kay)         | https://eigen.tuxfamily.org/index.php?title=Main_Page\r\nminpack(in Eigen)           | 不明\r\n\r\n\r\n## 使用フォント\r\n\r\n駒や指し手などの文字にM+ BITMAP FONTを使用しています。\r\nライセンス詳細はshell\\master\\shogi\\LICENSE.txtを参照してください。\r\n\r\nメニューのサイドバーにみかちゃんフォントを使用しています。\r\nライセンス詳細はshell\\master\\menu\\LICENSE.mikachan.txtを参照してください。\r\n\r\n\r\n## 棋譜について\r\n\r\n基本的には作者が将棋を指したり、将棋ソフトで検討()したり、棋書(本)を読んだり、\r\n動画を見たりして得た知識(※)を元に作っています。\r\n出典がある場合は該当するトークが書かれている辞書またはkifファイルに\r\nコメントで記載してあります。\r\nなお、プロの棋譜を用いた部分については\r\n棋譜利用のガイドライン | https://www.shogi.or.jp/kifuguideline/terms.html\r\nを守った範囲で利用しているはずです。\r\n万が一上記のガイドラインを無視した棋譜利用がありましたら\r\n連絡をお願いいたします。\r\n\r\n※棋書で詳細に書かれている変化についてはあまり触れないはずです。\r\n相振り飛車を指しこなす本くらいしかまともに読んでいませんが念のため。\r\n\r\n\r\n## メニューの詰将棋のようなものについて\r\n\r\n作者が考えてはいますが、万が一\r\n同一作品が存在していた場合は連絡してくださると助かります。\r\n\r\n\r\n## 参考にしたあれこれ\r\n\r\n- 栞関連\r\n\r\n  UKADOC Project\r\n    さくらスクリプトリスト/ http://ssp.shillest.net/ukadoc/manual/list_sakura_script.html\r\n  lua-users wiki          / http://lua-users.org/wiki/\r\n  tkytk                   / https://github.com/kinokon/tkytk\r\n  山茱萸しゃしゃぶ        / リンク切れ\r\n\r\n\r\n- ゴースト作成\r\n\r\n  着せ替えやアニメーションの作り方\r\n                          / http://earlduant.github.io/ukagaka-shell-description/animations.html\r\n\r\n\r\n- SAORI(process.dll)\r\n\r\n  さおり                  / http://www.boreas.dti.ne.jp/~sdn/saori.html\r\n  伺か - SSTPプロトコル   / http://usada.sakura.vg/contents/sstp.html\r\n  伺か - メモリオブジェクト\r\n                          / http://usada.sakura.vg/contents/objects.html\r\n\r\n\r\n- フォント\r\n\r\n  mieki256's diary - BDFフォントをアウトラインフォントにしてみたい\r\n                          / http://blawat2015.no-ip.com/~mieki256/diary/201905281.html\r\n\r\n\r\n- 棋譜フォーマットやUSIプロトコル\r\n\r\n  JSON棋譜フォーマット    / https://github.com/na2hiro/json-kifu-format\r\n  USIプロトコルとは       / http://shogidokoro.starfree.jp/usi.html\r\n  棋譜の表記方法          / https://www.shogi.or.jp/faq/kihuhyouki.html\r\n\r\n\r\n- 将棋トーク\r\n\r\n  将棋盤局面図を作成      / http://sfenreader.appspot.com/ja/create_board.html\r\n  将棋講座(ButaneGorilla) / https://www.nicovideo.jp/mylist/50368976\r\n\r\n- デバッグ(luacheck)のコンパイル\r\n  luastatic               / https://github.com/ers35/luastatic\r\n\r\n- オセロ\r\n  おせろAIの教科書|にゃにゃん(山名琢翔) / https://note.com/nyanyan_cubetech/m/m54104c8d2f12\r\n\r\n## サプリメントについて\r\n\r\n「盤上の隅っこで」には将棋の思考エンジンを導入するためのサプリメントが存在します。\r\nゴーストをつつくと出てくるメニューから「対局する」を選ぶと\r\n対局メニューが出てきます。\r\nそのメニューから「思考エンジンのインストール」を選択すると導入出来ます。\r\n\r\n\r\n### 配布元について\r\n\r\nhttps://github.com/Tatakinov/banjou_no_sumikko_de_supplement\r\n\r\n\r\n### 将棋の思考エンジンについて\r\n\r\n#### shogi686_sdt5\r\natomic_intやsizeof関係のコンパイルエラーが出ていた部分を修正しています。\r\nまた、指し手にランダム性を持たせるために、\r\nソースコードに少し手を加えています。\r\n評価関数は適当に何日か学習させたものを作成しました。\r\n\r\n#### sunfish4\r\n32bitでは_BitScanFoward64が無くてコンパイルエラーが出ていたので\r\nソースコード内に存在する代替関数を使うように修正しています。\r\n評価関数は、作者の将棋倶楽部24と81dojoの棋譜を学習させたものになっています。\r\nまた、序盤が弱いので最低限の定跡を入れてあります。\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-01-08T13:11:11Z",
+            "date_modified": "2023-01-08T13:11:28Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/banjou_no_sumikko_de/releases/download/1.0.0/banjou_no_sumikko_de.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "banjou_no_sumikko_de.nar",
+                    "size_in_bytes": 6446304,
+                    "_ex": {
+                        "download_count": 28
                     }
                 }
             ]
@@ -139,114 +493,6 @@
             ]
         },
         {
-            "id": "nikolat/jong-bari",
-            "url": "https://github.com/nikolat/jong-bari",
-            "title": "jong-bari",
-            "content_text": "========================================================================\n【ソフト名称】雀々BARIBARI\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.42\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/06/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  麻雀をするためのサーバーゴーストです。\n  他にクライアントゴーストを3体召喚してお楽しみください。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "麻雀サーバーゴースト",
-            "date_published": "2023-06-09T08:01:08Z",
-            "date_modified": "2023-06-09T08:01:11Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "japanese-mahjong",
-                "mahjong",
-                "riichi-mahjong",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/jong-bari/releases/download/v1.0.6/jong-bari.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "jong-bari.nar",
-                    "size_in_bytes": 1049602,
-                    "_ex": {
-                        "download_count": 12
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/ghostbook",
-            "url": "https://github.com/nikolat/ghostbook",
-            "title": "ghostbook",
-            "content_text": "========================================================================\n【ソフト名称】ごーすとじてん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.28\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2007/07/08\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  SSPにおいて動作を確認しております。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  インストール済みの他のゴーストの情報を検索し、表示する機能を有します。\n  また、特殊な対応が施されたゴーストに対しては\n  同時起動中にそのゴーストに関する追加情報を取得することができます。\n  さらにその情報を利用して模擬戦闘などのミニゲームをすることが可能です。\n\n■便利機能\n\n  [ショートカットキー]\n  d: ドキュメントファイルオープン（ゴーストマスタ様向け仕様書）\n  m: メニュー表示\n  r: リロード\n\n  [マウスホイール]\n  ページめくり\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを\n  同梱のライセンスに従って使用させて頂いております。\n  ありがとうございます。\n\n  yaya.dll\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n  フリーシェル「黒と預言書」\n    mid.\n      http://mid.yu.to/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  CC0 1.0 Universalの下で公開します。\n",
-            "summary": "伺かゴースト",
-            "date_published": "2023-01-02T01:39:17Z",
-            "date_modified": "2023-01-02T01:39:19Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost",
-                "yaya"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ghostbook/releases/download/v1.0.0/ghostbook.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "ghostbook.nar",
-                    "size_in_bytes": 466758,
-                    "_ex": {
-                        "download_count": 38
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/jong-rinrin",
-            "url": "https://github.com/nikolat/jong-rinrin",
-            "title": "jong-rinrin",
-            "content_text": "========================================================================\n【ソフト名称】雀-リンリン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「YAYA」を使用しています。\n\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p007（耳尻尾bb）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "麻雀クライアントゴースト",
-            "date_published": "2022-11-12T11:34:17Z",
-            "date_modified": "2022-11-12T11:34:32Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "japanese-mahjong",
-                "mahjong",
-                "riichi-mahjong",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost",
-                "yaya"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/jong-rinrin/releases/download/v1.1.0/jong-rinrin.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "jong-rinrin.nar",
-                    "size_in_bytes": 1035939,
-                    "_ex": {
-                        "download_count": 58
-                    }
-                }
-            ]
-        },
-        {
             "id": "etwaslangsam/d2k",
             "url": "https://github.com/etwaslangsam/d2k",
             "title": "d2k",
@@ -275,40 +521,6 @@
                     "size_in_bytes": 3171362,
                     "_ex": {
                         "download_count": 36
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/ukagaka-simultaneous-interpreter",
-            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
-            "title": "ukagaka-simultaneous-interpreter",
-            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
-            "summary": "Simultaneous Interpreter Ghost",
-            "date_published": "2023-05-05T22:47:06Z",
-            "date_modified": "2023-05-05T22:47:09Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.1/simultaneous-interpreter.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "simultaneous-interpreter.nar",
-                    "size_in_bytes": 1370318,
-                    "_ex": {
-                        "download_count": 37
                     }
                 }
             ]
@@ -487,112 +699,6 @@
             ]
         },
         {
-            "id": "nikolat/jong-whanwhan",
-            "url": "https://github.com/nikolat/jong-whanwhan",
-            "title": "jong-whanwhan",
-            "content_text": "========================================================================\n【ソフト名称】雀-ホワンホワン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「里々」を使用しています。\n\n    satoriya-shiori\n      https://github.com/ukatech/satoriya-shiori\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p009（耳尻尾by）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "麻雀クライアントゴースト",
-            "date_published": "2022-11-12T11:36:57Z",
-            "date_modified": "2022-11-12T11:37:09Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "japanese-mahjong",
-                "mahjong",
-                "riichi-mahjong",
-                "satori",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/jong-whanwhan/releases/download/v1.1.0/jong-whanwhan.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "jong-whanwhan.nar",
-                    "size_in_bytes": 792193,
-                    "_ex": {
-                        "download_count": 43
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/ukagaka-hakoirimusume",
-            "url": "https://github.com/nikolat/ukagaka-hakoirimusume",
-            "title": "ukagaka-hakoirimusume",
-            "content_text": "========================================================================\n【ソフト名称】箱入り娘\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/05/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n箱入り娘（はこいりむすめ）は、スライディングブロックパズルの一種である。\n木でできた駒を動かして特定の駒を外に出すのが目的の一人遊び。\n\n小さな容器の中に駒が敷き詰められており、\nその中の駒はすき間が開いている場所に水平移動させることができる。\n駒は「娘」「父親」「母親」など家族に関係がある文字が書かれており、\n初期状態でいちばん上に配置されていた「娘」の駒だけを下の隙間から外に出すのが目的。\n「箱入り娘」の名称は、一番奥に「娘」の駒があり家族が大事に娘を包んでいるように見えることから。\n\n出典: フリー百科事典『ウィキペディア（Wikipedia）』\n箱入り娘 (パズル)\nhttps://ja.wikipedia.org/wiki/%E7%AE%B1%E5%85%A5%E3%82%8A%E5%A8%98_(%E3%83%91%E3%82%BA%E3%83%AB)\n\n[操作方法]\n・マウス操作\n移動したい駒をクリックし、移動させたいエリアをクリックすると移動します。\nまたは移動したい駒をダブルクリックすると空いてる場所へ自動で移動します。\n・キーボード操作\n上下左右キーで空いてる場所に隣接する駒を移動させることができます。\n候補が2つある場合は選択肢を表示し、1か2のキーで選択できます。\n\nどうしてもクリアできない場合は「a」キーを押すと答えが表示されます。\n\n■ライセンス\n\n  以下のモジュールを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
-            "summary": "Klotski for UKAGAKA",
-            "date_published": "2021-11-10T12:07:56Z",
-            "date_modified": "2022-04-27T09:51:06Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "klotski",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ukagaka-hakoirimusume/releases/download/v1.0.0/hakoirimusume.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "hakoirimusume.nar",
-                    "size_in_bytes": 952496,
-                    "_ex": {
-                        "download_count": 40
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/shellbook",
-            "url": "https://github.com/nikolat/shellbook",
-            "title": "shellbook",
-            "content_text": "========================================================================\n【ソフト名称】しぇるずかん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.31\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/05/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  下記サイトをデスクトップで見るための何か。\n  「freeshell Wiki*」\n  https://wikiwiki.jp/feeshell/\n\n■便利機能\n\n  [ショートカットキー]\n   m: メニュー表示\n   r: リロード\n  →: 次のページへ\n  ←: 前のページへ\n  ↑: 最初のページへ\n  ↓: 最後のページへ\n\n  [マウスホイール]\n  ページめくり\n\n  このゴーストが起動中にHTTP通信により取得した情報は\n  全てSHIORIおよびghostフォルダ内にキャッシュしています。\n  リロードによりキャッシュがクリアされます。\n\n■注意事項\n\n  「freeshell Wiki*」へのHTTPリクエストおよび\n  画像ダウンロードによる負荷の増加を考慮し、\n  「全取得」メニューの上限値を設けて50件を超える場合は\n  「全取得」メニューを無効化しています。\n\n  一部のページで情報が正しく取得できないことを確認しています。\n  ・特定のフォーマットの画像が表示されない\n    複数の画像が貼られている場合に対応していない\n  ・一部の作者名、配布サイト名が正しく表示されない\n    それに付随するアンカーが正しく飛ばない\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  resizedpngmini.dll\n    Resized Png Mini\n      https://github.com/tukinami/saori-resized-png-mini\n\n  フリーシェル「かのこ」\n    食卓塩\n      http://tablesalt.o0o0.jp/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
-            "summary": "freeshell Wiki viewer",
-            "date_published": "2022-12-13T12:54:50Z",
-            "date_modified": "2022-12-13T12:55:00Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/shellbook/releases/download/v1.0.3/shellbook.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "shellbook.nar",
-                    "size_in_bytes": 2069822,
-                    "_ex": {
-                        "download_count": 36
-                    }
-                }
-            ]
-        },
-        {
             "id": "nikolat/ukagaka-party-parrot",
             "url": "https://github.com/nikolat/ukagaka-party-parrot",
             "title": "ukagaka-party-parrot",
@@ -623,112 +729,6 @@
                     "size_in_bytes": 1173834,
                     "_ex": {
                         "download_count": 43
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/crawler_uploader",
-            "url": "https://github.com/nikolat/crawler_uploader",
-            "title": "crawler_uploader",
-            "content_text": "========================================================================\n【ソフト名称】クローラ＆ロダ\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.15\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2011/04/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  \\0妹: ゴーストのネットワーク更新を捕捉する仕事をしている\n  \\1姉: NARを預かり、ネットワーク更新をサポートする仕事をしている\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェル・画像素材を使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    narをアップするところ\n      (配布元消失)\n\n  フリーシェル「mof」\n    パン耳手帳\n      (配布元消失)\n\n  browser-logos\n    https://github.com/alrra/browser-logos\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
-            "summary": "UKAGAKA Ghost",
-            "date_published": "2022-04-29T01:21:30Z",
-            "date_modified": "2022-04-29T01:21:32Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "dotnet-framework",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/crawler_uploader/releases/download/v1.0.0/crawler_uploader.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "crawler_uploader.nar",
-                    "size_in_bytes": 658145,
-                    "_ex": {
-                        "download_count": 69
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/reshibainu",
-            "url": "https://github.com/nikolat/reshibainu",
-            "title": "reshibainu",
-            "content_text": "========================================================================\n【ソフト名称】れしばいぬ\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2013/09/15\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  「里々」のログビューア「れしば.NET」のゴースト版です。\n  普通に「れしば.NET」単体で起動したほうが便利だと思います。\n\n  れしば.NET\n    https://github.com/nikolat/recv_net\n\n■謝辞\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    作者  ：摂理\n    配布元：narをアップするところ（配布元消失）\n\n  フリーシェル「まめしばわんこ」\n    作者  ：いとうべん太\n    配布元：ふぐ提灯（配布元消失）\n\n■ライセンス\n\n  ライセンスは「NYSL Version 0.9982」です。\n    NYSL\n      http://www.kmonos.net/nysl/\n\nA. 本ソフトウェアは Everyone'sWare です。このソフトを手にした一人一人が、\n   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. フリーウェアです。作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。\n  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。\n  A-4. 変更したものや部分的に使用したものは、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. このソフトを利用することによって生じた損害等について、作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権は Don に帰属します。著作権は放棄します。\n\nD. 以上の３項は、ソース・実行バイナリの双方に適用されます。\n\n",
-            "summary": "「里々」ログビューア「れしば.NET」のゴースト版",
-            "date_published": "2022-01-26T03:31:06Z",
-            "date_modified": "2022-04-27T09:49:51Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "dotnet-framework",
-                "satori",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/reshibainu/releases/download/v1.0.0/reshibainu.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "reshibainu.nar",
-                    "size_in_bytes": 40903,
-                    "_ex": {
-                        "download_count": 36
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/jong-chunchun",
-            "url": "https://github.com/nikolat/jong-chunchun",
-            "title": "jong-chunchun",
-            "content_text": "========================================================================\n【ソフト名称】雀-チュンチュン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「華和梨」を使用しています。\n\n    プログラマブル準AI 華和梨\n      https://kawari.github.io/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p008（耳尻尾br）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "麻雀クライアントゴースト",
-            "date_published": "2022-11-12T11:35:44Z",
-            "date_modified": "2022-11-12T11:35:54Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "japanese-mahjong",
-                "kawari",
-                "mahjong",
-                "riichi-mahjong",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/jong-chunchun/releases/download/v1.1.0/jong-chunchun.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "jong-chunchun.nar",
-                    "size_in_bytes": 899478,
-                    "_ex": {
-                        "download_count": 42
                     }
                 }
             ]
