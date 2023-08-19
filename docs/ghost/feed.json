@@ -520,40 +520,7 @@
                     "title": "d2k.nar",
                     "size_in_bytes": 3171362,
                     "_ex": {
-                        "download_count": 38
-                    }
-                }
-            ]
-        },
-        {
-            "id": "etwaslangsam/bath_ane",
-            "url": "https://github.com/etwaslangsam/bath_ane",
-            "title": "bath_ane",
-            "content_text": "\n■ゴースト「風呂上がりの姉貴」\n\n\n■使用素材\n\tフリーシェル「パリピ学園バイブス天国」（蟻の住む木 さん）\n\n■さわり反応\n\n\t頭：なで\n\t胸：つつき\n\t太もも：なで",
-            "summary": "風呂上がりの姉貴",
-            "date_published": "2023-04-30T02:48:58Z",
-            "date_modified": "2023-04-30T02:49:02Z",
-            "authors": [
-                {
-                    "name": "etwaslangsam",
-                    "url": "https://github.com/etwaslangsam",
-                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/etwaslangsam/bath_ane/releases/download/v0.28/bathane.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "bathane.zip",
-                    "size_in_bytes": 5559705,
-                    "_ex": {
-                        "download_count": 31
+                        "download_count": 39
                     }
                 }
             ]
@@ -762,6 +729,38 @@
                     "size_in_bytes": 3077781,
                     "_ex": {
                         "download_count": 15
+                    }
+                }
+            ]
+        },
+        {
+            "id": "apxxxxxxe/Youto",
+            "url": "https://github.com/apxxxxxxe/Youto",
+            "title": "Youto",
+            "content_text": "見て、帰り道で見つけたへんなぬいぐるみ。\r\n……これ、しゃべるんだ。\r\n\r\n------------------------------\r\nゴースト「思い出の、」\r\n\r\n雑談(?)ゴーストです。\r\n羊がつぶやく単語に合わせて、\r\n男の子がそれにちなんだ話をしたりしなかったりします。\r\n\r\n------------------------------\r\n- 羊をクリック、またはtキーでランダムトーク\r\n- なにもないところをクリック、またはmキーでメニュー\r\n\r\n------------------------------\r\n作成にあたって以下のテンプレートとシェルを使用させていただきました。\r\nこの場を借りてお礼申し上げます。ありがとうございます。\r\n- YAYA辞書テンプレート「SimpleYAYAテンプレート」\r\n- フリーシェル「SHLEEP」\r\n",
+            "summary": "伺かゴースト",
+            "date_published": "2022-10-24T13:43:21Z",
+            "date_modified": "2022-10-24T13:43:21Z",
+            "authors": [
+                {
+                    "name": "apxxxxxxe",
+                    "url": "https://github.com/apxxxxxxe",
+                    "avatar": "https://avatars.githubusercontent.com/u/39634779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar",
+                    "mime_type": "application/zip",
+                    "title": "omoideno.nar",
+                    "size_in_bytes": 1086608,
+                    "_ex": {
+                        "download_count": 69
                     }
                 }
             ]

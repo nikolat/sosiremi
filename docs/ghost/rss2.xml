@@ -141,15 +141,6 @@
     <pubDate>Mon, 22 May 2023 21:37:32 +0900</pubDate>
 </item>
 <item>
-    <title>bath_ane</title>
-    <link>https://github.com/etwaslangsam/bath_ane</link>
-    <description>風呂上がりの姉貴</description>
-    <category>ghost</category>
-    <dc:creator>etwaslangsam</dc:creator>
-    <guid isPermaLink="false">etwaslangsam/bath_ane</guid>
-    <pubDate>Sun, 30 Apr 2023 11:49:02 +0900</pubDate>
-</item>
-<item>
     <title>myalice2</title>
     <link>https://github.com/etwaslangsam/myalice2</link>
     <description>ゴースト「僕のアリス2」</description>
@@ -202,6 +193,15 @@
     <dc:creator>etwaslangsam</dc:creator>
     <guid isPermaLink="false">etwaslangsam/Gertrude</guid>
     <pubDate>Thu, 23 Mar 2023 17:45:09 +0900</pubDate>
+</item>
+<item>
+    <title>Youto</title>
+    <link>https://github.com/apxxxxxxe/Youto</link>
+    <description>伺かゴースト</description>
+    <category>ghost</category>
+    <dc:creator>apxxxxxxe</dc:creator>
+    <guid isPermaLink="false">apxxxxxxe/Youto</guid>
+    <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
 </item>
 <item>
     <title>Youto</title>
