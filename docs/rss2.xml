@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>Taromati2</title>
+    <link>https://github.com/Taromati2/Taromati2</link>
+    <description>黑色的猫咪 银发的少女 没有结局的故事</description>
+    <category>ghost</category>
+    <dc:creator>Taromati2</dc:creator>
+    <guid isPermaLink="false">Taromati2/Taromati2</guid>
+    <pubDate>Mon, 07 Aug 2023 09:44:06 +0900</pubDate>
+</item>
+<item>
     <title>jong-bari</title>
     <link>https://github.com/nikolat/jong-bari</link>
     <description>麻雀サーバーゴースト</description>
@@ -193,15 +202,6 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Bouyomi</guid>
     <pubDate>Wed, 05 Apr 2023 20:05:05 +0900</pubDate>
-</item>
-<item>
-    <title>Taromati2</title>
-    <link>https://github.com/Taromati2/Taromati2</link>
-    <description>黑色的猫咪 银发的少女 没有结局的故事</description>
-    <category>ghost</category>
-    <dc:creator>Taromati2</dc:creator>
-    <guid isPermaLink="false">Taromati2/Taromati2</guid>
-    <pubDate>Mon, 07 Aug 2023 09:44:06 +0900</pubDate>
 </item>
 <item>
     <title>desktop_tempter</title>
