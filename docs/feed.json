@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "Tatakinov/knowledgeable_kernel",
+            "url": "https://github.com/Tatakinov/knowledgeable_kernel",
+            "title": "knowledgeable_kernel",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】モノシリック・カーネル\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\nLinuxについてあることないこと喋るゴーストです。\r\nあんまり濃ゆい話はしません。多分。\r\n\r\n\r\n## 注意事項\r\n\r\n- トークで紹介する一部コマンドにはデータを消したり破損させるものがあります。\r\n  実行は自己責任でお願いします。\r\n- えせ関西弁が苦手な方はアンインストールをおすすめします。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n### シェル\r\n\r\nさくら(\\0)側は\r\nhttps://github.com/bes-dev/stable_diffusion.openvino\r\nを用いて生成した画像を少し手直しして\r\nhttps://github.com/pkhungurn/talking-head-anime-3-demo\r\nで差分を生成したものを使用しています。\r\nstable_diffusionのライセンスは\r\nstable_diffusion.LICENSE.txtに記載されています。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua           | https://www.lua.org/\r\nsol2          | https://github.com/ThePhD/sol2/\r\nluautf8       | https://github.com/starwing/luautf8/\r\nluaex         | https://github.com/LuaDist/luaex/\r\nLuachild      | https://github.com/pocomane/luachild/\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-07-20T12:48:35Z",
+            "date_modified": "2023-07-20T12:48:41Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "knowledgeable_kernel.nar",
+                    "size_in_bytes": 1990567,
+                    "_ex": {
+                        "download_count": 24
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/ukadonyu",
             "url": "https://github.com/nikolat/ukadonyu",
             "title": "ukadonyu",
@@ -499,39 +532,6 @@
                     "size_in_bytes": 6446304,
                     "_ex": {
                         "download_count": 31
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/knowledgeable_kernel",
-            "url": "https://github.com/Tatakinov/knowledgeable_kernel",
-            "title": "knowledgeable_kernel",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】モノシリック・カーネル\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\nLinuxについてあることないこと喋るゴーストです。\r\nあんまり濃ゆい話はしません。多分。\r\n\r\n\r\n## 注意事項\r\n\r\n- トークで紹介する一部コマンドにはデータを消したり破損させるものがあります。\r\n  実行は自己責任でお願いします。\r\n- えせ関西弁が苦手な方はアンインストールをおすすめします。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n### シェル\r\n\r\nさくら(\\0)側は\r\nhttps://github.com/bes-dev/stable_diffusion.openvino\r\nを用いて生成した画像を少し手直しして\r\nhttps://github.com/pkhungurn/talking-head-anime-3-demo\r\nで差分を生成したものを使用しています。\r\nstable_diffusionのライセンスは\r\nstable_diffusion.LICENSE.txtに記載されています。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua           | https://www.lua.org/\r\nsol2          | https://github.com/ThePhD/sol2/\r\nluautf8       | https://github.com/starwing/luautf8/\r\nluaex         | https://github.com/LuaDist/luaex/\r\nLuachild      | https://github.com/pocomane/luachild/\r\n\r\n",
-            "summary": "",
-            "date_published": "2023-07-20T12:48:35Z",
-            "date_modified": "2023-07-20T12:48:41Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "knowledgeable_kernel.nar",
-                    "size_in_bytes": 1990567,
-                    "_ex": {
-                        "download_count": 24
                     }
                 }
             ]
