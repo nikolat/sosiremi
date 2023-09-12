@@ -327,40 +327,6 @@
             ]
         },
         {
-            "id": "nikolat/ghostbook",
-            "url": "https://github.com/nikolat/ghostbook",
-            "title": "ghostbook",
-            "content_text": "========================================================================\n【ソフト名称】ごーすとじてん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.28\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2007/07/08\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  SSPにおいて動作を確認しております。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  インストール済みの他のゴーストの情報を検索し、表示する機能を有します。\n  また、特殊な対応が施されたゴーストに対しては\n  同時起動中にそのゴーストに関する追加情報を取得することができます。\n  さらにその情報を利用して模擬戦闘などのミニゲームをすることが可能です。\n\n■便利機能\n\n  [ショートカットキー]\n  d: ドキュメントファイルオープン（ゴーストマスタ様向け仕様書）\n  m: メニュー表示\n  r: リロード\n\n  [マウスホイール]\n  ページめくり\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを\n  同梱のライセンスに従って使用させて頂いております。\n  ありがとうございます。\n\n  yaya.dll\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n  フリーシェル「黒と預言書」\n    mid.\n      http://mid.yu.to/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  CC0 1.0 Universalの下で公開します。\n",
-            "summary": "伺かゴースト",
-            "date_published": "2023-01-02T01:39:17Z",
-            "date_modified": "2023-01-02T01:39:19Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost",
-                "yaya"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ghostbook/releases/download/v1.0.0/ghostbook.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "ghostbook.nar",
-                    "size_in_bytes": 466758,
-                    "_ex": {
-                        "download_count": 47
-                    }
-                }
-            ]
-        },
-        {
             "id": "nikolat/crawler_uploader",
             "url": "https://github.com/nikolat/crawler_uploader",
             "title": "crawler_uploader",
