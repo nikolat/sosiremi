@@ -402,6 +402,40 @@
             ]
         },
         {
+            "id": "nikolat/ghostbook",
+            "url": "https://github.com/nikolat/ghostbook",
+            "title": "ghostbook",
+            "content_text": "========================================================================\n【ソフト名称】ごーすとじてん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.28\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2007/07/08\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  SSPにおいて動作を確認しております。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  インストール済みの他のゴーストの情報を検索し、表示する機能を有します。\n  また、特殊な対応が施されたゴーストに対しては\n  同時起動中にそのゴーストに関する追加情報を取得することができます。\n  さらにその情報を利用して模擬戦闘などのミニゲームをすることが可能です。\n\n■便利機能\n\n  [ショートカットキー]\n  d: ドキュメントファイルオープン（ゴーストマスタ様向け仕様書）\n  m: メニュー表示\n  r: リロード\n\n  [マウスホイール]\n  ページめくり\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを\n  同梱のライセンスに従って使用させて頂いております。\n  ありがとうございます。\n\n  yaya.dll\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n  フリーシェル「黒と預言書」\n    mid.\n      http://mid.yu.to/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  CC0 1.0 Universalの下で公開します。\n",
+            "summary": "伺かゴースト",
+            "date_published": "2023-01-02T01:39:17Z",
+            "date_modified": "2023-01-02T01:39:19Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost",
+                "yaya"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ghostbook/releases/download/v1.0.0/ghostbook.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "ghostbook.nar",
+                    "size_in_bytes": 466758,
+                    "_ex": {
+                        "download_count": 47
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/crawler_uploader",
             "url": "https://github.com/nikolat/crawler_uploader",
             "title": "crawler_uploader",
@@ -735,6 +769,38 @@
             ]
         },
         {
+            "id": "apxxxxxxe/Bouyomi",
+            "url": "https://github.com/apxxxxxxe/Bouyomi",
+            "title": "Bouyomi",
+            "content_text": "プラグイン「Bouyomi」\r\nSSPでのみ動作確認\r\n\r\n------------------------------\r\nこのプラグインは、YAYA as PLUGINを使用して作られています。\r\n作成にあたり、プラグイン「第弐版仮想道頓堀水泳拡張」をテンプレートとして使用させていただきました。\r\n\r\n------------------------------\r\n## 何をするもの？\r\n棒読みちゃん(https://chi.usamimi.info/Program/Application/BouyomiChan/)\r\nと連携し、ゴーストのトークの読み上げを可能にします。\r\n\r\n## どうやって使うの？\r\n棒読みちゃんを起動した状態でゴーストを起動するだけでトークを読み上げが可能になります。\r\n「棒読みちゃん送信」と共存する場合、片方を無効化しておくことを推奨します。\r\n\r\n## 有効/無効の切り替え\r\nインストール直後は自動的に有効化されています。特別な操作は必要ありません。\r\n無効化する際は、ゴーストの上で右クリック→機能→エクスプローラ→種類→プラグインの順に選択し、\r\n本プラグインの右クリックメニューから有効/無効の切り替えが可能です。\r\n\r\n## 注意\r\nインストール直後はバージョンが古い場合があります。*必ず*ネットワーク更新を行ってください。\r\n本プラグインの右クリックメニューからネットワーク更新が可能です。\r\n",
+            "summary": "伺かプラグイン",
+            "date_published": "2023-04-05T11:05:05Z",
+            "date_modified": "2023-04-05T11:05:05Z",
+            "authors": [
+                {
+                    "name": "apxxxxxxe",
+                    "url": "https://github.com/apxxxxxxe",
+                    "avatar": "https://avatars.githubusercontent.com/u/39634779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.3.7/Bouyomi.nar",
+                    "mime_type": "application/zip",
+                    "title": "Bouyomi.nar",
+                    "size_in_bytes": 2871619,
+                    "_ex": {
+                        "download_count": 41
+                    }
+                }
+            ]
+        },
+        {
             "id": "Tatakinov/desktop_tempter",
             "url": "https://github.com/Tatakinov/desktop_tempter",
             "title": "desktop_tempter",
@@ -897,71 +963,6 @@
                     "size_in_bytes": 1597770,
                     "_ex": {
                         "download_count": 23
-                    }
-                }
-            ]
-        },
-        {
-            "id": "apxxxxxxe/Youto",
-            "url": "https://github.com/apxxxxxxe/Youto",
-            "title": "Youto",
-            "content_text": "見て、帰り道で見つけたへんなぬいぐるみ。\r\n……これ、しゃべるんだ。\r\n\r\n------------------------------\r\nゴースト「思い出の、」\r\n\r\n雑談(?)ゴーストです。\r\n羊がつぶやく単語に合わせて、\r\n男の子がそれにちなんだ話をしたりしなかったりします。\r\n\r\n------------------------------\r\n- 羊をクリック、またはtキーでランダムトーク\r\n- なにもないところをクリック、またはmキーでメニュー\r\n\r\n------------------------------\r\n作成にあたって以下のテンプレートとシェルを使用させていただきました。\r\nこの場を借りてお礼申し上げます。ありがとうございます。\r\n- YAYA辞書テンプレート「SimpleYAYAテンプレート」\r\n- フリーシェル「SHLEEP」\r\n",
-            "summary": "伺かゴースト",
-            "date_published": "2022-10-24T13:43:21Z",
-            "date_modified": "2022-10-24T13:43:21Z",
-            "authors": [
-                {
-                    "name": "apxxxxxxe",
-                    "url": "https://github.com/apxxxxxxe",
-                    "avatar": "https://avatars.githubusercontent.com/u/39634779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar",
-                    "mime_type": "application/zip",
-                    "title": "omoideno.nar",
-                    "size_in_bytes": 1086608,
-                    "_ex": {
-                        "download_count": 70
-                    }
-                }
-            ]
-        },
-        {
-            "id": "tukinami/talismanic_beast_pattern",
-            "url": "https://github.com/tukinami/talismanic_beast_pattern",
-            "title": "talismanic_beast_pattern",
-            "content_text": "伺か用バルーン「魔除けの獣面紋」\r\n\r\n制作: 月波 清火\r\n公開日: 2023-01-19\r\n動作確認: SSP/2.6.28\r\n------------------------------------------------------------\r\n\r\n古代中国をイメージしたバルーンで、\r\n獣面紋(饕餮文とも)や怪獣文をアレンジして取り入れています。\r\n\r\n特徴\r\n・大き目(フォントサイズ15、縦長め)\r\n・左右同一デザイン\r\n・スクロール用矢印がやや特殊(右が前への、左が後ろへの矢印)\r\n\r\n\r\nライセンス\r\n------------------------------------------------------------\r\n画像内の文字に、 SIMO様制作「青柳隷書しも」を使用しています。\r\nhttps://opentype.jp/aoyagireisho.htm\r\n\r\nまた、公開レポジトリにある「balloontown-preview.png」の文字に、\r\n「ＭＳ 明朝」、「ＭＳ ゴシック」を使用しています。\r\n(data:株式会社リコー typeface:リョービイマジクス(株))\r\n(「ＭＳ 明朝」、「ＭＳ ゴシック」は米国Microsoft Corporationの\r\n米国及びその他の国の登録商標または商標です。)\r\n\r\n上記以外のファイルについては、\r\n「CC0 1.0 Universal」にて配布いたします。\r\nhttps://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n\r\n連絡先\r\n------------------------------------------------------------\r\nPeing質問箱(https://peing.net/ja/tukinami_seika)\r\n\r\nバグ報告・感想・要望等、お気軽にどうぞ。\r\n\r\n\r\n更新履歴\r\n------------------------------------------------------------\r\n2013-01-24: readme.txt更新(レポジトリのみ)。\r\n2023-01-19: 初版公開。\r\n",
-            "summary": "伺か用バルーン「魔除けの獣面紋」",
-            "date_published": "2023-01-19T12:57:39Z",
-            "date_modified": "2023-01-19T12:57:44Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-balloon"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/talismanic_beast_pattern/releases/download/v1.0.0/talismanic_beast_pattern.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "talismanic_beast_pattern.nar",
-                    "size_in_bytes": 1838846,
-                    "_ex": {
-                        "download_count": 22
                     }
                 }
             ]

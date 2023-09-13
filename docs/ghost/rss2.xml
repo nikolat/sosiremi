@@ -96,6 +96,15 @@
     <pubDate>Sat, 12 Nov 2022 20:35:54 +0900</pubDate>
 </item>
 <item>
+    <title>ghostbook</title>
+    <link>https://github.com/nikolat/ghostbook</link>
+    <description>伺かゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ghostbook</guid>
+    <pubDate>Mon, 02 Jan 2023 10:39:19 +0900</pubDate>
+</item>
+<item>
     <title>crawler_uploader</title>
     <link>https://github.com/nikolat/crawler_uploader</link>
     <description>UKAGAKA Ghost</description>
@@ -193,15 +202,6 @@
     <dc:creator>etwaslangsam</dc:creator>
     <guid isPermaLink="false">etwaslangsam/Gertrude</guid>
     <pubDate>Thu, 23 Mar 2023 17:45:09 +0900</pubDate>
-</item>
-<item>
-    <title>Youto</title>
-    <link>https://github.com/apxxxxxxe/Youto</link>
-    <description>伺かゴースト</description>
-    <category>ghost</category>
-    <dc:creator>apxxxxxxe</dc:creator>
-    <guid isPermaLink="false">apxxxxxxe/Youto</guid>
-    <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
 </item>
 <item>
     <title>Youto</title>
