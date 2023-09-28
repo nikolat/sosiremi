@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "Tatakinov/knowledgeable_kernel",
+            "url": "https://github.com/Tatakinov/knowledgeable_kernel",
+            "title": "knowledgeable_kernel",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】モノシリック・カーネル\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\nLinuxについてあることないこと喋るゴーストです。\r\nあんまり濃ゆい話はしません。多分。\r\n\r\n\r\n## 注意事項\r\n\r\n- トークで紹介する一部コマンドにはデータを消したり破損させるものがあります。\r\n  実行は自己責任でお願いします。\r\n- えせ関西弁が苦手な方はアンインストールをおすすめします。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n### シェル\r\n\r\nさくら(\\0)側は\r\nhttps://github.com/bes-dev/stable_diffusion.openvino\r\nを用いて生成した画像を少し手直しして\r\nhttps://github.com/pkhungurn/talking-head-anime-3-demo\r\nで差分を生成したものを使用しています。\r\nstable_diffusionのライセンスは\r\nstable_diffusion.LICENSE.txtに記載されています。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua           | https://www.lua.org/\r\nsol2          | https://github.com/ThePhD/sol2/\r\nluautf8       | https://github.com/starwing/luautf8/\r\nluaex         | https://github.com/LuaDist/luaex/\r\nLuachild      | https://github.com/pocomane/luachild/\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-07-20T12:48:35Z",
+            "date_modified": "2023-07-20T12:48:41Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "knowledgeable_kernel.nar",
+                    "size_in_bytes": 1990567,
+                    "_ex": {
+                        "download_count": 39
+                    }
+                }
+            ]
+        },
+        {
             "id": "Taromati2/Taromati2",
             "url": "https://github.com/Taromati2/Taromati2",
             "title": "Taromati2",
@@ -43,6 +76,43 @@
                     "size_in_bytes": 4888027,
                     "_ex": {
                         "download_count": 11
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-bari",
+            "url": "https://github.com/nikolat/jong-bari",
+            "title": "jong-bari",
+            "content_text": "========================================================================\n【ソフト名称】雀々BARIBARI\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.42\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/06/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  麻雀をするためのサーバーゴーストです。\n  他にクライアントゴーストを3体召喚してお楽しみください。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀サーバーゴースト",
+            "date_published": "2023-06-09T08:01:08Z",
+            "date_modified": "2023-06-09T08:01:11Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-bari/releases/download/v1.0.6/jong-bari.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-bari.nar",
+                    "size_in_bytes": 1049602,
+                    "_ex": {
+                        "download_count": 26
                     }
                 }
             ]
@@ -326,6 +396,40 @@
                     "size_in_bytes": 466758,
                     "_ex": {
                         "download_count": 49
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/crawler_uploader",
+            "url": "https://github.com/nikolat/crawler_uploader",
+            "title": "crawler_uploader",
+            "content_text": "========================================================================\n【ソフト名称】クローラ＆ロダ\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.15\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2011/04/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  \\0妹: ゴーストのネットワーク更新を捕捉する仕事をしている\n  \\1姉: NARを預かり、ネットワーク更新をサポートする仕事をしている\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェル・画像素材を使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    narをアップするところ\n      (配布元消失)\n\n  フリーシェル「mof」\n    パン耳手帳\n      (配布元消失)\n\n  browser-logos\n    https://github.com/alrra/browser-logos\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
+            "summary": "UKAGAKA Ghost",
+            "date_published": "2022-04-29T01:21:30Z",
+            "date_modified": "2022-04-29T01:21:32Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "dotnet-framework",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/crawler_uploader/releases/download/v1.0.0/crawler_uploader.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "crawler_uploader.nar",
+                    "size_in_bytes": 658145,
+                    "_ex": {
+                        "download_count": 78
                     }
                 }
             ]
@@ -659,38 +763,6 @@
                     "size_in_bytes": 3077781,
                     "_ex": {
                         "download_count": 26
-                    }
-                }
-            ]
-        },
-        {
-            "id": "apxxxxxxe/Youto",
-            "url": "https://github.com/apxxxxxxe/Youto",
-            "title": "Youto",
-            "content_text": "見て、帰り道で見つけたへんなぬいぐるみ。\r\n……これ、しゃべるんだ。\r\n\r\n------------------------------\r\nゴースト「思い出の、」\r\n\r\n雑談(?)ゴーストです。\r\n羊がつぶやく単語に合わせて、\r\n男の子がそれにちなんだ話をしたりしなかったりします。\r\n\r\n------------------------------\r\n- 羊をクリック、またはtキーでランダムトーク\r\n- なにもないところをクリック、またはmキーでメニュー\r\n\r\n------------------------------\r\n作成にあたって以下のテンプレートとシェルを使用させていただきました。\r\nこの場を借りてお礼申し上げます。ありがとうございます。\r\n- YAYA辞書テンプレート「SimpleYAYAテンプレート」\r\n- フリーシェル「SHLEEP」\r\n",
-            "summary": "伺かゴースト",
-            "date_published": "2022-10-24T13:43:21Z",
-            "date_modified": "2022-10-24T13:43:21Z",
-            "authors": [
-                {
-                    "name": "apxxxxxxe",
-                    "url": "https://github.com/apxxxxxxe",
-                    "avatar": "https://avatars.githubusercontent.com/u/39634779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar",
-                    "mime_type": "application/zip",
-                    "title": "omoideno.nar",
-                    "size_in_bytes": 1086608,
-                    "_ex": {
-                        "download_count": 71
                     }
                 }
             ]

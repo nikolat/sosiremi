@@ -15,6 +15,15 @@
     <pubDate>Thu, 19 Jan 2023 08:49:32 +0900</pubDate>
 </item>
 <item>
+    <title>jong-bari</title>
+    <link>https://github.com/nikolat/jong-bari</link>
+    <description>麻雀サーバーゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jong-bari</guid>
+    <pubDate>Fri, 09 Jun 2023 17:01:11 +0900</pubDate>
+</item>
+<item>
     <title>ukagaka-simultaneous-interpreter</title>
     <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
     <description>Simultaneous Interpreter Ghost</description>
@@ -87,6 +96,15 @@
     <pubDate>Mon, 02 Jan 2023 10:39:19 +0900</pubDate>
 </item>
 <item>
+    <title>crawler_uploader</title>
+    <link>https://github.com/nikolat/crawler_uploader</link>
+    <description>UKAGAKA Ghost</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/crawler_uploader</guid>
+    <pubDate>Fri, 29 Apr 2022 10:21:32 +0900</pubDate>
+</item>
+<item>
     <title>bee</title>
     <link>https://github.com/nikolat/bee</link>
     <description>伺かゴースト</description>
@@ -112,15 +130,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukagaka-party-parrot</guid>
     <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
-</item>
-<item>
-    <title>sudohaikuyu</title>
-    <link>https://github.com/nikolat/sudohaikuyu</link>
-    <description>スドハイククライアント</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
-    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
 </item>
 <item>
     <title>sudohaikuyu</title>
