@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "etwaslangsam/bath_ane",
+            "url": "https://github.com/etwaslangsam/bath_ane",
+            "title": "bath_ane",
+            "content_text": "\n■ゴースト「風呂上がりの姉貴」\n\n\n■使用素材\n\tフリーシェル「パリピ学園バイブス天国」（蟻の住む木 さん）\n\n■さわり反応\n\n\t頭：なで\n\t胸：つつき\n\t太もも：なで",
+            "summary": "風呂上がりの姉貴",
+            "date_published": "2023-10-01T03:45:20Z",
+            "date_modified": "2023-10-01T03:45:24Z",
+            "authors": [
+                {
+                    "name": "etwaslangsam",
+                    "url": "https://github.com/etwaslangsam",
+                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/etwaslangsam/bath_ane/releases/download/v0.29/bathane.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "bathane.zip",
+                    "size_in_bytes": 5560612,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "Tatakinov/knowledgeable_kernel",
             "url": "https://github.com/Tatakinov/knowledgeable_kernel",
             "title": "knowledgeable_kernel",
@@ -632,39 +665,6 @@
                     "size_in_bytes": 400503,
                     "_ex": {
                         "download_count": 43
-                    }
-                }
-            ]
-        },
-        {
-            "id": "etwaslangsam/bath_ane",
-            "url": "https://github.com/etwaslangsam/bath_ane",
-            "title": "bath_ane",
-            "content_text": "\n■ゴースト「風呂上がりの姉貴」\n\n\n■使用素材\n\tフリーシェル「パリピ学園バイブス天国」（蟻の住む木 さん）\n\n■さわり反応\n\n\t頭：なで\n\t胸：つつき\n\t太もも：なで",
-            "summary": "風呂上がりの姉貴",
-            "date_published": "2023-04-30T02:48:58Z",
-            "date_modified": "2023-04-30T02:49:02Z",
-            "authors": [
-                {
-                    "name": "etwaslangsam",
-                    "url": "https://github.com/etwaslangsam",
-                    "avatar": "https://avatars.githubusercontent.com/u/8955817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/etwaslangsam/bath_ane/releases/download/v0.28/bathane.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "bathane.zip",
-                    "size_in_bytes": 5559705,
-                    "_ex": {
-                        "download_count": 41
                     }
                 }
             ]
