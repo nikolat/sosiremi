@@ -87,6 +87,15 @@
     <pubDate>Sat, 12 Nov 2022 20:37:09 +0900</pubDate>
 </item>
 <item>
+    <title>jong-rinrin</title>
+    <link>https://github.com/nikolat/jong-rinrin</link>
+    <description>麻雀クライアントゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jong-rinrin</guid>
+    <pubDate>Sat, 12 Nov 2022 20:34:32 +0900</pubDate>
+</item>
+<item>
     <title>jong-chunchun</title>
     <link>https://github.com/nikolat/jong-chunchun</link>
     <description>麻雀クライアントゴースト</description>
@@ -121,6 +130,24 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/bee</guid>
     <pubDate>Mon, 02 Jan 2023 10:40:13 +0900</pubDate>
+</item>
+<item>
+    <title>banjou_no_sumikko_de</title>
+    <link>https://github.com/Tatakinov/banjou_no_sumikko_de</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/banjou_no_sumikko_de</guid>
+    <pubDate>Sun, 08 Jan 2023 22:11:28 +0900</pubDate>
+</item>
+<item>
+    <title>taidanaSanoSan</title>
+    <link>https://github.com/tukinami/taidanaSanoSan</link>
+    <description>伺か雑談系ゴースト</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
+    <pubDate>Sun, 02 Jul 2023 16:37:58 +0900</pubDate>
 </item>
 <item>
     <title>d2k</title>
@@ -175,24 +202,6 @@
     <dc:creator>etwaslangsam</dc:creator>
     <guid isPermaLink="false">etwaslangsam/Gertrude</guid>
     <pubDate>Thu, 23 Mar 2023 17:45:09 +0900</pubDate>
-</item>
-<item>
-    <title>Youto</title>
-    <link>https://github.com/apxxxxxxe/Youto</link>
-    <description>伺かゴースト</description>
-    <category>ghost</category>
-    <dc:creator>apxxxxxxe</dc:creator>
-    <guid isPermaLink="false">apxxxxxxe/Youto</guid>
-    <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
-</item>
-<item>
-    <title>desktop_tempter_casino_chip_green</title>
-    <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_green</link>
-    <description></description>
-    <category>ghost</category>
-    <dc:creator>Tatakinov</dc:creator>
-    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_green</guid>
-    <pubDate>Sat, 07 Jan 2023 14:29:01 +0900</pubDate>
 </item>
 <item>
     <title>Youto</title>
