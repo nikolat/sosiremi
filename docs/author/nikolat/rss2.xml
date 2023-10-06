@@ -69,15 +69,6 @@
     <pubDate>Sat, 12 Nov 2022 20:37:09 +0900</pubDate>
 </item>
 <item>
-    <title>jong-rinrin</title>
-    <link>https://github.com/nikolat/jong-rinrin</link>
-    <description>麻雀クライアントゴースト</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jong-rinrin</guid>
-    <pubDate>Sat, 12 Nov 2022 20:34:32 +0900</pubDate>
-</item>
-<item>
     <title>jong-chunchun</title>
     <link>https://github.com/nikolat/jong-chunchun</link>
     <description>麻雀クライアントゴースト</description>
@@ -130,6 +121,15 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukagaka-party-parrot</guid>
     <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
+</item>
+<item>
+    <title>sudohaikuyu</title>
+    <link>https://github.com/nikolat/sudohaikuyu</link>
+    <description>スドハイククライアント</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
+    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
 </item>
 <item>
     <title>sudohaikuyu</title>
