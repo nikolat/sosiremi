@@ -51,6 +51,24 @@
     <pubDate>Sat, 06 May 2023 07:47:09 +0900</pubDate>
 </item>
 <item>
+    <title>ukagaka-hakoirimusume</title>
+    <link>https://github.com/nikolat/ukagaka-hakoirimusume</link>
+    <description>Klotski for UKAGAKA</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukagaka-hakoirimusume</guid>
+    <pubDate>Wed, 27 Apr 2022 18:51:06 +0900</pubDate>
+</item>
+<item>
+    <title>shellbook</title>
+    <link>https://github.com/nikolat/shellbook</link>
+    <description>freeshell Wiki viewer</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/shellbook</guid>
+    <pubDate>Tue, 13 Dec 2022 21:55:00 +0900</pubDate>
+</item>
+<item>
     <title>reshibainu</title>
     <link>https://github.com/nikolat/reshibainu</link>
     <description>「里々」ログビューア「れしば.NET」のゴースト版</description>
@@ -130,6 +148,15 @@
     <dc:creator>tukinami</dc:creator>
     <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
     <pubDate>Sun, 02 Jul 2023 16:37:58 +0900</pubDate>
+</item>
+<item>
+    <title>d2k</title>
+    <link>https://github.com/etwaslangsam/d2k</link>
+    <description>芹那と妃音with玄恵</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/d2k</guid>
+    <pubDate>Mon, 22 May 2023 21:37:32 +0900</pubDate>
 </item>
 <item>
     <title>myalice2</title>
