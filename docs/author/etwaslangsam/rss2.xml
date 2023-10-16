@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/etwaslangsam/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>Gertrude</title>
+    <link>https://github.com/etwaslangsam/Gertrude</link>
+    <description>俺が嫁</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/Gertrude</guid>
+    <pubDate>Thu, 23 Mar 2023 17:45:09 +0900</pubDate>
+</item>
+<item>
     <title>bath_ane</title>
     <link>https://github.com/etwaslangsam/bath_ane</link>
     <description>風呂上がりの姉貴</description>
@@ -31,15 +40,6 @@
     <dc:creator>etwaslangsam</dc:creator>
     <guid isPermaLink="false">etwaslangsam/myalice2</guid>
     <pubDate>Wed, 22 Feb 2023 22:21:23 +0900</pubDate>
-</item>
-<item>
-    <title>Gertrude</title>
-    <link>https://github.com/etwaslangsam/Gertrude</link>
-    <description>俺が嫁</description>
-    <category>ghost</category>
-    <dc:creator>etwaslangsam</dc:creator>
-    <guid isPermaLink="false">etwaslangsam/Gertrude</guid>
-    <pubDate>Thu, 23 Mar 2023 17:45:09 +0900</pubDate>
 </item>
 </channel>
 </rss>
