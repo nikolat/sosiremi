@@ -12,7 +12,16 @@
     <category>plugin</category>
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Bouyomi</guid>
-    <pubDate>Sat, 21 Oct 2023 05:57:25 +0900</pubDate>
+    <pubDate>Sun, 22 Oct 2023 16:26:27 +0900</pubDate>
+</item>
+<item>
+    <title>taidanaSanoSan</title>
+    <link>https://github.com/tukinami/taidanaSanoSan</link>
+    <description>伺か雑談系ゴースト</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
+    <pubDate>Sun, 02 Jul 2023 16:37:58 +0900</pubDate>
 </item>
 <item>
     <title>Gertrude</title>
@@ -166,15 +175,6 @@
     <dc:creator>Tatakinov</dc:creator>
     <guid isPermaLink="false">Tatakinov/banjou_no_sumikko_de</guid>
     <pubDate>Sun, 08 Jan 2023 22:11:28 +0900</pubDate>
-</item>
-<item>
-    <title>taidanaSanoSan</title>
-    <link>https://github.com/tukinami/taidanaSanoSan</link>
-    <description>伺か雑談系ゴースト</description>
-    <category>ghost</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
-    <pubDate>Sun, 02 Jul 2023 16:37:58 +0900</pubDate>
 </item>
 <item>
     <title>d2k</title>
