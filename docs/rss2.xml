@@ -240,15 +240,6 @@
     <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
 </item>
 <item>
-    <title>ukagakaPlugin_SSP-SlaveConsole</title>
-    <link>https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole</link>
-    <description>伺かのトークを拾って通知したりコマンドを実行したりできるプラグイン。設定はlua。</description>
-    <category>plugin</category>
-    <dc:creator>ambergon</dc:creator>
-    <guid isPermaLink="false">ambergon/ukagakaPlugin_SSP-SlaveConsole</guid>
-    <pubDate>Wed, 29 Mar 2023 22:29:37 +0900</pubDate>
-</item>
-<item>
     <title>SSP-AIVOICE</title>
     <link>https://github.com/opera7133/SSP-AIVOICE</link>
     <description>伺かとA.I.VOICEを連携</description>

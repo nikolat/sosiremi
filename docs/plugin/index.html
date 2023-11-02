@@ -14,7 +14,6 @@
 <link rel="alternate" type="application/x-nar" title="ukadonyu" href="https://github.com/nikolat/ukadonyu/releases/download/v2.2/ukadonyu.nar" />
 <link rel="alternate" type="application/x-nar" title="wallet_of_unyu" href="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.0.1/wallet_of_unyu.nar" />
 <link rel="alternate" type="application/octet-stream" title="ukagakaPlugin_CeVIO-Talker" href="https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker/releases/download/version1.0.7/ukagakaPlugin_CeVIO-Talker.nar" />
-<link rel="alternate" type="application/octet-stream" title="ukagakaPlugin_SSP-SlaveConsole" href="https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole/releases/download/1.0.0/ukagakaPlugin_SlaveConsole.nar" />
 <link rel="alternate" type="application/x-nar" title="SSP-AIVOICE" href="https://github.com/opera7133/SSP-AIVOICE/releases/download/v1.0.2/AIVOICE.nar" />
 <link rel="alternate" type="application/x-nar" title="sudohaikuyu" href="https://github.com/nikolat/sudohaikuyu/releases/download/v0.4/sudohaikuyu.nar" />
 <link rel="alternate" type="application/octet-stream" title="ukagakaPlugin_getWindowTitle" href="https://github.com/ambergon/ukagakaPlugin_getWindowTitle/releases/download/1.0.0/ukagakaPlugin_getWindowTitle.nar" />
@@ -323,95 +322,6 @@ proxy_ex.dll
 [ambergon](https://twitter.com/Sc_lFoxGon)
 
 
-
-
-</pre>
-			</aside>
-		</article>
-		<article id="ambergon/ukagakaPlugin_SSP-SlaveConsole" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole" rel="bookmark">ukagakaPlugin_SSP-SlaveConsole</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./">plugin</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="../author/ambergon/">ambergon</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2023-03-29T13:29:35Z">2023-03-29 22:29:35</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2023-03-29T13:29:37Z">2023-03-29 22:29:37</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole/releases/download/1.0.0/ukagakaPlugin_SlaveConsole.nar" title="https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole/releases/download/1.0.0/ukagakaPlugin_SlaveConsole.nar" rel="nofollow" data-filesize="308.7" data-download_count="14">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fambergon%2FukagakaPlugin_SSP-SlaveConsole%2Freleases%2Fdownload%2F1.0.0%2FukagakaPlugin_SlaveConsole.nar" title="https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole/releases/download/1.0.0/ukagakaPlugin_SlaveConsole.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="ukagakaPlugin_SSP-SlaveConsole">
-				<h4>readme</h4>
-<pre>
-# SSP-SlaveConsole
-今後、伺かによって情報収集をする際に、&lt;br&gt;
-バルーンに表示した内容をすべて確認するのは大変だと考え、&lt;br&gt;
-必要な情報のみを通知できる仕組みを作ろうと思い作成しました。&lt;br&gt;
-&lt;br&gt;
-実行時にコンソールが表示されます。&lt;br&gt;
-これはこのプラグインを使って実行したコマンドの結果なども出力されるほか、SSPで読み込まれている他のdllなどで出力があれば流れてきます。&lt;br&gt;
-
-
-## 出来ること。
-ゴーストやプラグインが発言したトークを拾って`Filter_`から始まる関数でマッチします。&lt;br&gt;
-マッチした場合、サクラスクリプトの`trayballoon`のような通知を流したり、事前に設定したコマンドを実行できます。&lt;br&gt;
-
-
-#### 非プログラマ向けの簡単な使い方
-[【伺か】一部のサクラスクリプトを通知する仕組みを作ってみた。【プラグイン】 -- 異風堂々](https://ambergonslibrary.com/ukagaka/8695/)&lt;br&gt;
-
-
-## 課題。
-luaから通知用のbatファイルへの実行がshift-jisになってしまい、日本語等を使うと文字化けします。&lt;br&gt;
-対策として、日本語を使わない。もしくはluaの設定ファイルの返すタイトル・メッセージをshift-jisで記入する方法があります。&lt;br&gt;
-
-
-## 実行環境
-win10/SSP/2.6.41で確認している。&lt;br&gt;
-
-
-## 依存
-PowerShellが実行可能なこと。&lt;br&gt;
-
-
-## 設定ファイル
-luaファイル/func.luaによって設定します。&lt;br&gt;
-```
-function Filter_Sample( sakuraScript )
-    -- 検索文字列
-    local filter    = &#34;&#34;
-    -- 通知タイトル。
-    local title     = &#34;&#34;
-    -- 通知内容
-    local msg       = &#34;&#34;
-    -- 実行コマンド
-    local cmd       = &#34;&#34;
-    -- 継続するかどうか。
-    local breakFlag = true
-    if not ( filter == &#34;&#34; ) and not ( string.match( sakuraScript , filter ) == nil ) then
-        return title , msg , cmd ,breakFlag
-    end
-    return nil , nil , nil , false
-end
-```
-検索にヒットした場合、通知タイトルがあれば通知を行います。&lt;br&gt;
-実行コマンドがあれば実行します。&lt;br&gt;
-これらはどちらも行うことができます。&lt;br&gt;
-&lt;br&gt;
-breakFlagをtrueにした場合、この実行のみでこのサクラスクリプトに対しての検索を終了します。&lt;br&gt;
-falseにした場合、同じサクラスクリプトに対して残りのFilterも確認して実行します。&lt;br&gt;
-&lt;br&gt;
-Filterの実行順番は指定することはできません。&lt;br&gt;
-また、これらは別スレッドで実行されるため、SSPや栞の挙動に影響を与えません。&lt;br&gt;
-
-
-
-## Other
-このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。&lt;br&gt;
 
 
 </pre>

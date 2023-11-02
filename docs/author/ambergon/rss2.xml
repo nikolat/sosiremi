@@ -15,15 +15,6 @@
     <pubDate>Fri, 27 Jan 2023 21:01:54 +0900</pubDate>
 </item>
 <item>
-    <title>ukagakaPlugin_SSP-SlaveConsole</title>
-    <link>https://github.com/ambergon/ukagakaPlugin_SSP-SlaveConsole</link>
-    <description>伺かのトークを拾って通知したりコマンドを実行したりできるプラグイン。設定はlua。</description>
-    <category>plugin</category>
-    <dc:creator>ambergon</dc:creator>
-    <guid isPermaLink="false">ambergon/ukagakaPlugin_SSP-SlaveConsole</guid>
-    <pubDate>Wed, 29 Mar 2023 22:29:37 +0900</pubDate>
-</item>
-<item>
     <title>ukagakaPlugin_getWindowTitle</title>
     <link>https://github.com/ambergon/ukagakaPlugin_getWindowTitle</link>
     <description>伺か ・ゴーストがあなたの作業を覗き込むようになるプラグイン。</description>
