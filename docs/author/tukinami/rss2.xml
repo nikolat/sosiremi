@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/tukinami/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>double-danshi-KouKousei</title>
+    <link>https://github.com/tukinami/double-danshi-KouKousei</link>
+    <description>伺か用フリーシェル。男子高校生二人組。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/double-danshi-KouKousei</guid>
+    <pubDate>Wed, 08 Nov 2023 18:11:07 +0900</pubDate>
+</item>
+<item>
     <title>taidanaSanoSan</title>
     <link>https://github.com/tukinami/taidanaSanoSan</link>
     <description>伺か雑談系ゴースト</description>
