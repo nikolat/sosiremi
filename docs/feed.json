@@ -11,8 +11,8 @@
             "title": "double-danshi-KouKousei",
             "content_text": "# ダブル男子高校生\r\n\r\n## これは何？\r\n\r\n伺か用フリーシェル(立ち絵)「ダブル男子高校生」の公開レポジトリです。\r\n\r\n男子高校生二人組のフリーシェルで、SSP専用です。\r\n着せ替えと、簡単なオーナードローメニュー素材がついています。\r\n\r\nシェルやpsdファイルのダウンロードは\r\n[`Releasesの最新版`](https://github.com/tukinami/double-danshi-KouKousei/releases/latest)からどうぞ。\r\n\r\n## ダウンロードできる内容は？\r\n\r\n通常は`double-danshi-KouKousei.nar`か`double-danshi-KouKousei-S.nar`、\r\nどちらかをダウンロードしてください。\r\n\r\n### double-danshi-KouKousei.nar\r\n\r\nフリーシェル本体(全身版)です。縦1200pxです。\r\n\r\n### double-danshi-KouKousei-S.nar\r\n\r\nフリーシェル本体(膝上版)です。縦796pxです。\r\n\r\n### double-danshi-KouKousei_psd.zip\r\n\r\nシェル改変のために用意したpsdファイルです。全身、膝上版両方入っています。\r\n\r\n## シェル画像のプレビュー\r\n\r\n全身版(50%縮小)\r\n\r\n![全身版の画像 男子高校生二人組が立っている](doc/preview_shell.jpg)\r\n\r\n膝上版(50%縮小)\r\n\r\n![膝上版の画像 男子高校生二人組が立っている](doc/preview_shell-s.jpg)\r\n\r\n表情集\r\n\r\n![男子高校生二人組の表情集](doc/preview_face.jpg)\r\n\r\n\r\n## 着せ替え部位\r\n\r\nsakura側、kero側それぞれに以下の着せ替えがあります。\r\n\r\n- 靴下(白or紺)(全身版のみ)\r\n- シャツ(半袖or長袖)\r\n- ネクタイ\r\n- セーター(ベストor長袖orなし)\r\n- ジャケット\r\n\r\n着せ替えをしない場合は、descript.txtの以下の2行をコメントアウトし、\r\n\r\n```\r\nsakura.menu,auto\r\nkero.menu,auto\r\n```\r\n\r\n以下の2行を有効にしてくだい\r\n\r\n```\r\n// sakura.menuitem0,-\r\n// kero.menuitem0,-\r\n```\r\n\r\n## 当たり判定\r\n\r\nsakura側、kero側それぞれに当たり判定があります。\r\n\r\n- Head\r\n- Shoulder\r\n- Hand\r\n\r\n当たり判定上ではマウスカーソルが変わるように設定されています。\r\n\r\n## ライセンス\r\n\r\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\r\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\r\n\r\n## 連絡先\r\n\r\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\r\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\r\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\r\n- [公開URL](https://github.com/tukinami/double-danshi-KouKousei)\r\n\r\n## 製作者\r\n\r\n月波 清火\r\n\r\n- [GitHub](https://github.com/tukinami)\r\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\r\n",
             "summary": "伺か用フリーシェル。男子高校生二人組。",
-            "date_published": "2023-11-08T09:10:56Z",
-            "date_modified": "2023-11-08T09:11:07Z",
+            "date_published": "2023-11-09T12:32:18Z",
+            "date_modified": "2023-11-09T12:32:21Z",
             "authors": [
                 {
                     "name": "tukinami",
@@ -28,12 +28,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/tukinami/double-danshi-KouKousei/releases/download/v1.0.0/double-danshi-KouKousei-S.nar",
+                    "url": "https://github.com/tukinami/double-danshi-KouKousei/releases/download/v1.0.1/double-danshi-KouKousei-S.nar",
                     "mime_type": "application/octet-stream",
                     "title": "double-danshi-KouKousei-S.nar",
-                    "size_in_bytes": 1266839,
+                    "size_in_bytes": 1266891,
                     "_ex": {
-                        "download_count": 4
+                        "download_count": 0
                     }
                 }
             ]
