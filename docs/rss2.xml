@@ -204,15 +204,6 @@
     <pubDate>Mon, 22 May 2023 21:37:32 +0900</pubDate>
 </item>
 <item>
-    <title>wallet_of_unyu</title>
-    <link>https://github.com/nikolat/wallet_of_unyu</link>
-    <description>伺かの世界で流通する暗号通貨UNYUのウォレット</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/wallet_of_unyu</guid>
-    <pubDate>Sat, 06 May 2023 07:36:14 +0900</pubDate>
-</item>
-<item>
     <title>HamirLore</title>
     <link>https://github.com/Shimofumi/HamirLore</link>
     <description>Ukagaka ghost HamirLore</description>
@@ -256,6 +247,15 @@
     <dc:creator>opera7133</dc:creator>
     <guid isPermaLink="false">opera7133/SSP-AIVOICE</guid>
     <pubDate>Fri, 17 Mar 2023 23:38:46 +0900</pubDate>
+</item>
+<item>
+    <title>Youto</title>
+    <link>https://github.com/apxxxxxxe/Youto</link>
+    <description>伺かゴースト</description>
+    <category>ghost</category>
+    <dc:creator>apxxxxxxe</dc:creator>
+    <guid isPermaLink="false">apxxxxxxe/Youto</guid>
+    <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
 </item>
 <item>
     <title>Youto</title>
