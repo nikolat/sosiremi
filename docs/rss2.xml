@@ -258,33 +258,6 @@
     <pubDate>Fri, 17 Mar 2023 23:38:46 +0900</pubDate>
 </item>
 <item>
-    <title>Youto</title>
-    <link>https://github.com/apxxxxxxe/Youto</link>
-    <description>伺かゴースト</description>
-    <category>ghost</category>
-    <dc:creator>apxxxxxxe</dc:creator>
-    <guid isPermaLink="false">apxxxxxxe/Youto</guid>
-    <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
-</item>
-<item>
-    <title>talismanic_beast_pattern</title>
-    <link>https://github.com/tukinami/talismanic_beast_pattern</link>
-    <description>伺か用バルーン「魔除けの獣面紋」</description>
-    <category>balloon</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/talismanic_beast_pattern</guid>
-    <pubDate>Thu, 19 Jan 2023 21:57:44 +0900</pubDate>
-</item>
-<item>
-    <title>sudohaikuyu</title>
-    <link>https://github.com/nikolat/sudohaikuyu</link>
-    <description>スドハイククライアント</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
-    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
-</item>
-<item>
     <title>ukagakaPlugin_getWindowTitle</title>
     <link>https://github.com/ambergon/ukagakaPlugin_getWindowTitle</link>
     <description>伺か ・ゴーストがあなたの作業を覗き込むようになるプラグイン。</description>
@@ -382,15 +355,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
     <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
-</item>
-<item>
-    <title>balloonselector</title>
-    <link>https://github.com/nikolat/balloonselector</link>
-    <description>バルーン選択支援プラグイン</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/balloonselector</guid>
-    <pubDate>Sun, 10 Jul 2022 19:55:18 +0900</pubDate>
 </item>
 <item>
     <title>ukagaka-caramelldansen-patch</title>
