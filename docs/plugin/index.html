@@ -14,10 +14,12 @@
 <link rel="alternate" type="application/x-nar" title="ukadonyu" href="https://github.com/nikolat/ukadonyu/releases/download/v2.2/ukadonyu.nar" />
 <link rel="alternate" type="application/x-nar" title="wallet_of_unyu" href="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.0.1/wallet_of_unyu.nar" />
 <link rel="alternate" type="application/octet-stream" title="ukagakaPlugin_CeVIO-Talker" href="https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker/releases/download/version1.0.7/ukagakaPlugin_CeVIO-Talker.nar" />
+<link rel="alternate" type="application/x-nar" title="SSP-AIVOICE" href="https://github.com/opera7133/SSP-AIVOICE/releases/download/v1.0.2/AIVOICE.nar" />
 <link rel="alternate" type="application/x-nar" title="sudohaikuyu" href="https://github.com/nikolat/sudohaikuyu/releases/download/v0.4/sudohaikuyu.nar" />
 <link rel="alternate" type="application/octet-stream" title="ukagakaPlugin_getWindowTitle" href="https://github.com/ambergon/ukagakaPlugin_getWindowTitle/releases/download/1.0.0/ukagakaPlugin_getWindowTitle.nar" />
 <link rel="alternate" type="application/octet-stream" title="UkagakaPlugin_DBdiary" href="https://github.com/ambergon/UkagakaPlugin_DBdiary/releases/download/1.0.1/UkagakaPlugin_DBdiary.nar" />
 <link rel="alternate" type="application/x-nar" title="ukaten" href="https://github.com/nikolat/ukaten/releases/download/v1.0/ukaten.nar" />
+<link rel="alternate" type="application/x-nar" title="CharameLNetwork" href="https://github.com/nikolat/CharameLNetwork/releases/download/v0.5/CharameLNetwork.nar" />
 <link rel="alternate" type="application/x-nar" title="balloonselector" href="https://github.com/nikolat/balloonselector/releases/download/v2.4.0/balloonselector.nar" />
 </head>
 <body>
@@ -322,6 +324,61 @@ proxy_ex.dll
 
 
 
+</pre>
+			</aside>
+		</article>
+		<article id="opera7133/SSP-AIVOICE" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/opera7133/SSP-AIVOICE" rel="bookmark">SSP-AIVOICE</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./">plugin</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="../author/opera7133/">opera7133</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2023-03-17T14:38:44Z">2023-03-17 23:38:44</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2023-03-17T14:38:46Z">2023-03-17 23:38:46</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/opera7133/SSP-AIVOICE/releases/download/v1.0.2/AIVOICE.nar" title="https://github.com/opera7133/SSP-AIVOICE/releases/download/v1.0.2/AIVOICE.nar" rel="nofollow" data-filesize="1560.3" data-download_count="29">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fopera7133%2FSSP-AIVOICE%2Freleases%2Fdownload%2Fv1.0.2%2FAIVOICE.nar" title="https://github.com/opera7133/SSP-AIVOICE/releases/download/v1.0.2/AIVOICE.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="SSP-AIVOICE">
+				<h4>readme</h4>
+<pre>
+# A.I.VOICE 送信プラグイン
+
+伺かとA.I.VOICEを連携させるプラグインです。
+
+## 元
+
+このプラグインは[CeVIO-Talker](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)をもとに製作されました。
+
+## ライブラリ
+
+- [CSaori Project / proxy_ex](https://github.com/ukatech/csaori/)
+- [Newtonsoft / Json.NET](https://github.com/JamesNK/Newtonsoft.Json)
+- [整備班(SEIBIHAN) / YAYA](https://github.com/YAYA-shiori/yaya-shiori)
+
+## コンパイル（Windows）
+
+- check.cs
+
+```bash
+csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /t:exe .\check.cs
+```
+
+- client.cs
+
+```bash
+csc /t:winexe .\client.cs
+```
+
+- server.cs
+
+```bash
+csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /r:Newtonsoft.Json.dll /t:winexe .\server.cs
+```
 </pre>
 			</aside>
 		</article>
@@ -740,6 +797,62 @@ o
 2021/03/05  Ver0.3  ・ゴーストから利用できるイベント関数群を追加
                      （OnGetPluginVersion,OnGetSavedArea,OnGetWeatherInfo)
 2021/11/12  Ver1.0  ・GitHubに移行
+</pre>
+			</aside>
+		</article>
+		<article id="nikolat/CharameLNetwork" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/nikolat/CharameLNetwork" rel="bookmark">CharameLNetwork</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./">plugin</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="../author/nikolat/">nikolat</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2022-04-02T09:22:18Z">2022-04-02 18:22:18</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2022-04-27T09:48:12Z">2022-04-27 18:48:12</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/nikolat/CharameLNetwork/releases/download/v0.5/CharameLNetwork.nar" title="https://github.com/nikolat/CharameLNetwork/releases/download/v0.5/CharameLNetwork.nar" rel="nofollow" data-filesize="389.2" data-download_count="18">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fnikolat%2FCharameLNetwork%2Freleases%2Fdownload%2Fv0.5%2FCharameLNetwork.nar" title="https://github.com/nikolat/CharameLNetwork/releases/download/v0.5/CharameLNetwork.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="CharameLNetwork">
+				<h4>readme</h4>
+<pre>
+CharameLのやり取りをHTMLに書き出します。
+なんとなくSNS風に見えるかもしれません。
+
+CharameL
+http://umeici.onjn.jp/CharameL.html
+
+****************
+
+このプラグインは、YAYA as PLUGINを使用して作られています。
+
+yaya.dllはYAYAのライセンスに基づき、
+・伺か関係には完全に自由に（NYSL相当と考えて良い）
+・それ以外には修正BSDライセンスでやはり自由に
+配布・修正等が可能です。
+
+それ以外のテキストファイル、辞書ファイルの類いは、すべてNYSDLに基づき自由に配布できます。
+
+****************
+
+NYSDL Version 0.9982
+A. 本ソフトウェアは Everyone&#39;sWare です。このソフトを手にした一人一人が、
+   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。
+
+  A-1. フリーウェアです。作者からは使用料等を要求しません。
+  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。
+  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。
+  A-4. 変更したものや部分的に使用したものは、あなたのものになります。
+       公開する場合は、あなたの名前の下で行って下さい。
+
+B. このソフトを利用することによって生じた損害等について、作者は
+   責任を負わないものとします。各自の責任においてご利用下さい。
+
+C. 著作者人格権はDonに帰属します。著作権は放棄します。
+
 </pre>
 			</aside>
 		</article>

@@ -105,6 +105,42 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "nikolat/jb-standard",
+            "url": "https://github.com/nikolat/jb-standard",
+            "title": "jb-standard",
+            "content_text": "\n■概要\n\n  ゴースト「雀々BARIBARI」用追加シェル「standard」\n\n  雀々BARIBARI\n    https://github.com/nikolat/jong-bari\n\n■ライセンス\n\n□以下のサイトで配布されている牌画像を加工して使用しております。\n\n  麻雀豆腐\n    https://majandofu.com/mahjong-images\n\n□画像内の文字に「Nishiki-teki」フォントを使用しております。\n\n  にしき的フォント - TYPVS LITTERARVM NISICIAE\n    https://umihotaru.work/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n  著作者人格権はDonに帰属します\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n\n",
+            "summary": "ゴースト「雀々BARIBARI」用追加シェル",
+            "date_published": "2022-05-14T11:15:52Z",
+            "date_modified": "2022-05-14T11:15:54Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jb-standard/releases/download/v1.0.5/jb-standard.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jb-standard.nar",
+                    "size_in_bytes": 562934,
+                    "_ex": {
+                        "download_count": 27
+                    }
+                }
+            ]
         }
     ]
 }

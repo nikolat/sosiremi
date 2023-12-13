@@ -42,6 +42,15 @@
     <pubDate>Fri, 27 Jan 2023 21:01:54 +0900</pubDate>
 </item>
 <item>
+    <title>SSP-AIVOICE</title>
+    <link>https://github.com/opera7133/SSP-AIVOICE</link>
+    <description>伺かとA.I.VOICEを連携</description>
+    <category>plugin</category>
+    <dc:creator>opera7133</dc:creator>
+    <guid isPermaLink="false">opera7133/SSP-AIVOICE</guid>
+    <pubDate>Fri, 17 Mar 2023 23:38:46 +0900</pubDate>
+</item>
+<item>
     <title>sudohaikuyu</title>
     <link>https://github.com/nikolat/sudohaikuyu</link>
     <description>スドハイククライアント</description>
@@ -76,6 +85,15 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukaten</guid>
     <pubDate>Wed, 27 Apr 2022 18:50:49 +0900</pubDate>
+</item>
+<item>
+    <title>CharameLNetwork</title>
+    <link>https://github.com/nikolat/CharameLNetwork</link>
+    <description>CharameLをSNS風に見せる何か</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
+    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
 </item>
 <item>
     <title>balloonselector</title>

@@ -51,6 +51,15 @@
     <pubDate>Sun, 26 Nov 2023 17:09:34 +0900</pubDate>
 </item>
 <item>
+    <title>Taromati2</title>
+    <link>https://github.com/Taromati2/Taromati2</link>
+    <description>黑色的猫咪 银发的少女 没有结局的故事</description>
+    <category>ghost</category>
+    <dc:creator>Taromati2</dc:creator>
+    <guid isPermaLink="false">Taromati2/Taromati2</guid>
+    <pubDate>Thu, 07 Dec 2023 09:39:29 +0900</pubDate>
+</item>
+<item>
     <title>jong-rinrin</title>
     <link>https://github.com/nikolat/jong-rinrin</link>
     <description>麻雀クライアントゴースト</description>
@@ -121,15 +130,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukadonyu</guid>
     <pubDate>Thu, 19 Jan 2023 08:49:32 +0900</pubDate>
-</item>
-<item>
-    <title>Taromati2</title>
-    <link>https://github.com/Taromati2/Taromati2</link>
-    <description>黑色的猫咪 银发的少女 没有结局的故事</description>
-    <category>ghost</category>
-    <dc:creator>Taromati2</dc:creator>
-    <guid isPermaLink="false">Taromati2/Taromati2</guid>
-    <pubDate>Thu, 07 Dec 2023 09:39:29 +0900</pubDate>
 </item>
 <item>
     <title>jong-bari</title>
@@ -258,6 +258,15 @@
     <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
 </item>
 <item>
+    <title>SSP-AIVOICE</title>
+    <link>https://github.com/opera7133/SSP-AIVOICE</link>
+    <description>伺かとA.I.VOICEを連携</description>
+    <category>plugin</category>
+    <dc:creator>opera7133</dc:creator>
+    <guid isPermaLink="false">opera7133/SSP-AIVOICE</guid>
+    <pubDate>Fri, 17 Mar 2023 23:38:46 +0900</pubDate>
+</item>
+<item>
     <title>Youto</title>
     <link>https://github.com/apxxxxxxe/Youto</link>
     <description>伺かゴースト</description>
@@ -364,6 +373,24 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
     <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
+</item>
+<item>
+    <title>jb-standard</title>
+    <link>https://github.com/nikolat/jb-standard</link>
+    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jb-standard</guid>
+    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
+</item>
+<item>
+    <title>CharameLNetwork</title>
+    <link>https://github.com/nikolat/CharameLNetwork</link>
+    <description>CharameLをSNS風に見せる何か</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
+    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
 </item>
 <item>
     <title>balloonselector</title>
