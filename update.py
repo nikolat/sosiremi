@@ -35,7 +35,10 @@ class GitHubNarStation(crawler.GitHubApiCrawler):
 					logger.debug(f'releases_url is redirected form {item["full_name"]} to {config["redirect"][item["full_name"]]["nar"]}')
 					item['releases_url'] = item['releases_url'].replace(item['full_name'], config['redirect'][item['full_name']]['nar'])
 				latest_url = item['releases_url'].replace('{/id}', '/latest')
-				response = self._request_with_retry(latest_url, None)
+				try:
+					response = self._request_with_retry(latest_url, None)
+				except requests.RequestException as e:
+					continue
 				l_item = response.json()
 				if 'assets' not in l_item:
 					logger.debug(f'assets are not found in {item["full_name"]}')
@@ -70,9 +73,13 @@ class GitHubNarStation(crawler.GitHubApiCrawler):
 					readme = response.text
 				except requests.HTTPError as e:
 					url = f'https://api.github.com/repos/{item["full_name"]}/readme'
-					response = self._request_with_retry(url, None, retry=False)
-					r_item = response.json()
-					if 'download_url' in r_item:
+					response = None
+					try:
+						response = self._request_with_retry(url, None, retry=False)
+						r_item = response.json()
+					except requests.RequestException as e:
+						pass
+					if response is not None and 'download_url' in r_item:
 						readme_url = r_item['download_url']
 						response = requests.get(readme_url)
 						response.encoding = response.apparent_encoding

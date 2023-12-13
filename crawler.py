@@ -48,6 +48,8 @@ class GitHubApiCrawler(abc.ABC):
 		except requests.RequestException as e:
 			logger.warning(f'Status: {response.status_code}, URL: {url}')
 			logger.debug(e.response.text)
+			if response.status_code == 404:
+				raise
 			if retry:
 				if 'Retry-After' in response.headers:
 					wait = int(response.headers['Retry-After'])
