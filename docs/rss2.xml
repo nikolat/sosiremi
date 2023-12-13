@@ -258,15 +258,6 @@
     <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
 </item>
 <item>
-    <title>SSP-AIVOICE</title>
-    <link>https://github.com/opera7133/SSP-AIVOICE</link>
-    <description>伺かとA.I.VOICEを連携</description>
-    <category>plugin</category>
-    <dc:creator>opera7133</dc:creator>
-    <guid isPermaLink="false">opera7133/SSP-AIVOICE</guid>
-    <pubDate>Fri, 17 Mar 2023 23:38:46 +0900</pubDate>
-</item>
-<item>
     <title>Youto</title>
     <link>https://github.com/apxxxxxxe/Youto</link>
     <description>伺かゴースト</description>
@@ -373,24 +364,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
     <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard</title>
-    <link>https://github.com/nikolat/jb-standard</link>
-    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard</guid>
-    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
-</item>
-<item>
-    <title>CharameLNetwork</title>
-    <link>https://github.com/nikolat/CharameLNetwork</link>
-    <description>CharameLをSNS風に見せる何か</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
-    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
 </item>
 <item>
     <title>balloonselector</title>

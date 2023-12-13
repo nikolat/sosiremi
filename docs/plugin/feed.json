@@ -140,39 +140,6 @@
             ]
         },
         {
-            "id": "opera7133/SSP-AIVOICE",
-            "url": "https://github.com/opera7133/SSP-AIVOICE",
-            "title": "SSP-AIVOICE",
-            "content_text": "# A.I.VOICE 送信プラグイン\n\n伺かとA.I.VOICEを連携させるプラグインです。\n\n## 元\n\nこのプラグインは[CeVIO-Talker](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)をもとに製作されました。\n\n## ライブラリ\n\n- [CSaori Project / proxy_ex](https://github.com/ukatech/csaori/)\n- [Newtonsoft / Json.NET](https://github.com/JamesNK/Newtonsoft.Json)\n- [整備班(SEIBIHAN) / YAYA](https://github.com/YAYA-shiori/yaya-shiori)\n\n## コンパイル（Windows）\n\n- check.cs\n\n```bash\ncsc /r:\"（AI.Talk.Editor.Api.dllのパス）\" /t:exe .\\check.cs\n```\n\n- client.cs\n\n```bash\ncsc /t:winexe .\\client.cs\n```\n\n- server.cs\n\n```bash\ncsc /r:\"（AI.Talk.Editor.Api.dllのパス）\" /r:Newtonsoft.Json.dll /t:winexe .\\server.cs\n```\n",
-            "summary": "伺かとA.I.VOICEを連携",
-            "date_published": "2023-03-17T14:38:44Z",
-            "date_modified": "2023-03-17T14:38:46Z",
-            "authors": [
-                {
-                    "name": "opera7133",
-                    "url": "https://github.com/opera7133",
-                    "avatar": "https://avatars.githubusercontent.com/u/39876629?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-plugin"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/opera7133/SSP-AIVOICE/releases/download/v1.0.2/AIVOICE.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "AIVOICE.nar",
-                    "size_in_bytes": 1597770,
-                    "_ex": {
-                        "download_count": 29
-                    }
-                }
-            ]
-        },
-        {
             "id": "nikolat/sudohaikuyu",
             "url": "https://github.com/nikolat/sudohaikuyu",
             "title": "sudohaikuyu",
@@ -304,40 +271,6 @@
                     "size_in_bytes": 874823,
                     "_ex": {
                         "download_count": 74
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/CharameLNetwork",
-            "url": "https://github.com/nikolat/CharameLNetwork",
-            "title": "CharameLNetwork",
-            "content_text": "CharameLのやり取りをHTMLに書き出します。\nなんとなくSNS風に見えるかもしれません。\n\nCharameL\nhttp://umeici.onjn.jp/CharameL.html\n\n****************\n\nこのプラグインは、YAYA as PLUGINを使用して作られています。\n\nyaya.dllはYAYAのライセンスに基づき、\n・伺か関係には完全に自由に（NYSL相当と考えて良い）\n・それ以外には修正BSDライセンスでやはり自由に\n配布・修正等が可能です。\n\nそれ以外のテキストファイル、辞書ファイルの類いは、すべてNYSDLに基づき自由に配布できます。\n\n****************\n\nNYSDL Version 0.9982\nA. 本ソフトウェアは Everyone'sWare です。このソフトを手にした一人一人が、\n   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. フリーウェアです。作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。\n  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。\n  A-4. 変更したものや部分的に使用したものは、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. このソフトを利用することによって生じた損害等について、作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n\n",
-            "summary": "CharameLをSNS風に見せる何か",
-            "date_published": "2022-04-02T09:22:18Z",
-            "date_modified": "2022-04-27T09:48:12Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-plugin",
-                "yaya"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/CharameLNetwork/releases/download/v0.5/CharameLNetwork.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "CharameLNetwork.nar",
-                    "size_in_bytes": 398563,
-                    "_ex": {
-                        "download_count": 18
                     }
                 }
             ]
