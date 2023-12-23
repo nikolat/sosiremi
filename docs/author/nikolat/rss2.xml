@@ -195,6 +195,15 @@
     <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
 </item>
 <item>
+    <title>balloonselector</title>
+    <link>https://github.com/nikolat/balloonselector</link>
+    <description>バルーン選択支援プラグイン</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/balloonselector</guid>
+    <pubDate>Sun, 10 Jul 2022 19:55:18 +0900</pubDate>
+</item>
+<item>
     <title>ukagaka-caramelldansen-patch</title>
     <link>https://github.com/nikolat/ukagaka-caramelldansen-patch</link>
     <description>caramelldansen修正用supplement</description>
