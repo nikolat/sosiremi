@@ -330,15 +330,6 @@
     <pubDate>Sat, 07 Jan 2023 14:26:58 +0900</pubDate>
 </item>
 <item>
-    <title>UkagakaPlugin_DBdiary</title>
-    <link>https://github.com/ambergon/UkagakaPlugin_DBdiary</link>
-    <description>伺か・ゴーストから日記を書いたり読んだりするyaya as plugin</description>
-    <category>plugin</category>
-    <dc:creator>ambergon</dc:creator>
-    <guid isPermaLink="false">ambergon/UkagakaPlugin_DBdiary</guid>
-    <pubDate>Wed, 04 Jan 2023 16:56:15 +0900</pubDate>
-</item>
-<item>
     <title>si-near-future</title>
     <link>https://github.com/nikolat/si-near-future</link>
     <description>additional shell for simultaneous-interpreter</description>
