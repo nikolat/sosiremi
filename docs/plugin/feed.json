@@ -241,6 +241,39 @@
             ]
         },
         {
+            "id": "ambergon/UkagakaPlugin_DBdiary",
+            "url": "https://github.com/ambergon/UkagakaPlugin_DBdiary",
+            "title": "UkagakaPlugin_DBdiary",
+            "content_text": "# DBdiary\n簡単な日記を作成するためのプログラムです。\n\n## 使用可能な関数一覧\n```\n\"\\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]\"\n\"\\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]\"\n\"\\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]\"\n\n\n//20230104追加関数\n\"\\![raiseplugin,DBdiary,OnCheckWrittenDiary]\"\n```\n\n## 日記を書く\n二種類の方法で日記を書くことができます。\n- DirtyDiary<br>\n    保存名が日付+日記内容.txtになります。<br>\n    日記の中には「Dirty Diary」に統一されます。<br>\n\n- BeautifulDiary<br>\n    保存名が日付.txtになります。<br>\n    こちらはゴーストから日記内容を取得できるようにしています。<br>\n\n#### 日記の保存先\nプラグインフォルダ/Diary/yyyymmdd{Dirty Diary only}.txt\n\n\n## DirtyDiaryを呼び出す。\nこのプラグインをインストールしている状態で下記のサクラスクリプトを打ち込んでください。<br>\n入力欄が出てきます。<br>\nゴーストに発言させる場合はbefore_textやafter_textの部分を適時書き換えてください。<br>\n他のテキストと相性が悪かったためこのような形になりました。<br>\n```\n\"\\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]\"\n```\n\n## BeautifulDiaryを呼び出す。\n使用方法は同じです。\n```\n\"\\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]\"\n```\n\n## 日記の内容を引っ張り出す。\n同じくbefore_text,after_textをうまく使ってやってください。<br>\n指定した日付の日記の内容を取得します。<br>\nnotWriteは何も書かれていなかった時、<br>\nnotExistは日記がなかった時に表示されます。<br>\n```\n\"\\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]\"\n```\n\n\n## 日記の内容を引っ張り出す。2\n先ほどの関数ではゴーストから扱いづらいので別の関数を用意しました。\n引数は不要でこのサクラスクリプトを実行するだけです。\n```\n\"\\![raiseplugin,DBdiary,OnCheckWrittenDiary]\"\n```\nただし、ゴースト側で下記のOnRecieveCheckWrittenDiary関数を実装してください。\nこの関数はreference0に ファイルが存在してかつ、空のファイルじゃなかった場合はBeautifulDiaryの本文が格納されています。\n\n以下は実装例。\n```\nOnRecieveCheckWrittenDiary {\n    _res = reference[0]\n    if ( _res == \"notExist\" ) {\n        \"書いてないやんけ。\"\n\n    } elseif ( _res == \"notWrite\" ) {\n        \"白紙やぞ。\"\n\n    } else {\n        _text = \"この日の日記は \" + _res + \"だったんだね。\"\n    }\n}\n```\n\n\n\n## お借りしたもの\nyaya.dll\n[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。<br>\nまたゴースト等に同梱して配布していただいて構いません。<br>\nmain.uka内部を好きに書き換えてくれて構いません。<br>\n\n\n## 小言\n実際に作ってみたものの、raisepluginが使いづらく、<br>\nプラグイン化のメリットはゴーストのデータを汚さないことぐらいでしょうか.<br>\n\nFREADで読み込めるのは一行だけの都合、日記を読み込む際に複数行書かれた場合(追記モードに変更したのであり得る)最初の一行しか引っ張れない問題がある。\n\n\n\n\n## Author\n[ambergon](https://twitter.com/Sc_lFoxGon)\n\no\n\n\n\n\n\n\n\n\n\n\n\n",
+            "summary": "伺か・ゴーストから日記を書いたり読んだりするyaya as plugin",
+            "date_published": "2023-01-04T07:56:09Z",
+            "date_modified": "2023-01-04T07:56:15Z",
+            "authors": [
+                {
+                    "name": "ambergon",
+                    "url": "https://github.com/ambergon",
+                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ambergon/UkagakaPlugin_DBdiary/releases/download/1.0.1/UkagakaPlugin_DBdiary.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "UkagakaPlugin_DBdiary.nar",
+                    "size_in_bytes": 832334,
+                    "_ex": {
+                        "download_count": 23
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/ukaten",
             "url": "https://github.com/nikolat/ukaten",
             "title": "ukaten",
