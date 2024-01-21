@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/taidanaSanoSan",
+            "url": "https://github.com/tukinami/taidanaSanoSan",
+            "title": "taidanaSanoSan",
+            "content_text": " 怠惰な佐野さん\r\n============================================================\r\n面倒くさがりな少年「佐野 伊織」と、猫又の「きぬ」の\r\n雑談系ゴーストです。\r\n\r\n満腹度によって、わずかばかりトークが増減します。\r\nまた、ユーザーがおやつをあげることもできます。\r\n\r\n(トークの内容について、不正確な内容も含まれるかと思います。\r\n引用等につきましては、その点ご注意下さい。)\r\n\r\n追加シェル「master-s」(小さなドット絵シェル)、\r\nバルーン「怠惰な猫の青い石」を同梱してます。\r\n\r\n\r\n基本的な操作\r\n============================================================\r\nゴースト上でダブルクリックすると、メニューが出ます。\r\nこのゴーストの設定・おやつなどはここからどうぞ。\r\n\r\n\r\n対応プラグイン\r\n============================================================\r\n・SwissArmyKnife\r\n・スタンプ帳\r\n    http://navy.nm.land.to/post/\r\n・GetWindowTitle\r\n    https://github.com/ambergon/ukagakaPlugin_getWindowTitle\r\n\r\n\r\nバグ報告など\r\n============================================================\r\nバグ報告・感想などは、現在、\r\n・Peing質問箱(https://peing.net/ja/tukinami_seika)\r\nまたは、\r\n・Mastodon(@tukinami_seika@fedibird.com)\r\n・Twitter(@tukinami_s)(ほとんど放置)\r\nでのDM、リプライで受け付けています。\r\n\r\nバグ報告については\r\nGitHubのIssues(https://github.com/tukinami/taidanaSanoSan/issues)\r\nでも受け付けています。\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n使用しているものについて\r\n============================================================\r\nYAYA(SHIORI)\r\nhttps://github.com/ponapalt/yaya-shiori/wiki\r\n紺野ややめ(テンプレートゴースト)\r\nhttp://ms.shillest.net/yayame.xhtml\r\n\r\n\r\n謝辞\r\n============================================================\r\nEmily/Phase4.5\r\nCopyright (C) 2004- Emily/Phase4.5 Project.\r\nhttp://ssp.shillest.net/\r\nゴースト作成において大変参考にさせていただきました。\r\nありがとうございます。\r\n\r\n\r\nゴーストの著作権等について(2022.12.12 現在)\r\n============================================================\r\n\r\nゴースト著作権意識についての質問\r\nhttp://emily.shillest.net/specwiki/index.php?ueda%2F%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E8%91%97%E4%BD%9C%E6%A8%A9%E6%84%8F%E8%AD%98%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E8%B3%AA%E5%95%8F\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n 可能。URLが変わるかもしれない点に気を付けて下さい。\r\n\r\n[2.ゴーストのネタバレをされる]\r\n OK。\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n OK。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n 月波清火個人の著作物 : OK。個人の範囲で。\r\n その他の方の著作物 : その著作物の規則に従って下さい。\r\n\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n OK。\r\n\r\n[6.18禁二次創作をされる]\r\n OK。個人の責で。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n OK。喜びます。\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n OK。改変したことを明記の上。\r\n\r\n[9.トークをウェブ上に転載]\r\n OK。\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n 月波清火の著作物ならば可能。\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n 不可。\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n OK。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n OK。\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n OK。改変したこと、元がそのゴーストであることを明記の上。\r\n\r\n[15.ゴーストの同人誌収録]\r\n OK。事後でも報告があるとありがたいです。\r\n\r\n[16.ゴーストの商業誌収録]\r\n 事前報告後判断いたします。\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/taidanaSanoSan\r\n",
+            "summary": "伺か雑談系ゴースト",
+            "date_published": "2024-01-13T03:56:31Z",
+            "date_modified": "2024-01-13T03:56:39Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/taidanaSanoSan/releases/download/v1.6.0/taidanaSanoSan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "taidanaSanoSan.nar",
+                    "size_in_bytes": 1887182,
+                    "_ex": {
+                        "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
             "id": "Shimofumi/Oyatsu_ha_Macaroni",
             "url": "https://github.com/Shimofumi/Oyatsu_ha_Macaroni",
             "title": "Oyatsu_ha_Macaroni",
@@ -175,6 +208,43 @@
                     "size_in_bytes": 5089121,
                     "_ex": {
                         "download_count": 9
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-rinrin",
+            "url": "https://github.com/nikolat/jong-rinrin",
+            "title": "jong-rinrin",
+            "content_text": "========================================================================\n【ソフト名称】雀-リンリン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「YAYA」を使用しています。\n\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p007（耳尻尾bb）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:34:17Z",
+            "date_modified": "2022-11-12T11:34:32Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost",
+                "yaya"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-rinrin/releases/download/v1.1.0/jong-rinrin.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-rinrin.nar",
+                    "size_in_bytes": 1035939,
+                    "_ex": {
+                        "download_count": 86
                     }
                 }
             ]
@@ -630,6 +700,39 @@
             ]
         },
         {
+            "id": "Tatakinov/banjou_no_sumikko_de",
+            "url": "https://github.com/Tatakinov/banjou_no_sumikko_de",
+            "title": "banjou_no_sumikko_de",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】盤上の隅っこで\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 5.7以降 / SSP 2.4.72\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\n将棋ゴーストです。\r\n将棋以外にも色々なボードゲームで遊べます。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n- シェルについて\r\n    辞書内ではsurfacesのalias.txtに書かれたaliasを\r\n    利用するようにしているため、masterシェルと同じ番号にしなくても\r\n    aliasさえ一致していれば大丈夫です。\r\n    そのため、シェルのファイル名およびsurfaceIDは\r\n    masterシェルと同じである必要はありません。\r\n    ただし、あくまでsurfaceIDだけなので扇子のanimationIDは\r\n    一致させる必要があります。\r\n- 扇子の文字\r\n    1. 涓滴(けんてき)             藤井猛九段の揮毫。\r\n    2. 百折不撓(ひゃくせつふとう) 木村一基九段の揮毫。\r\n    3. 平安(へいあん)             鈴木大介九段の揮毫。\r\n- 盤や駒の画像について\r\n    追加シェルの場合は駒や盤などの画像を用意するのが大変であれば\r\n    masterのものをコピーしても大丈夫です。\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n△\r\n要相談。\r\n\r\n[16.ゴーストの商業誌収録]\r\n×\r\n\r\n\r\n# 棋譜の読み上げ音声について\r\n\r\n「VOICEVOX:四国めたん」を利用しています。\r\nホームページ → https://voicevox.hiroshiba.jp/\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\nただし、例外的にEigenのライセンスは\r\nghost/master/saori/cocoa/以下のCOPYINGを参照してください。\r\n(サードパーティのライブラリがどれか確認が取れていないため)\r\n\r\nLua                         | https://www.lua.org/\r\nsol2                        | https://github.com/ThePhD/sol2/\r\nluautf8                     | https://github.com/starwing/luautf8/\r\nluaex(in Luachild)          | https://github.com/LuaDist/luaex/\r\nLuachild                    | https://github.com/pocomane/luachild/\r\nLPeg                        | http://www.inf.puc-rio.br/~roberto/lpeg/\\\r\nshogi686                    | https://github.com/merom686/shogi686_sdt5/\r\nsunfish4                    | https://github.com/sunfish-shogi/sunfish4/\r\nluacheck                    | https://github.com/mpeterv/luacheck/\r\nargparse(in luacheck)       | https://github.com/mpeterv/argparse\r\nluafilesystem(in luacheck)  | https://github.com/keplerproject/luafilesystem\r\nlanes(in luacheck)          | https://github.com/LuaLanes/lanes\r\nMahjongUtil                 | https://github.com/nikolat/MahjongUtil\r\nluasocket                   | https://github.com/diegonehab/luasocket\r\nArasan                      | https://www.arasanchess.org/\r\nNAIST Japanese Dictionary   | https://ja.osdn.net/projects/naist-jdic/\r\nKataGo                      | https://github.com/lightvector/KataGo\r\nclblast(in KataGo)          | ↑のcpp/external参照\r\nfilesystem-1.5.8(in KataGo) | ↑同上\r\nhalf-2.1.0(in KataGo)       | ↑同上\r\nhttplib(in KataGo)          | ↑同上\r\nnlohmann_json(in KataGo)    | ↑同上\r\ntclap-1.2.2(in KataGo)      | ↑同上\r\nsha2.cpp(in KataGo)         | ↑のcpp/core/sha2.cppを参照\r\nopenssl(in KataGo)          | https://github.com/openssl/openssl\r\nEigen(in cocoa/kay)         | https://eigen.tuxfamily.org/index.php?title=Main_Page\r\nminpack(in Eigen)           | 不明\r\n\r\n\r\n## 使用フォント\r\n\r\n駒や指し手などの文字にM+ BITMAP FONTを使用しています。\r\nライセンス詳細はshell\\master\\shogi\\LICENSE.txtを参照してください。\r\n\r\nメニューのサイドバーにみかちゃんフォントを使用しています。\r\nライセンス詳細はshell\\master\\menu\\LICENSE.mikachan.txtを参照してください。\r\n\r\n\r\n## 棋譜について\r\n\r\n基本的には作者が将棋を指したり、将棋ソフトで検討()したり、棋書(本)を読んだり、\r\n動画を見たりして得た知識(※)を元に作っています。\r\n出典がある場合は該当するトークが書かれている辞書またはkifファイルに\r\nコメントで記載してあります。\r\nなお、プロの棋譜を用いた部分については\r\n棋譜利用のガイドライン | https://www.shogi.or.jp/kifuguideline/terms.html\r\nを守った範囲で利用しているはずです。\r\n万が一上記のガイドラインを無視した棋譜利用がありましたら\r\n連絡をお願いいたします。\r\n\r\n※棋書で詳細に書かれている変化についてはあまり触れないはずです。\r\n相振り飛車を指しこなす本くらいしかまともに読んでいませんが念のため。\r\n\r\n\r\n## メニューの詰将棋のようなものについて\r\n\r\n作者が考えてはいますが、万が一\r\n同一作品が存在していた場合は連絡してくださると助かります。\r\n\r\n\r\n## 参考にしたあれこれ\r\n\r\n- 栞関連\r\n\r\n  UKADOC Project\r\n    さくらスクリプトリスト/ http://ssp.shillest.net/ukadoc/manual/list_sakura_script.html\r\n  lua-users wiki          / http://lua-users.org/wiki/\r\n  tkytk                   / https://github.com/kinokon/tkytk\r\n  山茱萸しゃしゃぶ        / リンク切れ\r\n\r\n\r\n- ゴースト作成\r\n\r\n  着せ替えやアニメーションの作り方\r\n                          / http://earlduant.github.io/ukagaka-shell-description/animations.html\r\n\r\n\r\n- SAORI(process.dll)\r\n\r\n  さおり                  / http://www.boreas.dti.ne.jp/~sdn/saori.html\r\n  伺か - SSTPプロトコル   / http://usada.sakura.vg/contents/sstp.html\r\n  伺か - メモリオブジェクト\r\n                          / http://usada.sakura.vg/contents/objects.html\r\n\r\n\r\n- フォント\r\n\r\n  mieki256's diary - BDFフォントをアウトラインフォントにしてみたい\r\n                          / http://blawat2015.no-ip.com/~mieki256/diary/201905281.html\r\n\r\n\r\n- 棋譜フォーマットやUSIプロトコル\r\n\r\n  JSON棋譜フォーマット    / https://github.com/na2hiro/json-kifu-format\r\n  USIプロトコルとは       / http://shogidokoro.starfree.jp/usi.html\r\n  棋譜の表記方法          / https://www.shogi.or.jp/faq/kihuhyouki.html\r\n\r\n\r\n- 将棋トーク\r\n\r\n  将棋盤局面図を作成      / http://sfenreader.appspot.com/ja/create_board.html\r\n  将棋講座(ButaneGorilla) / https://www.nicovideo.jp/mylist/50368976\r\n\r\n- デバッグ(luacheck)のコンパイル\r\n  luastatic               / https://github.com/ers35/luastatic\r\n\r\n- オセロ\r\n  おせろAIの教科書|にゃにゃん(山名琢翔) / https://note.com/nyanyan_cubetech/m/m54104c8d2f12\r\n\r\n## サプリメントについて\r\n\r\n「盤上の隅っこで」には将棋の思考エンジンを導入するためのサプリメントが存在します。\r\nゴーストをつつくと出てくるメニューから「対局する」を選ぶと\r\n対局メニューが出てきます。\r\nそのメニューから「思考エンジンのインストール」を選択すると導入出来ます。\r\n\r\n\r\n### 配布元について\r\n\r\nhttps://github.com/Tatakinov/banjou_no_sumikko_de_supplement\r\n\r\n\r\n### 将棋の思考エンジンについて\r\n\r\n#### shogi686_sdt5\r\natomic_intやsizeof関係のコンパイルエラーが出ていた部分を修正しています。\r\nまた、指し手にランダム性を持たせるために、\r\nソースコードに少し手を加えています。\r\n評価関数は適当に何日か学習させたものを作成しました。\r\n\r\n#### sunfish4\r\n32bitでは_BitScanFoward64が無くてコンパイルエラーが出ていたので\r\nソースコード内に存在する代替関数を使うように修正しています。\r\n評価関数は、作者の将棋倶楽部24と81dojoの棋譜を学習させたものになっています。\r\nまた、序盤が弱いので最低限の定跡を入れてあります。\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-01-08T13:11:11Z",
+            "date_modified": "2023-01-08T13:11:28Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/banjou_no_sumikko_de/releases/download/1.0.0/banjou_no_sumikko_de.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "banjou_no_sumikko_de.nar",
+                    "size_in_bytes": 6446304,
+                    "_ex": {
+                        "download_count": 35
+                    }
+                }
+            ]
+        },
+        {
             "id": "Tatakinov/desktop_tempter",
             "url": "https://github.com/Tatakinov/desktop_tempter",
             "title": "desktop_tempter",
@@ -693,38 +796,6 @@
                     "size_in_bytes": 1173834,
                     "_ex": {
                         "download_count": 54
-                    }
-                }
-            ]
-        },
-        {
-            "id": "apxxxxxxe/Youto",
-            "url": "https://github.com/apxxxxxxe/Youto",
-            "title": "Youto",
-            "content_text": "見て、帰り道で見つけたへんなぬいぐるみ。\r\n……これ、しゃべるんだ。\r\n\r\n------------------------------\r\nゴースト「思い出の、」\r\n\r\n雑談(?)ゴーストです。\r\n羊がつぶやく単語に合わせて、\r\n男の子がそれにちなんだ話をしたりしなかったりします。\r\n\r\n------------------------------\r\n- 羊をクリック、またはtキーでランダムトーク\r\n- なにもないところをクリック、またはmキーでメニュー\r\n\r\n------------------------------\r\n作成にあたって以下のテンプレートとシェルを使用させていただきました。\r\nこの場を借りてお礼申し上げます。ありがとうございます。\r\n- YAYA辞書テンプレート「SimpleYAYAテンプレート」\r\n- フリーシェル「SHLEEP」\r\n",
-            "summary": "伺かゴースト",
-            "date_published": "2022-10-24T13:43:21Z",
-            "date_modified": "2022-10-24T13:43:21Z",
-            "authors": [
-                {
-                    "name": "apxxxxxxe",
-                    "url": "https://github.com/apxxxxxxe",
-                    "avatar": "https://avatars.githubusercontent.com/u/39634779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar",
-                    "mime_type": "application/zip",
-                    "title": "omoideno.nar",
-                    "size_in_bytes": 1086608,
-                    "_ex": {
-                        "download_count": 75
                     }
                 }
             ]
