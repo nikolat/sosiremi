@@ -132,6 +132,15 @@
     <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
 </item>
 <item>
+    <title>sudohaikuyu</title>
+    <link>https://github.com/nikolat/sudohaikuyu</link>
+    <description>スドハイククライアント</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
+    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
+</item>
+<item>
     <title>si-near-future</title>
     <link>https://github.com/nikolat/si-near-future</link>
     <description>additional shell for simultaneous-interpreter</description>
@@ -148,6 +157,15 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/cultural-festival</guid>
     <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
+</item>
+<item>
+    <title>ukaten</title>
+    <link>https://github.com/nikolat/ukaten</link>
+    <description>伺か天気予報プラグイン</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukaten</guid>
+    <pubDate>Wed, 27 Apr 2022 18:50:49 +0900</pubDate>
 </item>
 <item>
     <title>jb-standard-balloon</title>
