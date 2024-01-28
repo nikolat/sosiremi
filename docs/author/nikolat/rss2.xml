@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/nikolat/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>ukaten</title>
+    <link>https://github.com/nikolat/ukaten</link>
+    <description>伺か天気予報プラグイン</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukaten</guid>
+    <pubDate>Wed, 27 Apr 2022 18:50:49 +0900</pubDate>
+</item>
+<item>
     <title>jong-rinrin</title>
     <link>https://github.com/nikolat/jong-rinrin</link>
     <description>麻雀クライアントゴースト</description>
@@ -157,15 +166,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/cultural-festival</guid>
     <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
-</item>
-<item>
-    <title>ukaten</title>
-    <link>https://github.com/nikolat/ukaten</link>
-    <description>伺か天気予報プラグイン</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukaten</guid>
-    <pubDate>Wed, 27 Apr 2022 18:50:49 +0900</pubDate>
 </item>
 <item>
     <title>jb-standard-balloon</title>
