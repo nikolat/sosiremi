@@ -11,8 +11,8 @@
             "title": "ukagaka-caramelldansen-patch",
             "content_text": "",
             "summary": "caramelldansen修正用supplement",
-            "date_published": "2022-05-06T21:24:46Z",
-            "date_modified": "2022-05-06T21:24:48Z",
+            "date_published": "2022-05-30T10:25:08Z",
+            "date_modified": "2022-05-30T10:25:17Z",
             "authors": [
                 {
                     "name": "nikolat",
@@ -27,12 +27,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/nikolat/ukagaka-caramelldansen-patch/releases/download/v1.2/caramelldansen-patch.nar",
+                    "url": "https://github.com/nikolat/ukagaka-caramelldansen-patch/releases/download/v1.3/ukagaka-caramelldansen-patch.nar",
                     "mime_type": "application/x-nar",
-                    "title": "caramelldansen-patch.nar",
-                    "size_in_bytes": 824969,
+                    "title": "ukagaka-caramelldansen-patch.nar",
+                    "size_in_bytes": 824559,
                     "_ex": {
-                        "download_count": 17
+                        "download_count": 39
                     }
                 }
             ]
