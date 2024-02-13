@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/cage_head_with_blue_bird",
+            "url": "https://github.com/tukinami/cage_head_with_blue_bird",
+            "title": "cage_head_with_blue_bird",
+            "content_text": "# 鳥籠頭と青い鳥\r\n\r\n## これは何？\r\n\r\n伺か用フリーシェル(立ち絵)「鳥籠頭と青い鳥」の公開レポジトリです。\r\n\r\n青い鳥が入った鳥籠の頭を持つ男性のフリーシェルで、SSP専用です。\r\n簡単なオーナードローメニュー素材がついています。\r\n\r\nシェルやpsdファイルのダウンロードは\r\n[`Releasesの最新版`](https://github.com/tukinami/cage_head_with_blue_bird/releases/latest)からどうぞ。\r\n\r\n## ダウンロードできる内容は？\r\n\r\n通常は`cage_head_with_blue_bird.nar`か`cage_head_with_blue_bird_arranged.nar`、\r\nどちらかをダウンロードしてください。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird.nar\r\n\r\nフリーシェル本体(通常版)です。\r\n名前は「鳥籠頭と青い鳥」で、縦700pxです。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird\\_arranged.nar\r\n\r\nフリーシェル本体(アレンジ版)です。\r\n名前は「鳥籠頭と青い鳥:篝火」で、縦700pxです。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird-psd.zip\r\n\r\nシェル改変のために用意したpsdファイルです。シェル本体と青い鳥の切り抜きが入っています。\r\n\r\n## シェル画像のプレビュー\r\n\r\n左が通常版の「鳥籠頭と青い鳥」、右がアレンジ版の「鳥籠頭と青い鳥:篝火」です。(50%縮小)\r\n\r\n![シェルのプレビュー画像。青い鳥が入った鳥籠の頭を持つ男性のイラスト。2つ並んでおり、左が通常版、右がアレンジ版](doc/preview.png)\r\n\r\n表情集(通常版)\r\n\r\n![通常版の表情プレビュー画像](doc/preview_expression_normal.png)\r\n\r\n表情集(アレンジ版)\r\n\r\n![アレンジ版の表情プレビュー画像](doc/preview_expression_arranged.png)\r\n\r\n## 当たり判定\r\n\r\n- Head\r\n- Shoulder\r\n- Hand\r\n- Tie\r\n\r\n当たり判定上ではマウスカーソルが変わるように設定されています。\r\n\r\n## ライセンス\r\n\r\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\r\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\r\n\r\n## 連絡先\r\n\r\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\r\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\r\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\r\n\r\n## 製作者\r\n\r\n月波 清火\r\n\r\n- [GitHub](https://github.com/tukinami)\r\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\r\n",
+            "summary": "伺か用フリーシェル。青い鳥の入った鳥籠の頭を持つ男性。",
+            "date_published": "2024-02-13T07:43:14Z",
+            "date_modified": "2024-02-13T07:43:19Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/cage_head_with_blue_bird/releases/download/v1.0.0/cage_head_with_blue_bird-psd.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "cage_head_with_blue_bird-psd.zip",
+                    "size_in_bytes": 1411222,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "etwaslangsam/d2k",
             "url": "https://github.com/etwaslangsam/d2k",
             "title": "d2k",
