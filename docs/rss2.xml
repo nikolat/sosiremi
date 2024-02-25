@@ -6,15 +6,6 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
-    <title>Bouyomi</title>
-    <link>https://github.com/apxxxxxxe/Bouyomi</link>
-    <description>伺かプラグイン</description>
-    <category>plugin</category>
-    <dc:creator>apxxxxxxe</dc:creator>
-    <guid isPermaLink="false">apxxxxxxe/Bouyomi</guid>
-    <pubDate>Sat, 28 Oct 2023 21:22:09 +0900</pubDate>
-</item>
-<item>
     <title>taidanaSanoSan</title>
     <link>https://github.com/tukinami/taidanaSanoSan</link>
     <description>伺か雑談系ゴースト</description>
@@ -22,6 +13,15 @@
     <dc:creator>tukinami</dc:creator>
     <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
     <pubDate>Sun, 18 Feb 2024 13:46:33 +0900</pubDate>
+</item>
+<item>
+    <title>Bouyomi</title>
+    <link>https://github.com/apxxxxxxe/Bouyomi</link>
+    <description>伺かプラグイン</description>
+    <category>plugin</category>
+    <dc:creator>apxxxxxxe</dc:creator>
+    <guid isPermaLink="false">apxxxxxxe/Bouyomi</guid>
+    <pubDate>Sat, 28 Oct 2023 21:22:09 +0900</pubDate>
 </item>
 <item>
     <title>d2k</title>
