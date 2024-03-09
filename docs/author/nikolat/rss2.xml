@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/nikolat/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>wallet_of_unyu</title>
+    <link>https://github.com/nikolat/wallet_of_unyu</link>
+    <description>伺かの世界で流通する暗号通貨UNYUのウォレット</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/wallet_of_unyu</guid>
+    <pubDate>Sat, 09 Mar 2024 14:47:57 +0900</pubDate>
+</item>
+<item>
     <title>ukaten</title>
     <link>https://github.com/nikolat/ukaten</link>
     <description>伺か天気予報プラグイン</description>
@@ -121,15 +130,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/crawler_uploader</guid>
     <pubDate>Fri, 29 Apr 2022 10:21:32 +0900</pubDate>
-</item>
-<item>
-    <title>wallet_of_unyu</title>
-    <link>https://github.com/nikolat/wallet_of_unyu</link>
-    <description>伺かの世界で流通する暗号通貨UNYUのウォレット</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/wallet_of_unyu</guid>
-    <pubDate>Sat, 06 May 2023 07:36:14 +0900</pubDate>
 </item>
 <item>
     <title>ukagaka-party-parrot</title>
