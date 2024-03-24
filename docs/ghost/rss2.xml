@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/ghost/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>myalice2</title>
+    <link>https://github.com/etwaslangsam/myalice2</link>
+    <description>ゴースト「僕のアリス2」</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
+    <pubDate>Sun, 26 Nov 2023 17:09:34 +0900</pubDate>
+</item>
+<item>
     <title>knowledgeable_kernel</title>
     <link>https://github.com/Tatakinov/knowledgeable_kernel</link>
     <description></description>
@@ -58,15 +67,6 @@
     <dc:creator>Shimofumi</dc:creator>
     <guid isPermaLink="false">Shimofumi/Oyatsu_ha_Macaroni</guid>
     <pubDate>Wed, 13 Dec 2023 15:38:28 +0900</pubDate>
-</item>
-<item>
-    <title>myalice2</title>
-    <link>https://github.com/etwaslangsam/myalice2</link>
-    <description>ゴースト「僕のアリス2」</description>
-    <category>ghost</category>
-    <dc:creator>etwaslangsam</dc:creator>
-    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
-    <pubDate>Sun, 26 Nov 2023 17:09:34 +0900</pubDate>
 </item>
 <item>
     <title>HamirLore</title>
