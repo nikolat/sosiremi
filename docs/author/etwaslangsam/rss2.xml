@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/etwaslangsam/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>myalice2</title>
+    <link>https://github.com/etwaslangsam/myalice2</link>
+    <description>ゴースト「僕のアリス2」</description>
+    <category>ghost</category>
+    <dc:creator>etwaslangsam</dc:creator>
+    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
+    <pubDate>Tue, 23 Apr 2024 20:01:18 +0900</pubDate>
+</item>
+<item>
     <title>Gertrude</title>
     <link>https://github.com/etwaslangsam/Gertrude</link>
     <description>俺が嫁</description>
@@ -22,15 +31,6 @@
     <dc:creator>etwaslangsam</dc:creator>
     <guid isPermaLink="false">etwaslangsam/bath_ane</guid>
     <pubDate>Sun, 01 Oct 2023 12:45:24 +0900</pubDate>
-</item>
-<item>
-    <title>myalice2</title>
-    <link>https://github.com/etwaslangsam/myalice2</link>
-    <description>ゴースト「僕のアリス2」</description>
-    <category>ghost</category>
-    <dc:creator>etwaslangsam</dc:creator>
-    <guid isPermaLink="false">etwaslangsam/myalice2</guid>
-    <pubDate>Sun, 26 Nov 2023 17:09:34 +0900</pubDate>
 </item>
 <item>
     <title>d2k</title>
