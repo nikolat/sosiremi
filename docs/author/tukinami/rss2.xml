@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/tukinami/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>lady-goldfish-bowl</title>
+    <link>https://github.com/tukinami/lady-goldfish-bowl</link>
+    <description>伺か用フリーシェル。金魚が入った金魚鉢の頭を持つ女性。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/lady-goldfish-bowl</guid>
+    <pubDate>Thu, 02 May 2024 00:43:26 +0900</pubDate>
+</item>
+<item>
     <title>taidanaSanoSan</title>
     <link>https://github.com/tukinami/taidanaSanoSan</link>
     <description>伺か雑談系ゴースト</description>
