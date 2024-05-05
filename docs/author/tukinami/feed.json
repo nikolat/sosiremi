@@ -6,39 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "tukinami/lady-goldfish-bowl",
-            "url": "https://github.com/tukinami/lady-goldfish-bowl",
-            "title": "lady-goldfish-bowl",
-            "content_text": "# 金魚鉢令嬢\n\n![シェル「金魚鉢令嬢」のプレビュー画像。金魚鉢の頭を持った女性の立ち絵の紹介。](doc/pr.png)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「金魚鉢令嬢」の公開レポジトリです。\n\n金魚が入った金魚鉢の頭を持つ女性のフリーシェルです。SSP専用です。\n簡単なオーナードロメニューがついています。\n通常版とアレンジ版があります。\n\nシェルやpsdファイルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/lady-goldfish-bowl/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n通常は`lady-goldfish-bowl.nar`か`lady-goldfish-bowl_arranged.nar`、\nどちらかをダウンロードしてください。\n\n### lady-goldfish-bowl.nar\n\nフリーシェル本体(通常版)です。\n名前は「金魚鉢令嬢」で、縦543pxです。\n\n### lady-goldfish-bowl\\_arranged.nar\n\nフリーシェル本体(アレンジ版)です。\n名前は「金魚鉢令嬢:深窓」で、縦543pxです。\n\n### lady-goldfish-bowl-psd.zip\n\nシェル改変のために用意したpsdファイルです。シェル本体と金魚の切り抜きが入っています。\n\n## シェルアニメーションのプレビュー\n\n泳いでいるアニメーションパターン。\n\n![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢の中で金魚が泳いでいる。](doc/preview_animation_normal.gif)\n\n飛び跳ねているアニメーションパターン。\n\n![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢から金魚が飛び跳ねている。](doc/preview_animation_jump.gif)\n\n## 当たり判定\n\n- Shoes\n- Leg\n- Hip\n- Head\n- Bust\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
-            "summary": "伺か用フリーシェル。金魚が入った金魚鉢の頭を持つ女性。",
-            "date_published": "2024-05-01T15:43:19Z",
-            "date_modified": "2024-05-01T15:43:26Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/lady-goldfish-bowl/releases/download/v1.0.0/lady-goldfish-bowl-psd.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "lady-goldfish-bowl-psd.zip",
-                    "size_in_bytes": 2652339,
-                    "_ex": {
-                        "download_count": 5
-                    }
-                }
-            ]
-        },
-        {
             "id": "tukinami/taidanaSanoSan",
             "url": "https://github.com/tukinami/taidanaSanoSan",
             "title": "taidanaSanoSan",
@@ -67,6 +34,39 @@
                     "size_in_bytes": 1892799,
                     "_ex": {
                         "download_count": 13
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tukinami/lady-goldfish-bowl",
+            "url": "https://github.com/tukinami/lady-goldfish-bowl",
+            "title": "lady-goldfish-bowl",
+            "content_text": "# 金魚鉢令嬢\n\n![シェル「金魚鉢令嬢」のプレビュー画像。金魚鉢の頭を持った女性の立ち絵の紹介。](doc/pr.png)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「金魚鉢令嬢」の公開レポジトリです。\n\n金魚が入った金魚鉢の頭を持つ女性のフリーシェルです。SSP専用です。\n簡単なオーナードロメニューがついています。\n通常版とアレンジ版があります。\n\nシェルやpsdファイルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/lady-goldfish-bowl/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n通常は`lady-goldfish-bowl.nar`か`lady-goldfish-bowl_arranged.nar`、\nどちらかをダウンロードしてください。\n\n### lady-goldfish-bowl.nar\n\nフリーシェル本体(通常版)です。\n名前は「金魚鉢令嬢」で、縦543pxです。\n\n### lady-goldfish-bowl\\_arranged.nar\n\nフリーシェル本体(アレンジ版)です。\n名前は「金魚鉢令嬢:深窓」で、縦543pxです。\n\n### lady-goldfish-bowl-psd.zip\n\nシェル改変のために用意したpsdファイルです。シェル本体と金魚の切り抜きが入っています。\n\n## シェルアニメーションのプレビュー\n\n泳いでいるアニメーションパターン。\n\n![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢の中で金魚が泳いでいる。](doc/preview_animation_normal.gif)\n\n飛び跳ねているアニメーションパターン。\n\n![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢から金魚が飛び跳ねている。](doc/preview_animation_jump.gif)\n\n## 当たり判定\n\n- Shoes\n- Leg\n- Hip\n- Head\n- Bust\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
+            "summary": "伺か用フリーシェル。金魚が入った金魚鉢の頭を持つ女性。",
+            "date_published": "2024-05-01T15:43:19Z",
+            "date_modified": "2024-05-01T15:43:26Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/lady-goldfish-bowl/releases/download/v1.0.0/lady-goldfish-bowl-psd.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "lady-goldfish-bowl-psd.zip",
+                    "size_in_bytes": 2652339,
+                    "_ex": {
+                        "download_count": 5
                     }
                 }
             ]
