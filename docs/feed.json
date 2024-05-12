@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/taidanaSanoSan",
+            "url": "https://github.com/tukinami/taidanaSanoSan",
+            "title": "taidanaSanoSan",
+            "content_text": " 怠惰な佐野さん\r\n============================================================\r\n面倒くさがりな少年「佐野 伊織」と、猫又の「きぬ」の\r\n雑談系ゴーストです。\r\n\r\n満腹度によって、わずかばかりトークが増減します。\r\nまた、ユーザーがおやつをあげることもできます。\r\n\r\n(トークの内容について、不正確な内容も含まれるかと思います。\r\n引用等につきましては、その点ご注意下さい。)\r\n\r\n追加シェル「master-s」(小さなドット絵シェル)、\r\nバルーン「怠惰な猫の青い石」を同梱してます。\r\n\r\n\r\n基本的な操作\r\n============================================================\r\nゴースト上でダブルクリックすると、メニューが出ます。\r\nこのゴーストの設定・おやつなどはここからどうぞ。\r\n\r\n\r\n対応プラグイン\r\n============================================================\r\n・SwissArmyKnife\r\n・スタンプ帳\r\n    http://navy.nm.land.to/post/\r\n・GetWindowTitle\r\n    https://github.com/ambergon/ukagakaPlugin_getWindowTitle\r\n・MailBox\r\n    https://github.com/ambergon/ukagakaPlugin_mailBox\r\n\r\n\r\nバグ報告など\r\n============================================================\r\nバグ報告・感想などは、現在、\r\n・Peing質問箱\r\n    (https://peing.net/ja/tukinami_seika)\r\nまたは、\r\n・Mastodon\r\n    (fedibird: https://fedibird.com/@tukinami_seika)\r\n    (うかどん: https://ukadon.shillest.net/@tukinami_seika)\r\n・X(旧Twitter)\r\n    (@tukinami_s)\r\nでのDM、リプライで受け付けています。\r\n\r\nバグ報告については\r\nGitHubのIssues(https://github.com/tukinami/taidanaSanoSan/issues)\r\nでも受け付けています。\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n使用しているものについて\r\n============================================================\r\nYAYA(SHIORI)\r\nhttps://github.com/ponapalt/yaya-shiori/wiki\r\n紺野ややめ(テンプレートゴースト)\r\nhttp://ms.shillest.net/yayame.xhtml\r\n\r\n\r\n謝辞\r\n============================================================\r\nEmily/Phase4.5\r\nCopyright (C) 2004- Emily/Phase4.5 Project.\r\nhttp://ssp.shillest.net/\r\nゴースト作成において大変参考にさせていただきました。\r\nありがとうございます。\r\n\r\n\r\nゴーストの二次創作ガイドライン/ライセンス(2024-04-18現在)\r\n============================================================\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/taidanaSanoSan\r\n",
+            "summary": "伺か雑談系ゴースト",
+            "date_published": "2024-05-12T01:32:15Z",
+            "date_modified": "2024-05-12T01:32:21Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/taidanaSanoSan/releases/download/v1.9.0/taidanaSanoSan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "taidanaSanoSan.nar",
+                    "size_in_bytes": 1894432,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "etwaslangsam/Gertrude",
             "url": "https://github.com/etwaslangsam/Gertrude",
             "title": "Gertrude",
@@ -34,39 +67,6 @@
                     "size_in_bytes": 3078296,
                     "_ex": {
                         "download_count": 88
-                    }
-                }
-            ]
-        },
-        {
-            "id": "tukinami/taidanaSanoSan",
-            "url": "https://github.com/tukinami/taidanaSanoSan",
-            "title": "taidanaSanoSan",
-            "content_text": " 怠惰な佐野さん\r\n============================================================\r\n面倒くさがりな少年「佐野 伊織」と、猫又の「きぬ」の\r\n雑談系ゴーストです。\r\n\r\n満腹度によって、わずかばかりトークが増減します。\r\nまた、ユーザーがおやつをあげることもできます。\r\n\r\n(トークの内容について、不正確な内容も含まれるかと思います。\r\n引用等につきましては、その点ご注意下さい。)\r\n\r\n追加シェル「master-s」(小さなドット絵シェル)、\r\nバルーン「怠惰な猫の青い石」を同梱してます。\r\n\r\n\r\n基本的な操作\r\n============================================================\r\nゴースト上でダブルクリックすると、メニューが出ます。\r\nこのゴーストの設定・おやつなどはここからどうぞ。\r\n\r\n\r\n対応プラグイン\r\n============================================================\r\n・SwissArmyKnife\r\n・スタンプ帳\r\n    http://navy.nm.land.to/post/\r\n・GetWindowTitle\r\n    https://github.com/ambergon/ukagakaPlugin_getWindowTitle\r\n・MailBox\r\n    https://github.com/ambergon/ukagakaPlugin_mailBox\r\n\r\n\r\nバグ報告など\r\n============================================================\r\nバグ報告・感想などは、現在、\r\n・Peing質問箱\r\n    (https://peing.net/ja/tukinami_seika)\r\nまたは、\r\n・Mastodon\r\n    (fedibird: https://fedibird.com/@tukinami_seika)\r\n    (うかどん: https://ukadon.shillest.net/@tukinami_seika)\r\n・X(旧Twitter)\r\n    (@tukinami_s)\r\nでのDM、リプライで受け付けています。\r\n\r\nバグ報告については\r\nGitHubのIssues(https://github.com/tukinami/taidanaSanoSan/issues)\r\nでも受け付けています。\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n使用しているものについて\r\n============================================================\r\nYAYA(SHIORI)\r\nhttps://github.com/ponapalt/yaya-shiori/wiki\r\n紺野ややめ(テンプレートゴースト)\r\nhttp://ms.shillest.net/yayame.xhtml\r\n\r\n\r\n謝辞\r\n============================================================\r\nEmily/Phase4.5\r\nCopyright (C) 2004- Emily/Phase4.5 Project.\r\nhttp://ssp.shillest.net/\r\nゴースト作成において大変参考にさせていただきました。\r\nありがとうございます。\r\n\r\n\r\nゴーストの二次創作ガイドライン/ライセンス(2024-04-18現在)\r\n============================================================\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/taidanaSanoSan\r\n",
-            "summary": "伺か雑談系ゴースト",
-            "date_published": "2024-04-14T03:47:50Z",
-            "date_modified": "2024-04-14T03:47:55Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/taidanaSanoSan/releases/download/v1.8.0/taidanaSanoSan.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "taidanaSanoSan.nar",
-                    "size_in_bytes": 1892799,
-                    "_ex": {
-                        "download_count": 17
                     }
                 }
             ]
