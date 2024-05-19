@@ -6,39 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "tukinami/incubation_of_animas",
-            "url": "https://github.com/tukinami/incubation_of_animas",
-            "title": "incubation_of_animas",
-            "content_text": "\r\n\r\n孵化する魂\r\n\r\n\r\n※注意※\r\n\r\n・このゴーストの初回起動時、異形をした怪物のシェルが描画されるホラー的演出があります。\r\n・初回起動が長いです。\r\n・死亡ネタを含みます。\r\n\r\n苦手な方はご注意ください。\r\n\r\nまた、この作品はフィクションです。\r\n実在の人物・団体・事件とは一切関係ありません。\r\n\r\n\r\n□概要\r\n\r\n・怪物と戦う、くたびれたおじさんと話すゴーストです。\r\n・10回、20回とランダムトークを聞くと、それぞれトークとそれに関するアンカーが増えます。\r\n\r\n\r\n□操作\r\n\r\n・メニュー表示: ダブルクリック もしくは「m」キー\r\n・ランダムトーク: 「t」キー\r\n\r\n\r\n□触り判定(なで反応のみ)\r\n\r\n頭: 撫でる\r\n肩: 肩揉み\r\n手: 触る\r\nタイ: 触る\r\n\r\n\r\n□よくありそうな質問\r\n\r\nQ. この人ちょろくないですか？\r\nA. 時間が超圧縮されており、20トークで1年くらい時間が経っているんです、多分。\r\n\r\nQ. ペラペラ喋ってるけど大丈夫？\r\nA. 上記の理由により、半ば腐れ縁的になりつつあるので大丈夫です(大丈夫ではない)\r\n\r\n\r\n□使用テンプレート\r\n\r\n「YAYA」テンプレートゴースト\r\n紺野ややめ\r\nhttps://github.com/YAYA-shiori/konnoyayame\r\n\r\nありがとうございます。\r\n\r\n\r\n□ゴーストの二次創作ガイドライン/ライセンス(2024-05-18現在)\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/incubation_of_animas\r\n",
-            "summary": "伺か用ゴースト。戦うくたびれたおじさんと話すゴースト。",
-            "date_published": "2024-05-18T11:19:41Z",
-            "date_modified": "2024-05-18T11:19:49Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/incubation_of_animas/releases/download/v1.0.0/incubation_of_animas.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "incubation_of_animas.nar",
-                    "size_in_bytes": 1404776,
-                    "_ex": {
-                        "download_count": 8
-                    }
-                }
-            ]
-        },
-        {
             "id": "tukinami/taidanaSanoSan",
             "url": "https://github.com/tukinami/taidanaSanoSan",
             "title": "taidanaSanoSan",
@@ -67,6 +34,39 @@
                     "size_in_bytes": 1894432,
                     "_ex": {
                         "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tukinami/incubation_of_animas",
+            "url": "https://github.com/tukinami/incubation_of_animas",
+            "title": "incubation_of_animas",
+            "content_text": "\r\n\r\n孵化する魂\r\n\r\n\r\n※注意※\r\n\r\n・このゴーストの初回起動時、異形をした怪物のシェルが描画されるホラー的演出があります。\r\n・初回起動が長いです。\r\n・死亡ネタを含みます。\r\n\r\n苦手な方はご注意ください。\r\n\r\nまた、この作品はフィクションです。\r\n実在の人物・団体・事件とは一切関係ありません。\r\n\r\n\r\n□概要\r\n\r\n・怪物と戦う、くたびれたおじさんと話すゴーストです。\r\n・10回、20回とランダムトークを聞くと、それぞれトークとそれに関するアンカーが増えます。\r\n\r\n\r\n□操作\r\n\r\n・メニュー表示: ダブルクリック もしくは「m」キー\r\n・ランダムトーク: 「t」キー\r\n\r\n\r\n□触り判定(なで反応のみ)\r\n\r\n頭: 撫でる\r\n肩: 肩揉み\r\n手: 触る\r\nタイ: 触る\r\n\r\n\r\n□よくありそうな質問\r\n\r\nQ. この人ちょろくないですか？\r\nA. 時間が超圧縮されており、20トークで1年くらい時間が経っているんです、多分。\r\n\r\nQ. ペラペラ喋ってるけど大丈夫？\r\nA. 上記の理由により、半ば腐れ縁的になりつつあるので大丈夫です(大丈夫ではない)\r\n\r\n\r\n□使用テンプレート\r\n\r\n「YAYA」テンプレートゴースト\r\n紺野ややめ\r\nhttps://github.com/YAYA-shiori/konnoyayame\r\n\r\nありがとうございます。\r\n\r\n\r\n□ゴーストの二次創作ガイドライン/ライセンス(2024-05-18現在)\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/incubation_of_animas\r\n",
+            "summary": "伺か用ゴースト。戦うくたびれたおじさんと話すゴースト。",
+            "date_published": "2024-05-18T11:19:41Z",
+            "date_modified": "2024-05-18T11:19:49Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/incubation_of_animas/releases/download/v1.0.0/incubation_of_animas.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "incubation_of_animas.nar",
+                    "size_in_bytes": 1404776,
+                    "_ex": {
+                        "download_count": 8
                     }
                 }
             ]
