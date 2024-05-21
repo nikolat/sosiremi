@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "lost-nd-xxx/WeatherTimeCapsule",
+            "url": "https://github.com/lost-nd-xxx/WeatherTimeCapsule",
+            "title": "WeatherTimeCapsule",
+            "content_text": "ゴースト「WeatherTimeCapsule」\n設定した座標と時刻の天気を表示します。\nデータがある範囲でなら、過去の記録や予報の天気も取得できます。\n\nメーターをつつくと表示・非表示が切り替わります。\n天気表示の右上の３本線から設定に移動します。\n\nオフライン環境では何もできません。\n小さいバルーンでは表示が乱れます。\n\n=======================================\n連絡先\n=======================================\n作者: ろすえん(lost_nd_xxx)\nhttps://lnx.flop.jp/form/postmail.html\n\n=======================================\n使用素材等\n=======================================\n・シェル「master」「doodle」とバルーン「WeatherTimeCapsule専用バルーン」はゴースト作者が作成したものです。\n\n---------------------------------------\n・SHIORIにYAYAを使用させていただいています。\nhttps://ms.shillest.net/yaya.xhtml\n\n---------------------------------------\n・ゴースト辞書テンプレートに「紺野ややめ」を使用させていただいています。\nhttps://ms.shillest.net/yayame.xhtml\n\n---------------------------------------\n・「jsonパーサ with オブジェクト風の何か @ YAYA as SAORI」を改造して使用させていただいています。\nhttps://c-lege.hacca.jp/ukgk/ukst.html\n\n---------------------------------------\n・天気情報は「Open-Meteo」のデータを使用させていただいています。\nhttps://open-meteo.com/\n\nOpen-MeteoはCC-BY 4.0ライセンスで公開されています。\nhttps://creativecommons.org/licenses/by/4.0/deed.ja\n\n非営利使用の情報取得は1日あたり10000件、1時間あたり5000件、1分あたり600件未満に制限されています。\nこのため、ゴースト側で頻繁な情報取得は行えないようにしています。\n端末の設定時刻を能動的かつ頻繁に変更したり、ログなどからスクリプトを実行する事例はサポート外とします。\n\n---------------------------------------\n・日本の県庁所在地の位置情報データのリストは国土地理院の情報を基にゴースト作者が作成しました。\n情報は2024/02/18時点のものです。\n\n---------------------------------------\n・世界の国の首都名・位置情報データのリストに、イドケード様の作成されたデータを使用させていただいています。\nhttps://note.com/kentoide/n/n16354c4b3458\n\nこのデータセットはパブリックドメインで公開されています。\n\n---------------------------------------\n・天気アイコンとして、フォント「Weather Icons」を使用させていただいています。\nhttps://erikflowers.github.io/weather-icons/\n\n「Weather Icons」の天気アイコンはSIL Open Font License 1.1でライセンスされています。\nhttp://scripts.sil.org/OFL\nライセンス原文はルートフォルダにある「SIL_Open_Font_License_1_1.txt」で確認できます。\n\nv1.0までのデザインはLukas Bischoff様によるものです。\nv1.1以降のデザインはErik Flowers様によるものです。\n\n\n=======================================\nゴーストの二次創作ガイドライン/ライセンス\n=======================================\n◆二次創作周りについて\n[1.追加シェル、バルーン等を制作して配布される]\nOK\nバルーン名またはバルーンフォルダ名に「WeatherTimeCapsule」が含まれていると、\nゴーストは色変更対応バルーンと見なした動作をします。\n\n[2.二次創作をされる]\nOK\n\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\nNG\n\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\nOK\n\n[5.二次創作物の販売をされる]\nNG\n\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\nNG\n\n◆ゴーストを始めとした、配布データの扱いについて\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\nOK\n\n[2.情報集積サイト等の外部サイトに登録される]\nOK\n\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\nNG\n\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\nNG\n\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\nNG\n\n◆その他\n[1.他ゴーストから切り替え反応を実装される]\nOK\n\n[2.ゴーストに関する批判的な意見を言われる]\nOK\n\n[3.ゴーストに関する要望を言われる]\nOK\n\n[4.不特定多数の人が見る場でネタバレをされる]\nOK\n\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\n以下を明記する場合のみOK\n・出典がこのゴーストであること\n・引用に天気情報が含まれる場合、その情報源がOpen-Meteoであること\n　　・スクリーンショットの場合、バルーンにOpen-Meteoからの情報であることなどが出ているはずなので、それらを削らなければ問題なし\n　　　　・小さいバルーンでは表示が乱れるため、文章などで明記してください\n\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\nNG\n\n[7.ゴーストを動画内で配信される]\n動画単体に収益の発生しない場合のみOK\n以下を明記してください\n・出典がこのゴーストであること\n・引用に天気情報が含まれる場合、その情報源がOpen-Meteoであること\n",
+            "summary": "天候情報を表示するゴースト",
+            "date_published": "2024-05-21T08:30:54Z",
+            "date_modified": "2024-05-21T08:30:56Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/WeatherTimeCapsule/releases/download/v1.0.0/WeatherTimeCapsule.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "WeatherTimeCapsule.nar",
+                    "size_in_bytes": 1847917,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/unyu_lunchbox",
             "url": "https://github.com/lost-nd-xxx/unyu_lunchbox",
             "title": "unyu_lunchbox",
