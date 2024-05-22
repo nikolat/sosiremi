@@ -15,6 +15,15 @@
     <pubDate>Tue, 26 Dec 2023 21:23:12 +0900</pubDate>
 </item>
 <item>
+    <title>LilyNovelPlayer</title>
+    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
+    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
+    <category>ghost</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
+    <pubDate>Sat, 18 May 2024 04:24:43 +0900</pubDate>
+</item>
+<item>
     <title>WeatherTimeCapsule</title>
     <link>https://github.com/lost-nd-xxx/WeatherTimeCapsule</link>
     <description>天候情報を表示するゴースト</description>
@@ -49,15 +58,6 @@
     <dc:creator>lost-nd-xxx</dc:creator>
     <guid isPermaLink="false">lost-nd-xxx/unyu_lunchbox</guid>
     <pubDate>Sat, 18 May 2024 16:25:14 +0900</pubDate>
-</item>
-<item>
-    <title>LilyNovelPlayer</title>
-    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
-    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
-    <category>ghost</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
-    <pubDate>Sat, 18 May 2024 04:24:43 +0900</pubDate>
 </item>
 <item>
     <title>yomibito_minarai</title>

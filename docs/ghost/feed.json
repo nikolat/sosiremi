@@ -39,6 +39,39 @@
             ]
         },
         {
+            "id": "lost-nd-xxx/LilyNovelPlayer",
+            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
+            "title": "LilyNovelPlayer",
+            "content_text": "────────────────────────\n●「Lily Novel Player」について\n────────────────────────\nリリー・ノベル・プレイヤー……略して「LNP」！\nこれは、ノベルゲームを作れる枠組み的な\nゴースト＆シェル＆バルーンです。\nLilyNovelPlayer製作委員会がお送りします。\n\n────────────────────────\n◎ゴーストの使用方法\n────────────────────────\n・シェルを切り替えると、\nゲームタイトルが切り替わります。\n・その他、詳しくはmasterシェルのreadme.txtを\nお読みください。\n\n────────────────────────\n◎使用素材とそのライセンスまとめ\n────────────────────────\n○里々\nghost/master/satori.dll\n以上のファイルは里々/整備班カスタムです。\n\n里々/整備班カスタム\nhttps://github.com/ukatech/satoriya-shiori\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ファイルセット内画像のフォント\nthumbnail.png\nghost/master/\n　assets/preset/\n　　clickwait.png\n　　gallery_locked.png\n　　menu_backlog.png\n　　menu_config.png\n　　menu_gallery.png\n　　menu_load.png\n　　menu_save.png\n　　nowloading.png\n　　ownerdraw_sidebar.png\n　　resumewindow.png\n　scenarios/master/resources/\n　　Number001.png\n　　Number002.png\n　　Number003.png\n　　Number004.png\n　　Number005.png\n　　Number006.png\n　　Number007.png\n　　Number008.png\n　　Number009.png\n　　Number010.png\n　　bg_desktop.png\n　　nowloading.png\nshell/master/\n　thumbnail.png\n　title1.png\n　title2.png\nLilyNovelPlayerBallon/\n　balloonc0.png\n　balloons2.png\n　balloons3.png\n　cancel_down.png\n　cancel_up.png\n　ok_down.png\n　ok_up.png\n　online.png\ntest_supplement/\n　shell/LilyNovelPlayer_test/\n　　title1.png\n　LilyNovelPlayerBallon_test/\n　　online.png\n　　balloonc0.png\n　　balloons2.png\n　　balloons3.png\n　　cancel_down.png\n　　cancel_up.png\n　　ok_down.png\n　　ok_up.png\nこれらの文字のフォントについて列挙します。\n\n・Halimun\nhttps://creatypestudio.co/halimun/\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・MS UI Gothic\nhttps://learn.microsoft.com/en-us/typography/font-list/ms-gothic#licensing-and-redistribution-info\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・Noto Serif JP\nhttps://fonts.google.com/noto/specimen/Noto+Serif+JP?query=Noto+Serif+JP\n※Open Font License\n\n・Noto Sans JP\nhttps://fonts.google.com/noto/specimen/Noto+Sans+JP?query=Noto+Sans+JP\n※Open Font License\n\n・Murecho\nhttps://fonts.google.com/specimen/Murecho\n※Open Font License\n\n※Open Font Licenseのフォントについて\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇configのサンプルボイス\nghost/master/assets/preset/\n　sample_voice.wav\n以上のファイルはずんだもんの音声ライブラリと、\nVOICEVOXを用いて生成した音声です。\n\n・商用利用　可\n・クレジット表記　必要 (VOICEVOX:ずんだもん)\n\n利用規約ページ\nhttps://zunko.jp/con_ongen_kiyaku.html\n\nVOICEVOX\nhttps://voicevox.hiroshiba.jp/\n\n東北ずん子・ずんだもんPJ 公式サイト\nhttps://zunko.jp/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇masterシナリオのBGM\nghost/master/assets/preset/\n　osorawo_osampo.mp3\n　tanoshii_ukagaka.mp3\n以上のファイルはCREEVOで生成した楽曲です。\nダウンミックス・空白カット等は、\nLilyNovelPlayer製作委員会が行いました。\n\n・商用利用　可\n・クレジット表記　不要\n※歌声の入っていないデータの場合\n\n> CREEVOで生成されたメロディーや伴奏は、\n> パブリックドメイン（著作権なし）のデータとして\n> 扱われます。\nhttps://creevo-music.com/usage#copyright\n\n利用規約ページ\nhttps://creevo-music.com/terms-and-conditions/\n\nCREEVO\nhttps://creevo-music.com/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ボイス風効果音・configのサンプル効果音\nghost/master/assets/\n　preset/\n　　sample_se.wav\n　preset_chara/voice/\n　　chara_voice1.wav\n　　chara_voice2.wav\n　　chara_voice_douji.wav\n以上のファイルはChipToneにて生成した音声です。\n\n・商用利用　可\n・クレジット表記　不要\n\nChipToneを使用して作成されたサウンドは、\nCC0ライセンスでライセンスされています。\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nChipTone\nhttps://sfbgames.itch.io/chiptone\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇上記に該当しないゴースト・シェル・バルーン画像\nLilyNovelPlayer製作委員会の作ったものです。\n※追加シナリオや追加アセットなどは該当しません。\n",
+            "summary": "ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン",
+            "date_published": "2024-05-17T19:24:37Z",
+            "date_modified": "2024-05-17T19:24:43Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.0/LilyNovelPlayer.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "LilyNovelPlayer.nar",
+                    "size_in_bytes": 6149164,
+                    "_ex": {
+                        "download_count": 25
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/WeatherTimeCapsule",
             "url": "https://github.com/lost-nd-xxx/WeatherTimeCapsule",
             "title": "WeatherTimeCapsule",
@@ -166,39 +199,6 @@
                     "size_in_bytes": 675757,
                     "_ex": {
                         "download_count": 6
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/LilyNovelPlayer",
-            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
-            "title": "LilyNovelPlayer",
-            "content_text": "────────────────────────\n●「Lily Novel Player」について\n────────────────────────\nリリー・ノベル・プレイヤー……略して「LNP」！\nこれは、ノベルゲームを作れる枠組み的な\nゴースト＆シェル＆バルーンです。\nLilyNovelPlayer製作委員会がお送りします。\n\n────────────────────────\n◎ゴーストの使用方法\n────────────────────────\n・シェルを切り替えると、\nゲームタイトルが切り替わります。\n・その他、詳しくはmasterシェルのreadme.txtを\nお読みください。\n\n────────────────────────\n◎使用素材とそのライセンスまとめ\n────────────────────────\n○里々\nghost/master/satori.dll\n以上のファイルは里々/整備班カスタムです。\n\n里々/整備班カスタム\nhttps://github.com/ukatech/satoriya-shiori\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ファイルセット内画像のフォント\nthumbnail.png\nghost/master/\n　assets/preset/\n　　clickwait.png\n　　gallery_locked.png\n　　menu_backlog.png\n　　menu_config.png\n　　menu_gallery.png\n　　menu_load.png\n　　menu_save.png\n　　nowloading.png\n　　ownerdraw_sidebar.png\n　　resumewindow.png\n　scenarios/master/resources/\n　　Number001.png\n　　Number002.png\n　　Number003.png\n　　Number004.png\n　　Number005.png\n　　Number006.png\n　　Number007.png\n　　Number008.png\n　　Number009.png\n　　Number010.png\n　　bg_desktop.png\n　　nowloading.png\nshell/master/\n　thumbnail.png\n　title1.png\n　title2.png\nLilyNovelPlayerBallon/\n　balloonc0.png\n　balloons2.png\n　balloons3.png\n　cancel_down.png\n　cancel_up.png\n　ok_down.png\n　ok_up.png\n　online.png\ntest_supplement/\n　shell/LilyNovelPlayer_test/\n　　title1.png\n　LilyNovelPlayerBallon_test/\n　　online.png\n　　balloonc0.png\n　　balloons2.png\n　　balloons3.png\n　　cancel_down.png\n　　cancel_up.png\n　　ok_down.png\n　　ok_up.png\nこれらの文字のフォントについて列挙します。\n\n・Halimun\nhttps://creatypestudio.co/halimun/\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・MS UI Gothic\nhttps://learn.microsoft.com/en-us/typography/font-list/ms-gothic#licensing-and-redistribution-info\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・Noto Serif JP\nhttps://fonts.google.com/noto/specimen/Noto+Serif+JP?query=Noto+Serif+JP\n※Open Font License\n\n・Noto Sans JP\nhttps://fonts.google.com/noto/specimen/Noto+Sans+JP?query=Noto+Sans+JP\n※Open Font License\n\n・Murecho\nhttps://fonts.google.com/specimen/Murecho\n※Open Font License\n\n※Open Font Licenseのフォントについて\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇configのサンプルボイス\nghost/master/assets/preset/\n　sample_voice.wav\n以上のファイルはずんだもんの音声ライブラリと、\nVOICEVOXを用いて生成した音声です。\n\n・商用利用　可\n・クレジット表記　必要 (VOICEVOX:ずんだもん)\n\n利用規約ページ\nhttps://zunko.jp/con_ongen_kiyaku.html\n\nVOICEVOX\nhttps://voicevox.hiroshiba.jp/\n\n東北ずん子・ずんだもんPJ 公式サイト\nhttps://zunko.jp/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇masterシナリオのBGM\nghost/master/assets/preset/\n　osorawo_osampo.mp3\n　tanoshii_ukagaka.mp3\n以上のファイルはCREEVOで生成した楽曲です。\nダウンミックス・空白カット等は、\nLilyNovelPlayer製作委員会が行いました。\n\n・商用利用　可\n・クレジット表記　不要\n※歌声の入っていないデータの場合\n\n> CREEVOで生成されたメロディーや伴奏は、\n> パブリックドメイン（著作権なし）のデータとして\n> 扱われます。\nhttps://creevo-music.com/usage#copyright\n\n利用規約ページ\nhttps://creevo-music.com/terms-and-conditions/\n\nCREEVO\nhttps://creevo-music.com/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ボイス風効果音・configのサンプル効果音\nghost/master/assets/\n　preset/\n　　sample_se.wav\n　preset_chara/voice/\n　　chara_voice1.wav\n　　chara_voice2.wav\n　　chara_voice_douji.wav\n以上のファイルはChipToneにて生成した音声です。\n\n・商用利用　可\n・クレジット表記　不要\n\nChipToneを使用して作成されたサウンドは、\nCC0ライセンスでライセンスされています。\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nChipTone\nhttps://sfbgames.itch.io/chiptone\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇上記に該当しないゴースト・シェル・バルーン画像\nLilyNovelPlayer製作委員会の作ったものです。\n※追加シナリオや追加アセットなどは該当しません。\n",
-            "summary": "ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン",
-            "date_published": "2024-05-17T19:24:37Z",
-            "date_modified": "2024-05-17T19:24:43Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.0/LilyNovelPlayer.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "LilyNovelPlayer.nar",
-                    "size_in_bytes": 6149164,
-                    "_ex": {
-                        "download_count": 23
                     }
                 }
             ]

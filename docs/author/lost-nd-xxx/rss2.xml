@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/lost-nd-xxx/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>LilyNovelPlayer</title>
+    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
+    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
+    <category>ghost</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
+    <pubDate>Sat, 18 May 2024 04:24:43 +0900</pubDate>
+</item>
+<item>
     <title>WeatherTimeCapsule</title>
     <link>https://github.com/lost-nd-xxx/WeatherTimeCapsule</link>
     <description>天候情報を表示するゴースト</description>
@@ -22,15 +31,6 @@
     <dc:creator>lost-nd-xxx</dc:creator>
     <guid isPermaLink="false">lost-nd-xxx/unyu_lunchbox</guid>
     <pubDate>Sat, 18 May 2024 16:25:14 +0900</pubDate>
-</item>
-<item>
-    <title>LilyNovelPlayer</title>
-    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
-    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
-    <category>ghost</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
-    <pubDate>Sat, 18 May 2024 04:24:43 +0900</pubDate>
 </item>
 </channel>
 </rss>
