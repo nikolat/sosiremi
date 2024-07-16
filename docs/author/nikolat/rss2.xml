@@ -69,6 +69,24 @@
     <pubDate>Mon, 02 Jan 2023 10:40:13 +0900</pubDate>
 </item>
 <item>
+    <title>ukadonyu</title>
+    <link>https://github.com/nikolat/ukadonyu</link>
+    <description>うかどんクライアント</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukadonyu</guid>
+    <pubDate>Thu, 19 Jan 2023 08:49:32 +0900</pubDate>
+</item>
+<item>
+    <title>jong-bari</title>
+    <link>https://github.com/nikolat/jong-bari</link>
+    <description>麻雀サーバーゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jong-bari</guid>
+    <pubDate>Fri, 09 Jun 2023 17:01:11 +0900</pubDate>
+</item>
+<item>
     <title>ukagaka-simultaneous-interpreter</title>
     <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
     <description>Simultaneous Interpreter Ghost</description>
@@ -123,6 +141,15 @@
     <pubDate>Fri, 29 Apr 2022 10:21:32 +0900</pubDate>
 </item>
 <item>
+    <title>ukagaka-party-parrot</title>
+    <link>https://github.com/nikolat/ukagaka-party-parrot</link>
+    <description>Party Parrot for UKAGAKA</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukagaka-party-parrot</guid>
+    <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
+</item>
+<item>
     <title>sudohaikuyu</title>
     <link>https://github.com/nikolat/sudohaikuyu</link>
     <description>スドハイククライアント</description>
@@ -157,6 +184,24 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
     <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
+</item>
+<item>
+    <title>jb-standard</title>
+    <link>https://github.com/nikolat/jb-standard</link>
+    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jb-standard</guid>
+    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
+</item>
+<item>
+    <title>CharameLNetwork</title>
+    <link>https://github.com/nikolat/CharameLNetwork</link>
+    <description>CharameLをSNS風に見せる何か</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
+    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
 </item>
 <item>
     <title>balloonselector</title>
