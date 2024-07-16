@@ -50,14 +50,5 @@
     <guid isPermaLink="false">nikolat/cultural-festival</guid>
     <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
 </item>
-<item>
-    <title>jb-standard</title>
-    <link>https://github.com/nikolat/jb-standard</link>
-    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard</guid>
-    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
-</item>
 </channel>
 </rss>
