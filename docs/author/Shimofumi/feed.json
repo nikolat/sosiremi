@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "Shimofumi/zoomout_dra",
+            "url": "https://github.com/Shimofumi/zoomout_dra",
+            "title": "zoomout_dra",
+            "content_text": "\nQ、どうしてチャイナスク水に着ぐるみを重ねて着ているんですか？\n\nA、だって辰歳ちゃし…さすがに恥ずいのちゃ。",
+            "summary": "かつて嫌ゴと呼ばれたけれど 追加シェル「辰年（小）」",
+            "date_published": "2024-08-19T13:27:19Z",
+            "date_modified": "2024-08-19T13:27:21Z",
+            "authors": [
+                {
+                    "name": "Shimofumi",
+                    "url": "https://github.com/Shimofumi",
+                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Shimofumi/zoomout_dra/releases/download/v1.0.0/zoomout_dra.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "zoomout_dra.zip",
+                    "size_in_bytes": 614062,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "Shimofumi/Saigai_no_ikimono_chan",
             "url": "https://github.com/Shimofumi/Saigai_no_ikimono_chan",
             "title": "Saigai_no_ikimono_chan",
