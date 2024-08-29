@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/tukinami/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>purple-eyed-dressed-up-boy</title>
+    <link>https://github.com/tukinami/purple-eyed-dressed-up-boy</link>
+    <description>伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/purple-eyed-dressed-up-boy</guid>
+    <pubDate>Wed, 28 Aug 2024 22:52:28 +0900</pubDate>
+</item>
+<item>
     <title>taidanaSanoSan</title>
     <link>https://github.com/tukinami/taidanaSanoSan</link>
     <description>伺か雑談系ゴースト</description>

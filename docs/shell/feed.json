@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/purple-eyed-dressed-up-boy",
+            "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy",
+            "title": "purple-eyed-dressed-up-boy",
+            "content_text": "# パープル・アイの着せ替えボーイ\n\n![シェル「パープル・アイの着せ替えボーイ」のプレビュー画像。紫色の瞳をした少年の立ち絵の紹介。](doc/pr.jpg)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「パープル・アイの着せ替えボーイ」の公開レポジトリです。\n\n着せ替えがついた少年のフリーシェルです。SSP専用です。\n\n簡単なオーナードローメニュー素材がついています。\n\nポーズ差分あり。\nまた、neverアニメーションで表情に効果を付けることができます。\n\nシェルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n### purple-eyed-dressed-up-boy.zip\n\nフリーシェル本体です。\n名前は「パープル・アイの着せ替えボーイ」で、縦615pxです。\n\n## 表情・ポーズ一覧\n\n![「パープル・アイの着せ替えボーイ」の表情・ポーズ一覧。0: 素, 1: 照れ, 2: 驚き, 3: 不安, 4: 落ち込み, 5: 微笑み, 6: 目閉じ, 7: 怒り, 8: 冷笑, 9: 照れ怒り](doc/presentation.jpg)\n\n## 表情効果アニメーション\n\n詳しい使い方については`readme.txt`を参照してください。\n\n- 照れ\n- 汗\n- 影\n\n![「パープル・アイの着せ替えボーイ」の表情効果一覧。素の表情に、「照れ」「汗」「影」の効果をつけた画像](doc/effect.jpg)\n\n## 当たり判定\n\n- Head\n- Shoulder\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## 着せ替え箇所\n\n- 靴下\n- 靴\n- ボトムス\n- シャツ\n- タイ (Ｙシャツ専用)\n- ベスト\n- アウター\n\n## 作成協力\n\n### 灯坂アキラ さん\n\nsurfaces.txt等の記述をお願いいたしました。\nありがとうございます。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
+            "summary": "伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。",
+            "date_published": "2024-08-28T13:52:25Z",
+            "date_modified": "2024-08-28T13:52:28Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/download/v1.0.1/purple-eyed-dressed-up-boy.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "purple-eyed-dressed-up-boy.zip",
+                    "size_in_bytes": 1531521,
+                    "_ex": {
+                        "download_count": 6
+                    }
+                }
+            ]
+        },
+        {
             "id": "Shimofumi/zoomout_dra",
             "url": "https://github.com/Shimofumi/zoomout_dra",
             "title": "zoomout_dra",
@@ -33,7 +66,7 @@
                     "title": "zoomout_dra.zip",
                     "size_in_bytes": 614062,
                     "_ex": {
-                        "download_count": 7
+                        "download_count": 9
                     }
                 }
             ]
