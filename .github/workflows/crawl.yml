@@ -20,14 +20,12 @@ jobs:
         run: pip install -r requirements.txt
       - name: check
         run: python update.py
-        continue-on-error: true
       - name: Diff
         id: diff
         run: |
           git add -N .
           git diff --name-only --exit-code
         continue-on-error: true
-        if: steps.diff.outcome == 'success'
       - name: Commit & Push
         run: |
           set -x
