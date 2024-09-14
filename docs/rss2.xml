@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>jong-bari</title>
+    <link>https://github.com/nikolat/jong-bari</link>
+    <description>麻雀サーバーゴースト</description>
+    <category>ghost</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jong-bari</guid>
+    <pubDate>Fri, 09 Jun 2023 17:01:11 +0900</pubDate>
+</item>
+<item>
     <title>yakutai_nashi</title>
     <link>https://github.com/lost-nd-xxx/yakutai_nashi</link>
     <description>ゴースト「益体無しの人生だった」</description>
@@ -283,15 +292,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukadonyu</guid>
     <pubDate>Thu, 19 Jan 2023 08:49:32 +0900</pubDate>
-</item>
-<item>
-    <title>jong-bari</title>
-    <link>https://github.com/nikolat/jong-bari</link>
-    <description>麻雀サーバーゴースト</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jong-bari</guid>
-    <pubDate>Fri, 09 Jun 2023 17:01:11 +0900</pubDate>
 </item>
 <item>
     <title>ukagaka-simultaneous-interpreter</title>

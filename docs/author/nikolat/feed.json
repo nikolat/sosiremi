@@ -6,6 +6,43 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "nikolat/jong-bari",
+            "url": "https://github.com/nikolat/jong-bari",
+            "title": "jong-bari",
+            "content_text": "========================================================================\n【ソフト名称】雀々BARIBARI\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.42\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/06/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  麻雀をするためのサーバーゴーストです。\n  他にクライアントゴーストを3体召喚してお楽しみください。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀サーバーゴースト",
+            "date_published": "2023-06-09T08:01:08Z",
+            "date_modified": "2023-06-09T08:01:11Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-bari/releases/download/v1.0.6/jong-bari.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-bari.nar",
+                    "size_in_bytes": 1049602,
+                    "_ex": {
+                        "download_count": 53
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/nostalk",
             "url": "https://github.com/nikolat/nostalk",
             "title": "nostalk",
@@ -144,7 +181,7 @@
                     "title": "jong-whanwhan.nar",
                     "size_in_bytes": 792193,
                     "_ex": {
-                        "download_count": 77
+                        "download_count": 78
                     }
                 }
             ]
@@ -283,43 +320,6 @@
                     "size_in_bytes": 1792468,
                     "_ex": {
                         "download_count": 63
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/jong-bari",
-            "url": "https://github.com/nikolat/jong-bari",
-            "title": "jong-bari",
-            "content_text": "========================================================================\n【ソフト名称】雀々BARIBARI\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.42\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/06/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  麻雀をするためのサーバーゴーストです。\n  他にクライアントゴーストを3体召喚してお楽しみください。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "麻雀サーバーゴースト",
-            "date_published": "2023-06-09T08:01:08Z",
-            "date_modified": "2023-06-09T08:01:11Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "japanese-mahjong",
-                "mahjong",
-                "riichi-mahjong",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/jong-bari/releases/download/v1.0.6/jong-bari.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "jong-bari.nar",
-                    "size_in_bytes": 1049602,
-                    "_ex": {
-                        "download_count": 52
                     }
                 }
             ]
@@ -735,7 +735,7 @@
                     "title": "jb-standard.nar",
                     "size_in_bytes": 562934,
                     "_ex": {
-                        "download_count": 38
+                        "download_count": 39
                     }
                 }
             ]
