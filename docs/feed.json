@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "lost-nd-xxx/yakutai_nashi",
+            "url": "https://github.com/lost-nd-xxx/yakutai_nashi",
+            "title": "yakutai_nashi",
+            "content_text": "# ゴースト「益体無しの人生だった」\n\n## これはなに\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n### あらいすじ\n* カプセルマシン頭の「カプト」と空カプセルの「アキ」が、ゆるいトークをします。\n\n\n## 使用方法詳細\n* カプトに何か頼む (喋り頻度変更など)\n  * 絵の上にマウスカーソルを乗せ、カーソルが変わらないところでダブルクリック\n  * ショートカットキー: Ｍ\n\n* カプトたちに触れる\n  * カーソルの変わる箇所で以下のことをする\n    * ダブルクリック\n    * カーソルをしばらく動かす\n\n* カプトたちに何か話してもらう\n  * カプセルマシンのダイアルをダブルクリック\n  * ショートカットキー: Ｔ\n\n### ショートカットキーが反応しない場合\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n   * 絵をシングルクリックするとフォーカスを合わせることができます。\n\n上記に当てはまらない場合は不具合かもしれません。\nこのreadme下部の連絡先までご連絡いただけると助かります。\n\n\n## 使用素材等\n* 里々/整備班カスタム\n  * https://ms.shillest.net/satoriya.xhtml\n* Yusei Magic[^1]\n  * https://fonts.google.com/specimen/Yusei+Magic\n\n[^1]: 画像中の文字のフォントとして使用しています。フォントファイルは同梱していません。\n\n\n## ゴーストの二次創作ガイドライン\n### 二次創作周りについて\n1. 追加シェル、バルーン等を制作して配布される\n   * OK\n2. 二次創作をされる\n   * OK\n3. 性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる\n   * OK\n4. ゴースト本体の設定と大きくかけ離れた二次創作をされる\n   * OK\n5. 二次創作物の販売をされる\n   * OK[^2]\n6. コミッションサービス等でゴーストに関連する創作物を依頼される\n   * OK[^2]\n\n[^2]: 金銭の授受が発生する際は、「ガチャ」や「ガシャ」など、既存の商標を侵害しないようご注意ください。\n\n### ゴーストを始めとした、配布データの扱いについて\n1. ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる\n   * OK\n2. 情報集積サイト等の外部サイトに登録される\n   * OK\n3. 公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)\n   * NG\n4. ゴーストの中身(辞書、シェル等)を改変した上で再配布\n   * NG\n5. マスターシェルを素材とした追加シェルの制作/配布について\n   * NG\n     * どうしても素材として使う必要がある、という場合はゴースト作者にご相談ください。\n\n### その他\n1. 他ゴーストから切り替え反応を実装される\n   * OK\n2. ゴーストに関する批判的な意見を言われる\n   * OK\n3. ゴーストに関する要望を言われる\n   * OK\n     * ただし、要望が叶えられるかどうかは保証しません。\n4. 不特定多数の人が見る場でネタバレをされる\n   * OK\n5. トークの引用、又は撮ったスクリーンショットを公開される\n   * OK\n6. シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される\n   * NG\n7. ゴーストを動画内で配信される\n   * OK\n\n\n## 連絡先\n* 作者: ろすえん (lost_nd_xxx)\n  * https://lnx.flop.jp/form/postmail.html\n\n",
+            "summary": "ゴースト「益体無しの人生だった」",
+            "date_published": "2024-09-13T14:45:16Z",
+            "date_modified": "2024-09-13T14:45:19Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/yakutai_nashi/releases/download/1.0.0/i_was_useless.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "i_was_useless.nar",
+                    "size_in_bytes": 541604,
+                    "_ex": {
+                        "download_count": 36
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/jong-whanwhan",
             "url": "https://github.com/nikolat/jong-whanwhan",
             "title": "jong-whanwhan",
@@ -182,39 +215,6 @@
                     "size_in_bytes": 1049602,
                     "_ex": {
                         "download_count": 56
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/yakutai_nashi",
-            "url": "https://github.com/lost-nd-xxx/yakutai_nashi",
-            "title": "yakutai_nashi",
-            "content_text": "# ゴースト「益体無しの人生だった」\n\n## これはなに\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n### あらいすじ\n* カプセルマシン頭の「カプト」と空カプセルの「アキ」が、ゆるいトークをします。\n\n\n## 使用方法詳細\n* カプトに何か頼む (喋り頻度変更など)\n  * 絵の上にマウスカーソルを乗せ、カーソルが変わらないところでダブルクリック\n  * ショートカットキー: Ｍ\n\n* カプトたちに触れる\n  * カーソルの変わる箇所で以下のことをする\n    * ダブルクリック\n    * カーソルをしばらく動かす\n\n* カプトたちに何か話してもらう\n  * カプセルマシンのダイアルをダブルクリック\n  * ショートカットキー: Ｔ\n\n### ショートカットキーが反応しない場合\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n   * 絵をシングルクリックするとフォーカスを合わせることができます。\n\n上記に当てはまらない場合は不具合かもしれません。\nこのreadme下部の連絡先までご連絡いただけると助かります。\n\n\n## 使用素材等\n* 里々/整備班カスタム\n  * https://ms.shillest.net/satoriya.xhtml\n* Yusei Magic[^1]\n  * https://fonts.google.com/specimen/Yusei+Magic\n\n[^1]: 画像中の文字のフォントとして使用しています。フォントファイルは同梱していません。\n\n\n## ゴーストの二次創作ガイドライン\n### 二次創作周りについて\n1. 追加シェル、バルーン等を制作して配布される\n   * OK\n2. 二次創作をされる\n   * OK\n3. 性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる\n   * OK\n4. ゴースト本体の設定と大きくかけ離れた二次創作をされる\n   * OK\n5. 二次創作物の販売をされる\n   * OK[^2]\n6. コミッションサービス等でゴーストに関連する創作物を依頼される\n   * OK[^2]\n\n[^2]: 金銭の授受が発生する際は、「ガチャ」や「ガシャ」など、既存の商標を侵害しないようご注意ください。\n\n### ゴーストを始めとした、配布データの扱いについて\n1. ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる\n   * OK\n2. 情報集積サイト等の外部サイトに登録される\n   * OK\n3. 公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)\n   * NG\n4. ゴーストの中身(辞書、シェル等)を改変した上で再配布\n   * NG\n5. マスターシェルを素材とした追加シェルの制作/配布について\n   * NG\n     * どうしても素材として使う必要がある、という場合はゴースト作者にご相談ください。\n\n### その他\n1. 他ゴーストから切り替え反応を実装される\n   * OK\n2. ゴーストに関する批判的な意見を言われる\n   * OK\n3. ゴーストに関する要望を言われる\n   * OK\n     * ただし、要望が叶えられるかどうかは保証しません。\n4. 不特定多数の人が見る場でネタバレをされる\n   * OK\n5. トークの引用、又は撮ったスクリーンショットを公開される\n   * OK\n6. シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される\n   * NG\n7. ゴーストを動画内で配信される\n   * OK\n\n\n## 連絡先\n* 作者: ろすえん (lost_nd_xxx)\n  * https://lnx.flop.jp/form/postmail.html\n\n",
-            "summary": "ゴースト「益体無しの人生だった」",
-            "date_published": "2024-09-13T14:45:16Z",
-            "date_modified": "2024-09-13T14:45:19Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/yakutai_nashi/releases/download/1.0.0/i_was_useless.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "i_was_useless.nar",
-                    "size_in_bytes": 541604,
-                    "_ex": {
-                        "download_count": 36
                     }
                 }
             ]
@@ -618,7 +618,7 @@
                     "title": "yomibito_minarai.nar",
                     "size_in_bytes": 69621974,
                     "_ex": {
-                        "download_count": 39
+                        "download_count": 40
                     }
                 }
             ]
