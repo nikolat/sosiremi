@@ -10,8 +10,8 @@
 <link rel="help" href="../about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
-<link rel="alternate" type="application/octet-stream" title="my_own_translator" href="https://github.com/Tatakinov/my_own_translator/releases/download/v1.1.0/my_own_translator.nar" />
 <link rel="alternate" type="application/x-nar" title="taidanaSanoSan" href="https://github.com/tukinami/taidanaSanoSan/releases/download/v1.11.0/taidanaSanoSan.nar" />
+<link rel="alternate" type="application/octet-stream" title="my_own_translator" href="https://github.com/Tatakinov/my_own_translator/releases/download/v1.1.0/my_own_translator.nar" />
 <link rel="alternate" type="application/x-nar" title="Gertrude" href="https://github.com/etwaslangsam/Gertrude/releases/download/v1.09/Gertrude.nar" />
 <link rel="alternate" type="application/x-nar" title="jong-whanwhan" href="https://github.com/nikolat/jong-whanwhan/releases/download/v1.1.0/jong-whanwhan.nar" />
 <link rel="alternate" type="application/x-nar" title="yakutai_nashi" href="https://github.com/lost-nd-xxx/yakutai_nashi/releases/download/1.0.0/i_was_useless.nar" />
@@ -60,94 +60,6 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
-		<article id="Tatakinov/my_own_translator" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/Tatakinov/my_own_translator" rel="bookmark">my_own_translator</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./">ghost</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="../author/Tatakinov/">Tatakinov</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2024-09-30T12:27:20Z">2024-09-30 21:27:20</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2024-09-30T12:27:27Z">2024-09-30 21:27:27</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/Tatakinov/my_own_translator/releases/download/v1.1.0/my_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v1.1.0/my_own_translator.nar" rel="nofollow" data-filesize="2560.3" data-download_count="1">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTatakinov%2Fmy_own_translator%2Freleases%2Fdownload%2Fv1.1.0%2Fmy_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v1.1.0/my_own_translator.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="my_own_translator">
-				<h4>readme</h4>
-<pre>
-# my_own_translator
-
-The end of person who was not satisfied with just the functionality of a certain ghost.
-
-## What&#39;s this
-
-[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
-
-Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
-
-However, translation takes longer than it.
-
-## Library
-
-yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
-yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
-libcurl     | curl      | https://curl.se/
-
-## Mechanism
-
-Translate &#34;\0This \q[apple,OnFoo] is blue.&#34; from en to ja.
-
-```
-\0This \q[apple,OnFoo] is blue.\e
-```
-
-↓ parse
-
-```
-${0}This ${1} is blue.${2}
-----
-${0} = \0
-${1} = \q[apple,OnFoo]
-${2} = \e
-```
-
-↓ translate/replace event id
-
-```
-${0}This ${1} is blue.${2}
-----
-${0} = \0
-${1} = \q[りんご,OnKeep]
-${2} = \e
-```
-
-↓ translate
-
-```
-${0}この ${1} は 青色です。${2}
-----
-${0} = \0
-${1} = \q[りんご,OnKeep]
-${2} = \e
-```
-
-↓ build
-
-```
-\0この \q[りんご,OnKeep] は 青色です。\e
-```
-
-cf. OnKeep -&gt; \C
-
-In this example, the sentence is translated twice: once as a whole and once as the contents of the q tag.
-Therefore, sentences with more choices and anchors take longer to translate.
-</pre>
-			</aside>
-		</article>
 		<article id="tukinami/taidanaSanoSan" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/tukinami/taidanaSanoSan" rel="bookmark">taidanaSanoSan</a></h3>
@@ -291,6 +203,94 @@ https://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%
 
 制作: 月波 清火
 https://github.com/tukinami/taidanaSanoSan
+</pre>
+			</aside>
+		</article>
+		<article id="Tatakinov/my_own_translator" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/Tatakinov/my_own_translator" rel="bookmark">my_own_translator</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="../author/Tatakinov/">Tatakinov</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2024-09-30T12:27:20Z">2024-09-30 21:27:20</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2024-09-30T12:27:27Z">2024-09-30 21:27:27</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/Tatakinov/my_own_translator/releases/download/v1.1.0/my_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v1.1.0/my_own_translator.nar" rel="nofollow" data-filesize="2560.3" data-download_count="1">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTatakinov%2Fmy_own_translator%2Freleases%2Fdownload%2Fv1.1.0%2Fmy_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v1.1.0/my_own_translator.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="my_own_translator">
+				<h4>readme</h4>
+<pre>
+# my_own_translator
+
+The end of person who was not satisfied with just the functionality of a certain ghost.
+
+## What&#39;s this
+
+[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
+
+Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
+
+However, translation takes longer than it.
+
+## Library
+
+yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
+yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
+libcurl     | curl      | https://curl.se/
+
+## Mechanism
+
+Translate &#34;\0This \q[apple,OnFoo] is blue.&#34; from en to ja.
+
+```
+\0This \q[apple,OnFoo] is blue.\e
+```
+
+↓ parse
+
+```
+${0}This ${1} is blue.${2}
+----
+${0} = \0
+${1} = \q[apple,OnFoo]
+${2} = \e
+```
+
+↓ translate/replace event id
+
+```
+${0}This ${1} is blue.${2}
+----
+${0} = \0
+${1} = \q[りんご,OnKeep]
+${2} = \e
+```
+
+↓ translate
+
+```
+${0}この ${1} は 青色です。${2}
+----
+${0} = \0
+${1} = \q[りんご,OnKeep]
+${2} = \e
+```
+
+↓ build
+
+```
+\0この \q[りんご,OnKeep] は 青色です。\e
+```
+
+cf. OnKeep -&gt; \C
+
+In this example, the sentence is translated twice: once as a whole and once as the contents of the q tag.
+Therefore, sentences with more choices and anchors take longer to translate.
 </pre>
 			</aside>
 		</article>
