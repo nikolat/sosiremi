@@ -78,34 +78,25 @@ Translate &#34;\0This \q[apple,OnFoo] is blue.&#34; from en to ja.
 \0This \q[apple,OnFoo] is blue.\e
 ```
 
-↓ parse
+↓ parse/replace event id
 
 ```
-${0}This ${1} is blue.${2}
 ----
-${0} = \0
-${1} = \q[apple,OnFoo]
-${2} = \e
+${0} = ${1}This ${2} is blue.${4}
+${1} = \0
+${2} = \q[${3},OnKeep]
+${3} = apple
+${4} = \e
 ```
 
-↓ translate/replace event id
+↓ translate ${0}, ${3}
 
 ```
-${0}This ${1} is blue.${2}
-----
-${0} = \0
-${1} = \q[りんご,OnKeep]
-${2} = \e
-```
-
-↓ translate
-
-```
-${0}この ${1} は 青色です。${2}
-----
-${0} = \0
-${1} = \q[りんご,OnKeep]
-${2} = \e
+${0} = ${1}この ${2} は 青色です。${4}
+${1} = \0
+${2} = \q[${3},OnKeep]
+${3} = りんご
+${4} = \e
 ```
 
 ↓ build
@@ -115,9 +106,6 @@ ${2} = \e
 ```
 
 cf. OnKeep -&gt; \C
-
-In this example, the sentence is translated twice: once as a whole and once as the contents of the q tag.
-Therefore, sentences with more choices and anchors take longer to translate.
 </pre>
 			</aside>
 		</article>
