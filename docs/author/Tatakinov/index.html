@@ -72,7 +72,7 @@ libcurl     | curl      | https://curl.se/
 
 ## Mechanism
 
-Translate &#34;\0This \q[apple,OnFoo] is blue.&#34; from en to ja.
+Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
 
 ```
 \0This \q[apple,OnFoo] is blue.\e
@@ -82,21 +82,21 @@ Translate &#34;\0This \q[apple,OnFoo] is blue.&#34; from en to ja.
 
 ```
 ----
-${0} = ${1}This ${2} is blue.${4}
-${1} = \0
-${2} = \q[${3},OnKeep]
-${3} = apple
-${4} = \e
+&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = apple
+&lt;4&gt; = \e
 ```
 
-↓ translate ${0}, ${3}
+↓ translate &lt;0&gt;, &lt;3&gt;
 
 ```
-${0} = ${1}この ${2} は 青色です。${4}
-${1} = \0
-${2} = \q[${3},OnKeep]
-${3} = りんご
-${4} = \e
+&lt;0&gt; = &lt;1&gt;この &lt;2&gt; は 青色です。&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = りんご
+&lt;4&gt; = \e
 ```
 
 ↓ build
