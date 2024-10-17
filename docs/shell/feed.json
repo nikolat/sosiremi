@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "Shimofumi/Steampunk",
+            "url": "https://github.com/Shimofumi/Steampunk",
+            "title": "Steampunk",
+            "content_text": "ごじゆうにおつかいください。\n改変再配布配布中の再配布全部OK想定されうるあらゆる制約を設けないものとします。\n\nすちーむぱんくですよ！すちーむぱんく！！\n歯車！蒸気機関！ヴィクトリア！ガスライト！グレート・ゲーム！\n\nこの追加シェルの作者：しもふみ\n配布場所：https://github.com/Shimofumi\n連絡先：https://ukadon.shillest.net/@Shimofumi\n\nﾙｽﾄﾘｶﾁｬﾝはｶﾜｲｲですね。\n\nシェル化にあたり、ゴースト作者のあーるでぃーさんに多大なる協力を頂きました。\nこの場を借りてお礼申し上げます。\n\n\n",
+            "summary": "「ロスト・ユー・サムウェア」用追加シェル「すちーむぱんく」",
+            "date_published": "2024-10-17T16:59:11Z",
+            "date_modified": "2024-10-17T16:59:12Z",
+            "authors": [
+                {
+                    "name": "Shimofumi",
+                    "url": "https://github.com/Shimofumi",
+                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Shimofumi/Steampunk/releases/download/v1.0.0/Steampunk.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "Steampunk.zip",
+                    "size_in_bytes": 1880952,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "tukinami/purple-eyed-dressed-up-boy",
             "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy",
             "title": "purple-eyed-dressed-up-boy",
