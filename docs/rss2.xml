@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>taidanaSanoSan</title>
+    <link>https://github.com/tukinami/taidanaSanoSan</link>
+    <description>伺か雑談系ゴースト</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
+    <pubDate>Sun, 13 Oct 2024 12:31:50 +0900</pubDate>
+</item>
+<item>
     <title>Steampunk</title>
     <link>https://github.com/Shimofumi/Steampunk</link>
     <description>「ロスト・ユー・サムウェア」用追加シェル「すちーむぱんく」</description>
@@ -31,15 +40,6 @@
     <dc:creator>Tatakinov</dc:creator>
     <guid isPermaLink="false">Tatakinov/my_own_translator</guid>
     <pubDate>Wed, 16 Oct 2024 21:06:00 +0900</pubDate>
-</item>
-<item>
-    <title>taidanaSanoSan</title>
-    <link>https://github.com/tukinami/taidanaSanoSan</link>
-    <description>伺か雑談系ゴースト</description>
-    <category>ghost</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
-    <pubDate>Sun, 13 Oct 2024 12:31:50 +0900</pubDate>
 </item>
 <item>
     <title>jong-whanwhan</title>
