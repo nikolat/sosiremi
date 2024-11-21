@@ -1,0 +1,271 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Tatakinov | 偽SoSiReMi",
+    "home_page_url": "https://nikolat.github.io/sosiremi/author/Tatakinov/",
+    "feed_url": "https://nikolat.github.io/sosiremi/author/Tatakinov/feed.json",
+    "description": "GitHubで公開されているNARファイルを一覧表示する",
+    "items": [
+        {
+            "id": "Tatakinov/my_own_translator",
+            "url": "https://github.com/Tatakinov/my_own_translator",
+            "title": "my_own_translator",
+            "content_text": "# my_own_translator\n\nThe end of person who was not satisfied with just the functionality of a certain ghost.\n\n## What's this\n\n[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)\n\nSince ↑ doesn't translate choices, I created a ghost that can translate them in a nice way.\n\nAdditionally, I have tried to show the text as closely as possible to the original.\n\n## Library\n\nyaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori\nyaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic\nlibcurl     | curl      | https://curl.se/\n\n## Mechanism\n\nTranslate \"\\0This \\q[apple,OnFoo] is blue.\\e\" from en to ja.\n\n```\n\\0This \\q[apple,OnFoo] is blue.\\e\n```\n\n↓ parse/replace event id\n\n```\n----\n<0> = <1>This <2> is blue.<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = apple\n<4> = \\e\n```\n\n↓ translate <0>, <3>\n\n```\n<0> = <1>この<2>は青色です。<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = りんご\n<4> = \\e\n```\n\n↓ build\n\n```\n\\0この\\q[りんご,OnKeep]は青色です。\\e\n```\n\ncf. OnKeep -> \\C\n",
+            "summary": "",
+            "date_published": "2024-10-16T12:05:53Z",
+            "date_modified": "2024-10-16T12:06:00Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "my_own_translator.nar",
+                    "size_in_bytes": 2622100,
+                    "_ex": {
+                        "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/banjou_no_sumikko_de",
+            "url": "https://github.com/Tatakinov/banjou_no_sumikko_de",
+            "title": "banjou_no_sumikko_de",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】盤上の隅っこで\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 5.7以降 / SSP 2.4.72\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\n将棋ゴーストです。\r\n将棋以外にも色々なボードゲームで遊べます。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n- シェルについて\r\n    辞書内ではsurfacesのalias.txtに書かれたaliasを\r\n    利用するようにしているため、masterシェルと同じ番号にしなくても\r\n    aliasさえ一致していれば大丈夫です。\r\n    そのため、シェルのファイル名およびsurfaceIDは\r\n    masterシェルと同じである必要はありません。\r\n    ただし、あくまでsurfaceIDだけなので扇子のanimationIDは\r\n    一致させる必要があります。\r\n- 扇子の文字\r\n    1. 涓滴(けんてき)             藤井猛九段の揮毫。\r\n    2. 百折不撓(ひゃくせつふとう) 木村一基九段の揮毫。\r\n    3. 平安(へいあん)             鈴木大介九段の揮毫。\r\n- 盤や駒の画像について\r\n    追加シェルの場合は駒や盤などの画像を用意するのが大変であれば\r\n    masterのものをコピーしても大丈夫です。\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n△\r\n要相談。\r\n\r\n[16.ゴーストの商業誌収録]\r\n×\r\n\r\n\r\n# 棋譜の読み上げ音声について\r\n\r\n「VOICEVOX:四国めたん」を利用しています。\r\nホームページ → https://voicevox.hiroshiba.jp/\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\nただし、例外的にEigenのライセンスは\r\nghost/master/saori/cocoa/以下のCOPYINGを参照してください。\r\n(サードパーティのライブラリがどれか確認が取れていないため)\r\n\r\nLua                         | https://www.lua.org/\r\nsol2                        | https://github.com/ThePhD/sol2/\r\nluautf8                     | https://github.com/starwing/luautf8/\r\nluaex(in Luachild)          | https://github.com/LuaDist/luaex/\r\nLuachild                    | https://github.com/pocomane/luachild/\r\nLPeg                        | http://www.inf.puc-rio.br/~roberto/lpeg/\\\r\nshogi686                    | https://github.com/merom686/shogi686_sdt5/\r\nsunfish4                    | https://github.com/sunfish-shogi/sunfish4/\r\nluacheck                    | https://github.com/mpeterv/luacheck/\r\nargparse(in luacheck)       | https://github.com/mpeterv/argparse\r\nluafilesystem(in luacheck)  | https://github.com/keplerproject/luafilesystem\r\nlanes(in luacheck)          | https://github.com/LuaLanes/lanes\r\nMahjongUtil                 | https://github.com/nikolat/MahjongUtil\r\nluasocket                   | https://github.com/diegonehab/luasocket\r\nArasan                      | https://www.arasanchess.org/\r\nNAIST Japanese Dictionary   | https://ja.osdn.net/projects/naist-jdic/\r\nKataGo                      | https://github.com/lightvector/KataGo\r\nclblast(in KataGo)          | ↑のcpp/external参照\r\nfilesystem-1.5.8(in KataGo) | ↑同上\r\nhalf-2.1.0(in KataGo)       | ↑同上\r\nhttplib(in KataGo)          | ↑同上\r\nnlohmann_json(in KataGo)    | ↑同上\r\ntclap-1.2.2(in KataGo)      | ↑同上\r\nsha2.cpp(in KataGo)         | ↑のcpp/core/sha2.cppを参照\r\nopenssl(in KataGo)          | https://github.com/openssl/openssl\r\nEigen(in cocoa/kay)         | https://eigen.tuxfamily.org/index.php?title=Main_Page\r\nminpack(in Eigen)           | 不明\r\n\r\n\r\n## 使用フォント\r\n\r\n駒や指し手などの文字にM+ BITMAP FONTを使用しています。\r\nライセンス詳細はshell\\master\\shogi\\LICENSE.txtを参照してください。\r\n\r\nメニューのサイドバーにみかちゃんフォントを使用しています。\r\nライセンス詳細はshell\\master\\menu\\LICENSE.mikachan.txtを参照してください。\r\n\r\n\r\n## 棋譜について\r\n\r\n基本的には作者が将棋を指したり、将棋ソフトで検討()したり、棋書(本)を読んだり、\r\n動画を見たりして得た知識(※)を元に作っています。\r\n出典がある場合は該当するトークが書かれている辞書またはkifファイルに\r\nコメントで記載してあります。\r\nなお、プロの棋譜を用いた部分については\r\n棋譜利用のガイドライン | https://www.shogi.or.jp/kifuguideline/terms.html\r\nを守った範囲で利用しているはずです。\r\n万が一上記のガイドラインを無視した棋譜利用がありましたら\r\n連絡をお願いいたします。\r\n\r\n※棋書で詳細に書かれている変化についてはあまり触れないはずです。\r\n相振り飛車を指しこなす本くらいしかまともに読んでいませんが念のため。\r\n\r\n\r\n## メニューの詰将棋のようなものについて\r\n\r\n作者が考えてはいますが、万が一\r\n同一作品が存在していた場合は連絡してくださると助かります。\r\n\r\n\r\n## 参考にしたあれこれ\r\n\r\n- 栞関連\r\n\r\n  UKADOC Project\r\n    さくらスクリプトリスト/ http://ssp.shillest.net/ukadoc/manual/list_sakura_script.html\r\n  lua-users wiki          / http://lua-users.org/wiki/\r\n  tkytk                   / https://github.com/kinokon/tkytk\r\n  山茱萸しゃしゃぶ        / リンク切れ\r\n\r\n\r\n- ゴースト作成\r\n\r\n  着せ替えやアニメーションの作り方\r\n                          / http://earlduant.github.io/ukagaka-shell-description/animations.html\r\n\r\n\r\n- SAORI(process.dll)\r\n\r\n  さおり                  / http://www.boreas.dti.ne.jp/~sdn/saori.html\r\n  伺か - SSTPプロトコル   / http://usada.sakura.vg/contents/sstp.html\r\n  伺か - メモリオブジェクト\r\n                          / http://usada.sakura.vg/contents/objects.html\r\n\r\n\r\n- フォント\r\n\r\n  mieki256's diary - BDFフォントをアウトラインフォントにしてみたい\r\n                          / http://blawat2015.no-ip.com/~mieki256/diary/201905281.html\r\n\r\n\r\n- 棋譜フォーマットやUSIプロトコル\r\n\r\n  JSON棋譜フォーマット    / https://github.com/na2hiro/json-kifu-format\r\n  USIプロトコルとは       / http://shogidokoro.starfree.jp/usi.html\r\n  棋譜の表記方法          / https://www.shogi.or.jp/faq/kihuhyouki.html\r\n\r\n\r\n- 将棋トーク\r\n\r\n  将棋盤局面図を作成      / http://sfenreader.appspot.com/ja/create_board.html\r\n  将棋講座(ButaneGorilla) / https://www.nicovideo.jp/mylist/50368976\r\n\r\n- デバッグ(luacheck)のコンパイル\r\n  luastatic               / https://github.com/ers35/luastatic\r\n\r\n- オセロ\r\n  おせろAIの教科書|にゃにゃん(山名琢翔) / https://note.com/nyanyan_cubetech/m/m54104c8d2f12\r\n\r\n## サプリメントについて\r\n\r\n「盤上の隅っこで」には将棋の思考エンジンを導入するためのサプリメントが存在します。\r\nゴーストをつつくと出てくるメニューから「対局する」を選ぶと\r\n対局メニューが出てきます。\r\nそのメニューから「思考エンジンのインストール」を選択すると導入出来ます。\r\n\r\n\r\n### 配布元について\r\n\r\nhttps://github.com/Tatakinov/banjou_no_sumikko_de_supplement\r\n\r\n\r\n### 将棋の思考エンジンについて\r\n\r\n#### shogi686_sdt5\r\natomic_intやsizeof関係のコンパイルエラーが出ていた部分を修正しています。\r\nまた、指し手にランダム性を持たせるために、\r\nソースコードに少し手を加えています。\r\n評価関数は適当に何日か学習させたものを作成しました。\r\n\r\n#### sunfish4\r\n32bitでは_BitScanFoward64が無くてコンパイルエラーが出ていたので\r\nソースコード内に存在する代替関数を使うように修正しています。\r\n評価関数は、作者の将棋倶楽部24と81dojoの棋譜を学習させたものになっています。\r\nまた、序盤が弱いので最低限の定跡を入れてあります。\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-01-08T13:11:11Z",
+            "date_modified": "2023-01-08T13:11:28Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/banjou_no_sumikko_de/releases/download/1.0.0/banjou_no_sumikko_de.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "banjou_no_sumikko_de.nar",
+                    "size_in_bytes": 6446304,
+                    "_ex": {
+                        "download_count": 54
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/yomibito_minarai",
+            "url": "https://github.com/Tatakinov/yomibito_minarai",
+            "title": "yomibito_minarai",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】詠み人見習い\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 8.0以降 / SSP 2.6.52以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\n川柳のような何かを作るゴーストです。\r\n専用バルーンを使う前提の表示なのでそちらもインストールしてください。\r\n\r\n川柳を詠んだ後に出てくる星マークをクリックすればブクマ出来ます。\r\nもう一度見たい場合や画面キャプチャして自慢(?)するのに活用していただければ。\r\n\r\n\r\n## SLMによる川柳解説\r\n\r\n別途SLMを用意することで生成した川柳に\r\n解説のような何かを付けることができます。\r\nhttps://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx\r\nの\r\ncpu_and_mobile/cpu-int4-rtn-block-32\r\nからモデルやらコンフィグやらをダウンロードします。\r\n30GB程度のディスクの空き領域が必要になります。\r\nダウンロードの仕方は各自で調べてください。\r\nghost/master/aiにmodelフォルダを作り、\r\nmodel\r\n    |- added_tokens.json\r\n    |- config.json\r\n    |- ...\r\nのように配置します。\r\nそれからゴーストを起動すれば、川柳生成後に解説をつけるようになります。\r\n\r\n\r\n## 必要なスペック\r\n\r\n川柳のみ: 400MB程度の空きメモリ\r\n川柳+解説: 3GB程度の空きメモリ\r\n\r\n解説付きの場合は.NET 8が必要になり、さらに64bitでビルドしている関係で\r\n古いOSでは動作しないと思われます。\r\nまた、CPUで推論を行うため、時間がかかります。\r\n川柳ガチゃをする場合は、解説機能は切ったほうがいいでしょう。\r\n\r\n\r\n## 注意\r\n\r\nR-18な単語を含む川柳を生成する場合があります。\r\n自動生成なので川柳/解説のクオリティには期待しないでください。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n### シェル\r\n\r\nNegi-Mixを使用したAIシェルです。\r\nモデルのライセンスはFair AI Public License 1.0-SDです。\r\nhttps://freedevproject.org/faipl-1.0-sd/\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua                 | https://www.lua.org/\r\nsol2                | https://github.com/ThePhD/sol2/\r\nluautf8             | https://github.com/starwing/luautf8/\r\nluaex               | https://github.com/LuaDist/luaex/\r\nLuachild            | https://github.com/pocomane/luachild/\r\nzlib                | https://www.zlib.net/\r\nonnxruntime         | https://github.com/microsoft/onnxruntime\r\nonnxruntime-genai   | https://github.com/microsoft/onnxruntime-genai\r\nchiVe               | https://github.com/WorksApplications/chiVe\r\n\r\n## 川柳で使用している語彙について\r\n\r\nsaori/word2vec/data.gzに含まれています。\r\n\r\nmecab-ipadicに含まれる形態素の基本形と合致するchiVeの単語ベクトルを\r\n抽出したものを使用しています。\r\nライセンスはCOPYING.mecab_ipadic.txtおよびLICENSE.chive.txtを\r\n参照してください。\r\n\r\n\r\n# おまけ\r\n\r\n## 川柳生成の仕組み\r\n\r\nまず品詞+文字数の情報でそれっぽく川柳を生成します。\r\n「カッターがマグロに話す庭の糧」\r\n品詞と文字数の情報を併記するとこう。\r\n「カッター(名詞,4)が(助詞,1)マグロ(名詞,3)に(助詞,1)話す(動詞,3)庭(名詞,2)の(助詞,1)糧(名詞,2)」\r\nこの内、品詞と文字数の情報、それと最初の単語と助詞を残します。\r\n「カッターが(名詞,3)に(動詞,3)(名詞,2)の(名詞,2)」\r\n最初に抜けている(名詞,3)に対応する単語をword2vecで\r\n「カッター」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに(動詞,3)(名詞,2)の(名詞,2)」\r\n次の(動詞,3)に対応する単語を\r\n「カッター+ハサミ」に意味の近い動詞を持ってきます。\r\n「カッターがハサミに切れる(名詞,2)の(名詞,2)」\r\n次の(名詞,2)に対応する単語を\r\n「ハサミ+切る」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに切れる紙の(名詞,2)」\r\n次の(名詞,2)に対応する単語を\r\n「切る+紙」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに切れる紙の束」\r\nとなって完成です。\r\n\r\n最初のよりは意味が通りそうなものになる一方、ランダムな単語の羅列で作られる\r\nおもしろ川柳が出来にくくなるのは難しいところ。\r\nどこいつみたいな単語の厳選をすれば\r\nランダムな単語の羅列の方が面白そうなので誰か作って。\r\n\r\n\r\n## AIInterpreter.exeについて。\r\n\r\nonnxのモデルを読み込んでChatGPTみたいなやりとりが出来ます。\r\nPhi3以外のonnxモデルでも動くのかもしれませんが、動作確認はしてません。\r\n\r\n一行目の入力を${system}、二行目の入力を${user}として、\r\n<|system|>\r\n${system}<|end|>\r\n<|user|>\r\n${user}<|end|>\r\n<|assistant|>\r\nとLMに入力するようになっています。\r\n入出力はUTF-8に限定されるので注意してください。\r\n\r\n",
+            "summary": "",
+            "date_published": "2024-05-13T12:07:28Z",
+            "date_modified": "2024-05-13T12:08:23Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/yomibito_minarai/releases/download/v1.1.0/yomibito_minarai.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "yomibito_minarai.nar",
+                    "size_in_bytes": 69621974,
+                    "_ex": {
+                        "download_count": 45
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/knowledgeable_kernel",
+            "url": "https://github.com/Tatakinov/knowledgeable_kernel",
+            "title": "knowledgeable_kernel",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】モノシリック・カーネル\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\nLinuxについてあることないこと喋るゴーストです。\r\nあんまり濃ゆい話はしません。多分。\r\n\r\n\r\n## 注意事項\r\n\r\n- トークで紹介する一部コマンドにはデータを消したり破損させるものがあります。\r\n  実行は自己責任でお願いします。\r\n- えせ関西弁が苦手な方はアンインストールをおすすめします。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n### シェル\r\n\r\nさくら(\\0)側は\r\nhttps://github.com/bes-dev/stable_diffusion.openvino\r\nを用いて生成した画像を少し手直しして\r\nhttps://github.com/pkhungurn/talking-head-anime-3-demo\r\nで差分を生成したものを使用しています。\r\nstable_diffusionのライセンスは\r\nstable_diffusion.LICENSE.txtに記載されています。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua           | https://www.lua.org/\r\nsol2          | https://github.com/ThePhD/sol2/\r\nluautf8       | https://github.com/starwing/luautf8/\r\nluaex         | https://github.com/LuaDist/luaex/\r\nLuachild      | https://github.com/pocomane/luachild/\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-07-20T12:48:35Z",
+            "date_modified": "2023-07-20T12:48:41Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "knowledgeable_kernel.nar",
+                    "size_in_bytes": 1990567,
+                    "_ex": {
+                        "download_count": 81
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/desktop_tempter",
+            "url": "https://github.com/Tatakinov/desktop_tempter",
+            "title": "desktop_tempter",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】卓上誘技\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサスホールデムで遊べるゴーストです。\r\n遊ぶにはクライアントゴーストを入れる必要があります。\r\nまた、バルーンは専用バルーンを使うようにしてください。\r\n\r\n\r\n## 遊び方\r\n\r\nSキー:ゲーム開始\r\nBキー:ベット(インプットボックスにベット額を入力)\r\nRキー:レイズ(インプットボックスにベット額を入力)\r\nAキー:オールイン\r\nCキー:チェック/コール\r\nFキー:フォールド\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua           | https://www.lua.org/\r\nsol2          | https://github.com/ThePhD/sol2/\r\nluautf8       | https://github.com/starwing/luautf8/\r\nluaex         | https://github.com/LuaDist/luaex/\r\nLuachild      | https://github.com/pocomane/luachild/\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-01-07T05:42:05Z",
+            "date_modified": "2023-01-07T05:42:08Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/desktop_tempter/releases/download/1.0.0/desktop_tempter.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "desktop_tempter.nar",
+                    "size_in_bytes": 441657,
+                    "_ex": {
+                        "download_count": 34
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/desktop_tempter_casino_chip_blue",
+            "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_blue",
+            "title": "desktop_tempter_casino_chip_blue",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】カジノチップ(青)\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサス・ホールデムのクライアントゴーストです。\r\n遊ぶにはサーバーゴーストを入れる必要があります。\r\nまた、クライアントゴーストのサンプルゴーストでもあります。\r\n自分で思考部分作りたい方は\r\nghost/master/README.txt、ghost/master/dic_texas_holdem.dic、\r\nghost/master/dic_texas_holdem_ai.dicを参照してみてください。\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\nSAORIにTexasHoldemUtilを使用しています。\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-01-07T05:38:47Z",
+            "date_modified": "2023-01-07T05:38:50Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_blue/releases/download/1.0.0/desktop_tempter_casino_chip_blue.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "desktop_tempter_casino_chip_blue.nar",
+                    "size_in_bytes": 497848,
+                    "_ex": {
+                        "download_count": 22
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/desktop_tempter_casino_chip_green",
+            "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_green",
+            "title": "desktop_tempter_casino_chip_green",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】カジノチップ(緑)\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサス・ホールデムのクライアントゴーストです。\r\n遊ぶにはサーバーゴーストを入れる必要があります。\r\nまた、クライアントゴーストのサンプルゴーストでもあります。\r\n自分で思考部分作りたい方は\r\nghost/master/README.txt、ghost/master/dic_texas_holdem.dic、\r\nghost/master/dic_texas_holdem_ai.dicを参照してみてください。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\nSAORIにTexasHoldemUtilを使用しています。\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-01-07T05:28:59Z",
+            "date_modified": "2023-01-07T05:29:01Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_green/releases/download/1.0.0/desktop_tempter_casino_chip_green.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "desktop_tempter_casino_chip_green.nar",
+                    "size_in_bytes": 559082,
+                    "_ex": {
+                        "download_count": 22
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/desktop_tempter_casino_chip_red",
+            "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_red",
+            "title": "desktop_tempter_casino_chip_red",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】カジノチップ(赤)\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサス・ホールデムのクライアントゴーストです。\r\n遊ぶにはサーバーゴーストを入れる必要があります。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n",
+            "summary": "",
+            "date_published": "2023-01-07T05:26:55Z",
+            "date_modified": "2023-01-07T05:26:58Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_red/releases/download/1.0.0/desktop_tempter_casino_chip_red.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "desktop_tempter_casino_chip_red.nar",
+                    "size_in_bytes": 403274,
+                    "_ex": {
+                        "download_count": 24
+                    }
+                }
+            ]
+        }
+    ]
+}
