@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/Tatakinov/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>wind_memory_petit</title>
+    <link>https://github.com/Tatakinov/wind_memory_petit</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/wind_memory_petit</guid>
+    <pubDate>Sun, 24 Nov 2024 21:47:37 +0900</pubDate>
+</item>
+<item>
     <title>my_own_translator</title>
     <link>https://github.com/Tatakinov/my_own_translator</link>
     <description></description>

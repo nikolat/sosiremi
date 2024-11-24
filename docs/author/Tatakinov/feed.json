@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "Tatakinov/wind_memory_petit",
+            "url": "https://github.com/Tatakinov/wind_memory_petit",
+            "title": "wind_memory_petit",
+            "content_text": "# 風の記憶\n\n## このゴーストについて\n\nElinの楽しさを少し増やせたら良いな、というゴーストです。\n\n初心者向けの説明以外に、Elin内の出来事に反応することがあります。\n例えば、\n- 死んだとき\n- 良い装備を見つけたとき\n- 状態異常に罹ったとき\n- 敵をターゲッティングしたとき\nなど。\n\n邪魔にならない場所に置いて頂けたら幸い。\n\n## ライセンス\n\nghost/master/elin\n以上のディレクトリ内のファイルのライセンスは特に断りが無い限りCC0です。\n\n",
+            "summary": "",
+            "date_published": "2024-11-24T12:47:35Z",
+            "date_modified": "2024-11-24T12:47:37Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "elin",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/wind_memory_petit/releases/download/v1.0.0/wind_memory_petit.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "wind_memory_petit.nar",
+                    "size_in_bytes": 427052,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "Tatakinov/my_own_translator",
             "url": "https://github.com/Tatakinov/my_own_translator",
             "title": "my_own_translator",
