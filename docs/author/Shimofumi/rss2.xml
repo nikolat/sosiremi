@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Shimofumi | 偽SoSiReMi</title>
+<link>https://nikolat.github.io/sosiremi/author/Shimofumi/</link>
+<description>GitHubで公開されているNARファイルを一覧表示する</description>
+<atom:link href="https://nikolat.github.io/sosiremi/author/Shimofumi/rss2.xml" rel="self" type="application/rss+xml" />
+<item>
+    <title>Shennong_kanadome</title>
+    <link>https://github.com/Shimofumi/Shennong_kanadome</link>
+    <description>ukagaka ghost 餌付けしよ！神農氏</description>
+    <category>ghost</category>
+    <dc:creator>Shimofumi</dc:creator>
+    <guid isPermaLink="false">Shimofumi/Shennong_kanadome</guid>
+    <pubDate>Sun, 24 Nov 2024 23:29:44 +0900</pubDate>
+</item>
+<item>
+    <title>Steampunk</title>
+    <link>https://github.com/Shimofumi/Steampunk</link>
+    <description>「ロスト・ユー・サムウェア」用追加シェル「すちーむぱんく」</description>
+    <category>shell</category>
+    <dc:creator>Shimofumi</dc:creator>
+    <guid isPermaLink="false">Shimofumi/Steampunk</guid>
+    <pubDate>Fri, 18 Oct 2024 01:59:12 +0900</pubDate>
+</item>
+<item>
+    <title>HamirLore</title>
+    <link>https://github.com/Shimofumi/HamirLore</link>
+    <description>Ukagaka ghost HamirLore</description>
+    <category>ghost</category>
+    <dc:creator>Shimofumi</dc:creator>
+    <guid isPermaLink="false">Shimofumi/HamirLore</guid>
+    <pubDate>Tue, 26 Dec 2023 21:23:12 +0900</pubDate>
+</item>
+<item>
+    <title>zoomout_dra</title>
+    <link>https://github.com/Shimofumi/zoomout_dra</link>
+    <description>かつて嫌ゴと呼ばれたけれど 追加シェル「辰年（小）」</description>
+    <category>shell</category>
+    <dc:creator>Shimofumi</dc:creator>
+    <guid isPermaLink="false">Shimofumi/zoomout_dra</guid>
+    <pubDate>Mon, 19 Aug 2024 22:27:21 +0900</pubDate>
+</item>
+<item>
+    <title>Saigai_no_ikimono_chan</title>
+    <link>https://github.com/Shimofumi/Saigai_no_ikimono_chan</link>
+    <description>伺か的フリーシェル「海で一番強い生き物」ちゃん</description>
+    <category>shell</category>
+    <dc:creator>Shimofumi</dc:creator>
+    <guid isPermaLink="false">Shimofumi/Saigai_no_ikimono_chan</guid>
+    <pubDate>Wed, 07 Aug 2024 04:07:59 +0900</pubDate>
+</item>
+<item>
+    <title>Oyatsu_ha_Macaroni</title>
+    <link>https://github.com/Shimofumi/Oyatsu_ha_Macaroni</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Shimofumi</dc:creator>
+    <guid isPermaLink="false">Shimofumi/Oyatsu_ha_Macaroni</guid>
+    <pubDate>Wed, 13 Dec 2023 15:38:28 +0900</pubDate>
+</item>
+</channel>
+</rss>
