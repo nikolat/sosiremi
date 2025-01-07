@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/plugin/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>UkagakaGhostMessenger</title>
+    <link>https://github.com/lost-nd-xxx/UkagakaGhostMessenger</link>
+    <description>伺かベースウェア向けのメッセージアプリ風プラグイン</description>
+    <category>plugin</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/UkagakaGhostMessenger</guid>
+    <pubDate>Wed, 25 Dec 2024 00:23:34 +0900</pubDate>
+</item>
+<item>
     <title>wallet_of_unyu</title>
     <link>https://github.com/nikolat/wallet_of_unyu</link>
     <description>伺かの世界で流通する暗号通貨UNYUのウォレット</description>

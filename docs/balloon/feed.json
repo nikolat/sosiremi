@@ -6,40 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "lost-nd-xxx/kumasan_with_deathplay",
-            "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay",
-            "title": "kumasan_with_deathplay",
-            "content_text": "# 「くまさん・うぃず・ですぷれ」\r\n![プレビュー](preview.gif \"プレビュー\")\r\n\r\n## これなに\r\n* 伺か向けに設定済みのフリーシェル(画像素材)です\r\n* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します\r\n* 伺か関連作品以外への利用も可能です\r\n* 動作デモ用ゴーストもあります\r\n\r\n## 利用条件\r\n動作デモ用ゴースト以外は、下記の条件でご利用いただけます。\r\n* 改変可\r\n* 再配布可\r\n* 改変後の再配布可\r\n* 伺か関連作品以外への利用可\r\n* 著作者表示不要\r\n* 使用報告不要\r\n\r\n## ダウンロード\r\n* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)\r\n  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。\r\n* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)\r\n* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)\r\n* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)\r\n* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)\r\n  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。\r\n\r\n## 連絡先\r\n* 作者：lost_nd_xxx（ろすえん）\r\n* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)\r\n",
-            "summary": "フリーシェル＆専用バルーン２種＆動作デモ用ゴースト",
-            "date_published": "2024-11-01T15:19:38Z",
-            "date_modified": "2024-11-01T15:19:38Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-balloon",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/download/1.0.1/deathplay_for_kumasan_dark.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "deathplay_for_kumasan_dark.zip",
-                    "size_in_bytes": 8597,
-                    "_ex": {
-                        "download_count": 8
-                    }
-                }
-            ]
-        },
-        {
             "id": "tukinami/talismanic_beast_pattern",
             "url": "https://github.com/tukinami/talismanic_beast_pattern",
             "title": "talismanic_beast_pattern",
