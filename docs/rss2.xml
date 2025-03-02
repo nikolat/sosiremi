@@ -6,15 +6,6 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
-    <title>incubation_of_animas</title>
-    <link>https://github.com/tukinami/incubation_of_animas</link>
-    <description>伺か用ゴースト。戦うくたびれたおじさんと話すゴースト。</description>
-    <category>ghost</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/incubation_of_animas</guid>
-    <pubDate>Sat, 18 May 2024 20:19:49 +0900</pubDate>
-</item>
-<item>
     <title>banjou_no_sumikko_de</title>
     <link>https://github.com/Tatakinov/banjou_no_sumikko_de</link>
     <description></description>
@@ -22,6 +13,15 @@
     <dc:creator>Tatakinov</dc:creator>
     <guid isPermaLink="false">Tatakinov/banjou_no_sumikko_de</guid>
     <pubDate>Sun, 08 Jan 2023 22:11:28 +0900</pubDate>
+</item>
+<item>
+    <title>incubation_of_animas</title>
+    <link>https://github.com/tukinami/incubation_of_animas</link>
+    <description>伺か用ゴースト。戦うくたびれたおじさんと話すゴースト。</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/incubation_of_animas</guid>
+    <pubDate>Sat, 18 May 2024 20:19:49 +0900</pubDate>
 </item>
 <item>
     <title>nostalk</title>
