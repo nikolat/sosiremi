@@ -1,0 +1,273 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "lost-nd-xxx | 偽SoSiReMi",
+    "home_page_url": "https://nikolat.github.io/sosiremi/author/lost-nd-xxx/",
+    "feed_url": "https://nikolat.github.io/sosiremi/author/lost-nd-xxx/feed.json",
+    "description": "GitHubで公開されているNARファイルを一覧表示する",
+    "items": [
+        {
+            "id": "lost-nd-xxx/UGMNavigator_Umechan",
+            "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan",
+            "title": "UGMNavigator_Umechan",
+            "content_text": "UkagakaGhostMessengerナビゲーターうめちゃん\n～～～～\nUkagakaGhostMessengerのナビゲートをするゴーストです。\nスクリプトの作成補助、プラグインの内容の簡易解説などをします。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n～～～～\n＃利用モジュール等\n\n＊YAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n＊紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n＊紺野りりす\nhttps://ms.shillest.net/yayalilith.xhtml\n\n＊textcopy2.dll\nhttps://code.google.com/archive/p/csaori/\n\n＊うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n・にじジャーニー\nhttps://nijijourney.com/ja/\n・にじジャーニー利用規約\nhttps://docs.midjourney.com/docs/terms-of-service\n\n＊活用例プリセットに入っている和菓子\nろすえんが描いたものです。\n",
+            "summary": "伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」",
+            "date_published": "2025-01-24T18:51:08Z",
+            "date_modified": "2025-01-24T18:51:11Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.1/UGMNavigator_Umechan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "UGMNavigator_Umechan.nar",
+                    "size_in_bytes": 755412,
+                    "_ex": {
+                        "download_count": 20
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/UkagakaGhostMessenger",
+            "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger",
+            "title": "UkagakaGhostMessenger",
+            "content_text": "# UkagakaGhostMessenger\n伺かベースウェア向けプラグインです。\nメッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n------------------------\n## 取扱説明書等\n* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け\n* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け\n* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification\n\n------------------------\n## メッセージ履歴について\nこのプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。\n各データの取り扱いは、送信元ゴーストの規約に従ってください。\n\n------------------------\n## ファイアウォールの表示が出た場合\nUGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。\nugm_server.exeはSSPと情報をやりとりできるようにするためのアプリです。\n深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。\n許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。\nugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。\n\nまた、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。\nugm_server.exeの起動によるもので、仕様です。\n\n------------------------\n## ローカルホストのポート番号の変更について\n「ugm_config.txt」の数値を書き換えることで、UGMの使用するポート番号を変更できます。\n※プラグインを再起動するまで設定は反映されません。\nプラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。\n\n以下の場合などにご活用ください。\n* UGM以外のツールを使おうとしてUGMのページが開かれてしまった\n* UGMのページを開こうとして関係ないツールのページが開かれてしまった\n\n------------------------\n## 使用モジュール等のライセンス\n* akari http://le.silk.to/akari.php\n> このプログラムを使用したいかなる不利益も作者は責任を負いません。\n> 伺かのサブシステムとして使う場合に限り、無償で無制限に使用できます。\n\n* うかてん https://github.com/nikolat/ukaten\n  * main.azrを当方による改変ののちに組み込んでいます。\n> 上記以外のテキストファイル、辞書ファイルの類いは、\n> すべてpublic domainとして自由に利用できるものとします。\n\n* YAYA as SAORI https://github.com/YAYA-shiori/yaya-as-saori\n  * Unlicense license https://github.com/YAYA-shiori/yaya-as-saori/blob/main/LICENSE\n\n* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle\n  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE\n\n* fuwaimg https://do.gt-gt.org/product/fuwaimg/\n  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html\n\n* Material Symbols & Icons https://fonts.google.com/icons\n  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html\n\n* jsstp https://github.com/ukatech/jsstp-lib\n  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE\n\n* go https://go.dev/\n  * 三条項BSDライセンス https://go.dev/LICENSE\n\n### うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n* にじジャーニー https://nijijourney.com/ja/\n  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service\n",
+            "summary": "伺かベースウェア向けのメッセージアプリ風プラグイン",
+            "date_published": "2025-01-09T13:37:41Z",
+            "date_modified": "2025-01-09T13:37:54Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/1.0.2/UkagakaGhostMessenger.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "UkagakaGhostMessenger.nar",
+                    "size_in_bytes": 3801860,
+                    "_ex": {
+                        "download_count": 27
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/kumasan_with_deathplay",
+            "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay",
+            "title": "kumasan_with_deathplay",
+            "content_text": "# 「くまさん・うぃず・ですぷれ」\r\n![プレビュー](preview.gif \"プレビュー\")\r\n\r\n## これなに\r\n* 伺か向けに設定済みのフリーシェル(画像素材)です\r\n* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します\r\n* 伺か関連作品以外への利用も可能です\r\n* 動作デモ用ゴーストもあります\r\n\r\n## 利用条件\r\n動作デモ用ゴースト以外は、下記の条件でご利用いただけます。\r\n* 改変可\r\n* 再配布可\r\n* 改変後の再配布可\r\n* 伺か関連作品以外への利用可\r\n* 著作者表示不要\r\n* 使用報告不要\r\n\r\n## ダウンロード\r\n* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)\r\n  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。\r\n* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)\r\n* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)\r\n* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)\r\n* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)\r\n  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。\r\n\r\n## 連絡先\r\n* 作者：lost_nd_xxx（ろすえん）\r\n* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)\r\n",
+            "summary": "フリーシェル＆専用バルーン２種＆動作デモ用ゴースト",
+            "date_published": "2024-11-01T15:19:38Z",
+            "date_modified": "2024-11-01T15:19:38Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/download/1.0.1/deathplay_for_kumasan_dark.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "deathplay_for_kumasan_dark.zip",
+                    "size_in_bytes": 8597,
+                    "_ex": {
+                        "download_count": 9
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/yakutai_nashi",
+            "url": "https://github.com/lost-nd-xxx/yakutai_nashi",
+            "title": "yakutai_nashi",
+            "content_text": "# ゴースト「益体無しの人生だった」\n\n## これはなに\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n### あらいすじ\n* カプセルマシン頭の「カプト」と空カプセルの「アキ」が、ゆるいトークをします。\n\n\n## 使用方法詳細\n* カプトに何か頼む (喋り頻度変更など)\n  * 絵の上にマウスカーソルを乗せ、カーソルが変わらないところでダブルクリック\n  * ショートカットキー: Ｍ\n\n* カプトたちに触れる\n  * カーソルの変わる箇所で以下のことをする\n    * ダブルクリック\n    * カーソルをしばらく動かす\n\n* カプトたちに何か話してもらう\n  * カプセルマシンのダイアルをダブルクリック\n  * ショートカットキー: Ｔ\n\n### ショートカットキーが反応しない場合\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n   * 絵をシングルクリックするとフォーカスを合わせることができます。\n\n上記に当てはまらない場合は不具合かもしれません。\nこのreadme下部の連絡先までご連絡いただけると助かります。\n\n\n## 使用素材等\n* 里々/整備班カスタム\n  * https://ms.shillest.net/satoriya.xhtml\n* Yusei Magic[^1]\n  * https://fonts.google.com/specimen/Yusei+Magic\n\n[^1]: 画像中の文字のフォントとして使用しています。フォントファイルは同梱していません。\n\n\n## ゴーストの二次創作ガイドライン\n### 二次創作周りについて\n1. 追加シェル、バルーン等を制作して配布される\n   * OK\n2. 二次創作をされる\n   * OK\n3. 性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる\n   * OK\n4. ゴースト本体の設定と大きくかけ離れた二次創作をされる\n   * OK\n5. 二次創作物の販売をされる\n   * OK[^2]\n6. コミッションサービス等でゴーストに関連する創作物を依頼される\n   * OK[^2]\n\n[^2]: 金銭の授受が発生する際は、「ガチャ」や「ガシャ」など、既存の商標を侵害しないようご注意ください。\n\n### ゴーストを始めとした、配布データの扱いについて\n1. ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる\n   * OK\n2. 情報集積サイト等の外部サイトに登録される\n   * OK\n3. 公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)\n   * NG\n4. ゴーストの中身(辞書、シェル等)を改変した上で再配布\n   * NG\n5. マスターシェルを素材とした追加シェルの制作/配布について\n   * NG\n     * どうしても素材として使う必要がある、という場合はゴースト作者にご相談ください。\n\n### その他\n1. 他ゴーストから切り替え反応を実装される\n   * OK\n2. ゴーストに関する批判的な意見を言われる\n   * OK\n3. ゴーストに関する要望を言われる\n   * OK\n     * ただし、要望が叶えられるかどうかは保証しません。\n4. 不特定多数の人が見る場でネタバレをされる\n   * OK\n5. トークの引用、又は撮ったスクリーンショットを公開される\n   * OK\n6. シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される\n   * NG\n7. ゴーストを動画内で配信される\n   * OK\n\n\n## 連絡先\n* 作者: ろすえん (lost_nd_xxx)\n  * https://lnx.flop.jp/form/postmail.html\n\n",
+            "summary": "ゴースト「益体無しの人生だった」",
+            "date_published": "2024-09-13T14:45:16Z",
+            "date_modified": "2024-09-13T14:45:19Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/yakutai_nashi/releases/download/1.0.0/i_was_useless.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "i_was_useless.nar",
+                    "size_in_bytes": 541604,
+                    "_ex": {
+                        "download_count": 64
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/LilyNovelPlayer",
+            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
+            "title": "LilyNovelPlayer",
+            "content_text": "────────────────────────\n●「Lily Novel Player」について\n────────────────────────\nリリー・ノベル・プレイヤー……略して「LNP」！\nこれは、ノベルゲームを作れる枠組み的な\nゴースト＆シェル＆バルーンです。\nLilyNovelPlayer製作委員会がお送りします。\n\n────────────────────────\n◎ゴーストの使用方法\n────────────────────────\n・シェルを切り替えると、\nゲームタイトルが切り替わります。\n・その他、詳しくはmasterシェルのreadme.txtを\nお読みください。\n\n────────────────────────\n◎使用素材とそのライセンスまとめ\n────────────────────────\n○里々\nghost/master/satori.dll\n以上のファイルは里々/整備班カスタムです。\n\n里々/整備班カスタム\nhttps://github.com/ukatech/satoriya-shiori\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ファイルセット内画像のフォント\nthumbnail.png\nghost/master/\n　assets/preset/\n　　clickwait.png\n　　gallery_locked.png\n　　menu_backlog.png\n　　menu_config.png\n　　menu_gallery.png\n　　menu_load.png\n　　menu_save.png\n　　nowloading.png\n　　ownerdraw_sidebar.png\n　　resumewindow.png\n　scenarios/master/resources/\n　　Number001.png\n　　Number002.png\n　　Number003.png\n　　Number004.png\n　　Number005.png\n　　Number006.png\n　　Number007.png\n　　Number008.png\n　　Number009.png\n　　Number010.png\n　　bg_desktop.png\n　　nowloading.png\nshell/master/\n　thumbnail.png\n　title1.png\n　title2.png\nLilyNovelPlayerBallon/\n　balloonc0.png\n　balloons2.png\n　balloons3.png\n　cancel_down.png\n　cancel_up.png\n　ok_down.png\n　ok_up.png\n　online.png\ntest_supplement/\n　shell/LilyNovelPlayer_test/\n　　title1.png\n　LilyNovelPlayerBallon_test/\n　　online.png\n　　balloonc0.png\n　　balloons2.png\n　　balloons3.png\n　　cancel_down.png\n　　cancel_up.png\n　　ok_down.png\n　　ok_up.png\nこれらの文字のフォントについて列挙します。\n\n・Halimun\nhttps://creatypestudio.co/halimun/\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・MS UI Gothic\nhttps://learn.microsoft.com/en-us/typography/font-list/ms-gothic#licensing-and-redistribution-info\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・Noto Serif JP\nhttps://fonts.google.com/noto/specimen/Noto+Serif+JP?query=Noto+Serif+JP\n※Open Font License\n\n・Noto Sans JP\nhttps://fonts.google.com/noto/specimen/Noto+Sans+JP?query=Noto+Sans+JP\n※Open Font License\n\n・Murecho\nhttps://fonts.google.com/specimen/Murecho\n※Open Font License\n\n※Open Font Licenseのフォントについて\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇configのサンプルボイス\nghost/master/assets/preset/\n　sample_voice.wav\n以上のファイルはずんだもんの音声ライブラリと、\nVOICEVOXを用いて生成した音声です。\n\n・商用利用　可\n・クレジット表記　必要 (VOICEVOX:ずんだもん)\n\n利用規約ページ\nhttps://zunko.jp/con_ongen_kiyaku.html\n\nVOICEVOX\nhttps://voicevox.hiroshiba.jp/\n\n東北ずん子・ずんだもんPJ 公式サイト\nhttps://zunko.jp/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇masterシナリオのBGM\nghost/master/assets/preset/\n　osorawo_osampo.mp3\n　tanoshii_ukagaka.mp3\n以上のファイルはCREEVOで生成した楽曲です。\nダウンミックス・空白カット等は、\nLilyNovelPlayer製作委員会が行いました。\n\n・商用利用　可\n・クレジット表記　不要\n※歌声の入っていないデータの場合\n\n> CREEVOで生成されたメロディーや伴奏は、\n> パブリックドメイン（著作権なし）のデータとして\n> 扱われます。\nhttps://creevo-music.com/usage#copyright\n\n利用規約ページ\nhttps://creevo-music.com/terms-and-conditions/\n\nCREEVO\nhttps://creevo-music.com/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ボイス風効果音・configのサンプル効果音\nghost/master/assets/\n　preset/\n　　sample_se.wav\n　preset_chara/voice/\n　　chara_voice1.wav\n　　chara_voice2.wav\n　　chara_voice_douji.wav\n以上のファイルはChipToneにて生成した音声です。\n\n・商用利用　可\n・クレジット表記　不要\n\nChipToneを使用して作成されたサウンドは、\nCC0ライセンスでライセンスされています。\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nChipTone\nhttps://sfbgames.itch.io/chiptone\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇上記に該当しないゴースト・シェル・バルーン画像\nLilyNovelPlayer製作委員会の作ったものです。\n※追加シナリオや追加アセットなどは該当しません。\n",
+            "summary": "ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン",
+            "date_published": "2024-05-17T19:24:37Z",
+            "date_modified": "2024-05-17T19:24:43Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.0/LilyNovelPlayer.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "LilyNovelPlayer.nar",
+                    "size_in_bytes": 6149164,
+                    "_ex": {
+                        "download_count": 86
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios",
+            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios",
+            "title": "LilyNovelPlayer_Prototype_Scenarios",
+            "content_text": "# りりぷれ ぷろとたいぷ\n![りりぷれ ぷろとたいぷ スクリーンショット](ss_lnp_proto.png \"りりぷれ ぷろとたいぷ スクリーンショット\")\n\n[「Lily Novel Player」](https://github.com/lost-nd-xxx/LilyNovelPlayer/wiki)用サプリメントです。<br>\nLNPへインストールすると、LNP開発中に使われていたプロトタイプシナリオをお楽しみいただけます。<br>\nこのサプリメントに含まれる`.txt`形式のファイルは、著作表記なしで改変再配布可能とします。<br>\n（※ただし、`profile`フォルダ以下を含まない）\n\n## ダウンロード\n* [lostndxxx_prototype.nar](https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/latest/download/lostndxxx_prototype.nar)\n\n## 何かありましたら\n* 責任者：ろすえん(lost_nd_xxx)\n* 連絡先：https://lnx.flop.jp/\n",
+            "summary": "りりぷれ ぷろとたいぷ（「Lily Novel Player」用サプリメント）",
+            "date_published": "2024-05-25T21:33:55Z",
+            "date_modified": "2024-05-25T21:33:57Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/v1.0.0/lostndxxx_prototype.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "lostndxxx_prototype.nar",
+                    "size_in_bytes": 522012,
+                    "_ex": {
+                        "download_count": 29
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/WeatherTimeCapsule",
+            "url": "https://github.com/lost-nd-xxx/WeatherTimeCapsule",
+            "title": "WeatherTimeCapsule",
+            "content_text": "ゴースト「WeatherTimeCapsule」\n設定した座標と時刻の天気を表示します。\nデータがある範囲でなら、過去の記録や予報の天気も取得できます。\n\nメーターをつつくと表示・非表示が切り替わります。\n天気表示の右上の３本線から設定に移動します。\n\nオフライン環境では何もできません。\n小さいバルーンでは表示が乱れます。\n\n=======================================\n連絡先\n=======================================\n作者: ろすえん(lost_nd_xxx)\nhttps://lnx.flop.jp/form/postmail.html\n\n=======================================\n使用素材等\n=======================================\n・シェル「master」「doodle」とバルーン「WeatherTimeCapsule専用バルーン」はゴースト作者が作成したものです。\n\n---------------------------------------\n・SHIORIにYAYAを使用させていただいています。\nhttps://ms.shillest.net/yaya.xhtml\n\n---------------------------------------\n・ゴースト辞書テンプレートに「紺野ややめ」を使用させていただいています。\nhttps://ms.shillest.net/yayame.xhtml\n\n---------------------------------------\n・「jsonパーサ with オブジェクト風の何か @ YAYA as SAORI」を改造して使用させていただいています。\nhttps://c-lege.hacca.jp/ukgk/ukst.html\n\n---------------------------------------\n・天気情報は「Open-Meteo」のデータを使用させていただいています。\nhttps://open-meteo.com/\n\nOpen-MeteoはCC-BY 4.0ライセンスで公開されています。\nhttps://creativecommons.org/licenses/by/4.0/deed.ja\n\n非営利使用の情報取得は1日あたり10000件、1時間あたり5000件、1分あたり600件未満に制限されています。\nこのため、ゴースト側で頻繁な情報取得は行えないようにしています。\n端末の設定時刻を能動的かつ頻繁に変更したり、ログなどからスクリプトを実行する事例はサポート外とします。\n\n---------------------------------------\n・日本の県庁所在地の位置情報データのリストは国土地理院の情報を基にゴースト作者が作成しました。\n情報は2024/02/18時点のものです。\n\n---------------------------------------\n・世界の国の首都名・位置情報データのリストに、イドケード様の作成されたデータを使用させていただいています。\nhttps://note.com/kentoide/n/n16354c4b3458\n\nこのデータセットはパブリックドメインで公開されています。\n\n---------------------------------------\n・天気アイコンとして、フォント「Weather Icons」を使用させていただいています。\nhttps://erikflowers.github.io/weather-icons/\n\n「Weather Icons」の天気アイコンはSIL Open Font License 1.1でライセンスされています。\nhttp://scripts.sil.org/OFL\nライセンス原文はルートフォルダにある「SIL_Open_Font_License_1_1.txt」で確認できます。\n\nv1.0までのデザインはLukas Bischoff様によるものです。\nv1.1以降のデザインはErik Flowers様によるものです。\n\n\n=======================================\nゴーストの二次創作ガイドライン/ライセンス\n=======================================\n◆二次創作周りについて\n[1.追加シェル、バルーン等を制作して配布される]\nOK\nバルーン名またはバルーンフォルダ名に「WeatherTimeCapsule」が含まれていると、\nゴーストは色変更対応バルーンと見なした動作をします。\n\n[2.二次創作をされる]\nOK\n\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\nNG\n\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\nOK\n\n[5.二次創作物の販売をされる]\nNG\n\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\nNG\n\n◆ゴーストを始めとした、配布データの扱いについて\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\nOK\n\n[2.情報集積サイト等の外部サイトに登録される]\nOK\n\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\nNG\n\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\nNG\n\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\nNG\n\n◆その他\n[1.他ゴーストから切り替え反応を実装される]\nOK\n\n[2.ゴーストに関する批判的な意見を言われる]\nOK\n\n[3.ゴーストに関する要望を言われる]\nOK\n\n[4.不特定多数の人が見る場でネタバレをされる]\nOK\n\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\n以下を明記する場合のみOK\n・出典がこのゴーストであること\n・引用に天気情報が含まれる場合、その情報源がOpen-Meteoであること\n　　・スクリーンショットの場合、バルーンにOpen-Meteoからの情報であることなどが出ているはずなので、それらを削らなければ問題なし\n　　　　・小さいバルーンでは表示が乱れるため、文章などで明記してください\n\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\nNG\n\n[7.ゴーストを動画内で配信される]\n動画単体に収益の発生しない場合のみOK\n以下を明記してください\n・出典がこのゴーストであること\n・引用に天気情報が含まれる場合、その情報源がOpen-Meteoであること\n",
+            "summary": "天候情報を表示するゴースト",
+            "date_published": "2024-05-21T08:30:54Z",
+            "date_modified": "2024-05-21T08:30:56Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/WeatherTimeCapsule/releases/download/v1.0.0/WeatherTimeCapsule.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "WeatherTimeCapsule.nar",
+                    "size_in_bytes": 1847917,
+                    "_ex": {
+                        "download_count": 59
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/unyu_lunchbox",
+            "url": "https://github.com/lost-nd-xxx/unyu_lunchbox",
+            "title": "unyu_lunchbox",
+            "content_text": "※効果音が鳴ります。\n適宜、機器の設定を調整してお楽しみください。\n\n\n# ゴースト「うにゅうのお弁当箱」\n作者   : ろすえん(lost_nd_xxx)\n連絡先 : https://lnx.flop.jp/\n\n----------------------------------------------------------------\n## 使い方\n* イラストまたはタスクトレイアイコンの上で右クリック\n    * 本体機能などのメニュー\n* 生き物の上でダブルクリック\n    * 「うにゅうのお弁当箱」独自のメニュー\n* ボタンをシングルクリック\n    * 射出\n\n※射出物として指定されたファイルへの変更は加えませんが、\n起動してはいけないようなファイルは指定しないでください。\n\n----------------------------------------------------------------\n## 謝辞\n* SHIORIにYAYAを使用させていただいています。\n    http://ms.shillest.net/yaya.xhtml\n\n* テンプレート辞書に「はろーYAYAわーるど」を使用させていただいています。\n    http://ms.shillest.net/yayame.xhtml\n\n* シェルの絵(shell/master/surface0.png～surface6.png)は颯爽と現れたレプラコーンさんが描いてくださったものです。\n（txt定義等はろすえんによるものです）\n\n* 効果音は「CHIPTONE」で作成したものです。\n    https://sfbgames.itch.io/chiptone\n\n----------------------------------------------------------------\n## 偉大なる始祖\n* さくらとうにゅう(materia)\n    http://usada.sakura.vg/\n",
+            "summary": "ゴースト「うにゅうのお弁当箱」",
+            "date_published": "2024-05-18T07:25:11Z",
+            "date_modified": "2024-05-18T07:25:14Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/unyu_lunchbox/releases/download/v1.0.0/lnx_unyu_lunchbox.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "lnx_unyu_lunchbox.nar",
+                    "size_in_bytes": 675757,
+                    "_ex": {
+                        "download_count": 24
+                    }
+                }
+            ]
+        }
+    ]
+}
