@@ -303,15 +303,6 @@
     <pubDate>Tue, 13 Feb 2024 16:43:19 +0900</pubDate>
 </item>
 <item>
-    <title>ukaten</title>
-    <link>https://github.com/nikolat/ukaten</link>
-    <description>伺か天気予報プラグイン</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukaten</guid>
-    <pubDate>Wed, 27 Apr 2022 18:50:49 +0900</pubDate>
-</item>
-<item>
     <title>Oyatsu_ha_Macaroni</title>
     <link>https://github.com/Shimofumi/Oyatsu_ha_Macaroni</link>
     <description></description>
@@ -348,15 +339,6 @@
     <pubDate>Sat, 06 May 2023 07:47:09 +0900</pubDate>
 </item>
 <item>
-    <title>ukagaka-hakoirimusume</title>
-    <link>https://github.com/nikolat/ukagaka-hakoirimusume</link>
-    <description>Klotski for UKAGAKA</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-hakoirimusume</guid>
-    <pubDate>Wed, 27 Apr 2022 18:51:06 +0900</pubDate>
-</item>
-<item>
     <title>shellbook</title>
     <link>https://github.com/nikolat/shellbook</link>
     <description>freeshell Wiki viewer</description>
@@ -364,24 +346,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/shellbook</guid>
     <pubDate>Tue, 13 Dec 2022 21:55:00 +0900</pubDate>
-</item>
-<item>
-    <title>reshibainu</title>
-    <link>https://github.com/nikolat/reshibainu</link>
-    <description>「里々」ログビューア「れしば.NET」のゴースト版</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/reshibainu</guid>
-    <pubDate>Wed, 27 Apr 2022 18:49:51 +0900</pubDate>
-</item>
-<item>
-    <title>crawler_uploader</title>
-    <link>https://github.com/nikolat/crawler_uploader</link>
-    <description>UKAGAKA Ghost</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/crawler_uploader</guid>
-    <pubDate>Fri, 29 Apr 2022 10:21:32 +0900</pubDate>
 </item>
 <item>
     <title>ukagakaPlugin_CeVIO-Talker</title>
@@ -508,51 +472,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/cultural-festival</guid>
     <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard-balloon</title>
-    <link>https://github.com/nikolat/jb-standard-balloon</link>
-    <description>ゴースト「雀々BARIBARI」用バルーン</description>
-    <category>balloon</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
-    <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard</title>
-    <link>https://github.com/nikolat/jb-standard</link>
-    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard</guid>
-    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
-</item>
-<item>
-    <title>CharameLNetwork</title>
-    <link>https://github.com/nikolat/CharameLNetwork</link>
-    <description>CharameLをSNS風に見せる何か</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
-    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
-</item>
-<item>
-    <title>balloonselector</title>
-    <link>https://github.com/nikolat/balloonselector</link>
-    <description>バルーン選択支援プラグイン</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/balloonselector</guid>
-    <pubDate>Sun, 10 Jul 2022 19:55:18 +0900</pubDate>
-</item>
-<item>
-    <title>ukagaka-caramelldansen-patch</title>
-    <link>https://github.com/nikolat/ukagaka-caramelldansen-patch</link>
-    <description>caramelldansen修正用supplement</description>
-    <category>supplement</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-caramelldansen-patch</guid>
-    <pubDate>Mon, 30 May 2022 19:25:17 +0900</pubDate>
 </item>
 </channel>
 </rss>
