@@ -423,7 +423,7 @@
             "id": "Shimofumi/HamirLore",
             "url": "https://github.com/Shimofumi/HamirLore",
             "title": "HamirLore",
-            "content_text": "",
+            "content_text": "----------------\nヘイミル・ロゥ\n----------------\n\n\n\n【ストーリー】\n\n　クッソ長生きなどらごんが酒を飲む\n  アンニュイな雑談ゴーストです。\n  \n　好感度・起動回数などという複雑なものはありません。\n　気長にお付き合いくださいませ。\n\n【舞台】\n\n　通信機（PC・SSP含む）越しのやりとりということで伺かの形になっていますが、\n　作者が勝手に言ってるだけなので無視して、対面のやり取りと解釈しても良いです。\n\n【登場人物】\n\nユーザ･貴君：\n    ふとした事から、ヘイミル・ロゥと他愛ないやりとりができるようになった\n\t\n\nヘイミル・ロゥ：\n    めっちゃ長生きのどらごん\n    本人も忘れているが、かなへびの親戚、とかげの遠戚　\n\n【おことわり】\n\n　実在の出来事、人物、名称とは一切関係在りません。\n　一部、人を選ぶ不謹慎、あるいは暴力的な表現等、不快になる恐れのある過激な表現が含まれています。\n　何かを悪意をもって貶めるような意図はありません。\n　実在と架空の区別がつかない方はプレイしないで下さい。\n\n　当ゴーストを利用した事によって発生したいかなる不利益、\n　損害にも著作者は関知しません。\n\n　以上の注意に危機感を覚える方はプレイを控えてください。\n\n【推奨環境】\n\n　ＳＳＰ最新版をご利用下さい。\n\n　\n【スペシャルサンクス】\n\n　うかどんの各位\n\n【参考にしたサイト、使用したツール、オマージュ、引用元等】\n　\n　下記を参考、また使用させて頂きました。ありがとうございました。\n　一点の曇りもない\n　https://nanachi.sakura.ne.jp\n　UKADOC project\n　http://ssp.shillest.net/ukadoc/manual/index.html\n　YAYA Information Wiki\n　https://emily.shillest.net/ayaya/?FrontPage\n　\n\n　\n\n【二次創作等】\n　　\n　制限はありません。一枚絵から同人誌まで、\n　創作されたものを教えて頂けると、とても嬉しく思います。\n　Ｒ-18作品についての制限も当然ありませんが、\n　製作者はTwitterの誕生日設定をしていないため、\n　年齢制限のかかっているコンテンツは見ることができません、\n  よってそもそも観測ができない可能性があります。\n　あらかじめご了承ください。\n\n【再配布・改変等】\n\n　シェルを含め、本作品の再配布は基本的にＯＫ\n　また、改変後の配布は改変者の名前で行ってください。\n　改変後のものに関して製作者は関知しません\n\n　本作品（ヘイミル・ロゥ）に限って実験的に創作再配布改変の規約を緩くしてみる意図があります。\n　それ以外の創作物には一切言及していないことに留意してください。\n　別のゴーストや別製作者さんのイラストなどにこの規約を持ち出さないでください。\n\n【あれこれ】\n\n　Q.シェルがでかい！！\t\n\t  A.そこで酔っぱらってるどらごんを右クリックしてSSPのシェル倍率を変更してください。\n　\n　Q.シェル倍率変更したらフキダシも小さくなった！！\t\n    A.設定のゴーストごとの設定、シェル倍率のバルーンも連携するのチェックを外してください。\n\n\n【製作者】（同一人物）\n　\n　しもふみ　／　下田文雄（しもだ ふみお）\n　\n\n  https://ukadon.shillest.net/@Shimofumi\n\ttwitter：@Shimofumi\n\n",
             "summary": "Ukagaka ghost HamirLore",
             "date_published": "2023-12-26T12:23:06Z",
             "date_modified": "2023-12-26T12:23:12Z",
@@ -818,7 +818,7 @@
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099837,
                     "_ex": {
-                        "download_count": 23
+                        "download_count": 25
                     }
                 }
             ]
@@ -1191,7 +1191,7 @@
             "id": "tukinami/double-danshi-KouKousei",
             "url": "https://github.com/tukinami/double-danshi-KouKousei",
             "title": "double-danshi-KouKousei",
-            "content_text": "",
+            "content_text": "# ダブル男子高校生\r\n\r\n## これは何？\r\n\r\n伺か用フリーシェル(立ち絵)「ダブル男子高校生」の公開レポジトリです。\r\n\r\n男子高校生二人組のフリーシェルで、SSP専用です。\r\n着せ替えと、簡単なオーナードローメニュー素材がついています。\r\n\r\nシェルやpsdファイルのダウンロードは\r\n[`Releasesの最新版`](https://github.com/tukinami/double-danshi-KouKousei/releases/latest)からどうぞ。\r\n\r\n## ダウンロードできる内容は？\r\n\r\n通常は`double-danshi-KouKousei.nar`か`double-danshi-KouKousei-S.nar`、\r\nどちらかをダウンロードしてください。\r\n\r\n### double-danshi-KouKousei.nar\r\n\r\nフリーシェル本体(全身版)です。縦1200pxです。\r\n\r\n### double-danshi-KouKousei-S.nar\r\n\r\nフリーシェル本体(膝上版)です。縦796pxです。\r\n\r\n### double-danshi-KouKousei_psd.zip\r\n\r\nシェル改変のために用意したpsdファイルです。全身、膝上版両方入っています。\r\n\r\n## シェル画像のプレビュー\r\n\r\n全身版(50%縮小)\r\n\r\n![全身版の画像 男子高校生二人組が立っている](doc/preview_shell.jpg)\r\n\r\n膝上版(50%縮小)\r\n\r\n![膝上版の画像 男子高校生二人組が立っている](doc/preview_shell-s.jpg)\r\n\r\n表情集\r\n\r\n![男子高校生二人組の表情集](doc/preview_face.jpg)\r\n\r\n\r\n## 着せ替え部位\r\n\r\nsakura側、kero側それぞれに以下の着せ替えがあります。\r\n\r\n- 靴下(白or紺)(全身版のみ)\r\n- シャツ(半袖or長袖)\r\n- ネクタイ\r\n- セーター(ベストor長袖orなし)\r\n- ジャケット\r\n\r\n着せ替えをしない場合は、descript.txtの以下の2行をコメントアウトし、\r\n\r\n```\r\nsakura.menu,auto\r\nkero.menu,auto\r\n```\r\n\r\n以下の2行を有効にしてくだい\r\n\r\n```\r\n// sakura.menuitem0,-\r\n// kero.menuitem0,-\r\n```\r\n\r\n## 当たり判定\r\n\r\nsakura側、kero側それぞれに当たり判定があります。\r\n\r\n- Head\r\n- Shoulder\r\n- Hand\r\n\r\n当たり判定上ではマウスカーソルが変わるように設定されています。\r\n\r\n## ライセンス\r\n\r\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\r\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\r\n\r\n## 連絡先\r\n\r\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\r\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\r\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\r\n- [公開URL](https://github.com/tukinami/double-danshi-KouKousei)\r\n\r\n## 製作者\r\n\r\n月波 清火\r\n\r\n- [GitHub](https://github.com/tukinami)\r\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\r\n",
             "summary": "伺か用フリーシェル。男子高校生二人組。",
             "date_published": "2023-11-09T12:32:18Z",
             "date_modified": "2023-11-09T12:32:21Z",
