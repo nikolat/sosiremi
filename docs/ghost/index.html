@@ -334,114 +334,6 @@ atomic_intやsizeof関係のコンパイルエラーが出ていた部分を修�
 			<aside class="readme" aria-label="incubation_of_animas">
 				<h4>readme</h4>
 <pre>
-
-
-孵化する魂
-
-
-※注意※
-
-・このゴーストの初回起動時、異形をした怪物のシェルが描画されるホラー的演出があります。
-・初回起動が長いです。
-・死亡ネタを含みます。
-
-苦手な方はご注意ください。
-
-また、この作品はフィクションです。
-実在の人物・団体・事件とは一切関係ありません。
-
-
-□概要
-
-・怪物と戦う、くたびれたおじさんと話すゴーストです。
-・10回、20回とランダムトークを聞くと、それぞれトークとそれに関するアンカーが増えます。
-
-
-□操作
-
-・メニュー表示: ダブルクリック もしくは「m」キー
-・ランダムトーク: 「t」キー
-
-
-□触り判定(なで反応のみ)
-
-頭: 撫でる
-肩: 肩揉み
-手: 触る
-タイ: 触る
-
-
-□よくありそうな質問
-
-Q. この人ちょろくないですか？
-A. 時間が超圧縮されており、20トークで1年くらい時間が経っているんです、多分。
-
-Q. ペラペラ喋ってるけど大丈夫？
-A. 上記の理由により、半ば腐れ縁的になりつつあるので大丈夫です(大丈夫ではない)
-
-
-□使用テンプレート
-
-「YAYA」テンプレートゴースト
-紺野ややめ
-https://github.com/YAYA-shiori/konnoyayame
-
-ありがとうございます。
-
-
-□ゴーストの二次創作ガイドライン/ライセンス(2024-05-18現在)
-
-https://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3
-
-◆二次創作周りについて
-
-[1.追加シェル、バルーン等を制作して配布される]
-    可 喜びます
-[2.二次創作をされる]
-    可 嬉しいです
-[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]
-    可 個人の責で
-[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]
-    可
-[5.二次創作物の販売をされる]
-    可
-[6.コミッションサービス等でゴーストに関連する創作物を依頼される]
-    可
-
-◆ゴーストを始めとした、配布データの扱いについて
-
-[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]
-    ダウンロードベージ: 可
-    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)
-[2.情報集積サイト等の外部サイトに登録される]
-    可
-[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]
-    可
-[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）
-    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上
-[5.マスターシェルを素材とした追加シェルの制作/配布について]
-    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上
-
-◆その他
-
-[1.他ゴーストから切り替え反応を実装される]
-    可 喜びます
-[2.ゴーストに関する批判的な意見を言われる]
-    可
-[3.ゴーストに関する要望を言われる]
-    可 お気軽にどうぞ
-[4.不特定多数の人が見る場でネタバレをされる]
-    可
-[5.トークの引用、又は撮ったスクリーンショットを公開される]
-    可
-[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]
-    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上
-[7.ゴーストを動画内で配信される]
-    可
-
-
-制作: 月波 清火
-https://github.com/tukinami/incubation_of_animas
 </pre>
 			</aside>
 		</article>
@@ -1467,60 +1359,6 @@ ghost/master/elin
 			<aside class="readme" aria-label="my_own_translator">
 				<h4>readme</h4>
 <pre>
-# my_own_translator
-
-The end of person who was not satisfied with just the functionality of a certain ghost.
-
-## What&#39;s this
-
-[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
-
-Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
-
-Additionally, I have tried to show the text as closely as possible to the original.
-
-## Library
-
-yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
-yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
-libcurl     | curl      | https://curl.se/
-
-## Mechanism
-
-Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
-
-```
-\0This \q[apple,OnFoo] is blue.\e
-```
-
-↓ parse/replace event id
-
-```
-----
-&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = apple
-&lt;4&gt; = \e
-```
-
-↓ translate &lt;0&gt;, &lt;3&gt;
-
-```
-&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = りんご
-&lt;4&gt; = \e
-```
-
-↓ build
-
-```
-\0この\q[りんご,OnKeep]は青色です。\e
-```
-
-cf. OnKeep -&gt; \C
 </pre>
 			</aside>
 		</article>
@@ -2752,59 +2590,6 @@ D. 以上の３項は、ソース・実行バイナリの双方に適用され�
 			<aside class="readme" aria-label="crawler_uploader">
 				<h4>readme</h4>
 <pre>
-========================================================================
-【ソフト名称】クローラ＆ロダ
-【 制 作 者 】Don
-【 動作環境 】Windows11 22H2 + SSP/2.6.15
-【 タ イ プ 】「伺か」用ゴースト
-【 取扱種別 】フリーウェア
-【 配布月日 】2011/04/16
-【 配 布 元 】https://nikolat.github.io/
-【  備  考  】後述
-========================================================================
-■概要
-
-  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。
-  動作には.NET Framework 2.0以上が必要となります。
-
-  \0妹: ゴーストのネットワーク更新を捕捉する仕事をしている
-  \1姉: NARを預かり、ネットワーク更新をサポートする仕事をしている
-
-■ライセンス
-
-  以下のモジュールおよびフリーシェル・画像素材を使用させて頂いております。
-  ありがとうございます。
-
-  D.N.Proxy
-    narをアップするところ
-      (配布元消失)
-
-  フリーシェル「mof」
-    パン耳手帳
-      (配布元消失)
-
-  browser-logos
-    https://github.com/alrra/browser-logos
-
-  上記以外のテキストファイル、辞書ファイルの類いは、
-  すべてNYSDLに基づき自由に利用できるものとします。
-
-************************************************************************
-NYSDL Version 0.9982
-A. この文書は Everyone&#39;sDocument です。この文書を手にした一人一人が、
-   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。
-
-  A-1. 作者からは使用料等を要求しません。
-  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。
-  A-3. いかなる種類の改変を加えても構いません。
-  A-4. この文書を変更や引用した文書は、あなたのものになります。
-       公開する場合は、あなたの名前の下で行って下さい。
-
-B. この文章を利用することによって生じた損害等について、著作者は
-   責任を負わないものとします。各自の責任においてご利用下さい。
-
-C. 著作者人格権はDonに帰属します。著作権は放棄します。
-************************************************************************
 </pre>
 			</aside>
 		</article>
@@ -3025,25 +2810,33 @@ Luachild      | https://github.com/pocomane/luachild/
 			<aside class="readme" aria-label="Youto">
 				<h4>readme</h4>
 <pre>
-見て、帰り道で見つけたへんなぬいぐるみ。
-……これ、しゃべるんだ。
+[![omoideno.nar](https://img.shields.io/github/downloads/apxxxxxxe/Youto/total?color=%23d196bb&amp;label=omoideno.nar&amp;logo=github)](https://github.com/apxxxxxxe/Youto/releases/latest/download/omoideno.nar)
+[![commits](https://img.shields.io/github/last-commit/apxxxxxxe/Youto?color=%23d196bb&amp;label=%E6%9C%80%E7%B5%82%E6%9B%B4%E6%96%B0&amp;logo=github)](https://github.com/apxxxxxxe/Youto/commits/main)
+[![commits](https://img.shields.io/tokei/lines/github/apxxxxxxe/Youto?color=%23d196bb)](https://github.com/apxxxxxxe/Youto/commits/main)
 
-------------------------------
-ゴースト「思い出の、」
+## 伺かゴースト「思い出の、」
+
+![screenshot](https://github.com/apxxxxxxe/Youto/raw/image/youto.png)
 
 雑談(?)ゴーストです。
 羊がつぶやく単語に合わせて、
 男の子がそれにちなんだ話をしたりしなかったりします。
 
-------------------------------
-- 羊をクリック、またはtキーでランダムトーク
-- なにもないところをクリック、またはmキーでメニュー
+### かんたんな操作方法
 
-------------------------------
-作成にあたって以下のテンプレートとシェルを使用させていただきました。
-この場を借りてお礼申し上げます。ありがとうございます。
-- YAYA辞書テンプレート「SimpleYAYAテンプレート」
+- 羊をクリック、または t キーでランダムトーク
+- なにもないところをクリック、または m キーでメニュー
+
+### Credits
+
+作成にあたって以下のテンプレートとシェルを使用させていただきました。この場を借りてお礼申し上げます。
+
+- YAYA 辞書テンプレート「SimpleYAYA テンプレート」
 - フリーシェル「SHLEEP」
+
+### ダウンロード  
+[![omoideno.nar](https://img.shields.io/github/v/release/apxxxxxxe/Youto?color=%23d196bb&amp;label=omoideno.nar&amp;logo=github)](https://github.com/apxxxxxxe/Youto/releases/latest/download/omoideno.nar)   
+※narファイルは最新でないことがあります。インストール後ネットワーク更新を行ってください。  
 </pre>
 			</aside>
 		</article>
