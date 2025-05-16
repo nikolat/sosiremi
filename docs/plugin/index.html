@@ -56,78 +56,6 @@
 			<aside class="readme" aria-label="UkagakaGhostMessenger">
 				<h4>readme</h4>
 <pre>
-# UkagakaGhostMessenger
-伺かベースウェア向けプラグインです。
-メッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。
-
-制作者: ろすえん(lost_nd_xxx)
-連絡先: http://lnx.flop.jp/
-
-------------------------
-## 取扱説明書等
-* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け
-* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け
-* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification
-
-------------------------
-## メッセージ履歴について
-このプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。
-各データの取り扱いは、送信元ゴーストの規約に従ってください。
-
-------------------------
-## ファイアウォールの表示が出た場合
-UGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。
-ugm_server.exeはSSPと情報をやりとりできるようにするためのアプリです。
-深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。
-許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。
-ugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。
-
-また、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。
-ugm_server.exeの起動によるもので、仕様です。
-
-------------------------
-## ローカルホストのポート番号の変更について
-「ugm_config.txt」の数値を書き換えることで、UGMの使用するポート番号を変更できます。
-※プラグインを再起動するまで設定は反映されません。
-プラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。
-
-以下の場合などにご活用ください。
-* UGM以外のツールを使おうとしてUGMのページが開かれてしまった
-* UGMのページを開こうとして関係ないツールのページが開かれてしまった
-
-------------------------
-## 使用モジュール等のライセンス
-* akari http://le.silk.to/akari.php
-&gt; このプログラムを使用したいかなる不利益も作者は責任を負いません。
-&gt; 伺かのサブシステムとして使う場合に限り、無償で無制限に使用できます。
-
-* うかてん https://github.com/nikolat/ukaten
-  * main.azrを当方による改変ののちに組み込んでいます。
-&gt; 上記以外のテキストファイル、辞書ファイルの類いは、
-&gt; すべてpublic domainとして自由に利用できるものとします。
-
-* YAYA as SAORI https://github.com/YAYA-shiori/yaya-as-saori
-  * Unlicense license https://github.com/YAYA-shiori/yaya-as-saori/blob/main/LICENSE
-
-* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle
-  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE
-
-* fuwaimg https://do.gt-gt.org/product/fuwaimg/
-  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html
-
-* Material Symbols &amp; Icons https://fonts.google.com/icons
-  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
-
-* jsstp https://github.com/ukatech/jsstp-lib
-  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE
-
-* go https://go.dev/
-  * 三条項BSDライセンス https://go.dev/LICENSE
-
-### うめちゃんのイラスト
-ユスラさんがにじジャーニーで生成されたものを加工して使っています。
-* にじジャーニー https://nijijourney.com/ja/
-  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service
 </pre>
 			</aside>
 		</article>
@@ -150,6 +78,62 @@ ugm_server.exeの起動によるもので、仕様です。
 			<aside class="readme" aria-label="wallet_of_unyu">
 				<h4>readme</h4>
 <pre>
+========================================================================
+【ソフト名称】Wallet of Unyu
+【 制 作 者 】Don
+【 動作環境 】Windows11 23H2 + SSP/2.6.61
+【 タ イ プ 】「伺か」用プラグイン
+【 取扱種別 】フリーウェア
+【 配布月日 】2023-03-26
+【 配 布 元 】https://nikolat.github.io/
+【  備  考  】後述
+========================================================================
+■概要
+
+  UNYUとは、伺かの世界で広く流通している暗号通貨です。
+  昔はゆうかもなか1箱10個入りが1,800UNYUで買えたと伝えられています。
+  これはUNYUを自由に出し入れできるお財布プラグインです。
+
+■一般的な暗号通貨との違い
+
+- 暗号化されていません。取引履歴はセーブファイルに平文で記録されています。
+- 誰でも自由に発行できます。5000兆UNYU欲しい。
+- もちろん日本円その他通貨と交換はできません。
+
+■使用方法
+
+- ウォレットに入金する
+  \![raiseplugin,c58b6320-caf8-11ed-a901-0800200c9a66,OnWalletOfUnyu,set,10000,バイト代だよ！ご苦労さま！]
+  [response]
+  ID: OnWalletOfUnyu
+  Reference0: set
+  Reference1: 10000
+
+- ウォレットから出金する
+  \![raiseplugin,c58b6320-caf8-11ed-a901-0800200c9a66,OnWalletOfUnyu,set,-1800,ゆうかもなか一丁！まいどあり！]
+  [response]
+  ID: OnWalletOfUnyu
+  Reference0: set
+  Reference1: 8200
+
+- 現在の所持金を確認する
+  \![raiseplugin,c58b6320-caf8-11ed-a901-0800200c9a66,OnWalletOfUnyu,get]
+  [response]
+  ID: OnWalletOfUnyu
+  Reference0: get
+  Reference1: 8200
+
+- メニューを開く
+  \![raiseplugin,c58b6320-caf8-11ed-a901-0800200c9a66,OnWalletOfUnyu,menu]
+  [response]
+  ID: OnWalletOfUnyu
+  Reference0: menu
+  Reference1: 8200
+
+■更新履歴
+
+2023-03-26  Ver1.0  ・新規作成
+2024-03-09  Ver1.1  ・取引毎にセーブファイルを保存(SSPクラッシュ時の保険)
 </pre>
 			</aside>
 		</article>
@@ -218,49 +202,6 @@ SSPでのみ動作確認
 			<aside class="readme" aria-label="ukaten">
 				<h4>readme</h4>
 <pre>
-========================================================================
-【ソフト名称】うかてん
-【 制 作 者 】Don
-【 動作環境 】Windows11 22H2 + SSP/2.6.58
-【 タ イ プ 】「伺か」用プラグイン
-【 取扱種別 】フリーウェア
-【 配布月日 】2021/03/02
-【 配 布 元 】https://nikolat.github.io/
-【  備  考  】後述
-========================================================================
-■概要
-
-  これは「伺か」で動作する天気予報プラグインです。
-  単体で動作させることはできません。
-  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを
-  別途ご用意ください。
-
-  ばぐとら研究所
-    http://ssp.shillest.net/
-
-  天気予報情報は気象庁のWebサイト(非公式API)から取得しています。
-
-■ライセンス
-
-  以下のモジュールを使用させて頂いております。
-  ありがとうございます。
-
-  灯(akari.dll)
-    夜天燈火
-      http://le.silk.to/
-
-  上記以外のテキストファイル、辞書ファイルの類いは、
-  すべてpublic domainとして自由に利用できるものとします。
-
-■更新履歴
-
-2021/03/02  Ver0.1  ・新規作成
-2021/03/03  Ver0.2  ・ゴーストへのイベント通知を追加
-                      (「ついっとゅう」のイベント通知と互換)
-2021/03/05  Ver0.3  ・ゴーストから利用できるイベント関数群を追加
-                     (OnGetPluginVersion,OnGetSavedArea,OnGetWeatherInfo)
-2021/11/12  Ver1.0  ・GitHubに移行
-2024/01/29  Ver1.1  ・気象庁非公式APIの一部を正しくパースできていない不具合を修正
 </pre>
 			</aside>
 		</article>
@@ -402,33 +343,6 @@ SSPでのみ動作確認
 			<aside class="readme" aria-label="ukagakaPlugin_CeVIO-Talker">
 				<h4>readme</h4>
 <pre>
-# CeVIO-Talker
-このプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。
-[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)
-
-2023/04/06 リメイクしました。
-[GitHub - ambergon/ukagakaPlugin_CeVIO-TalkerV2](https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2)
-
-
-
-## お借りしたもの
-yaya.dll
-[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
-
-proxy_ex.dll
-[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)
-
-
-## Other
-このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。
-
-
-## Author
-[ambergon](https://twitter.com/Sc_lFoxGon)
-
-
-
-
 </pre>
 			</aside>
 		</article>
@@ -473,6 +387,58 @@ proxy_ex.dll
 			<aside class="readme" aria-label="sudohaikuyu">
 				<h4>readme</h4>
 <pre>
+========================================================================
+【ソフト名称】すどはいくゅう
+【 制 作 者 】Don
+【 動作環境 】Windows11 22H2 + SSP/2.6.28
+【 タ イ プ 】「伺か」用プラグイン
+【 取扱種別 】フリーウェア
+【 配布月日 】2021-11-29
+【 配 布 元 】https://nikolat.github.io/
+【  備  考  】後述
+========================================================================
+■概要
+
+  これは「伺か」で動作するスドハイククライアント機能拡張プラグインです。
+  単体で動作させることはできません。
+  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを
+  別途ご用意ください。
+
+  Sudo Haiku
+    https://h.sudo.ne.jp/
+
+  ばぐとら研究所
+    http://ssp.shillest.net/
+
+■使用方法
+
+  設定画面にて以下のパラメータを設定してください
+
+  TL get interval     : タイムラインを取得し
+                        タスクトレイバルーン通知をする間隔（分）
+
+  上部アイコンをクリックすることで以下の動作をします。
+  左から順番に記述します。
+
+  refresh       : 全ての取得情報を更新
+  home          : メインとなるタイムラインを表示
+  settings      : 設定画面表示
+  cancel        : バルーンを閉じる
+
+  タイムライン表示中のアイコンについて
+
+  ・鉛筆アイコンクリックで
+    クリップボードにテキストをコピーします。
+
+■更新履歴
+
+2021-11-29  Ver0.1  ・新規作成
+2022-03-02  Ver0.2  ・日本語以外の環境で正常に起動できない不具合を修正
+                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正
+2022-03-02  Ver0.3  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした
+                    ・非同期処理の不安定化によるエラーの抑制
+2023-01-20  Ver0.4  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止
+                    ・新バージョンの更新通知時メニューからネットワーク更新を追加
 </pre>
 			</aside>
 		</article>
