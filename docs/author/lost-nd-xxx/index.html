@@ -106,6 +106,78 @@ https://docs.midjourney.com/docs/terms-of-service
 			<aside class="readme" aria-label="UkagakaGhostMessenger">
 				<h4>readme</h4>
 <pre>
+# UkagakaGhostMessenger
+伺かベースウェア向けプラグインです。
+メッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。
+
+制作者: ろすえん(lost_nd_xxx)
+連絡先: http://lnx.flop.jp/
+
+------------------------
+## 取扱説明書等
+* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け
+* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け
+* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification
+
+------------------------
+## メッセージ履歴について
+このプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。
+各データの取り扱いは、送信元ゴーストの規約に従ってください。
+
+------------------------
+## ファイアウォールの表示が出た場合
+UGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。
+ugm_server.exeはSSPと情報をやりとりできるようにするためのアプリです。
+深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。
+許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。
+ugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。
+
+また、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。
+ugm_server.exeの起動によるもので、仕様です。
+
+------------------------
+## ローカルホストのポート番号の変更について
+「ugm_config.txt」の数値を書き換えることで、UGMの使用するポート番号を変更できます。
+※プラグインを再起動するまで設定は反映されません。
+プラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。
+
+以下の場合などにご活用ください。
+* UGM以外のツールを使おうとしてUGMのページが開かれてしまった
+* UGMのページを開こうとして関係ないツールのページが開かれてしまった
+
+------------------------
+## 使用モジュール等のライセンス
+* akari http://le.silk.to/akari.php
+&gt; このプログラムを使用したいかなる不利益も作者は責任を負いません。
+&gt; 伺かのサブシステムとして使う場合に限り、無償で無制限に使用できます。
+
+* うかてん https://github.com/nikolat/ukaten
+  * main.azrを当方による改変ののちに組み込んでいます。
+&gt; 上記以外のテキストファイル、辞書ファイルの類いは、
+&gt; すべてpublic domainとして自由に利用できるものとします。
+
+* YAYA as SAORI https://github.com/YAYA-shiori/yaya-as-saori
+  * Unlicense license https://github.com/YAYA-shiori/yaya-as-saori/blob/main/LICENSE
+
+* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle
+  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE
+
+* fuwaimg https://do.gt-gt.org/product/fuwaimg/
+  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html
+
+* Material Symbols &amp; Icons https://fonts.google.com/icons
+  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
+
+* jsstp https://github.com/ukatech/jsstp-lib
+  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE
+
+* go https://go.dev/
+  * 三条項BSDライセンス https://go.dev/LICENSE
+
+### うめちゃんのイラスト
+ユスラさんがにじジャーニーで生成されたものを加工して使っています。
+* にじジャーニー https://nijijourney.com/ja/
+  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service
 </pre>
 			</aside>
 		</article>
@@ -128,6 +200,36 @@ https://docs.midjourney.com/docs/terms-of-service
 			<aside class="readme" aria-label="kumasan_with_deathplay">
 				<h4>readme</h4>
 <pre>
+# 「くまさん・うぃず・ですぷれ」
+![プレビュー](preview.gif &#34;プレビュー&#34;)
+
+## これなに
+* 伺か向けに設定済みのフリーシェル(画像素材)です
+* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します
+* 伺か関連作品以外への利用も可能です
+* 動作デモ用ゴーストもあります
+
+## 利用条件
+動作デモ用ゴースト以外は、下記の条件でご利用いただけます。
+* 改変可
+* 再配布可
+* 改変後の再配布可
+* 伺か関連作品以外への利用可
+* 著作者表示不要
+* 使用報告不要
+
+## ダウンロード
+* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)
+  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。
+* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)
+* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)
+* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)
+* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)
+  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。
+
+## 連絡先
+* 作者：lost_nd_xxx（ろすえん）
+* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)
 </pre>
 			</aside>
 		</article>
@@ -271,181 +373,38 @@ https://docs.midjourney.com/docs/terms-of-service
 			<aside class="readme" aria-label="LilyNovelPlayer">
 				<h4>readme</h4>
 <pre>
-────────────────────────
-●「Lily Novel Player」について
-────────────────────────
-リリー・ノベル・プレイヤー……略して「LNP」！
-これは、ノベルゲームを作れる枠組み的な
-ゴースト＆シェル＆バルーンです。
-LilyNovelPlayer製作委員会がお送りします。
+# Lily Novel Player
+![screen shots](lnp_screenshot.gif)
 
-────────────────────────
-◎ゴーストの使用方法
-────────────────────────
-・シェルを切り替えると、
-ゲームタイトルが切り替わります。
-・その他、詳しくはmasterシェルのreadme.txtを
-お読みください。
 
-────────────────────────
-◎使用素材とそのライセンスまとめ
-────────────────────────
-○里々
-ghost/master/satori.dll
-以上のファイルは里々/整備班カスタムです。
+## 概要
+Lily Novel Player(リリー・ノベル・プレイヤー、略して「LNP」)は、ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーンです。
 
-里々/整備班カスタム
-https://github.com/ukatech/satoriya-shiori
+作者: [ろすえん](https://lnx.flop.jp/) &amp; [おもちよいち](https://sites.google.com/view/omochi-yoichi/)
 
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇ファイルセット内画像のフォント
-thumbnail.png
-ghost/master/
-　assets/preset/
-　　clickwait.png
-　　gallery_locked.png
-　　menu_backlog.png
-　　menu_config.png
-　　menu_gallery.png
-　　menu_load.png
-　　menu_save.png
-　　nowloading.png
-　　ownerdraw_sidebar.png
-　　resumewindow.png
-　scenarios/master/resources/
-　　Number001.png
-　　Number002.png
-　　Number003.png
-　　Number004.png
-　　Number005.png
-　　Number006.png
-　　Number007.png
-　　Number008.png
-　　Number009.png
-　　Number010.png
-　　bg_desktop.png
-　　nowloading.png
-shell/master/
-　thumbnail.png
-　title1.png
-　title2.png
-LilyNovelPlayerBallon/
-　balloonc0.png
-　balloons2.png
-　balloons3.png
-　cancel_down.png
-　cancel_up.png
-　ok_down.png
-　ok_up.png
-　online.png
-test_supplement/
-　shell/LilyNovelPlayer_test/
-　　title1.png
-　LilyNovelPlayerBallon_test/
-　　online.png
-　　balloonc0.png
-　　balloons2.png
-　　balloons3.png
-　　cancel_down.png
-　　cancel_up.png
-　　ok_down.png
-　　ok_up.png
-これらの文字のフォントについて列挙します。
 
-・Halimun
-https://creatypestudio.co/halimun/
-フォントファイルを再配布しない場合、
-クレジット表記不要とされています。
+## 動作環境
+[SSP](https://ssp.shillest.net/)(またはSSPと互換性のあるベースウェア)で動作します。
 
-・MS UI Gothic
-https://learn.microsoft.com/en-us/typography/font-list/ms-gothic#licensing-and-redistribution-info
-フォントファイルを再配布しない場合、
-クレジット表記不要とされています。
 
-・Noto Serif JP
-https://fonts.google.com/noto/specimen/Noto+Serif+JP?query=Noto+Serif+JP
-※Open Font License
+## 使い方
+* シェルを切り替えると、ゲームタイトルが切り替わります。
 
-・Noto Sans JP
-https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=Noto+Sans+JP
-※Open Font License
 
-・Murecho
-https://fonts.google.com/specimen/Murecho
-※Open Font License
+## ダウンロード
+[最新のファイルはこちらからDLできます。](https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/latest/download/LilyNovelPlayer.nar)
 
-※Open Font Licenseのフォントについて
-フォントファイルを再配布しない場合、
-クレジット表記不要とされています。
 
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇configのサンプルボイス
-ghost/master/assets/preset/
-　sample_voice.wav
-以上のファイルはずんだもんの音声ライブラリと、
-VOICEVOXを用いて生成した音声です。
+## 更新履歴
+* [大まかな更新履歴](https://github.com/lost-nd-xxx/LilyNovelPlayer/wiki/rough_change_log)
+* [詳細な更新履歴](https://github.com/lost-nd-xxx/LilyNovelPlayer/commits/main/)
 
-・商用利用　可
-・クレジット表記　必要 (VOICEVOX:ずんだもん)
 
-利用規約ページ
-https://zunko.jp/con_ongen_kiyaku.html
+## web版マニュアル
+* [シナリオ制作の手引き](https://lost-nd-xxx.github.io/LilyNovelPlayer/hint.html)
+* [独自タグ一覧](https://lost-nd-xxx.github.io/LilyNovelPlayer/tags.html)
 
-VOICEVOX
-https://voicevox.hiroshiba.jp/
 
-東北ずん子・ずんだもんPJ 公式サイト
-https://zunko.jp/
-
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇masterシナリオのBGM
-ghost/master/assets/preset/
-　osorawo_osampo.mp3
-　tanoshii_ukagaka.mp3
-以上のファイルはCREEVOで生成した楽曲です。
-ダウンミックス・空白カット等は、
-LilyNovelPlayer製作委員会が行いました。
-
-・商用利用　可
-・クレジット表記　不要
-※歌声の入っていないデータの場合
-
-&gt; CREEVOで生成されたメロディーや伴奏は、
-&gt; パブリックドメイン（著作権なし）のデータとして
-&gt; 扱われます。
-https://creevo-music.com/usage#copyright
-
-利用規約ページ
-https://creevo-music.com/terms-and-conditions/
-
-CREEVO
-https://creevo-music.com/
-
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇ボイス風効果音・configのサンプル効果音
-ghost/master/assets/
-　preset/
-　　sample_se.wav
-　preset_chara/voice/
-　　chara_voice1.wav
-　　chara_voice2.wav
-　　chara_voice_douji.wav
-以上のファイルはChipToneにて生成した音声です。
-
-・商用利用　可
-・クレジット表記　不要
-
-ChipToneを使用して作成されたサウンドは、
-CC0ライセンスでライセンスされています。
-https://creativecommons.org/publicdomain/zero/1.0/deed.ja
-
-ChipTone
-https://sfbgames.itch.io/chiptone
-
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇上記に該当しないゴースト・シェル・バルーン画像
-LilyNovelPlayer製作委員会の作ったものです。
-※追加シナリオや追加アセットなどは該当しません。
 </pre>
 			</aside>
 		</article>
@@ -468,6 +427,20 @@ LilyNovelPlayer製作委員会の作ったものです。
 			<aside class="readme" aria-label="LilyNovelPlayer_Prototype_Scenarios">
 				<h4>readme</h4>
 <pre>
+# りりぷれ ぷろとたいぷ
+![りりぷれ ぷろとたいぷ スクリーンショット](ss_lnp_proto.png &#34;りりぷれ ぷろとたいぷ スクリーンショット&#34;)
+
+[「Lily Novel Player」](https://github.com/lost-nd-xxx/LilyNovelPlayer/wiki)用サプリメントです。&lt;br&gt;
+LNPへインストールすると、LNP開発中に使われていたプロトタイプシナリオをお楽しみいただけます。&lt;br&gt;
+このサプリメントに含まれる`.txt`形式のファイルは、著作表記なしで改変再配布可能とします。&lt;br&gt;
+（※ただし、`profile`フォルダ以下を含まない）
+
+## ダウンロード
+* [lostndxxx_prototype.nar](https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/latest/download/lostndxxx_prototype.nar)
+
+## 何かありましたら
+* 責任者：ろすえん(lost_nd_xxx)
+* 連絡先：https://lnx.flop.jp/
 </pre>
 			</aside>
 		</article>

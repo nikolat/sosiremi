@@ -908,6 +908,88 @@ https://github.com/tukinami/incubation_of_animas
 			<aside class="readme" aria-label="jong-rinrin">
 				<h4>readme</h4>
 <pre>
+========================================================================
+【ソフト名称】雀-リンリン
+【 制 作 者 】Don
+【 動作環境 】Windows11 22H2 + SSP/2.6.19
+【 タ イ プ 】「伺か」用ゴースト
+【 取扱種別 】フリーウェア
+【 配布月日 】2014/01/18
+【 配 布 元 】https://nikolat.github.io/
+【  備  考  】後述
+========================================================================
+■概要
+
+  これは「伺か」で動作するゴーストです。
+  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの
+  イベント通知に対応したプレイヤーゴーストです。
+
+  ゴーストの使い方 - SSP
+    http://keshiki.nobody.jp/
+
+  ※音が出ます。「m」キーでミュート。
+
+■通信仕様
+
+  UKADOC Project SHIORI Eventリスト（外部）
+    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong
+
+  UMP(Universal Mahjong Protocol)
+    https://osdn.net/projects/openmj/wiki/UMP
+
+■ライセンス
+
+□SHIORIとして「YAYA」を使用しています。
+
+    yaya-shiori
+      https://github.com/YAYA-shiori/yaya-shiori
+
+□SAORIとして「MahjongUtil.dll」を使用しています。
+
+    すくりや
+      https://nikolat.github.io/
+
+□SAORIとして「AquesTalkSaori」を使用しています。
+
+    浮子屋本舗
+      http://ukiya.sakura.ne.jp/
+
+□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。
+
+-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-
+・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを
+  使用しています。
+・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、
+  株式会社アクエスト の著作物です。
+-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-
+
+□SAORIとして「TexasHoldemUtil.dll」を使用しています。
+
+    いろいろ置いておく場所
+      https://tatakinov.github.io/
+
+□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を
+  使用しています。
+
+    無料素材倶楽部
+      http://sozai.7gates.net/docs/mahjong01/
+
+□フリーシェル「p007（耳尻尾bb）」を使用しています。
+
+    猫ボトル/catbottle
+      http://catbottle.sakura.ne.jp/
+
+□上記以外のテキストファイル、辞書ファイルの類いについて
+
+  著作者人格権はDonに帰属します。
+
+    すくりや
+      https://nikolat.github.io/
+
+  ライセンスは「CC0 1.0 Universal」です。
+
+    Creative Commons - CC0 1.0 Universal
+      http://creativecommons.org/publicdomain/zero/1.0/
 </pre>
 			</aside>
 		</article>
@@ -1209,6 +1291,78 @@ https://docs.midjourney.com/docs/terms-of-service
 			<aside class="readme" aria-label="UkagakaGhostMessenger">
 				<h4>readme</h4>
 <pre>
+# UkagakaGhostMessenger
+伺かベースウェア向けプラグインです。
+メッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。
+
+制作者: ろすえん(lost_nd_xxx)
+連絡先: http://lnx.flop.jp/
+
+------------------------
+## 取扱説明書等
+* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け
+* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け
+* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification
+
+------------------------
+## メッセージ履歴について
+このプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。
+各データの取り扱いは、送信元ゴーストの規約に従ってください。
+
+------------------------
+## ファイアウォールの表示が出た場合
+UGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。
+ugm_server.exeはSSPと情報をやりとりできるようにするためのアプリです。
+深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。
+許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。
+ugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。
+
+また、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。
+ugm_server.exeの起動によるもので、仕様です。
+
+------------------------
+## ローカルホストのポート番号の変更について
+「ugm_config.txt」の数値を書き換えることで、UGMの使用するポート番号を変更できます。
+※プラグインを再起動するまで設定は反映されません。
+プラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。
+
+以下の場合などにご活用ください。
+* UGM以外のツールを使おうとしてUGMのページが開かれてしまった
+* UGMのページを開こうとして関係ないツールのページが開かれてしまった
+
+------------------------
+## 使用モジュール等のライセンス
+* akari http://le.silk.to/akari.php
+&gt; このプログラムを使用したいかなる不利益も作者は責任を負いません。
+&gt; 伺かのサブシステムとして使う場合に限り、無償で無制限に使用できます。
+
+* うかてん https://github.com/nikolat/ukaten
+  * main.azrを当方による改変ののちに組み込んでいます。
+&gt; 上記以外のテキストファイル、辞書ファイルの類いは、
+&gt; すべてpublic domainとして自由に利用できるものとします。
+
+* YAYA as SAORI https://github.com/YAYA-shiori/yaya-as-saori
+  * Unlicense license https://github.com/YAYA-shiori/yaya-as-saori/blob/main/LICENSE
+
+* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle
+  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE
+
+* fuwaimg https://do.gt-gt.org/product/fuwaimg/
+  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html
+
+* Material Symbols &amp; Icons https://fonts.google.com/icons
+  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
+
+* jsstp https://github.com/ukatech/jsstp-lib
+  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE
+
+* go https://go.dev/
+  * 三条項BSDライセンス https://go.dev/LICENSE
+
+### うめちゃんのイラスト
+ユスラさんがにじジャーニーで生成されたものを加工して使っています。
+* にじジャーニー https://nijijourney.com/ja/
+  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service
 </pre>
 			</aside>
 		</article>
@@ -1434,6 +1588,36 @@ ghost/master/elin
 			<aside class="readme" aria-label="kumasan_with_deathplay">
 				<h4>readme</h4>
 <pre>
+# 「くまさん・うぃず・ですぷれ」
+![プレビュー](preview.gif &#34;プレビュー&#34;)
+
+## これなに
+* 伺か向けに設定済みのフリーシェル(画像素材)です
+* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します
+* 伺か関連作品以外への利用も可能です
+* 動作デモ用ゴーストもあります
+
+## 利用条件
+動作デモ用ゴースト以外は、下記の条件でご利用いただけます。
+* 改変可
+* 再配布可
+* 改変後の再配布可
+* 伺か関連作品以外への利用可
+* 著作者表示不要
+* 使用報告不要
+
+## ダウンロード
+* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)
+  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。
+* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)
+* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)
+* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)
+* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)
+  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。
+
+## 連絡先
+* 作者：lost_nd_xxx（ろすえん）
+* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)
 </pre>
 			</aside>
 		</article>
@@ -1765,6 +1949,76 @@ A、だって辰歳ちゃし…さすがに恥ずいのちゃ。</pre>
 			<aside class="readme" aria-label="Saigai_no_ikimono_chan">
 				<h4>readme</h4>
 <pre>
+フリーシェル：「海で一番強い生き物」ちゃん
+
+　PSD同梱
+　PSDはすきにしてください。同梱したPSDは使用や削除や配布など諸々に一切の制限はありません。
+　PSDはClipStudioとPhotoshopで動作を確認しています。
+
+
+【コンセプト】
+　　
+　凍り付いた海っぽい（？？？）
+　いか　たこ　かに　えび　うみうし　力ある邪悪　大海の覇権種族　から任意のn個の要素
+　Saigaiは塞外（万里の長城より北の地域）の意味　災害とかでもいいよ
+　ぷにっとした　低めの頭身　ぷにうかの参加作品
+
+
+
+【surface関連】
+
+  **0 素の口
+  **1 舌しまい忘れ
+  **2 冷笑
+  **3 ニコ
+  **4 ω
+  **5 口開け
+
+  *0* 素の目の向き
+  *1* こっちみる
+  *2* あっちみる
+  *3* 半目（素の目の向き）
+  *4* 半目（こっちみる）
+  *5* 半目（あっちみる）
+  *6* 目閉じ
+
+
+【再配布・改変等】
+
+　本作品の再配布は基本的にＯＫ
+　また、改変後の配布は改変者の名前で行ってください。
+　改変後のものに関して製作者は関知しません。
+　改変後の配布にあたってはreadmeも適当に書き換えてください。（シェルとして使う分には書き換えなくともよいと思われます）
+
+　本作品（「海で一番強い生き物」ちゃん）に限って実験的に創作再配布改変の規約を緩くしてみる意図があります。
+　それ以外の創作物には一切言及していないことに留意してください。
+　別のゴーストや別製作者さんのイラストなどにこの規約を持ち出さないでください。
+
+【二次創作等】
+　　
+　一切の制限はありません。
+
+
+
+【スペシャルサンクス】
+
+　うかどんの各位
+
+
+【GitHubのダウンロードページはこちら】
+
+　https://github.com/Shimofumi/Saigai_no_ikimono_chan/releases
+
+　一番上のバージョンのAssetsの欄から「Saigai_no_ikimono_chan.zip」をダウンロードして導入してください。
+
+
+【製作者】（同一人物）
+　
+　しもふみ　／　下田文雄（しもだ ふみお）
+　
+
+  https://ukadon.shillest.net/@Shimofumi
+	twitter：@Shimofumi
 </pre>
 			</aside>
 		</article>
@@ -1787,181 +2041,38 @@ A、だって辰歳ちゃし…さすがに恥ずいのちゃ。</pre>
 			<aside class="readme" aria-label="LilyNovelPlayer">
 				<h4>readme</h4>
 <pre>
-────────────────────────
-●「Lily Novel Player」について
-────────────────────────
-リリー・ノベル・プレイヤー……略して「LNP」！
-これは、ノベルゲームを作れる枠組み的な
-ゴースト＆シェル＆バルーンです。
-LilyNovelPlayer製作委員会がお送りします。
+# Lily Novel Player
+![screen shots](lnp_screenshot.gif)
 
-────────────────────────
-◎ゴーストの使用方法
-────────────────────────
-・シェルを切り替えると、
-ゲームタイトルが切り替わります。
-・その他、詳しくはmasterシェルのreadme.txtを
-お読みください。
 
-────────────────────────
-◎使用素材とそのライセンスまとめ
-────────────────────────
-○里々
-ghost/master/satori.dll
-以上のファイルは里々/整備班カスタムです。
+## 概要
+Lily Novel Player(リリー・ノベル・プレイヤー、略して「LNP」)は、ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーンです。
 
-里々/整備班カスタム
-https://github.com/ukatech/satoriya-shiori
+作者: [ろすえん](https://lnx.flop.jp/) &amp; [おもちよいち](https://sites.google.com/view/omochi-yoichi/)
 
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇ファイルセット内画像のフォント
-thumbnail.png
-ghost/master/
-　assets/preset/
-　　clickwait.png
-　　gallery_locked.png
-　　menu_backlog.png
-　　menu_config.png
-　　menu_gallery.png
-　　menu_load.png
-　　menu_save.png
-　　nowloading.png
-　　ownerdraw_sidebar.png
-　　resumewindow.png
-　scenarios/master/resources/
-　　Number001.png
-　　Number002.png
-　　Number003.png
-　　Number004.png
-　　Number005.png
-　　Number006.png
-　　Number007.png
-　　Number008.png
-　　Number009.png
-　　Number010.png
-　　bg_desktop.png
-　　nowloading.png
-shell/master/
-　thumbnail.png
-　title1.png
-　title2.png
-LilyNovelPlayerBallon/
-　balloonc0.png
-　balloons2.png
-　balloons3.png
-　cancel_down.png
-　cancel_up.png
-　ok_down.png
-　ok_up.png
-　online.png
-test_supplement/
-　shell/LilyNovelPlayer_test/
-　　title1.png
-　LilyNovelPlayerBallon_test/
-　　online.png
-　　balloonc0.png
-　　balloons2.png
-　　balloons3.png
-　　cancel_down.png
-　　cancel_up.png
-　　ok_down.png
-　　ok_up.png
-これらの文字のフォントについて列挙します。
 
-・Halimun
-https://creatypestudio.co/halimun/
-フォントファイルを再配布しない場合、
-クレジット表記不要とされています。
+## 動作環境
+[SSP](https://ssp.shillest.net/)(またはSSPと互換性のあるベースウェア)で動作します。
 
-・MS UI Gothic
-https://learn.microsoft.com/en-us/typography/font-list/ms-gothic#licensing-and-redistribution-info
-フォントファイルを再配布しない場合、
-クレジット表記不要とされています。
 
-・Noto Serif JP
-https://fonts.google.com/noto/specimen/Noto+Serif+JP?query=Noto+Serif+JP
-※Open Font License
+## 使い方
+* シェルを切り替えると、ゲームタイトルが切り替わります。
 
-・Noto Sans JP
-https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=Noto+Sans+JP
-※Open Font License
 
-・Murecho
-https://fonts.google.com/specimen/Murecho
-※Open Font License
+## ダウンロード
+[最新のファイルはこちらからDLできます。](https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/latest/download/LilyNovelPlayer.nar)
 
-※Open Font Licenseのフォントについて
-フォントファイルを再配布しない場合、
-クレジット表記不要とされています。
 
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇configのサンプルボイス
-ghost/master/assets/preset/
-　sample_voice.wav
-以上のファイルはずんだもんの音声ライブラリと、
-VOICEVOXを用いて生成した音声です。
+## 更新履歴
+* [大まかな更新履歴](https://github.com/lost-nd-xxx/LilyNovelPlayer/wiki/rough_change_log)
+* [詳細な更新履歴](https://github.com/lost-nd-xxx/LilyNovelPlayer/commits/main/)
 
-・商用利用　可
-・クレジット表記　必要 (VOICEVOX:ずんだもん)
 
-利用規約ページ
-https://zunko.jp/con_ongen_kiyaku.html
+## web版マニュアル
+* [シナリオ制作の手引き](https://lost-nd-xxx.github.io/LilyNovelPlayer/hint.html)
+* [独自タグ一覧](https://lost-nd-xxx.github.io/LilyNovelPlayer/tags.html)
 
-VOICEVOX
-https://voicevox.hiroshiba.jp/
 
-東北ずん子・ずんだもんPJ 公式サイト
-https://zunko.jp/
-
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇masterシナリオのBGM
-ghost/master/assets/preset/
-　osorawo_osampo.mp3
-　tanoshii_ukagaka.mp3
-以上のファイルはCREEVOで生成した楽曲です。
-ダウンミックス・空白カット等は、
-LilyNovelPlayer製作委員会が行いました。
-
-・商用利用　可
-・クレジット表記　不要
-※歌声の入っていないデータの場合
-
-&gt; CREEVOで生成されたメロディーや伴奏は、
-&gt; パブリックドメイン（著作権なし）のデータとして
-&gt; 扱われます。
-https://creevo-music.com/usage#copyright
-
-利用規約ページ
-https://creevo-music.com/terms-and-conditions/
-
-CREEVO
-https://creevo-music.com/
-
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇ボイス風効果音・configのサンプル効果音
-ghost/master/assets/
-　preset/
-　　sample_se.wav
-　preset_chara/voice/
-　　chara_voice1.wav
-　　chara_voice2.wav
-　　chara_voice_douji.wav
-以上のファイルはChipToneにて生成した音声です。
-
-・商用利用　可
-・クレジット表記　不要
-
-ChipToneを使用して作成されたサウンドは、
-CC0ライセンスでライセンスされています。
-https://creativecommons.org/publicdomain/zero/1.0/deed.ja
-
-ChipTone
-https://sfbgames.itch.io/chiptone
-
-－－－－－－－－－－－－－－－－－－－－－－－－
-〇上記に該当しないゴースト・シェル・バルーン画像
-LilyNovelPlayer製作委員会の作ったものです。
-※追加シナリオや追加アセットなどは該当しません。
 </pre>
 			</aside>
 		</article>
@@ -2017,6 +2128,20 @@ https://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md
 			<aside class="readme" aria-label="LilyNovelPlayer_Prototype_Scenarios">
 				<h4>readme</h4>
 <pre>
+# りりぷれ ぷろとたいぷ
+![りりぷれ ぷろとたいぷ スクリーンショット](ss_lnp_proto.png &#34;りりぷれ ぷろとたいぷ スクリーンショット&#34;)
+
+[「Lily Novel Player」](https://github.com/lost-nd-xxx/LilyNovelPlayer/wiki)用サプリメントです。&lt;br&gt;
+LNPへインストールすると、LNP開発中に使われていたプロトタイプシナリオをお楽しみいただけます。&lt;br&gt;
+このサプリメントに含まれる`.txt`形式のファイルは、著作表記なしで改変再配布可能とします。&lt;br&gt;
+（※ただし、`profile`フォルダ以下を含まない）
+
+## ダウンロード
+* [lostndxxx_prototype.nar](https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/latest/download/lostndxxx_prototype.nar)
+
+## 何かありましたら
+* 責任者：ろすえん(lost_nd_xxx)
+* 連絡先：https://lnx.flop.jp/
 </pre>
 			</aside>
 		</article>
@@ -2461,6 +2586,78 @@ ${user}&lt;|end|&gt;
 			<aside class="readme" aria-label="lady-goldfish-bowl">
 				<h4>readme</h4>
 <pre>
+# 金魚鉢令嬢
+
+![シェル「金魚鉢令嬢」のプレビュー画像。金魚鉢の頭を持った女性の立ち絵の紹介。](doc/pr.png)
+
+## これは何？
+
+伺か用フリーシェル(立ち絵)「金魚鉢令嬢」の公開レポジトリです。
+
+金魚が入った金魚鉢の頭を持つ女性のフリーシェルです。SSP専用です。
+簡単なオーナードロメニューがついています。
+通常版とアレンジ版があります。
+
+シェルやpsdファイルのダウンロードは
+[`Releasesの最新版`](https://github.com/tukinami/lady-goldfish-bowl/releases/latest)からどうぞ。
+
+## ダウンロードできる内容は？
+
+通常は`lady-goldfish-bowl.nar`か`lady-goldfish-bowl_arranged.nar`、
+どちらかをダウンロードしてください。
+
+### lady-goldfish-bowl.nar
+
+フリーシェル本体(通常版)です。
+名前は「金魚鉢令嬢」で、縦543pxです。
+
+### lady-goldfish-bowl\_arranged.nar
+
+フリーシェル本体(アレンジ版)です。
+名前は「金魚鉢令嬢:深窓」で、縦543pxです。
+
+### lady-goldfish-bowl-psd.zip
+
+シェル改変のために用意したpsdファイルです。シェル本体と金魚の切り抜きが入っています。
+
+## シェルアニメーションのプレビュー
+
+泳いでいるアニメーションパターン。
+
+![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢の中で金魚が泳いでいる。](doc/preview_animation_normal.gif)
+
+飛び跳ねているアニメーションパターン。
+
+![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢から金魚が飛び跳ねている。](doc/preview_animation_jump.gif)
+
+## 当たり判定
+
+- Shoes
+- Leg
+- Hip
+- Head
+- Bust
+- Hand
+
+当たり判定上ではマウスカーソルが変わるように設定されています。
+
+## ライセンス
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。
+([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))
+
+## 連絡先
+
+- [Peing質問箱](https://peing.net/ja/tukinami_seika)
+- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)
+- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)
+
+## 製作者
+
+月波 清火
+
+- [GitHub](https://github.com/tukinami)
+- [github.io(これまで公開した制作物)](https://tukinami.github.io)
 </pre>
 			</aside>
 		</article>
@@ -2483,6 +2680,103 @@ ${user}&lt;|end|&gt;
 			<aside class="readme" aria-label="knowledgeable_kernel">
 				<h4>readme</h4>
 <pre>
+# ソフトウェアについて
+
+【名    称】モノシリック・カーネル
+【種    別】ゴースト
+【制 作 者】タタキノフ
+【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降
+【配 布 元】https://tatakinov.github.io/
+【連 絡 先】tatakinov_at_gmail.com
+            https://twitter.com/tatakinov_ukgk
+            https://ukadon.shillest.net/@tatakinov
+
+
+## ゴーストについて
+
+Linuxについてあることないこと喋るゴーストです。
+あんまり濃ゆい話はしません。多分。
+
+
+## 注意事項
+
+- トークで紹介する一部コマンドにはデータを消したり破損させるものがあります。
+  実行は自己責任でお願いします。
+- えせ関西弁が苦手な方はアンインストールをおすすめします。
+
+
+## ゴースト著作権について
+
+[1.ゴーストダウンロードページに直接リンクされる]
+○
+
+[2.ゴーストのネタバレをされる]
+○
+
+[3.ゴーストに対し批判的な意見を言われる]
+○
+作者の髪が薄くなります。
+
+[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]
+[5.原作の設定と大きくかけ離れた二次創作をされる]
+[6.18禁二次創作をされる]
+○
+ただし二次創作物である旨を目につく場所に記載すること。
+
+[7.追加シェル、バルーン等を配布される]
+○
+
+[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）
+○
+
+[9.トークをウェブ上に転載]
+○
+
+[10.マスターシェルを素材(掲示板のアイコンなど)として使用]
+○
+
+[11.ゴーストアーカイブへの直リンク]
+○
+
+[12.公開中ゴーストをウェブ上で再配布]
+○
+でもオリジナルをダウンロードしてほしくもある。
+
+[13.配布終了したゴーストをウェブ上で再配布]
+○
+
+[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）
+○
+ただし、改変している旨を目のつく場所に記載すること。
+
+[15.ゴーストの同人誌収録]
+[16.ゴーストの商業誌収録]
+○
+ご自由に。
+
+
+### シェル
+
+さくら(\0)側は
+https://github.com/bes-dev/stable_diffusion.openvino
+を用いて生成した画像を少し手直しして
+https://github.com/pkhungurn/talking-head-anime-3-demo
+で差分を生成したものを使用しています。
+stable_diffusionのライセンスは
+stable_diffusion.LICENSE.txtに記載されています。
+
+
+## 使用ライブラリなど
+
+以下のライブラリ/ソフトウェアを使用しています。
+それぞれのライセンス詳細はLICENSE.txtを参照してください。
+
+Lua           | https://www.lua.org/
+sol2          | https://github.com/ThePhD/sol2/
+luautf8       | https://github.com/starwing/luautf8/
+luaex         | https://github.com/LuaDist/luaex/
+Luachild      | https://github.com/pocomane/luachild/
+
 </pre>
 			</aside>
 		</article>
@@ -2722,6 +3016,49 @@ SSPでのみ動作確認
 			<aside class="readme" aria-label="ukaten">
 				<h4>readme</h4>
 <pre>
+========================================================================
+【ソフト名称】うかてん
+【 制 作 者 】Don
+【 動作環境 】Windows11 22H2 + SSP/2.6.58
+【 タ イ プ 】「伺か」用プラグイン
+【 取扱種別 】フリーウェア
+【 配布月日 】2021/03/02
+【 配 布 元 】https://nikolat.github.io/
+【  備  考  】後述
+========================================================================
+■概要
+
+  これは「伺か」で動作する天気予報プラグインです。
+  単体で動作させることはできません。
+  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを
+  別途ご用意ください。
+
+  ばぐとら研究所
+    http://ssp.shillest.net/
+
+  天気予報情報は気象庁のWebサイト(非公式API)から取得しています。
+
+■ライセンス
+
+  以下のモジュールを使用させて頂いております。
+  ありがとうございます。
+
+  灯(akari.dll)
+    夜天燈火
+      http://le.silk.to/
+
+  上記以外のテキストファイル、辞書ファイルの類いは、
+  すべてpublic domainとして自由に利用できるものとします。
+
+■更新履歴
+
+2021/03/02  Ver0.1  ・新規作成
+2021/03/03  Ver0.2  ・ゴーストへのイベント通知を追加
+                      (「ついっとゅう」のイベント通知と互換)
+2021/03/05  Ver0.3  ・ゴーストから利用できるイベント関数群を追加
+                     (OnGetPluginVersion,OnGetSavedArea,OnGetWeatherInfo)
+2021/11/12  Ver1.0  ・GitHubに移行
+2024/01/29  Ver1.1  ・気象庁非公式APIの一部を正しくパースできていない不具合を修正
 </pre>
 			</aside>
 		</article>
@@ -2772,6 +3109,102 @@ SSPでのみ動作確認
 			<aside class="readme" aria-label="double-danshi-KouKousei">
 				<h4>readme</h4>
 <pre>
+# ダブル男子高校生
+
+## これは何？
+
+伺か用フリーシェル(立ち絵)「ダブル男子高校生」の公開レポジトリです。
+
+男子高校生二人組のフリーシェルで、SSP専用です。
+着せ替えと、簡単なオーナードローメニュー素材がついています。
+
+シェルやpsdファイルのダウンロードは
+[`Releasesの最新版`](https://github.com/tukinami/double-danshi-KouKousei/releases/latest)からどうぞ。
+
+## ダウンロードできる内容は？
+
+通常は`double-danshi-KouKousei.nar`か`double-danshi-KouKousei-S.nar`、
+どちらかをダウンロードしてください。
+
+### double-danshi-KouKousei.nar
+
+フリーシェル本体(全身版)です。縦1200pxです。
+
+### double-danshi-KouKousei-S.nar
+
+フリーシェル本体(膝上版)です。縦796pxです。
+
+### double-danshi-KouKousei_psd.zip
+
+シェル改変のために用意したpsdファイルです。全身、膝上版両方入っています。
+
+## シェル画像のプレビュー
+
+全身版(50%縮小)
+
+![全身版の画像 男子高校生二人組が立っている](doc/preview_shell.jpg)
+
+膝上版(50%縮小)
+
+![膝上版の画像 男子高校生二人組が立っている](doc/preview_shell-s.jpg)
+
+表情集
+
+![男子高校生二人組の表情集](doc/preview_face.jpg)
+
+
+## 着せ替え部位
+
+sakura側、kero側それぞれに以下の着せ替えがあります。
+
+- 靴下(白or紺)(全身版のみ)
+- シャツ(半袖or長袖)
+- ネクタイ
+- セーター(ベストor長袖orなし)
+- ジャケット
+
+着せ替えをしない場合は、descript.txtの以下の2行をコメントアウトし、
+
+```
+sakura.menu,auto
+kero.menu,auto
+```
+
+以下の2行を有効にしてくだい
+
+```
+// sakura.menuitem0,-
+// kero.menuitem0,-
+```
+
+## 当たり判定
+
+sakura側、kero側それぞれに当たり判定があります。
+
+- Head
+- Shoulder
+- Hand
+
+当たり判定上ではマウスカーソルが変わるように設定されています。
+
+## ライセンス
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。
+([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))
+
+## 連絡先
+
+- [Peing質問箱](https://peing.net/ja/tukinami_seika)
+- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)
+- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)
+- [公開URL](https://github.com/tukinami/double-danshi-KouKousei)
+
+## 製作者
+
+月波 清火
+
+- [GitHub](https://github.com/tukinami)
+- [github.io(これまで公開した制作物)](https://tukinami.github.io)
 </pre>
 			</aside>
 		</article>
@@ -3277,6 +3710,33 @@ C. 著作者人格権はDonに帰属します。著作権は放棄します。
 			<aside class="readme" aria-label="ukagakaPlugin_CeVIO-Talker">
 				<h4>readme</h4>
 <pre>
+# CeVIO-Talker
+このプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。
+[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)
+
+2023/04/06 リメイクしました。
+[GitHub - ambergon/ukagakaPlugin_CeVIO-TalkerV2](https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2)
+
+
+
+## お借りしたもの
+yaya.dll
+[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
+
+proxy_ex.dll
+[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)
+
+
+## Other
+このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。
+
+
+## Author
+[ambergon](https://twitter.com/Sc_lFoxGon)
+
+
+
+
 </pre>
 			</aside>
 		</article>
@@ -3299,6 +3759,95 @@ C. 著作者人格権はDonに帰属します。著作権は放棄します。
 			<aside class="readme" aria-label="desktop_tempter">
 				<h4>readme</h4>
 <pre>
+# ソフトウェアについて
+
+【名    称】卓上誘技
+【種    別】ゴースト
+【制 作 者】タタキノフ
+【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降
+【配 布 元】https://tatakinov.github.io/
+【連 絡 先】tatakinov_at_gmail.com
+            https://twitter.com/tatakinov_ukgk
+
+
+## ゴーストについて
+
+テキサスホールデムで遊べるゴーストです。
+遊ぶにはクライアントゴーストを入れる必要があります。
+また、バルーンは専用バルーンを使うようにしてください。
+
+
+## 遊び方
+
+Sキー:ゲーム開始
+Bキー:ベット(インプットボックスにベット額を入力)
+Rキー:レイズ(インプットボックスにベット額を入力)
+Aキー:オールイン
+Cキー:チェック/コール
+Fキー:フォールド
+
+
+## ゴースト著作権について
+
+[1.ゴーストダウンロードページに直接リンクされる]
+○
+
+[2.ゴーストのネタバレをされる]
+○
+
+[3.ゴーストに対し批判的な意見を言われる]
+○
+作者の髪が薄くなります。
+
+[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]
+[5.原作の設定と大きくかけ離れた二次創作をされる]
+[6.18禁二次創作をされる]
+○
+ただし二次創作物である旨を目につく場所に記載すること。
+
+[7.追加シェル、バルーン等を配布される]
+○
+
+[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）
+○
+
+[9.トークをウェブ上に転載]
+○
+
+[10.マスターシェルを素材(掲示板のアイコンなど)として使用]
+○
+
+[11.ゴーストアーカイブへの直リンク]
+○
+
+[12.公開中ゴーストをウェブ上で再配布]
+○
+でもオリジナルをダウンロードしてほしくもある。
+
+[13.配布終了したゴーストをウェブ上で再配布]
+○
+
+[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）
+○
+ただし、改変している旨を目のつく場所に記載すること。
+
+[15.ゴーストの同人誌収録]
+[16.ゴーストの商業誌収録]
+○
+ご自由に。
+
+
+## 使用ライブラリなど
+
+以下のライブラリ/ソフトウェアを使用しています。
+それぞれのライセンス詳細はLICENSE.txtを参照してください。
+
+Lua           | https://www.lua.org/
+sol2          | https://github.com/ThePhD/sol2/
+luautf8       | https://github.com/starwing/luautf8/
+luaex         | https://github.com/LuaDist/luaex/
+Luachild      | https://github.com/pocomane/luachild/
+
 </pre>
 			</aside>
 		</article>
@@ -3408,6 +3957,39 @@ C. 著作者人格権はDonに帰属します。著作権は放棄します。
 			<aside class="readme" aria-label="SSP-AIVOICE">
 				<h4>readme</h4>
 <pre>
+# A.I.VOICE 送信プラグイン
+
+伺かとA.I.VOICEを連携させるプラグインです。
+
+## 元
+
+このプラグインは[CeVIO-Talker](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)をもとに製作されました。
+
+## ライブラリ
+
+- [CSaori Project / proxy_ex](https://github.com/ukatech/csaori/)
+- [Newtonsoft / Json.NET](https://github.com/JamesNK/Newtonsoft.Json)
+- [整備班(SEIBIHAN) / YAYA](https://github.com/YAYA-shiori/yaya-shiori)
+
+## コンパイル（Windows）
+
+- check.cs
+
+```bash
+csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /t:exe .\check.cs
+```
+
+- client.cs
+
+```bash
+csc /t:winexe .\client.cs
+```
+
+- server.cs
+
+```bash
+csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /r:Newtonsoft.Json.dll /t:winexe .\server.cs
+```
 </pre>
 			</aside>
 		</article>
@@ -3424,7 +4006,7 @@ C. 著作者人格権はDonに帰属します。著作権は放棄します。
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2022-10-24T13:43:21Z">2022-10-24 22:43:21</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" title="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" rel="nofollow" data-filesize="1061.1" data-download_count="123">download</a></p>
+				<p class="download"><a href="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" title="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" rel="nofollow" data-filesize="1061.1" data-download_count="125">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fapxxxxxxe%2FYouto%2Freleases%2Fdownload%2Fv1.0.5%2Fomoideno.nar" title="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="Youto">
@@ -3753,6 +4335,81 @@ proxy_ex.dll&lt;br&gt;
 			<aside class="readme" aria-label="desktop_tempter_casino_chip_blue">
 				<h4>readme</h4>
 <pre>
+# ソフトウェアについて
+
+【名    称】カジノチップ(青)
+【種    別】ゴースト
+【制 作 者】タタキノフ
+【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降
+【配 布 元】https://tatakinov.github.io/
+【連 絡 先】tatakinov_at_gmail.com
+            https://twitter.com/tatakinov_ukgk
+
+
+## ゴーストについて
+
+テキサス・ホールデムのクライアントゴーストです。
+遊ぶにはサーバーゴーストを入れる必要があります。
+また、クライアントゴーストのサンプルゴーストでもあります。
+自分で思考部分作りたい方は
+ghost/master/README.txt、ghost/master/dic_texas_holdem.dic、
+ghost/master/dic_texas_holdem_ai.dicを参照してみてください。
+
+## ゴースト著作権について
+
+[1.ゴーストダウンロードページに直接リンクされる]
+○
+
+[2.ゴーストのネタバレをされる]
+○
+
+[3.ゴーストに対し批判的な意見を言われる]
+○
+作者の髪が薄くなります。
+
+[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]
+[5.原作の設定と大きくかけ離れた二次創作をされる]
+[6.18禁二次創作をされる]
+○
+ただし二次創作物である旨を目につく場所に記載すること。
+
+[7.追加シェル、バルーン等を配布される]
+○
+
+[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）
+○
+
+[9.トークをウェブ上に転載]
+○
+
+[10.マスターシェルを素材(掲示板のアイコンなど)として使用]
+○
+
+[11.ゴーストアーカイブへの直リンク]
+○
+
+[12.公開中ゴーストをウェブ上で再配布]
+○
+でもオリジナルをダウンロードしてほしくもある。
+
+[13.配布終了したゴーストをウェブ上で再配布]
+○
+
+[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）
+○
+ただし、改変している旨を目のつく場所に記載すること。
+
+[15.ゴーストの同人誌収録]
+[16.ゴーストの商業誌収録]
+○
+ご自由に。
+
+
+
+## 使用ライブラリなど
+
+SAORIにTexasHoldemUtilを使用しています。
+
 </pre>
 			</aside>
 		</article>
@@ -3962,121 +4619,6 @@ SAORIにTexasHoldemUtilを使用しています。
 			<aside class="readme" aria-label="UkagakaPlugin_DBdiary">
 				<h4>readme</h4>
 <pre>
-# DBdiary
-簡単な日記を作成するためのプログラムです。
-
-## 使用可能な関数一覧
-```
-&#34;\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]&#34;
-&#34;\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]&#34;
-&#34;\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]&#34;
-
-
-//20230104追加関数
-&#34;\![raiseplugin,DBdiary,OnCheckWrittenDiary]&#34;
-```
-
-## 日記を書く
-二種類の方法で日記を書くことができます。
-- DirtyDiary&lt;br&gt;
-    保存名が日付+日記内容.txtになります。&lt;br&gt;
-    日記の中には「Dirty Diary」に統一されます。&lt;br&gt;
-
-- BeautifulDiary&lt;br&gt;
-    保存名が日付.txtになります。&lt;br&gt;
-    こちらはゴーストから日記内容を取得できるようにしています。&lt;br&gt;
-
-#### 日記の保存先
-プラグインフォルダ/Diary/yyyymmdd{Dirty Diary only}.txt
-
-
-## DirtyDiaryを呼び出す。
-このプラグインをインストールしている状態で下記のサクラスクリプトを打ち込んでください。&lt;br&gt;
-入力欄が出てきます。&lt;br&gt;
-ゴーストに発言させる場合はbefore_textやafter_textの部分を適時書き換えてください。&lt;br&gt;
-他のテキストと相性が悪かったためこのような形になりました。&lt;br&gt;
-```
-&#34;\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]&#34;
-```
-
-## BeautifulDiaryを呼び出す。
-使用方法は同じです。
-```
-&#34;\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]&#34;
-```
-
-## 日記の内容を引っ張り出す。
-同じくbefore_text,after_textをうまく使ってやってください。&lt;br&gt;
-指定した日付の日記の内容を取得します。&lt;br&gt;
-notWriteは何も書かれていなかった時、&lt;br&gt;
-notExistは日記がなかった時に表示されます。&lt;br&gt;
-```
-&#34;\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]&#34;
-```
-
-
-## 日記の内容を引っ張り出す。2
-先ほどの関数ではゴーストから扱いづらいので別の関数を用意しました。
-引数は不要でこのサクラスクリプトを実行するだけです。
-```
-&#34;\![raiseplugin,DBdiary,OnCheckWrittenDiary]&#34;
-```
-ただし、ゴースト側で下記のOnRecieveCheckWrittenDiary関数を実装してください。
-この関数はreference0に ファイルが存在してかつ、空のファイルじゃなかった場合はBeautifulDiaryの本文が格納されています。
-
-以下は実装例。
-```
-OnRecieveCheckWrittenDiary {
-    _res = reference[0]
-    if ( _res == &#34;notExist&#34; ) {
-        &#34;書いてないやんけ。&#34;
-
-    } elseif ( _res == &#34;notWrite&#34; ) {
-        &#34;白紙やぞ。&#34;
-
-    } else {
-        _text = &#34;この日の日記は &#34; + _res + &#34;だったんだね。&#34;
-    }
-}
-```
-
-
-
-## お借りしたもの
-yaya.dll
-[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
-
-
-## Other
-このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。&lt;br&gt;
-またゴースト等に同梱して配布していただいて構いません。&lt;br&gt;
-main.uka内部を好きに書き換えてくれて構いません。&lt;br&gt;
-
-
-## 小言
-実際に作ってみたものの、raisepluginが使いづらく、&lt;br&gt;
-プラグイン化のメリットはゴーストのデータを汚さないことぐらいでしょうか.&lt;br&gt;
-
-FREADで読み込めるのは一行だけの都合、日記を読み込む際に複数行書かれた場合(追記モードに変更したのであり得る)最初の一行しか引っ張れない問題がある。
-
-
-
-
-## Author
-[ambergon](https://twitter.com/Sc_lFoxGon)
-
-o
-
-
-
-
-
-
-
-
-
-
-
 </pre>
 			</aside>
 		</article>
@@ -4291,40 +4833,6 @@ https://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG
 			<aside class="readme" aria-label="CharameLNetwork">
 				<h4>readme</h4>
 <pre>
-CharameLのやり取りをHTMLに書き出します。
-なんとなくSNS風に見えるかもしれません。
-
-CharameL
-http://umeici.onjn.jp/CharameL.html
-
-****************
-
-このプラグインは、YAYA as PLUGINを使用して作られています。
-
-yaya.dllはYAYAのライセンスに基づき、
-・伺か関係には完全に自由に（NYSL相当と考えて良い）
-・それ以外には修正BSDライセンスでやはり自由に
-配布・修正等が可能です。
-
-それ以外のテキストファイル、辞書ファイルの類いは、すべてNYSDLに基づき自由に配布できます。
-
-****************
-
-NYSDL Version 0.9982
-A. 本ソフトウェアは Everyone&#39;sWare です。このソフトを手にした一人一人が、
-   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。
-
-  A-1. フリーウェアです。作者からは使用料等を要求しません。
-  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。
-  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。
-  A-4. 変更したものや部分的に使用したものは、あなたのものになります。
-       公開する場合は、あなたの名前の下で行って下さい。
-
-B. このソフトを利用することによって生じた損害等について、作者は
-   責任を負わないものとします。各自の責任においてご利用下さい。
-
-C. 著作者人格権はDonに帰属します。著作権は放棄します。
-
 </pre>
 			</aside>
 		</article>
