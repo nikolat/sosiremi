@@ -339,103 +339,6 @@ SSPでのみ動作確認
 			<aside class="readme" aria-label="ukadonyu">
 				<h4>readme</h4>
 <pre>
-========================================================================
-【ソフト名称】うかどんゅう
-【 制 作 者 】Don
-【 動作環境 】Windows11 21H2 + SSP/2.6.27
-【 タ イ プ 】「伺か」用プラグイン
-【 取扱種別 】フリーウェア
-【 配布月日 】2021-11-23
-【 配 布 元 】http://nikolat.starfree.jp/ukadonyu/
-【  備  考  】後述
-========================================================================
-■概要
-
-  これは「伺か」で動作するMastodonクライアント機能拡張プラグインです。
-  主に「うかどん」を想定した設計になっていますが、
-  うかどん以外のMastodonサーバーでも動作するはずです(未検証)。
-
-  うかどん
-    https://ukadon.shillest.net/
-
-  単体で動作させることはできません。
-  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを
-  別途ご用意ください。
-
-  ばぐとら研究所
-    http://ssp.shillest.net/
-
-■使用方法
-
-  設定画面にて以下のパラメータを設定してください
-  Access Tokenのパラメータは必須です。
-  設定画面一番下の「get Access Token (open browser)」から
-  認証手続きを行って下さい。
-
-  Access Token        : 認証用パラメータ
-  Server URL          : MastodonのURL
-  TL get interval     : タイムラインおよびリプライを取得し
-                        タスクトレイバルーン通知をする間隔（分）
-  num of post getting : 一度に取得する投稿数
-
-  上部アイコンをクリックすることで以下の動作をします。
-  左から順番に記述します。
-
-  comment       : トゥート用入力バー準備
-  refresh       : 全ての取得情報を更新
-  home          : メインとなるタイムラインを表示
-  local         : ローカルタイムラインを表示
-  notifications : 返信画面を表示
-  conversations : ダイレクトメッセージ画面を表示
-  favourites    : お気に入り画面を表示
-  settings      : 設定画面表示
-  cancel        : バルーンを閉じる
-
-  タイムライン表示中のアイコンについて
-
-  ・ユーザアイコンをクリックすると返信用トゥート入力バーを表示します。
-  ・トップのユーザアイコンの右のアイコンクリックで
-    ブースト確認画面を開きます。
-  ・その右の星アイコンクリックで
-    表示中のトゥートをfavouritesに追加します。
-  ・さらに右の地球アイコンクリックで
-    表示中のトゥートをブラウザで開きます。
-  ・さらに右の鉛筆アイコンクリックで
-    クリップボードにテキストをコピーします。
-
-  Access Tokenについて
-
-  設定画面からAccess Token設定ページをブラウザで開くことが出来ます。
-  うかどんにアクセスして認証が完了すると必要なパラメータが表示されますので、
-  設定画面から入力してください。
-
-  うかどん以外のサーバーで利用する場合は自分でAccess Tokenを用意する必要があります。
-  参考: https://ouvill.net/from_twitter_to_mastdon/#i-4
-  また、設定画面にてServer URLを自分が利用しているMastodonサーバーのURLに
-  変更してください。
-
-■更新履歴
-
-2021-11-23  Ver0.1  ・新規作成
-2021-11-24  Ver1.0  ・正式版公開
-2021-11-28  Ver1.1  ・ローカルタイムライン追加(認証不要)
-2021-11-29  Ver1.2  ・改行を改良
-2021-12-01  Ver1.3  ・スタンプを大きく表示
-                    ・添付画像を表示
-2021-12-04  Ver1.4  ・&#34;&amp;apos;&#34; を &#34;&#39;&#34; に変換
-2021-12-12  Ver1.5  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした
-2021-12-15  Ver1.6  ・透過っぽい絵文字は可能な限り透過表示にした
-                      アイコン画像の変更、レイアウト変更
-2022-01-30  Ver1.7  ・API Proxyを廃止し、直接Mastodonサーバーにアクセスするようにした
-                      ※うかどん以外のMastodonサーバーでも使えるようになりました
-2022-02-27  Ver1.8  ・日本語以外の環境で正常に起動できない不具合を修正
-                      display name が未設定の場合に投稿できない不具合を修正
-2022-02-27  Ver1.9  ・display name が未設定のuserのトゥートは代わりにusernameを表示するよう変更
-2022-03-02  Ver2.0  ・非同期処理の不安定化によるエラーの抑制
-                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正
-2022-08-04  Ver2.1  ・バルーン幅の取得に失敗した際にレイアウトをキャッシュしないように変更
-2023-01-19  Ver2.2  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止
-                    ・新バージョンの更新通知時メニューからネットワーク更新を追加
 </pre>
 			</aside>
 		</article>
@@ -458,33 +361,6 @@ SSPでのみ動作確認
 			<aside class="readme" aria-label="ukagakaPlugin_CeVIO-Talker">
 				<h4>readme</h4>
 <pre>
-# CeVIO-Talker
-このプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。
-[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)
-
-2023/04/06 リメイクしました。
-[GitHub - ambergon/ukagakaPlugin_CeVIO-TalkerV2](https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2)
-
-
-
-## お借りしたもの
-yaya.dll
-[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
-
-proxy_ex.dll
-[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)
-
-
-## Other
-このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。
-
-
-## Author
-[ambergon](https://twitter.com/Sc_lFoxGon)
-
-
-
-
 </pre>
 			</aside>
 		</article>
@@ -507,39 +383,6 @@ proxy_ex.dll
 			<aside class="readme" aria-label="SSP-AIVOICE">
 				<h4>readme</h4>
 <pre>
-# A.I.VOICE 送信プラグイン
-
-伺かとA.I.VOICEを連携させるプラグインです。
-
-## 元
-
-このプラグインは[CeVIO-Talker](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)をもとに製作されました。
-
-## ライブラリ
-
-- [CSaori Project / proxy_ex](https://github.com/ukatech/csaori/)
-- [Newtonsoft / Json.NET](https://github.com/JamesNK/Newtonsoft.Json)
-- [整備班(SEIBIHAN) / YAYA](https://github.com/YAYA-shiori/yaya-shiori)
-
-## コンパイル（Windows）
-
-- check.cs
-
-```bash
-csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /t:exe .\check.cs
-```
-
-- client.cs
-
-```bash
-csc /t:winexe .\client.cs
-```
-
-- server.cs
-
-```bash
-csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /r:Newtonsoft.Json.dll /t:winexe .\server.cs
-```
 </pre>
 			</aside>
 		</article>

@@ -1678,6 +1678,60 @@ ghost/master/elin
 			<aside class="readme" aria-label="my_own_translator">
 				<h4>readme</h4>
 <pre>
+# my_own_translator
+
+The end of person who was not satisfied with just the functionality of a certain ghost.
+
+## What&#39;s this
+
+[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
+
+Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
+
+Additionally, I have tried to show the text as closely as possible to the original.
+
+## Library
+
+yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
+yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
+libcurl     | curl      | https://curl.se/
+
+## Mechanism
+
+Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
+
+```
+\0This \q[apple,OnFoo] is blue.\e
+```
+
+↓ parse/replace event id
+
+```
+----
+&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = apple
+&lt;4&gt; = \e
+```
+
+↓ translate &lt;0&gt;, &lt;3&gt;
+
+```
+&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = りんご
+&lt;4&gt; = \e
+```
+
+↓ build
+
+```
+\0この\q[りんご,OnKeep]は青色です。\e
+```
+
+cf. OnKeep -&gt; \C
 </pre>
 			</aside>
 		</article>
@@ -3227,103 +3281,6 @@ sakura側、kero側それぞれに当たり判定があります。
 			<aside class="readme" aria-label="ukadonyu">
 				<h4>readme</h4>
 <pre>
-========================================================================
-【ソフト名称】うかどんゅう
-【 制 作 者 】Don
-【 動作環境 】Windows11 21H2 + SSP/2.6.27
-【 タ イ プ 】「伺か」用プラグイン
-【 取扱種別 】フリーウェア
-【 配布月日 】2021-11-23
-【 配 布 元 】http://nikolat.starfree.jp/ukadonyu/
-【  備  考  】後述
-========================================================================
-■概要
-
-  これは「伺か」で動作するMastodonクライアント機能拡張プラグインです。
-  主に「うかどん」を想定した設計になっていますが、
-  うかどん以外のMastodonサーバーでも動作するはずです(未検証)。
-
-  うかどん
-    https://ukadon.shillest.net/
-
-  単体で動作させることはできません。
-  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを
-  別途ご用意ください。
-
-  ばぐとら研究所
-    http://ssp.shillest.net/
-
-■使用方法
-
-  設定画面にて以下のパラメータを設定してください
-  Access Tokenのパラメータは必須です。
-  設定画面一番下の「get Access Token (open browser)」から
-  認証手続きを行って下さい。
-
-  Access Token        : 認証用パラメータ
-  Server URL          : MastodonのURL
-  TL get interval     : タイムラインおよびリプライを取得し
-                        タスクトレイバルーン通知をする間隔（分）
-  num of post getting : 一度に取得する投稿数
-
-  上部アイコンをクリックすることで以下の動作をします。
-  左から順番に記述します。
-
-  comment       : トゥート用入力バー準備
-  refresh       : 全ての取得情報を更新
-  home          : メインとなるタイムラインを表示
-  local         : ローカルタイムラインを表示
-  notifications : 返信画面を表示
-  conversations : ダイレクトメッセージ画面を表示
-  favourites    : お気に入り画面を表示
-  settings      : 設定画面表示
-  cancel        : バルーンを閉じる
-
-  タイムライン表示中のアイコンについて
-
-  ・ユーザアイコンをクリックすると返信用トゥート入力バーを表示します。
-  ・トップのユーザアイコンの右のアイコンクリックで
-    ブースト確認画面を開きます。
-  ・その右の星アイコンクリックで
-    表示中のトゥートをfavouritesに追加します。
-  ・さらに右の地球アイコンクリックで
-    表示中のトゥートをブラウザで開きます。
-  ・さらに右の鉛筆アイコンクリックで
-    クリップボードにテキストをコピーします。
-
-  Access Tokenについて
-
-  設定画面からAccess Token設定ページをブラウザで開くことが出来ます。
-  うかどんにアクセスして認証が完了すると必要なパラメータが表示されますので、
-  設定画面から入力してください。
-
-  うかどん以外のサーバーで利用する場合は自分でAccess Tokenを用意する必要があります。
-  参考: https://ouvill.net/from_twitter_to_mastdon/#i-4
-  また、設定画面にてServer URLを自分が利用しているMastodonサーバーのURLに
-  変更してください。
-
-■更新履歴
-
-2021-11-23  Ver0.1  ・新規作成
-2021-11-24  Ver1.0  ・正式版公開
-2021-11-28  Ver1.1  ・ローカルタイムライン追加(認証不要)
-2021-11-29  Ver1.2  ・改行を改良
-2021-12-01  Ver1.3  ・スタンプを大きく表示
-                    ・添付画像を表示
-2021-12-04  Ver1.4  ・&#34;&amp;apos;&#34; を &#34;&#39;&#34; に変換
-2021-12-12  Ver1.5  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした
-2021-12-15  Ver1.6  ・透過っぽい絵文字は可能な限り透過表示にした
-                      アイコン画像の変更、レイアウト変更
-2022-01-30  Ver1.7  ・API Proxyを廃止し、直接Mastodonサーバーにアクセスするようにした
-                      ※うかどん以外のMastodonサーバーでも使えるようになりました
-2022-02-27  Ver1.8  ・日本語以外の環境で正常に起動できない不具合を修正
-                      display name が未設定の場合に投稿できない不具合を修正
-2022-02-27  Ver1.9  ・display name が未設定のuserのトゥートは代わりにusernameを表示するよう変更
-2022-03-02  Ver2.0  ・非同期処理の不安定化によるエラーの抑制
-                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正
-2022-08-04  Ver2.1  ・バルーン幅の取得に失敗した際にレイアウトをキャッシュしないように変更
-2023-01-19  Ver2.2  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止
-                    ・新バージョンの更新通知時メニューからネットワーク更新を追加
 </pre>
 			</aside>
 		</article>
@@ -3346,7 +3303,6 @@ sakura側、kero側それぞれに当たり判定があります。
 			<aside class="readme" aria-label="ukagaka-simultaneous-interpreter">
 				<h4>readme</h4>
 <pre>
-This is a ghost that simultaneously interprets the talk of the ghost beside it.
 </pre>
 			</aside>
 		</article>
@@ -3710,33 +3666,6 @@ C. 著作者人格権はDonに帰属します。著作権は放棄します。
 			<aside class="readme" aria-label="ukagakaPlugin_CeVIO-Talker">
 				<h4>readme</h4>
 <pre>
-# CeVIO-Talker
-このプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。
-[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)
-
-2023/04/06 リメイクしました。
-[GitHub - ambergon/ukagakaPlugin_CeVIO-TalkerV2](https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2)
-
-
-
-## お借りしたもの
-yaya.dll
-[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
-
-proxy_ex.dll
-[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)
-
-
-## Other
-このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。
-
-
-## Author
-[ambergon](https://twitter.com/Sc_lFoxGon)
-
-
-
-
 </pre>
 			</aside>
 		</article>
@@ -3957,39 +3886,6 @@ Luachild      | https://github.com/pocomane/luachild/
 			<aside class="readme" aria-label="SSP-AIVOICE">
 				<h4>readme</h4>
 <pre>
-# A.I.VOICE 送信プラグイン
-
-伺かとA.I.VOICEを連携させるプラグインです。
-
-## 元
-
-このプラグインは[CeVIO-Talker](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)をもとに製作されました。
-
-## ライブラリ
-
-- [CSaori Project / proxy_ex](https://github.com/ukatech/csaori/)
-- [Newtonsoft / Json.NET](https://github.com/JamesNK/Newtonsoft.Json)
-- [整備班(SEIBIHAN) / YAYA](https://github.com/YAYA-shiori/yaya-shiori)
-
-## コンパイル（Windows）
-
-- check.cs
-
-```bash
-csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /t:exe .\check.cs
-```
-
-- client.cs
-
-```bash
-csc /t:winexe .\client.cs
-```
-
-- server.cs
-
-```bash
-csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /r:Newtonsoft.Json.dll /t:winexe .\server.cs
-```
 </pre>
 			</aside>
 		</article>
@@ -4012,25 +3908,33 @@ csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /r:Newtonsoft.Json.dll /t
 			<aside class="readme" aria-label="Youto">
 				<h4>readme</h4>
 <pre>
-見て、帰り道で見つけたへんなぬいぐるみ。
-……これ、しゃべるんだ。
+[![omoideno.nar](https://img.shields.io/github/downloads/apxxxxxxe/Youto/total?color=%23d196bb&amp;label=omoideno.nar&amp;logo=github)](https://github.com/apxxxxxxe/Youto/releases/latest/download/omoideno.nar)
+[![commits](https://img.shields.io/github/last-commit/apxxxxxxe/Youto?color=%23d196bb&amp;label=%E6%9C%80%E7%B5%82%E6%9B%B4%E6%96%B0&amp;logo=github)](https://github.com/apxxxxxxe/Youto/commits/main)
+[![commits](https://img.shields.io/tokei/lines/github/apxxxxxxe/Youto?color=%23d196bb)](https://github.com/apxxxxxxe/Youto/commits/main)
 
-------------------------------
-ゴースト「思い出の、」
+## 伺かゴースト「思い出の、」
+
+![screenshot](https://github.com/apxxxxxxe/Youto/raw/image/youto.png)
 
 雑談(?)ゴーストです。
 羊がつぶやく単語に合わせて、
 男の子がそれにちなんだ話をしたりしなかったりします。
 
-------------------------------
-- 羊をクリック、またはtキーでランダムトーク
-- なにもないところをクリック、またはmキーでメニュー
+### かんたんな操作方法
 
-------------------------------
-作成にあたって以下のテンプレートとシェルを使用させていただきました。
-この場を借りてお礼申し上げます。ありがとうございます。
-- YAYA辞書テンプレート「SimpleYAYAテンプレート」
+- 羊をクリック、または t キーでランダムトーク
+- なにもないところをクリック、または m キーでメニュー
+
+### Credits
+
+作成にあたって以下のテンプレートとシェルを使用させていただきました。この場を借りてお礼申し上げます。
+
+- YAYA 辞書テンプレート「SimpleYAYA テンプレート」
 - フリーシェル「SHLEEP」
+
+### ダウンロード  
+[![omoideno.nar](https://img.shields.io/github/v/release/apxxxxxxe/Youto?color=%23d196bb&amp;label=omoideno.nar&amp;logo=github)](https://github.com/apxxxxxxe/Youto/releases/latest/download/omoideno.nar)   
+※narファイルは最新でないことがあります。インストール後ネットワーク更新を行ってください。  
 </pre>
 			</aside>
 		</article>
@@ -4053,49 +3957,6 @@ csc /r:&#34;（AI.Talk.Editor.Api.dllのパス）&#34; /r:Newtonsoft.Json.dll /t
 			<aside class="readme" aria-label="talismanic_beast_pattern">
 				<h4>readme</h4>
 <pre>
-伺か用バルーン「魔除けの獣面紋」
-
-制作: 月波 清火
-公開日: 2023-01-19
-動作確認: SSP/2.6.28
-------------------------------------------------------------
-
-古代中国をイメージしたバルーンで、
-獣面紋(饕餮文とも)や怪獣文をアレンジして取り入れています。
-
-特徴
-・大き目(フォントサイズ15、縦長め)
-・左右同一デザイン
-・スクロール用矢印がやや特殊(右が前への、左が後ろへの矢印)
-
-
-ライセンス
-------------------------------------------------------------
-画像内の文字に、 SIMO様制作「青柳隷書しも」を使用しています。
-https://opentype.jp/aoyagireisho.htm
-
-また、公開レポジトリにある「balloontown-preview.png」の文字に、
-「ＭＳ 明朝」、「ＭＳ ゴシック」を使用しています。
-(data:株式会社リコー typeface:リョービイマジクス(株))
-(「ＭＳ 明朝」、「ＭＳ ゴシック」は米国Microsoft Corporationの
-米国及びその他の国の登録商標または商標です。)
-
-上記以外のファイルについては、
-「CC0 1.0 Universal」にて配布いたします。
-https://creativecommons.org/publicdomain/zero/1.0/
-
-
-連絡先
-------------------------------------------------------------
-Peing質問箱(https://peing.net/ja/tukinami_seika)
-
-バグ報告・感想・要望等、お気軽にどうぞ。
-
-
-更新履歴
-------------------------------------------------------------
-2013-01-24: readme.txt更新(レポジトリのみ)。
-2023-01-19: 初版公開。
 </pre>
 			</aside>
 		</article>

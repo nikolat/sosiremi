@@ -9,7 +9,7 @@
             "id": "opera7133/SSP-AIVOICE",
             "url": "https://github.com/opera7133/SSP-AIVOICE",
             "title": "SSP-AIVOICE",
-            "content_text": "# A.I.VOICE 送信プラグイン\n\n伺かとA.I.VOICEを連携させるプラグインです。\n\n## 元\n\nこのプラグインは[CeVIO-Talker](https://github.com/ambergon/ukagakaPlugin_CeVIO-Talker)をもとに製作されました。\n\n## ライブラリ\n\n- [CSaori Project / proxy_ex](https://github.com/ukatech/csaori/)\n- [Newtonsoft / Json.NET](https://github.com/JamesNK/Newtonsoft.Json)\n- [整備班(SEIBIHAN) / YAYA](https://github.com/YAYA-shiori/yaya-shiori)\n\n## コンパイル（Windows）\n\n- check.cs\n\n```bash\ncsc /r:\"（AI.Talk.Editor.Api.dllのパス）\" /t:exe .\\check.cs\n```\n\n- client.cs\n\n```bash\ncsc /t:winexe .\\client.cs\n```\n\n- server.cs\n\n```bash\ncsc /r:\"（AI.Talk.Editor.Api.dllのパス）\" /r:Newtonsoft.Json.dll /t:winexe .\\server.cs\n```\n",
+            "content_text": "",
             "summary": "伺かとA.I.VOICEを連携",
             "date_published": "2023-03-17T14:38:44Z",
             "date_modified": "2023-03-17T14:38:46Z",
