@@ -638,7 +638,7 @@
             "id": "nikolat/cultural-festival",
             "url": "https://github.com/nikolat/cultural-festival",
             "title": "cultural-festival",
-            "content_text": "\nゴースト「卓上誘技」用追加シェル「文化祭」\n\n「卓上誘技」配布元: いろいろ置いておく場所\nhttps://tatakinov.github.io/\n\n[ライセンス]\nCreative Commons - CC0 1.0 Universal\nhttp://creativecommons.org/publicdomain/zero/1.0/\n\n[使用素材]\nvector-playing-cards (public domain)\nhttps://code.google.com/archive/p/vector-playing-cards/\n\nambientCG (public domain)\nhttps://ambientcg.com/\nFabric 069\nhttps://ambientcg.com/view?id=Fabric069\nMetal 027\nhttps://ambientcg.com/view?id=Metal027\n\nJFドットAyuゴシック18 (public domain)\nhttp://jikasei.me/font/jf-dotfont/\n\nYAYA as MAKOTO (AYA Ver.5 license)\nhttps://emily.shillest.net/ayaya/?YAYA+as+MAKOTO\nyaya.dll (Dual-licensing: AYA Ver.5 license, BSD-3-Clause license)\nhttps://github.com/YAYA-shiori/yaya-shiori\n\n[使用ツール]\nERNIE-ViLG\nhttps://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG\n",
+            "content_text": "",
             "summary": "ゴースト「卓上誘技」用追加シェル",
             "date_published": "2022-11-09T11:29:22Z",
             "date_modified": "2022-11-09T11:29:24Z",

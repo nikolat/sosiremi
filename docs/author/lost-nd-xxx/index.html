@@ -106,6 +106,78 @@ https://docs.midjourney.com/docs/terms-of-service
 			<aside class="readme" aria-label="UkagakaGhostMessenger">
 				<h4>readme</h4>
 <pre>
+# UkagakaGhostMessenger
+伺かベースウェア向けプラグインです。
+メッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。
+
+制作者: ろすえん(lost_nd_xxx)
+連絡先: http://lnx.flop.jp/
+
+------------------------
+## 取扱説明書等
+* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け
+* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け
+* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification
+
+------------------------
+## メッセージ履歴について
+このプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。
+各データの取り扱いは、送信元ゴーストの規約に従ってください。
+
+------------------------
+## ファイアウォールの表示が出た場合
+UGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。
+ugm_server.exeはSSPと情報をやりとりできるようにするためのアプリです。
+深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。
+許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。
+ugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。
+
+また、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。
+ugm_server.exeの起動によるもので、仕様です。
+
+------------------------
+## ローカルホストのポート番号の変更について
+「ugm_config.txt」の数値を書き換えることで、UGMの使用するポート番号を変更できます。
+※プラグインを再起動するまで設定は反映されません。
+プラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。
+
+以下の場合などにご活用ください。
+* UGM以外のツールを使おうとしてUGMのページが開かれてしまった
+* UGMのページを開こうとして関係ないツールのページが開かれてしまった
+
+------------------------
+## 使用モジュール等のライセンス
+* akari http://le.silk.to/akari.php
+&gt; このプログラムを使用したいかなる不利益も作者は責任を負いません。
+&gt; 伺かのサブシステムとして使う場合に限り、無償で無制限に使用できます。
+
+* うかてん https://github.com/nikolat/ukaten
+  * main.azrを当方による改変ののちに組み込んでいます。
+&gt; 上記以外のテキストファイル、辞書ファイルの類いは、
+&gt; すべてpublic domainとして自由に利用できるものとします。
+
+* YAYA as SAORI https://github.com/YAYA-shiori/yaya-as-saori
+  * Unlicense license https://github.com/YAYA-shiori/yaya-as-saori/blob/main/LICENSE
+
+* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle
+  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE
+
+* fuwaimg https://do.gt-gt.org/product/fuwaimg/
+  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html
+
+* Material Symbols &amp; Icons https://fonts.google.com/icons
+  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
+
+* jsstp https://github.com/ukatech/jsstp-lib
+  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE
+
+* go https://go.dev/
+  * 三条項BSDライセンス https://go.dev/LICENSE
+
+### うめちゃんのイラスト
+ユスラさんがにじジャーニーで生成されたものを加工して使っています。
+* にじジャーニー https://nijijourney.com/ja/
+  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service
 </pre>
 			</aside>
 		</article>
@@ -128,6 +200,36 @@ https://docs.midjourney.com/docs/terms-of-service
 			<aside class="readme" aria-label="kumasan_with_deathplay">
 				<h4>readme</h4>
 <pre>
+# 「くまさん・うぃず・ですぷれ」
+![プレビュー](preview.gif &#34;プレビュー&#34;)
+
+## これなに
+* 伺か向けに設定済みのフリーシェル(画像素材)です
+* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します
+* 伺か関連作品以外への利用も可能です
+* 動作デモ用ゴーストもあります
+
+## 利用条件
+動作デモ用ゴースト以外は、下記の条件でご利用いただけます。
+* 改変可
+* 再配布可
+* 改変後の再配布可
+* 伺か関連作品以外への利用可
+* 著作者表示不要
+* 使用報告不要
+
+## ダウンロード
+* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)
+  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。
+* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)
+* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)
+* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)
+* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)
+  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。
+
+## 連絡先
+* 作者：lost_nd_xxx（ろすえん）
+* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)
 </pre>
 			</aside>
 		</article>
@@ -504,140 +606,6 @@ LNPへインストールすると、LNP開発中に使われていたプロト�
 			<aside class="readme" aria-label="WeatherTimeCapsule">
 				<h4>readme</h4>
 <pre>
-ゴースト「WeatherTimeCapsule」
-設定した座標と時刻の天気を表示します。
-データがある範囲でなら、過去の記録や予報の天気も取得できます。
-
-メーターをつつくと表示・非表示が切り替わります。
-天気表示の右上の３本線から設定に移動します。
-
-オフライン環境では何もできません。
-小さいバルーンでは表示が乱れます。
-
-=======================================
-連絡先
-=======================================
-作者: ろすえん(lost_nd_xxx)
-https://lnx.flop.jp/form/postmail.html
-
-=======================================
-使用素材等
-=======================================
-・シェル「master」「doodle」とバルーン「WeatherTimeCapsule専用バルーン」はゴースト作者が作成したものです。
-
----------------------------------------
-・SHIORIにYAYAを使用させていただいています。
-https://ms.shillest.net/yaya.xhtml
-
----------------------------------------
-・ゴースト辞書テンプレートに「紺野ややめ」を使用させていただいています。
-https://ms.shillest.net/yayame.xhtml
-
----------------------------------------
-・「jsonパーサ with オブジェクト風の何か @ YAYA as SAORI」を改造して使用させていただいています。
-https://c-lege.hacca.jp/ukgk/ukst.html
-
----------------------------------------
-・天気情報は「Open-Meteo」のデータを使用させていただいています。
-https://open-meteo.com/
-
-Open-MeteoはCC-BY 4.0ライセンスで公開されています。
-https://creativecommons.org/licenses/by/4.0/deed.ja
-
-非営利使用の情報取得は1日あたり10000件、1時間あたり5000件、1分あたり600件未満に制限されています。
-このため、ゴースト側で頻繁な情報取得は行えないようにしています。
-端末の設定時刻を能動的かつ頻繁に変更したり、ログなどからスクリプトを実行する事例はサポート外とします。
-
----------------------------------------
-・日本の県庁所在地の位置情報データのリストは国土地理院の情報を基にゴースト作者が作成しました。
-情報は2024/02/18時点のものです。
-
----------------------------------------
-・世界の国の首都名・位置情報データのリストに、イドケード様の作成されたデータを使用させていただいています。
-https://note.com/kentoide/n/n16354c4b3458
-
-このデータセットはパブリックドメインで公開されています。
-
----------------------------------------
-・天気アイコンとして、フォント「Weather Icons」を使用させていただいています。
-https://erikflowers.github.io/weather-icons/
-
-「Weather Icons」の天気アイコンはSIL Open Font License 1.1でライセンスされています。
-http://scripts.sil.org/OFL
-ライセンス原文はルートフォルダにある「SIL_Open_Font_License_1_1.txt」で確認できます。
-
-v1.0までのデザインはLukas Bischoff様によるものです。
-v1.1以降のデザインはErik Flowers様によるものです。
-
-
-=======================================
-ゴーストの二次創作ガイドライン/ライセンス
-=======================================
-◆二次創作周りについて
-[1.追加シェル、バルーン等を制作して配布される]
-OK
-バルーン名またはバルーンフォルダ名に「WeatherTimeCapsule」が含まれていると、
-ゴーストは色変更対応バルーンと見なした動作をします。
-
-[2.二次創作をされる]
-OK
-
-[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]
-NG
-
-[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]
-OK
-
-[5.二次創作物の販売をされる]
-NG
-
-[6.コミッションサービス等でゴーストに関連する創作物を依頼される]
-NG
-
-◆ゴーストを始めとした、配布データの扱いについて
-[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]
-OK
-
-[2.情報集積サイト等の外部サイトに登録される]
-OK
-
-[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]
-NG
-
-[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）
-NG
-
-[5.マスターシェルを素材とした追加シェルの制作/配布について]
-NG
-
-◆その他
-[1.他ゴーストから切り替え反応を実装される]
-OK
-
-[2.ゴーストに関する批判的な意見を言われる]
-OK
-
-[3.ゴーストに関する要望を言われる]
-OK
-
-[4.不特定多数の人が見る場でネタバレをされる]
-OK
-
-[5.トークの引用、又は撮ったスクリーンショットを公開される]
-以下を明記する場合のみOK
-・出典がこのゴーストであること
-・引用に天気情報が含まれる場合、その情報源がOpen-Meteoであること
-　　・スクリーンショットの場合、バルーンにOpen-Meteoからの情報であることなどが出ているはずなので、それらを削らなければ問題なし
-　　　　・小さいバルーンでは表示が乱れるため、文章などで明記してください
-
-[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]
-NG
-
-[7.ゴーストを動画内で配信される]
-動画単体に収益の発生しない場合のみOK
-以下を明記してください
-・出典がこのゴーストであること
-・引用に天気情報が含まれる場合、その情報源がOpen-Meteoであること
 </pre>
 			</aside>
 		</article>
