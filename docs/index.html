@@ -1678,60 +1678,6 @@ ghost/master/elin
 			<aside class="readme" aria-label="my_own_translator">
 				<h4>readme</h4>
 <pre>
-# my_own_translator
-
-The end of person who was not satisfied with just the functionality of a certain ghost.
-
-## What&#39;s this
-
-[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
-
-Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
-
-Additionally, I have tried to show the text as closely as possible to the original.
-
-## Library
-
-yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
-yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
-libcurl     | curl      | https://curl.se/
-
-## Mechanism
-
-Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
-
-```
-\0This \q[apple,OnFoo] is blue.\e
-```
-
-↓ parse/replace event id
-
-```
-----
-&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = apple
-&lt;4&gt; = \e
-```
-
-↓ translate &lt;0&gt;, &lt;3&gt;
-
-```
-&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = りんご
-&lt;4&gt; = \e
-```
-
-↓ build
-
-```
-\0この\q[りんご,OnKeep]は青色です。\e
-```
-
-cf. OnKeep -&gt; \C
 </pre>
 			</aside>
 		</article>
@@ -1875,87 +1821,6 @@ cf. OnKeep -&gt; \C
 			<aside class="readme" aria-label="purple-eyed-dressed-up-boy">
 				<h4>readme</h4>
 <pre>
-# パープル・アイの着せ替えボーイ
-
-![シェル「パープル・アイの着せ替えボーイ」のプレビュー画像。紫色の瞳をした少年の立ち絵の紹介。](doc/pr.jpg)
-
-## これは何？
-
-伺か用フリーシェル(立ち絵)「パープル・アイの着せ替えボーイ」の公開レポジトリです。
-
-着せ替えがついた少年のフリーシェルです。SSP専用です。
-
-簡単なオーナードローメニュー素材がついています。
-
-ポーズ差分あり。
-また、neverアニメーションで表情に効果を付けることができます。
-
-シェルのダウンロードは
-[`Releasesの最新版`](https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/latest)からどうぞ。
-
-## ダウンロードできる内容は？
-
-### purple-eyed-dressed-up-boy.zip
-
-フリーシェル本体です。
-名前は「パープル・アイの着せ替えボーイ」で、縦615pxです。
-
-## 表情・ポーズ一覧
-
-![「パープル・アイの着せ替えボーイ」の表情・ポーズ一覧。0: 素, 1: 照れ, 2: 驚き, 3: 不安, 4: 落ち込み, 5: 微笑み, 6: 目閉じ, 7: 怒り, 8: 冷笑, 9: 照れ怒り](doc/presentation.jpg)
-
-## 表情効果アニメーション
-
-詳しい使い方については`readme.txt`を参照してください。
-
-- 照れ
-- 汗
-- 影
-
-![「パープル・アイの着せ替えボーイ」の表情効果一覧。素の表情に、「照れ」「汗」「影」の効果をつけた画像](doc/effect.jpg)
-
-## 当たり判定
-
-- Head
-- Shoulder
-- Hand
-
-当たり判定上ではマウスカーソルが変わるように設定されています。
-
-## 着せ替え箇所
-
-- 靴下
-- 靴
-- ボトムス
-- シャツ
-- タイ (Ｙシャツ専用)
-- ベスト
-- アウター
-
-## 作成協力
-
-### 灯坂アキラ さん
-
-surfaces.txt等の記述をお願いいたしました。
-ありがとうございます。
-
-## ライセンス
-
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。
-([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))
-
-## 連絡先
-
-- [Peing質問箱](https://peing.net/ja/tukinami_seika)
-- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)
-- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)
-
-## 製作者
-
-月波 清火
-
-- [GitHub](https://github.com/tukinami)
-- [github.io(これまで公開した制作物)](https://tukinami.github.io)
 </pre>
 			</aside>
 		</article>
@@ -2286,7 +2151,7 @@ LilyNovelPlayer製作委員会の作ったものです。
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2025-05-07T00:58:54Z">2025-05-07 09:58:54</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/Taromati2/package-factory/releases/download/14872760927/Taromati2.nar" title="https://github.com/Taromati2/package-factory/releases/download/14872760927/Taromati2.nar" rel="nofollow" data-filesize="4980.3" data-download_count="8">download</a></p>
+				<p class="download"><a href="https://github.com/Taromati2/package-factory/releases/download/14872760927/Taromati2.nar" title="https://github.com/Taromati2/package-factory/releases/download/14872760927/Taromati2.nar" rel="nofollow" data-filesize="4980.3" data-download_count="12">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTaromati2%2Fpackage-factory%2Freleases%2Fdownload%2F14872760927%2FTaromati2.nar" title="https://github.com/Taromati2/package-factory/releases/download/14872760927/Taromati2.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="Taromati2">
@@ -5201,90 +5066,6 @@ C. 著作者人格権はDonに帰属します。著作権は放棄します。
 			<aside class="readme" aria-label="balloonselector">
 				<h4>readme</h4>
 <pre>
-
-　プラグイン『BalloonSelector』
-
-　作成者　　　　Don
-　一次配布元　　https://nikolat.github.io/
-
-■機能
-
-　インストール済みのバルーン画像を一部切り取ってバルーン内に９個表示します。
-　バルーンを選択するとそのバルーンに切り替わります。
-
-■仕様
-
-◆Ghost側に通知されるイベントは以下の通りです。
-
-●OnBalloonSelectMenu
-Reference0　　バルーンを表示するページ番号(Zero Origin)
-
-　バルーンセレクトメニューを表示する際に通知されます。
-　バルーン内に表示されているページ番号より１小さい値です。
-
-●OnBalloonSelectExec
-Reference0　　バルーン名
-
-　ユーザがバルーンを選択した際、バルーンチェンジする時に通知されます。
-
-●OnBalloonSelectCancel
-
-　ユーザがバルーンセレクトメニューを閉じた際に通知されます。
-　バルーンブレイク時も同様の扱いとします。
-
-◆Ghost側から利用できるイベントは以下の通りです。
-（\![raiseplugin,BalloonSelector,イベント名,Argument0,...]）
-
-●OnMenuExec
-
-　バルーンセレクトメニューの最初のページを開きます。
-
-●OnBalloonSelectMenuOpen
-Argument0　　バルーンを表示するページ番号(Zero Origin)
-
-　バルーンセレクトメニューをページ番号を指定して表示します。
-　バルーン内に表示されるページ番号より１小さい値を指定してください。
-
-■謝辞
-
-　◆YAYA as PLUGINを使わせて頂いております。
-　◇「整備班 -The Maintenance Shop-」
-　　http://ms.shillest.net/yaya_as.xhtml
-
-　ありがとうございます。
-
-■更新履歴
-
-2008/09/07  Ver1.0  新規作成
-2008/09/08  Ver1.1  バルーンサイズに合わせて変形できるようにした
-                    OnBalloonSelectMenuOpen追加
-2008/09/09  Ver1.2  バルーンフォルダを複数指定した場合に対応
-2008/09/10  Ver1.3  バルーンの自動スクロールを無効化
-                    バルーンタイムアウト無効化
-                    バルーンブレイクをOnBalloonSelectCancelとして通知
-                    現在のページを下段ページボタンに反映
-                    下段ページボタンの最大表示数を30とした
-                    バルーン切り取りサイズの最小値を設定
-                    全体的なレイアウトの微調整
-2008/09/13  Ver1.4  文字コードがShift_JIS以外に対応できていなかったのを修正
-2008/09/14  Ver1.5  yaya.dll差し替え
-                    YAYA as PLUGINテンプレート差し替え
-2008/12/14  Ver1.6  yaya.dll差し替え
-                    YAYAの多言語化によりShift_JIS / UTF-8以外にも多くの文字コードに対応可能に
-2011/02/07  Ver1.7  トランスレートを行うゴーストで意図しない文字列の置換が行われる
-                    場合がある不具合の修正
-2021/10/23  Ver1.8  yaya.dll差し替え
-                    ネットワーク更新先の変更
-2021/12/15  Ver1.9  yaya.dll差し替え
-                    システム辞書微修正
-2022/04/02  Ver2.0  yaya.dll差し替え
-                    システム辞書微修正
-2022/04/23  Ver2.1  yaya.dll差し替え
-2022/05/30  Ver2.2  yaya.dll差し替え
-2022/06/23  Ver2.3  yaya.dll差し替え
-                    システム辞書アップデート
-2022/07/10  Ver2.4  yaya.dll差し替え
-                    システム辞書アップデート
 </pre>
 			</aside>
 		</article>
