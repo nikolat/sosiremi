@@ -352,6 +352,60 @@ ghost/master/elin
 			<aside class="readme" aria-label="my_own_translator">
 				<h4>readme</h4>
 <pre>
+# my_own_translator
+
+The end of person who was not satisfied with just the functionality of a certain ghost.
+
+## What&#39;s this
+
+[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
+
+Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
+
+Additionally, I have tried to show the text as closely as possible to the original.
+
+## Library
+
+yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
+yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
+libcurl     | curl      | https://curl.se/
+
+## Mechanism
+
+Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
+
+```
+\0This \q[apple,OnFoo] is blue.\e
+```
+
+↓ parse/replace event id
+
+```
+----
+&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = apple
+&lt;4&gt; = \e
+```
+
+↓ translate &lt;0&gt;, &lt;3&gt;
+
+```
+&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = りんご
+&lt;4&gt; = \e
+```
+
+↓ build
+
+```
+\0この\q[りんご,OnKeep]は青色です。\e
+```
+
+cf. OnKeep -&gt; \C
 </pre>
 			</aside>
 		</article>

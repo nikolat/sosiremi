@@ -1588,6 +1588,36 @@ ghost/master/elin
 			<aside class="readme" aria-label="kumasan_with_deathplay">
 				<h4>readme</h4>
 <pre>
+# 「くまさん・うぃず・ですぷれ」
+![プレビュー](preview.gif &#34;プレビュー&#34;)
+
+## これなに
+* 伺か向けに設定済みのフリーシェル(画像素材)です
+* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します
+* 伺か関連作品以外への利用も可能です
+* 動作デモ用ゴーストもあります
+
+## 利用条件
+動作デモ用ゴースト以外は、下記の条件でご利用いただけます。
+* 改変可
+* 再配布可
+* 改変後の再配布可
+* 伺か関連作品以外への利用可
+* 著作者表示不要
+* 使用報告不要
+
+## ダウンロード
+* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)
+  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。
+* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)
+* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)
+* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)
+* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)
+  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。
+
+## 連絡先
+* 作者：lost_nd_xxx（ろすえん）
+* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)
 </pre>
 			</aside>
 		</article>
@@ -1648,6 +1678,60 @@ ghost/master/elin
 			<aside class="readme" aria-label="my_own_translator">
 				<h4>readme</h4>
 <pre>
+# my_own_translator
+
+The end of person who was not satisfied with just the functionality of a certain ghost.
+
+## What&#39;s this
+
+[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
+
+Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
+
+Additionally, I have tried to show the text as closely as possible to the original.
+
+## Library
+
+yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
+yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
+libcurl     | curl      | https://curl.se/
+
+## Mechanism
+
+Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
+
+```
+\0This \q[apple,OnFoo] is blue.\e
+```
+
+↓ parse/replace event id
+
+```
+----
+&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = apple
+&lt;4&gt; = \e
+```
+
+↓ translate &lt;0&gt;, &lt;3&gt;
+
+```
+&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = りんご
+&lt;4&gt; = \e
+```
+
+↓ build
+
+```
+\0この\q[りんご,OnKeep]は青色です。\e
+```
+
+cf. OnKeep -&gt; \C
 </pre>
 			</aside>
 		</article>
@@ -2241,6 +2325,20 @@ https://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md
 			<aside class="readme" aria-label="LilyNovelPlayer_Prototype_Scenarios">
 				<h4>readme</h4>
 <pre>
+# りりぷれ ぷろとたいぷ
+![りりぷれ ぷろとたいぷ スクリーンショット](ss_lnp_proto.png &#34;りりぷれ ぷろとたいぷ スクリーンショット&#34;)
+
+[「Lily Novel Player」](https://github.com/lost-nd-xxx/LilyNovelPlayer/wiki)用サプリメントです。&lt;br&gt;
+LNPへインストールすると、LNP開発中に使われていたプロトタイプシナリオをお楽しみいただけます。&lt;br&gt;
+このサプリメントに含まれる`.txt`形式のファイルは、著作表記なしで改変再配布可能とします。&lt;br&gt;
+（※ただし、`profile`フォルダ以下を含まない）
+
+## ダウンロード
+* [lostndxxx_prototype.nar](https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/latest/download/lostndxxx_prototype.nar)
+
+## 何かありましたら
+* 責任者：ろすえん(lost_nd_xxx)
+* 連絡先：https://lnx.flop.jp/
 </pre>
 			</aside>
 		</article>
@@ -2685,6 +2783,78 @@ ${user}&lt;|end|&gt;
 			<aside class="readme" aria-label="lady-goldfish-bowl">
 				<h4>readme</h4>
 <pre>
+# 金魚鉢令嬢
+
+![シェル「金魚鉢令嬢」のプレビュー画像。金魚鉢の頭を持った女性の立ち絵の紹介。](doc/pr.png)
+
+## これは何？
+
+伺か用フリーシェル(立ち絵)「金魚鉢令嬢」の公開レポジトリです。
+
+金魚が入った金魚鉢の頭を持つ女性のフリーシェルです。SSP専用です。
+簡単なオーナードロメニューがついています。
+通常版とアレンジ版があります。
+
+シェルやpsdファイルのダウンロードは
+[`Releasesの最新版`](https://github.com/tukinami/lady-goldfish-bowl/releases/latest)からどうぞ。
+
+## ダウンロードできる内容は？
+
+通常は`lady-goldfish-bowl.nar`か`lady-goldfish-bowl_arranged.nar`、
+どちらかをダウンロードしてください。
+
+### lady-goldfish-bowl.nar
+
+フリーシェル本体(通常版)です。
+名前は「金魚鉢令嬢」で、縦543pxです。
+
+### lady-goldfish-bowl\_arranged.nar
+
+フリーシェル本体(アレンジ版)です。
+名前は「金魚鉢令嬢:深窓」で、縦543pxです。
+
+### lady-goldfish-bowl-psd.zip
+
+シェル改変のために用意したpsdファイルです。シェル本体と金魚の切り抜きが入っています。
+
+## シェルアニメーションのプレビュー
+
+泳いでいるアニメーションパターン。
+
+![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢の中で金魚が泳いでいる。](doc/preview_animation_normal.gif)
+
+飛び跳ねているアニメーションパターン。
+
+![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢から金魚が飛び跳ねている。](doc/preview_animation_jump.gif)
+
+## 当たり判定
+
+- Shoes
+- Leg
+- Hip
+- Head
+- Bust
+- Hand
+
+当たり判定上ではマウスカーソルが変わるように設定されています。
+
+## ライセンス
+
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。
+([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))
+
+## 連絡先
+
+- [Peing質問箱](https://peing.net/ja/tukinami_seika)
+- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)
+- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)
+
+## 製作者
+
+月波 清火
+
+- [GitHub](https://github.com/tukinami)
+- [github.io(これまで公開した制作物)](https://tukinami.github.io)
 </pre>
 			</aside>
 		</article>
