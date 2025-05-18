@@ -458,33 +458,6 @@ SSPでのみ動作確認
 			<aside class="readme" aria-label="ukagakaPlugin_CeVIO-Talker">
 				<h4>readme</h4>
 <pre>
-# CeVIO-Talker
-このプラグインは伺的アドベントカレンダー2022で21日目の記事として作成されました。
-[【SSP】伺かをCEVIO AIの力を借りてフルボイス化した。【WINDOWS10】](https://ambergonslibrary.com/?p=8544)
-
-2023/04/06 リメイクしました。
-[GitHub - ambergon/ukagakaPlugin_CeVIO-TalkerV2](https://github.com/ambergon/ukagakaPlugin_CeVIO-TalkerV2)
-
-
-
-## お借りしたもの
-yaya.dll
-[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
-
-proxy_ex.dll
-[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)
-
-
-## Other
-このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。
-
-
-## Author
-[ambergon](https://twitter.com/Sc_lFoxGon)
-
-
-
-
 </pre>
 			</aside>
 		</article>
@@ -779,6 +752,121 @@ proxy_ex.dll&lt;br&gt;
 			<aside class="readme" aria-label="UkagakaPlugin_DBdiary">
 				<h4>readme</h4>
 <pre>
+# DBdiary
+簡単な日記を作成するためのプログラムです。
+
+## 使用可能な関数一覧
+```
+&#34;\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]&#34;
+&#34;\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]&#34;
+&#34;\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]&#34;
+
+
+//20230104追加関数
+&#34;\![raiseplugin,DBdiary,OnCheckWrittenDiary]&#34;
+```
+
+## 日記を書く
+二種類の方法で日記を書くことができます。
+- DirtyDiary&lt;br&gt;
+    保存名が日付+日記内容.txtになります。&lt;br&gt;
+    日記の中には「Dirty Diary」に統一されます。&lt;br&gt;
+
+- BeautifulDiary&lt;br&gt;
+    保存名が日付.txtになります。&lt;br&gt;
+    こちらはゴーストから日記内容を取得できるようにしています。&lt;br&gt;
+
+#### 日記の保存先
+プラグインフォルダ/Diary/yyyymmdd{Dirty Diary only}.txt
+
+
+## DirtyDiaryを呼び出す。
+このプラグインをインストールしている状態で下記のサクラスクリプトを打ち込んでください。&lt;br&gt;
+入力欄が出てきます。&lt;br&gt;
+ゴーストに発言させる場合はbefore_textやafter_textの部分を適時書き換えてください。&lt;br&gt;
+他のテキストと相性が悪かったためこのような形になりました。&lt;br&gt;
+```
+&#34;\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]&#34;
+```
+
+## BeautifulDiaryを呼び出す。
+使用方法は同じです。
+```
+&#34;\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]&#34;
+```
+
+## 日記の内容を引っ張り出す。
+同じくbefore_text,after_textをうまく使ってやってください。&lt;br&gt;
+指定した日付の日記の内容を取得します。&lt;br&gt;
+notWriteは何も書かれていなかった時、&lt;br&gt;
+notExistは日記がなかった時に表示されます。&lt;br&gt;
+```
+&#34;\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]&#34;
+```
+
+
+## 日記の内容を引っ張り出す。2
+先ほどの関数ではゴーストから扱いづらいので別の関数を用意しました。
+引数は不要でこのサクラスクリプトを実行するだけです。
+```
+&#34;\![raiseplugin,DBdiary,OnCheckWrittenDiary]&#34;
+```
+ただし、ゴースト側で下記のOnRecieveCheckWrittenDiary関数を実装してください。
+この関数はreference0に ファイルが存在してかつ、空のファイルじゃなかった場合はBeautifulDiaryの本文が格納されています。
+
+以下は実装例。
+```
+OnRecieveCheckWrittenDiary {
+    _res = reference[0]
+    if ( _res == &#34;notExist&#34; ) {
+        &#34;書いてないやんけ。&#34;
+
+    } elseif ( _res == &#34;notWrite&#34; ) {
+        &#34;白紙やぞ。&#34;
+
+    } else {
+        _text = &#34;この日の日記は &#34; + _res + &#34;だったんだね。&#34;
+    }
+}
+```
+
+
+
+## お借りしたもの
+yaya.dll
+[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)
+
+
+## Other
+このプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。&lt;br&gt;
+またゴースト等に同梱して配布していただいて構いません。&lt;br&gt;
+main.uka内部を好きに書き換えてくれて構いません。&lt;br&gt;
+
+
+## 小言
+実際に作ってみたものの、raisepluginが使いづらく、&lt;br&gt;
+プラグイン化のメリットはゴーストのデータを汚さないことぐらいでしょうか.&lt;br&gt;
+
+FREADで読み込めるのは一行だけの都合、日記を読み込む際に複数行書かれた場合(追記モードに変更したのであり得る)最初の一行しか引っ張れない問題がある。
+
+
+
+
+## Author
+[ambergon](https://twitter.com/Sc_lFoxGon)
+
+o
+
+
+
+
+
+
+
+
+
+
+
 </pre>
 			</aside>
 		</article>
@@ -857,90 +945,6 @@ C. 著作者人格権はDonに帰属します。著作権は放棄します。
 			<aside class="readme" aria-label="balloonselector">
 				<h4>readme</h4>
 <pre>
-
-　プラグイン『BalloonSelector』
-
-　作成者　　　　Don
-　一次配布元　　https://nikolat.github.io/
-
-■機能
-
-　インストール済みのバルーン画像を一部切り取ってバルーン内に９個表示します。
-　バルーンを選択するとそのバルーンに切り替わります。
-
-■仕様
-
-◆Ghost側に通知されるイベントは以下の通りです。
-
-●OnBalloonSelectMenu
-Reference0　　バルーンを表示するページ番号(Zero Origin)
-
-　バルーンセレクトメニューを表示する際に通知されます。
-　バルーン内に表示されているページ番号より１小さい値です。
-
-●OnBalloonSelectExec
-Reference0　　バルーン名
-
-　ユーザがバルーンを選択した際、バルーンチェンジする時に通知されます。
-
-●OnBalloonSelectCancel
-
-　ユーザがバルーンセレクトメニューを閉じた際に通知されます。
-　バルーンブレイク時も同様の扱いとします。
-
-◆Ghost側から利用できるイベントは以下の通りです。
-（\![raiseplugin,BalloonSelector,イベント名,Argument0,...]）
-
-●OnMenuExec
-
-　バルーンセレクトメニューの最初のページを開きます。
-
-●OnBalloonSelectMenuOpen
-Argument0　　バルーンを表示するページ番号(Zero Origin)
-
-　バルーンセレクトメニューをページ番号を指定して表示します。
-　バルーン内に表示されるページ番号より１小さい値を指定してください。
-
-■謝辞
-
-　◆YAYA as PLUGINを使わせて頂いております。
-　◇「整備班 -The Maintenance Shop-」
-　　http://ms.shillest.net/yaya_as.xhtml
-
-　ありがとうございます。
-
-■更新履歴
-
-2008/09/07  Ver1.0  新規作成
-2008/09/08  Ver1.1  バルーンサイズに合わせて変形できるようにした
-                    OnBalloonSelectMenuOpen追加
-2008/09/09  Ver1.2  バルーンフォルダを複数指定した場合に対応
-2008/09/10  Ver1.3  バルーンの自動スクロールを無効化
-                    バルーンタイムアウト無効化
-                    バルーンブレイクをOnBalloonSelectCancelとして通知
-                    現在のページを下段ページボタンに反映
-                    下段ページボタンの最大表示数を30とした
-                    バルーン切り取りサイズの最小値を設定
-                    全体的なレイアウトの微調整
-2008/09/13  Ver1.4  文字コードがShift_JIS以外に対応できていなかったのを修正
-2008/09/14  Ver1.5  yaya.dll差し替え
-                    YAYA as PLUGINテンプレート差し替え
-2008/12/14  Ver1.6  yaya.dll差し替え
-                    YAYAの多言語化によりShift_JIS / UTF-8以外にも多くの文字コードに対応可能に
-2011/02/07  Ver1.7  トランスレートを行うゴーストで意図しない文字列の置換が行われる
-                    場合がある不具合の修正
-2021/10/23  Ver1.8  yaya.dll差し替え
-                    ネットワーク更新先の変更
-2021/12/15  Ver1.9  yaya.dll差し替え
-                    システム辞書微修正
-2022/04/02  Ver2.0  yaya.dll差し替え
-                    システム辞書微修正
-2022/04/23  Ver2.1  yaya.dll差し替え
-2022/05/30  Ver2.2  yaya.dll差し替え
-2022/06/23  Ver2.3  yaya.dll差し替え
-                    システム辞書アップデート
-2022/07/10  Ver2.4  yaya.dll差し替え
-                    システム辞書アップデート
 </pre>
 			</aside>
 		</article>
