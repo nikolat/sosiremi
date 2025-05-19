@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "lost-nd-xxx/SakanaiUsoWoHitotsuDake",
+            "url": "https://github.com/lost-nd-xxx/SakanaiUsoWoHitotsuDake",
+            "title": "SakanaiUsoWoHitotsuDake",
+            "content_text": "ゴースト「咲かない嘘をひとつだけ」\r\n\r\n校庭の隅にぽつんとある大きな樹に、\r\n人間のような顔が見えてしまったら。\r\n絶対に話しかけてはいけません。\r\n話しかけてしまったら、仲間にされてしまうから……\r\n\r\n\r\n●含有成分\r\nこの作品には以下の要素が含まれます\r\n・ユーザという人物がいる\r\n・殴る蹴る以外の暴力\r\n・死\r\n・ハッピーエンドではない\r\n※暴力・死・ユーザは視覚的(絵面)には描写されません\r\n\r\n\r\n●使用素材\r\n○フリーシェル「奇樹」\r\nhttps://rocketsalad.studio.site/wb9qgiTt/24S4Dc54\r\n※ゴースト作者による改変を含む\r\n\r\n〇右クリックメニューの画像・タスクトレイアイコン\r\nゴースト作者による自作\r\n\r\n○ゴーストマスカレード7サンプル（サンプルゴースト）\r\nhttps://earlduant.blog.fc2.com/blog-entry-918.html\r\n\r\n○偽AI「里々」（整備班ver）\r\nhttps://github.com/ukatech/satoriya-shiori\r\n\r\n\r\n●作者情報・連絡先\r\n○作者: ろすえん (lost_nd_xxx)\r\nhttps://lnx.flop.jp/form/postmail.html\r\n",
+            "summary": "伺かゴースト「咲かない嘘をひとつだけ」",
+            "date_published": "2025-05-19T16:08:09Z",
+            "date_modified": "2025-05-19T16:08:21Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/SakanaiUsoWoHitotsuDake/releases/download/1.0.0/SakanaiUsoWoHitotsuDake.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "SakanaiUsoWoHitotsuDake.nar",
+                    "size_in_bytes": 3741623,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/UGMNavigator_Umechan",
             "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan",
             "title": "UGMNavigator_Umechan",
