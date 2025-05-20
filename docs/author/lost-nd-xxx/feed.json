@@ -33,7 +33,7 @@
                     "title": "SakanaiUsoWoHitotsuDake.nar",
                     "size_in_bytes": 3741623,
                     "_ex": {
-                        "download_count": 3
+                        "download_count": 4
                     }
                 }
             ]
@@ -273,7 +273,7 @@
             "id": "lost-nd-xxx/unyu_lunchbox",
             "url": "https://github.com/lost-nd-xxx/unyu_lunchbox",
             "title": "unyu_lunchbox",
-            "content_text": "",
+            "content_text": "※効果音が鳴ります。\n適宜、機器の設定を調整してお楽しみください。\n\n\n# ゴースト「うにゅうのお弁当箱」\n作者   : ろすえん(lost_nd_xxx)\n連絡先 : https://lnx.flop.jp/\n\n----------------------------------------------------------------\n## 使い方\n* イラストまたはタスクトレイアイコンの上で右クリック\n    * 本体機能などのメニュー\n* 生き物の上でダブルクリック\n    * 「うにゅうのお弁当箱」独自のメニュー\n* ボタンをシングルクリック\n    * 射出\n\n※射出物として指定されたファイルへの変更は加えませんが、\n起動してはいけないようなファイルは指定しないでください。\n\n----------------------------------------------------------------\n## 謝辞\n* SHIORIにYAYAを使用させていただいています。\n    http://ms.shillest.net/yaya.xhtml\n\n* テンプレート辞書に「はろーYAYAわーるど」を使用させていただいています。\n    http://ms.shillest.net/yayame.xhtml\n\n* シェルの絵(shell/master/surface0.png～surface6.png)は颯爽と現れたレプラコーンさんが描いてくださったものです。\n（txt定義等はろすえんによるものです）\n\n* 効果音は「CHIPTONE」で作成したものです。\n    https://sfbgames.itch.io/chiptone\n\n----------------------------------------------------------------\n## 偉大なる始祖\n* さくらとうにゅう(materia)\n    http://usada.sakura.vg/\n",
             "summary": "ゴースト「うにゅうのお弁当箱」",
             "date_published": "2024-05-18T07:25:11Z",
             "date_modified": "2024-05-18T07:25:14Z",
