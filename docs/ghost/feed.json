@@ -11,8 +11,8 @@
             "title": "UGMNavigator_Umechan",
             "content_text": "UkagakaGhostMessengerナビゲーターうめちゃん\n～～～～\nUkagakaGhostMessengerのナビゲートをするゴーストです。\nスクリプトの作成補助、プラグインの内容の簡易解説などをします。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n～～～～\n＃利用モジュール等\n\n＊YAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n＊紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n＊紺野りりす\nhttps://ms.shillest.net/yayalilith.xhtml\n\n＊textcopy2.dll\nhttps://code.google.com/archive/p/csaori/\n\n＊うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n・にじジャーニー\nhttps://nijijourney.com/ja/\n・にじジャーニー利用規約\nhttps://docs.midjourney.com/docs/terms-of-service\n\n＊活用例プリセットに入っている和菓子\nろすえんが描いたものです。\n",
             "summary": "伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」",
-            "date_published": "2025-01-24T18:51:08Z",
-            "date_modified": "2025-01-24T18:51:11Z",
+            "date_published": "2025-06-12T09:54:42Z",
+            "date_modified": "2025-06-12T09:54:46Z",
             "authors": [
                 {
                     "name": "lost-nd-xxx",
@@ -28,12 +28,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.1/UGMNavigator_Umechan.nar",
+                    "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.2/UGMNavigator_Umechan.nar",
                     "mime_type": "application/x-nar",
                     "title": "UGMNavigator_Umechan.nar",
-                    "size_in_bytes": 755412,
+                    "size_in_bytes": 757779,
                     "_ex": {
-                        "download_count": 31
+                        "download_count": 1
                     }
                 }
             ]
