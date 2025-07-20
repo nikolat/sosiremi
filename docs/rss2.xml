@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>taidanaSanoSan</title>
+    <link>https://github.com/tukinami/taidanaSanoSan</link>
+    <description>伺か雑談系ゴースト</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
+    <pubDate>Sun, 20 Jul 2025 12:12:54 +0900</pubDate>
+</item>
+<item>
     <title>yakutai_nashi</title>
     <link>https://github.com/lost-nd-xxx/yakutai_nashi</link>
     <description>ゴースト「益体無しの人生だった」</description>
@@ -22,15 +31,6 @@
     <dc:creator>lost-nd-xxx</dc:creator>
     <guid isPermaLink="false">lost-nd-xxx/something_like_balloon</guid>
     <pubDate>Sun, 01 Jun 2025 13:15:37 +0900</pubDate>
-</item>
-<item>
-    <title>taidanaSanoSan</title>
-    <link>https://github.com/tukinami/taidanaSanoSan</link>
-    <description>伺か雑談系ゴースト</description>
-    <category>ghost</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
-    <pubDate>Sun, 15 Jun 2025 12:04:25 +0900</pubDate>
 </item>
 <item>
     <title>UGMNavigator_Umechan</title>
