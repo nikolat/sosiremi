@@ -1777,7 +1777,61 @@ ghost/master/elin
 			<aside class="readme" aria-label="my_own_translator">
 				<h4>readme</h4>
 <pre>
-429: Too Many Requests</pre>
+# my_own_translator
+
+The end of person who was not satisfied with just the functionality of a certain ghost.
+
+## What&#39;s this
+
+[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
+
+Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
+
+Additionally, I have tried to show the text as closely as possible to the original.
+
+## Library
+
+yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
+yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
+libcurl     | curl      | https://curl.se/
+
+## Mechanism
+
+Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
+
+```
+\0This \q[apple,OnFoo] is blue.\e
+```
+
+↓ parse/replace event id
+
+```
+----
+&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = apple
+&lt;4&gt; = \e
+```
+
+↓ translate &lt;0&gt;, &lt;3&gt;
+
+```
+&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = りんご
+&lt;4&gt; = \e
+```
+
+↓ build
+
+```
+\0この\q[りんご,OnKeep]は青色です。\e
+```
+
+cf. OnKeep -&gt; \C
+</pre>
 			</aside>
 		</article>
 		<article id="lost-nd-xxx/LilyNovelPlayer" class="hentry">
@@ -1996,7 +2050,18 @@ LilyNovelPlayer製作委員会の作ったものです。
 			<aside class="readme" aria-label="Taromati2">
 				<h4>readme</h4>
 <pre>
-429: Too Many Requests</pre>
+This ghost only supports Chinese at the moment, feel free to visit the following URL to participate in the translation
+このゴーストは現在、中国語のみ対応しています。以下のURLにアクセスし、翻訳に参加してください。
+这个ghost目前只支持中文，欢迎访问以下网址来参与翻译
+https://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md
+
+原作：http://unvollendet.web.fc2.com/
+详细信息：https://github.com/Taromati2/Taromati2
+免责声明：https://github.com/Taromati2/Taromati2#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E
+贡献者名单：https://github.com/Taromati2/Taromati2/blob/master/docs/CONTRIBUTORS.md
+
+
+</pre>
 			</aside>
 		</article>
 		<article id="lost-nd-xxx/WeatherTimeCapsule" class="hentry">
@@ -3168,7 +3233,83 @@ SAORIにTexasHoldemUtilを使用しています。
 			<aside class="readme" aria-label="desktop_tempter_casino_chip_green">
 				<h4>readme</h4>
 <pre>
-429: Too Many Requests</pre>
+# ソフトウェアについて
+
+【名    称】カジノチップ(緑)
+【種    別】ゴースト
+【制 作 者】タタキノフ
+【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降
+【配 布 元】https://tatakinov.github.io/
+【連 絡 先】tatakinov_at_gmail.com
+            https://twitter.com/tatakinov_ukgk
+
+
+## ゴーストについて
+
+テキサス・ホールデムのクライアントゴーストです。
+遊ぶにはサーバーゴーストを入れる必要があります。
+また、クライアントゴーストのサンプルゴーストでもあります。
+自分で思考部分作りたい方は
+ghost/master/README.txt、ghost/master/dic_texas_holdem.dic、
+ghost/master/dic_texas_holdem_ai.dicを参照してみてください。
+
+
+## ゴースト著作権について
+
+[1.ゴーストダウンロードページに直接リンクされる]
+○
+
+[2.ゴーストのネタバレをされる]
+○
+
+[3.ゴーストに対し批判的な意見を言われる]
+○
+作者の髪が薄くなります。
+
+[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]
+[5.原作の設定と大きくかけ離れた二次創作をされる]
+[6.18禁二次創作をされる]
+○
+ただし二次創作物である旨を目につく場所に記載すること。
+
+[7.追加シェル、バルーン等を配布される]
+○
+
+[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）
+○
+
+[9.トークをウェブ上に転載]
+○
+
+[10.マスターシェルを素材(掲示板のアイコンなど)として使用]
+○
+
+[11.ゴーストアーカイブへの直リンク]
+○
+
+[12.公開中ゴーストをウェブ上で再配布]
+○
+でもオリジナルをダウンロードしてほしくもある。
+
+[13.配布終了したゴーストをウェブ上で再配布]
+○
+
+[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）
+○
+ただし、改変している旨を目のつく場所に記載すること。
+
+[15.ゴーストの同人誌収録]
+[16.ゴーストの商業誌収録]
+○
+ご自由に。
+
+
+
+## 使用ライブラリなど
+
+SAORIにTexasHoldemUtilを使用しています。
+
+</pre>
 			</aside>
 		</article>
 		<article id="Tatakinov/desktop_tempter_casino_chip_red" class="hentry">
