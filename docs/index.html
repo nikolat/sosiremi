@@ -261,7 +261,7 @@ https://github.com/tukinami/taidanaSanoSan
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2023-07-20T12:48:41Z">2023-07-20 21:48:41</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar" title="https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar" rel="nofollow" data-filesize="1943.9" data-download_count="95">download</a></p>
+				<p class="download"><a href="https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar" title="https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar" rel="nofollow" data-filesize="1943.9" data-download_count="96">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTatakinov%2Fknowledgeable_kernel%2Freleases%2Fdownload%2F1.1.0%2Fknowledgeable_kernel.nar" title="https://github.com/Tatakinov/knowledgeable_kernel/releases/download/1.1.0/knowledgeable_kernel.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="knowledgeable_kernel">
@@ -2038,61 +2038,7 @@ ghost/master/elin
 			<aside class="readme" aria-label="my_own_translator">
 				<h4>readme</h4>
 <pre>
-# my_own_translator
-
-The end of person who was not satisfied with just the functionality of a certain ghost.
-
-## What&#39;s this
-
-[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
-
-Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
-
-Additionally, I have tried to show the text as closely as possible to the original.
-
-## Library
-
-yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
-yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
-libcurl     | curl      | https://curl.se/
-
-## Mechanism
-
-Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
-
-```
-\0This \q[apple,OnFoo] is blue.\e
-```
-
-↓ parse/replace event id
-
-```
-----
-&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = apple
-&lt;4&gt; = \e
-```
-
-↓ translate &lt;0&gt;, &lt;3&gt;
-
-```
-&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = りんご
-&lt;4&gt; = \e
-```
-
-↓ build
-
-```
-\0この\q[りんご,OnKeep]は青色です。\e
-```
-
-cf. OnKeep -&gt; \C
-</pre>
+429: Too Many Requests</pre>
 			</aside>
 		</article>
 		<article id="tukinami/purple-eyed-dressed-up-boy" class="hentry">
@@ -2242,77 +2188,7 @@ A、だって辰歳ちゃし…さすがに恥ずいのちゃ。</pre>
 			<aside class="readme" aria-label="Saigai_no_ikimono_chan">
 				<h4>readme</h4>
 <pre>
-フリーシェル：「海で一番強い生き物」ちゃん
-
-　PSD同梱
-　PSDはすきにしてください。同梱したPSDは使用や削除や配布など諸々に一切の制限はありません。
-　PSDはClipStudioとPhotoshopで動作を確認しています。
-
-
-【コンセプト】
-　　
-　凍り付いた海っぽい（？？？）
-　いか　たこ　かに　えび　うみうし　力ある邪悪　大海の覇権種族　から任意のn個の要素
-　Saigaiは塞外（万里の長城より北の地域）の意味　災害とかでもいいよ
-　ぷにっとした　低めの頭身　ぷにうかの参加作品
-
-
-
-【surface関連】
-
-  **0 素の口
-  **1 舌しまい忘れ
-  **2 冷笑
-  **3 ニコ
-  **4 ω
-  **5 口開け
-
-  *0* 素の目の向き
-  *1* こっちみる
-  *2* あっちみる
-  *3* 半目（素の目の向き）
-  *4* 半目（こっちみる）
-  *5* 半目（あっちみる）
-  *6* 目閉じ
-
-
-【再配布・改変等】
-
-　本作品の再配布は基本的にＯＫ
-　また、改変後の配布は改変者の名前で行ってください。
-　改変後のものに関して製作者は関知しません。
-　改変後の配布にあたってはreadmeも適当に書き換えてください。（シェルとして使う分には書き換えなくともよいと思われます）
-
-　本作品（「海で一番強い生き物」ちゃん）に限って実験的に創作再配布改変の規約を緩くしてみる意図があります。
-　それ以外の創作物には一切言及していないことに留意してください。
-　別のゴーストや別製作者さんのイラストなどにこの規約を持ち出さないでください。
-
-【二次創作等】
-　　
-　一切の制限はありません。
-
-
-
-【スペシャルサンクス】
-
-　うかどんの各位
-
-
-【GitHubのダウンロードページはこちら】
-
-　https://github.com/Shimofumi/Saigai_no_ikimono_chan/releases
-
-　一番上のバージョンのAssetsの欄から「Saigai_no_ikimono_chan.zip」をダウンロードして導入してください。
-
-
-【製作者】（同一人物）
-　
-　しもふみ　／　下田文雄（しもだ ふみお）
-　
-
-  https://ukadon.shillest.net/@Shimofumi
-	twitter：@Shimofumi
-</pre>
+429: Too Many Requests</pre>
 			</aside>
 		</article>
 		<article id="lost-nd-xxx/LilyNovelPlayer" class="hentry">
@@ -2531,18 +2407,7 @@ LilyNovelPlayer製作委員会の作ったものです。
 			<aside class="readme" aria-label="Taromati2">
 				<h4>readme</h4>
 <pre>
-This ghost only supports Chinese at the moment, feel free to visit the following URL to participate in the translation
-このゴーストは現在、中国語のみ対応しています。以下のURLにアクセスし、翻訳に参加してください。
-这个ghost目前只支持中文，欢迎访问以下网址来参与翻译
-https://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md
-
-原作：http://unvollendet.web.fc2.com/
-详细信息：https://github.com/Taromati2/Taromati2
-免责声明：https://github.com/Taromati2/Taromati2#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E
-贡献者名单：https://github.com/Taromati2/Taromati2/blob/master/docs/CONTRIBUTORS.md
-
-
-</pre>
+429: Too Many Requests</pre>
 			</aside>
 		</article>
 		<article id="lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios" class="hentry">
@@ -3022,79 +2887,7 @@ ${user}&lt;|end|&gt;
 			<aside class="readme" aria-label="lady-goldfish-bowl">
 				<h4>readme</h4>
 <pre>
-# 金魚鉢令嬢
-
-![シェル「金魚鉢令嬢」のプレビュー画像。金魚鉢の頭を持った女性の立ち絵の紹介。](doc/pr.png)
-
-## これは何？
-
-伺か用フリーシェル(立ち絵)「金魚鉢令嬢」の公開レポジトリです。
-
-金魚が入った金魚鉢の頭を持つ女性のフリーシェルです。SSP専用です。
-簡単なオーナードロメニューがついています。
-通常版とアレンジ版があります。
-
-シェルやpsdファイルのダウンロードは
-[`Releasesの最新版`](https://github.com/tukinami/lady-goldfish-bowl/releases/latest)からどうぞ。
-
-## ダウンロードできる内容は？
-
-通常は`lady-goldfish-bowl.nar`か`lady-goldfish-bowl_arranged.nar`、
-どちらかをダウンロードしてください。
-
-### lady-goldfish-bowl.nar
-
-フリーシェル本体(通常版)です。
-名前は「金魚鉢令嬢」で、縦543pxです。
-
-### lady-goldfish-bowl\_arranged.nar
-
-フリーシェル本体(アレンジ版)です。
-名前は「金魚鉢令嬢:深窓」で、縦543pxです。
-
-### lady-goldfish-bowl-psd.zip
-
-シェル改変のために用意したpsdファイルです。シェル本体と金魚の切り抜きが入っています。
-
-## シェルアニメーションのプレビュー
-
-泳いでいるアニメーションパターン。
-
-![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢の中で金魚が泳いでいる。](doc/preview_animation_normal.gif)
-
-飛び跳ねているアニメーションパターン。
-
-![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢から金魚が飛び跳ねている。](doc/preview_animation_jump.gif)
-
-## 当たり判定
-
-- Shoes
-- Leg
-- Hip
-- Head
-- Bust
-- Hand
-
-当たり判定上ではマウスカーソルが変わるように設定されています。
-
-## ライセンス
-
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。
-([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))
-
-## 連絡先
-
-- [Peing質問箱](https://peing.net/ja/tukinami_seika)
-- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)
-- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)
-
-## 製作者
-
-月波 清火
-
-- [GitHub](https://github.com/tukinami)
-- [github.io(これまで公開した制作物)](https://tukinami.github.io)
-</pre>
+429: Too Many Requests</pre>
 			</aside>
 		</article>
 		<article id="nikolat/wallet_of_unyu" class="hentry">
@@ -4749,83 +4542,7 @@ SAORIにTexasHoldemUtilを使用しています。
 			<aside class="readme" aria-label="desktop_tempter_casino_chip_green">
 				<h4>readme</h4>
 <pre>
-# ソフトウェアについて
-
-【名    称】カジノチップ(緑)
-【種    別】ゴースト
-【制 作 者】タタキノフ
-【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降
-【配 布 元】https://tatakinov.github.io/
-【連 絡 先】tatakinov_at_gmail.com
-            https://twitter.com/tatakinov_ukgk
-
-
-## ゴーストについて
-
-テキサス・ホールデムのクライアントゴーストです。
-遊ぶにはサーバーゴーストを入れる必要があります。
-また、クライアントゴーストのサンプルゴーストでもあります。
-自分で思考部分作りたい方は
-ghost/master/README.txt、ghost/master/dic_texas_holdem.dic、
-ghost/master/dic_texas_holdem_ai.dicを参照してみてください。
-
-
-## ゴースト著作権について
-
-[1.ゴーストダウンロードページに直接リンクされる]
-○
-
-[2.ゴーストのネタバレをされる]
-○
-
-[3.ゴーストに対し批判的な意見を言われる]
-○
-作者の髪が薄くなります。
-
-[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]
-[5.原作の設定と大きくかけ離れた二次創作をされる]
-[6.18禁二次創作をされる]
-○
-ただし二次創作物である旨を目につく場所に記載すること。
-
-[7.追加シェル、バルーン等を配布される]
-○
-
-[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）
-○
-
-[9.トークをウェブ上に転載]
-○
-
-[10.マスターシェルを素材(掲示板のアイコンなど)として使用]
-○
-
-[11.ゴーストアーカイブへの直リンク]
-○
-
-[12.公開中ゴーストをウェブ上で再配布]
-○
-でもオリジナルをダウンロードしてほしくもある。
-
-[13.配布終了したゴーストをウェブ上で再配布]
-○
-
-[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）
-○
-ただし、改変している旨を目のつく場所に記載すること。
-
-[15.ゴーストの同人誌収録]
-[16.ゴーストの商業誌収録]
-○
-ご自由に。
-
-
-
-## 使用ライブラリなど
-
-SAORIにTexasHoldemUtilを使用しています。
-
-</pre>
+429: Too Many Requests</pre>
 			</aside>
 		</article>
 		<article id="Tatakinov/desktop_tempter_casino_chip_red" class="hentry">
