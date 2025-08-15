@@ -6,6 +6,138 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/purple-eyed-dressed-up-boy",
+            "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy",
+            "title": "purple-eyed-dressed-up-boy",
+            "content_text": "# パープル・アイの着せ替えボーイ\n\n![シェル「パープル・アイの着せ替えボーイ」のプレビュー画像。紫色の瞳をした少年の立ち絵の紹介。](doc/pr.jpg)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「パープル・アイの着せ替えボーイ」の公開レポジトリです。\n\n着せ替えがついた少年のフリーシェルです。SSP専用です。\n\n簡単なオーナードローメニュー素材がついています。\n\nポーズ差分あり。\nまた、neverアニメーションで表情に効果を付けることができます。\n\nシェルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n### purple-eyed-dressed-up-boy.zip\n\nフリーシェル本体です。\n名前は「パープル・アイの着せ替えボーイ」で、縦615pxです。\n\n## 表情・ポーズ一覧\n\n![「パープル・アイの着せ替えボーイ」の表情・ポーズ一覧。0: 素, 1: 照れ, 2: 驚き, 3: 不安, 4: 落ち込み, 5: 微笑み, 6: 目閉じ, 7: 怒り, 8: 冷笑, 9: 照れ怒り](doc/presentation.jpg)\n\n## 表情効果アニメーション\n\n詳しい使い方については`readme.txt`を参照してください。\n\n- 照れ\n- 汗\n- 影\n\n![「パープル・アイの着せ替えボーイ」の表情効果一覧。素の表情に、「照れ」「汗」「影」の効果をつけた画像](doc/effect.jpg)\n\n## 当たり判定\n\n- Head\n- Shoulder\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## 着せ替え箇所\n\n- 靴下\n- 靴\n- ボトムス\n- シャツ\n- タイ (Ｙシャツ専用)\n- ベスト\n- アウター\n\n## 作成協力\n\n### 灯坂アキラ さん\n\nsurfaces.txt等の記述をお願いいたしました。\nありがとうございます。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Wavebox](https://wavebox.me/wave/ersk1ec23kr3hrqr/)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
+            "summary": "伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。",
+            "date_published": "2025-08-15T10:42:59Z",
+            "date_modified": "2025-08-15T10:43:02Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/download/v1.1.0/purple-eyed-dressed-up-boy.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "purple-eyed-dressed-up-boy.zip",
+                    "size_in_bytes": 1531565,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tukinami/lady-goldfish-bowl",
+            "url": "https://github.com/tukinami/lady-goldfish-bowl",
+            "title": "lady-goldfish-bowl",
+            "content_text": "# 金魚鉢令嬢\n\n![シェル「金魚鉢令嬢」のプレビュー画像。金魚鉢の頭を持った女性の立ち絵の紹介。](doc/pr.png)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「金魚鉢令嬢」の公開レポジトリです。\n\n金魚が入った金魚鉢の頭を持つ女性のフリーシェルです。SSP専用です。\n簡単なオーナードロメニューがついています。\n通常版とアレンジ版があります。\n\nシェルやpsdファイルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/lady-goldfish-bowl/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n通常は`lady-goldfish-bowl.nar`か`lady-goldfish-bowl_arranged.nar`、\nどちらかをダウンロードしてください。\n\n### lady-goldfish-bowl.nar\n\nフリーシェル本体(通常版)です。\n名前は「金魚鉢令嬢」で、縦543pxです。\n\n### lady-goldfish-bowl\\_arranged.nar\n\nフリーシェル本体(アレンジ版)です。\n名前は「金魚鉢令嬢:深窓」で、縦543pxです。\n\n### lady-goldfish-bowl-psd.zip\n\nシェル改変のために用意したpsdファイルです。シェル本体と金魚の切り抜きが入っています。\n\n## シェルアニメーションのプレビュー\n\n泳いでいるアニメーションパターン。\n\n![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢の中で金魚が泳いでいる。](doc/preview_animation_normal.gif)\n\n飛び跳ねているアニメーションパターン。\n\n![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢から金魚が飛び跳ねている。](doc/preview_animation_jump.gif)\n\n## 当たり判定\n\n- Shoes\n- Leg\n- Hip\n- Head\n- Bust\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Wavebox](https://wavebox.me/wave/ersk1ec23kr3hrqr/)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
+            "summary": "伺か用フリーシェル。金魚が入った金魚鉢の頭を持つ女性。",
+            "date_published": "2025-08-15T10:31:38Z",
+            "date_modified": "2025-08-15T10:31:42Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/lady-goldfish-bowl/releases/download/v1.1.0/lady-goldfish-bowl-psd.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "lady-goldfish-bowl-psd.zip",
+                    "size_in_bytes": 2829130,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tukinami/cage_head_with_blue_bird",
+            "url": "https://github.com/tukinami/cage_head_with_blue_bird",
+            "title": "cage_head_with_blue_bird",
+            "content_text": "# 鳥籠頭と青い鳥\r\n\r\n## これは何？\r\n\r\n伺か用フリーシェル(立ち絵)「鳥籠頭と青い鳥」の公開レポジトリです。\r\n\r\n青い鳥が入った鳥籠の頭を持つ男性のフリーシェルで、SSP専用です。\r\n簡単なオーナードローメニュー素材がついています。\r\n\r\nシェルやpsdファイルのダウンロードは\r\n[`Releasesの最新版`](https://github.com/tukinami/cage_head_with_blue_bird/releases/latest)からどうぞ。\r\n\r\n## ダウンロードできる内容は？\r\n\r\n通常は`cage_head_with_blue_bird.nar`か`cage_head_with_blue_bird_arranged.nar`、\r\nどちらかをダウンロードしてください。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird.nar\r\n\r\nフリーシェル本体(通常版)です。\r\n名前は「鳥籠頭と青い鳥」で、縦700pxです。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird\\_arranged.nar\r\n\r\nフリーシェル本体(アレンジ版)です。\r\n名前は「鳥籠頭と青い鳥:篝火」で、縦700pxです。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird-psd.zip\r\n\r\nシェル改変のために用意したpsdファイルです。シェル本体と青い鳥の切り抜きが入っています。\r\n\r\n## シェル画像のプレビュー\r\n\r\n左が通常版の「鳥籠頭と青い鳥」、右がアレンジ版の「鳥籠頭と青い鳥:篝火」です。(50%縮小)\r\n\r\n![シェルのプレビュー画像。青い鳥が入った鳥籠の頭を持つ男性のイラスト。2つ並んでおり、左が通常版、右がアレンジ版](doc/preview.png)\r\n\r\n表情集(通常版)\r\n\r\n![通常版の表情プレビュー画像](doc/preview_expression_normal.png)\r\n\r\n表情集(アレンジ版)\r\n\r\n![アレンジ版の表情プレビュー画像](doc/preview_expression_arranged.png)\r\n\r\n## 当たり判定\r\n\r\n- Head\r\n- Shoulder\r\n- Hand\r\n- Tie\r\n\r\n当たり判定上ではマウスカーソルが変わるように設定されています。\r\n\r\n## ライセンス\r\n\r\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\r\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\r\n\r\n## 連絡先\r\n\r\n- [Wavebox](https://wavebox.me/wave/ersk1ec23kr3hrqr/)\r\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\r\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\r\n\r\n## 製作者\r\n\r\n月波 清火\r\n\r\n- [GitHub](https://github.com/tukinami)\r\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\r\n",
+            "summary": "伺か用フリーシェル。青い鳥の入った鳥籠の頭を持つ男性。",
+            "date_published": "2025-08-15T10:23:27Z",
+            "date_modified": "2025-08-15T10:23:38Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/cage_head_with_blue_bird/releases/download/v1.1.0/cage_head_with_blue_bird-psd.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "cage_head_with_blue_bird-psd.zip",
+                    "size_in_bytes": 1471645,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tukinami/double-danshi-KouKousei",
+            "url": "https://github.com/tukinami/double-danshi-KouKousei",
+            "title": "double-danshi-KouKousei",
+            "content_text": "# ダブル男子高校生\r\n\r\n## これは何？\r\n\r\n伺か用フリーシェル(立ち絵)「ダブル男子高校生」の公開レポジトリです。\r\n\r\n男子高校生二人組のフリーシェルで、SSP専用です。\r\n着せ替えと、簡単なオーナードローメニュー素材がついています。\r\n\r\nシェルやpsdファイルのダウンロードは\r\n[`Releasesの最新版`](https://github.com/tukinami/double-danshi-KouKousei/releases/latest)からどうぞ。\r\n\r\n## ダウンロードできる内容は？\r\n\r\n通常は`double-danshi-KouKousei.nar`か`double-danshi-KouKousei-S.nar`、\r\nどちらかをダウンロードしてください。\r\n\r\n### double-danshi-KouKousei.nar\r\n\r\nフリーシェル本体(全身版)です。縦1200pxです。\r\n\r\n### double-danshi-KouKousei-S.nar\r\n\r\nフリーシェル本体(膝上版)です。縦796pxです。\r\n\r\n### double-danshi-KouKousei_psd.zip\r\n\r\nシェル改変のために用意したpsdファイルです。全身、膝上版両方入っています。\r\n\r\n## シェル画像のプレビュー\r\n\r\n全身版(50%縮小)\r\n\r\n![全身版の画像 男子高校生二人組が立っている](doc/preview_shell.jpg)\r\n\r\n膝上版(50%縮小)\r\n\r\n![膝上版の画像 男子高校生二人組が立っている](doc/preview_shell-s.jpg)\r\n\r\n表情集\r\n\r\n![男子高校生二人組の表情集](doc/preview_face.jpg)\r\n\r\n\r\n## 着せ替え部位\r\n\r\nsakura側、kero側それぞれに以下の着せ替えがあります。\r\n\r\n- 靴下(白or紺)(全身版のみ)\r\n- シャツ(半袖or長袖)\r\n- ネクタイ\r\n- セーター(ベストor長袖orなし)\r\n- ジャケット\r\n\r\n着せ替えをしない場合は、descript.txtの以下の2行をコメントアウトし、\r\n\r\n```\r\nsakura.menu,auto\r\nkero.menu,auto\r\n```\r\n\r\n以下の2行を有効にしてくだい\r\n\r\n```\r\n// sakura.menuitem0,-\r\n// kero.menuitem0,-\r\n```\r\n\r\n## 当たり判定\r\n\r\nsakura側、kero側それぞれに当たり判定があります。\r\n\r\n- Head\r\n- Shoulder\r\n- Hand\r\n\r\n当たり判定上ではマウスカーソルが変わるように設定されています。\r\n\r\n## ライセンス\r\n\r\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\r\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\r\n\r\n## 連絡先\r\n\r\n- [Wavebox](https://wavebox.me/wave/ersk1ec23kr3hrqr/)\r\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\r\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\r\n- [公開URL](https://github.com/tukinami/double-danshi-KouKousei)\r\n\r\n## 製作者\r\n\r\n月波 清火\r\n\r\n- [GitHub](https://github.com/tukinami)\r\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\r\n",
+            "summary": "伺か用フリーシェル。男子高校生二人組。",
+            "date_published": "2025-08-15T10:15:31Z",
+            "date_modified": "2025-08-15T10:15:33Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/double-danshi-KouKousei/releases/download/v1.1.0/double-danshi-KouKousei-S.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "double-danshi-KouKousei-S.nar",
+                    "size_in_bytes": 1266929,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/kumasan_with_deathplay",
             "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay",
             "title": "kumasan_with_deathplay",
@@ -67,39 +199,6 @@
                     "size_in_bytes": 1880952,
                     "_ex": {
                         "download_count": 361
-                    }
-                }
-            ]
-        },
-        {
-            "id": "tukinami/purple-eyed-dressed-up-boy",
-            "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy",
-            "title": "purple-eyed-dressed-up-boy",
-            "content_text": "# パープル・アイの着せ替えボーイ\n\n![シェル「パープル・アイの着せ替えボーイ」のプレビュー画像。紫色の瞳をした少年の立ち絵の紹介。](doc/pr.jpg)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「パープル・アイの着せ替えボーイ」の公開レポジトリです。\n\n着せ替えがついた少年のフリーシェルです。SSP専用です。\n\n簡単なオーナードローメニュー素材がついています。\n\nポーズ差分あり。\nまた、neverアニメーションで表情に効果を付けることができます。\n\nシェルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n### purple-eyed-dressed-up-boy.zip\n\nフリーシェル本体です。\n名前は「パープル・アイの着せ替えボーイ」で、縦615pxです。\n\n## 表情・ポーズ一覧\n\n![「パープル・アイの着せ替えボーイ」の表情・ポーズ一覧。0: 素, 1: 照れ, 2: 驚き, 3: 不安, 4: 落ち込み, 5: 微笑み, 6: 目閉じ, 7: 怒り, 8: 冷笑, 9: 照れ怒り](doc/presentation.jpg)\n\n## 表情効果アニメーション\n\n詳しい使い方については`readme.txt`を参照してください。\n\n- 照れ\n- 汗\n- 影\n\n![「パープル・アイの着せ替えボーイ」の表情効果一覧。素の表情に、「照れ」「汗」「影」の効果をつけた画像](doc/effect.jpg)\n\n## 当たり判定\n\n- Head\n- Shoulder\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## 着せ替え箇所\n\n- 靴下\n- 靴\n- ボトムス\n- シャツ\n- タイ (Ｙシャツ専用)\n- ベスト\n- アウター\n\n## 作成協力\n\n### 灯坂アキラ さん\n\nsurfaces.txt等の記述をお願いいたしました。\nありがとうございます。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
-            "summary": "伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。",
-            "date_published": "2024-08-28T13:52:25Z",
-            "date_modified": "2024-08-28T13:52:28Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/download/v1.0.1/purple-eyed-dressed-up-boy.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "purple-eyed-dressed-up-boy.zip",
-                    "size_in_bytes": 1531521,
-                    "_ex": {
-                        "download_count": 18
                     }
                 }
             ]
@@ -199,105 +298,6 @@
                     "size_in_bytes": 522012,
                     "_ex": {
                         "download_count": 34
-                    }
-                }
-            ]
-        },
-        {
-            "id": "tukinami/lady-goldfish-bowl",
-            "url": "https://github.com/tukinami/lady-goldfish-bowl",
-            "title": "lady-goldfish-bowl",
-            "content_text": "# 金魚鉢令嬢\n\n![シェル「金魚鉢令嬢」のプレビュー画像。金魚鉢の頭を持った女性の立ち絵の紹介。](doc/pr.png)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「金魚鉢令嬢」の公開レポジトリです。\n\n金魚が入った金魚鉢の頭を持つ女性のフリーシェルです。SSP専用です。\n簡単なオーナードロメニューがついています。\n通常版とアレンジ版があります。\n\nシェルやpsdファイルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/lady-goldfish-bowl/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n通常は`lady-goldfish-bowl.nar`か`lady-goldfish-bowl_arranged.nar`、\nどちらかをダウンロードしてください。\n\n### lady-goldfish-bowl.nar\n\nフリーシェル本体(通常版)です。\n名前は「金魚鉢令嬢」で、縦543pxです。\n\n### lady-goldfish-bowl\\_arranged.nar\n\nフリーシェル本体(アレンジ版)です。\n名前は「金魚鉢令嬢:深窓」で、縦543pxです。\n\n### lady-goldfish-bowl-psd.zip\n\nシェル改変のために用意したpsdファイルです。シェル本体と金魚の切り抜きが入っています。\n\n## シェルアニメーションのプレビュー\n\n泳いでいるアニメーションパターン。\n\n![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢の中で金魚が泳いでいる。](doc/preview_animation_normal.gif)\n\n飛び跳ねているアニメーションパターン。\n\n![「金魚鉢令嬢」のプレビューアニメーション。金魚鉢から金魚が飛び跳ねている。](doc/preview_animation_jump.gif)\n\n## 当たり判定\n\n- Shoes\n- Leg\n- Hip\n- Head\n- Bust\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
-            "summary": "伺か用フリーシェル。金魚が入った金魚鉢の頭を持つ女性。",
-            "date_published": "2024-05-01T15:43:19Z",
-            "date_modified": "2024-05-01T15:43:26Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/lady-goldfish-bowl/releases/download/v1.0.0/lady-goldfish-bowl-psd.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "lady-goldfish-bowl-psd.zip",
-                    "size_in_bytes": 2652339,
-                    "_ex": {
-                        "download_count": 19
-                    }
-                }
-            ]
-        },
-        {
-            "id": "tukinami/cage_head_with_blue_bird",
-            "url": "https://github.com/tukinami/cage_head_with_blue_bird",
-            "title": "cage_head_with_blue_bird",
-            "content_text": "# 鳥籠頭と青い鳥\r\n\r\n## これは何？\r\n\r\n伺か用フリーシェル(立ち絵)「鳥籠頭と青い鳥」の公開レポジトリです。\r\n\r\n青い鳥が入った鳥籠の頭を持つ男性のフリーシェルで、SSP専用です。\r\n簡単なオーナードローメニュー素材がついています。\r\n\r\nシェルやpsdファイルのダウンロードは\r\n[`Releasesの最新版`](https://github.com/tukinami/cage_head_with_blue_bird/releases/latest)からどうぞ。\r\n\r\n## ダウンロードできる内容は？\r\n\r\n通常は`cage_head_with_blue_bird.nar`か`cage_head_with_blue_bird_arranged.nar`、\r\nどちらかをダウンロードしてください。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird.nar\r\n\r\nフリーシェル本体(通常版)です。\r\n名前は「鳥籠頭と青い鳥」で、縦700pxです。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird\\_arranged.nar\r\n\r\nフリーシェル本体(アレンジ版)です。\r\n名前は「鳥籠頭と青い鳥:篝火」で、縦700pxです。\r\n\r\n### cage\\_head\\_with\\_blue\\_bird-psd.zip\r\n\r\nシェル改変のために用意したpsdファイルです。シェル本体と青い鳥の切り抜きが入っています。\r\n\r\n## シェル画像のプレビュー\r\n\r\n左が通常版の「鳥籠頭と青い鳥」、右がアレンジ版の「鳥籠頭と青い鳥:篝火」です。(50%縮小)\r\n\r\n![シェルのプレビュー画像。青い鳥が入った鳥籠の頭を持つ男性のイラスト。2つ並んでおり、左が通常版、右がアレンジ版](doc/preview.png)\r\n\r\n表情集(通常版)\r\n\r\n![通常版の表情プレビュー画像](doc/preview_expression_normal.png)\r\n\r\n表情集(アレンジ版)\r\n\r\n![アレンジ版の表情プレビュー画像](doc/preview_expression_arranged.png)\r\n\r\n## 当たり判定\r\n\r\n- Head\r\n- Shoulder\r\n- Hand\r\n- Tie\r\n\r\n当たり判定上ではマウスカーソルが変わるように設定されています。\r\n\r\n## ライセンス\r\n\r\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\r\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\r\n\r\n## 連絡先\r\n\r\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\r\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\r\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\r\n\r\n## 製作者\r\n\r\n月波 清火\r\n\r\n- [GitHub](https://github.com/tukinami)\r\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\r\n",
-            "summary": "伺か用フリーシェル。青い鳥の入った鳥籠の頭を持つ男性。",
-            "date_published": "2024-02-13T07:43:14Z",
-            "date_modified": "2024-02-13T07:43:19Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/cage_head_with_blue_bird/releases/download/v1.0.0/cage_head_with_blue_bird-psd.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "cage_head_with_blue_bird-psd.zip",
-                    "size_in_bytes": 1411222,
-                    "_ex": {
-                        "download_count": 13
-                    }
-                }
-            ]
-        },
-        {
-            "id": "tukinami/double-danshi-KouKousei",
-            "url": "https://github.com/tukinami/double-danshi-KouKousei",
-            "title": "double-danshi-KouKousei",
-            "content_text": "# ダブル男子高校生\r\n\r\n## これは何？\r\n\r\n伺か用フリーシェル(立ち絵)「ダブル男子高校生」の公開レポジトリです。\r\n\r\n男子高校生二人組のフリーシェルで、SSP専用です。\r\n着せ替えと、簡単なオーナードローメニュー素材がついています。\r\n\r\nシェルやpsdファイルのダウンロードは\r\n[`Releasesの最新版`](https://github.com/tukinami/double-danshi-KouKousei/releases/latest)からどうぞ。\r\n\r\n## ダウンロードできる内容は？\r\n\r\n通常は`double-danshi-KouKousei.nar`か`double-danshi-KouKousei-S.nar`、\r\nどちらかをダウンロードしてください。\r\n\r\n### double-danshi-KouKousei.nar\r\n\r\nフリーシェル本体(全身版)です。縦1200pxです。\r\n\r\n### double-danshi-KouKousei-S.nar\r\n\r\nフリーシェル本体(膝上版)です。縦796pxです。\r\n\r\n### double-danshi-KouKousei_psd.zip\r\n\r\nシェル改変のために用意したpsdファイルです。全身、膝上版両方入っています。\r\n\r\n## シェル画像のプレビュー\r\n\r\n全身版(50%縮小)\r\n\r\n![全身版の画像 男子高校生二人組が立っている](doc/preview_shell.jpg)\r\n\r\n膝上版(50%縮小)\r\n\r\n![膝上版の画像 男子高校生二人組が立っている](doc/preview_shell-s.jpg)\r\n\r\n表情集\r\n\r\n![男子高校生二人組の表情集](doc/preview_face.jpg)\r\n\r\n\r\n## 着せ替え部位\r\n\r\nsakura側、kero側それぞれに以下の着せ替えがあります。\r\n\r\n- 靴下(白or紺)(全身版のみ)\r\n- シャツ(半袖or長袖)\r\n- ネクタイ\r\n- セーター(ベストor長袖orなし)\r\n- ジャケット\r\n\r\n着せ替えをしない場合は、descript.txtの以下の2行をコメントアウトし、\r\n\r\n```\r\nsakura.menu,auto\r\nkero.menu,auto\r\n```\r\n\r\n以下の2行を有効にしてくだい\r\n\r\n```\r\n// sakura.menuitem0,-\r\n// kero.menuitem0,-\r\n```\r\n\r\n## 当たり判定\r\n\r\nsakura側、kero側それぞれに当たり判定があります。\r\n\r\n- Head\r\n- Shoulder\r\n- Hand\r\n\r\n当たり判定上ではマウスカーソルが変わるように設定されています。\r\n\r\n## ライセンス\r\n\r\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\r\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\r\n\r\n## 連絡先\r\n\r\n- [Peing質問箱](https://peing.net/ja/tukinami_seika)\r\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\r\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\r\n- [公開URL](https://github.com/tukinami/double-danshi-KouKousei)\r\n\r\n## 製作者\r\n\r\n月波 清火\r\n\r\n- [GitHub](https://github.com/tukinami)\r\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\r\n",
-            "summary": "伺か用フリーシェル。男子高校生二人組。",
-            "date_published": "2023-11-09T12:32:18Z",
-            "date_modified": "2023-11-09T12:32:21Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/double-danshi-KouKousei/releases/download/v1.0.1/double-danshi-KouKousei-S.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "double-danshi-KouKousei-S.nar",
-                    "size_in_bytes": 1266891,
-                    "_ex": {
-                        "download_count": 32
                     }
                 }
             ]

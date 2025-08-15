@@ -6,6 +6,60 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>purple-eyed-dressed-up-boy</title>
+    <link>https://github.com/tukinami/purple-eyed-dressed-up-boy</link>
+    <description>伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/purple-eyed-dressed-up-boy</guid>
+    <pubDate>Fri, 15 Aug 2025 19:43:02 +0900</pubDate>
+</item>
+<item>
+    <title>incubation_of_animas</title>
+    <link>https://github.com/tukinami/incubation_of_animas</link>
+    <description>伺か用ゴースト。戦うくたびれたおじさんと話すゴースト。</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/incubation_of_animas</guid>
+    <pubDate>Sat, 18 May 2024 20:19:49 +0900</pubDate>
+</item>
+<item>
+    <title>lady-goldfish-bowl</title>
+    <link>https://github.com/tukinami/lady-goldfish-bowl</link>
+    <description>伺か用フリーシェル。金魚が入った金魚鉢の頭を持つ女性。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/lady-goldfish-bowl</guid>
+    <pubDate>Fri, 15 Aug 2025 19:31:42 +0900</pubDate>
+</item>
+<item>
+    <title>cage_head_with_blue_bird</title>
+    <link>https://github.com/tukinami/cage_head_with_blue_bird</link>
+    <description>伺か用フリーシェル。青い鳥の入った鳥籠の頭を持つ男性。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/cage_head_with_blue_bird</guid>
+    <pubDate>Fri, 15 Aug 2025 19:23:38 +0900</pubDate>
+</item>
+<item>
+    <title>double-danshi-KouKousei</title>
+    <link>https://github.com/tukinami/double-danshi-KouKousei</link>
+    <description>伺か用フリーシェル。男子高校生二人組。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/double-danshi-KouKousei</guid>
+    <pubDate>Fri, 15 Aug 2025 19:15:33 +0900</pubDate>
+</item>
+<item>
+    <title>talismanic_beast_pattern</title>
+    <link>https://github.com/tukinami/talismanic_beast_pattern</link>
+    <description>伺か用バルーン「魔除けの獣面紋」</description>
+    <category>balloon</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/talismanic_beast_pattern</guid>
+    <pubDate>Fri, 15 Aug 2025 18:55:55 +0900</pubDate>
+</item>
+<item>
     <title>taidanaSanoSan</title>
     <link>https://github.com/tukinami/taidanaSanoSan</link>
     <description>伺か雑談系ゴースト</description>
@@ -76,15 +130,6 @@
     <dc:creator>Tatakinov</dc:creator>
     <guid isPermaLink="false">Tatakinov/banjou_no_sumikko_de</guid>
     <pubDate>Sun, 08 Jan 2023 22:11:28 +0900</pubDate>
-</item>
-<item>
-    <title>incubation_of_animas</title>
-    <link>https://github.com/tukinami/incubation_of_animas</link>
-    <description>伺か用ゴースト。戦うくたびれたおじさんと話すゴースト。</description>
-    <category>ghost</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/incubation_of_animas</guid>
-    <pubDate>Sat, 18 May 2024 20:19:49 +0900</pubDate>
 </item>
 <item>
     <title>nostalk</title>
@@ -204,15 +249,6 @@
     <pubDate>Wed, 16 Oct 2024 21:06:00 +0900</pubDate>
 </item>
 <item>
-    <title>purple-eyed-dressed-up-boy</title>
-    <link>https://github.com/tukinami/purple-eyed-dressed-up-boy</link>
-    <description>伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。</description>
-    <category>shell</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/purple-eyed-dressed-up-boy</guid>
-    <pubDate>Wed, 28 Aug 2024 22:52:28 +0900</pubDate>
-</item>
-<item>
     <title>zoomout_dra</title>
     <link>https://github.com/Shimofumi/zoomout_dra</link>
     <description>かつて嫌ゴと呼ばれたけれど 追加シェル「辰年（小）」</description>
@@ -285,15 +321,6 @@
     <pubDate>Mon, 13 May 2024 21:08:23 +0900</pubDate>
 </item>
 <item>
-    <title>lady-goldfish-bowl</title>
-    <link>https://github.com/tukinami/lady-goldfish-bowl</link>
-    <description>伺か用フリーシェル。金魚が入った金魚鉢の頭を持つ女性。</description>
-    <category>shell</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/lady-goldfish-bowl</guid>
-    <pubDate>Thu, 02 May 2024 00:43:26 +0900</pubDate>
-</item>
-<item>
     <title>wallet_of_unyu</title>
     <link>https://github.com/nikolat/wallet_of_unyu</link>
     <description>伺かの世界で流通する暗号通貨UNYUのウォレット</description>
@@ -312,15 +339,6 @@
     <pubDate>Sat, 28 Oct 2023 21:22:09 +0900</pubDate>
 </item>
 <item>
-    <title>cage_head_with_blue_bird</title>
-    <link>https://github.com/tukinami/cage_head_with_blue_bird</link>
-    <description>伺か用フリーシェル。青い鳥の入った鳥籠の頭を持つ男性。</description>
-    <category>shell</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/cage_head_with_blue_bird</guid>
-    <pubDate>Tue, 13 Feb 2024 16:43:19 +0900</pubDate>
-</item>
-<item>
     <title>ukaten</title>
     <link>https://github.com/nikolat/ukaten</link>
     <description>伺か天気予報プラグイン</description>
@@ -337,15 +355,6 @@
     <dc:creator>Shimofumi</dc:creator>
     <guid isPermaLink="false">Shimofumi/Oyatsu_ha_Macaroni</guid>
     <pubDate>Wed, 13 Dec 2023 15:38:28 +0900</pubDate>
-</item>
-<item>
-    <title>double-danshi-KouKousei</title>
-    <link>https://github.com/tukinami/double-danshi-KouKousei</link>
-    <description>伺か用フリーシェル。男子高校生二人組。</description>
-    <category>shell</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/double-danshi-KouKousei</guid>
-    <pubDate>Thu, 09 Nov 2023 21:32:21 +0900</pubDate>
 </item>
 <item>
     <title>ukadonyu</title>
@@ -445,15 +454,6 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Youto</guid>
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
-</item>
-<item>
-    <title>talismanic_beast_pattern</title>
-    <link>https://github.com/tukinami/talismanic_beast_pattern</link>
-    <description>伺か用バルーン「魔除けの獣面紋」</description>
-    <category>balloon</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/talismanic_beast_pattern</guid>
-    <pubDate>Thu, 19 Jan 2023 21:57:44 +0900</pubDate>
 </item>
 <item>
     <title>sudohaikuyu</title>
