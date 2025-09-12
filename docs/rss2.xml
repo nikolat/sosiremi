@@ -24,15 +24,6 @@
     <pubDate>Sun, 17 Aug 2025 17:15:02 +0900</pubDate>
 </item>
 <item>
-    <title>who_is_cursing_him</title>
-    <link>https://github.com/tukinami/who_is_cursing_him</link>
-    <description>伺か用ゴースト。たった一人塔に住む弟と話すゴースト。</description>
-    <category>ghost</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/who_is_cursing_him</guid>
-    <pubDate>Sat, 30 Aug 2025 18:58:07 +0900</pubDate>
-</item>
-<item>
     <title>Yada-Yada-Yada</title>
     <link>https://github.com/tukinami/Yada-Yada-Yada</link>
     <description>伺か用ゴースト。少女の様子を見るゴースト。嫌ゴ福袋企画2025 参加作品。</description>
@@ -357,15 +348,6 @@
     <pubDate>Sat, 28 Oct 2023 21:22:09 +0900</pubDate>
 </item>
 <item>
-    <title>ukaten</title>
-    <link>https://github.com/nikolat/ukaten</link>
-    <description>伺か天気予報プラグイン</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukaten</guid>
-    <pubDate>Wed, 27 Apr 2022 18:50:49 +0900</pubDate>
-</item>
-<item>
     <title>Oyatsu_ha_Macaroni</title>
     <link>https://github.com/Shimofumi/Oyatsu_ha_Macaroni</link>
     <description></description>
@@ -375,15 +357,6 @@
     <pubDate>Wed, 13 Dec 2023 15:38:28 +0900</pubDate>
 </item>
 <item>
-    <title>ukadonyu</title>
-    <link>https://github.com/nikolat/ukadonyu</link>
-    <description>うかどんクライアント</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukadonyu</guid>
-    <pubDate>Thu, 19 Jan 2023 08:49:32 +0900</pubDate>
-</item>
-<item>
     <title>ukagaka-simultaneous-interpreter</title>
     <link>https://github.com/nikolat/ukagaka-simultaneous-interpreter</link>
     <description>Simultaneous Interpreter Ghost</description>
@@ -391,33 +364,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/ukagaka-simultaneous-interpreter</guid>
     <pubDate>Sat, 06 May 2023 07:47:09 +0900</pubDate>
-</item>
-<item>
-    <title>ukagaka-hakoirimusume</title>
-    <link>https://github.com/nikolat/ukagaka-hakoirimusume</link>
-    <description>Klotski for UKAGAKA</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-hakoirimusume</guid>
-    <pubDate>Wed, 27 Apr 2022 18:51:06 +0900</pubDate>
-</item>
-<item>
-    <title>shellbook</title>
-    <link>https://github.com/nikolat/shellbook</link>
-    <description>freeshell Wiki viewer</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/shellbook</guid>
-    <pubDate>Tue, 13 Dec 2022 21:55:00 +0900</pubDate>
-</item>
-<item>
-    <title>reshibainu</title>
-    <link>https://github.com/nikolat/reshibainu</link>
-    <description>「里々」ログビューア「れしば.NET」のゴースト版</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/reshibainu</guid>
-    <pubDate>Wed, 27 Apr 2022 18:49:51 +0900</pubDate>
 </item>
 <item>
     <title>crawler_uploader</title>
@@ -447,15 +393,6 @@
     <pubDate>Sat, 07 Jan 2023 14:42:08 +0900</pubDate>
 </item>
 <item>
-    <title>ukagaka-party-parrot</title>
-    <link>https://github.com/nikolat/ukagaka-party-parrot</link>
-    <description>Party Parrot for UKAGAKA</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-party-parrot</guid>
-    <pubDate>Sat, 12 Nov 2022 20:40:12 +0900</pubDate>
-</item>
-<item>
     <title>SSP-AIVOICE</title>
     <link>https://github.com/opera7133/SSP-AIVOICE</link>
     <description>伺かとA.I.VOICEを連携</description>
@@ -472,15 +409,6 @@
     <dc:creator>apxxxxxxe</dc:creator>
     <guid isPermaLink="false">apxxxxxxe/Youto</guid>
     <pubDate>Mon, 24 Oct 2022 22:43:21 +0900</pubDate>
-</item>
-<item>
-    <title>sudohaikuyu</title>
-    <link>https://github.com/nikolat/sudohaikuyu</link>
-    <description>スドハイククライアント</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
-    <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
 </item>
 <item>
     <title>ukagakaPlugin_getWindowTitle</title>
@@ -544,51 +472,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/cultural-festival</guid>
     <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard-balloon</title>
-    <link>https://github.com/nikolat/jb-standard-balloon</link>
-    <description>ゴースト「雀々BARIBARI」用バルーン</description>
-    <category>balloon</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
-    <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard</title>
-    <link>https://github.com/nikolat/jb-standard</link>
-    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard</guid>
-    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
-</item>
-<item>
-    <title>CharameLNetwork</title>
-    <link>https://github.com/nikolat/CharameLNetwork</link>
-    <description>CharameLをSNS風に見せる何か</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
-    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
-</item>
-<item>
-    <title>balloonselector</title>
-    <link>https://github.com/nikolat/balloonselector</link>
-    <description>バルーン選択支援プラグイン</description>
-    <category>plugin</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/balloonselector</guid>
-    <pubDate>Sun, 10 Jul 2022 19:55:18 +0900</pubDate>
-</item>
-<item>
-    <title>ukagaka-caramelldansen-patch</title>
-    <link>https://github.com/nikolat/ukagaka-caramelldansen-patch</link>
-    <description>caramelldansen修正用supplement</description>
-    <category>supplement</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/ukagaka-caramelldansen-patch</guid>
-    <pubDate>Mon, 30 May 2022 19:25:17 +0900</pubDate>
 </item>
 </channel>
 </rss>
