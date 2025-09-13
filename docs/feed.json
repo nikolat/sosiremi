@@ -105,39 +105,6 @@
             ]
         },
         {
-            "id": "tukinami/purple-eyed-dressed-up-boy",
-            "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy",
-            "title": "purple-eyed-dressed-up-boy",
-            "content_text": "# パープル・アイの着せ替えボーイ\n\n![シェル「パープル・アイの着せ替えボーイ」のプレビュー画像。紫色の瞳をした少年の立ち絵の紹介。](doc/pr.jpg)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「パープル・アイの着せ替えボーイ」の公開レポジトリです。\n\n着せ替えがついた少年のフリーシェルです。SSP専用です。\n\n簡単なオーナードローメニュー素材がついています。\n\nポーズ差分あり。\nまた、neverアニメーションで表情に効果を付けることができます。\n\nシェルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n### purple-eyed-dressed-up-boy.zip\n\nフリーシェル本体です。\n名前は「パープル・アイの着せ替えボーイ」で、縦615pxです。\n\n## 表情・ポーズ一覧\n\n![「パープル・アイの着せ替えボーイ」の表情・ポーズ一覧。0: 素, 1: 照れ, 2: 驚き, 3: 不安, 4: 落ち込み, 5: 微笑み, 6: 目閉じ, 7: 怒り, 8: 冷笑, 9: 照れ怒り](doc/presentation.jpg)\n\n## 表情効果アニメーション\n\n詳しい使い方については`readme.txt`を参照してください。\n\n- 照れ\n- 汗\n- 影\n\n![「パープル・アイの着せ替えボーイ」の表情効果一覧。素の表情に、「照れ」「汗」「影」の効果をつけた画像](doc/effect.jpg)\n\n## 当たり判定\n\n- Head\n- Shoulder\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## 着せ替え箇所\n\n- 靴下\n- 靴\n- ボトムス\n- シャツ\n- タイ (Ｙシャツ専用)\n- ベスト\n- アウター\n\n## 作成協力\n\n### 灯坂アキラ さん\n\nsurfaces.txt等の記述をお願いいたしました。\nありがとうございます。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Wavebox](https://wavebox.me/wave/ersk1ec23kr3hrqr/)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
-            "summary": "伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。",
-            "date_published": "2025-08-15T10:42:59Z",
-            "date_modified": "2025-08-15T10:43:02Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/download/v1.1.0/purple-eyed-dressed-up-boy.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "purple-eyed-dressed-up-boy.zip",
-                    "size_in_bytes": 1531565,
-                    "_ex": {
-                        "download_count": 1
-                    }
-                }
-            ]
-        },
-        {
             "id": "tukinami/incubation_of_animas",
             "url": "https://github.com/tukinami/incubation_of_animas",
             "title": "incubation_of_animas",
@@ -336,39 +303,6 @@
             ]
         },
         {
-            "id": "lost-nd-xxx/yakutai_nashi",
-            "url": "https://github.com/lost-nd-xxx/yakutai_nashi",
-            "title": "yakutai_nashi",
-            "content_text": "# ゴースト「益体無しの人生だった」\n\n## これはなに\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n### あらいすじ\n* カプセルマシン頭の「カプト」と空カプセルの「アキ」が、ゆるいトークをします。\n\n\n## 使用方法詳細\n* カプトに何か頼む (喋り頻度変更など)\n  * 絵の上にマウスカーソルを乗せ、カーソルが変わらないところでダブルクリック\n  * ショートカットキー: Ｍ\n\n* カプトたちに触れる\n  * カーソルの変わる箇所で以下のことをする\n    * ダブルクリック\n    * カーソルをしばらく動かす\n\n* カプトたちに何か話してもらう\n  * カプセルマシンのダイアルをダブルクリック\n  * ショートカットキー: Ｔ\n\n### ショートカットキーが反応しない場合\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n   * 絵をシングルクリックするとフォーカスを合わせることができます。\n\n上記に当てはまらない場合は不具合かもしれません。\nこのreadme下部の連絡先までご連絡いただけると助かります。\n\n\n## 使用素材等\n* 里々/整備班カスタム\n  * https://ms.shillest.net/satoriya.xhtml\n* Yusei Magic[^1]\n  * https://fonts.google.com/specimen/Yusei+Magic\n\n[^1]: 画像中の文字のフォントとして使用しています。フォントファイルは同梱していません。\n\n\n## ゴーストの二次創作ガイドライン\n### 二次創作周りについて\n1. 追加シェル、バルーン等を制作して配布される\n   * OK\n2. 二次創作をされる\n   * OK\n3. 性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる\n   * OK\n4. ゴースト本体の設定と大きくかけ離れた二次創作をされる\n   * OK\n5. 二次創作物の販売をされる\n   * OK[^2]\n6. コミッションサービス等でゴーストに関連する創作物を依頼される\n   * OK[^2]\n\n[^2]: 金銭の授受が発生する際は、「ガチャ」や「ガシャ」など、既存の商標を侵害しないようご注意ください。\n\n### ゴーストを始めとした、配布データの扱いについて\n1. ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる\n   * OK\n2. 情報集積サイト等の外部サイトに登録される\n   * OK\n3. 公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)\n   * NG\n4. ゴーストの中身(辞書、シェル等)を改変した上で再配布\n   * NG\n5. マスターシェルを素材とした追加シェルの制作/配布について\n   * NG\n     * どうしても素材として使う必要がある、という場合はゴースト作者にご相談ください。\n\n### その他\n1. 他ゴーストから切り替え反応を実装される\n   * OK\n2. ゴーストに関する批判的な意見を言われる\n   * OK\n3. ゴーストに関する要望を言われる\n   * OK\n     * ただし、要望が叶えられるかどうかは保証しません。\n4. 不特定多数の人が見る場でネタバレをされる\n   * OK\n5. トークの引用、又は撮ったスクリーンショットを公開される\n   * OK\n6. シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される\n   * NG\n7. ゴーストを動画内で配信される\n   * OK\n\n\n## 連絡先\n* 作者: ろすえん (lost_nd_xxx)\n  * https://lnx.flop.jp/form/postmail.html\n\n",
-            "summary": "ゴースト「益体無しの人生だった」",
-            "date_published": "2025-07-13T13:27:38Z",
-            "date_modified": "2025-07-13T13:27:42Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/yakutai_nashi/releases/download/1.0.1/i_was_useless.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "i_was_useless.nar",
-                    "size_in_bytes": 561423,
-                    "_ex": {
-                        "download_count": 8
-                    }
-                }
-            ]
-        },
-        {
             "id": "lost-nd-xxx/something_like_balloon",
             "url": "https://github.com/lost-nd-xxx/something_like_balloon",
             "title": "something_like_balloon",
@@ -397,39 +331,6 @@
                     "size_in_bytes": 28109,
                     "_ex": {
                         "download_count": 20
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/UGMNavigator_Umechan",
-            "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan",
-            "title": "UGMNavigator_Umechan",
-            "content_text": "UkagakaGhostMessengerナビゲーターうめちゃん\n～～～～\nUkagakaGhostMessengerのナビゲートをするゴーストです。\nスクリプトの作成補助、プラグインの内容の簡易解説などをします。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n～～～～\n＃利用モジュール等\n\n＊YAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n＊紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n＊紺野りりす\nhttps://ms.shillest.net/yayalilith.xhtml\n\n＊textcopy2.dll\nhttps://code.google.com/archive/p/csaori/\n\n＊うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n・にじジャーニー\nhttps://nijijourney.com/ja/\n・にじジャーニー利用規約\nhttps://docs.midjourney.com/docs/terms-of-service\n\n＊活用例プリセットに入っている和菓子\nろすえんが描いたものです。\n",
-            "summary": "伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」",
-            "date_published": "2025-06-12T09:54:42Z",
-            "date_modified": "2025-06-12T09:54:46Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.2/UGMNavigator_Umechan.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "UGMNavigator_Umechan.nar",
-                    "size_in_bytes": 757779,
-                    "_ex": {
-                        "download_count": 19
                     }
                 }
             ]
@@ -844,137 +745,6 @@
                     "size_in_bytes": 427052,
                     "_ex": {
                         "download_count": 132
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/kumasan_with_deathplay",
-            "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay",
-            "title": "kumasan_with_deathplay",
-            "content_text": "# 「くまさん・うぃず・ですぷれ」\r\n![プレビュー](preview.gif \"プレビュー\")\r\n\r\n## これなに\r\n* 伺か向けに設定済みのフリーシェル(画像素材)です\r\n* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します\r\n* 伺か関連作品以外への利用も可能です\r\n* 動作デモ用ゴーストもあります\r\n\r\n## 利用条件\r\n動作デモ用ゴースト以外は、下記の条件でご利用いただけます。\r\n* 改変可\r\n* 再配布可\r\n* 改変後の再配布可\r\n* 伺か関連作品以外への利用可\r\n* 著作者表示不要\r\n* 使用報告不要\r\n\r\n## ダウンロード\r\n* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)\r\n  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。\r\n* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)\r\n* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)\r\n* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)\r\n* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)\r\n  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。\r\n\r\n## 連絡先\r\n* 作者：lost_nd_xxx（ろすえん）\r\n* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)\r\n",
-            "summary": "フリーシェル＆専用バルーン２種＆動作デモ用ゴースト",
-            "date_published": "2024-11-01T15:19:38Z",
-            "date_modified": "2024-11-01T15:19:38Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/download/1.0.1/deathplay_for_kumasan_dark.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "deathplay_for_kumasan_dark.zip",
-                    "size_in_bytes": 8597,
-                    "_ex": {
-                        "download_count": 13
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Shimofumi/Steampunk",
-            "url": "https://github.com/Shimofumi/Steampunk",
-            "title": "Steampunk",
-            "content_text": "ごじゆうにおつかいください。\n改変再配布配布中の再配布全部OK想定されうるあらゆる制約を設けないものとします。\n\nすちーむぱんくですよ！すちーむぱんく！！\n歯車！蒸気機関！ヴィクトリア！ガスライト！グレート・ゲーム！\n\nこの追加シェルの作者：しもふみ\n配布場所：https://github.com/Shimofumi\n連絡先：https://ukadon.shillest.net/@Shimofumi\n\nﾙｽﾄﾘｶﾁｬﾝはｶﾜｲｲですね。\n\nシェル化にあたり、ゴースト作者のあーるでぃーさんに多大なる協力を頂きました。\nこの場を借りてお礼申し上げます。\n\n\n",
-            "summary": "「ロスト・ユー・サムウェア」用追加シェル「すちーむぱんく」",
-            "date_published": "2024-10-17T16:59:11Z",
-            "date_modified": "2024-10-17T16:59:12Z",
-            "authors": [
-                {
-                    "name": "Shimofumi",
-                    "url": "https://github.com/Shimofumi",
-                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Shimofumi/Steampunk/releases/download/v1.0.0/Steampunk.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "Steampunk.zip",
-                    "size_in_bytes": 1880952,
-                    "_ex": {
-                        "download_count": 370
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/my_own_translator",
-            "url": "https://github.com/Tatakinov/my_own_translator",
-            "title": "my_own_translator",
-            "content_text": "# my_own_translator\n\nThe end of person who was not satisfied with just the functionality of a certain ghost.\n\n## What's this\n\n[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)\n\nSince ↑ doesn't translate choices, I created a ghost that can translate them in a nice way.\n\nAdditionally, I have tried to show the text as closely as possible to the original.\n\n## Library\n\nyaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori\nyaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic\nlibcurl     | curl      | https://curl.se/\n\n## Mechanism\n\nTranslate \"\\0This \\q[apple,OnFoo] is blue.\\e\" from en to ja.\n\n```\n\\0This \\q[apple,OnFoo] is blue.\\e\n```\n\n↓ parse/replace event id\n\n```\n----\n<0> = <1>This <2> is blue.<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = apple\n<4> = \\e\n```\n\n↓ translate <0>, <3>\n\n```\n<0> = <1>この<2>は青色です。<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = りんご\n<4> = \\e\n```\n\n↓ build\n\n```\n\\0この\\q[りんご,OnKeep]は青色です。\\e\n```\n\ncf. OnKeep -> \\C\n",
-            "summary": "",
-            "date_published": "2024-10-16T12:05:53Z",
-            "date_modified": "2024-10-16T12:06:00Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "my_own_translator.nar",
-                    "size_in_bytes": 2622100,
-                    "_ex": {
-                        "download_count": 110
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Shimofumi/zoomout_dra",
-            "url": "https://github.com/Shimofumi/zoomout_dra",
-            "title": "zoomout_dra",
-            "content_text": "\nQ、どうしてチャイナスク水に着ぐるみを重ねて着ているんですか？\n\nA、だって辰歳ちゃし…さすがに恥ずいのちゃ。",
-            "summary": "かつて嫌ゴと呼ばれたけれど 追加シェル「辰年（小）」",
-            "date_published": "2024-08-19T13:27:19Z",
-            "date_modified": "2024-08-19T13:27:21Z",
-            "authors": [
-                {
-                    "name": "Shimofumi",
-                    "url": "https://github.com/Shimofumi",
-                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Shimofumi/zoomout_dra/releases/download/v1.0.0/zoomout_dra.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "zoomout_dra.zip",
-                    "size_in_bytes": 614062,
-                    "_ex": {
-                        "download_count": 31
                     }
                 }
             ]

@@ -6,39 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "lost-nd-xxx/yakutai_nashi",
-            "url": "https://github.com/lost-nd-xxx/yakutai_nashi",
-            "title": "yakutai_nashi",
-            "content_text": "# ゴースト「益体無しの人生だった」\n\n## これはなに\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n### あらいすじ\n* カプセルマシン頭の「カプト」と空カプセルの「アキ」が、ゆるいトークをします。\n\n\n## 使用方法詳細\n* カプトに何か頼む (喋り頻度変更など)\n  * 絵の上にマウスカーソルを乗せ、カーソルが変わらないところでダブルクリック\n  * ショートカットキー: Ｍ\n\n* カプトたちに触れる\n  * カーソルの変わる箇所で以下のことをする\n    * ダブルクリック\n    * カーソルをしばらく動かす\n\n* カプトたちに何か話してもらう\n  * カプセルマシンのダイアルをダブルクリック\n  * ショートカットキー: Ｔ\n\n### ショートカットキーが反応しない場合\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n   * 絵をシングルクリックするとフォーカスを合わせることができます。\n\n上記に当てはまらない場合は不具合かもしれません。\nこのreadme下部の連絡先までご連絡いただけると助かります。\n\n\n## 使用素材等\n* 里々/整備班カスタム\n  * https://ms.shillest.net/satoriya.xhtml\n* Yusei Magic[^1]\n  * https://fonts.google.com/specimen/Yusei+Magic\n\n[^1]: 画像中の文字のフォントとして使用しています。フォントファイルは同梱していません。\n\n\n## ゴーストの二次創作ガイドライン\n### 二次創作周りについて\n1. 追加シェル、バルーン等を制作して配布される\n   * OK\n2. 二次創作をされる\n   * OK\n3. 性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる\n   * OK\n4. ゴースト本体の設定と大きくかけ離れた二次創作をされる\n   * OK\n5. 二次創作物の販売をされる\n   * OK[^2]\n6. コミッションサービス等でゴーストに関連する創作物を依頼される\n   * OK[^2]\n\n[^2]: 金銭の授受が発生する際は、「ガチャ」や「ガシャ」など、既存の商標を侵害しないようご注意ください。\n\n### ゴーストを始めとした、配布データの扱いについて\n1. ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる\n   * OK\n2. 情報集積サイト等の外部サイトに登録される\n   * OK\n3. 公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)\n   * NG\n4. ゴーストの中身(辞書、シェル等)を改変した上で再配布\n   * NG\n5. マスターシェルを素材とした追加シェルの制作/配布について\n   * NG\n     * どうしても素材として使う必要がある、という場合はゴースト作者にご相談ください。\n\n### その他\n1. 他ゴーストから切り替え反応を実装される\n   * OK\n2. ゴーストに関する批判的な意見を言われる\n   * OK\n3. ゴーストに関する要望を言われる\n   * OK\n     * ただし、要望が叶えられるかどうかは保証しません。\n4. 不特定多数の人が見る場でネタバレをされる\n   * OK\n5. トークの引用、又は撮ったスクリーンショットを公開される\n   * OK\n6. シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される\n   * NG\n7. ゴーストを動画内で配信される\n   * OK\n\n\n## 連絡先\n* 作者: ろすえん (lost_nd_xxx)\n  * https://lnx.flop.jp/form/postmail.html\n\n",
-            "summary": "ゴースト「益体無しの人生だった」",
-            "date_published": "2025-07-13T13:27:38Z",
-            "date_modified": "2025-07-13T13:27:42Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/yakutai_nashi/releases/download/1.0.1/i_was_useless.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "i_was_useless.nar",
-                    "size_in_bytes": 561423,
-                    "_ex": {
-                        "download_count": 8
-                    }
-                }
-            ]
-        },
-        {
             "id": "lost-nd-xxx/something_like_balloon",
             "url": "https://github.com/lost-nd-xxx/something_like_balloon",
             "title": "something_like_balloon",
@@ -67,39 +34,6 @@
                     "size_in_bytes": 28109,
                     "_ex": {
                         "download_count": 20
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/UGMNavigator_Umechan",
-            "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan",
-            "title": "UGMNavigator_Umechan",
-            "content_text": "UkagakaGhostMessengerナビゲーターうめちゃん\n～～～～\nUkagakaGhostMessengerのナビゲートをするゴーストです。\nスクリプトの作成補助、プラグインの内容の簡易解説などをします。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n～～～～\n＃利用モジュール等\n\n＊YAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n＊紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n＊紺野りりす\nhttps://ms.shillest.net/yayalilith.xhtml\n\n＊textcopy2.dll\nhttps://code.google.com/archive/p/csaori/\n\n＊うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n・にじジャーニー\nhttps://nijijourney.com/ja/\n・にじジャーニー利用規約\nhttps://docs.midjourney.com/docs/terms-of-service\n\n＊活用例プリセットに入っている和菓子\nろすえんが描いたものです。\n",
-            "summary": "伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」",
-            "date_published": "2025-06-12T09:54:42Z",
-            "date_modified": "2025-06-12T09:54:46Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.2/UGMNavigator_Umechan.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "UGMNavigator_Umechan.nar",
-                    "size_in_bytes": 757779,
-                    "_ex": {
-                        "download_count": 19
                     }
                 }
             ]
@@ -166,39 +100,6 @@
                     "size_in_bytes": 3741623,
                     "_ex": {
                         "download_count": 10
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/kumasan_with_deathplay",
-            "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay",
-            "title": "kumasan_with_deathplay",
-            "content_text": "# 「くまさん・うぃず・ですぷれ」\r\n![プレビュー](preview.gif \"プレビュー\")\r\n\r\n## これなに\r\n* 伺か向けに設定済みのフリーシェル(画像素材)です\r\n* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します\r\n* 伺か関連作品以外への利用も可能です\r\n* 動作デモ用ゴーストもあります\r\n\r\n## 利用条件\r\n動作デモ用ゴースト以外は、下記の条件でご利用いただけます。\r\n* 改変可\r\n* 再配布可\r\n* 改変後の再配布可\r\n* 伺か関連作品以外への利用可\r\n* 著作者表示不要\r\n* 使用報告不要\r\n\r\n## ダウンロード\r\n* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)\r\n  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。\r\n* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)\r\n* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)\r\n* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)\r\n* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)\r\n  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。\r\n\r\n## 連絡先\r\n* 作者：lost_nd_xxx（ろすえん）\r\n* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)\r\n",
-            "summary": "フリーシェル＆専用バルーン２種＆動作デモ用ゴースト",
-            "date_published": "2024-11-01T15:19:38Z",
-            "date_modified": "2024-11-01T15:19:38Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/download/1.0.1/deathplay_for_kumasan_dark.zip",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "deathplay_for_kumasan_dark.zip",
-                    "size_in_bytes": 8597,
-                    "_ex": {
-                        "download_count": 13
                     }
                 }
             ]
