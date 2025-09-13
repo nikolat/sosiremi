@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/purple-eyed-dressed-up-boy",
+            "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy",
+            "title": "purple-eyed-dressed-up-boy",
+            "content_text": "# パープル・アイの着せ替えボーイ\n\n![シェル「パープル・アイの着せ替えボーイ」のプレビュー画像。紫色の瞳をした少年の立ち絵の紹介。](doc/pr.jpg)\n\n## これは何？\n\n伺か用フリーシェル(立ち絵)「パープル・アイの着せ替えボーイ」の公開レポジトリです。\n\n着せ替えがついた少年のフリーシェルです。SSP専用です。\n\n簡単なオーナードローメニュー素材がついています。\n\nポーズ差分あり。\nまた、neverアニメーションで表情に効果を付けることができます。\n\nシェルのダウンロードは\n[`Releasesの最新版`](https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/latest)からどうぞ。\n\n## ダウンロードできる内容は？\n\n### purple-eyed-dressed-up-boy.zip\n\nフリーシェル本体です。\n名前は「パープル・アイの着せ替えボーイ」で、縦615pxです。\n\n## 表情・ポーズ一覧\n\n![「パープル・アイの着せ替えボーイ」の表情・ポーズ一覧。0: 素, 1: 照れ, 2: 驚き, 3: 不安, 4: 落ち込み, 5: 微笑み, 6: 目閉じ, 7: 怒り, 8: 冷笑, 9: 照れ怒り](doc/presentation.jpg)\n\n## 表情効果アニメーション\n\n詳しい使い方については`readme.txt`を参照してください。\n\n- 照れ\n- 汗\n- 影\n\n![「パープル・アイの着せ替えボーイ」の表情効果一覧。素の表情に、「照れ」「汗」「影」の効果をつけた画像](doc/effect.jpg)\n\n## 当たり判定\n\n- Head\n- Shoulder\n- Hand\n\n当たり判定上ではマウスカーソルが変わるように設定されています。\n\n## 着せ替え箇所\n\n- 靴下\n- 靴\n- ボトムス\n- シャツ\n- タイ (Ｙシャツ専用)\n- ベスト\n- アウター\n\n## 作成協力\n\n### 灯坂アキラ さん\n\nsurfaces.txt等の記述をお願いいたしました。\nありがとうございます。\n\n## ライセンス\n\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) にて配布いたします。\n([日本語版ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja))\n\n## 連絡先\n\n- [Wavebox](https://wavebox.me/wave/ersk1ec23kr3hrqr/)\n- [Mastodon(fedibird)](https://fedibird.com/@tukinami_seika)\n- [Mastodon(うかどん)](https://ukadon.shillest.net/@tukinami_seika)\n\n## 製作者\n\n月波 清火\n\n- [GitHub](https://github.com/tukinami)\n- [github.io(これまで公開した制作物)](https://tukinami.github.io)\n",
+            "summary": "伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。",
+            "date_published": "2025-08-15T10:42:59Z",
+            "date_modified": "2025-08-15T10:43:02Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/purple-eyed-dressed-up-boy/releases/download/v1.1.0/purple-eyed-dressed-up-boy.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "purple-eyed-dressed-up-boy.zip",
+                    "size_in_bytes": 1531565,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "tukinami/lady-goldfish-bowl",
             "url": "https://github.com/tukinami/lady-goldfish-bowl",
             "title": "lady-goldfish-bowl",
@@ -100,6 +133,105 @@
                     "size_in_bytes": 1266929,
                     "_ex": {
                         "download_count": 11
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/kumasan_with_deathplay",
+            "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay",
+            "title": "kumasan_with_deathplay",
+            "content_text": "# 「くまさん・うぃず・ですぷれ」\r\n![プレビュー](preview.gif \"プレビュー\")\r\n\r\n## これなに\r\n* 伺か向けに設定済みのフリーシェル(画像素材)です\r\n* 伺かのシェルとして使う場合、専用バルーン(吹き出し)と併せての利用を推奨します\r\n* 伺か関連作品以外への利用も可能です\r\n* 動作デモ用ゴーストもあります\r\n\r\n## 利用条件\r\n動作デモ用ゴースト以外は、下記の条件でご利用いただけます。\r\n* 改変可\r\n* 再配布可\r\n* 改変後の再配布可\r\n* 伺か関連作品以外への利用可\r\n* 著作者表示不要\r\n* 使用報告不要\r\n\r\n## ダウンロード\r\n* [動作テスト用一括導入パッケージ](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/package.zip)\r\n  * 動作デモ用ゴーストとシェル、バルーン２種が含まれています。\r\n* [シェル単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/kumasan_with_deathplay.zip)\r\n* [専用バルーン(明)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_light.zip)\r\n* [専用バルーン(暗)単体](https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/latest/download/deathplay_for_kumasan_dark.zip)\r\n* [シェルのpsd](https://github.com/lost-nd-xxx/kumasan_with_deathplay/raw/main/material/shell.psd)\r\n  * [PsdTool](https://oov.github.io/psdtool/)対応のファイルです。画像編集ソフトでも開けます。\r\n\r\n## 連絡先\r\n* 作者：lost_nd_xxx（ろすえん）\r\n* 連絡先：[https://lnx.flop.jp/form/postmail.html](https://lnx.flop.jp/form/postmail.html)\r\n",
+            "summary": "フリーシェル＆専用バルーン２種＆動作デモ用ゴースト",
+            "date_published": "2024-11-01T15:19:38Z",
+            "date_modified": "2024-11-01T15:19:38Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/download/1.0.1/deathplay_for_kumasan_dark.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "deathplay_for_kumasan_dark.zip",
+                    "size_in_bytes": 8597,
+                    "_ex": {
+                        "download_count": 13
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Shimofumi/Steampunk",
+            "url": "https://github.com/Shimofumi/Steampunk",
+            "title": "Steampunk",
+            "content_text": "ごじゆうにおつかいください。\n改変再配布配布中の再配布全部OK想定されうるあらゆる制約を設けないものとします。\n\nすちーむぱんくですよ！すちーむぱんく！！\n歯車！蒸気機関！ヴィクトリア！ガスライト！グレート・ゲーム！\n\nこの追加シェルの作者：しもふみ\n配布場所：https://github.com/Shimofumi\n連絡先：https://ukadon.shillest.net/@Shimofumi\n\nﾙｽﾄﾘｶﾁｬﾝはｶﾜｲｲですね。\n\nシェル化にあたり、ゴースト作者のあーるでぃーさんに多大なる協力を頂きました。\nこの場を借りてお礼申し上げます。\n\n\n",
+            "summary": "「ロスト・ユー・サムウェア」用追加シェル「すちーむぱんく」",
+            "date_published": "2024-10-17T16:59:11Z",
+            "date_modified": "2024-10-17T16:59:12Z",
+            "authors": [
+                {
+                    "name": "Shimofumi",
+                    "url": "https://github.com/Shimofumi",
+                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Shimofumi/Steampunk/releases/download/v1.0.0/Steampunk.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "Steampunk.zip",
+                    "size_in_bytes": 1880952,
+                    "_ex": {
+                        "download_count": 370
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Shimofumi/zoomout_dra",
+            "url": "https://github.com/Shimofumi/zoomout_dra",
+            "title": "zoomout_dra",
+            "content_text": "\nQ、どうしてチャイナスク水に着ぐるみを重ねて着ているんですか？\n\nA、だって辰歳ちゃし…さすがに恥ずいのちゃ。",
+            "summary": "かつて嫌ゴと呼ばれたけれど 追加シェル「辰年（小）」",
+            "date_published": "2024-08-19T13:27:19Z",
+            "date_modified": "2024-08-19T13:27:21Z",
+            "authors": [
+                {
+                    "name": "Shimofumi",
+                    "url": "https://github.com/Shimofumi",
+                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Shimofumi/zoomout_dra/releases/download/v1.0.0/zoomout_dra.zip",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "zoomout_dra.zip",
+                    "size_in_bytes": 614062,
+                    "_ex": {
+                        "download_count": 31
                     }
                 }
             ]
@@ -234,6 +366,42 @@
                     "size_in_bytes": 1387864,
                     "_ex": {
                         "download_count": 49
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jb-standard",
+            "url": "https://github.com/nikolat/jb-standard",
+            "title": "jb-standard",
+            "content_text": "\n■概要\n\n  ゴースト「雀々BARIBARI」用追加シェル「standard」\n\n  雀々BARIBARI\n    https://github.com/nikolat/jong-bari\n\n■ライセンス\n\n□以下のサイトで配布されている牌画像を加工して使用しております。\n\n  麻雀豆腐\n    https://majandofu.com/mahjong-images\n\n□画像内の文字に「Nishiki-teki」フォントを使用しております。\n\n  にしき的フォント - TYPVS LITTERARVM NISICIAE\n    https://umihotaru.work/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n  著作者人格権はDonに帰属します\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n\n",
+            "summary": "ゴースト「雀々BARIBARI」用追加シェル",
+            "date_published": "2022-05-14T11:15:52Z",
+            "date_modified": "2022-05-14T11:15:54Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jb-standard/releases/download/v1.0.5/jb-standard.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jb-standard.nar",
+                    "size_in_bytes": 562934,
+                    "_ex": {
+                        "download_count": 47
                     }
                 }
             ]
