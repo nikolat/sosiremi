@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/lost-nd-xxx/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>LuminousModulation_Radio</title>
+    <link>https://github.com/lost-nd-xxx/LuminousModulation_Radio</link>
+    <description>伺かゴースト「LMラジオ: 晃波放送」 / 架空世界のラジオを聴取</description>
+    <category>ghost</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/LuminousModulation_Radio</guid>
+    <pubDate>Wed, 17 Sep 2025 21:44:41 +0900</pubDate>
+</item>
+<item>
     <title>yakutai_nashi</title>
     <link>https://github.com/lost-nd-xxx/yakutai_nashi</link>
     <description>ゴースト「益体無しの人生だった」</description>
