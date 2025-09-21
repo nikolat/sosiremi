@@ -6,38 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "lost-nd-xxx/LuminousModulation_Radio",
-            "url": "https://github.com/lost-nd-xxx/LuminousModulation_Radio",
-            "title": "LuminousModulation_Radio",
-            "content_text": "# 「LMラジオ: 晃波放送」\n* 本作品の制作にはAIを使用しています。\n* 本作品はフィクションであり、表現内容は現実と一切関係ありません。\n\n---\n静かな部屋の片隅に置かれた、古い形のラジオ受信機。\nアンテナを立て、ダイヤルを回せば、どこかの世界の電波が届きます。\n\n太陽協会の堅い放送から、地方都市の親しみやすい番組まで。\n天気に寄り添う音楽や、身近な暮らしの話題も。\n\n時には雨音と共に聞こえてくる歌声に、\n時には遠い街の日常に、そっと耳を傾けてください。\n\n---\n## 動作環境\n* この作品（ゴースト）は伺かベースウェアで動かすことを想定しています。\n* Windows + SSP環境での動作を確認しています。\n* 他の環境での動作は未確認です。\n\n### 「伺か」や「ゴースト」がわからない方向けの案内\n* https://keshiki.nobody.jp/\n\n---\n## 操作説明\n各部をつつくと操作できます（ダブルクリック）\n* アンテナ　：受信感度を調整（自動発話の頻度調整）\n* ダイヤル　：ラジオ局を選局\n* スピーカー：耳を傾ける（手動でランダムトークを聞く）\n\n操作にはショートカットキーも使えます。\n* Ｔ：手動でランダムトークを聞く\n* Ｍ：ラジオのメニューを開く（受信感度調整、選局、手動発話など）\n\n---\n## ショートカットキーが反応しない場合\n以下の事柄を確認してみてください。\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n    * ラジオの絵をシングルクリックすると、フォーカスを合わせることができます。\n\n---\n## 関連作品\n作者の他の作品群と同じ架空世界を舞台にしています。\n\n* その祈りに光あれ\n  * https://lnx.flop.jp/ukgk/resh.htm\n\n* その祈りは星となる\n  * https://lnx.flop.jp/ukgk/star.htm\n\n---\n## 制作におけるAI利用について\n本作品の制作において、以下のAI支援ツールを使用しています。\n\n* プログラム開発\n  * Claude（Anthropic）によるコード生成・デバッグ支援\n\n* コンテンツ制作\n  * Claudeによる文章作成・編集支援\n    * ラジオ番組の台本・ニュース原稿・音楽番組解説等\n\n* 企画・設計\n  * Claudeによるブレインストーミング・構成検討\n\n最終的な品質確認は作者が責任を持って行っています。\n\n---\n## 謝辞/利用素材等\n\n* 里々/整備班カスタム\n  * https://github.com/ukatech/satoriya-shiori\n\n---\n## 更新情報\n* https://github.com/lost-nd-xxx/LuminousModulation_Radio/commits/main/\n\n---\n## 作者情報\n* 作者\n  * ろすえん(lost_nd_xxx)\n* 連絡先\n  * https://lnx.flop.jp/form/postmail.html\n",
-            "summary": "伺かゴースト「LMラジオ: 晃波放送」 / 架空世界のラジオを聴取",
-            "date_published": "2025-09-17T12:44:35Z",
-            "date_modified": "2025-09-17T12:44:41Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.0/LuminousModulation_Radio.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "LuminousModulation_Radio.nar",
-                    "size_in_bytes": 1676767,
-                    "_ex": {
-                        "download_count": 27
-                    }
-                }
-            ]
-        },
-        {
             "id": "tukinami/taidanaSanoSan",
             "url": "https://github.com/tukinami/taidanaSanoSan",
             "title": "taidanaSanoSan",
@@ -66,6 +34,38 @@
                     "size_in_bytes": 1910259,
                     "_ex": {
                         "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/LuminousModulation_Radio",
+            "url": "https://github.com/lost-nd-xxx/LuminousModulation_Radio",
+            "title": "LuminousModulation_Radio",
+            "content_text": "# 「LMラジオ: 晃波放送」\n* 本作品の制作にはAIを使用しています。\n* 本作品はフィクションであり、表現内容は現実と一切関係ありません。\n\n---\n静かな部屋の片隅に置かれた、古い形のラジオ受信機。\nアンテナを立て、ダイヤルを回せば、どこかの世界の電波が届きます。\n\n太陽協会の堅い放送から、地方都市の親しみやすい番組まで。\n天気に寄り添う音楽や、身近な暮らしの話題も。\n\n時には雨音と共に聞こえてくる歌声に、\n時には遠い街の日常に、そっと耳を傾けてください。\n\n---\n## 動作環境\n* この作品（ゴースト）は伺かベースウェアで動かすことを想定しています。\n* Windows + SSP環境での動作を確認しています。\n* 他の環境での動作は未確認です。\n\n### 「伺か」や「ゴースト」がわからない方向けの案内\n* https://keshiki.nobody.jp/\n\n---\n## 操作説明\n各部をつつくと操作できます（ダブルクリック）\n* アンテナ　：受信感度を調整（自動発話の頻度調整）\n* ダイヤル　：ラジオ局を選局\n* スピーカー：耳を傾ける（手動でランダムトークを聞く）\n\n操作にはショートカットキーも使えます。\n* Ｔ：手動でランダムトークを聞く\n* Ｍ：ラジオのメニューを開く（受信感度調整、選局、手動発話など）\n\n---\n## ショートカットキーが反応しない場合\n以下の事柄を確認してみてください。\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n    * ラジオの絵をシングルクリックすると、フォーカスを合わせることができます。\n\n---\n## 関連作品\n作者の他の作品群と同じ架空世界を舞台にしています。\n\n* その祈りに光あれ\n  * https://lnx.flop.jp/ukgk/resh.htm\n\n* その祈りは星となる\n  * https://lnx.flop.jp/ukgk/star.htm\n\n---\n## 制作におけるAI利用について\n本作品の制作において、以下のAI支援ツールを使用しています。\n\n* プログラム開発\n  * Claude（Anthropic）によるコード生成・デバッグ支援\n\n* コンテンツ制作\n  * Claudeによる文章作成・編集支援\n    * ラジオ番組の台本・ニュース原稿・音楽番組解説等\n\n* 企画・設計\n  * Claudeによるブレインストーミング・構成検討\n\n最終的な品質確認は作者が責任を持って行っています。\n\n---\n## 謝辞/利用素材等\n\n* 里々/整備班カスタム\n  * https://github.com/ukatech/satoriya-shiori\n\n---\n## 更新情報\n* https://github.com/lost-nd-xxx/LuminousModulation_Radio/commits/main/\n\n---\n## 作者情報\n* 作者\n  * ろすえん(lost_nd_xxx)\n* 連絡先\n  * https://lnx.flop.jp/form/postmail.html\n",
+            "summary": "伺かゴースト「LMラジオ: 晃波放送」 / 架空世界のラジオを聴取",
+            "date_published": "2025-09-17T12:44:35Z",
+            "date_modified": "2025-09-17T12:44:41Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.0/LuminousModulation_Radio.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "LuminousModulation_Radio.nar",
+                    "size_in_bytes": 1676767,
+                    "_ex": {
+                        "download_count": 27
                     }
                 }
             ]
