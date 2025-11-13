@@ -23,14 +23,5 @@
     <guid isPermaLink="false">lost-nd-xxx/something_like_balloon</guid>
     <pubDate>Sun, 01 Jun 2025 13:15:37 +0900</pubDate>
 </item>
-<item>
-    <title>jb-standard-balloon</title>
-    <link>https://github.com/nikolat/jb-standard-balloon</link>
-    <description>ゴースト「雀々BARIBARI」用バルーン</description>
-    <category>balloon</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
-    <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
-</item>
 </channel>
 </rss>
