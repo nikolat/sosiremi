@@ -491,5 +491,113 @@
     <guid isPermaLink="false">nikolat/sudohaikuyu</guid>
     <pubDate>Fri, 20 Jan 2023 19:37:15 +0900</pubDate>
 </item>
+<item>
+    <title>ukagakaPlugin_getWindowTitle</title>
+    <link>https://github.com/ambergon/ukagakaPlugin_getWindowTitle</link>
+    <description>伺か ・ゴーストがあなたの作業を覗き込むようになるプラグイン。</description>
+    <category>plugin</category>
+    <dc:creator>ambergon</dc:creator>
+    <guid isPermaLink="false">ambergon/ukagakaPlugin_getWindowTitle</guid>
+    <pubDate>Sat, 07 Jan 2023 22:36:50 +0900</pubDate>
+</item>
+<item>
+    <title>desktop_tempter_casino_chip_blue</title>
+    <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_blue</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_blue</guid>
+    <pubDate>Sat, 07 Jan 2023 14:38:50 +0900</pubDate>
+</item>
+<item>
+    <title>desktop_tempter_casino_chip_green</title>
+    <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_green</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_green</guid>
+    <pubDate>Sat, 07 Jan 2023 14:29:01 +0900</pubDate>
+</item>
+<item>
+    <title>desktop_tempter_casino_chip_red</title>
+    <link>https://github.com/Tatakinov/desktop_tempter_casino_chip_red</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>Tatakinov</dc:creator>
+    <guid isPermaLink="false">Tatakinov/desktop_tempter_casino_chip_red</guid>
+    <pubDate>Sat, 07 Jan 2023 14:26:58 +0900</pubDate>
+</item>
+<item>
+    <title>UkagakaPlugin_DBdiary</title>
+    <link>https://github.com/ambergon/UkagakaPlugin_DBdiary</link>
+    <description>伺か・ゴーストから日記を書いたり読んだりするyaya as plugin</description>
+    <category>plugin</category>
+    <dc:creator>ambergon</dc:creator>
+    <guid isPermaLink="false">ambergon/UkagakaPlugin_DBdiary</guid>
+    <pubDate>Wed, 04 Jan 2023 16:56:15 +0900</pubDate>
+</item>
+<item>
+    <title>si-near-future</title>
+    <link>https://github.com/nikolat/si-near-future</link>
+    <description>additional shell for simultaneous-interpreter</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/si-near-future</guid>
+    <pubDate>Sun, 04 Dec 2022 20:20:12 +0900</pubDate>
+</item>
+<item>
+    <title>cultural-festival</title>
+    <link>https://github.com/nikolat/cultural-festival</link>
+    <description>ゴースト「卓上誘技」用追加シェル</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/cultural-festival</guid>
+    <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
+</item>
+<item>
+    <title>jb-standard-balloon</title>
+    <link>https://github.com/nikolat/jb-standard-balloon</link>
+    <description>ゴースト「雀々BARIBARI」用バルーン</description>
+    <category>balloon</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
+    <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
+</item>
+<item>
+    <title>jb-standard</title>
+    <link>https://github.com/nikolat/jb-standard</link>
+    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jb-standard</guid>
+    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
+</item>
+<item>
+    <title>CharameLNetwork</title>
+    <link>https://github.com/nikolat/CharameLNetwork</link>
+    <description>CharameLをSNS風に見せる何か</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/CharameLNetwork</guid>
+    <pubDate>Wed, 27 Apr 2022 18:48:12 +0900</pubDate>
+</item>
+<item>
+    <title>balloonselector</title>
+    <link>https://github.com/nikolat/balloonselector</link>
+    <description>バルーン選択支援プラグイン</description>
+    <category>plugin</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/balloonselector</guid>
+    <pubDate>Sun, 10 Jul 2022 19:55:18 +0900</pubDate>
+</item>
+<item>
+    <title>ukagaka-caramelldansen-patch</title>
+    <link>https://github.com/nikolat/ukagaka-caramelldansen-patch</link>
+    <description>caramelldansen修正用supplement</description>
+    <category>supplement</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/ukagaka-caramelldansen-patch</guid>
+    <pubDate>Mon, 30 May 2022 19:25:17 +0900</pubDate>
+</item>
 </channel>
 </rss>
