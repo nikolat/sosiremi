@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "lost-nd-xxx/countdown_to_the_end",
+            "url": "https://github.com/lost-nd-xxx/countdown_to_the_end",
+            "title": "countdown_to_the_end",
+            "content_text": "『終末までのカウントダウン』\n 作者 : ろすえん\n連絡先: https://lnx.flop.jp/\n\n\n＊このファイルセットについて\n伺かベースウェアで動作する「ゴースト」です。\nSSPの使用を推奨します。\n\nSSP配布元：\nhttps://ssp.shillest.net/\n\n\n＊このゴーストについて\n嫌ゴです。\n(ユーザを嫌な気分にさせようとする意図のもの)\n\n\n＊よくありそうな質問と回答\nQ. 遠すぎると言われるのですが？\nA. 3年以上への対応の予定はありません。\n\n\n＊使用素材\n里々 整備班ver\nhttp://ms.shillest.net/satoriya.xhtml\n",
+            "summary": "伺かゴースト「終末までのカウントダウン」",
+            "date_published": "2026-01-15T15:55:58Z",
+            "date_modified": "2026-01-15T15:56:00Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/countdown_to_the_end/releases/download/1.0.0/countdown_to_the_end.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "countdown_to_the_end.nar",
+                    "size_in_bytes": 347701,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/LilyNovelPlayer",
             "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
             "title": "LilyNovelPlayer",
