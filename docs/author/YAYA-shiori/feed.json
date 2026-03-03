@@ -1,0 +1,42 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "YAYA-shiori | 偽SoSiReMi",
+    "home_page_url": "https://nikolat.github.io/sosiremi/author/YAYA-shiori/",
+    "feed_url": "https://nikolat.github.io/sosiremi/author/YAYA-shiori/feed.json",
+    "description": "GitHubで公開されているNARファイルを一覧表示する",
+    "items": [
+        {
+            "id": "YAYA-shiori/_the_hand_",
+            "url": "https://github.com/YAYA-shiori/_the_hand_",
+            "title": "_the_hand_",
+            "content_text": "以下は旧公開ページをGitHubに合わせて最小限変更した内容になります。\n\n----------\n\n![タイトル](thumbnail.jpg)\n\nillustration：鈴風さん（http://huuryuu.bake-neko.net/index/index.html）\n\nここにはまっとうなゴーストはありません。帰れ。\n\n## The Hand phase 'xxxx'\n\n![サンプル](shell/master/surface000.png)\n\n↑こんな感じです。いやらしいですね。\n\n### なにこれ\n\n- SAORIで色々いじってみるテスト。\n- 界隈初？のセクハラゴーストです。一緒に立ってるゴーストにあんなことやこんなことをします。\n- ていうか嫌ゴです。\n- 某ゴーストマスタさんに「生理的に受け付けない」と言われました。最強。\n- [右のReleasesから最新版をダウンロード](https://github.com/YAYA-shiori/_the_hand_/releases)できます。（phase 'xxxx' 2008-05-29～随時更新）\n\n### 履歴\n\n- 2004/05/?? 第一版作成、しばらくほったらかし\n- 2005/05/09 色々修正して Phase \"xx\" 作成\n- 2005/05/10 FA-Xさん（http://fa-x.hp.infoseek.co.jp/）作成の「小さいバルーン」を同梱させて頂きました。感謝。\n- 2006/05/25 だーいぶ書き直して、必殺技つけて、Phase \"xxx\" になりました。\n- 2006/09/29 はんどたん対応。Special Thanks to 高遠結奈さま（http://yuina.s6.xrea.com/）\n- 2006/11/20 はんどたんに声がつきました。Special Thanks to みゅんさん\n- 2007/02/27 必殺技ロジックを更新。必殺技４を追加。\n- 2008/05/29 Phase \"xxxx\" **大幅な変更なのでアーカイブ入れなおしを推奨します。**\n  - コア部分を最新のYAYAシステムに合わせ書き直し。\n  - トーク少し追加。はんどたん当たり判定追加。\n- 2026/02/23 GitHub YAYA-shiori org.に収容\n\n### 制限事項やなんか\n\n- SSP 1.10.00 (RC1)以上でないとほぼ使えません。\n- 他のゴーストと一緒に立てて、放っておくか、ダブルクリックしてください。\n- ちょっと重いです。\n\n## はんどたん\n\n- 高遠結奈様が作成してくださった、The Handの追加シェルです。\n- シェルを変えるとHandの挙動も変わります。\n- かわいいです。\n\n高遠結奈様「つきゆり」\nhttp://yuina.s6.xrea.com/\n\n「つきゆり」内「The Hand」専用シェル「Hand Girl」公開場所\nhttp://yuina.s6.xrea.com/ukagaka/\n\n## Hand関連ドキュメント\n\n### Hand用の特殊処理を行いたい方へ\n\n詳しくは [Hand特殊イベント](hand_special_event.md) を見てください。\n\n### Hand対応/被対応一覧\n\nHandが特別な対応を行っている、あるいはHandに特別な対応を行って下さってるゴーストの一覧です。\n\n[Hand対応](hand_compatible_ghost.md)\n\nヴィイさんとコミュニケーション連鎖を行った際のノウハウをまとめました。\n\n[コミュニケーション連鎖](hand_communicate.md)\n\n### お年頃の娘を抱えたゴーストマスター様へ\n\n- うちの娘に何をするんだっ！という方、お申し出下されば触らないようにします。\n\n### はんどたんのできるまで\n\n- http://d.hatena.ne.jp/hakuma/20060920/p2\n- http://yuina.s6.xrea.com/x/diary/nicky.cgi?DT=20060922\n- http://hiho.boo.jp/soramimi/log/eid306.html\n- http://d.hatena.ne.jp/wiz-stargazer/20060921\n- http://metalwing.blog.shinobi.jp/Entry/189/\n- http://metalwing.blog.shinobi.jp/Entry/187/\n- http://niselog.blog.shinobi.jp/Entry/17/\n- http://taimagro.blog.shinobi.jp/Entry/71/\n- http://www12.plala.or.jp/canaanM/pack/s/g001.html\n- http://yuina.s6.xrea.com/x/diary/nicky.cgi?DT=20060929\n\n### 伺デミー\n\n- 伺デミー技術賞予選（2006/08/31）にノミネートいただきました。\n  - Handから一言。[./伺デミー予選突破記念](./伺デミー予選突破記念)\n- 伺デミー技術賞決戦（2006/09/19）にノミネートいただきました。\n\n## ゴーストの扱いについて\n\n基本的になにをしてもオッケーです。\n\n",
+            "summary": "嫌ゴ「The Hand」Phase \"xxxx\"",
+            "date_published": "2026-02-23T11:24:06Z",
+            "date_modified": "2026-02-23T11:24:06Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/_the_hand_/releases/download/v20260223112405-124d41a/_the_hand_.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "_the_hand_.nar",
+                    "size_in_bytes": 4126887,
+                    "_ex": {
+                        "download_count": 3
+                    }
+                }
+            ]
+        }
+    ]
+}
