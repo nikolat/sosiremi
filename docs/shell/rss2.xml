@@ -86,32 +86,5 @@
     <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</guid>
     <pubDate>Sun, 26 May 2024 06:33:57 +0900</pubDate>
 </item>
-<item>
-    <title>si-near-future</title>
-    <link>https://github.com/nikolat/si-near-future</link>
-    <description>additional shell for simultaneous-interpreter</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/si-near-future</guid>
-    <pubDate>Sun, 04 Dec 2022 20:20:12 +0900</pubDate>
-</item>
-<item>
-    <title>cultural-festival</title>
-    <link>https://github.com/nikolat/cultural-festival</link>
-    <description>ゴースト「卓上誘技」用追加シェル</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/cultural-festival</guid>
-    <pubDate>Wed, 09 Nov 2022 20:29:24 +0900</pubDate>
-</item>
-<item>
-    <title>jb-standard</title>
-    <link>https://github.com/nikolat/jb-standard</link>
-    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
-    <category>shell</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/jb-standard</guid>
-    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
-</item>
 </channel>
 </rss>
