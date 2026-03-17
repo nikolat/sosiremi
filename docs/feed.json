@@ -6,13 +6,46 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem",
+            "url": "https://github.com/lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem",
+            "title": "FortuneTeller_FiniteSeaslugTheorem",
+            "content_text": "★伺かゴースト「うみうし占い堂」★\n\n「槍をトントンでぷーが占うミャ。\n　他の用事はぷーの左腕をつつくミャ。\n\n　たくさん撃てば、何発かは\n　的に当たるかもしれないのミャ。\n　占いは用法用量を守って計画的に使うミャ。\n\n　占い以外のことは、ぷーは何もしないミャ。\n　これはフリでも何でもないミャ。\n　本当と書いてマジと読むのミャ」\n\n「あと、占い中とかに何かおかしくなったら、\n　とりあえずぷーを再起動するミャ。\n　それでも直らなかったら、\n　作者に報告してやって欲しいミャ」\n\n\n★参考にした概念★\n・無限の猿定理\n・プラセボ効果\n・バベルの図書館\n・バーナム効果\n\n\n★これはなに★\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n＊SSPの配布元\nhttps://ssp.shillest.net/\n\n＊基本的な使い方\nhttps://keshiki.nobody.jp/\n\n\n★使用素材★\n＊人物絵\nフリーシェル『「海で一番強い生き物」ちゃん』を改変して使用しています。\nhttps://dragontail.monster/downloads/shells/saigai_no_ikimono_chan/\n\n＊カード\nカード画像はゴースト作者が作成したものです。\nカードの枠の絵柄（文字以外の部分）に、生成AIにより生成された画像が含まれています。\n\n画像内のフォント：\n・NKC06 Dainippon Kairyo: Seal\nhttps://umihotaru.booth.pm/items/1948887\n・フローラU\n\n＊SHIORIと辞書テンプレート\nYAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n紺野りりす\nhttps://ms.shillest.net/housekeeper/html/zz_other_ayalilith.xhtml\n\n\n★二次創作などについて★\n以下のページをご一読ください。\nhttps://lnx.flop.jp/about.html#rule\n\n\n★制作中のAI利用について★\nこのゴーストの制作には、生成AIを利用しています。\nClaude Code（Anthropic）を占いの文言・機能およびトークの作成に使用しました。\nカードの枠の絵柄には、Gemini（Google）により生成された画像を加工して使用しています。\n\n\n★作者・連絡先★\nゴースト作者・責任者: ろすえん ( lost_nd_xxx )\n連絡先:  https://lnx.flop.jp/form/postmail.html\n",
+            "summary": "伺かゴースト「うみうし占い堂」",
+            "date_published": "2026-03-17T12:47:25Z",
+            "date_modified": "2026-03-17T12:47:35Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem/releases/download/1.0.0/FortuneTeller_FiniteSeaslugTheorem.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "FortuneTeller_FiniteSeaslugTheorem.nar",
+                    "size_in_bytes": 2844750,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/YouSaveMe_ILoveYou",
             "url": "https://github.com/lost-nd-xxx/YouSaveMe_ILoveYou",
             "title": "YouSaveMe_ILoveYou",
             "content_text": "# 伺かゴースト「You save me, I love you.」\n\n扉の向こうから響く、やさしいやさしい弟の声。\n\n\n## 成分表示\n\n* ヤンデレな弟（「ヤンデレ」は作者独自の解釈を含みます）\n* ユーザに少し設定があります\n  * 「喋らない」「部屋から出ない」\n  * 「過去に触れられたくない記憶がある」ような描写はありますが、詳細は語られません\n* 恋愛要素・性的描写：なし\n* 暴力表現：直接的描写なし。間接的示唆のみ。\n* 状態・関係性の変化：なし\n\n\n## これはなに\n\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n\n## 使用方法詳細\n* 喋り頻度変更など\n  * ドアノブをダブルクリック\n\n* 何か話してもらう\n  * ドアをダブルクリック\n\n\n## お借りした素材\n\n* 里々/整備班カスタム\n  * https://github.com/ukatech/satoriya-shiori/wiki\n\n\n## 二次創作などについて\n* 配布サイトをご覧ください。\n  * https://lnx.flop.jp/about.html#rule\n\n\n## 作者・連絡先\n* 制作者: ろすえん(lost_nd_xxx)\n* 連絡先: https://lnx.flop.jp/form/postmail.html\n",
             "summary": "伺かゴースト「You save me, I love you.」",
-            "date_published": "2026-03-17T01:12:36Z",
-            "date_modified": "2026-03-17T01:12:39Z",
+            "date_published": "2026-03-17T12:26:19Z",
+            "date_modified": "2026-03-17T12:26:23Z",
             "authors": [
                 {
                     "name": "lost-nd-xxx",
@@ -31,7 +64,7 @@
                     "url": "https://github.com/lost-nd-xxx/YouSaveMe_ILoveYou/releases/download/1.0.0/YouSaveMe_ILoveYou.nar",
                     "mime_type": "application/x-nar",
                     "title": "YouSaveMe_ILoveYou.nar",
-                    "size_in_bytes": 701768,
+                    "size_in_bytes": 703901,
                     "_ex": {
                         "download_count": 0
                     }
@@ -44,8 +77,8 @@
             "title": "perpetual_whisper",
             "content_text": "# 伺かゴースト「パペチュアル・ウィスパー」\n\n\n## あらすじ\n\nこれは、内なる囁きの合わせ鏡。\nただそれだけの、終わりなき千日手。\n\n\n## これはなに\n\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n\n## 使用方法詳細\n* 喋り頻度変更など\n  * ぬいぐるみの絵の上にマウスカーソルを乗せ、カーソルが変わらないところでダブルクリック\n    * または、看板に対してシングルクリック\n  * ショートカットキー: Ｍ\n\n* ぬいぐるみたちに触れる\n  * ぬいぐるみのカーソルの変わる箇所で以下のことをする\n    * ダブルクリック\n    * カーソルをしばらく動かす\n\n* 何か話してもらう\n  * ぬいぐるみの口元をダブルクリック\n  * ショートカットキー: Ｔ\n\n### ショートカットキーが反応しない場合\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n   * 絵をシングルクリックするとフォーカスを合わせることができます。\n\n上記に当てはまらない場合は不具合かもしれません。\nこのreadme下部の連絡先までご連絡いただけると助かります。\n\n\n## 使用素材等\n* 紺野ややめ & YAYA/Yet Another AYA\n  * https://ms.shillest.net/yayame.xhtml\n\n\n## 二次創作などについて\n* 配布サイトをご覧ください。\n  * https://lnx.flop.jp/about.html#rule\n\n\n## 連絡先\n* 作者: ろすえん (lost_nd_xxx)\n  * https://lnx.flop.jp/form/postmail.html\n\n",
             "summary": "伺かゴースト「パペチュアル・ウィスパー」",
-            "date_published": "2026-03-17T01:12:21Z",
-            "date_modified": "2026-03-17T01:12:23Z",
+            "date_published": "2026-03-17T12:26:35Z",
+            "date_modified": "2026-03-17T12:26:37Z",
             "authors": [
                 {
                     "name": "lost-nd-xxx",
@@ -64,7 +97,7 @@
                     "url": "https://github.com/lost-nd-xxx/perpetual_whisper/releases/download/1.0.0/perpetual_whisper.nar",
                     "mime_type": "application/x-nar",
                     "title": "perpetual_whisper.nar",
-                    "size_in_bytes": 540033,
+                    "size_in_bytes": 542948,
                     "_ex": {
                         "download_count": 0
                     }
@@ -1336,7 +1369,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 2622100,
                     "_ex": {
-                        "download_count": 278
+                        "download_count": 279
                     }
                 }
             ]
