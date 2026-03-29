@@ -6,6 +6,72 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "YAYA-shiori/stampcollection",
+            "url": "https://github.com/YAYA-shiori/stampcollection",
+            "title": "stampcollection",
+            "content_text": "\nスタンプ帳　version 1.4\n\nこれはゴーストのスタンプを収集するSSP専用プラグインです。\nあまり古すぎるSSPには対応していません。\n\n\n最初はまっさらなスタンプ帳があるだけです。\n対応しているゴーストから押してもらってください。\nスタンプを押してもらえるゴースト一覧はこちらです。\n > http://www10.atwiki.jp/postic/pages/13.html\n\n\nスタンプはゴースト一体につき一つまでです。\n貰える条件はそのゴーストによって違います。\n出会ってすぐにあっさり押して貰えるかもしれませんし、なかなか貰えないかもしれません。\n\n押してもらったスタンプは\n右クリックメニュー＞プラグイン＞スタンプ帳\nで確認できます。\n小さいバルーンでは上手く表示されません（対応法考え中）\n\nよくわからない方はこちらの解説が詳しいのでぜひ。\nhttp://d.hatena.ne.jp/hinoharu/20080507#1210173143\n\n\n\n\nほか、細かいこと。\n\n■スタンプを削除する\nスタンプは追加、上書きされるだけで削除はできません。\nどうしても一旦初期化させたい場合はゴーストが起動していない状態でssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを開き、「YAYA_variable.cfg.ays」を削除すれば元のスタンプが1つもない状態に戻ります。\n\n■スタンプをバックアップする、他のSSPに移動する\nssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを、移動先SSPの同じ位置にコピーすると移動できます。\n（スタンプのデータは「YAYA_variable.cfg.ays」と「icon」フォルダの中身全てです）\nバックアップする場合はこのフォルダをどこか別な場所にコピーして保管しておいてください。\n\n■スタンプをネットワーク更新する\nエクスプローラーを開き、「種類」を「プラグイン」にし、スタンプ帳項目右クリックからできます。\n（それ以外の方法もあるのかもしれませんがよくわかりません）\n\n■スタンプ帳プラグインの扱いについて\n再配布・ゴーストに同梱配布可、改変配布可です。\n（2013/12/28　改変配布不可より可に変更））\n\n\n\n謝辞\n\n「整備班 -The Maintenance Shop-」　http://ms.shillest.net/yaya_as.xhtml\nYAYA as PLUGINを使わせていただきました。\n\n「ルーチェ's Homepage」　http://www.ruche-home.net/\n「JUNKROOM」　http://white-ball.hp.infoseek.co.jp/\nimgctl.dll、imgctl_saori.dllを使わせていただきました。\n\n「浮子屋本舗」　http://ukiya.sakura.ne.jp/\n正規表現のサンプルを流用させていただきました。\n\nどうもありがとうございました。\n\n\n一次配布元 postic　http://navy.nm.land.to/post/\n",
+            "summary": "プラグイン「スタンプ帳」",
+            "date_published": "2026-03-29T08:03:09Z",
+            "date_modified": "2026-03-29T08:03:09Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/stampcollection/releases/download/v20260329170308-727c4ae/stampcollection.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "stampcollection.nar",
+                    "size_in_bytes": 710392,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem",
+            "url": "https://github.com/lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem",
+            "title": "FortuneTeller_FiniteSeaslugTheorem",
+            "content_text": "★伺かゴースト「うみうし占い堂」★\n\n「槍をトントンでぷーが占うミャ。\n　他の用事はぷーの左腕をつつくミャ。\n\n　たくさん撃てば、何発かは\n　的に当たるかもしれないのミャ。\n　占いは用法用量を守って計画的に使うミャ。\n\n　占い以外のことは、ぷーは何もしないミャ。\n　これはフリでも何でもないミャ。\n　本当と書いてマジと読むのミャ」\n\n「あと、占い中とかに何かおかしくなったら、\n　とりあえずぷーを再起動するミャ。\n　それでも直らなかったら、\n　作者に報告してやって欲しいミャ」\n\n\n★参考にした概念★\n・無限の猿定理\n・プラセボ効果\n・バベルの図書館\n・バーナム効果\n\n\n★これはなに★\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n＊SSPの配布元\nhttps://ssp.shillest.net/\n\n＊基本的な使い方\nhttps://keshiki.nobody.jp/\n\n\n★使用素材★\n＊人物絵\nフリーシェル『「海で一番強い生き物」ちゃん』を改変して使用しています。\nhttps://dragontail.monster/downloads/shells/saigai_no_ikimono_chan/\n\n＊カード\nカード画像はゴースト作者が作成したものです。\nカードの枠の絵柄（文字以外の部分）に、生成AIにより生成された画像が含まれています。\n\n画像内のフォント：\n・NKC06 Dainippon Kairyo: Seal\nhttps://umihotaru.booth.pm/items/1948887\n・フローラU\n\n＊SHIORIと辞書テンプレート\nYAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n紺野りりす\nhttps://ms.shillest.net/housekeeper/html/zz_other_ayalilith.xhtml\n\n\n★二次創作などについて★\n以下のページをご一読ください。\nhttps://lnx.flop.jp/about.html#rule\n\n\n★制作中のAI利用について★\nこのゴーストの制作には、生成AIを利用しています。\nClaude Code（Anthropic）を占いの文言・機能およびトークの作成に使用しました。\nカードの枠の絵柄には、Gemini（Google）により生成された画像を加工して使用しています。\n\n\n★作者・連絡先★\nゴースト作者・責任者: ろすえん ( lost_nd_xxx )\n連絡先:  https://lnx.flop.jp/form/postmail.html\n",
+            "summary": "伺かゴースト「うみうし占い堂」",
+            "date_published": "2026-03-17T12:47:25Z",
+            "date_modified": "2026-03-17T12:47:35Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem/releases/download/1.0.0/FortuneTeller_FiniteSeaslugTheorem.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "FortuneTeller_FiniteSeaslugTheorem.nar",
+                    "size_in_bytes": 2844750,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "nikolat/wallet_of_unyu",
             "url": "https://github.com/nikolat/wallet_of_unyu",
             "title": "wallet_of_unyu",
@@ -101,39 +167,6 @@
                     "size_in_bytes": 675757,
                     "_ex": {
                         "download_count": 36
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem",
-            "url": "https://github.com/lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem",
-            "title": "FortuneTeller_FiniteSeaslugTheorem",
-            "content_text": "★伺かゴースト「うみうし占い堂」★\n\n「槍をトントンでぷーが占うミャ。\n　他の用事はぷーの左腕をつつくミャ。\n\n　たくさん撃てば、何発かは\n　的に当たるかもしれないのミャ。\n　占いは用法用量を守って計画的に使うミャ。\n\n　占い以外のことは、ぷーは何もしないミャ。\n　これはフリでも何でもないミャ。\n　本当と書いてマジと読むのミャ」\n\n「あと、占い中とかに何かおかしくなったら、\n　とりあえずぷーを再起動するミャ。\n　それでも直らなかったら、\n　作者に報告してやって欲しいミャ」\n\n\n★参考にした概念★\n・無限の猿定理\n・プラセボ効果\n・バベルの図書館\n・バーナム効果\n\n\n★これはなに★\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n＊SSPの配布元\nhttps://ssp.shillest.net/\n\n＊基本的な使い方\nhttps://keshiki.nobody.jp/\n\n\n★使用素材★\n＊人物絵\nフリーシェル『「海で一番強い生き物」ちゃん』を改変して使用しています。\nhttps://dragontail.monster/downloads/shells/saigai_no_ikimono_chan/\n\n＊カード\nカード画像はゴースト作者が作成したものです。\nカードの枠の絵柄（文字以外の部分）に、生成AIにより生成された画像が含まれています。\n\n画像内のフォント：\n・NKC06 Dainippon Kairyo: Seal\nhttps://umihotaru.booth.pm/items/1948887\n・フローラU\n\n＊SHIORIと辞書テンプレート\nYAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n紺野りりす\nhttps://ms.shillest.net/housekeeper/html/zz_other_ayalilith.xhtml\n\n\n★二次創作などについて★\n以下のページをご一読ください。\nhttps://lnx.flop.jp/about.html#rule\n\n\n★制作中のAI利用について★\nこのゴーストの制作には、生成AIを利用しています。\nClaude Code（Anthropic）を占いの文言・機能およびトークの作成に使用しました。\nカードの枠の絵柄には、Gemini（Google）により生成された画像を加工して使用しています。\n\n\n★作者・連絡先★\nゴースト作者・責任者: ろすえん ( lost_nd_xxx )\n連絡先:  https://lnx.flop.jp/form/postmail.html\n",
-            "summary": "伺かゴースト「うみうし占い堂」",
-            "date_published": "2026-03-17T12:47:25Z",
-            "date_modified": "2026-03-17T12:47:35Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem/releases/download/1.0.0/FortuneTeller_FiniteSeaslugTheorem.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "FortuneTeller_FiniteSeaslugTheorem.nar",
-                    "size_in_bytes": 2844750,
-                    "_ex": {
-                        "download_count": 1
                     }
                 }
             ]
@@ -660,7 +693,7 @@
                     "title": "Yada-Yada-Yada.nar",
                     "size_in_bytes": 928721,
                     "_ex": {
-                        "download_count": 28
+                        "download_count": 29
                     }
                 }
             ]
@@ -1511,7 +1544,7 @@
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099837,
                     "_ex": {
-                        "download_count": 13
+                        "download_count": 14
                     }
                 }
             ]
