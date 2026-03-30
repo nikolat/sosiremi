@@ -9,10 +9,10 @@
             "id": "YAYA-shiori/stampcollection",
             "url": "https://github.com/YAYA-shiori/stampcollection",
             "title": "stampcollection",
-            "content_text": "\nスタンプ帳　version 1.4\n\nこれはゴーストのスタンプを収集するSSP専用プラグインです。\nあまり古すぎるSSPには対応していません。\n\n\n最初はまっさらなスタンプ帳があるだけです。\n対応しているゴーストから押してもらってください。\nスタンプを押してもらえるゴースト一覧はこちらです。\n > http://www10.atwiki.jp/postic/pages/13.html\n\n\nスタンプはゴースト一体につき一つまでです。\n貰える条件はそのゴーストによって違います。\n出会ってすぐにあっさり押して貰えるかもしれませんし、なかなか貰えないかもしれません。\n\n押してもらったスタンプは\n右クリックメニュー＞プラグイン＞スタンプ帳\nで確認できます。\n小さいバルーンでは上手く表示されません（対応法考え中）\n\nよくわからない方はこちらの解説が詳しいのでぜひ。\nhttp://d.hatena.ne.jp/hinoharu/20080507#1210173143\n\n\n\n\nほか、細かいこと。\n\n■スタンプを削除する\nスタンプは追加、上書きされるだけで削除はできません。\nどうしても一旦初期化させたい場合はゴーストが起動していない状態でssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを開き、「YAYA_variable.cfg.ays」を削除すれば元のスタンプが1つもない状態に戻ります。\n\n■スタンプをバックアップする、他のSSPに移動する\nssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを、移動先SSPの同じ位置にコピーすると移動できます。\n（スタンプのデータは「YAYA_variable.cfg.ays」と「icon」フォルダの中身全てです）\nバックアップする場合はこのフォルダをどこか別な場所にコピーして保管しておいてください。\n\n■スタンプをネットワーク更新する\nエクスプローラーを開き、「種類」を「プラグイン」にし、スタンプ帳項目右クリックからできます。\n（それ以外の方法もあるのかもしれませんがよくわかりません）\n\n■スタンプ帳プラグインの扱いについて\n再配布・ゴーストに同梱配布可、改変配布可です。\n（2013/12/28　改変配布不可より可に変更））\n\n\n\n謝辞\n\n「整備班 -The Maintenance Shop-」　http://ms.shillest.net/yaya_as.xhtml\nYAYA as PLUGINを使わせていただきました。\n\n「ルーチェ's Homepage」　http://www.ruche-home.net/\n「JUNKROOM」　http://white-ball.hp.infoseek.co.jp/\nimgctl.dll、imgctl_saori.dllを使わせていただきました。\n\n「浮子屋本舗」　http://ukiya.sakura.ne.jp/\n正規表現のサンプルを流用させていただきました。\n\nどうもありがとうございました。\n\n\n一次配布元 postic　http://navy.nm.land.to/post/\n",
+            "content_text": "\nスタンプ帳　version 1.4.1\n\nこれはゴーストのスタンプを収集するSSP専用プラグインです。\nあまり古すぎるSSPには対応していません。\n\n\n最初はまっさらなスタンプ帳があるだけです。\n対応しているゴーストから押してもらってください。\nスタンプを押してもらえるゴースト一覧はこちらです。\n > http://www10.atwiki.jp/postic/pages/13.html\n\n\nスタンプはゴースト一体につき一つまでです。\n貰える条件はそのゴーストによって違います。\n出会ってすぐにあっさり押して貰えるかもしれませんし、なかなか貰えないかもしれません。\n\n押してもらったスタンプは\n右クリックメニュー＞プラグイン＞スタンプ帳\nで確認できます。\n小さいバルーンでは上手く表示されません（対応法考え中）\n\nよくわからない方はこちらの解説が詳しいのでぜひ。\nhttp://d.hatena.ne.jp/hinoharu/20080507#1210173143\n\n\n\n\nほか、細かいこと。\n\n■スタンプを削除する\nスタンプは追加、上書きされるだけで削除はできません。\nどうしても一旦初期化させたい場合はゴーストが起動していない状態でssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを開き、「YAYA_variable.cfg.ays」を削除すれば元のスタンプが1つもない状態に戻ります。\n\n■スタンプをバックアップする、他のSSPに移動する\nssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを、移動先SSPの同じ位置にコピーすると移動できます。\n（スタンプのデータは「YAYA_variable.cfg.ays」と「icon」フォルダの中身全てです）\nバックアップする場合はこのフォルダをどこか別な場所にコピーして保管しておいてください。\n\n■スタンプをネットワーク更新する\nエクスプローラーを開き、「種類」を「プラグイン」にし、スタンプ帳項目右クリックからできます。\n（それ以外の方法もあるのかもしれませんがよくわかりません）\n\n■スタンプ帳プラグインの扱いについて\n再配布・ゴーストに同梱配布可、改変配布可です。\n（2013/12/28　改変配布不可より可に変更））\n\n\n\n謝辞\n\n「整備班 -The Maintenance Shop-」　http://ms.shillest.net/yaya_as.xhtml\nYAYA as PLUGINを使わせていただきました。\n\n「浮子屋本舗」　http://ukiya.sakura.ne.jp/\n正規表現のサンプルを流用させていただきました。\n\nどうもありがとうございました。\n\n\n一次配布元 postic　http://navy.nm.land.to/post/\nメンテナンス https://github.com/YAYA-shiori/stampcollection\n",
             "summary": "プラグイン「スタンプ帳」",
-            "date_published": "2026-03-29T09:40:52Z",
-            "date_modified": "2026-03-29T09:40:52Z",
+            "date_published": "2026-03-30T01:27:41Z",
+            "date_modified": "2026-03-30T01:27:42Z",
             "authors": [
                 {
                     "name": "YAYA-shiori",
@@ -28,12 +28,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/YAYA-shiori/stampcollection/releases/download/v20260329184051-b0f0c36/stampcollection.nar",
+                    "url": "https://github.com/YAYA-shiori/stampcollection/releases/download/v20260330102740-79221c6/stampcollection.nar",
                     "mime_type": "application/octet-stream",
                     "title": "stampcollection.nar",
-                    "size_in_bytes": 710918,
+                    "size_in_bytes": 413717,
                     "_ex": {
-                        "download_count": 5
+                        "download_count": 0
                     }
                 }
             ]
