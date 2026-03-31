@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "YAYA-shiori/flele_aya",
+            "url": "https://github.com/YAYA-shiori/flele_aya",
+            "title": "flele_aya",
+            "content_text": "\n　　　　　　　　　FLELE　取り扱い説明書\n\n\n　　　　　　　　: 　　基本的な操作法 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・こちらで配布されているソフト、「SSP」の「現在のフルセット」\nで正常に動作するよう作られています。\nhttp://ssp.shillest.net/\n\n・以下の説明の< mouse >項目はマウス操作、<　key　>はキー\n操作です（これは[コンフィグ]より変更可能です）。\nFLELEがアクティブになっている時は<　key　>で指定されたキー\nを押すだけで実行されます。\nインアクティブの時は「Shift + Ctrl」と共に押してください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ 曲リストに曲を追加\n< mouse > サウンドファイルをFLELEにドロップ。\n複数のファイルを選択してまとめてドロップしたり、フォルダごとドロップ、m3u形式の曲リストファイルをドロップして追加する事もできます。\n\n□ 曲リストに曲をダウンロードして追加\n< mouse > ウェブ上のサウンドファイルのリンクをFLELEにドロップ。\nまたはヘルプメニューの\"URL入力DL\"からURLを直接入力。\n\n曲データをダウンロードして曲リストに追加します。\nダウンロードしたファイルはsound_fileフォルダの中にあります。\nこれは一時的なもので曲リストクリアと同時に削除されます。\n削除したくないファイルは別な場所にコピーしておいてください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ サウンド再生\n< mouse > 胸ボタンクリック\n<　key　> R\n曲リストの中から曲を選び再生します。\nもう一度押すと再び選び直して再生します。\n選び方はその時設定している再生法によって違います。\n\n□ サウンド再生一時停止/解除\n< mouse > 髪留めクリック\n<　key　> S\n演奏中の曲を一時停止します。\nもう一度押すと停止した所から再生します。\n（oggも一時停止させたい場合ヘルプメニューから設定を変更し\nてください）\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ ヘルプメニューを出す/閉じる\n< mouse > FLELEの体(右手・足・胸・髪留め以外)をダブルクリック\n<　key　> M\nヘルプメニューを表示します。もう一度押すと閉じます。\n\n□ 曲リストを出す\n< mouse > FLELEが左手に持っているファイルを右クリック\n曲リストメニューを表示します。\n\n□ 曲名ウィンドウを出す/閉じる\n< mouse > 右手のグローブダブルクリック\n<　key　> W\n演奏中曲名案内ウィンドウを表示します。もう一度押すと閉じます。\n\n□ 曲リストを全てクリア\n< mouse > 靴ダブルクリック\n<　key　> C\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ 終了する\n< mouse > 右クリックメニュー > 終了\n<　key　> E\n\n□ 外見変更\n< mouse > 右クリックメニュー > シェル\nFLELEの外見を変更します。（音楽プレイヤーで言うスキンのようなものです）\n同梱されてないシェルはFLELE配布サイトからダウンロードできます。\nシェルによってクリック箇所が変わる場合があるのでご注意ください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n　　　　　　　　　: 　　注意事項 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・環境によって再生できない場合もあります。\n現在わかっているのは以下です。\n　○ Windows98でmp3が再生できない\n　○ WindowsNTでwmaが再生できない\n\nhttp://cowscorpion.com/dl/ffdshow.html\nこちらの最新版のffdshowをインストールすると聞こえるようになるかもしれません。\n\n・もし動作がおかしくなった時は一旦終了し、 ghost>master フォル\nダ内のAYA5_variable.cfgとprofileフォルダを削除してみてください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n　　　　　　　　: 　　ほかいろいろ 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・右クリックメニューから「ネットワーク更新」をかけると最新版になります。\n不具合が直ったり機能が増えたりするかもしれません。\n\n・SSPの設定で「常に手前に表示」にしておくのをお勧めします。",
+            "summary": "FLELE v1",
+            "date_published": "2026-03-31T02:26:30Z",
+            "date_modified": "2026-03-31T02:26:30Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/flele_aya/releases/download/v20260331112629-4a63646/flele_aya.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "flele_aya.nar",
+                    "size_in_bytes": 3013740,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "YAYA-shiori/stampcollection",
             "url": "https://github.com/YAYA-shiori/stampcollection",
             "title": "stampcollection",
