@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/ghost/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>LilyNovelPlayer</title>
+    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
+    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
+    <category>ghost</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
+    <pubDate>Sat, 11 Apr 2026 02:22:47 +0900</pubDate>
+</item>
+<item>
     <title>flele_aya</title>
     <link>https://github.com/YAYA-shiori/flele_aya</link>
     <description>FLELE v1</description>
@@ -94,15 +103,6 @@
     <dc:creator>lost-nd-xxx</dc:creator>
     <guid isPermaLink="false">lost-nd-xxx/countdown_to_the_end</guid>
     <pubDate>Fri, 16 Jan 2026 00:56:00 +0900</pubDate>
-</item>
-<item>
-    <title>LilyNovelPlayer</title>
-    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
-    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
-    <category>ghost</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
-    <pubDate>Sat, 18 May 2024 04:24:43 +0900</pubDate>
 </item>
 <item>
     <title>HamirLore</title>
