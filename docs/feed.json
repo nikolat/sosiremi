@@ -199,7 +199,7 @@
                     "title": "wallet_of_unyu.nar",
                     "size_in_bytes": 402782,
                     "_ex": {
-                        "download_count": 5
+                        "download_count": 6
                     }
                 }
             ]
@@ -331,7 +331,7 @@
                     "title": "perpetual_whisper.nar",
                     "size_in_bytes": 542948,
                     "_ex": {
-                        "download_count": 2
+                        "download_count": 3
                     }
                 }
             ]
@@ -431,7 +431,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 515
+                        "download_count": 516
                     }
                 }
             ]
@@ -2249,7 +2249,7 @@
                     "title": "UkagakaPlugin_DBdiary.nar",
                     "size_in_bytes": 832334,
                     "_ex": {
-                        "download_count": 47
+                        "download_count": 48
                     }
                 }
             ]
