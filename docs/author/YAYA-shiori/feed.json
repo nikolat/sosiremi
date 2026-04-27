@@ -1,0 +1,141 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "YAYA-shiori | 偽SoSiReMi",
+    "home_page_url": "https://nikolat.github.io/sosiremi/author/YAYA-shiori/",
+    "feed_url": "https://nikolat.github.io/sosiremi/author/YAYA-shiori/feed.json",
+    "description": "GitHubで公開されているNARファイルを一覧表示する",
+    "items": [
+        {
+            "id": "YAYA-shiori/flele_aya",
+            "url": "https://github.com/YAYA-shiori/flele_aya",
+            "title": "flele_aya",
+            "content_text": "\n　　　　　　　　　FLELE　取り扱い説明書\n\n\n　　　　　　　　: 　　基本的な操作法 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・こちらで配布されているソフト、「SSP」の「現在のフルセット」\nで正常に動作するよう作られています。\nhttp://ssp.shillest.net/\n\n・以下の説明の< mouse >項目はマウス操作、<　key　>はキー\n操作です（これは[コンフィグ]より変更可能です）。\nFLELEがアクティブになっている時は<　key　>で指定されたキー\nを押すだけで実行されます。\nインアクティブの時は「Shift + Ctrl」と共に押してください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ 曲リストに曲を追加\n< mouse > サウンドファイルをFLELEにドロップ。\n複数のファイルを選択してまとめてドロップしたり、フォルダごとドロップ、m3u形式の曲リストファイルをドロップして追加する事もできます。\n\n□ 曲リストに曲をダウンロードして追加\n< mouse > ウェブ上のサウンドファイルのリンクをFLELEにドロップ。\nまたはヘルプメニューの\"URL入力DL\"からURLを直接入力。\n\n曲データをダウンロードして曲リストに追加します。\nダウンロードしたファイルはsound_fileフォルダの中にあります。\nこれは一時的なもので曲リストクリアと同時に削除されます。\n削除したくないファイルは別な場所にコピーしておいてください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ サウンド再生\n< mouse > 胸ボタンクリック\n<　key　> R\n曲リストの中から曲を選び再生します。\nもう一度押すと再び選び直して再生します。\n選び方はその時設定している再生法によって違います。\n\n□ サウンド再生一時停止/解除\n< mouse > 髪留めクリック\n<　key　> S\n演奏中の曲を一時停止します。\nもう一度押すと停止した所から再生します。\n（oggも一時停止させたい場合ヘルプメニューから設定を変更し\nてください）\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ ヘルプメニューを出す/閉じる\n< mouse > FLELEの体(右手・足・胸・髪留め以外)をダブルクリック\n<　key　> M\nヘルプメニューを表示します。もう一度押すと閉じます。\n\n□ 曲リストを出す\n< mouse > FLELEが左手に持っているファイルを右クリック\n曲リストメニューを表示します。\n\n□ 曲名ウィンドウを出す/閉じる\n< mouse > 右手のグローブダブルクリック\n<　key　> W\n演奏中曲名案内ウィンドウを表示します。もう一度押すと閉じます。\n\n□ 曲リストを全てクリア\n< mouse > 靴ダブルクリック\n<　key　> C\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ 終了する\n< mouse > 右クリックメニュー > 終了\n<　key　> E\n\n□ 外見変更\n< mouse > 右クリックメニュー > シェル\nFLELEの外見を変更します。（音楽プレイヤーで言うスキンのようなものです）\n同梱されてないシェルはFLELE配布サイトからダウンロードできます。\nシェルによってクリック箇所が変わる場合があるのでご注意ください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n　　　　　　　　　: 　　注意事項 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・環境によって再生できない場合もあります。\n現在わかっているのは以下です。\n　○ Windows98でmp3が再生できない\n　○ WindowsNTでwmaが再生できない\n\nhttp://cowscorpion.com/dl/ffdshow.html\nこちらの最新版のffdshowをインストールすると聞こえるようになるかもしれません。\n\n・もし動作がおかしくなった時は一旦終了し、 ghost>master フォル\nダ内のAYA5_variable.cfgとprofileフォルダを削除してみてください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n　　　　　　　　: 　　ほかいろいろ 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・右クリックメニューから「ネットワーク更新」をかけると最新版になります。\n不具合が直ったり機能が増えたりするかもしれません。\n\n・SSPの設定で「常に手前に表示」にしておくのをお勧めします。",
+            "summary": "FLELE v1",
+            "date_published": "2026-04-25T08:05:49Z",
+            "date_modified": "2026-04-25T08:05:49Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/flele_aya/releases/download/v20260425170548-16c3df0/flele_aya.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "flele_aya.nar",
+                    "size_in_bytes": 3013824,
+                    "_ex": {
+                        "download_count": 8
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/stampcollection",
+            "url": "https://github.com/YAYA-shiori/stampcollection",
+            "title": "stampcollection",
+            "content_text": "\nスタンプ帳　version 1.4.1\n\nこれはゴーストのスタンプを収集するSSP専用プラグインです。\nあまり古すぎるSSPには対応していません。\n\n\n最初はまっさらなスタンプ帳があるだけです。\n対応しているゴーストから押してもらってください。\nスタンプを押してもらえるゴースト一覧はこちらです。\n > http://www10.atwiki.jp/postic/pages/13.html\n\n\nスタンプはゴースト一体につき一つまでです。\n貰える条件はそのゴーストによって違います。\n出会ってすぐにあっさり押して貰えるかもしれませんし、なかなか貰えないかもしれません。\n\n押してもらったスタンプは\n右クリックメニュー＞プラグイン＞スタンプ帳\nで確認できます。\n小さいバルーンでは上手く表示されません（対応法考え中）\n\nよくわからない方はこちらの解説が詳しいのでぜひ。\nhttp://d.hatena.ne.jp/hinoharu/20080507#1210173143\n\n\n\n\nほか、細かいこと。\n\n■スタンプを削除する\nスタンプは追加、上書きされるだけで削除はできません。\nどうしても一旦初期化させたい場合はゴーストが起動していない状態でssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを開き、「YAYA_variable.cfg.ays」を削除すれば元のスタンプが1つもない状態に戻ります。\n\n■スタンプをバックアップする、他のSSPに移動する\nssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを、移動先SSPの同じ位置にコピーすると移動できます。\n（スタンプのデータは「YAYA_variable.cfg.ays」と「icon」フォルダの中身全てです）\nバックアップする場合はこのフォルダをどこか別な場所にコピーして保管しておいてください。\n\n■スタンプをネットワーク更新する\nエクスプローラーを開き、「種類」を「プラグイン」にし、スタンプ帳項目右クリックからできます。\n（それ以外の方法もあるのかもしれませんがよくわかりません）\n\n■スタンプ帳プラグインの扱いについて\n再配布・ゴーストに同梱配布可、改変配布可です。\n（2013/12/28　改変配布不可より可に変更））\n\n\n\n謝辞\n\n「整備班 -The Maintenance Shop-」　http://ms.shillest.net/yaya_as.xhtml\nYAYA as PLUGINを使わせていただきました。\n\n「浮子屋本舗」　http://ukiya.sakura.ne.jp/\n正規表現のサンプルを流用させていただきました。\n\nどうもありがとうございました。\n\n\n一次配布元 postic　http://navy.nm.land.to/post/\nメンテナンス https://github.com/YAYA-shiori/stampcollection\n",
+            "summary": "プラグイン「スタンプ帳」",
+            "date_published": "2026-03-30T01:27:41Z",
+            "date_modified": "2026-03-30T01:27:42Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/stampcollection/releases/download/v20260330102740-79221c6/stampcollection.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "stampcollection.nar",
+                    "size_in_bytes": 413717,
+                    "_ex": {
+                        "download_count": 6
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/ayalilith",
+            "url": "https://github.com/YAYA-shiori/ayalilith",
+            "title": "ayalilith",
+            "content_text": "----------------\n「あやりりすEX」テンプレートゴースト\n紺野りりす\n----------------\n\n20121101\nYAYA version Tc543-1\n\noriginal author : C.Ponapalt\nchanged by : Couperin, Minaduki-ran\n\nFree shell \"silencer girl (made by mkbt)\" is used by this ghost. \n",
+            "summary": "紺野りりす（あやりりす/EXサンプルゴースト）",
+            "date_published": "2026-03-26T08:12:04Z",
+            "date_modified": "2026-03-26T08:12:04Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/ayalilith/releases/download/23584086702/yayame.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "yayame.nar",
+                    "size_in_bytes": 681456,
+                    "_ex": {
+                        "download_count": 8
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/_the_hand_",
+            "url": "https://github.com/YAYA-shiori/_the_hand_",
+            "title": "_the_hand_",
+            "content_text": "以下は旧公開ページをGitHubに合わせて最小限変更した内容になります。\n\n----------\n\n![タイトル](thumbnail.jpg)\n\nillustration：鈴風さん（http://huuryuu.bake-neko.net/index/index.html）\n\nここにはまっとうなゴーストはありません。帰れ。\n\n## The Hand phase 'xxxx'\n\n![サンプル](shell/master/surface000.png)\n\n↑こんな感じです。いやらしいですね。\n\n### なにこれ\n\n- SAORIで色々いじってみるテスト。\n- 界隈初？のセクハラゴーストです。一緒に立ってるゴーストにあんなことやこんなことをします。\n- ていうか嫌ゴです。\n- 某ゴーストマスタさんに「生理的に受け付けない」と言われました。最強。\n- [右のReleasesから最新版をダウンロード](https://github.com/YAYA-shiori/_the_hand_/releases)できます。（phase 'xxxx' 2008-05-29～随時更新）\n\n### 履歴\n\n- 2004/05/?? 第一版作成、しばらくほったらかし\n- 2005/05/09 色々修正して Phase \"xx\" 作成\n- 2005/05/10 FA-Xさん（http://fa-x.hp.infoseek.co.jp/）作成の「小さいバルーン」を同梱させて頂きました。感謝。\n- 2006/05/25 だーいぶ書き直して、必殺技つけて、Phase \"xxx\" になりました。\n- 2006/09/29 はんどたん対応。Special Thanks to 高遠結奈さま（http://yuina.s6.xrea.com/）\n- 2006/11/20 はんどたんに声がつきました。Special Thanks to みゅんさん\n- 2007/02/27 必殺技ロジックを更新。必殺技４を追加。\n- 2008/05/29 Phase \"xxxx\" **大幅な変更なのでアーカイブ入れなおしを推奨します。**\n  - コア部分を最新のYAYAシステムに合わせ書き直し。\n  - トーク少し追加。はんどたん当たり判定追加。\n- 2026/02/23 GitHub YAYA-shiori org.に収容\n\n### 制限事項やなんか\n\n- SSP 1.10.00 (RC1)以上でないとほぼ使えません。\n- 他のゴーストと一緒に立てて、放っておくか、ダブルクリックしてください。\n- ちょっと重いです。\n\n## はんどたん\n\n- 高遠結奈様が作成してくださった、The Handの追加シェルです。\n- シェルを変えるとHandの挙動も変わります。\n- かわいいです。\n\n高遠結奈様「つきゆり」\nhttp://yuina.s6.xrea.com/\n\n「つきゆり」内「The Hand」専用シェル「Hand Girl」公開場所\nhttp://yuina.s6.xrea.com/ukagaka/\n\n## Hand関連ドキュメント\n\n### Hand用の特殊処理を行いたい方へ\n\n詳しくは [Hand特殊イベント](hand_special_event.md) を見てください。\n\n### Hand対応/被対応一覧\n\nHandが特別な対応を行っている、あるいはHandに特別な対応を行って下さってるゴーストの一覧です。\n\n[Hand対応](hand_compatible_ghost.md)\n\nヴィイさんとコミュニケーション連鎖を行った際のノウハウをまとめました。\n\n[コミュニケーション連鎖](hand_communicate.md)\n\n### お年頃の娘を抱えたゴーストマスター様へ\n\n- うちの娘に何をするんだっ！という方、お申し出下されば触らないようにします。\n\n### はんどたんのできるまで\n\n- http://d.hatena.ne.jp/hakuma/20060920/p2\n- http://yuina.s6.xrea.com/x/diary/nicky.cgi?DT=20060922\n- http://hiho.boo.jp/soramimi/log/eid306.html\n- http://d.hatena.ne.jp/wiz-stargazer/20060921\n- http://metalwing.blog.shinobi.jp/Entry/189/\n- http://metalwing.blog.shinobi.jp/Entry/187/\n- http://niselog.blog.shinobi.jp/Entry/17/\n- http://taimagro.blog.shinobi.jp/Entry/71/\n- http://www12.plala.or.jp/canaanM/pack/s/g001.html\n- http://yuina.s6.xrea.com/x/diary/nicky.cgi?DT=20060929\n\n### 伺デミー\n\n- 伺デミー技術賞予選（2006/08/31）にノミネートいただきました。\n  - Handから一言。[./伺デミー予選突破記念](./伺デミー予選突破記念)\n- 伺デミー技術賞決戦（2006/09/19）にノミネートいただきました。\n\n## ゴーストの扱いについて\n\n基本的になにをしてもオッケーです。\n\n",
+            "summary": "嫌ゴ「The Hand」Phase \"xxxx\"",
+            "date_published": "2026-02-23T11:24:06Z",
+            "date_modified": "2026-02-23T11:24:06Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/_the_hand_/releases/download/v20260223112405-124d41a/_the_hand_.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "_the_hand_.nar",
+                    "size_in_bytes": 4126887,
+                    "_ex": {
+                        "download_count": 10
+                    }
+                }
+            ]
+        }
+    ]
+}

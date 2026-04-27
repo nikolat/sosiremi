@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>tukinami | 偽SoSiReMi</title>
+<link>https://nikolat.github.io/sosiremi/author/tukinami/</link>
+<description>GitHubで公開されているNARファイルを一覧表示する</description>
+<atom:link href="https://nikolat.github.io/sosiremi/author/tukinami/rss2.xml" rel="self" type="application/rss+xml" />
+<item>
+    <title>taidanaSanoSan</title>
+    <link>https://github.com/tukinami/taidanaSanoSan</link>
+    <description>伺か雑談系ゴースト</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
+    <pubDate>Sun, 18 Jan 2026 12:12:53 +0900</pubDate>
+</item>
+<item>
+    <title>who_is_cursing_him</title>
+    <link>https://github.com/tukinami/who_is_cursing_him</link>
+    <description>伺か用ゴースト。たった一人塔に住む弟と話すゴースト。</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/who_is_cursing_him</guid>
+    <pubDate>Sat, 30 Aug 2025 18:58:07 +0900</pubDate>
+</item>
+<item>
+    <title>Yada-Yada-Yada</title>
+    <link>https://github.com/tukinami/Yada-Yada-Yada</link>
+    <description>伺か用ゴースト。少女の様子を見るゴースト。嫌ゴ福袋企画2025 参加作品。</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/Yada-Yada-Yada</guid>
+    <pubDate>Wed, 01 Jan 2025 14:24:12 +0900</pubDate>
+</item>
+<item>
+    <title>purple-eyed-dressed-up-boy</title>
+    <link>https://github.com/tukinami/purple-eyed-dressed-up-boy</link>
+    <description>伺か用フリーシェル。着せ替えがついた紫の目を持つ少年。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/purple-eyed-dressed-up-boy</guid>
+    <pubDate>Fri, 15 Aug 2025 19:43:02 +0900</pubDate>
+</item>
+<item>
+    <title>incubation_of_animas</title>
+    <link>https://github.com/tukinami/incubation_of_animas</link>
+    <description>伺か用ゴースト。戦うくたびれたおじさんと話すゴースト。</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/incubation_of_animas</guid>
+    <pubDate>Sat, 18 May 2024 20:19:49 +0900</pubDate>
+</item>
+<item>
+    <title>lady-goldfish-bowl</title>
+    <link>https://github.com/tukinami/lady-goldfish-bowl</link>
+    <description>伺か用フリーシェル。金魚が入った金魚鉢の頭を持つ女性。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/lady-goldfish-bowl</guid>
+    <pubDate>Fri, 15 Aug 2025 19:31:42 +0900</pubDate>
+</item>
+<item>
+    <title>cage_head_with_blue_bird</title>
+    <link>https://github.com/tukinami/cage_head_with_blue_bird</link>
+    <description>伺か用フリーシェル。青い鳥の入った鳥籠の頭を持つ男性。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/cage_head_with_blue_bird</guid>
+    <pubDate>Fri, 15 Aug 2025 19:23:38 +0900</pubDate>
+</item>
+<item>
+    <title>double-danshi-KouKousei</title>
+    <link>https://github.com/tukinami/double-danshi-KouKousei</link>
+    <description>伺か用フリーシェル。男子高校生二人組。</description>
+    <category>shell</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/double-danshi-KouKousei</guid>
+    <pubDate>Fri, 15 Aug 2025 19:15:33 +0900</pubDate>
+</item>
+<item>
+    <title>talismanic_beast_pattern</title>
+    <link>https://github.com/tukinami/talismanic_beast_pattern</link>
+    <description>伺か用バルーン「魔除けの獣面紋」</description>
+    <category>balloon</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/talismanic_beast_pattern</guid>
+    <pubDate>Fri, 15 Aug 2025 18:55:55 +0900</pubDate>
+</item>
+</channel>
+</rss>
