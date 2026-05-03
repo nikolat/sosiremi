@@ -6,39 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "lost-nd-xxx/UGMNavigator_Umechan",
-            "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan",
-            "title": "UGMNavigator_Umechan",
-            "content_text": "UkagakaGhostMessengerナビゲーターうめちゃん\n～～～～\nUkagakaGhostMessengerのナビゲートをするゴーストです。\nスクリプトの作成補助、プラグインの内容の簡易解説などをします。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n～～～～\n＃利用モジュール等\n\n＊YAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n＊紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n＊紺野りりす\nhttps://ms.shillest.net/yayalilith.xhtml\n\n＊textcopy2.dll\nhttps://code.google.com/archive/p/csaori/\n\n＊うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n・にじジャーニー\nhttps://nijijourney.com/ja/\n・にじジャーニー利用規約\nhttps://docs.midjourney.com/docs/terms-of-service\n\n＊活用例プリセットに入っている和菓子\nろすえんが描いたものです。\n",
-            "summary": "伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」",
-            "date_published": "2026-05-01T20:27:38Z",
-            "date_modified": "2026-05-01T20:27:40Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.3/UGMNavigator_Umechan.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "UGMNavigator_Umechan.nar",
-                    "size_in_bytes": 757784,
-                    "_ex": {
-                        "download_count": 8
-                    }
-                }
-            ]
-        },
-        {
             "id": "lost-nd-xxx/UkagakaGhostMessenger",
             "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger",
             "title": "UkagakaGhostMessenger",
@@ -67,6 +34,39 @@
                     "size_in_bytes": 3806026,
                     "_ex": {
                         "download_count": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/UGMNavigator_Umechan",
+            "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan",
+            "title": "UGMNavigator_Umechan",
+            "content_text": "UkagakaGhostMessengerナビゲーターうめちゃん\n～～～～\nUkagakaGhostMessengerのナビゲートをするゴーストです。\nスクリプトの作成補助、プラグインの内容の簡易解説などをします。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n～～～～\n＃利用モジュール等\n\n＊YAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n＊紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n＊紺野りりす\nhttps://ms.shillest.net/yayalilith.xhtml\n\n＊textcopy2.dll\nhttps://code.google.com/archive/p/csaori/\n\n＊うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n・にじジャーニー\nhttps://nijijourney.com/ja/\n・にじジャーニー利用規約\nhttps://docs.midjourney.com/docs/terms-of-service\n\n＊活用例プリセットに入っている和菓子\nろすえんが描いたものです。\n",
+            "summary": "伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」",
+            "date_published": "2026-05-01T20:27:38Z",
+            "date_modified": "2026-05-01T20:27:40Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.3/UGMNavigator_Umechan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "UGMNavigator_Umechan.nar",
+                    "size_in_bytes": 757784,
+                    "_ex": {
+                        "download_count": 8
                     }
                 }
             ]
