@@ -10,6 +10,7 @@
 <link rel="help" href="./about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
+<link rel="alternate" type="application/octet-stream" title="my_own_translator" href="https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar" />
 <link rel="alternate" type="application/x-nar" title="something_like_balloon" href="https://github.com/lost-nd-xxx/something_like_balloon/releases/download/1.0.0/something_like_berry_tart.nar" />
 <link rel="alternate" type="application/x-nar" title="UkagakaGhostMessenger" href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/1.0.4/UkagakaGhostMessenger.nar" />
 <link rel="alternate" type="application/x-nar" title="UGMNavigator_Umechan" href="https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.3/UGMNavigator_Umechan.nar" />
@@ -54,7 +55,6 @@
 <link rel="alternate" type="application/octet-stream" title="wind_memory_petit" href="https://github.com/Tatakinov/wind_memory_petit/releases/download/v1.0.0/wind_memory_petit.nar" />
 <link rel="alternate" type="application/x-zip-compressed" title="kumasan_with_deathplay" href="https://github.com/lost-nd-xxx/kumasan_with_deathplay/releases/download/1.0.1/deathplay_for_kumasan_dark.zip" />
 <link rel="alternate" type="application/x-zip-compressed" title="Steampunk" href="https://github.com/Shimofumi/Steampunk/releases/download/v1.0.0/Steampunk.zip" />
-<link rel="alternate" type="application/octet-stream" title="my_own_translator" href="https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar" />
 <link rel="alternate" type="application/x-zip-compressed" title="Saigai_no_ikimono_chan" href="https://github.com/Shimofumi/Saigai_no_ikimono_chan/releases/download/v1.0.0/Saigai_no_ikimono_chan.zip" />
 <link rel="alternate" type="application/zip" title="Taromati2" href="https://github.com/Taromati2/package-factory/releases/download/25471839403/Taromati2.nar" />
 <link rel="alternate" type="application/x-nar" title="LilyNovelPlayer_Prototype_Scenarios" href="https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/v1.0.0/lostndxxx_prototype.nar" />
@@ -99,6 +99,82 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
+		<article id="Tatakinov/my_own_translator" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/Tatakinov/my_own_translator" rel="bookmark">my_own_translator</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./ghost/">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="./author/Tatakinov/">Tatakinov</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2024-10-16T12:05:53Z">2024-10-16 21:05:53</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2024-10-16T12:06:00Z">2024-10-16 21:06:00</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar" rel="nofollow" data-filesize="2560.6" data-download_count="368">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTatakinov%2Fmy_own_translator%2Freleases%2Fdownload%2Fv1.2.0%2Fmy_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="my_own_translator">
+				<h4>readme</h4>
+<pre>
+# my_own_translator
+
+The end of person who was not satisfied with just the functionality of a certain ghost.
+
+## What&#39;s this
+
+[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
+
+Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
+
+Additionally, I have tried to show the text as closely as possible to the original.
+
+## Library
+
+yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
+yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
+libcurl     | curl      | https://curl.se/
+
+## Mechanism
+
+Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
+
+```
+\0This \q[apple,OnFoo] is blue.\e
+```
+
+↓ parse/replace event id
+
+```
+----
+&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = apple
+&lt;4&gt; = \e
+```
+
+↓ translate &lt;0&gt;, &lt;3&gt;
+
+```
+&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = りんご
+&lt;4&gt; = \e
+```
+
+↓ build
+
+```
+\0この\q[りんご,OnKeep]は青色です。\e
+```
+
+cf. OnKeep -&gt; \C
+</pre>
+			</aside>
+		</article>
 		<article id="lost-nd-xxx/something_like_balloon" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/lost-nd-xxx/something_like_balloon" rel="bookmark">something_like_balloon</a></h3>
@@ -4299,82 +4375,6 @@ ghost/master/elin
 </pre>
 			</aside>
 		</article>
-		<article id="Tatakinov/my_own_translator" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/Tatakinov/my_own_translator" rel="bookmark">my_own_translator</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./ghost/">ghost</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="./author/Tatakinov/">Tatakinov</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2024-10-16T12:05:53Z">2024-10-16 21:05:53</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2024-10-16T12:06:00Z">2024-10-16 21:06:00</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar" rel="nofollow" data-filesize="2560.6" data-download_count="367">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTatakinov%2Fmy_own_translator%2Freleases%2Fdownload%2Fv1.2.0%2Fmy_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v1.2.0/my_own_translator.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="my_own_translator">
-				<h4>readme</h4>
-<pre>
-# my_own_translator
-
-The end of person who was not satisfied with just the functionality of a certain ghost.
-
-## What&#39;s this
-
-[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
-
-Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
-
-Additionally, I have tried to show the text as closely as possible to the original.
-
-## Library
-
-yaya-shiori | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
-yaya-dic    | Unlicense | https://github.com/YAYA-shiori/yaya-dic
-libcurl     | curl      | https://curl.se/
-
-## Mechanism
-
-Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
-
-```
-\0This \q[apple,OnFoo] is blue.\e
-```
-
-↓ parse/replace event id
-
-```
-----
-&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = apple
-&lt;4&gt; = \e
-```
-
-↓ translate &lt;0&gt;, &lt;3&gt;
-
-```
-&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = りんご
-&lt;4&gt; = \e
-```
-
-↓ build
-
-```
-\0この\q[りんご,OnKeep]は青色です。\e
-```
-
-cf. OnKeep -&gt; \C
-</pre>
-			</aside>
-		</article>
 		<article id="Shimofumi/Saigai_no_ikimono_chan" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/Shimofumi/Saigai_no_ikimono_chan" rel="bookmark">Saigai_no_ikimono_chan</a></h3>
@@ -4755,7 +4755,7 @@ ${user}&lt;|end|&gt;
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2023-10-28T12:22:09Z">2023-10-28 21:22:09</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" title="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" rel="nofollow" data-filesize="2889.8" data-download_count="604">download</a></p>
+				<p class="download"><a href="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" title="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" rel="nofollow" data-filesize="2889.8" data-download_count="605">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fapxxxxxxe%2FBouyomi%2Freleases%2Fdownload%2Fv1.5.1%2FBouyomi.nar" title="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="Bouyomi">
