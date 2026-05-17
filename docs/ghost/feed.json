@@ -6,39 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "tukinami/doll_at_the_bay_window",
-            "url": "https://github.com/tukinami/doll_at_the_bay_window",
-            "title": "doll_at_the_bay_window",
-            "content_text": "追想の窓辺\r\n\r\n\\0 ⋯ スマルティーナ\r\n\r\n人形。\r\n\r\n\r\n・aosora.dll\r\nhttps://github.com/kanadelab/aosora-shiori\r\n\r\n・全ての画像\r\n自作もしくは出典明記不要の素材\r\n\r\n\r\n・連絡先\r\n- Wavebox (https://wavebox.me/wave/ersk1ec23kr3hrqr/)\r\n- Mastodon\r\n    - fedibird (https://fedibird.com/@tukinami_seika)\r\n    - うかどん (https://ukadon.shillest.net/@tukinami_seika)\r\n- X(旧Twitter) (https://x.com/tukinami_s)\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n・ゴーストの二次創作ガイドライン/ライセンス(2024-04-18現在)\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami\r\n",
-            "summary": "ボロボロの窓辺に佇む人形を眺める伺かゴースト。",
-            "date_published": "2026-05-17T01:55:24Z",
-            "date_modified": "2026-05-17T01:55:31Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/doll_at_the_bay_window/releases/download/v1.0.0/doll_at_the_bay_window.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "doll_at_the_bay_window.nar",
-                    "size_in_bytes": 3940817,
-                    "_ex": {
-                        "download_count": 8
-                    }
-                }
-            ]
-        },
-        {
             "id": "Tatakinov/my_own_translator",
             "url": "https://github.com/Tatakinov/my_own_translator",
             "title": "my_own_translator",
@@ -66,6 +33,39 @@
                     "size_in_bytes": 2622100,
                     "_ex": {
                         "download_count": 373
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tukinami/doll_at_the_bay_window",
+            "url": "https://github.com/tukinami/doll_at_the_bay_window",
+            "title": "doll_at_the_bay_window",
+            "content_text": "追想の窓辺\r\n\r\n\\0 ⋯ スマルティーナ\r\n\r\n人形。\r\n\r\n\r\n・aosora.dll\r\nhttps://github.com/kanadelab/aosora-shiori\r\n\r\n・全ての画像\r\n自作もしくは出典明記不要の素材\r\n\r\n\r\n・連絡先\r\n- Wavebox (https://wavebox.me/wave/ersk1ec23kr3hrqr/)\r\n- Mastodon\r\n    - fedibird (https://fedibird.com/@tukinami_seika)\r\n    - うかどん (https://ukadon.shillest.net/@tukinami_seika)\r\n- X(旧Twitter) (https://x.com/tukinami_s)\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n・ゴーストの二次創作ガイドライン/ライセンス(2024-04-18現在)\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami\r\n",
+            "summary": "ボロボロの窓辺に佇む人形を眺める伺かゴースト。",
+            "date_published": "2026-05-17T01:55:24Z",
+            "date_modified": "2026-05-17T01:55:31Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/doll_at_the_bay_window/releases/download/v1.0.0/doll_at_the_bay_window.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "doll_at_the_bay_window.nar",
+                    "size_in_bytes": 3940817,
+                    "_ex": {
+                        "download_count": 12
                     }
                 }
             ]
