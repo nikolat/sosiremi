@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "lost-nd-xxx/HopefullyEverAfter_Yume",
+            "url": "https://github.com/lost-nd-xxx/HopefullyEverAfter_Yume",
+            "title": "HopefullyEverAfter_Yume",
+            "content_text": "『きっと、いつまでも幸せに暮らしました。』\n\n\n●はじめに\n　今回は、ペット生成＆飼育キットの利用をご検討いただき、ありがとうございます。\n　このキットでは、可能世界の地球人類を生成・飼育することができます。\n　面倒な管理は専用アンドロイドが行うので、不慣れな方でも安心です。\n\n\n●使用方法\n・飼育の設定変更などは、専用アンドロイドに指示することで行えます。\n・飼育の塩梅によって、人間は様々な面を見せてくれます。状態の変化を楽しんでください。\n・安全性確保のため、あなたと人間との接触は、すべてスキンシップとして処理されます。\n・人間は、記憶に影響された言動をとるかもしれません。しかしそれは鋳型の元となった人間の記憶であり、現在の記憶ではありません。ご安心ください。\n・人間が壊れてしまった場合、再生成することができます。記憶の引継ぎはできませんので、あらかじめご留意ください。\n\n\n●使用素材\n・「p005b」「幽霊」\n（masterシェルの人物絵、タスクトレイアイコン等）\nボトル猫さんによるフリーシェル（＋ゴースト作者による絵の加工）\n　　猫ボトル\n　　http://catbottle.sakura.ne.jp/\n\n\n●シナリオ読了想定時間について\n初回起動イベント：約0分\nその他イベント：約6分\nランダムトーク全部：約31分\n\n\n●ゴーストの二次創作ガイドライン/ライセンス(2026-05-18時点)\n\n◆二次創作周りについて\n[1.追加シェル、バルーン等を制作して配布される]\nOK\n\n[2.二次創作をされる]\nOK\n\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\nOK\n\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\nOK\n\n[5.二次創作物の販売をされる]\nOK\n\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\nOK\n\n◆ゴーストを始めとした、配布データの扱いについて\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\nOK\n※ゴーストマスカレード8収録版については、企画ページへのリンクをお願いします\n\n[2.情報集積サイト等の外部サイトに登録される]\nOK\n\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\nNG\n\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\nNG\n\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\nNG\n\n◆その他\n[1.他ゴーストから切り替え反応を実装される]\nOK\n\n[2.ゴーストに関する批判的な意見を言われる]\nOK\n\n[3.ゴーストに関する要望を言われる]\nOK\n\n[4.不特定多数の人が見る場でネタバレをされる]\nOK\n\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\nOK ※出典表記をしていただけると助かります\n\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\nNG\n\n[7.ゴーストを動画内で配信される]\nOK ※出典表記をしていただけると助かります\n",
+            "summary": "伺かゴースト「きっと、いつまでも幸せに暮らしました。」",
+            "date_published": "2026-05-18T07:48:07Z",
+            "date_modified": "2026-05-18T07:48:16Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/HopefullyEverAfter_Yume/releases/download/1.0.1/HopefullyEverAfter_Yume.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "HopefullyEverAfter_Yume.nar",
+                    "size_in_bytes": 2342846,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "Tatakinov/my_own_translator",
             "url": "https://github.com/Tatakinov/my_own_translator",
             "title": "my_own_translator",
@@ -1451,7 +1484,7 @@
                     "title": "party-parrot.nar",
                     "size_in_bytes": 1173834,
                     "_ex": {
-                        "download_count": 110
+                        "download_count": 113
                     }
                 }
             ]
