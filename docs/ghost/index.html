@@ -10,8 +10,8 @@
 <link rel="help" href="../about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
-<link rel="alternate" type="application/octet-stream" title="taidanaSanoSan" href="https://github.com/tukinami/taidanaSanoSan/releases/download/v1.22.0/taidanaSanoSan.nar" />
 <link rel="alternate" type="application/octet-stream" title="my_own_translator" href="https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar" />
+<link rel="alternate" type="application/octet-stream" title="taidanaSanoSan" href="https://github.com/tukinami/taidanaSanoSan/releases/download/v1.22.0/taidanaSanoSan.nar" />
 <link rel="alternate" type="application/x-nar" title="HopefullyEverAfter_Yume" href="https://github.com/lost-nd-xxx/HopefullyEverAfter_Yume/releases/download/1.0.1/HopefullyEverAfter_Yume.nar" />
 <link rel="alternate" type="application/octet-stream" title="doll_at_the_bay_window" href="https://github.com/tukinami/doll_at_the_bay_window/releases/download/v1.0.0/doll_at_the_bay_window.nar" />
 <link rel="alternate" type="application/x-nar" title="UGMNavigator_Umechan" href="https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.3/UGMNavigator_Umechan.nar" />
@@ -72,6 +72,88 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
+		<article id="Tatakinov/my_own_translator" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/Tatakinov/my_own_translator" rel="bookmark">my_own_translator</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="../author/Tatakinov/">Tatakinov</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-06-06T13:09:38Z">2026-06-06 22:09:38</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-06-06T13:09:51Z">2026-06-06 22:09:51</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar" rel="nofollow" data-filesize="10094.2" data-download_count="3">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTatakinov%2Fmy_own_translator%2Freleases%2Fdownload%2Fv2.0.1%2Fmy_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="my_own_translator">
+				<h4>readme</h4>
+<pre>
+# my_own_translator
+
+The end of person who was not satisfied with just the functionality of a certain ghost.
+
+## What&#39;s this
+
+[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
+
+Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
+
+Additionally, I have tried to show the text as closely as possible to the original.
+
+This ghost use translator same as Firefox since v2.0
+
+## Library
+
+yaya-shiori     | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
+yaya-dic        | Unlicense | https://github.com/YAYA-shiori/yaya-dic
+call-translator | MIT       | https://github.com/Tatakinov/ninix-saori
+translator-cli  | MPL 2.0   | https://github.com/mozilla/translations
+
+translator-cli has many dependencies.
+See ghost/master/LICENSE.list.txt for more details.
+
+## Mechanism
+
+Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
+
+```
+\0This \q[apple,OnFoo] is blue.\e
+```
+
+↓ parse/replace event id
+
+```
+----
+&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = apple
+&lt;4&gt; = \e
+```
+
+↓ translate &lt;0&gt;, &lt;3&gt;
+
+```
+&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
+&lt;1&gt; = \0
+&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
+&lt;3&gt; = りんご
+&lt;4&gt; = \e
+```
+
+↓ build
+
+```
+\0この\q[りんご,OnKeep]は青色です。\e
+```
+
+cf. OnKeep -&gt; \C
+</pre>
+			</aside>
+		</article>
 		<article id="tukinami/taidanaSanoSan" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/tukinami/taidanaSanoSan" rel="bookmark">taidanaSanoSan</a></h3>
@@ -230,88 +312,6 @@ https://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%
 
 制作: 月波 清火
 https://github.com/tukinami/taidanaSanoSan
-</pre>
-			</aside>
-		</article>
-		<article id="Tatakinov/my_own_translator" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/Tatakinov/my_own_translator" rel="bookmark">my_own_translator</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./">ghost</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="../author/Tatakinov/">Tatakinov</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-06-06T13:09:38Z">2026-06-06 22:09:38</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-06-06T13:09:51Z">2026-06-06 22:09:51</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar" rel="nofollow" data-filesize="10094.2" data-download_count="3">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTatakinov%2Fmy_own_translator%2Freleases%2Fdownload%2Fv2.0.1%2Fmy_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="my_own_translator">
-				<h4>readme</h4>
-<pre>
-# my_own_translator
-
-The end of person who was not satisfied with just the functionality of a certain ghost.
-
-## What&#39;s this
-
-[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
-
-Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
-
-Additionally, I have tried to show the text as closely as possible to the original.
-
-This ghost use translator same as Firefox since v2.0
-
-## Library
-
-yaya-shiori     | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
-yaya-dic        | Unlicense | https://github.com/YAYA-shiori/yaya-dic
-call-translator | MIT       | https://github.com/Tatakinov/ninix-saori
-translator-cli  | MPL 2.0   | https://github.com/mozilla/translations
-
-translator-cli has many dependencies.
-See ghost/master/LICENSE.list.txt for more details.
-
-## Mechanism
-
-Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
-
-```
-\0This \q[apple,OnFoo] is blue.\e
-```
-
-↓ parse/replace event id
-
-```
-----
-&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = apple
-&lt;4&gt; = \e
-```
-
-↓ translate &lt;0&gt;, &lt;3&gt;
-
-```
-&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = りんご
-&lt;4&gt; = \e
-```
-
-↓ build
-
-```
-\0この\q[りんご,OnKeep]は青色です。\e
-```
-
-cf. OnKeep -&gt; \C
 </pre>
 			</aside>
 		</article>
@@ -1899,7 +1899,7 @@ NG
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2025-09-17T12:44:41Z">2025-09-17 21:44:41</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.0/LuminousModulation_Radio.nar" title="https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.0/LuminousModulation_Radio.nar" rel="nofollow" data-filesize="1637.5" data-download_count="62">download</a></p>
+				<p class="download"><a href="https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.0/LuminousModulation_Radio.nar" title="https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.0/LuminousModulation_Radio.nar" rel="nofollow" data-filesize="1637.5" data-download_count="63">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2FLuminousModulation_Radio%2Freleases%2Fdownload%2F1.0.0%2FLuminousModulation_Radio.nar" title="https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.0/LuminousModulation_Radio.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="LuminousModulation_Radio">
