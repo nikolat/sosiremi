@@ -6,38 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "Tatakinov/my_own_translator",
-            "url": "https://github.com/Tatakinov/my_own_translator",
-            "title": "my_own_translator",
-            "content_text": "# my_own_translator\n\nThe end of person who was not satisfied with just the functionality of a certain ghost.\n\n## What's this\n\n[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)\n\nSince ↑ doesn't translate choices, I created a ghost that can translate them in a nice way.\n\nAdditionally, I have tried to show the text as closely as possible to the original.\n\nThis ghost use translator same as Firefox since v2.0\n\n## Library\n\nyaya-shiori     | BSD+      | https://github.com/YAYA-shiori/yaya-shiori\nyaya-dic        | Unlicense | https://github.com/YAYA-shiori/yaya-dic\ncall-translator | MIT       | https://github.com/Tatakinov/ninix-saori\ntranslator-cli  | MPL 2.0   | https://github.com/mozilla/translations\n\ntranslator-cli has many dependencies.\nSee ghost/master/LICENSE.list.txt for more details.\n\n## Mechanism\n\nTranslate \"\\0This \\q[apple,OnFoo] is blue.\\e\" from en to ja.\n\n```\n\\0This \\q[apple,OnFoo] is blue.\\e\n```\n\n↓ parse/replace event id\n\n```\n----\n<0> = <1>This <2> is blue.<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = apple\n<4> = \\e\n```\n\n↓ translate <0>, <3>\n\n```\n<0> = <1>この<2>は青色です。<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = りんご\n<4> = \\e\n```\n\n↓ build\n\n```\n\\0この\\q[りんご,OnKeep]は青色です。\\e\n```\n\ncf. OnKeep -> \\C\n",
-            "summary": "",
-            "date_published": "2026-06-06T13:09:38Z",
-            "date_modified": "2026-06-06T13:09:51Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "my_own_translator.nar",
-                    "size_in_bytes": 10336479,
-                    "_ex": {
-                        "download_count": 3
-                    }
-                }
-            ]
-        },
-        {
             "id": "tukinami/taidanaSanoSan",
             "url": "https://github.com/tukinami/taidanaSanoSan",
             "title": "taidanaSanoSan",
@@ -66,6 +34,38 @@
                     "size_in_bytes": 1916173,
                     "_ex": {
                         "download_count": 7
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/my_own_translator",
+            "url": "https://github.com/Tatakinov/my_own_translator",
+            "title": "my_own_translator",
+            "content_text": "# my_own_translator\n\nThe end of person who was not satisfied with just the functionality of a certain ghost.\n\n## What's this\n\n[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)\n\nSince ↑ doesn't translate choices, I created a ghost that can translate them in a nice way.\n\nAdditionally, I have tried to show the text as closely as possible to the original.\n\nThis ghost use translator same as Firefox since v2.0\n\n## Library\n\nyaya-shiori     | BSD+      | https://github.com/YAYA-shiori/yaya-shiori\nyaya-dic        | Unlicense | https://github.com/YAYA-shiori/yaya-dic\ncall-translator | MIT       | https://github.com/Tatakinov/ninix-saori\ntranslator-cli  | MPL 2.0   | https://github.com/mozilla/translations\n\ntranslator-cli has many dependencies.\nSee ghost/master/LICENSE.list.txt for more details.\n\n## Mechanism\n\nTranslate \"\\0This \\q[apple,OnFoo] is blue.\\e\" from en to ja.\n\n```\n\\0This \\q[apple,OnFoo] is blue.\\e\n```\n\n↓ parse/replace event id\n\n```\n----\n<0> = <1>This <2> is blue.<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = apple\n<4> = \\e\n```\n\n↓ translate <0>, <3>\n\n```\n<0> = <1>この<2>は青色です。<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = りんご\n<4> = \\e\n```\n\n↓ build\n\n```\n\\0この\\q[りんご,OnKeep]は青色です。\\e\n```\n\ncf. OnKeep -> \\C\n",
+            "summary": "",
+            "date_published": "2026-06-06T13:09:38Z",
+            "date_modified": "2026-06-06T13:09:51Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/my_own_translator/releases/download/v2.0.1/my_own_translator.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "my_own_translator.nar",
+                    "size_in_bytes": 10336479,
+                    "_ex": {
+                        "download_count": 3
                     }
                 }
             ]
@@ -1612,8 +1612,8 @@
             "title": "Taromati2",
             "content_text": "This ghost only supports Chinese at the moment, feel free to visit the following URL to participate in the translation\nこのゴーストは現在、中国語のみ対応しています。以下のURLにアクセスし、翻訳に参加してください。\n这个ghost目前只支持中文，欢迎访问以下网址来参与翻译\nhttps://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md\n\n原作：http://unvollendet.web.fc2.com/\n详细信息：https://github.com/Taromati2/Taromati2\n免责声明：https://github.com/Taromati2/Taromati2#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\n贡献者名单：https://github.com/Taromati2/Taromati2/blob/master/docs/CONTRIBUTORS.md\n\n\n",
             "summary": "黑色的猫咪 银发的少女 没有结局的故事",
-            "date_published": "2026-05-07T02:03:54Z",
-            "date_modified": "2026-05-07T02:03:54Z",
+            "date_published": "2026-06-07T02:42:00Z",
+            "date_modified": "2026-06-07T02:42:00Z",
             "authors": [
                 {
                     "name": "Taromati2",
@@ -1638,12 +1638,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/Taromati2/package-factory/releases/download/25471839403/Taromati2.nar",
+                    "url": "https://github.com/Taromati2/package-factory/releases/download/27080615423/Taromati2.nar",
                     "mime_type": "application/zip",
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099837,
                     "_ex": {
-                        "download_count": 29
+                        "download_count": 1
                     }
                 }
             ]
