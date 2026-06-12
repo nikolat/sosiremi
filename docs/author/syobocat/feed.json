@@ -1,0 +1,42 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "syobocat | 偽SoSiReMi",
+    "home_page_url": "https://nikolat.github.io/sosiremi/author/syobocat/",
+    "feed_url": "https://nikolat.github.io/sosiremi/author/syobocat/feed.json",
+    "description": "GitHubで公開されているNARファイルを一覧表示する",
+    "items": [
+        {
+            "id": "syobocat/ghost_in_a_nutshell",
+            "url": "https://github.com/syobocat/ghost_in_a_nutshell",
+            "title": "ghost_in_a_nutshell",
+            "content_text": "<!--\nSPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>\n\nSPDX-License-Identifier: CC-BY-4.0\n-->\n\n# Ghost in a Nutshell\n\nOpenAI互換APIを利用し、全ての会話をLLMによって生成するゴーストです。\\\nOpenAI互換のAPIであれば動作するはずですが、動作確認はOpenRouterでのみ行っています。\n\nまた、SSPの独自機能に依存しているため、SSP以外では基本的に動作しません。\n",
+            "summary": "OpenAI互換APIを利用し、全ての会話をLLMによって生成するゴースト",
+            "date_published": "2026-06-12T13:23:27Z",
+            "date_modified": "2026-06-12T13:23:29Z",
+            "authors": [
+                {
+                    "name": "syobocat",
+                    "url": "https://github.com/syobocat",
+                    "avatar": "https://avatars.githubusercontent.com/u/46315199?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/syobocat/ghost_in_a_nutshell/releases/download/v0.1.1/ghost_in_a_nutshell.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ghost_in_a_nutshell.nar",
+                    "size_in_bytes": 259492,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
