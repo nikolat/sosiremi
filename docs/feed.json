@@ -65,7 +65,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 28
+                        "download_count": 29
                     }
                 }
             ]
@@ -197,7 +197,7 @@
                     "title": "something_like_berry_tart.nar",
                     "size_in_bytes": 28109,
                     "_ex": {
-                        "download_count": 40
+                        "download_count": 41
                     }
                 }
             ]
@@ -661,7 +661,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 583
+                        "download_count": 584
                     }
                 }
             ]
@@ -2348,7 +2348,7 @@
                     "title": "UkagakaPlugin_DBdiary.nar",
                     "size_in_bytes": 832334,
                     "_ex": {
-                        "download_count": 52
+                        "download_count": 53
                     }
                 }
             ]
