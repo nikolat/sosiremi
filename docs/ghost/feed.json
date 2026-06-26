@@ -6,13 +6,13 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "lost-nd-xxx/mancala-board-ghost",
-            "url": "https://github.com/lost-nd-xxx/mancala-board-ghost",
-            "title": "mancala-board-ghost",
-            "content_text": "# うかマンカラ\n\n## これはなに？\n\n伺かゴーストとマンカラ（カラハ）を遊ぶための台ゴーストです。\n\n以下の対戦形式に対応しています。\n\n* 台       vs ユーザ   - 台の内蔵AIと一人で対戦\n* ユーザ   vs ゴースト - 対応ゴーストを相手にユーザが対戦\n* ゴースト vs ゴースト - 対応ゴースト同士が対戦\n\nルールの説明はゴースト内にありますので、そちらをご覧ください。\n\n\n## 対戦の始め方\n\n1. 台を起動する\n2. 必要に応じて、対戦したいゴーストを呼び出しておく\n3. 台をダブルクリックし、対局を開始する\n4. ゴーストと対局する場合は、台を対局待機状態にし、ゴースト側に対局を申し込んでもらう\n\n\n## 対応ゴーストのサンプル\n\n対応ゴーストの実装見本として、以下の2体を配布しています。\n\n* うかマンカラをやるこはく - [配布URL](https://github.com/lost-nd-xxx/mancala-player-amber)\n* うかマンカラをやるアメジスト - [配布URL](https://github.com/lost-nd-xxx/mancala-player-amethyst)\n\nゴースト同士の対戦を試したい場合はこちらをお使いください。\n\n対応ゴーストの作り方は同梱の [mancala_protocol_for_developers.txt](mancala_protocol_for_developers.txt) を参照してください。\n\n\n## 使用素材・ライブラリ\n\n* 絵・辞書に生成AIの生成物が含まれています。\n\n* 蒼空（aosora.dll）\n  * https://github.com/kanadelab/aosora-shiori\n\n* Yusei Magic\n  * https://fonts.google.com/specimen/Yusei+Magic\n  * 画像内の文字として使用。フォントファイルは非同梱。\n\n\n## ライセンス\n\n* aosora.dll は蒼空のライセンスに従います。[license_aosora.txt](ghost/master/license_aosora.txt)\n* それ以外の画像・辞書は CC0です。\n  * [ライセンス文](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)\n  * 自由に使用・改変・再配布できます。\n\n\n## 連絡先\n\n* 作者: ろすえん（lost_nd_xxx）\n* 連絡先: https://lnx.flop.jp/form/postmail.html\n* 更新履歴: https://github.com/lost-nd-xxx/mancala-board-ghost/commits/main/?author=lost-nd-xxx\n",
-            "summary": "うかマンカラ - マンカラをやる台ゴースト",
-            "date_published": "2026-06-26T13:54:30Z",
-            "date_modified": "2026-06-26T13:54:46Z",
+            "id": "lost-nd-xxx/mancala-player-amber",
+            "url": "https://github.com/lost-nd-xxx/mancala-player-amber",
+            "title": "mancala-player-amber",
+            "content_text": "# うかマンカラをやるこはく\n\n## これはなに？\n\n「うかマンカラ」対応ゴーストの実装サンプルです。\n\n実際に遊ぶこともできます。\n\n対応台ゴースト：うかマンカラ - [配布URL](https://github.com/lost-nd-xxx/mancala-board-ghost)\n\n\n## 使い方\n\n台ゴーストの使い方は台ゴーストのreadmeを参照してください。\n\nこはくをダブルクリックすると、状況に応じて以下の動作をします。\n\n* 台ゴーストが未インストール → インストール案内\n* 台ゴーストが起動していない → 起動案内\n* 台ゴーストが起動中・対局不参加 → 参戦申し込み（確認あり）\n* 台ゴーストが起動中・対局参加中 → 投了（確認あり）\n\n\n## 使用素材・ライブラリ\n\n* 絵・辞書に生成AIの生成物が含まれています。\n\n* 里々/整備班カスタム（satori.dll）\n  * https://ms.shillest.net/satoriya.xhtml\n\n\n## ライセンス\n\n* satori.dll は里々のライセンス（BSD-2-Clause）に従います。\n* それ以外の絵・辞書は CC0です。\n  * [ライセンス文](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)\n  * 自由に使用・改変・再配布できます。\n\n\n## 連絡先\n\n* 作者：ろすえん（lost_nd_xxx）\n* 連絡先：https://lnx.flop.jp/form/postmail.html\n* 更新履歴: https://github.com/lost-nd-xxx/mancala-player-amber/commits/main/?author=lost-nd-xxx\n",
+            "summary": "うかマンカラをやるこはく - マンカラをやるプレイヤーゴースト",
+            "date_published": "2026-06-26T13:55:39Z",
+            "date_modified": "2026-06-26T13:55:51Z",
             "authors": [
                 {
                     "name": "lost-nd-xxx",
@@ -28,12 +28,45 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/lost-nd-xxx/mancala-board-ghost/releases/download/v1.0.0/mancala-board-ghost.nar",
+                    "url": "https://github.com/lost-nd-xxx/mancala-player-amber/releases/download/v1.0.0/mancala-player-amber.nar",
                     "mime_type": "application/x-zip-compressed",
-                    "title": "mancala-board-ghost.nar",
-                    "size_in_bytes": 1575464,
+                    "title": "mancala-player-amber.nar",
+                    "size_in_bytes": 437091,
                     "_ex": {
                         "download_count": 5
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/mancala-board-ghost",
+            "url": "https://github.com/lost-nd-xxx/mancala-board-ghost",
+            "title": "mancala-board-ghost",
+            "content_text": "# うかマンカラ\n\n## これはなに？\n\n伺かゴーストとマンカラ（カラハ）を遊ぶための台ゴーストです。\n\n以下の対戦形式に対応しています。\n\n* 台       vs ユーザ   - 台の内蔵AIと一人で対戦\n* ユーザ   vs ゴースト - 対応ゴーストを相手にユーザが対戦\n* ゴースト vs ゴースト - 対応ゴースト同士が対戦\n\nルールの説明はゴースト内にありますので、そちらをご覧ください。\n\n\n## 対戦の始め方\n\n1. 台を起動する\n2. 必要に応じて、対戦したいゴーストを呼び出しておく\n3. 台をダブルクリックし、対局を開始する\n4. ゴーストと対局する場合は、台を対局待機状態にし、ゴースト側に対局を申し込んでもらう\n\n\n## 対応ゴーストのサンプル\n\n対応ゴーストの実装見本として、以下の2体を配布しています。\n\n* うかマンカラをやるこはく - [配布URL](https://github.com/lost-nd-xxx/mancala-player-amber)\n* うかマンカラをやるアメジスト - [配布URL](https://github.com/lost-nd-xxx/mancala-player-amethyst)\n\nゴースト同士の対戦を試したい場合はこちらをお使いください。\n\n対応ゴーストの作り方は同梱の [mancala_protocol_for_developers.txt](mancala_protocol_for_developers.txt) を参照してください。\n\n\n## 使用素材・ライブラリ\n\n* 絵・辞書に生成AIの生成物が含まれています。\n\n* 蒼空（aosora.dll）\n  * https://github.com/kanadelab/aosora-shiori\n\n* Yusei Magic\n  * https://fonts.google.com/specimen/Yusei+Magic\n  * 画像内の文字として使用。フォントファイルは非同梱。\n\n\n## ライセンス\n\n* aosora.dll は蒼空のライセンスに従います。[license_aosora.txt](ghost/master/license_aosora.txt)\n* それ以外の画像・辞書は CC0です。\n  * [ライセンス文](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)\n  * 自由に使用・改変・再配布できます。\n\n\n## 連絡先\n\n* 作者: ろすえん（lost_nd_xxx）\n* 連絡先: https://lnx.flop.jp/form/postmail.html\n* 更新履歴: https://github.com/lost-nd-xxx/mancala-board-ghost/commits/main/?author=lost-nd-xxx\n",
+            "summary": "うかマンカラ - マンカラをやる台ゴースト",
+            "date_published": "2026-06-26T22:31:45Z",
+            "date_modified": "2026-06-26T22:31:54Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/mancala-board-ghost/releases/download/v1.0.1/mancala-board-ghost.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "mancala-board-ghost.nar",
+                    "size_in_bytes": 1578002,
+                    "_ex": {
+                        "download_count": 0
                     }
                 }
             ]
@@ -65,39 +98,6 @@
                     "mime_type": "application/x-zip-compressed",
                     "title": "mancala-player-amethyst.nar",
                     "size_in_bytes": 553361,
-                    "_ex": {
-                        "download_count": 4
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/mancala-player-amber",
-            "url": "https://github.com/lost-nd-xxx/mancala-player-amber",
-            "title": "mancala-player-amber",
-            "content_text": "# うかマンカラをやるこはく\n\n## これはなに？\n\n「うかマンカラ」対応ゴーストの実装サンプルです。\n\n実際に遊ぶこともできます。\n\n対応台ゴースト：うかマンカラ - [配布URL](https://github.com/lost-nd-xxx/mancala-board-ghost)\n\n\n## 使い方\n\n台ゴーストの使い方は台ゴーストのreadmeを参照してください。\n\nこはくをダブルクリックすると、状況に応じて以下の動作をします。\n\n* 台ゴーストが未インストール → インストール案内\n* 台ゴーストが起動していない → 起動案内\n* 台ゴーストが起動中・対局不参加 → 参戦申し込み（確認あり）\n* 台ゴーストが起動中・対局参加中 → 投了（確認あり）\n\n\n## 使用素材・ライブラリ\n\n* 絵・辞書に生成AIの生成物が含まれています。\n\n* 里々/整備班カスタム（satori.dll）\n  * https://ms.shillest.net/satoriya.xhtml\n\n\n## ライセンス\n\n* satori.dll は里々のライセンス（BSD-2-Clause）に従います。\n* それ以外の絵・辞書は CC0です。\n  * [ライセンス文](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)\n  * 自由に使用・改変・再配布できます。\n\n\n## 連絡先\n\n* 作者：ろすえん（lost_nd_xxx）\n* 連絡先：https://lnx.flop.jp/form/postmail.html\n* 更新履歴: https://github.com/lost-nd-xxx/mancala-player-amber/commits/main/?author=lost-nd-xxx\n",
-            "summary": "うかマンカラをやるこはく - マンカラをやるプレイヤーゴースト",
-            "date_published": "2026-06-26T13:55:39Z",
-            "date_modified": "2026-06-26T13:55:51Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/mancala-player-amber/releases/download/v1.0.0/mancala-player-amber.nar",
-                    "mime_type": "application/x-zip-compressed",
-                    "title": "mancala-player-amber.nar",
-                    "size_in_bytes": 437091,
                     "_ex": {
                         "download_count": 4
                     }
@@ -627,7 +627,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 597
+                        "download_count": 599
                     }
                 }
             ]
