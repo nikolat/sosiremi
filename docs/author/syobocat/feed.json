@@ -9,7 +9,7 @@
             "id": "syobocat/ghost_in_a_nutshell",
             "url": "https://github.com/syobocat/ghost_in_a_nutshell",
             "title": "ghost_in_a_nutshell",
-            "content_text": "<!--\nSPDX-FileCopyrightText: 2026 SyoBoN <syobon@syobon.net>\n\nSPDX-License-Identifier: CC-BY-4.0\n-->\n\n# Ghost in a Nutshell\n\nOpenAI互換APIを利用し、全ての会話をLLMによって生成するゴーストです。\\\nOpenAI互換のAPIであれば動作するはずですが、動作確認はOpenRouterでのみ行っています。\n\nまた、SSPの独自機能に依存しているため、SSP以外では基本的に動作しません。\n",
+            "content_text": "429: Too Many Requests\nFor more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).",
             "summary": "OpenAI互換APIを利用し、全ての会話をLLMによって生成するゴースト",
             "date_published": "2026-06-12T13:23:27Z",
             "date_modified": "2026-06-12T13:23:29Z",
