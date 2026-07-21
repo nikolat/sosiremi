@@ -108,7 +108,7 @@
             "id": "lost-nd-xxx/mancala-player-amber",
             "url": "https://github.com/lost-nd-xxx/mancala-player-amber",
             "title": "mancala-player-amber",
-            "content_text": "# うかマンカラをやるこはく\n\n## これはなに？\n\n「うかマンカラ」対応ゴーストの実装サンプルです。\n\n実際に遊ぶこともできます。\n\n対応台ゴースト：うかマンカラ - [配布URL](https://github.com/lost-nd-xxx/mancala-board-ghost)\n\n\n## 使い方\n\n台ゴーストの使い方は台ゴーストのreadmeを参照してください。\n\nこはくをダブルクリックすると、状況に応じて以下の動作をします。\n\n* 台ゴーストが未インストール → インストール案内\n* 台ゴーストが起動していない → 起動案内\n* 台ゴーストが起動中・対局不参加 → 参戦申し込み（確認あり）\n* 台ゴーストが起動中・対局参加中 → 投了（確認あり）\n\n\n## 使用素材・ライブラリ\n\n* 絵・辞書に生成AIの生成物が含まれています。\n\n* 里々/整備班カスタム（satori.dll）\n  * https://ms.shillest.net/satoriya.xhtml\n\n\n## ライセンス\n\n* satori.dll は里々のライセンス（BSD-2-Clause）に従います。\n* それ以外の絵・辞書は CC0です。\n  * [ライセンス文](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)\n  * 自由に使用・改変・再配布できます。\n\n\n## 連絡先\n\n* 作者：ろすえん（lost_nd_xxx）\n* 連絡先：https://lnx.flop.jp/form/postmail.html\n* 更新履歴: https://github.com/lost-nd-xxx/mancala-player-amber/commits/main/?author=lost-nd-xxx\n",
+            "content_text": "\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html>\n  <head>\n    <title>503 first byte timeout</title>\n  </head>\n  <body>\n    <h1>Error 503 first byte timeout</h1>\n    <p>first byte timeout</p>\n    <h3>Error 54113</h3>\n    <p>Details: cache-iad-kjyo7100092-IAD 1784630345 2524318815</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n",
             "summary": "うかマンカラをやるこはく - マンカラをやる実装サンプル(里々)兼プレイヤー",
             "date_published": "2026-06-26T13:55:39Z",
             "date_modified": "2026-06-26T13:55:51Z",
@@ -1303,7 +1303,7 @@
                     "title": "wind_memory_petit.nar",
                     "size_in_bytes": 427052,
                     "_ex": {
-                        "download_count": 150
+                        "download_count": 151
                     }
                 }
             ]
