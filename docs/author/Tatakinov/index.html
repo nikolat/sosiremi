@@ -53,66 +53,23 @@
 			<aside class="readme" aria-label="my_own_translator">
 				<h4>readme</h4>
 <pre>
-# my_own_translator
 
-The end of person who was not satisfied with just the functionality of a certain ghost.
-
-## What&#39;s this
-
-[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)
-
-Since ↑ doesn&#39;t translate choices, I created a ghost that can translate them in a nice way.
-
-Additionally, I have tried to show the text as closely as possible to the original.
-
-This ghost use translator same as Firefox since v2.0
-
-## Library
-
-yaya-shiori     | BSD+      | https://github.com/YAYA-shiori/yaya-shiori
-yaya-dic        | Unlicense | https://github.com/YAYA-shiori/yaya-dic
-call-translator | MIT       | https://github.com/Tatakinov/ninix-saori
-translator-cli  | MPL 2.0   | https://github.com/mozilla/translations
-
-translator-cli has many dependencies.
-See ghost/master/LICENSE.list.txt for more details.
-
-## Mechanism
-
-Translate &#34;\0This \q[apple,OnFoo] is blue.\e&#34; from en to ja.
-
-```
-\0This \q[apple,OnFoo] is blue.\e
-```
-
-↓ parse/replace event id
-
-```
-----
-&lt;0&gt; = &lt;1&gt;This &lt;2&gt; is blue.&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = apple
-&lt;4&gt; = \e
-```
-
-↓ translate &lt;0&gt;, &lt;3&gt;
-
-```
-&lt;0&gt; = &lt;1&gt;この&lt;2&gt;は青色です。&lt;4&gt;
-&lt;1&gt; = \0
-&lt;2&gt; = \q[&lt;3&gt;,OnKeep]
-&lt;3&gt; = りんご
-&lt;4&gt; = \e
-```
-
-↓ build
-
-```
-\0この\q[りんご,OnKeep]は青色です。\e
-```
-
-cf. OnKeep -&gt; \C
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;
+&lt;!DOCTYPE html PUBLIC &#34;-//W3C//DTD XHTML 1.0 Strict//EN&#34;
+ &#34;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&#34;&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;503 first byte timeout&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Error 503 first byte timeout&lt;/h1&gt;
+    &lt;p&gt;first byte timeout&lt;/p&gt;
+    &lt;h3&gt;Error 54113&lt;/h3&gt;
+    &lt;p&gt;Details: cache-chi-kigq8000060-CHI 1784829358 796513338&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;p&gt;Varnish cache server&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 </pre>
 			</aside>
 		</article>
