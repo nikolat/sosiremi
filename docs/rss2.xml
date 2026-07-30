@@ -546,15 +546,6 @@
     <pubDate>Wed, 27 Apr 2022 18:51:06 +0900</pubDate>
 </item>
 <item>
-    <title>shellbook</title>
-    <link>https://github.com/nikolat/shellbook</link>
-    <description>freeshell Wiki viewer</description>
-    <category>ghost</category>
-    <dc:creator>nikolat</dc:creator>
-    <guid isPermaLink="false">nikolat/shellbook</guid>
-    <pubDate>Tue, 13 Dec 2022 21:55:00 +0900</pubDate>
-</item>
-<item>
     <title>reshibainu</title>
     <link>https://github.com/nikolat/reshibainu</link>
     <description>「里々」ログビューア「れしば.NET」のゴースト版</description>
