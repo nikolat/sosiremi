@@ -10,12 +10,14 @@
 <link rel="help" href="./about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
+<link rel="alternate" type="application/x-nar" title="sakura-restore" href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" />
 <link rel="alternate" type="application/octet-stream" title="knowledgeable_kernel" href="https://github.com/Tatakinov/knowledgeable_kernel/releases/download/v2.0.0/knowledgeable_kernel.nar" />
 <link rel="alternate" type="application/octet-stream" title="taidanaSanoSan" href="https://github.com/tukinami/taidanaSanoSan/releases/download/v1.22.0/taidanaSanoSan.nar" />
 <link rel="alternate" type="application/x-nar" title="WeatherTimeCapsule" href="https://github.com/lost-nd-xxx/WeatherTimeCapsule/releases/download/1.0.2/WeatherTimeCapsule.nar" />
 <link rel="alternate" type="application/x-zip-compressed" title="mancala-player-amethyst" href="https://github.com/lost-nd-xxx/mancala-player-amethyst/releases/download/v1.0.0/mancala-player-amethyst.nar" />
 <link rel="alternate" type="application/x-zip-compressed" title="mancala-player-amber" href="https://github.com/lost-nd-xxx/mancala-player-amber/releases/download/v1.0.0/mancala-player-amber.nar" />
 <link rel="alternate" type="application/x-nar" title="mancala-board-ghost" href="https://github.com/lost-nd-xxx/mancala-board-ghost/releases/download/v1.0.1/mancala-board-ghost.nar" />
+<link rel="alternate" type="application/x-nar" title="tmidi_msg" href="https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar" />
 <link rel="alternate" type="application/octet-stream" title="ghost_in_a_nutshell" href="https://github.com/syobocat/ghost_in_a_nutshell/releases/download/v0.1.1/ghost_in_a_nutshell.nar" />
 <link rel="alternate" type="application/octet-stream" title="my_own_translator" href="https://github.com/Tatakinov/my_own_translator/releases/download/v2.1.0/my_own_translator.nar" />
 <link rel="alternate" type="application/x-nar" title="HopefullyEverAfter_Yume" href="https://github.com/lost-nd-xxx/HopefullyEverAfter_Yume/releases/download/1.0.1/HopefullyEverAfter_Yume.nar" />
@@ -105,6 +107,86 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
+		<article id="JiayuYangX/sakura-restore" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/JiayuYangX/sakura-restore" rel="bookmark">sakura-restore</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./ghost/">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="./author/JiayuYangX/">JiayuYangX</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-09-03T09:00:23Z">2026-09-03 18:00:23</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-09-03T09:00:33Z">2026-09-03 18:00:33</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" rel="nofollow" data-filesize="2675.4" data-download_count="4">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FJiayuYangX%2Fsakura-restore%2Freleases%2Fdownload%2F260902%2Ffirst.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="sakura-restore">
+				<h4>readme</h4>
+<pre>
+# さくら（御影樱）人格汉化
+
+本仓库为伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）的汉化工程。文本内容翻译由大模型辅助完成。
+
+![示意图](pic.png)
+
+人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；
+外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。
+
+## 安装方法
+
+从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。
+
+## 必要环境
+
+- [SSP](https://ssp.shillest.net/)
+- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）
+
+## 汉化项目描述
+
+文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。
+原配布链接：&lt;http://usada.sakura.vg/&gt;
+
+### 汉化
+
+该人格的所有文本都被硬编码进 SHIORI（`first.dll`）中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 CODE 段，内置图形界面文本位于 rsrc 段。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。
+
+然而仍有如环境变量等少数文本以自定义压缩格式存储在 rsrc 段的 AITXT 中。由于无法获取其压缩/解压算法，本项目采用翻译器接口（`makoto.dll`，遵循 MAKOTO/2.0 协议）在 SHIORI 返回该部分文本后对其 SJIS 字节进行匹配替换。
+
+### 图片修复
+
+外壳和对话框现均改为使用图片自身透明通道。外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。
+
+### 兼容性修复
+
+人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS（932 代码页）字符集变为 GBK（936 代码页），可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。
+
+外壳和对话框在现代高 DPI 显示器上建议使用与系统相同的缩放比例；时钟和提示框未经过 SSP 缩放，可能显得过小。
+
+人格编写的时代旧 SHIORI 规范未完全实现 NOTIFY 方法，除部分特殊事件外仍基本使用 GET，`first.dll` 接到 NOTIFY 请求后会直接响应 `400 Bad Request`；现代 SHIORI 规范及 SSP 基础软件在 `caltalk=0` 时 `OnSecondChange` 事件严格使用 NOTIFY 进行通信，`first.dll` 拒绝响应导致状态机卡住，无法自动退出小睡（`mode2`）和入浴（`mode3`）状态，能量值累加也会停摆。
+
+故通过两步 DLL 修补解决相关问题：（1）禁用 `0x719E` 处 NOTIFY 的跳转使请求正常处理；（2）`0x79E08` 处 `\![enter,inductionmode]` 字段长度设为 0 取消进入诱导模式。
+
+
+## 翻译流程
+
+1. 运行 `extract2csv.py` 和 `extract_aitxt.py` 提取日文原文
+2. 运行 `replace_chars.py` 预处理不可编码字符 
+3. 人工翻译 CSV 中的文本
+4. 运行 `patch_dll.py` 打静态补丁
+5. 运行 `build.bat` 生成带替换表的 `makoto.dll`
+6. 部署后测试
+
+## 环境及工具
+
+- MSYS2 + `mingw-w64-i686-gcc`（32 位 MinGW）
+- Python 3.x
+- Real-ESRGAN-nccn-vulkan
+- ImageMagick</pre>
+			</aside>
+		</article>
 		<article id="Tatakinov/knowledgeable_kernel" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/Tatakinov/knowledgeable_kernel" rel="bookmark">knowledgeable_kernel</a></h3>
@@ -752,6 +834,127 @@ NG
 </pre>
 			</aside>
 		</article>
+		<article id="JiayuYangX/tmidi_msg" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/JiayuYangX/tmidi_msg" rel="bookmark">tmidi_msg</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./plugin/">plugin</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="./author/JiayuYangX/">JiayuYangX</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-06-24T03:19:12Z">2026-06-24 12:19:12</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-06-24T03:19:14Z">2026-06-24 12:19:14</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar" title="https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar" rel="nofollow" data-filesize="58.5" data-download_count="1">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FJiayuYangX%2Ftmidi_msg%2Freleases%2Fdownload%2Fv1.1.0%2Ftmidi_msg.nar" title="https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="tmidi_msg">
+				<h4>readme</h4>
+<pre>
+# TMIDI Messages 插件
+
+&gt; [English README](README.en.md)
+
+将 TMIDI Player 连接到 SSP 桌面角色的 PLUGIN/2.0 插件，通过 DDE 实时传递播放信息。
+
+当 TMIDI Player 开始播放 MIDI 文件时，插件自动检测并注入 Sakura Script，让角色说出当前曲目信息。
+
+## 前情提要
+
+TMIDI Player 自 **ver.3.8.1**（2001 年）起搭载了 SSTP 客户端功能，可在演奏开始时向伪春菜发送曲名。但该功能使用的是**同步阻塞**模式的 Winsock，一旦连接超时就会卡住演奏；加上 SSP / 伪春菜协议历经多年更新，TMIDI 的内置 SSTP 已在现代环境下失效。
+
+本插件以 **DDE + PLUGIN/2.0** 方案替代原有的 TCP/SSTP 通路：
+- **DDE** 与 TMIDI 通信，获取播放状态和曲目信息（TMIDI 至今仍保留完整的 DDE 服务）
+- **PLUGIN/2.0** 将脚本直接注入 SSP，无需网络连接、无超时阻塞
+
+## 功能
+
+- **零配置 DDE 检测** — 自动发现所有正在运行的 TMIDI Player 实例
+- **多实例支持** — 同时跟踪所有运行中的 TMIDI Player 实例
+- **暂停/恢复不误报** — 仅在首次播放或停止后重新播放时触发
+- **自动重连** — TMIDI 重启后静默恢复连接
+- **模板可自定义** — 编辑 `sstp_sample.txt` 修改播报内容
+
+## 运行环境
+
+- **TMIDI Player**（DDE 服务名：`TMIDI`）
+- **SSP**（Sakura Script Player），需加载人格
+- **Windows**（DDE 使用系统 ANSI 代码页）
+
+## 安装方法
+
+从 Release 中下载最新版本提供的 NAR 文件。
+
+- **安装方案 1**：打开 SSP，将 NAR 文件拖入，点击确定覆盖
+
+- **安装方案 2**：将 NAR 文件的默认打开方式设为 SSP，双击运行，点击确定覆盖
+
+- **安装方案 3**：将 NAR 文件的后缀名改为 `.zip`，解压覆盖到 `SSP/plugin/tmidi_msg` 目录下
+
+```
+SSP/
+  plugin/
+    tmidi_msg/
+      descript.txt
+      install.txt
+      message.chinese.txt
+      message.english.txt
+      message.japanese.txt
+      sstp_sample.txt
+      tmidi_msg.dll
+```
+
+安装完成后，在 TMIDI Player 中播放 MIDI 文件，角色便会说出曲目信息。
+
+## 模板配置
+
+编辑 `sstp_sample.txt` 自定义播报内容。格式与 TMIDI Player 原生 `sstp_sample.txt` 类似，可直接沿用原有配置（**注意：`$target` 和 `$module` 不被支持**）。
+
+`sstp_sample.txt` 支持检测 WRD 类型，插件根据播放文件自动选择：
+
+| 节区         | 触发条件                        |
+|--------------|---------------------------------|
+| `#MIMPIWRD`  | 存在同名的 `.wrd` 或 `.dv` 文件 |
+| `#SherryWRD` | 存在同名的 `.sry` 文件          |
+| `#NeoWRD`    | 播放文件自身扩展名为 `.neo`     |
+| `#NoWRD`     | 未检测到以上任何 WRD（默认）    |
+
+### 模板变量
+
+| 变量      | 替换值     |
+|-----------|------------|
+| `$title`  | 曲目标题   |
+| `$format` | 文件格式   |
+
+## 工作原理
+
+```
+TMIDI Player ──DDE──▶ tmidi_msg.dll ──PLUGIN/2.0──▶ SSP ──Sakura Script──▶ Ghost
+```
+
+- 使用 **DDEML**（`APPCLASS_STANDARD`）建立持久会话
+- 通过 `OnSecondChange` 每秒轮询 `getstatus`
+- 检测到状态为 `&#34;play&#34;` 且文件名与上次不同时，通过 `gettitle` 获取标题并注入脚本
+- DDE 字符串使用 `CP_WINUNICODE`，数据交换使用 `CF_TEXT` + 系统 ANSI 代码页
+
+已知问题：如果在 SSP 插件的定时器周期内（最短 1 秒）快速停止再重新播放同一个文件，或不停止直接重新打开同一个文件，插件不会检测到文件名变更，因此无法触发对话（不过我想应该没人会这么做吧）。
+
+## 编译
+
+```bash
+cl /LD /O2 /MT /Fe:tmidi_msg.dll tmidi_msg.cpp user32.lib shell32.lib
+```
+
+需要 MSVC（`cl.exe`）。SSP 是 32 位程序，请使用 x86 工具链编译（如 `vcvars32.bat`）。生成单个 `tmidi_msg.dll`。
+
+## 许可证
+
+原始 TMIDI Player 许可证详见 `readme.txt`。插件代码可自由使用和修改。
+</pre>
+			</aside>
+		</article>
 		<article id="syobocat/ghost_in_a_nutshell" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/syobocat/ghost_in_a_nutshell" rel="bookmark">ghost_in_a_nutshell</a></h3>
@@ -799,7 +1002,7 @@ OpenAI互換のAPIであれば動作するはずですが、動作確認はOpenR
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-06-12T12:30:39Z">2026-06-12 21:30:39</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/Tatakinov/my_own_translator/releases/download/v2.1.0/my_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v2.1.0/my_own_translator.nar" rel="nofollow" data-filesize="10094.8" data-download_count="214">download</a></p>
+				<p class="download"><a href="https://github.com/Tatakinov/my_own_translator/releases/download/v2.1.0/my_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v2.1.0/my_own_translator.nar" rel="nofollow" data-filesize="10094.8" data-download_count="216">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTatakinov%2Fmy_own_translator%2Freleases%2Fdownload%2Fv2.1.0%2Fmy_own_translator.nar" title="https://github.com/Tatakinov/my_own_translator/releases/download/v2.1.0/my_own_translator.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="my_own_translator">
@@ -4960,7 +5163,7 @@ ghost/master/elin
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-08-07T02:11:05Z">2026-08-07 11:11:05</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/Taromati2/package-factory/releases/download/31140354653/Taromati2.nar" title="https://github.com/Taromati2/package-factory/releases/download/31140354653/Taromati2.nar" rel="nofollow" data-filesize="4980.3" data-download_count="20">download</a></p>
+				<p class="download"><a href="https://github.com/Taromati2/package-factory/releases/download/31140354653/Taromati2.nar" title="https://github.com/Taromati2/package-factory/releases/download/31140354653/Taromati2.nar" rel="nofollow" data-filesize="4980.3" data-download_count="22">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FTaromati2%2Fpackage-factory%2Freleases%2Fdownload%2F31140354653%2FTaromati2.nar" title="https://github.com/Taromati2/package-factory/releases/download/31140354653/Taromati2.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="Taromati2">
@@ -5235,7 +5438,7 @@ ${user}&lt;|end|&gt;
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2023-10-28T12:22:09Z">2023-10-28 21:22:09</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" title="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" rel="nofollow" data-filesize="2889.8" data-download_count="639">download</a></p>
+				<p class="download"><a href="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" title="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" rel="nofollow" data-filesize="2889.8" data-download_count="640">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fapxxxxxxe%2FBouyomi%2Freleases%2Fdownload%2Fv1.5.1%2FBouyomi.nar" title="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="Bouyomi">

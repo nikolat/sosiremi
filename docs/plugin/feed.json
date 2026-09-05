@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "JiayuYangX/tmidi_msg",
+            "url": "https://github.com/JiayuYangX/tmidi_msg",
+            "title": "tmidi_msg",
+            "content_text": "# TMIDI Messages 插件\n\n> [English README](README.en.md)\n\n将 TMIDI Player 连接到 SSP 桌面角色的 PLUGIN/2.0 插件，通过 DDE 实时传递播放信息。\n\n当 TMIDI Player 开始播放 MIDI 文件时，插件自动检测并注入 Sakura Script，让角色说出当前曲目信息。\n\n## 前情提要\n\nTMIDI Player 自 **ver.3.8.1**（2001 年）起搭载了 SSTP 客户端功能，可在演奏开始时向伪春菜发送曲名。但该功能使用的是**同步阻塞**模式的 Winsock，一旦连接超时就会卡住演奏；加上 SSP / 伪春菜协议历经多年更新，TMIDI 的内置 SSTP 已在现代环境下失效。\n\n本插件以 **DDE + PLUGIN/2.0** 方案替代原有的 TCP/SSTP 通路：\n- **DDE** 与 TMIDI 通信，获取播放状态和曲目信息（TMIDI 至今仍保留完整的 DDE 服务）\n- **PLUGIN/2.0** 将脚本直接注入 SSP，无需网络连接、无超时阻塞\n\n## 功能\n\n- **零配置 DDE 检测** — 自动发现所有正在运行的 TMIDI Player 实例\n- **多实例支持** — 同时跟踪所有运行中的 TMIDI Player 实例\n- **暂停/恢复不误报** — 仅在首次播放或停止后重新播放时触发\n- **自动重连** — TMIDI 重启后静默恢复连接\n- **模板可自定义** — 编辑 `sstp_sample.txt` 修改播报内容\n\n## 运行环境\n\n- **TMIDI Player**（DDE 服务名：`TMIDI`）\n- **SSP**（Sakura Script Player），需加载人格\n- **Windows**（DDE 使用系统 ANSI 代码页）\n\n## 安装方法\n\n从 Release 中下载最新版本提供的 NAR 文件。\n\n- **安装方案 1**：打开 SSP，将 NAR 文件拖入，点击确定覆盖\n\n- **安装方案 2**：将 NAR 文件的默认打开方式设为 SSP，双击运行，点击确定覆盖\n\n- **安装方案 3**：将 NAR 文件的后缀名改为 `.zip`，解压覆盖到 `SSP/plugin/tmidi_msg` 目录下\n\n```\nSSP/\n  plugin/\n    tmidi_msg/\n      descript.txt\n      install.txt\n      message.chinese.txt\n      message.english.txt\n      message.japanese.txt\n      sstp_sample.txt\n      tmidi_msg.dll\n```\n\n安装完成后，在 TMIDI Player 中播放 MIDI 文件，角色便会说出曲目信息。\n\n## 模板配置\n\n编辑 `sstp_sample.txt` 自定义播报内容。格式与 TMIDI Player 原生 `sstp_sample.txt` 类似，可直接沿用原有配置（**注意：`$target` 和 `$module` 不被支持**）。\n\n`sstp_sample.txt` 支持检测 WRD 类型，插件根据播放文件自动选择：\n\n| 节区         | 触发条件                        |\n|--------------|---------------------------------|\n| `#MIMPIWRD`  | 存在同名的 `.wrd` 或 `.dv` 文件 |\n| `#SherryWRD` | 存在同名的 `.sry` 文件          |\n| `#NeoWRD`    | 播放文件自身扩展名为 `.neo`     |\n| `#NoWRD`     | 未检测到以上任何 WRD（默认）    |\n\n### 模板变量\n\n| 变量      | 替换值     |\n|-----------|------------|\n| `$title`  | 曲目标题   |\n| `$format` | 文件格式   |\n\n## 工作原理\n\n```\nTMIDI Player ──DDE──▶ tmidi_msg.dll ──PLUGIN/2.0──▶ SSP ──Sakura Script──▶ Ghost\n```\n\n- 使用 **DDEML**（`APPCLASS_STANDARD`）建立持久会话\n- 通过 `OnSecondChange` 每秒轮询 `getstatus`\n- 检测到状态为 `\"play\"` 且文件名与上次不同时，通过 `gettitle` 获取标题并注入脚本\n- DDE 字符串使用 `CP_WINUNICODE`，数据交换使用 `CF_TEXT` + 系统 ANSI 代码页\n\n已知问题：如果在 SSP 插件的定时器周期内（最短 1 秒）快速停止再重新播放同一个文件，或不停止直接重新打开同一个文件，插件不会检测到文件名变更，因此无法触发对话（不过我想应该没人会这么做吧）。\n\n## 编译\n\n```bash\ncl /LD /O2 /MT /Fe:tmidi_msg.dll tmidi_msg.cpp user32.lib shell32.lib\n```\n\n需要 MSVC（`cl.exe`）。SSP 是 32 位程序，请使用 x86 工具链编译（如 `vcvars32.bat`）。生成单个 `tmidi_msg.dll`。\n\n## 许可证\n\n原始 TMIDI Player 许可证详见 `readme.txt`。插件代码可自由使用和修改。\n",
+            "summary": "支持 TMIDI Player 消息的伪春菜插件",
+            "date_published": "2026-06-24T03:19:12Z",
+            "date_modified": "2026-06-24T03:19:14Z",
+            "authors": [
+                {
+                    "name": "JiayuYangX",
+                    "url": "https://github.com/JiayuYangX",
+                    "avatar": "https://avatars.githubusercontent.com/u/173799789?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "tmidi_msg.nar",
+                    "size_in_bytes": 59867,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/UkagakaGhostMessenger",
             "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger",
             "title": "UkagakaGhostMessenger",
@@ -132,7 +165,7 @@
                     "title": "Bouyomi.nar",
                     "size_in_bytes": 2959159,
                     "_ex": {
-                        "download_count": 639
+                        "download_count": 640
                     }
                 }
             ]

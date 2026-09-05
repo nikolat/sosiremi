@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "JiayuYangX/sakura-restore",
+            "url": "https://github.com/JiayuYangX/sakura-restore",
+            "title": "sakura-restore",
+            "content_text": "# さくら（御影樱）人格汉化\n\n本仓库为伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）的汉化工程。文本内容翻译由大模型辅助完成。\n\n![示意图](pic.png)\n\n人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；\n外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。\n\n## 安装方法\n\n从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。\n\n## 必要环境\n\n- [SSP](https://ssp.shillest.net/)\n- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）\n\n## 汉化项目描述\n\n文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。\n原配布链接：<http://usada.sakura.vg/>\n\n### 汉化\n\n该人格的所有文本都被硬编码进 SHIORI（`first.dll`）中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 CODE 段，内置图形界面文本位于 rsrc 段。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。\n\n然而仍有如环境变量等少数文本以自定义压缩格式存储在 rsrc 段的 AITXT 中。由于无法获取其压缩/解压算法，本项目采用翻译器接口（`makoto.dll`，遵循 MAKOTO/2.0 协议）在 SHIORI 返回该部分文本后对其 SJIS 字节进行匹配替换。\n\n### 图片修复\n\n外壳和对话框现均改为使用图片自身透明通道。外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。\n\n### 兼容性修复\n\n人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS（932 代码页）字符集变为 GBK（936 代码页），可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。\n\n外壳和对话框在现代高 DPI 显示器上建议使用与系统相同的缩放比例；时钟和提示框未经过 SSP 缩放，可能显得过小。\n\n人格编写的时代旧 SHIORI 规范未完全实现 NOTIFY 方法，除部分特殊事件外仍基本使用 GET，`first.dll` 接到 NOTIFY 请求后会直接响应 `400 Bad Request`；现代 SHIORI 规范及 SSP 基础软件在 `caltalk=0` 时 `OnSecondChange` 事件严格使用 NOTIFY 进行通信，`first.dll` 拒绝响应导致状态机卡住，无法自动退出小睡（`mode2`）和入浴（`mode3`）状态，能量值累加也会停摆。\n\n故通过两步 DLL 修补解决相关问题：（1）禁用 `0x719E` 处 NOTIFY 的跳转使请求正常处理；（2）`0x79E08` 处 `\\![enter,inductionmode]` 字段长度设为 0 取消进入诱导模式。\n\n\n## 翻译流程\n\n1. 运行 `extract2csv.py` 和 `extract_aitxt.py` 提取日文原文\n2. 运行 `replace_chars.py` 预处理不可编码字符 \n3. 人工翻译 CSV 中的文本\n4. 运行 `patch_dll.py` 打静态补丁\n5. 运行 `build.bat` 生成带替换表的 `makoto.dll`\n6. 部署后测试\n\n## 环境及工具\n\n- MSYS2 + `mingw-w64-i686-gcc`（32 位 MinGW）\n- Python 3.x\n- Real-ESRGAN-nccn-vulkan\n- ImageMagick",
+            "summary": "伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）逆向汉化",
+            "date_published": "2026-09-03T09:00:23Z",
+            "date_modified": "2026-09-03T09:00:33Z",
+            "authors": [
+                {
+                    "name": "JiayuYangX",
+                    "url": "https://github.com/JiayuYangX",
+                    "avatar": "https://avatars.githubusercontent.com/u/173799789?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "first.nar",
+                    "size_in_bytes": 2739637,
+                    "_ex": {
+                        "download_count": 4
+                    }
+                }
+            ]
+        },
+        {
             "id": "Tatakinov/knowledgeable_kernel",
             "url": "https://github.com/Tatakinov/knowledgeable_kernel",
             "title": "knowledgeable_kernel",
@@ -204,6 +237,39 @@
             ]
         },
         {
+            "id": "JiayuYangX/tmidi_msg",
+            "url": "https://github.com/JiayuYangX/tmidi_msg",
+            "title": "tmidi_msg",
+            "content_text": "# TMIDI Messages 插件\n\n> [English README](README.en.md)\n\n将 TMIDI Player 连接到 SSP 桌面角色的 PLUGIN/2.0 插件，通过 DDE 实时传递播放信息。\n\n当 TMIDI Player 开始播放 MIDI 文件时，插件自动检测并注入 Sakura Script，让角色说出当前曲目信息。\n\n## 前情提要\n\nTMIDI Player 自 **ver.3.8.1**（2001 年）起搭载了 SSTP 客户端功能，可在演奏开始时向伪春菜发送曲名。但该功能使用的是**同步阻塞**模式的 Winsock，一旦连接超时就会卡住演奏；加上 SSP / 伪春菜协议历经多年更新，TMIDI 的内置 SSTP 已在现代环境下失效。\n\n本插件以 **DDE + PLUGIN/2.0** 方案替代原有的 TCP/SSTP 通路：\n- **DDE** 与 TMIDI 通信，获取播放状态和曲目信息（TMIDI 至今仍保留完整的 DDE 服务）\n- **PLUGIN/2.0** 将脚本直接注入 SSP，无需网络连接、无超时阻塞\n\n## 功能\n\n- **零配置 DDE 检测** — 自动发现所有正在运行的 TMIDI Player 实例\n- **多实例支持** — 同时跟踪所有运行中的 TMIDI Player 实例\n- **暂停/恢复不误报** — 仅在首次播放或停止后重新播放时触发\n- **自动重连** — TMIDI 重启后静默恢复连接\n- **模板可自定义** — 编辑 `sstp_sample.txt` 修改播报内容\n\n## 运行环境\n\n- **TMIDI Player**（DDE 服务名：`TMIDI`）\n- **SSP**（Sakura Script Player），需加载人格\n- **Windows**（DDE 使用系统 ANSI 代码页）\n\n## 安装方法\n\n从 Release 中下载最新版本提供的 NAR 文件。\n\n- **安装方案 1**：打开 SSP，将 NAR 文件拖入，点击确定覆盖\n\n- **安装方案 2**：将 NAR 文件的默认打开方式设为 SSP，双击运行，点击确定覆盖\n\n- **安装方案 3**：将 NAR 文件的后缀名改为 `.zip`，解压覆盖到 `SSP/plugin/tmidi_msg` 目录下\n\n```\nSSP/\n  plugin/\n    tmidi_msg/\n      descript.txt\n      install.txt\n      message.chinese.txt\n      message.english.txt\n      message.japanese.txt\n      sstp_sample.txt\n      tmidi_msg.dll\n```\n\n安装完成后，在 TMIDI Player 中播放 MIDI 文件，角色便会说出曲目信息。\n\n## 模板配置\n\n编辑 `sstp_sample.txt` 自定义播报内容。格式与 TMIDI Player 原生 `sstp_sample.txt` 类似，可直接沿用原有配置（**注意：`$target` 和 `$module` 不被支持**）。\n\n`sstp_sample.txt` 支持检测 WRD 类型，插件根据播放文件自动选择：\n\n| 节区         | 触发条件                        |\n|--------------|---------------------------------|\n| `#MIMPIWRD`  | 存在同名的 `.wrd` 或 `.dv` 文件 |\n| `#SherryWRD` | 存在同名的 `.sry` 文件          |\n| `#NeoWRD`    | 播放文件自身扩展名为 `.neo`     |\n| `#NoWRD`     | 未检测到以上任何 WRD（默认）    |\n\n### 模板变量\n\n| 变量      | 替换值     |\n|-----------|------------|\n| `$title`  | 曲目标题   |\n| `$format` | 文件格式   |\n\n## 工作原理\n\n```\nTMIDI Player ──DDE──▶ tmidi_msg.dll ──PLUGIN/2.0──▶ SSP ──Sakura Script──▶ Ghost\n```\n\n- 使用 **DDEML**（`APPCLASS_STANDARD`）建立持久会话\n- 通过 `OnSecondChange` 每秒轮询 `getstatus`\n- 检测到状态为 `\"play\"` 且文件名与上次不同时，通过 `gettitle` 获取标题并注入脚本\n- DDE 字符串使用 `CP_WINUNICODE`，数据交换使用 `CF_TEXT` + 系统 ANSI 代码页\n\n已知问题：如果在 SSP 插件的定时器周期内（最短 1 秒）快速停止再重新播放同一个文件，或不停止直接重新打开同一个文件，插件不会检测到文件名变更，因此无法触发对话（不过我想应该没人会这么做吧）。\n\n## 编译\n\n```bash\ncl /LD /O2 /MT /Fe:tmidi_msg.dll tmidi_msg.cpp user32.lib shell32.lib\n```\n\n需要 MSVC（`cl.exe`）。SSP 是 32 位程序，请使用 x86 工具链编译（如 `vcvars32.bat`）。生成单个 `tmidi_msg.dll`。\n\n## 许可证\n\n原始 TMIDI Player 许可证详见 `readme.txt`。插件代码可自由使用和修改。\n",
+            "summary": "支持 TMIDI Player 消息的伪春菜插件",
+            "date_published": "2026-06-24T03:19:12Z",
+            "date_modified": "2026-06-24T03:19:14Z",
+            "authors": [
+                {
+                    "name": "JiayuYangX",
+                    "url": "https://github.com/JiayuYangX",
+                    "avatar": "https://avatars.githubusercontent.com/u/173799789?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "tmidi_msg.nar",
+                    "size_in_bytes": 59867,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "syobocat/ghost_in_a_nutshell",
             "url": "https://github.com/syobocat/ghost_in_a_nutshell",
             "title": "ghost_in_a_nutshell",
@@ -263,7 +329,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 214
+                        "download_count": 216
                     }
                 }
             ]
@@ -1775,7 +1841,7 @@
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099837,
                     "_ex": {
-                        "download_count": 20
+                        "download_count": 22
                     }
                 }
             ]
@@ -1872,7 +1938,7 @@
                     "title": "Bouyomi.nar",
                     "size_in_bytes": 2959159,
                     "_ex": {
-                        "download_count": 639
+                        "download_count": 640
                     }
                 }
             ]
