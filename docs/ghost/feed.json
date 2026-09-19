@@ -6,6 +6,72 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "YAYA-shiori/ayalilith",
+            "url": "https://github.com/YAYA-shiori/ayalilith",
+            "title": "ayalilith",
+            "content_text": "----------------\n「あやりりすEX」テンプレートゴースト\n紺野りりす\n----------------\n\n20121101\nYAYA version Tc543-1\n\noriginal author : C.Ponapalt\nchanged by : Couperin, Minaduki-ran\n\nFree shell \"silencer girl (made by mkbt)\" is used by this ghost. \n",
+            "summary": "紺野りりす（あやりりす/EXサンプルゴースト）",
+            "date_published": "2026-09-19T10:44:51Z",
+            "date_modified": "2026-09-19T10:44:51Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/ayalilith/releases/download/35438221901/ayalilith.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ayalilith.nar",
+                    "size_in_bytes": 824279,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/walk_with_unyu",
+            "url": "https://github.com/lost-nd-xxx/walk_with_unyu",
+            "title": "walk_with_unyu",
+            "content_text": "# 作業応援うにゅう\n\n* 回し車を回すうにゅうが、あなたの作業を応援するゴーストです。\n* 指定されたファイルの保存回数やファイルサイズの増減を見守ります。\n* 見守り対象のファイルが作業中に一定時間更新されなかった場合、保存をおすすめしたりもします。\n\n**製作者**\n\n* 作者 : ろすえん（lost_nd_xxx）\n  * https://lnx.flop.jp/\n\nこのファイルセットは伺か（ukagaka）のゴーストです。\n\n動かすには、SSP（ https://ssp.shillest.net/ ）などのベースウェアが必要です。\n\n## ライセンス\n\n**事前にご相談ください**\n\n* 再配布\n* 改変したものの配布\n\nご連絡は https://lnx.flop.jp/ からお願いします。\n2週間ほど返事がない場合は、連絡が取れなかった旨を明記していただければ、ご判断にお任せします。\n\n**ご自由にどうぞ（出典表記は任意です）**\n\n* スクリーンショットの投稿、動画配信\n* 二次創作（イラスト、小説など）\n  * ただし、このゴーストのファイル（画像・辞書）そのものを含めないでください。\n* 追加シェルの作成と、その配布\n  * `shell/master/surfaces.txt` と `shell/master/surfacetable.txt` に限り、転用・改変を許可します（画像ファイルは含みません）。\n\n### 上の条件が及ぶ範囲\n\nこのゴーストのために作られた部分——辞書の台詞と動作、シェルの画像——は、ろすえん（lost_nd_xxx）が作成したものです。\n\n（テンプレート由来の部分については「同梱物について」をご覧ください）\n\n### 「うにゅう」というキャラクターについて\n\n「うにゅう」は、伺かの原型である「偽春菜（後のMateria）」に登場した相方キャラクターに由来します。このゴーストはその二次創作にあたります。\n\nシェルの画像はテンプレート由来のファイルを含まない自作ですが、キャラクターの概念そのものは借りているものです。\n\n### 同梱物について\n\nこのゴーストには、第三者が作ったファイルが含まれます。**そのまま使う分には、とくに気にする必要はありません。**\n\n再配布や流用をお考えの場合は、それぞれの条件をご確認ください。\n\n| ファイル | 内容 | ライセンス |\n|---|---|---|\n| `ghost/master/yaya.dll` | SHIORI「YAYA」 | 同梱の `readme-yaya.txt` を参照 |\n| `ghost/master/dic/system/` | システム辞書 yaya-dic `https://github.com/YAYA-shiori/yaya-dic` | Public Domain (Unlicense) |\n| `ghost/master/dic/normal/` のうち、テンプレート由来の部分 | 紺野ややめのテンプレート辞書 | Public Domain (Unlicense) |\n\n## クレジット\n\n「YAYA」テンプレートゴースト 紺野ややめ（ https://github.com/YAYA-shiori/konnoyayame ）をもとに作成しました。\n\n**紺野ややめのクレジット**\n\n* original author : umeici\n* change by : ukiya\n* modernized by : ponapalt and contributors\n\n## 開発中のAI利用について\n\nこのゴーストは、AI コーディングエージェント（Claude Code）を用いて開発しました。\n",
+            "summary": "伺かゴースト「作業応援うにゅう」",
+            "date_published": "2026-09-19T09:20:45Z",
+            "date_modified": "2026-09-19T09:20:49Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.0/lnx_walk_with_unyu.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "lnx_walk_with_unyu.nar",
+                    "size_in_bytes": 1278181,
+                    "_ex": {
+                        "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
             "id": "JiayuYangX/sakura-restore",
             "url": "https://github.com/JiayuYangX/sakura-restore",
             "title": "sakura-restore",
@@ -33,40 +99,7 @@
                     "title": "first.nar",
                     "size_in_bytes": 2739637,
                     "_ex": {
-                        "download_count": 23
-                    }
-                }
-            ]
-        },
-        {
-            "id": "YAYA-shiori/ayalilith",
-            "url": "https://github.com/YAYA-shiori/ayalilith",
-            "title": "ayalilith",
-            "content_text": "----------------\n「あやりりすEX」テンプレートゴースト\n紺野りりす\n----------------\n\n20121101\nYAYA version Tc543-1\n\noriginal author : C.Ponapalt\nchanged by : Couperin, Minaduki-ran\n\nFree shell \"silencer girl (made by mkbt)\" is used by this ghost. \n",
-            "summary": "紺野りりす（あやりりす/EXサンプルゴースト）",
-            "date_published": "2026-09-17T12:10:51Z",
-            "date_modified": "2026-09-17T12:10:51Z",
-            "authors": [
-                {
-                    "name": "YAYA-shiori",
-                    "url": "https://github.com/YAYA-shiori",
-                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/YAYA-shiori/ayalilith/releases/download/35219647391/ayalilith.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "ayalilith.nar",
-                    "size_in_bytes": 805395,
-                    "_ex": {
-                        "download_count": 1
+                        "download_count": 24
                     }
                 }
             ]
@@ -494,7 +527,7 @@
                     "title": "flele_aya.nar",
                     "size_in_bytes": 3013824,
                     "_ex": {
-                        "download_count": 126
+                        "download_count": 127
                     }
                 }
             ]
@@ -1378,7 +1411,7 @@
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099837,
                     "_ex": {
-                        "download_count": 10
+                        "download_count": 12
                     }
                 }
             ]

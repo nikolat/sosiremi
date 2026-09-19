@@ -11,8 +11,8 @@
             "title": "ayalilith",
             "content_text": "----------------\n「あやりりすEX」テンプレートゴースト\n紺野りりす\n----------------\n\n20121101\nYAYA version Tc543-1\n\noriginal author : C.Ponapalt\nchanged by : Couperin, Minaduki-ran\n\nFree shell \"silencer girl (made by mkbt)\" is used by this ghost. \n",
             "summary": "紺野りりす（あやりりす/EXサンプルゴースト）",
-            "date_published": "2026-09-17T12:10:51Z",
-            "date_modified": "2026-09-17T12:10:51Z",
+            "date_published": "2026-09-19T10:44:51Z",
+            "date_modified": "2026-09-19T10:44:51Z",
             "authors": [
                 {
                     "name": "YAYA-shiori",
@@ -28,12 +28,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/YAYA-shiori/ayalilith/releases/download/35219647391/ayalilith.nar",
+                    "url": "https://github.com/YAYA-shiori/ayalilith/releases/download/35438221901/ayalilith.nar",
                     "mime_type": "application/octet-stream",
                     "title": "ayalilith.nar",
-                    "size_in_bytes": 805395,
+                    "size_in_bytes": 824279,
                     "_ex": {
-                        "download_count": 1
+                        "download_count": 0
                     }
                 }
             ]
@@ -66,7 +66,7 @@
                     "title": "flele_aya.nar",
                     "size_in_bytes": 3013824,
                     "_ex": {
-                        "download_count": 126
+                        "download_count": 127
                     }
                 }
             ]
@@ -99,7 +99,7 @@
                     "title": "stampcollection.nar",
                     "size_in_bytes": 413717,
                     "_ex": {
-                        "download_count": 30
+                        "download_count": 31
                     }
                 }
             ]
