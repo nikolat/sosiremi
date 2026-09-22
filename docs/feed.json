@@ -428,7 +428,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 250
+                        "download_count": 251
                     }
                 }
             ]
@@ -892,7 +892,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 687
+                        "download_count": 689
                     }
                 }
             ]
@@ -2245,7 +2245,7 @@
                     "title": "ukagakaPlugin_CeVIO-Talker.nar",
                     "size_in_bytes": 460161,
                     "_ex": {
-                        "download_count": 107
+                        "download_count": 108
                     }
                 }
             ]
