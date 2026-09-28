@@ -6,39 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "YAYA-shiori/ayalilith",
-            "url": "https://github.com/YAYA-shiori/ayalilith",
-            "title": "ayalilith",
-            "content_text": "----------------\n「あやりりすEX」テンプレートゴースト\n紺野りりす\n----------------\n\n20121101\nYAYA version Tc543-1\n\noriginal author : C.Ponapalt\nchanged by : Couperin, Minaduki-ran\n\nFree shell \"silencer girl (made by mkbt)\" is used by this ghost. \n",
-            "summary": "紺野りりす（あやりりす/EXサンプルゴースト）",
-            "date_published": "2026-09-28T07:13:53Z",
-            "date_modified": "2026-09-28T07:13:53Z",
-            "authors": [
-                {
-                    "name": "YAYA-shiori",
-                    "url": "https://github.com/YAYA-shiori",
-                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/YAYA-shiori/ayalilith/releases/download/36390499528/ayalilith.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "ayalilith.nar",
-                    "size_in_bytes": 1407119,
-                    "_ex": {
-                        "download_count": 0
-                    }
-                }
-            ]
-        },
-        {
             "id": "JiayuYangX/sakura-restore",
             "url": "https://github.com/JiayuYangX/sakura-restore",
             "title": "sakura-restore",
@@ -67,6 +34,39 @@
                     "size_in_bytes": 2739637,
                     "_ex": {
                         "download_count": 32
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/ayalilith",
+            "url": "https://github.com/YAYA-shiori/ayalilith",
+            "title": "ayalilith",
+            "content_text": "----------------\n「あやりりすEX」テンプレートゴースト\n紺野りりす\n----------------\n\n20121101\nYAYA version Tc543-1\n\noriginal author : C.Ponapalt\nchanged by : Couperin, Minaduki-ran\n\nFree shell \"silencer girl (made by mkbt)\" is used by this ghost. \n",
+            "summary": "紺野りりす（あやりりす/EXサンプルゴースト）",
+            "date_published": "2026-09-28T07:13:53Z",
+            "date_modified": "2026-09-28T07:13:53Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/ayalilith/releases/download/36390499528/ayalilith.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ayalilith.nar",
+                    "size_in_bytes": 1407119,
+                    "_ex": {
+                        "download_count": 0
                     }
                 }
             ]
@@ -527,7 +527,7 @@
                     "title": "flele_aya.nar",
                     "size_in_bytes": 3013824,
                     "_ex": {
-                        "download_count": 134
+                        "download_count": 135
                     }
                 }
             ]
