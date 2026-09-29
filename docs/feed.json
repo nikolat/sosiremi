@@ -33,7 +33,7 @@
                     "title": "first.nar",
                     "size_in_bytes": 2739637,
                     "_ex": {
-                        "download_count": 32
+                        "download_count": 33
                     }
                 }
             ]
@@ -99,7 +99,7 @@
                     "title": "ayalilith.nar",
                     "size_in_bytes": 1407119,
                     "_ex": {
-                        "download_count": 0
+                        "download_count": 1
                     }
                 }
             ]
@@ -461,7 +461,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 264
+                        "download_count": 266
                     }
                 }
             ]
@@ -892,7 +892,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 694
+                        "download_count": 695
                     }
                 }
             ]
