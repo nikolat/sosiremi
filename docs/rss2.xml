@@ -15,6 +15,15 @@
     <pubDate>Thu, 03 Sep 2026 18:00:33 +0900</pubDate>
 </item>
 <item>
+    <title>LilyNovelPlayer</title>
+    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
+    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
+    <category>ghost</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
+    <pubDate>Tue, 29 Sep 2026 22:43:05 +0900</pubDate>
+</item>
+<item>
     <title>ayalilith</title>
     <link>https://github.com/YAYA-shiori/ayalilith</link>
     <description>紺野りりす（あやりりす/EXサンプルゴースト）</description>
@@ -175,15 +184,6 @@
     <dc:creator>YAYA-shiori</dc:creator>
     <guid isPermaLink="false">YAYA-shiori/flele_aya</guid>
     <pubDate>Sat, 25 Apr 2026 17:05:49 +0900</pubDate>
-</item>
-<item>
-    <title>LilyNovelPlayer</title>
-    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
-    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
-    <category>ghost</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
-    <pubDate>Sun, 12 Apr 2026 21:31:29 +0900</pubDate>
 </item>
 <item>
     <title>stampcollection</title>
