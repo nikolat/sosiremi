@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "lost-nd-xxx/UkagakaGhostMessenger",
+            "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger",
+            "title": "UkagakaGhostMessenger",
+            "content_text": "# UkagakaGhostMessenger\r\n伺かベースウェア向けプラグインです。\r\nメッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。\r\n\r\n制作者: ろすえん(lost_nd_xxx)\r\n連絡先: http://lnx.flop.jp/\r\n\r\n------------------------\r\n## 取扱説明書等\r\n* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け\r\n* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け\r\n* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification\r\n\r\n------------------------\r\n## 1.x系（1.0.4以前）からの移行\r\n2.0.0から、プラグインの中身を作り直しました（akariを使わず、YAYAだけで動くようにしました）。\r\n1.x系の受信履歴や予約を引き継ぐには、次の順に作業してください。\r\n1. 1.0.5をインストールし、SSPを一度起動する（1.0.4からはネットワーク更新でも1.0.5になります）\r\n   1.0.5の入手先：https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/tag/1.0.5\r\n2. 2.0.0以降（最新版）を上書きでインストールする\r\n\r\n移行の結果は、UGMからのメッセージ（差出人「システム通知」）でお知らせします。\r\n1.0.5を経ずに2.0.0以降を入れた場合は、引き継げなかったことをお知らせします。\r\nその場合は、1.0.5をインストールしてSSPを一度起動してから、2.0.0以降を入れ直してください。\r\n\r\n1.x系は、GitHubのmainブランチに残しています。\r\n\r\n------------------------\r\n## メッセージ履歴について\r\nこのプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。\r\n各データの取り扱いは、送信元ゴーストの規約に従ってください。\r\n\r\n------------------------\r\n## ファイアウォールの表示が出た場合\r\nUGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。\r\nugm_server.exeは、受信履歴のページ（ブラウザで開くページ）を表示するためのアプリです。\r\nプラグインが動いている間だけ起動し、プラグインを無効にしたりSSPを終了したりすると、自動で終了します。\r\n（プラグインが動いていないときにページを開けてしまうと、既読を付けられないなどの問題が起きるため、このようにしています）\r\n深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。\r\n許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。\r\nugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。\r\n\r\nまた、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。\r\nugm_server.exeの起動によるもので、仕様です。\r\n\r\n------------------------\r\n## ugm_config.txt の設定\r\nプラグインフォルダにある「ugm_config.txt」を書き換えると、次の設定を変更できます。\r\n※プラグインを再起動するまで設定は反映されません。\r\nプラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。\r\n\r\n### ローカルホストのポート番号（localhost_number,数値）\r\nUGMの使用するポート番号を変更できます（デフォルト：8000）。\r\n以下の場合などにご活用ください。\r\n* UGM以外のツールを使おうとしてUGMのページが開かれてしまった\r\n* UGMのページを開こうとして関係ないツールのページが開かれてしまった\r\n\r\n### メッセージの受信条件を照合する間隔（check_interval,数値）\r\nメッセージの受信条件を照合する間隔を、秒単位で指定できます（デフォルト：1）。\r\n対応ゴーストが多く、メッセージが大量に予約されている場合に値を大きくすると、処理の負荷を軽減できます。\r\n\r\n### うまく動かないとき（server_log,ファイル名）\r\n受信履歴のページが開かない、ポート番号を変えたのに反映されない、といったときは、ugm_server.exeの動作ログで原因を確かめられます。\r\n1. 「ugm_config.txt」の「//server_log,server_log.txt」の行頭の「//」を消して、保存する\r\n2. プラグインを再起動する\r\n3. プラグインフォルダに作られる「server_log.txt」を開いて、中身を確かめる\r\n\r\nログには、次のようなことが記録されます。\r\n* 実際に使われたポート番号（無効な番号を指定したときは、8000番に戻したこと）\r\n* ほかのアプリがポートを使っているなどで、ページを表示するためのサーバーを起動できなかったこと\r\n* サーバーを終了したことと、その理由\r\n\r\n※記録されるのは、ugm_server.exe（受信履歴のページの表示）の動作だけです。メッセージの受信の動作は記録されません。\r\nログを書き出している間は、ファイルに追記され続けます。調べ終わったら、行頭に「//」を戻してプラグインを再起動すると、書き出しが止まります。「server_log.txt」は、不要になったら消してもかまいません。\r\n\r\n------------------------\r\n## 開発中のAI利用について\r\nこのプラグインは、AIコーディングエージェント（Claude）を用いて開発しました。\r\n\r\n------------------------\r\n## 更新履歴\r\n### 2.0.1（2026-10-01）\r\n* ゴースト名の差し替え対象に「%」を加え、仕様書の記載と揃えました。\r\n\r\n### 2.0.0（2026-10-01）\r\n* akariを廃止し、YAYA（600系）だけで動くようにしました。\r\n* 1.x系の受信履歴と予約を引き継げるようにしました（「1.x系（1.0.4以前）からの移行」を参照）。\r\n* 不具合を修正しました（本文に添付した画像が表示されない、「:ampm:」が常に「午前」になる、長いメッセージで吹き出しとアイコンの位置がずれる、など）。\r\n* ゴースト制作者向け：一部の条件や送信時の指定の動作を、仕様書どおりに直しました。詳しくは仕様書をご覧ください。\r\n* プラグインのライセンス（MIT）を定めました。\r\n\r\n------------------------\r\n## ライセンス\r\nこのプラグイン（UkagakaGhostMessenger）はMITライセンスです。全文はプラグインフォルダ/LICENSE を参照してください。\r\n改変したものの公開・再配布（フォークやプルリクエストを含む）も、MITライセンスの範囲で自由に行えます。\r\n\r\nただし、以下はMITライセンスの対象外です。\r\n* 同梱しているモジュール等：それぞれのライセンスに従います（下の「使用モジュール等のライセンス」を参照）。\r\n* うめちゃんのイラスト（localweb/html/res/image/icon_default.png、localweb/html/res/image/page_background.png）：ユスラさんの作品です。\r\n  * このプラグイン（改変したものを含む）に、イラストのファイルを改変せずに同梱して再配布することはできます。\r\n  * イラストのファイルそのものの改変や、このプラグインから切り離しての利用（他の作品の素材にするなど）はできません。\r\n  * イラストを外したり、別の画像に差し替えたりするのは自由です。\r\n\r\n------------------------\r\n## 使用モジュール等のライセンス\r\n* YAYA  https://github.com/YAYA-shiori/yaya-shiori\r\n  * ライセンスは以下のどちらかを参照のこと\r\n    * プラグインフォルダ/license_text/yaya.txt\r\n    * https://github.com/YAYA-shiori/yaya-shiori/blob/600/readme.txt\r\n  * AYA Ver.5 の元のライセンス: プラグインフォルダ/license_text/aya-original.txt\r\n\r\n* うかてん https://github.com/nikolat/ukaten\r\n  * 1.x系のmain.azrの処理を元に、2.x系の辞書（dict/system/yaya_plugin2.dic）を作成しています。\r\n> 上記以外のテキストファイル、辞書ファイルの類いは、\r\n> すべてpublic domainとして自由に利用できるものとします。\r\n\r\n* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle\r\n  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE\r\n\r\n* fuwaimg https://do.gt-gt.org/product/fuwaimg/\r\n  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html\r\n\r\n* Material Symbols & Icons https://fonts.google.com/icons\r\n  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html\r\n\r\n* jsstp https://github.com/ukatech/jsstp-lib\r\n  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE\r\n\r\n* go https://go.dev/\r\n  * 三条項BSDライセンス https://go.dev/LICENSE\r\n\r\n* yaya-dic https://github.com/YAYA-shiori/yaya-dic\r\n  * Public Domain (Unlicense) https://github.com/YAYA-shiori/yaya-dic/blob/master/LICENSE\r\n\r\n* 紺野ややめ https://github.com/YAYA-shiori/konnoyayame\r\n  * 同梱の開発キット（開発用スクリプト）を当方で改変し、開発に使用しています（配布物には含みません）。\r\n  * Public Domain (Unlicense) https://github.com/YAYA-shiori/konnoyayame/blob/master/LICENSE\r\n\r\n* 第弐版仮想道頓堀水泳拡張（道頓堀プラグイン） https://ms.shillest.net/yaya_as.xhtml\r\n  * NYSDL Version 0.9982 プラグインフォルダ/license_text/TOMBORI.txt\r\n\r\n### うめちゃんのイラスト\r\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\r\n* にじジャーニー https://nijijourney.com/ja/\r\n  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service\r\n",
+            "summary": "伺かベースウェア向けのメッセージアプリ風プラグイン",
+            "date_published": "2026-09-30T17:15:40Z",
+            "date_modified": "2026-09-30T17:15:51Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "UkagakaGhostMessenger.nar",
+                    "size_in_bytes": 3471449,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/LilyNovelPlayer",
             "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
             "title": "LilyNovelPlayer",
@@ -66,7 +99,7 @@
                     "title": "lnx_walk_with_unyu.nar",
                     "size_in_bytes": 1278181,
                     "_ex": {
-                        "download_count": 14
+                        "download_count": 15
                     }
                 }
             ]
@@ -165,7 +198,7 @@
                     "title": "mancala-player-amethyst.nar",
                     "size_in_bytes": 553361,
                     "_ex": {
-                        "download_count": 22
+                        "download_count": 23
                     }
                 }
             ]
@@ -198,7 +231,7 @@
                     "title": "mancala-player-amber.nar",
                     "size_in_bytes": 437091,
                     "_ex": {
-                        "download_count": 22
+                        "download_count": 23
                     }
                 }
             ]
@@ -231,7 +264,7 @@
                     "title": "mancala-board-ghost.nar",
                     "size_in_bytes": 1578002,
                     "_ex": {
-                        "download_count": 20
+                        "download_count": 21
                     }
                 }
             ]
@@ -298,39 +331,6 @@
                     "size_in_bytes": 28109,
                     "_ex": {
                         "download_count": 55
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/UkagakaGhostMessenger",
-            "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger",
-            "title": "UkagakaGhostMessenger",
-            "content_text": "# UkagakaGhostMessenger\n伺かベースウェア向けプラグインです。\nメッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n------------------------\n## 取扱説明書等\n* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け\n* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け\n* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification\n\n------------------------\n## メッセージ履歴について\nこのプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。\n各データの取り扱いは、送信元ゴーストの規約に従ってください。\n\n------------------------\n## ファイアウォールの表示が出た場合\nUGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。\nugm_server.exeはSSPと情報をやりとりできるようにするためのアプリです。\n深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。\n許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。\nugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。\n\nまた、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。\nugm_server.exeの起動によるもので、仕様です。\n\n------------------------\n## ローカルホストのポート番号の変更について\n「ugm_config.txt」の数値を書き換えることで、UGMの使用するポート番号を変更できます。\n※プラグインを再起動するまで設定は反映されません。\nプラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。\n\n以下の場合などにご活用ください。\n* UGM以外のツールを使おうとしてUGMのページが開かれてしまった\n* UGMのページを開こうとして関係ないツールのページが開かれてしまった\n\n------------------------\n## 使用モジュール等のライセンス\n* akari http://le.silk.to/akari.php\n> このプログラムを使用したいかなる不利益も作者は責任を負いません。\n> 伺かのサブシステムとして使う場合に限り、無償で無制限に使用できます。\n\n* うかてん https://github.com/nikolat/ukaten\n  * main.azrを当方による改変ののちに組み込んでいます。\n> 上記以外のテキストファイル、辞書ファイルの類いは、\n> すべてpublic domainとして自由に利用できるものとします。\n\n* YAYA as SAORI https://github.com/YAYA-shiori/yaya-as-saori\n  * Unlicense license https://github.com/YAYA-shiori/yaya-as-saori/blob/main/LICENSE\n\n* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle\n  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE\n\n* fuwaimg https://do.gt-gt.org/product/fuwaimg/\n  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html\n\n* Material Symbols & Icons https://fonts.google.com/icons\n  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html\n\n* jsstp https://github.com/ukatech/jsstp-lib\n  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE\n\n* go https://go.dev/\n  * 三条項BSDライセンス https://go.dev/LICENSE\n\n* yaya-dic https://github.com/YAYA-shiori/yaya-dic\n  * Public Domain (Unlicense) https://github.com/YAYA-shiori/yaya-dic/blob/master/LICENSE\n\n### うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n* にじジャーニー https://nijijourney.com/ja/\n  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service\n",
-            "summary": "伺かベースウェア向けのメッセージアプリ風プラグイン",
-            "date_published": "2026-05-01T20:21:16Z",
-            "date_modified": "2026-05-01T20:21:27Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-plugin"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/1.0.4/UkagakaGhostMessenger.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "UkagakaGhostMessenger.nar",
-                    "size_in_bytes": 3806026,
-                    "_ex": {
-                        "download_count": 28
                     }
                 }
             ]

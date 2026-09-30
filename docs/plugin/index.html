@@ -10,8 +10,8 @@
 <link rel="help" href="../about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
+<link rel="alternate" type="application/x-nar" title="UkagakaGhostMessenger" href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" />
 <link rel="alternate" type="application/x-nar" title="tmidi_msg" href="https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar" />
-<link rel="alternate" type="application/x-nar" title="UkagakaGhostMessenger" href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/1.0.4/UkagakaGhostMessenger.nar" />
 <link rel="alternate" type="application/octet-stream" title="stampcollection" href="https://github.com/YAYA-shiori/stampcollection/releases/download/v20260330102740-79221c6/stampcollection.nar" />
 <link rel="alternate" type="application/x-nar" title="wallet_of_unyu" href="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.2.0/wallet_of_unyu.nar" />
 <link rel="alternate" type="application/zip" title="Bouyomi" href="https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar" />
@@ -39,6 +39,173 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
+		<article id="lost-nd-xxx/UkagakaGhostMessenger" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger" rel="bookmark">UkagakaGhostMessenger</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./">plugin</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="../author/lost-nd-xxx/">lost-nd-xxx</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-09-30T17:15:40Z">2026-10-01 02:15:40</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-09-30T17:15:51Z">2026-10-01 02:15:51</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" title="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" rel="nofollow" data-filesize="3390.1" data-download_count="0">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2FUkagakaGhostMessenger%2Freleases%2Fdownload%2F2.0.1%2FUkagakaGhostMessenger.nar" title="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="UkagakaGhostMessenger">
+				<h4>readme</h4>
+<pre>
+# UkagakaGhostMessenger
+伺かベースウェア向けプラグインです。
+メッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。
+
+制作者: ろすえん(lost_nd_xxx)
+連絡先: http://lnx.flop.jp/
+
+------------------------
+## 取扱説明書等
+* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け
+* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け
+* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification
+
+------------------------
+## 1.x系（1.0.4以前）からの移行
+2.0.0から、プラグインの中身を作り直しました（akariを使わず、YAYAだけで動くようにしました）。
+1.x系の受信履歴や予約を引き継ぐには、次の順に作業してください。
+1. 1.0.5をインストールし、SSPを一度起動する（1.0.4からはネットワーク更新でも1.0.5になります）
+   1.0.5の入手先：https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/tag/1.0.5
+2. 2.0.0以降（最新版）を上書きでインストールする
+
+移行の結果は、UGMからのメッセージ（差出人「システム通知」）でお知らせします。
+1.0.5を経ずに2.0.0以降を入れた場合は、引き継げなかったことをお知らせします。
+その場合は、1.0.5をインストールしてSSPを一度起動してから、2.0.0以降を入れ直してください。
+
+1.x系は、GitHubのmainブランチに残しています。
+
+------------------------
+## メッセージ履歴について
+このプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。
+各データの取り扱いは、送信元ゴーストの規約に従ってください。
+
+------------------------
+## ファイアウォールの表示が出た場合
+UGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。
+ugm_server.exeは、受信履歴のページ（ブラウザで開くページ）を表示するためのアプリです。
+プラグインが動いている間だけ起動し、プラグインを無効にしたりSSPを終了したりすると、自動で終了します。
+（プラグインが動いていないときにページを開けてしまうと、既読を付けられないなどの問題が起きるため、このようにしています）
+深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。
+許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。
+ugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。
+
+また、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。
+ugm_server.exeの起動によるもので、仕様です。
+
+------------------------
+## ugm_config.txt の設定
+プラグインフォルダにある「ugm_config.txt」を書き換えると、次の設定を変更できます。
+※プラグインを再起動するまで設定は反映されません。
+プラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。
+
+### ローカルホストのポート番号（localhost_number,数値）
+UGMの使用するポート番号を変更できます（デフォルト：8000）。
+以下の場合などにご活用ください。
+* UGM以外のツールを使おうとしてUGMのページが開かれてしまった
+* UGMのページを開こうとして関係ないツールのページが開かれてしまった
+
+### メッセージの受信条件を照合する間隔（check_interval,数値）
+メッセージの受信条件を照合する間隔を、秒単位で指定できます（デフォルト：1）。
+対応ゴーストが多く、メッセージが大量に予約されている場合に値を大きくすると、処理の負荷を軽減できます。
+
+### うまく動かないとき（server_log,ファイル名）
+受信履歴のページが開かない、ポート番号を変えたのに反映されない、といったときは、ugm_server.exeの動作ログで原因を確かめられます。
+1. 「ugm_config.txt」の「//server_log,server_log.txt」の行頭の「//」を消して、保存する
+2. プラグインを再起動する
+3. プラグインフォルダに作られる「server_log.txt」を開いて、中身を確かめる
+
+ログには、次のようなことが記録されます。
+* 実際に使われたポート番号（無効な番号を指定したときは、8000番に戻したこと）
+* ほかのアプリがポートを使っているなどで、ページを表示するためのサーバーを起動できなかったこと
+* サーバーを終了したことと、その理由
+
+※記録されるのは、ugm_server.exe（受信履歴のページの表示）の動作だけです。メッセージの受信の動作は記録されません。
+ログを書き出している間は、ファイルに追記され続けます。調べ終わったら、行頭に「//」を戻してプラグインを再起動すると、書き出しが止まります。「server_log.txt」は、不要になったら消してもかまいません。
+
+------------------------
+## 開発中のAI利用について
+このプラグインは、AIコーディングエージェント（Claude）を用いて開発しました。
+
+------------------------
+## 更新履歴
+### 2.0.1（2026-10-01）
+* ゴースト名の差し替え対象に「%」を加え、仕様書の記載と揃えました。
+
+### 2.0.0（2026-10-01）
+* akariを廃止し、YAYA（600系）だけで動くようにしました。
+* 1.x系の受信履歴と予約を引き継げるようにしました（「1.x系（1.0.4以前）からの移行」を参照）。
+* 不具合を修正しました（本文に添付した画像が表示されない、「:ampm:」が常に「午前」になる、長いメッセージで吹き出しとアイコンの位置がずれる、など）。
+* ゴースト制作者向け：一部の条件や送信時の指定の動作を、仕様書どおりに直しました。詳しくは仕様書をご覧ください。
+* プラグインのライセンス（MIT）を定めました。
+
+------------------------
+## ライセンス
+このプラグイン（UkagakaGhostMessenger）はMITライセンスです。全文はプラグインフォルダ/LICENSE を参照してください。
+改変したものの公開・再配布（フォークやプルリクエストを含む）も、MITライセンスの範囲で自由に行えます。
+
+ただし、以下はMITライセンスの対象外です。
+* 同梱しているモジュール等：それぞれのライセンスに従います（下の「使用モジュール等のライセンス」を参照）。
+* うめちゃんのイラスト（localweb/html/res/image/icon_default.png、localweb/html/res/image/page_background.png）：ユスラさんの作品です。
+  * このプラグイン（改変したものを含む）に、イラストのファイルを改変せずに同梱して再配布することはできます。
+  * イラストのファイルそのものの改変や、このプラグインから切り離しての利用（他の作品の素材にするなど）はできません。
+  * イラストを外したり、別の画像に差し替えたりするのは自由です。
+
+------------------------
+## 使用モジュール等のライセンス
+* YAYA  https://github.com/YAYA-shiori/yaya-shiori
+  * ライセンスは以下のどちらかを参照のこと
+    * プラグインフォルダ/license_text/yaya.txt
+    * https://github.com/YAYA-shiori/yaya-shiori/blob/600/readme.txt
+  * AYA Ver.5 の元のライセンス: プラグインフォルダ/license_text/aya-original.txt
+
+* うかてん https://github.com/nikolat/ukaten
+  * 1.x系のmain.azrの処理を元に、2.x系の辞書（dict/system/yaya_plugin2.dic）を作成しています。
+&gt; 上記以外のテキストファイル、辞書ファイルの類いは、
+&gt; すべてpublic domainとして自由に利用できるものとします。
+
+* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle
+  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE
+
+* fuwaimg https://do.gt-gt.org/product/fuwaimg/
+  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html
+
+* Material Symbols &amp; Icons https://fonts.google.com/icons
+  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
+
+* jsstp https://github.com/ukatech/jsstp-lib
+  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE
+
+* go https://go.dev/
+  * 三条項BSDライセンス https://go.dev/LICENSE
+
+* yaya-dic https://github.com/YAYA-shiori/yaya-dic
+  * Public Domain (Unlicense) https://github.com/YAYA-shiori/yaya-dic/blob/master/LICENSE
+
+* 紺野ややめ https://github.com/YAYA-shiori/konnoyayame
+  * 同梱の開発キット（開発用スクリプト）を当方で改変し、開発に使用しています（配布物には含みません）。
+  * Public Domain (Unlicense) https://github.com/YAYA-shiori/konnoyayame/blob/master/LICENSE
+
+* 第弐版仮想道頓堀水泳拡張（道頓堀プラグイン） https://ms.shillest.net/yaya_as.xhtml
+  * NYSDL Version 0.9982 プラグインフォルダ/license_text/TOMBORI.txt
+
+### うめちゃんのイラスト
+ユスラさんがにじジャーニーで生成されたものを加工して使っています。
+* にじジャーニー https://nijijourney.com/ja/
+  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service
+</pre>
+			</aside>
+		</article>
 		<article id="JiayuYangX/tmidi_msg" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/JiayuYangX/tmidi_msg" rel="bookmark">tmidi_msg</a></h3>
@@ -157,103 +324,6 @@ cl /LD /O2 /MT /Fe:tmidi_msg.dll tmidi_msg.cpp user32.lib shell32.lib
 ## 许可证
 
 原始 TMIDI Player 许可证详见 `readme.txt`。插件代码可自由使用和修改。
-</pre>
-			</aside>
-		</article>
-		<article id="lost-nd-xxx/UkagakaGhostMessenger" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger" rel="bookmark">UkagakaGhostMessenger</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./">plugin</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="../author/lost-nd-xxx/">lost-nd-xxx</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-05-01T20:21:16Z">2026-05-02 05:21:16</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-05-01T20:21:27Z">2026-05-02 05:21:27</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/1.0.4/UkagakaGhostMessenger.nar" title="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/1.0.4/UkagakaGhostMessenger.nar" rel="nofollow" data-filesize="3716.8" data-download_count="28">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2FUkagakaGhostMessenger%2Freleases%2Fdownload%2F1.0.4%2FUkagakaGhostMessenger.nar" title="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/1.0.4/UkagakaGhostMessenger.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="UkagakaGhostMessenger">
-				<h4>readme</h4>
-<pre>
-# UkagakaGhostMessenger
-伺かベースウェア向けプラグインです。
-メッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。
-
-制作者: ろすえん(lost_nd_xxx)
-連絡先: http://lnx.flop.jp/
-
-------------------------
-## 取扱説明書等
-* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け
-* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け
-* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification
-
-------------------------
-## メッセージ履歴について
-このプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。
-各データの取り扱いは、送信元ゴーストの規約に従ってください。
-
-------------------------
-## ファイアウォールの表示が出た場合
-UGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。
-ugm_server.exeはSSPと情報をやりとりできるようにするためのアプリです。
-深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。
-許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。
-ugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。
-
-また、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。
-ugm_server.exeの起動によるもので、仕様です。
-
-------------------------
-## ローカルホストのポート番号の変更について
-「ugm_config.txt」の数値を書き換えることで、UGMの使用するポート番号を変更できます。
-※プラグインを再起動するまで設定は反映されません。
-プラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。
-
-以下の場合などにご活用ください。
-* UGM以外のツールを使おうとしてUGMのページが開かれてしまった
-* UGMのページを開こうとして関係ないツールのページが開かれてしまった
-
-------------------------
-## 使用モジュール等のライセンス
-* akari http://le.silk.to/akari.php
-&gt; このプログラムを使用したいかなる不利益も作者は責任を負いません。
-&gt; 伺かのサブシステムとして使う場合に限り、無償で無制限に使用できます。
-
-* うかてん https://github.com/nikolat/ukaten
-  * main.azrを当方による改変ののちに組み込んでいます。
-&gt; 上記以外のテキストファイル、辞書ファイルの類いは、
-&gt; すべてpublic domainとして自由に利用できるものとします。
-
-* YAYA as SAORI https://github.com/YAYA-shiori/yaya-as-saori
-  * Unlicense license https://github.com/YAYA-shiori/yaya-as-saori/blob/main/LICENSE
-
-* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle
-  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE
-
-* fuwaimg https://do.gt-gt.org/product/fuwaimg/
-  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html
-
-* Material Symbols &amp; Icons https://fonts.google.com/icons
-  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html
-
-* jsstp https://github.com/ukatech/jsstp-lib
-  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE
-
-* go https://go.dev/
-  * 三条項BSDライセンス https://go.dev/LICENSE
-
-* yaya-dic https://github.com/YAYA-shiori/yaya-dic
-  * Public Domain (Unlicense) https://github.com/YAYA-shiori/yaya-dic/blob/master/LICENSE
-
-### うめちゃんのイラスト
-ユスラさんがにじジャーニーで生成されたものを加工して使っています。
-* にじジャーニー https://nijijourney.com/ja/
-  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service
 </pre>
 			</aside>
 		</article>

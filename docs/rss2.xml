@@ -6,6 +6,15 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>UkagakaGhostMessenger</title>
+    <link>https://github.com/lost-nd-xxx/UkagakaGhostMessenger</link>
+    <description>伺かベースウェア向けのメッセージアプリ風プラグイン</description>
+    <category>plugin</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/UkagakaGhostMessenger</guid>
+    <pubDate>Thu, 01 Oct 2026 02:15:51 +0900</pubDate>
+</item>
+<item>
     <title>claudia</title>
     <link>https://github.com/ponapalt/claudia</link>
     <description></description>
@@ -175,15 +184,6 @@
     <dc:creator>lost-nd-xxx</dc:creator>
     <guid isPermaLink="false">lost-nd-xxx/something_like_balloon</guid>
     <pubDate>Sun, 01 Jun 2025 13:15:37 +0900</pubDate>
-</item>
-<item>
-    <title>UkagakaGhostMessenger</title>
-    <link>https://github.com/lost-nd-xxx/UkagakaGhostMessenger</link>
-    <description>伺かベースウェア向けのメッセージアプリ風プラグイン</description>
-    <category>plugin</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/UkagakaGhostMessenger</guid>
-    <pubDate>Sat, 02 May 2026 05:21:27 +0900</pubDate>
 </item>
 <item>
     <title>UGMNavigator_Umechan</title>
@@ -733,6 +733,15 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/jb-standard-balloon</guid>
     <pubDate>Wed, 27 Apr 2022 18:51:42 +0900</pubDate>
+</item>
+<item>
+    <title>jb-standard</title>
+    <link>https://github.com/nikolat/jb-standard</link>
+    <description>ゴースト「雀々BARIBARI」用追加シェル</description>
+    <category>shell</category>
+    <dc:creator>nikolat</dc:creator>
+    <guid isPermaLink="false">nikolat/jb-standard</guid>
+    <pubDate>Sat, 14 May 2022 20:15:54 +0900</pubDate>
 </item>
 <item>
     <title>CharameLNetwork</title>
