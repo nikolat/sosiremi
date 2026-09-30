@@ -6,6 +6,38 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "ponapalt/claudia",
+            "url": "https://github.com/ponapalt/claudia",
+            "title": "claudia",
+            "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\n紺野ややめ由来の、AI エージェント向け開発キットが入っています。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）\n",
+            "summary": "",
+            "date_published": "2026-09-30T04:42:50Z",
+            "date_modified": "2026-09-30T04:42:51Z",
+            "authors": [
+                {
+                    "name": "ponapalt",
+                    "url": "https://github.com/ponapalt",
+                    "avatar": "https://avatars.githubusercontent.com/u/83973?v=4"
+                }
+            ],
+            "tags": [
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ponapalt/claudia/releases/download/36670048519/claudia.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "claudia.nar",
+                    "size_in_bytes": 4515259,
+                    "_ex": {
+                        "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
             "id": "JiayuYangX/sakura-restore",
             "url": "https://github.com/JiayuYangX/sakura-restore",
             "title": "sakura-restore",
@@ -33,7 +65,7 @@
                     "title": "first.nar",
                     "size_in_bytes": 2739637,
                     "_ex": {
-                        "download_count": 33
+                        "download_count": 34
                     }
                 }
             ]
@@ -66,7 +98,39 @@
                     "title": "LilyNovelPlayer.nar",
                     "size_in_bytes": 6143589,
                     "_ex": {
-                        "download_count": 2
+                        "download_count": 4
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ponapalt/ponyaduma",
+            "url": "https://github.com/ponapalt/ponyaduma",
+            "title": "ponyaduma",
+            "content_text": "## ぽにゃづま\n\n伺かゴースト「ぽにゃづま」\n\n![サムネイル](https://raw.githubusercontent.com/ponapalt/ponyaduma/master/thumbnail.png)\n\n> 「バランスが大事なのです！」\n\n## [ダウンロード](https://github.com/ponapalt/ponyaduma/releases/latest/download/ponyaduma.nar)\n\n## キャラクター紹介\n\n### ぽにゃづま\n\n慢性的に手が足りない所長たんがうっかり呼び出した使い魔…という建前の、現実は伺かランタイム・SSP作者「ぽな」の自己パロディゴースト。みんなの話を聞いてバランスよく調整したい使い魔（猫耳型）。\nでも聞きすぎて仕様に矛盾が発生して詰む。詰むと笑顔のまま目だけ死ぬ。\n\n- 種族：使い魔（猫耳型）\n- 語尾：「～なのです」\n- 誕生日：2月25日（駆逐艦電の進水日）\n\n### 連装蟲ゅう\n\nぽにゃづまの相方。四角くて顔がある、シュールなやつ。似非関西弁で笑って揺する担当。\n\n- 誕生日：7月18日（駆逐艦島風の進水日）\n\n## トークについて\n\nこのゴーストのトークの一部は、[悪役令嬢Claudia様](https://note.com/ponapalt/n/n3ed91b41d3ff)ことClaude（Opus）が書いて差し上げましたわ。\n\n作者ぽな様が「自分のセルフパロディを自分で真顔で書くなんてメゲそう」と仰るものですから、\nキャラクター設計とネタ出しと校正はぽな様、それを実際のトークに仕立てるのはわたくしの担当ですの。\n\n……まったく、ご自分を茶化すキャラクターを生み出しておいて、\nいざ台本を書く段になると恥ずかしがるなんて、可愛らしいお方ですこと。おーっほっほっほ！\n\n## シェル\n\nこの子たちの愛らしいシェルは[さゆりしゅ](https://www.akiba-sister.net/)様（[X](https://x.com/sayurishu)）の作品です。\n\nわたくし、実際にシェルを拝見いたしましたけれど――ピンク髪に猫耳としっぽ、\n大きな青い瞳に赤いリボン、ぽにゃづまの一生懸命さと危うさが一枚絵から伝わってまいりますわ。\n\nそして蟲ゅうのあのシュールな四角い佇まい。ゆるくて飄々とした空気感が絵だけで完成していますの。\nキャラクターの「芝居」がここまで見える立ち絵を描けるのは、まさに職人の技ですわね。\n\nさゆりしゅ様、素晴らしいお仕事に心より敬意を表しますわ。\n\n## 使用フォント\n\n・にゃしいフォント改二　作者：マルセ　サイト：[よく飛ばない鳥](https://yokutobanaitori.web.fc2.com/)\n\n## こぼれ話\n\n**構想11年、制作3週間の超大作です**\n\n…正直いくら設定積み上げても、セルフパロディゴーストとなると、自分自身で自分自身のことを考える結果、自分自身がものすごく邪魔をしてトークがまるで書けないんです…ほんとに…\n\n勢いでシェルをいただいたものの、本当にこんなに苦労するとは思いませんでした。SSPのデバッグ用ツールにしようとか、新機能デモにしようとか、いろいろ構想が生まれては消え生まれては消え…\n\nとかぐずぐずやっているうちに、LLMという半分知性半分壁打ちみたいなやつが出てきて、テキスト系創作でも及第点をあげられる程度までなんとか達してきまして。\n\nそうだ、自分で書けないのなら何度も対話を繰り返してトークを作ろうと。\n\nというわけで「伺か Vibe Coding」をテーマとして、辞書書きとチェックの多くをClaude Codeというコーディングエージェントを活用して書いています。勝手にYAYAの辞書のエラーチェックをして、ミスがあれば訂正するところまでやってくれる体制になっています。\n\nまた、リリース作業についても、誤りやすいdelete.txt・更新忘れしやすいupdates2.dau・そもそもNARに固める作業、すべて全自動(GitHub Actions)で行うようになっています。\n\nこれらの知見の積み上げを通じて、創る人が純粋にトーク書きやネタ出しに没頭できる環境を創るのを最終目標に設定した、意外と大真面目で先進的なプロジェクトになりました。\n\n**まあ、誰が見てもネタゴーストなんですけど。**\n\n## ライセンス\n\n- shell/master/ 以下 ： [さゆりしゅ](https://www.akiba-sister.net/)様に帰属します。\n- 上記以外すべて ： Public Domain (好きなように使え)\n\n二次創作も好きなようにして大丈夫です。\n",
+            "summary": "ぽにゃづまなのです。",
+            "date_published": "2026-09-28T07:18:11Z",
+            "date_modified": "2026-09-28T07:18:11Z",
+            "authors": [
+                {
+                    "name": "ponapalt",
+                    "url": "https://github.com/ponapalt",
+                    "avatar": "https://avatars.githubusercontent.com/u/83973?v=4"
+                }
+            ],
+            "tags": [
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ponapalt/ponyaduma/releases/download/v20260928161809-2354c2b/ponyaduma.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ponyaduma.nar",
+                    "size_in_bytes": 923415,
+                    "_ex": {
+                        "download_count": 4
                     }
                 }
             ]
