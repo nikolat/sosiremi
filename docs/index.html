@@ -10,11 +10,11 @@
 <link rel="help" href="./about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
-<link rel="alternate" type="application/octet-stream" title="ayalilith" href="https://github.com/YAYA-shiori/ayalilith/releases/download/36790944532/ayalilith.nar" />
+<link rel="alternate" type="application/x-nar" title="sakura-restore" href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" />
+<link rel="alternate" type="application/octet-stream" title="ayalilith" href="https://github.com/YAYA-shiori/ayalilith/releases/download/36828839320/ayalilith.nar" />
+<link rel="alternate" type="application/octet-stream" title="claudia" href="https://github.com/ponapalt/claudia/releases/download/36828840189/claudia.nar" />
 <link rel="alternate" type="application/x-nar" title="UGMNavigator_Umechan" href="https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.4/UGMNavigator_Umechan.nar" />
 <link rel="alternate" type="application/x-nar" title="UkagakaGhostMessenger" href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" />
-<link rel="alternate" type="application/octet-stream" title="claudia" href="https://github.com/ponapalt/claudia/releases/download/36670048519/claudia.nar" />
-<link rel="alternate" type="application/x-nar" title="sakura-restore" href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" />
 <link rel="alternate" type="application/x-nar" title="LilyNovelPlayer" href="https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.3/LilyNovelPlayer.nar" />
 <link rel="alternate" type="application/octet-stream" title="ponyaduma" href="https://github.com/ponapalt/ponyaduma/releases/download/v20260928161809-2354c2b/ponyaduma.nar" />
 <link rel="alternate" type="application/octet-stream" title="taidanaSanoSan" href="https://github.com/tukinami/taidanaSanoSan/releases/download/v1.22.0/taidanaSanoSan.nar" />
@@ -110,6 +110,86 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
+		<article id="JiayuYangX/sakura-restore" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/JiayuYangX/sakura-restore" rel="bookmark">sakura-restore</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./ghost/">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="./author/JiayuYangX/">JiayuYangX</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-09-03T09:00:23Z">2026-09-03 18:00:23</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-09-03T09:00:33Z">2026-09-03 18:00:33</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" rel="nofollow" data-filesize="2675.4" data-download_count="34">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FJiayuYangX%2Fsakura-restore%2Freleases%2Fdownload%2F260902%2Ffirst.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="sakura-restore">
+				<h4>readme</h4>
+<pre>
+# さくら（御影樱）人格汉化
+
+本仓库为伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）的汉化工程。文本内容翻译由大模型辅助完成。
+
+![示意图](pic.png)
+
+人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；
+外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。
+
+## 安装方法
+
+从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。
+
+## 必要环境
+
+- [SSP](https://ssp.shillest.net/)
+- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）
+
+## 汉化项目描述
+
+文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。
+原配布链接：&lt;http://usada.sakura.vg/&gt;
+
+### 汉化
+
+该人格的所有文本都被硬编码进 SHIORI（`first.dll`）中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 CODE 段，内置图形界面文本位于 rsrc 段。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。
+
+然而仍有如环境变量等少数文本以自定义压缩格式存储在 rsrc 段的 AITXT 中。由于无法获取其压缩/解压算法，本项目采用翻译器接口（`makoto.dll`，遵循 MAKOTO/2.0 协议）在 SHIORI 返回该部分文本后对其 SJIS 字节进行匹配替换。
+
+### 图片修复
+
+外壳和对话框现均改为使用图片自身透明通道。外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。
+
+### 兼容性修复
+
+人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS（932 代码页）字符集变为 GBK（936 代码页），可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。
+
+外壳和对话框在现代高 DPI 显示器上建议使用与系统相同的缩放比例；时钟和提示框未经过 SSP 缩放，可能显得过小。
+
+人格编写的时代旧 SHIORI 规范未完全实现 NOTIFY 方法，除部分特殊事件外仍基本使用 GET，`first.dll` 接到 NOTIFY 请求后会直接响应 `400 Bad Request`；现代 SHIORI 规范及 SSP 基础软件在 `caltalk=0` 时 `OnSecondChange` 事件严格使用 NOTIFY 进行通信，`first.dll` 拒绝响应导致状态机卡住，无法自动退出小睡（`mode2`）和入浴（`mode3`）状态，能量值累加也会停摆。
+
+故通过两步 DLL 修补解决相关问题：（1）禁用 `0x719E` 处 NOTIFY 的跳转使请求正常处理；（2）`0x79E08` 处 `\![enter,inductionmode]` 字段长度设为 0 取消进入诱导模式。
+
+
+## 翻译流程
+
+1. 运行 `extract2csv.py` 和 `extract_aitxt.py` 提取日文原文
+2. 运行 `replace_chars.py` 预处理不可编码字符 
+3. 人工翻译 CSV 中的文本
+4. 运行 `patch_dll.py` 打静态补丁
+5. 运行 `build.bat` 生成带替换表的 `makoto.dll`
+6. 部署后测试
+
+## 环境及工具
+
+- MSYS2 + `mingw-w64-i686-gcc`（32 位 MinGW）
+- Python 3.x
+- Real-ESRGAN-nccn-vulkan
+- ImageMagick</pre>
+			</aside>
+		</article>
 		<article id="YAYA-shiori/ayalilith" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/YAYA-shiori/ayalilith" rel="bookmark">ayalilith</a></h3>
@@ -119,12 +199,12 @@
 					<dt class="author">作者名</dt>
 					<dd class="author"><a href="./author/YAYA-shiori/">YAYA-shiori</a></dd>
 					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-09-30T23:24:58Z">2026-10-01 08:24:58</time></dd>
+					<dd class="created"><time datetime="2026-10-01T07:11:04Z">2026-10-01 16:11:04</time></dd>
 					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-09-30T23:24:58Z">2026-10-01 08:24:58</time></dd>
+					<dd class="updated"><time datetime="2026-10-01T07:11:05Z">2026-10-01 16:11:05</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/YAYA-shiori/ayalilith/releases/download/36790944532/ayalilith.nar" title="https://github.com/YAYA-shiori/ayalilith/releases/download/36790944532/ayalilith.nar" rel="nofollow" data-filesize="1218.3" data-download_count="1">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FYAYA-shiori%2Fayalilith%2Freleases%2Fdownload%2F36790944532%2Fayalilith.nar" title="https://github.com/YAYA-shiori/ayalilith/releases/download/36790944532/ayalilith.nar" rel="nofollow">install</a></p>
+				<p class="download"><a href="https://github.com/YAYA-shiori/ayalilith/releases/download/36828839320/ayalilith.nar" title="https://github.com/YAYA-shiori/ayalilith/releases/download/36828839320/ayalilith.nar" rel="nofollow" data-filesize="1221.6" data-download_count="0">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FYAYA-shiori%2Fayalilith%2Freleases%2Fdownload%2F36828839320%2Fayalilith.nar" title="https://github.com/YAYA-shiori/ayalilith/releases/download/36828839320/ayalilith.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="ayalilith">
 				<h4>readme</h4>
@@ -141,6 +221,55 @@ original author : C.Ponapalt
 changed by : Couperin, Minaduki-ran
 
 Free shell &#34;silencer girl (made by mkbt)&#34; is used by this ghost. 
+</pre>
+			</aside>
+		</article>
+		<article id="ponapalt/claudia" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/ponapalt/claudia" rel="bookmark">claudia</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./ghost/">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="./author/ponapalt/">ponapalt</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-10-01T07:11:02Z">2026-10-01 16:11:02</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-10-01T07:11:03Z">2026-10-01 16:11:03</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/ponapalt/claudia/releases/download/36828840189/claudia.nar" title="https://github.com/ponapalt/claudia/releases/download/36828840189/claudia.nar" rel="nofollow" data-filesize="4412.7" data-download_count="3">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fponapalt%2Fclaudia%2Freleases%2Fdownload%2F36828840189%2Fclaudia.nar" title="https://github.com/ponapalt/claudia/releases/download/36828840189/claudia.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="claudia">
+				<h4>readme</h4>
+<pre>
+# 悪役令嬢クローディア
+
+![悪役令嬢クローディア](thumbnail.png)
+
+伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。
+
+登場人物、できること、制作後記は、紹介ページにまとめてあります。
+
+**紹介ページ: https://ponadocs.shillest.net/claudia/**
+
+## ダウンロード
+
+右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。
+このリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。
+
+## ライセンス
+
+辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。
+
+## 開発
+
+紺野ややめ由来の、AI エージェント向け開発キットが入っています。
+
+- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）
+- [AGENTS.md](AGENTS.md): エージェント向けの指示書
+- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方
+- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）
 </pre>
 			</aside>
 		</article>
@@ -222,7 +351,7 @@ https://docs.midjourney.com/docs/terms-of-service
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-09-30T17:15:51Z">2026-10-01 02:15:51</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" title="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" rel="nofollow" data-filesize="3390.1" data-download_count="2">download</a></p>
+				<p class="download"><a href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" title="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" rel="nofollow" data-filesize="3390.1" data-download_count="8">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2FUkagakaGhostMessenger%2Freleases%2Fdownload%2F2.0.1%2FUkagakaGhostMessenger.nar" title="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="UkagakaGhostMessenger">
@@ -376,135 +505,6 @@ UGMの使用するポート番号を変更できます（デフォルト：8000�
 </pre>
 			</aside>
 		</article>
-		<article id="ponapalt/claudia" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/ponapalt/claudia" rel="bookmark">claudia</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./ghost/">ghost</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="./author/ponapalt/">ponapalt</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-09-30T04:42:50Z">2026-09-30 13:42:50</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-09-30T04:42:51Z">2026-09-30 13:42:51</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/ponapalt/claudia/releases/download/36670048519/claudia.nar" title="https://github.com/ponapalt/claudia/releases/download/36670048519/claudia.nar" rel="nofollow" data-filesize="4409.4" data-download_count="3">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fponapalt%2Fclaudia%2Freleases%2Fdownload%2F36670048519%2Fclaudia.nar" title="https://github.com/ponapalt/claudia/releases/download/36670048519/claudia.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="claudia">
-				<h4>readme</h4>
-<pre>
-# 悪役令嬢クローディア
-
-![悪役令嬢クローディア](thumbnail.png)
-
-伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。
-
-登場人物、できること、制作後記は、紹介ページにまとめてあります。
-
-**紹介ページ: https://ponadocs.shillest.net/claudia/**
-
-## ダウンロード
-
-右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。
-このリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。
-
-## ライセンス
-
-辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。
-
-## 開発
-
-紺野ややめ由来の、AI エージェント向け開発キットが入っています。
-
-- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）
-- [AGENTS.md](AGENTS.md): エージェント向けの指示書
-- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方
-- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）
-</pre>
-			</aside>
-		</article>
-		<article id="JiayuYangX/sakura-restore" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/JiayuYangX/sakura-restore" rel="bookmark">sakura-restore</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./ghost/">ghost</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="./author/JiayuYangX/">JiayuYangX</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-09-03T09:00:23Z">2026-09-03 18:00:23</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-09-03T09:00:33Z">2026-09-03 18:00:33</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" rel="nofollow" data-filesize="2675.4" data-download_count="34">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FJiayuYangX%2Fsakura-restore%2Freleases%2Fdownload%2F260902%2Ffirst.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="sakura-restore">
-				<h4>readme</h4>
-<pre>
-# さくら（御影樱）人格汉化
-
-本仓库为伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）的汉化工程。文本内容翻译由大模型辅助完成。
-
-![示意图](pic.png)
-
-人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；
-外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。
-
-## 安装方法
-
-从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。
-
-## 必要环境
-
-- [SSP](https://ssp.shillest.net/)
-- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）
-
-## 汉化项目描述
-
-文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。
-原配布链接：&lt;http://usada.sakura.vg/&gt;
-
-### 汉化
-
-该人格的所有文本都被硬编码进 SHIORI（`first.dll`）中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 CODE 段，内置图形界面文本位于 rsrc 段。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。
-
-然而仍有如环境变量等少数文本以自定义压缩格式存储在 rsrc 段的 AITXT 中。由于无法获取其压缩/解压算法，本项目采用翻译器接口（`makoto.dll`，遵循 MAKOTO/2.0 协议）在 SHIORI 返回该部分文本后对其 SJIS 字节进行匹配替换。
-
-### 图片修复
-
-外壳和对话框现均改为使用图片自身透明通道。外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。
-
-### 兼容性修复
-
-人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS（932 代码页）字符集变为 GBK（936 代码页），可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。
-
-外壳和对话框在现代高 DPI 显示器上建议使用与系统相同的缩放比例；时钟和提示框未经过 SSP 缩放，可能显得过小。
-
-人格编写的时代旧 SHIORI 规范未完全实现 NOTIFY 方法，除部分特殊事件外仍基本使用 GET，`first.dll` 接到 NOTIFY 请求后会直接响应 `400 Bad Request`；现代 SHIORI 规范及 SSP 基础软件在 `caltalk=0` 时 `OnSecondChange` 事件严格使用 NOTIFY 进行通信，`first.dll` 拒绝响应导致状态机卡住，无法自动退出小睡（`mode2`）和入浴（`mode3`）状态，能量值累加也会停摆。
-
-故通过两步 DLL 修补解决相关问题：（1）禁用 `0x719E` 处 NOTIFY 的跳转使请求正常处理；（2）`0x79E08` 处 `\![enter,inductionmode]` 字段长度设为 0 取消进入诱导模式。
-
-
-## 翻译流程
-
-1. 运行 `extract2csv.py` 和 `extract_aitxt.py` 提取日文原文
-2. 运行 `replace_chars.py` 预处理不可编码字符 
-3. 人工翻译 CSV 中的文本
-4. 运行 `patch_dll.py` 打静态补丁
-5. 运行 `build.bat` 生成带替换表的 `makoto.dll`
-6. 部署后测试
-
-## 环境及工具
-
-- MSYS2 + `mingw-w64-i686-gcc`（32 位 MinGW）
-- Python 3.x
-- Real-ESRGAN-nccn-vulkan
-- ImageMagick</pre>
-			</aside>
-		</article>
 		<article id="lost-nd-xxx/LilyNovelPlayer" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/lost-nd-xxx/LilyNovelPlayer" rel="bookmark">LilyNovelPlayer</a></h3>
@@ -518,7 +518,7 @@ UGMの使用するポート番号を変更できます（デフォルト：8000�
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-09-29T13:43:05Z">2026-09-29 22:43:05</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.3/LilyNovelPlayer.nar" title="https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.3/LilyNovelPlayer.nar" rel="nofollow" data-filesize="5999.6" data-download_count="4">download</a></p>
+				<p class="download"><a href="https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.3/LilyNovelPlayer.nar" title="https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.3/LilyNovelPlayer.nar" rel="nofollow" data-filesize="5999.6" data-download_count="5">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2FLilyNovelPlayer%2Freleases%2Fdownload%2Fv1.0.3%2FLilyNovelPlayer.nar" title="https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.3/LilyNovelPlayer.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="LilyNovelPlayer">
@@ -977,7 +977,7 @@ https://github.com/tukinami/taidanaSanoSan
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-09-19T09:20:49Z">2026-09-19 18:20:49</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.0/lnx_walk_with_unyu.nar" title="https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.0/lnx_walk_with_unyu.nar" rel="nofollow" data-filesize="1248.2" data-download_count="15">download</a></p>
+				<p class="download"><a href="https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.0/lnx_walk_with_unyu.nar" title="https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.0/lnx_walk_with_unyu.nar" rel="nofollow" data-filesize="1248.2" data-download_count="16">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2Fwalk_with_unyu%2Freleases%2Fdownload%2Fv1.0.0%2Flnx_walk_with_unyu.nar" title="https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.0/lnx_walk_with_unyu.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="walk_with_unyu">
@@ -2600,7 +2600,7 @@ Claude Code（Anthropic）を占いの文言・機能およびトークの作成
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-03-17T12:26:37Z">2026-03-17 21:26:37</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/lost-nd-xxx/perpetual_whisper/releases/download/1.0.0/perpetual_whisper.nar" title="https://github.com/lost-nd-xxx/perpetual_whisper/releases/download/1.0.0/perpetual_whisper.nar" rel="nofollow" data-filesize="530.2" data-download_count="6">download</a></p>
+				<p class="download"><a href="https://github.com/lost-nd-xxx/perpetual_whisper/releases/download/1.0.0/perpetual_whisper.nar" title="https://github.com/lost-nd-xxx/perpetual_whisper/releases/download/1.0.0/perpetual_whisper.nar" rel="nofollow" data-filesize="530.2" data-download_count="7">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2Fperpetual_whisper%2Freleases%2Fdownload%2F1.0.0%2Fperpetual_whisper.nar" title="https://github.com/lost-nd-xxx/perpetual_whisper/releases/download/1.0.0/perpetual_whisper.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="perpetual_whisper">
@@ -2825,7 +2825,7 @@ This is a ghost that simultaneously interprets the talk of the ghost beside it.
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-01-15T15:56:00Z">2026-01-16 00:56:00</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/lost-nd-xxx/countdown_to_the_end/releases/download/1.0.0/countdown_to_the_end.nar" title="https://github.com/lost-nd-xxx/countdown_to_the_end/releases/download/1.0.0/countdown_to_the_end.nar" rel="nofollow" data-filesize="339.6" data-download_count="10">download</a></p>
+				<p class="download"><a href="https://github.com/lost-nd-xxx/countdown_to_the_end/releases/download/1.0.0/countdown_to_the_end.nar" title="https://github.com/lost-nd-xxx/countdown_to_the_end/releases/download/1.0.0/countdown_to_the_end.nar" rel="nofollow" data-filesize="339.6" data-download_count="11">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2Fcountdown_to_the_end%2Freleases%2Fdownload%2F1.0.0%2Fcountdown_to_the_end.nar" title="https://github.com/lost-nd-xxx/countdown_to_the_end/releases/download/1.0.0/countdown_to_the_end.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="countdown_to_the_end">
@@ -3020,7 +3020,7 @@ A、だって辰歳ちゃし…さすがに恥ずいのちゃ。</pre>
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2022-10-24T13:43:21Z">2022-10-24 22:43:21</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" title="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" rel="nofollow" data-filesize="1061.1" data-download_count="175">download</a></p>
+				<p class="download"><a href="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" title="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" rel="nofollow" data-filesize="1061.1" data-download_count="176">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fapxxxxxxe%2FYouto%2Freleases%2Fdownload%2Fv1.0.5%2Fomoideno.nar" title="https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="Youto">
@@ -5522,7 +5522,7 @@ https://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2024-05-25T21:33:57Z">2024-05-26 06:33:57</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/v1.0.0/lostndxxx_prototype.nar" title="https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/v1.0.0/lostndxxx_prototype.nar" rel="nofollow" data-filesize="509.8" data-download_count="53">download</a></p>
+				<p class="download"><a href="https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/v1.0.0/lostndxxx_prototype.nar" title="https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/v1.0.0/lostndxxx_prototype.nar" rel="nofollow" data-filesize="509.8" data-download_count="54">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Flost-nd-xxx%2FLilyNovelPlayer_Prototype_Scenarios%2Freleases%2Fdownload%2Fv1.0.0%2Flostndxxx_prototype.nar" title="https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/v1.0.0/lostndxxx_prototype.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="LilyNovelPlayer_Prototype_Scenarios">
