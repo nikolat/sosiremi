@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>ukatech | 偽SoSiReMi</title>
+<link>https://nikolat.github.io/sosiremi/author/ukatech/</link>
+<description>GitHubで公開されているNARファイルを一覧表示する</description>
+<atom:link href="https://nikolat.github.io/sosiremi/author/ukatech/rss2.xml" rel="self" type="application/rss+xml" />
+<item>
+    <title>POST_and_KOMAINU</title>
+    <link>https://github.com/ukatech/POST_and_KOMAINU</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>ukatech</dc:creator>
+    <guid isPermaLink="false">ukatech/POST_and_KOMAINU</guid>
+    <pubDate>Fri, 02 Oct 2026 13:01:03 +0900</pubDate>
+</item>
+</channel>
+</rss>
