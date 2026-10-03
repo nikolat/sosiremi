@@ -6,39 +6,6 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "ponapalt/claudia",
-            "url": "https://github.com/ponapalt/claudia",
-            "title": "claudia",
-            "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\n紺野ややめ由来の、AI エージェント向け開発キットが入っています。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）\n",
-            "summary": "",
-            "date_published": "2026-10-03T12:58:12Z",
-            "date_modified": "2026-10-03T12:58:12Z",
-            "authors": [
-                {
-                    "name": "ponapalt",
-                    "url": "https://github.com/ponapalt",
-                    "avatar": "https://avatars.githubusercontent.com/u/83973?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/ponapalt/claudia/releases/download/37124583149/claudia.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "claudia.nar",
-                    "size_in_bytes": 4902111,
-                    "_ex": {
-                        "download_count": 0
-                    }
-                }
-            ]
-        },
-        {
             "id": "JiayuYangX/sakura-restore",
             "url": "https://github.com/JiayuYangX/sakura-restore",
             "title": "sakura-restore",
@@ -72,6 +39,39 @@
             ]
         },
         {
+            "id": "ponapalt/claudia",
+            "url": "https://github.com/ponapalt/claudia",
+            "title": "claudia",
+            "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\n紺野ややめ由来の、AI エージェント向け開発キットが入っています。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）\n",
+            "summary": "",
+            "date_published": "2026-10-03T12:58:12Z",
+            "date_modified": "2026-10-03T12:58:12Z",
+            "authors": [
+                {
+                    "name": "ponapalt",
+                    "url": "https://github.com/ponapalt",
+                    "avatar": "https://avatars.githubusercontent.com/u/83973?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ponapalt/claudia/releases/download/37124583149/claudia.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "claudia.nar",
+                    "size_in_bytes": 4902111,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/LilyNovelPlayer",
             "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
             "title": "LilyNovelPlayer",
@@ -99,7 +99,7 @@
                     "title": "LilyNovelPlayer.nar",
                     "size_in_bytes": 6189199,
                     "_ex": {
-                        "download_count": 3
+                        "download_count": 5
                     }
                 }
             ]
@@ -2006,7 +2006,7 @@
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099837,
                     "_ex": {
-                        "download_count": 31
+                        "download_count": 33
                     }
                 }
             ]
@@ -2103,7 +2103,7 @@
                     "title": "Bouyomi.nar",
                     "size_in_bytes": 2959159,
                     "_ex": {
-                        "download_count": 656
+                        "download_count": 657
                     }
                 }
             ]
