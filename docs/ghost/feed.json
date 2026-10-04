@@ -6,18 +6,18 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "YAYA-shiori/konnoyayame",
-            "url": "https://github.com/YAYA-shiori/konnoyayame",
-            "title": "konnoyayame",
-            "content_text": "# テンプレートゴースト 紺野ややめ ＋ バイブコーディング道具箱(YAYA/Win版)\n\n- original author : umeici\n- change by : ukiya\n- modernized by : ponapalt and contributors\n\nhttps://ms.shillest.net/yayame.xhtml\n\n# GitHubからダウンロードする方へ\n\nGitHubのプロジェクトページ\n\nhttps://github.com/YAYA-shiori/konnoyayame\n\nからダウンロードしようとしている方は、右横のReleasesからダウンロードしてください。\n\nこのリポジトリをzipで取得しても不完全です。\n\n# 改造のしかた\n\n紺野ややめは、SHIORI「YAYA」で自分のゴーストを作るための土台（テンプレート）です。辞書を手で編集しても、AI コーディングエージェントに手伝ってもらってもかまいません。\n\n## 手で編集する\n\n- 辞書の本体は `ghost/master/dic/normal/` にある `.dic` ファイルです。文字コードは UTF-8（BOM なし）です。\n- どのファイルに何が書いてあるか（ランダムトーク、起動・終了、マウスへの反応、メニューなど）、キャラクターと使えるサーフェス番号、トークの書き方の決まりは、[GHOST.md](GHOST.md) にまとめてあります。\n- YAYA の文法の要点とトークでよくある失敗は、[AGENTS.md](AGENTS.md) の「YAYA 辞書の書き方の要点」と「トーク（さくらスクリプト）の書き方」にあります。AI エージェント向けの指示書ですが、人が読んでもわかるように書いてあります。\n- 詳しい仕様は、次を見てください。\n  - YAYA の文法と関数: yaya-docs（https://yaya-shiori.github.io/yaya-docs/ ）\n  - さくらスクリプト、SHIORI イベント、設定ファイル: UKADOC（https://ssp.shillest.net/ukadoc/manual/ ）\n- 辞書にエラーがあると、ゴーストは緊急モードで起動し、ほとんど話さなくなります。Windows なら、同梱のスクリプトで辞書をチェックできます（最初の準備は [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) の「はじめかた」）。\n\n  ```\n  powershell -NoProfile -ExecutionPolicy Bypass -File tools/check-dic.ps1\n  ```\n\n- シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です。画像を改変したものは配布できません。\n- 自分のゴーストとして配布するときに変えるところ（名前、作者、インストール先、ネットワーク更新の URL など）は、[docs/agents/standalone.md](docs/agents/standalone.md) と、`GHOST.md` の「テンプレートから独立させるときの追加項目」にチェックリストがあります。\n\n## AI エージェントで開発する (Vibe Coding)\n\nこのゴーストには、AI コーディングエージェント（Claude Code、Codex、GitHub Copilot など）で開発するための開発キットが入っています。\nリポジトリを clone したフォルダでも、nar を SSP にインストールしたフォルダ（`<SSP>/ghost/konnoyayame/`）でも使えます。\n\n開発キットは、Windows と Claude Code の組み合わせで作り、動作を確かめています。おすすめもこの組み合わせです。\n\n- `tools/` のスクリプトの多くは、Windows でしか動きません（辞書やシェルのチェック、SSP での確認など。YAYA、SSP、チェック用ツールが Windows 用のため）。\n- ほかのエージェントでも `AGENTS.md` に沿って使えますが、起動時の診断、仕様調査用のサブエージェントは、Claude Code でしか自動では動きません。\n\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) : 開発キットの使い方（あらかじめ入れておくもの、mac・Linux で使う場合、はじめかた、キットの更新、配布物にキットを含めるかどうか、別の YAYA ゴーストへの導入）\n- [AGENTS.md](AGENTS.md) : エージェント向けの指示書（作業のルール、YAYA とさくらスクリプトの要点、依頼の言い回しと手順書の対応）。開発コマンド、構成、独立ゴーストにするときのチェックリスト、作業の手順書は `docs/agents/` にあります\n- [GHOST.md](GHOST.md) : このゴーストに固有の情報（キャラクター、サーフェス、ライセンス、辞書の構成）。自分のゴーストを作ったら、その内容に書き直します\n\nまずは [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) の「あらかじめ入れておくもの」を見て、このフォルダで AI エージェントを起動し、「セットアップして」と頼んでください。\n\n紺野ややめを元にしていない、手元の YAYA ゴーストにも、開発キットだけを入れられます（辞書やシェルには手を加えません）。手順は [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md#別の-yaya-ゴーストに開発キットを入れる) の「別の YAYA ゴーストに開発キットを入れる」にあります。\n\n# ライセンス\n\nPublic Domain (Unlicense)\n\n煮るなり焼くなり好きにしてください。\n\nただし、シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です（`shell/master/descript.txt` を参照）。\n",
-            "summary": "YAYAのテンプレートゴースト「紺野ややめ」です",
-            "date_published": "2026-10-03T23:20:18Z",
-            "date_modified": "2026-10-03T23:20:19Z",
+            "id": "ukatech/POST_and_KOMAINU_V2",
+            "url": "https://github.com/ukatech/POST_and_KOMAINU_V2",
+            "title": "POST_and_KOMAINU_V2",
+            "content_text": "\nSHIORI/3.0対応DLL『里々（さとり）』\nと\nそのサンプルゴースト『ポストと狛犬』\n\n\n　satori.dllは、一定の条件に従って自由に再配布することができます。\n　詳細は ghost\\master にある satori_lisence.txt を参照してください。\n　\n　「ポストと狛犬」のサンプルスクリプトについては著作権を放棄します。\n　ご自由にお使いください。\n　\n\n\n作成・配布者　櫛ヶ浜やぎ\n連絡先　　　　tako@xq.chu.jp\n一次配布元　　http://www.geocities.co.jp/SiliconValley-Cupertino/8536/\n",
+            "summary": "",
+            "date_published": "2026-10-04T06:09:51Z",
+            "date_modified": "2026-10-04T06:09:52Z",
             "authors": [
                 {
-                    "name": "YAYA-shiori",
-                    "url": "https://github.com/YAYA-shiori",
-                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                    "name": "ukatech",
+                    "url": "https://github.com/ukatech",
+                    "avatar": "https://avatars.githubusercontent.com/u/93071945?v=4"
                 }
             ],
             "tags": [
@@ -28,10 +28,10 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/YAYA-shiori/konnoyayame/releases/download/37161430774/konnoyayame.nar",
+                    "url": "https://github.com/ukatech/POST_and_KOMAINU_V2/releases/download/37181986548/POST_and_KOMAINU_V2.nar",
                     "mime_type": "application/octet-stream",
-                    "title": "konnoyayame.nar",
-                    "size_in_bytes": 1204226,
+                    "title": "POST_and_KOMAINU_V2.nar",
+                    "size_in_bytes": 729505,
                     "_ex": {
                         "download_count": 0
                     }
@@ -44,8 +44,8 @@
             "title": "claudia",
             "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\n紺野ややめ由来の、AI エージェント向け開発キットが入っています。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）\n",
             "summary": "",
-            "date_published": "2026-10-03T22:17:27Z",
-            "date_modified": "2026-10-03T22:17:28Z",
+            "date_published": "2026-10-04T03:20:52Z",
+            "date_modified": "2026-10-04T03:20:53Z",
             "authors": [
                 {
                     "name": "ponapalt",
@@ -61,12 +61,45 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/ponapalt/claudia/releases/download/37157907732/claudia.nar",
+                    "url": "https://github.com/ponapalt/claudia/releases/download/37173795334/claudia.nar",
                     "mime_type": "application/octet-stream",
                     "title": "claudia.nar",
-                    "size_in_bytes": 5273274,
+                    "size_in_bytes": 5306865,
                     "_ex": {
-                        "download_count": 0
+                        "download_count": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/konnoyayame",
+            "url": "https://github.com/YAYA-shiori/konnoyayame",
+            "title": "konnoyayame",
+            "content_text": "# テンプレートゴースト 紺野ややめ ＋ バイブコーディング道具箱(YAYA/Win版)\n\n- original author : umeici\n- change by : ukiya\n- modernized by : ponapalt and contributors\n\nhttps://ms.shillest.net/yayame.xhtml\n\n# GitHubからダウンロードする方へ\n\nGitHubのプロジェクトページ\n\nhttps://github.com/YAYA-shiori/konnoyayame\n\nからダウンロードしようとしている方は、右横のReleasesからダウンロードしてください。\n\nこのリポジトリをzipで取得しても不完全です。\n\n# 改造のしかた\n\n紺野ややめは、SHIORI「YAYA」で自分のゴーストを作るための土台（テンプレート）です。辞書を手で編集しても、AI コーディングエージェントに手伝ってもらってもかまいません。\n\n## 手で編集する\n\n- 辞書の本体は `ghost/master/dic/normal/` にある `.dic` ファイルです。文字コードは UTF-8（BOM なし）です。\n- どのファイルに何が書いてあるか（ランダムトーク、起動・終了、マウスへの反応、メニューなど）、キャラクターと使えるサーフェス番号、トークの書き方の決まりは、[GHOST.md](GHOST.md) にまとめてあります。\n- YAYA の文法の要点とトークでよくある失敗は、[AGENTS.md](AGENTS.md) の「YAYA 辞書の書き方の要点」と「トーク（さくらスクリプト）の書き方」にあります。AI エージェント向けの指示書ですが、人が読んでもわかるように書いてあります。\n- 詳しい仕様は、次を見てください。\n  - YAYA の文法と関数: yaya-docs（https://yaya-shiori.github.io/yaya-docs/ ）\n  - さくらスクリプト、SHIORI イベント、設定ファイル: UKADOC（https://ssp.shillest.net/ukadoc/manual/ ）\n- 辞書にエラーがあると、ゴーストは緊急モードで起動し、ほとんど話さなくなります。Windows なら、同梱のスクリプトで辞書をチェックできます（最初の準備は [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) の「はじめかた」）。\n\n  ```\n  powershell -NoProfile -ExecutionPolicy Bypass -File tools/check-dic.ps1\n  ```\n\n- シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です。画像を改変したものは配布できません。\n- 自分のゴーストとして配布するときに変えるところ（名前、作者、インストール先、ネットワーク更新の URL など）は、[docs/agents/standalone.md](docs/agents/standalone.md) と、`GHOST.md` の「テンプレートから独立させるときの追加項目」にチェックリストがあります。\n\n## AI エージェントで開発する (Vibe Coding)\n\nこのゴーストには、AI コーディングエージェント（Claude Code、Codex、GitHub Copilot など）で開発するための開発キットが入っています。\nリポジトリを clone したフォルダでも、nar を SSP にインストールしたフォルダ（`<SSP>/ghost/konnoyayame/`）でも使えます。\n\n開発キットは、Windows と Claude Code の組み合わせで作り、動作を確かめています。おすすめもこの組み合わせです。\n\n- `tools/` のスクリプトの多くは、Windows でしか動きません（辞書やシェルのチェック、SSP での確認など。YAYA、SSP、チェック用ツールが Windows 用のため）。\n- ほかのエージェントでも `AGENTS.md` に沿って使えますが、起動時の診断、仕様調査用のサブエージェントは、Claude Code でしか自動では動きません。\n\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) : 開発キットの使い方（あらかじめ入れておくもの、mac・Linux で使う場合、はじめかた、キットの更新、配布物にキットを含めるかどうか、別の YAYA ゴーストへの導入）\n- [AGENTS.md](AGENTS.md) : エージェント向けの指示書（作業のルール、YAYA とさくらスクリプトの要点、依頼の言い回しと手順書の対応）。開発コマンド、構成、独立ゴーストにするときのチェックリスト、作業の手順書は `docs/agents/` にあります\n- [GHOST.md](GHOST.md) : このゴーストに固有の情報（キャラクター、サーフェス、ライセンス、辞書の構成）。自分のゴーストを作ったら、その内容に書き直します\n\nまずは [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) の「あらかじめ入れておくもの」を見て、このフォルダで AI エージェントを起動し、「セットアップして」と頼んでください。\n\n紺野ややめを元にしていない、手元の YAYA ゴーストにも、開発キットだけを入れられます（辞書やシェルには手を加えません）。手順は [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md#別の-yaya-ゴーストに開発キットを入れる) の「別の YAYA ゴーストに開発キットを入れる」にあります。\n\n# ライセンス\n\nPublic Domain (Unlicense)\n\n煮るなり焼くなり好きにしてください。\n\nただし、シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です（`shell/master/descript.txt` を参照）。\n",
+            "summary": "YAYAのテンプレートゴースト「紺野ややめ」です",
+            "date_published": "2026-10-04T01:58:51Z",
+            "date_modified": "2026-10-04T01:58:52Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/konnoyayame/releases/download/37169621417/konnoyayame.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "konnoyayame.nar",
+                    "size_in_bytes": 1204226,
+                    "_ex": {
+                        "download_count": 2
                     }
                 }
             ]
@@ -133,39 +166,6 @@
                     "size_in_bytes": 6189199,
                     "_ex": {
                         "download_count": 5
-                    }
-                }
-            ]
-        },
-        {
-            "id": "ukatech/POST_and_KOMAINU_V2",
-            "url": "https://github.com/ukatech/POST_and_KOMAINU_V2",
-            "title": "POST_and_KOMAINU_V2",
-            "content_text": "\nSHIORI/3.0対応DLL『里々（さとり）』\nと\nそのサンプルゴースト『ポストと狛犬』\n\n\n　satori.dllは、一定の条件に従って自由に再配布することができます。\n　詳細は ghost\\master にある satori_lisence.txt を参照してください。\n　\n　「ポストと狛犬」のサンプルスクリプトについては著作権を放棄します。\n　ご自由にお使いください。\n　\n\n\n作成・配布者　櫛ヶ浜やぎ\n連絡先　　　　tako@xq.chu.jp\n一次配布元　　http://www.geocities.co.jp/SiliconValley-Cupertino/8536/\n",
-            "summary": "",
-            "date_published": "2026-10-02T07:57:02Z",
-            "date_modified": "2026-10-02T07:57:02Z",
-            "authors": [
-                {
-                    "name": "ukatech",
-                    "url": "https://github.com/ukatech",
-                    "avatar": "https://avatars.githubusercontent.com/u/93071945?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/ukatech/POST_and_KOMAINU_V2/releases/download/36981274047/POST_and_KOMAINU_V2.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "POST_and_KOMAINU_V2.nar",
-                    "size_in_bytes": 729355,
-                    "_ex": {
-                        "download_count": 1
                     }
                 }
             ]
@@ -396,7 +396,7 @@
                     "title": "knowledgeable_kernel.nar",
                     "size_in_bytes": 1349425,
                     "_ex": {
-                        "download_count": 41
+                        "download_count": 42
                     }
                 }
             ]
@@ -1543,7 +1543,7 @@
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099837,
                     "_ex": {
-                        "download_count": 33
+                        "download_count": 36
                     }
                 }
             ]

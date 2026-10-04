@@ -11,8 +11,8 @@
             "title": "claudia",
             "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\n紺野ややめ由来の、AI エージェント向け開発キットが入っています。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）\n",
             "summary": "",
-            "date_published": "2026-10-03T22:17:27Z",
-            "date_modified": "2026-10-03T22:17:28Z",
+            "date_published": "2026-10-04T03:20:52Z",
+            "date_modified": "2026-10-04T03:20:53Z",
             "authors": [
                 {
                     "name": "ponapalt",
@@ -28,12 +28,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/ponapalt/claudia/releases/download/37157907732/claudia.nar",
+                    "url": "https://github.com/ponapalt/claudia/releases/download/37173795334/claudia.nar",
                     "mime_type": "application/octet-stream",
                     "title": "claudia.nar",
-                    "size_in_bytes": 5273274,
+                    "size_in_bytes": 5306865,
                     "_ex": {
-                        "download_count": 0
+                        "download_count": 3
                     }
                 }
             ]

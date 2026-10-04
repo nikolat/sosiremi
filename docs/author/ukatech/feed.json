@@ -11,8 +11,8 @@
             "title": "POST_and_KOMAINU_V2",
             "content_text": "\nSHIORI/3.0対応DLL『里々（さとり）』\nと\nそのサンプルゴースト『ポストと狛犬』\n\n\n　satori.dllは、一定の条件に従って自由に再配布することができます。\n　詳細は ghost\\master にある satori_lisence.txt を参照してください。\n　\n　「ポストと狛犬」のサンプルスクリプトについては著作権を放棄します。\n　ご自由にお使いください。\n　\n\n\n作成・配布者　櫛ヶ浜やぎ\n連絡先　　　　tako@xq.chu.jp\n一次配布元　　http://www.geocities.co.jp/SiliconValley-Cupertino/8536/\n",
             "summary": "",
-            "date_published": "2026-10-02T07:57:02Z",
-            "date_modified": "2026-10-02T07:57:02Z",
+            "date_published": "2026-10-04T06:09:51Z",
+            "date_modified": "2026-10-04T06:09:52Z",
             "authors": [
                 {
                     "name": "ukatech",
@@ -28,12 +28,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/ukatech/POST_and_KOMAINU_V2/releases/download/36981274047/POST_and_KOMAINU_V2.nar",
+                    "url": "https://github.com/ukatech/POST_and_KOMAINU_V2/releases/download/37181986548/POST_and_KOMAINU_V2.nar",
                     "mime_type": "application/octet-stream",
                     "title": "POST_and_KOMAINU_V2.nar",
-                    "size_in_bytes": 729355,
+                    "size_in_bytes": 729505,
                     "_ex": {
-                        "download_count": 1
+                        "download_count": 0
                     }
                 }
             ]
