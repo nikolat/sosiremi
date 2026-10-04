@@ -10,11 +10,11 @@
 <link rel="help" href="./about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
+<link rel="alternate" type="application/octet-stream" title="konnoyayame" href="https://github.com/YAYA-shiori/konnoyayame/releases/download/37161430774/konnoyayame.nar" />
+<link rel="alternate" type="application/octet-stream" title="claudia" href="https://github.com/ponapalt/claudia/releases/download/37157907732/claudia.nar" />
 <link rel="alternate" type="application/x-nar" title="sakura-restore" href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" />
-<link rel="alternate" type="application/octet-stream" title="claudia" href="https://github.com/ponapalt/claudia/releases/download/37124583149/claudia.nar" />
 <link rel="alternate" type="application/x-nar" title="LilyNovelPlayer" href="https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.5/LilyNovelPlayer.nar" />
 <link rel="alternate" type="application/octet-stream" title="POST_and_KOMAINU_V2" href="https://github.com/ukatech/POST_and_KOMAINU_V2/releases/download/36981274047/POST_and_KOMAINU_V2.nar" />
-<link rel="alternate" type="application/octet-stream" title="konnoyayame" href="https://github.com/YAYA-shiori/konnoyayame/releases/download/36954005074/konnoyayame.nar" />
 <link rel="alternate" type="application/octet-stream" title="ayalilith" href="https://github.com/YAYA-shiori/ayalilith/releases/download/36921521066/ayalilith.nar" />
 <link rel="alternate" type="application/x-nar" title="UGMNavigator_Umechan" href="https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.4/UGMNavigator_Umechan.nar" />
 <link rel="alternate" type="application/x-nar" title="UkagakaGhostMessenger" href="https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar" />
@@ -112,6 +112,141 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
+		<article id="YAYA-shiori/konnoyayame" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/YAYA-shiori/konnoyayame" rel="bookmark">konnoyayame</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./ghost/">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="./author/YAYA-shiori/">YAYA-shiori</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-10-03T23:20:18Z">2026-10-04 08:20:18</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-10-03T23:20:19Z">2026-10-04 08:20:19</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/YAYA-shiori/konnoyayame/releases/download/37161430774/konnoyayame.nar" title="https://github.com/YAYA-shiori/konnoyayame/releases/download/37161430774/konnoyayame.nar" rel="nofollow" data-filesize="1176.0" data-download_count="0">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FYAYA-shiori%2Fkonnoyayame%2Freleases%2Fdownload%2F37161430774%2Fkonnoyayame.nar" title="https://github.com/YAYA-shiori/konnoyayame/releases/download/37161430774/konnoyayame.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="konnoyayame">
+				<h4>readme</h4>
+<pre>
+# テンプレートゴースト 紺野ややめ ＋ バイブコーディング道具箱(YAYA/Win版)
+
+- original author : umeici
+- change by : ukiya
+- modernized by : ponapalt and contributors
+
+https://ms.shillest.net/yayame.xhtml
+
+# GitHubからダウンロードする方へ
+
+GitHubのプロジェクトページ
+
+https://github.com/YAYA-shiori/konnoyayame
+
+からダウンロードしようとしている方は、右横のReleasesからダウンロードしてください。
+
+このリポジトリをzipで取得しても不完全です。
+
+# 改造のしかた
+
+紺野ややめは、SHIORI「YAYA」で自分のゴーストを作るための土台（テンプレート）です。辞書を手で編集しても、AI コーディングエージェントに手伝ってもらってもかまいません。
+
+## 手で編集する
+
+- 辞書の本体は `ghost/master/dic/normal/` にある `.dic` ファイルです。文字コードは UTF-8（BOM なし）です。
+- どのファイルに何が書いてあるか（ランダムトーク、起動・終了、マウスへの反応、メニューなど）、キャラクターと使えるサーフェス番号、トークの書き方の決まりは、[GHOST.md](GHOST.md) にまとめてあります。
+- YAYA の文法の要点とトークでよくある失敗は、[AGENTS.md](AGENTS.md) の「YAYA 辞書の書き方の要点」と「トーク（さくらスクリプト）の書き方」にあります。AI エージェント向けの指示書ですが、人が読んでもわかるように書いてあります。
+- 詳しい仕様は、次を見てください。
+  - YAYA の文法と関数: yaya-docs（https://yaya-shiori.github.io/yaya-docs/ ）
+  - さくらスクリプト、SHIORI イベント、設定ファイル: UKADOC（https://ssp.shillest.net/ukadoc/manual/ ）
+- 辞書にエラーがあると、ゴーストは緊急モードで起動し、ほとんど話さなくなります。Windows なら、同梱のスクリプトで辞書をチェックできます（最初の準備は [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) の「はじめかた」）。
+
+  ```
+  powershell -NoProfile -ExecutionPolicy Bypass -File tools/check-dic.ps1
+  ```
+
+- シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です。画像を改変したものは配布できません。
+- 自分のゴーストとして配布するときに変えるところ（名前、作者、インストール先、ネットワーク更新の URL など）は、[docs/agents/standalone.md](docs/agents/standalone.md) と、`GHOST.md` の「テンプレートから独立させるときの追加項目」にチェックリストがあります。
+
+## AI エージェントで開発する (Vibe Coding)
+
+このゴーストには、AI コーディングエージェント（Claude Code、Codex、GitHub Copilot など）で開発するための開発キットが入っています。
+リポジトリを clone したフォルダでも、nar を SSP にインストールしたフォルダ（`&lt;SSP&gt;/ghost/konnoyayame/`）でも使えます。
+
+開発キットは、Windows と Claude Code の組み合わせで作り、動作を確かめています。おすすめもこの組み合わせです。
+
+- `tools/` のスクリプトの多くは、Windows でしか動きません（辞書やシェルのチェック、SSP での確認など。YAYA、SSP、チェック用ツールが Windows 用のため）。
+- ほかのエージェントでも `AGENTS.md` に沿って使えますが、起動時の診断、仕様調査用のサブエージェントは、Claude Code でしか自動では動きません。
+
+- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) : 開発キットの使い方（あらかじめ入れておくもの、mac・Linux で使う場合、はじめかた、キットの更新、配布物にキットを含めるかどうか、別の YAYA ゴーストへの導入）
+- [AGENTS.md](AGENTS.md) : エージェント向けの指示書（作業のルール、YAYA とさくらスクリプトの要点、依頼の言い回しと手順書の対応）。開発コマンド、構成、独立ゴーストにするときのチェックリスト、作業の手順書は `docs/agents/` にあります
+- [GHOST.md](GHOST.md) : このゴーストに固有の情報（キャラクター、サーフェス、ライセンス、辞書の構成）。自分のゴーストを作ったら、その内容に書き直します
+
+まずは [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) の「あらかじめ入れておくもの」を見て、このフォルダで AI エージェントを起動し、「セットアップして」と頼んでください。
+
+紺野ややめを元にしていない、手元の YAYA ゴーストにも、開発キットだけを入れられます（辞書やシェルには手を加えません）。手順は [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md#別の-yaya-ゴーストに開発キットを入れる) の「別の YAYA ゴーストに開発キットを入れる」にあります。
+
+# ライセンス
+
+Public Domain (Unlicense)
+
+煮るなり焼くなり好きにしてください。
+
+ただし、シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です（`shell/master/descript.txt` を参照）。
+</pre>
+			</aside>
+		</article>
+		<article id="ponapalt/claudia" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/ponapalt/claudia" rel="bookmark">claudia</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./ghost/">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="./author/ponapalt/">ponapalt</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-10-03T22:17:27Z">2026-10-04 07:17:27</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-10-03T22:17:28Z">2026-10-04 07:17:28</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/ponapalt/claudia/releases/download/37157907732/claudia.nar" title="https://github.com/ponapalt/claudia/releases/download/37157907732/claudia.nar" rel="nofollow" data-filesize="5149.7" data-download_count="0">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fponapalt%2Fclaudia%2Freleases%2Fdownload%2F37157907732%2Fclaudia.nar" title="https://github.com/ponapalt/claudia/releases/download/37157907732/claudia.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="claudia">
+				<h4>readme</h4>
+<pre>
+# 悪役令嬢クローディア
+
+![悪役令嬢クローディア](thumbnail.png)
+
+伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。
+
+登場人物、できること、制作後記は、紹介ページにまとめてあります。
+
+**紹介ページ: https://ponadocs.shillest.net/claudia/**
+
+## ダウンロード
+
+右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。
+このリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。
+
+## ライセンス
+
+辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。
+
+## 開発
+
+紺野ややめ由来の、AI エージェント向け開発キットが入っています。
+
+- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）
+- [AGENTS.md](AGENTS.md): エージェント向けの指示書
+- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方
+- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）
+</pre>
+			</aside>
+		</article>
 		<article id="JiayuYangX/sakura-restore" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/JiayuYangX/sakura-restore" rel="bookmark">sakura-restore</a></h3>
@@ -190,55 +325,6 @@
 - Python 3.x
 - Real-ESRGAN-nccn-vulkan
 - ImageMagick</pre>
-			</aside>
-		</article>
-		<article id="ponapalt/claudia" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/ponapalt/claudia" rel="bookmark">claudia</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./ghost/">ghost</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="./author/ponapalt/">ponapalt</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-10-03T12:58:12Z">2026-10-03 21:58:12</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-10-03T12:58:12Z">2026-10-03 21:58:12</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/ponapalt/claudia/releases/download/37124583149/claudia.nar" title="https://github.com/ponapalt/claudia/releases/download/37124583149/claudia.nar" rel="nofollow" data-filesize="4787.2" data-download_count="3">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fponapalt%2Fclaudia%2Freleases%2Fdownload%2F37124583149%2Fclaudia.nar" title="https://github.com/ponapalt/claudia/releases/download/37124583149/claudia.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="claudia">
-				<h4>readme</h4>
-<pre>
-# 悪役令嬢クローディア
-
-![悪役令嬢クローディア](thumbnail.png)
-
-伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。
-
-登場人物、できること、制作後記は、紹介ページにまとめてあります。
-
-**紹介ページ: https://ponadocs.shillest.net/claudia/**
-
-## ダウンロード
-
-右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。
-このリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。
-
-## ライセンス
-
-辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。
-
-## 開発
-
-紺野ややめ由来の、AI エージェント向け開発キットが入っています。
-
-- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）
-- [AGENTS.md](AGENTS.md): エージェント向けの指示書
-- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方
-- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）
-</pre>
 			</aside>
 		</article>
 		<article id="lost-nd-xxx/LilyNovelPlayer" class="hentry">
@@ -493,92 +579,6 @@ SHIORI/3.0対応DLL『里々（さとり）』
 作成・配布者　櫛ヶ浜やぎ
 連絡先　　　　tako@xq.chu.jp
 一次配布元　　http://www.geocities.co.jp/SiliconValley-Cupertino/8536/
-</pre>
-			</aside>
-		</article>
-		<article id="YAYA-shiori/konnoyayame" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/YAYA-shiori/konnoyayame" rel="bookmark">konnoyayame</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./ghost/">ghost</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="./author/YAYA-shiori/">YAYA-shiori</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-10-02T02:05:54Z">2026-10-02 11:05:54</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-10-02T02:05:54Z">2026-10-02 11:05:54</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/YAYA-shiori/konnoyayame/releases/download/36954005074/konnoyayame.nar" title="https://github.com/YAYA-shiori/konnoyayame/releases/download/36954005074/konnoyayame.nar" rel="nofollow" data-filesize="1173.3" data-download_count="3">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FYAYA-shiori%2Fkonnoyayame%2Freleases%2Fdownload%2F36954005074%2Fkonnoyayame.nar" title="https://github.com/YAYA-shiori/konnoyayame/releases/download/36954005074/konnoyayame.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="konnoyayame">
-				<h4>readme</h4>
-<pre>
-# テンプレートゴースト 紺野ややめ ＋ バイブコーディング道具箱(YAYA/Win版)
-
-- original author : umeici
-- change by : ukiya
-- modernized by : ponapalt and contributors
-
-https://ms.shillest.net/yayame.xhtml
-
-# GitHubからダウンロードする方へ
-
-GitHubのプロジェクトページ
-
-https://github.com/YAYA-shiori/konnoyayame
-
-からダウンロードしようとしている方は、右横のReleasesからダウンロードしてください。
-
-このリポジトリをzipで取得しても不完全です。
-
-# 改造のしかた
-
-紺野ややめは、SHIORI「YAYA」で自分のゴーストを作るための土台（テンプレート）です。辞書を手で編集しても、AI コーディングエージェントに手伝ってもらってもかまいません。
-
-## 手で編集する
-
-- 辞書の本体は `ghost/master/dic/normal/` にある `.dic` ファイルです。文字コードは UTF-8（BOM なし）です。
-- どのファイルに何が書いてあるか（ランダムトーク、起動・終了、マウスへの反応、メニューなど）、キャラクターと使えるサーフェス番号、トークの書き方の決まりは、[GHOST.md](GHOST.md) にまとめてあります。
-- YAYA の文法の要点とトークでよくある失敗は、[AGENTS.md](AGENTS.md) の「YAYA 辞書の書き方の要点」と「トーク（さくらスクリプト）の書き方」にあります。AI エージェント向けの指示書ですが、人が読んでもわかるように書いてあります。
-- 詳しい仕様は、次を見てください。
-  - YAYA の文法と関数: yaya-docs（https://yaya-shiori.github.io/yaya-docs/ ）
-  - さくらスクリプト、SHIORI イベント、設定ファイル: UKADOC（https://ssp.shillest.net/ukadoc/manual/ ）
-- 辞書にエラーがあると、ゴーストは緊急モードで起動し、ほとんど話さなくなります。Windows なら、同梱のスクリプトで辞書をチェックできます（最初の準備は [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) の「はじめかた」）。
-
-  ```
-  powershell -NoProfile -ExecutionPolicy Bypass -File tools/check-dic.ps1
-  ```
-
-- シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です。画像を改変したものは配布できません。
-- 自分のゴーストとして配布するときに変えるところ（名前、作者、インストール先、ネットワーク更新の URL など）は、[docs/agents/standalone.md](docs/agents/standalone.md) と、`GHOST.md` の「テンプレートから独立させるときの追加項目」にチェックリストがあります。
-
-## AI エージェントで開発する (Vibe Coding)
-
-このゴーストには、AI コーディングエージェント（Claude Code、Codex、GitHub Copilot など）で開発するための開発キットが入っています。
-リポジトリを clone したフォルダでも、nar を SSP にインストールしたフォルダ（`&lt;SSP&gt;/ghost/konnoyayame/`）でも使えます。
-
-開発キットは、Windows と Claude Code の組み合わせで作り、動作を確かめています。おすすめもこの組み合わせです。
-
-- `tools/` のスクリプトの多くは、Windows でしか動きません（辞書やシェルのチェック、SSP での確認など。YAYA、SSP、チェック用ツールが Windows 用のため）。
-- ほかのエージェントでも `AGENTS.md` に沿って使えますが、起動時の診断、仕様調査用のサブエージェントは、Claude Code でしか自動では動きません。
-
-- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) : 開発キットの使い方（あらかじめ入れておくもの、mac・Linux で使う場合、はじめかた、キットの更新、配布物にキットを含めるかどうか、別の YAYA ゴーストへの導入）
-- [AGENTS.md](AGENTS.md) : エージェント向けの指示書（作業のルール、YAYA とさくらスクリプトの要点、依頼の言い回しと手順書の対応）。開発コマンド、構成、独立ゴーストにするときのチェックリスト、作業の手順書は `docs/agents/` にあります
-- [GHOST.md](GHOST.md) : このゴーストに固有の情報（キャラクター、サーフェス、ライセンス、辞書の構成）。自分のゴーストを作ったら、その内容に書き直します
-
-まずは [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md) の「あらかじめ入れておくもの」を見て、このフォルダで AI エージェントを起動し、「セットアップして」と頼んでください。
-
-紺野ややめを元にしていない、手元の YAYA ゴーストにも、開発キットだけを入れられます（辞書やシェルには手を加えません）。手順は [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md#別の-yaya-ゴーストに開発キットを入れる) の「別の YAYA ゴーストに開発キットを入れる」にあります。
-
-# ライセンス
-
-Public Domain (Unlicense)
-
-煮るなり焼くなり好きにしてください。
-
-ただし、シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です（`shell/master/descript.txt` を参照）。
 </pre>
 			</aside>
 		</article>
