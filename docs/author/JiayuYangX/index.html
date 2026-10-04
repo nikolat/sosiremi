@@ -73,7 +73,7 @@
 
 该人格的所有文本都被硬编码进 SHIORI（`first.dll`）中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 CODE 段，内置图形界面文本位于 rsrc 段。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。
 
-然而仍有如环境变量等少数文本以自定义压缩格式存储在 rsrc 段的 AITXT 中。由于无法获取其压缩/解压算法，本项目采用翻译器接口（`makoto.dll`，遵循 MAKOTO/2.0 协议）在 SHIORI 返回该部分文本后对其 SJIS 字节进行匹配替换。
+另有如环境变量等文本存于 rsrc 段的 **AITXT 资源**（自定义加密：整块反转 + MT19937 密钥流异或，并非压缩）。该算法已完全破解：`aitxt_translated.txt` 的译文由 `patch_dll.py` 重新加密后写回资源本体（早期曾用 `makoto.dll` 翻译器接口运行时替换，现已由静态写回取代）。详见 `docs/AITXT分析文档.md`。
 
 ### 图片修复
 
@@ -89,15 +89,16 @@
 
 故通过两步 DLL 修补解决相关问题：（1）禁用 `0x719E` 处 NOTIFY 的跳转使请求正常处理；（2）`0x79E08` 处 `\![enter,inductionmode]` 字段长度设为 0 取消进入诱导模式。
 
+其余兼容性修复（高 DPI 缩放、退出/重载崩溃、透明窗命中掩码、输入法候选/组字窗、键盘操作、
+菜单与游戏流程等）的实现与验证详见 `docs/` 下的各分析文档。
+
 
 ## 翻译流程
 
-1. 运行 `extract2csv.py` 和 `extract_aitxt.py` 提取日文原文
-2. 运行 `replace_chars.py` 预处理不可编码字符 
-3. 人工翻译 CSV 中的文本
-4. 运行 `patch_dll.py` 打静态补丁
-5. 运行 `build.bat` 生成带替换表的 `makoto.dll`
-6. 部署后测试
+1. 运行 `extract2csv.py`（first.dll 字符串）与 `extract_aitxt.py`（AITXT 词库）提取原文
+2. 人工翻译 `translated.csv`（字符串）与 `aitxt_translated.txt`（AITXT 词库）
+3. 运行 `patch_dll.py` 打全量静态补丁（文本 / 兼容 / 链接 / 窗口 / 缩放 / IME / 键盘等）
+4. 部署后测试
 
 ## 环境及工具
 
