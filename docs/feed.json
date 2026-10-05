@@ -9,10 +9,10 @@
             "id": "JiayuYangX/sakura-restore",
             "url": "https://github.com/JiayuYangX/sakura-restore",
             "title": "sakura-restore",
-            "content_text": "# さくら（御影樱）人格汉化\n\n本仓库为伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）的汉化工程。文本内容翻译由大模型辅助完成。\n\n![示意图](pic.png)\n\n人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；\n外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。\n\n## 安装方法\n\n从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。\n\n## 必要环境\n\n- [SSP](https://ssp.shillest.net/)\n- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）\n\n## 汉化项目描述\n\n文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。\n原配布链接：<http://usada.sakura.vg/>\n\n### 汉化\n\n该人格的所有文本都被硬编码进 SHIORI（`first.dll`）中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 CODE 段，内置图形界面文本位于 rsrc 段。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。\n\n另有如环境变量等文本存于 rsrc 段的 **AITXT 资源**（自定义加密：整块反转 + MT19937 密钥流异或，并非压缩）。该算法已完全破解：`aitxt_translated.txt` 的译文由 `patch_dll.py` 重新加密后写回资源本体（早期曾用 `makoto.dll` 翻译器接口运行时替换，现已由静态写回取代）。详见 `docs/AITXT分析文档.md`。\n\n### 图片修复\n\n外壳和对话框现均改为使用图片自身透明通道。外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。\n\n### 兼容性修复\n\n人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS（932 代码页）字符集变为 GBK（936 代码页），可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。\n\n外壳和对话框在现代高 DPI 显示器上建议使用与系统相同的缩放比例；时钟和提示框未经过 SSP 缩放，可能显得过小。\n\n人格编写的时代旧 SHIORI 规范未完全实现 NOTIFY 方法，除部分特殊事件外仍基本使用 GET，`first.dll` 接到 NOTIFY 请求后会直接响应 `400 Bad Request`；现代 SHIORI 规范及 SSP 基础软件在 `caltalk=0` 时 `OnSecondChange` 事件严格使用 NOTIFY 进行通信，`first.dll` 拒绝响应导致状态机卡住，无法自动退出小睡（`mode2`）和入浴（`mode3`）状态，能量值累加也会停摆。\n\n故通过两步 DLL 修补解决相关问题：（1）禁用 `0x719E` 处 NOTIFY 的跳转使请求正常处理；（2）`0x79E08` 处 `\\![enter,inductionmode]` 字段长度设为 0 取消进入诱导模式。\n\n其余兼容性修复（高 DPI 缩放、退出/重载崩溃、透明窗命中掩码、输入法候选/组字窗、键盘操作、\n菜单与游戏流程等）的实现与验证详见 `docs/` 下的各分析文档。\n\n\n## 翻译流程\n\n1. 运行 `extract2csv.py`（first.dll 字符串）与 `extract_aitxt.py`（AITXT 词库）提取原文\n2. 人工翻译 `translated.csv`（字符串）与 `aitxt_translated.txt`（AITXT 词库）\n3. 运行 `patch_dll.py` 打全量静态补丁（文本 / 兼容 / 链接 / 窗口 / 缩放 / IME / 键盘等）\n4. 部署后测试\n\n## 环境及工具\n\n- MSYS2 + `mingw-w64-i686-gcc`（32 位 MinGW）\n- Python 3.x\n- Real-ESRGAN-nccn-vulkan\n- ImageMagick",
+            "content_text": "# さくら / 御影樱 人格汉化\n\n本仓库为伪春菜原基础软件 [MATERIA](http://usada.sakura.vg/) 的内置人格 さくら 的汉化及修复工程。通过修补 DLL 文件，确保其在现代基础软件 [SSP](https://ssp.shillest.net/) 上能够正常运行，并优化多处细节。\n\n![示意图](overview.png)\n\n人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；\n外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。\n\n## 安装方法\n\n从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。\n\n## 必要环境\n\n- [SSP](https://ssp.shillest.net/)\n- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）\n\n## 人格介绍\n\nさくら（樱）是第一个伪春菜人格（文件里称为 first）的正式名称，也是「伪春菜」这个名字最初指代的对象。现版使用的短发版形象通常被称为「御影樱」。其配角 うにゅう（乌纽）则是早期人格最常使用的配角形象。\n\n人格修改自 2002 年 6 月 22 日「伺か」项目停止维护前的最后一次版本更新（period 583）。当时尚未形成后来成熟的通用 SHIORI + 辞书文件的形式，人格的所有功能都依靠担任 SHIORI 的 `first.dll` 实现。\n\n## 项目描述\n\n文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。\n\n原配布链接：<http://usada.sakura.vg/>\n\n### 汉化\n\n该人格的所有文本都被硬编码进 `first.dll` 中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 code 节，内置窗体文本位于 rsrc 节，问答游戏的答案以反转形式存储。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。\n\n另有如环境变量等文本存于 rsrc 节的 AITXT 资源，以整块反转 + MT19937 密钥流异或的方式加密存储。早期曾用 `makoto.dll` 翻译器接口运行时替换，现直接将其译文重新加密后静态写回资源本体。详见 `docs/AITXT分析文档.md`。\n\n### 图片修复\n\n默认外壳和对话框现均改为使用图片自身透明通道。默认外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。\n\n### 兼容性及遗留问题修复\n\n人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS / CP932 字符集变为 GBK / CP936，可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。\n\n本项目通过关键字节替换和新增的 cave 节对 DLL 进行了多轮修补，使其在 SSP 运行时能还原本近乎全部的重要特性，同时还对本来的多项遗留问题进行了修复。修补内容具体如下：\n\n#### 翻译和替换\n\n- 字符串替换（code、rsrc、字体、问答游戏答案）\n- AITXT替换\n- DFM Font.Charset 替换为 GBK\n\n#### SHIORI 兼容性修复\n\n- NOTIFY 请求不再返回 400，避免状态机卡死\n- 泡澡/小睡不再进入 InductionMode\n\n#### 链接/锚点修复\n\n- \"海原雄山\" 锚点补注册\n- RSS 网页链接打开浏览器\n\n#### 菜单逻辑修复\n\n- 选择菜单、搜索输入框打开、视力检查进行时吞双击事件\n- 进入 PassiveMode 后双击返回缓存菜单\n- 输入框关闭时触发对应空输入\n- 打字、问答游戏退出时关闭输入框、打字窗、视力窗、倒计时\n\n#### 对话替换功能修复\n\n- 打字游戏文本屏蔽替换\n- 重力语修复：对话 + 窗口\n  - 统一进行 `%` `[` `]` 保护（对话逻辑不全，窗口缺失）\n  - 使用映射表模拟 SJIS 替换行为（仅同时存在于 GBK 中的字符）\n\n#### 窗口修复\n\n- 设置、Todo 退出崩溃修复\n- SSP 下窗口键盘操作失效修复\n- 窗口跟随 DPI 缩放 + 衍生问题修复：\n  - 状态栏字体放大修复 + 重影修复\n  - 退出时窗口尺寸保存放大修复 + 卸载时归还\n  - 输入法修复（双门控 + 候选框位置、组字窗位置、组字窗字体大小）\n  - 监控窗（模拟时钟和文字信息窗）非 100% 拖动掩码修复 + 跨 100% 刷新及显隐\n  - 视力窗补 `Scaled=False` 属性",
             "summary": "伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）逆向汉化",
-            "date_published": "2026-09-03T09:00:23Z",
-            "date_modified": "2026-09-03T09:00:33Z",
+            "date_published": "2026-10-05T19:54:08Z",
+            "date_modified": "2026-10-05T19:54:12Z",
             "authors": [
                 {
                     "name": "JiayuYangX",
@@ -28,12 +28,111 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar",
+                    "url": "https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar",
                     "mime_type": "application/x-nar",
                     "title": "first.nar",
-                    "size_in_bytes": 2739637,
+                    "size_in_bytes": 2276077,
                     "_ex": {
-                        "download_count": 36
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/LilyNovelPlayer",
+            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
+            "title": "LilyNovelPlayer",
+            "content_text": "────────────────────────\n●「Lily Novel Player」について\n────────────────────────\nリリー・ノベル・プレイヤー……略して「LNP」！\nこれは、ノベルゲームを作れる枠組み的な\nゴースト＆シェル＆バルーンです。\nLilyNovelPlayer製作委員会がお送りします。\n\n────────────────────────\n◎ゴーストの使用方法\n────────────────────────\n・シェルを切り替えると、\nゲームタイトルが切り替わります。\n・その他、詳しくはmasterシェルのreadme.txtを\nお読みください。\n\n────────────────────────\n◎AIの利用について\n────────────────────────\n・2026年10月の更新（里々 Unicode 版への対応）から、\n開発の一部にAI（AnthropicのClaude）を利用しています。\n辞書の修正や不具合の調査、マニュアルの文章、\n動作確認用の道具などに使いました。\nAIによる変更は、すべてろすえんが内容を確認し、\nSSPで動作を確かめてから取り込んでいます。\n・同梱素材のうち、configのサンプルボイスは音声合成ソフト\n「VOICEVOX」で、masterシナリオのBGMは自動作曲サービス\n「CREEVO」で作ったものです。\n詳しくは下の「使用素材とそのライセンスまとめ」と、\n各ツールの公式サイトをご覧ください。\n・画像と効果音はAIによらない素材です。\nただし、 ghost/master/scenarios/master/resources/bg_desktop.png は、\n写真を加工する際に、画像編集ソフトのAI機能\n（背景の自動認識・範囲の選択）を使っています。\n\n────────────────────────\n◎使用素材とそのライセンスまとめ\n────────────────────────\n○里々\nghost/master/satori.dll\n以上のファイルは里々/整備班カスタムです。\n\n里々/整備班カスタム\nhttps://github.com/ukatech/satoriya-shiori\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ファイルセット内画像のフォント\nthumbnail.png\nghost/master/\n　assets/preset/\n　　clickwait.png\n　　gallery_locked.png\n　　menu_backlog.png\n　　menu_config.png\n　　menu_gallery.png\n　　menu_load.png\n　　menu_save.png\n　　nowloading.png\n　　ownerdraw_sidebar.png\n　　resumewindow.png\n　scenarios/master/resources/\n　　Number001.png\n　　Number002.png\n　　Number003.png\n　　Number004.png\n　　Number005.png\n　　Number006.png\n　　Number007.png\n　　Number008.png\n　　Number009.png\n　　Number010.png\n　　bg_desktop.png\n　　nowloading.png\nshell/master/\n　thumbnail.png\n　title1.png\n　title2.png\nLilyNovelPlayerBallon/\n　balloonc0.png\n　balloons2.png\n　balloons3.png\n　cancel_down.png\n　cancel_up.png\n　ok_down.png\n　ok_up.png\n　online.png\ntest_supplement/\n　shell/LilyNovelPlayer_test/\n　　title1.png\n　LilyNovelPlayerBallon_test/\n　　online.png\n　　balloonc0.png\n　　balloons2.png\n　　balloons3.png\n　　cancel_down.png\n　　cancel_up.png\n　　ok_down.png\n　　ok_up.png\nこれらの文字のフォントについて列挙します。\n\n・Halimun\nhttps://creatypestudio.co/halimun/\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・MS UI Gothic\nhttps://learn.microsoft.com/en-us/typography/font-list/ms-gothic#licensing-and-redistribution-info\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・Noto Serif JP\nhttps://fonts.google.com/noto/specimen/Noto+Serif+JP?query=Noto+Serif+JP\n※Open Font License\n\n・Noto Sans JP\nhttps://fonts.google.com/noto/specimen/Noto+Sans+JP?query=Noto+Sans+JP\n※Open Font License\n\n・Murecho\nhttps://fonts.google.com/specimen/Murecho\n※Open Font License\n\n※Open Font Licenseのフォントについて\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇configのサンプルボイス\nghost/master/assets/preset/\n　sample_voice.wav\n以上のファイルはずんだもんの音声ライブラリと、\nVOICEVOXを用いて生成した音声です。\n\n・商用利用　可\n・クレジット表記　必要 (VOICEVOX:ずんだもん)\n\n利用規約ページ\nhttps://zunko.jp/con_ongen_kiyaku.html\n\nVOICEVOX\nhttps://voicevox.hiroshiba.jp/\n\n東北ずん子・ずんだもんPJ 公式サイト\nhttps://zunko.jp/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇masterシナリオのBGM\nghost/master/assets/preset/\n　osorawo_osampo.mp3\n　tanoshii_ukagaka.mp3\n以上のファイルはCREEVOで生成した楽曲です。\nダウンミックス・空白カット等は、\nLilyNovelPlayer製作委員会が行いました。\n\n・商用利用　可\n・クレジット表記　不要\n※歌声の入っていないデータの場合\n\n> CREEVOで生成されたメロディーや伴奏は、\n> パブリックドメイン（著作権なし）のデータとして\n> 扱われます。\nhttps://creevo-music.com/usage#copyright\n\n利用規約ページ\nhttps://creevo-music.com/terms-and-conditions/\n\nCREEVO\nhttps://creevo-music.com/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ボイス風効果音・configのサンプル効果音\nghost/master/assets/\n　preset/\n　　sample_se.wav\n　preset_chara/voice/\n　　chara_voice1.wav\n　　chara_voice2.wav\n　　chara_voice_douji.wav\n以上のファイルはChipToneにて生成した音声です。\n\n・商用利用　可\n・クレジット表記　不要\n\nChipToneを使用して作成されたサウンドは、\nCC0ライセンスでライセンスされています。\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nChipTone\nhttps://sfbgames.itch.io/chiptone\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇上記に該当しないゴースト・シェル・バルーン画像\nLilyNovelPlayer製作委員会の作ったものです。\n※追加シナリオや追加アセットなどは該当しません。\n",
+            "summary": "ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン",
+            "date_published": "2026-10-03T00:01:54Z",
+            "date_modified": "2026-10-03T00:02:13Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.5/LilyNovelPlayer.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "LilyNovelPlayer.nar",
+                    "size_in_bytes": 6189199,
+                    "_ex": {
+                        "download_count": 5
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios",
+            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios",
+            "title": "LilyNovelPlayer_Prototype_Scenarios",
+            "content_text": "# りりぷれ ぷろとたいぷ\n![りりぷれ ぷろとたいぷ スクリーンショット](ss_lnp_proto.png \"りりぷれ ぷろとたいぷ スクリーンショット\")\n\n[「Lily Novel Player」](https://github.com/lost-nd-xxx/LilyNovelPlayer/wiki)用サプリメントです。<br>\nLNPへインストールすると、LNP開発中に使われていたプロトタイプシナリオをお楽しみいただけます。<br>\nこのサプリメントに含まれる`.txt`形式のファイルは、著作表記なしで改変再配布可能とします。<br>\n（※ただし、`profile`フォルダ以下を含まない）\n\n## ダウンロード\n* [lostndxxx_prototype.nar](https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/latest/download/lostndxxx_prototype.nar)\n\n## 何かありましたら\n* 責任者：ろすえん(lost_nd_xxx)\n* 連絡先：https://lnx.flop.jp/\n",
+            "summary": "りりぷれ ぷろとたいぷ（「Lily Novel Player」用サプリメント）",
+            "date_published": "2026-10-05T18:13:22Z",
+            "date_modified": "2026-10-05T18:13:25Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-shell"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/%EF%BD%961.0.1/lostndxxx_prototype.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "lostndxxx_prototype.nar",
+                    "size_in_bytes": 522080,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/walk_with_unyu",
+            "url": "https://github.com/lost-nd-xxx/walk_with_unyu",
+            "title": "walk_with_unyu",
+            "content_text": "# 作業応援うにゅう\n\n* 回し車を回すうにゅうが、あなたの作業を応援するゴーストです。\n* 指定されたファイルの保存回数やファイルサイズの増減を見守ります。\n* 見守り対象のファイルが作業中に一定時間更新されなかった場合、保存をおすすめしたりもします。\n\n**製作者**\n\n* 作者 : ろすえん（lost_nd_xxx）\n  * https://lnx.flop.jp/\n\nこのファイルセットは伺か（ukagaka）のゴーストです。\n\n動かすには、SSP（ https://ssp.shillest.net/ ）などのベースウェアが必要です。\n\n## ライセンス\n\n**事前にご相談ください**\n\n* 再配布\n* 改変したものの配布\n\nご連絡は https://lnx.flop.jp/ からお願いします。\n2週間ほど返事がない場合は、連絡が取れなかった旨を明記していただければ、ご判断にお任せします。\n\n**ご自由にどうぞ（出典表記は任意です）**\n\n* スクリーンショットの投稿、動画配信\n* 二次創作（イラスト、小説など）\n  * ただし、このゴーストのファイル（画像・辞書）そのものを含めないでください。\n* 追加シェルの作成と、その配布\n  * `shell/master/surfaces.txt` と `shell/master/surfacetable.txt` に限り、転用・改変を許可します（画像ファイルは含みません）。\n\n### 上の条件が及ぶ範囲\n\nこのゴーストのために作られた部分——辞書の台詞と動作、シェルの画像——は、ろすえん（lost_nd_xxx）が作成したものです。\n\n（テンプレート由来の部分については「同梱物について」をご覧ください）\n\n### 「うにゅう」というキャラクターについて\n\n「うにゅう」は、伺かの原型である「偽春菜（後のMateria）」に登場した相方キャラクターに由来します。このゴーストはその二次創作にあたります。\n\nシェルの画像はテンプレート由来のファイルを含まない自作ですが、キャラクターの概念そのものは借りているものです。\n\n### 同梱物について\n\nこのゴーストには、第三者が作ったファイルが含まれます。**そのまま使う分には、とくに気にする必要はありません。**\n\n再配布や流用をお考えの場合は、それぞれの条件をご確認ください。\n\n| ファイル | 内容 | ライセンス |\n|---|---|---|\n| `ghost/master/yaya.dll` | SHIORI「YAYA」 | 同梱の `readme-yaya.txt` を参照 |\n| `ghost/master/dic/system/` | システム辞書 yaya-dic `https://github.com/YAYA-shiori/yaya-dic` | Public Domain (Unlicense) |\n| `ghost/master/dic/normal/` のうち、テンプレート由来の部分 | 紺野ややめのテンプレート辞書 | Public Domain (Unlicense) |\n\n## クレジット\n\n「YAYA」テンプレートゴースト 紺野ややめ（ https://github.com/YAYA-shiori/konnoyayame ）をもとに作成しました。\n\n**紺野ややめのクレジット**\n\n* original author : umeici\n* change by : ukiya\n* modernized by : ponapalt and contributors\n\n**効果音**\n\n`ghost/master/sound/` の効果音は、ChipTone（ https://sfbgames.itch.io/chiptone ）で作成しました。\n\n## 開発中のAI利用について\n\nこのゴーストは、AI コーディングエージェント（Claude Code）を用いて開発しました。\n",
+            "summary": "伺かゴースト「作業応援うにゅう」",
+            "date_published": "2026-10-05T17:53:57Z",
+            "date_modified": "2026-10-05T17:54:04Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.1/lnx_walk_with_unyu.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "lnx_walk_with_unyu.nar",
+                    "size_in_bytes": 1896353,
+                    "_ex": {
+                        "download_count": 1
                     }
                 }
             ]
@@ -66,7 +165,7 @@
                     "title": "claudia.nar",
                     "size_in_bytes": 5392184,
                     "_ex": {
-                        "download_count": 5
+                        "download_count": 6
                     }
                 }
             ]
@@ -133,39 +232,6 @@
                     "size_in_bytes": 1204226,
                     "_ex": {
                         "download_count": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/LilyNovelPlayer",
-            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
-            "title": "LilyNovelPlayer",
-            "content_text": "────────────────────────\n●「Lily Novel Player」について\n────────────────────────\nリリー・ノベル・プレイヤー……略して「LNP」！\nこれは、ノベルゲームを作れる枠組み的な\nゴースト＆シェル＆バルーンです。\nLilyNovelPlayer製作委員会がお送りします。\n\n────────────────────────\n◎ゴーストの使用方法\n────────────────────────\n・シェルを切り替えると、\nゲームタイトルが切り替わります。\n・その他、詳しくはmasterシェルのreadme.txtを\nお読みください。\n\n────────────────────────\n◎AIの利用について\n────────────────────────\n・2026年10月の更新（里々 Unicode 版への対応）から、\n開発の一部にAI（AnthropicのClaude）を利用しています。\n辞書の修正や不具合の調査、マニュアルの文章、\n動作確認用の道具などに使いました。\nAIによる変更は、すべてろすえんが内容を確認し、\nSSPで動作を確かめてから取り込んでいます。\n・同梱素材のうち、configのサンプルボイスは音声合成ソフト\n「VOICEVOX」で、masterシナリオのBGMは自動作曲サービス\n「CREEVO」で作ったものです。\n詳しくは下の「使用素材とそのライセンスまとめ」と、\n各ツールの公式サイトをご覧ください。\n・画像と効果音はAIによらない素材です。\nただし、 ghost/master/scenarios/master/resources/bg_desktop.png は、\n写真を加工する際に、画像編集ソフトのAI機能\n（背景の自動認識・範囲の選択）を使っています。\n\n────────────────────────\n◎使用素材とそのライセンスまとめ\n────────────────────────\n○里々\nghost/master/satori.dll\n以上のファイルは里々/整備班カスタムです。\n\n里々/整備班カスタム\nhttps://github.com/ukatech/satoriya-shiori\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ファイルセット内画像のフォント\nthumbnail.png\nghost/master/\n　assets/preset/\n　　clickwait.png\n　　gallery_locked.png\n　　menu_backlog.png\n　　menu_config.png\n　　menu_gallery.png\n　　menu_load.png\n　　menu_save.png\n　　nowloading.png\n　　ownerdraw_sidebar.png\n　　resumewindow.png\n　scenarios/master/resources/\n　　Number001.png\n　　Number002.png\n　　Number003.png\n　　Number004.png\n　　Number005.png\n　　Number006.png\n　　Number007.png\n　　Number008.png\n　　Number009.png\n　　Number010.png\n　　bg_desktop.png\n　　nowloading.png\nshell/master/\n　thumbnail.png\n　title1.png\n　title2.png\nLilyNovelPlayerBallon/\n　balloonc0.png\n　balloons2.png\n　balloons3.png\n　cancel_down.png\n　cancel_up.png\n　ok_down.png\n　ok_up.png\n　online.png\ntest_supplement/\n　shell/LilyNovelPlayer_test/\n　　title1.png\n　LilyNovelPlayerBallon_test/\n　　online.png\n　　balloonc0.png\n　　balloons2.png\n　　balloons3.png\n　　cancel_down.png\n　　cancel_up.png\n　　ok_down.png\n　　ok_up.png\nこれらの文字のフォントについて列挙します。\n\n・Halimun\nhttps://creatypestudio.co/halimun/\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・MS UI Gothic\nhttps://learn.microsoft.com/en-us/typography/font-list/ms-gothic#licensing-and-redistribution-info\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・Noto Serif JP\nhttps://fonts.google.com/noto/specimen/Noto+Serif+JP?query=Noto+Serif+JP\n※Open Font License\n\n・Noto Sans JP\nhttps://fonts.google.com/noto/specimen/Noto+Sans+JP?query=Noto+Sans+JP\n※Open Font License\n\n・Murecho\nhttps://fonts.google.com/specimen/Murecho\n※Open Font License\n\n※Open Font Licenseのフォントについて\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇configのサンプルボイス\nghost/master/assets/preset/\n　sample_voice.wav\n以上のファイルはずんだもんの音声ライブラリと、\nVOICEVOXを用いて生成した音声です。\n\n・商用利用　可\n・クレジット表記　必要 (VOICEVOX:ずんだもん)\n\n利用規約ページ\nhttps://zunko.jp/con_ongen_kiyaku.html\n\nVOICEVOX\nhttps://voicevox.hiroshiba.jp/\n\n東北ずん子・ずんだもんPJ 公式サイト\nhttps://zunko.jp/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇masterシナリオのBGM\nghost/master/assets/preset/\n　osorawo_osampo.mp3\n　tanoshii_ukagaka.mp3\n以上のファイルはCREEVOで生成した楽曲です。\nダウンミックス・空白カット等は、\nLilyNovelPlayer製作委員会が行いました。\n\n・商用利用　可\n・クレジット表記　不要\n※歌声の入っていないデータの場合\n\n> CREEVOで生成されたメロディーや伴奏は、\n> パブリックドメイン（著作権なし）のデータとして\n> 扱われます。\nhttps://creevo-music.com/usage#copyright\n\n利用規約ページ\nhttps://creevo-music.com/terms-and-conditions/\n\nCREEVO\nhttps://creevo-music.com/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ボイス風効果音・configのサンプル効果音\nghost/master/assets/\n　preset/\n　　sample_se.wav\n　preset_chara/voice/\n　　chara_voice1.wav\n　　chara_voice2.wav\n　　chara_voice_douji.wav\n以上のファイルはChipToneにて生成した音声です。\n\n・商用利用　可\n・クレジット表記　不要\n\nChipToneを使用して作成されたサウンドは、\nCC0ライセンスでライセンスされています。\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nChipTone\nhttps://sfbgames.itch.io/chiptone\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇上記に該当しないゴースト・シェル・バルーン画像\nLilyNovelPlayer製作委員会の作ったものです。\n※追加シナリオや追加アセットなどは該当しません。\n",
-            "summary": "ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン",
-            "date_published": "2026-10-03T00:01:54Z",
-            "date_modified": "2026-10-03T00:02:13Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.5/LilyNovelPlayer.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "LilyNovelPlayer.nar",
-                    "size_in_bytes": 6189199,
-                    "_ex": {
-                        "download_count": 5
                     }
                 }
             ]
@@ -297,7 +363,7 @@
                     "title": "ponyaduma.nar",
                     "size_in_bytes": 923415,
                     "_ex": {
-                        "download_count": 5
+                        "download_count": 6
                     }
                 }
             ]
@@ -331,39 +397,6 @@
                     "size_in_bytes": 1916173,
                     "_ex": {
                         "download_count": 22
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/walk_with_unyu",
-            "url": "https://github.com/lost-nd-xxx/walk_with_unyu",
-            "title": "walk_with_unyu",
-            "content_text": "# 作業応援うにゅう\n\n* 回し車を回すうにゅうが、あなたの作業を応援するゴーストです。\n* 指定されたファイルの保存回数やファイルサイズの増減を見守ります。\n* 見守り対象のファイルが作業中に一定時間更新されなかった場合、保存をおすすめしたりもします。\n\n**製作者**\n\n* 作者 : ろすえん（lost_nd_xxx）\n  * https://lnx.flop.jp/\n\nこのファイルセットは伺か（ukagaka）のゴーストです。\n\n動かすには、SSP（ https://ssp.shillest.net/ ）などのベースウェアが必要です。\n\n## ライセンス\n\n**事前にご相談ください**\n\n* 再配布\n* 改変したものの配布\n\nご連絡は https://lnx.flop.jp/ からお願いします。\n2週間ほど返事がない場合は、連絡が取れなかった旨を明記していただければ、ご判断にお任せします。\n\n**ご自由にどうぞ（出典表記は任意です）**\n\n* スクリーンショットの投稿、動画配信\n* 二次創作（イラスト、小説など）\n  * ただし、このゴーストのファイル（画像・辞書）そのものを含めないでください。\n* 追加シェルの作成と、その配布\n  * `shell/master/surfaces.txt` と `shell/master/surfacetable.txt` に限り、転用・改変を許可します（画像ファイルは含みません）。\n\n### 上の条件が及ぶ範囲\n\nこのゴーストのために作られた部分——辞書の台詞と動作、シェルの画像——は、ろすえん（lost_nd_xxx）が作成したものです。\n\n（テンプレート由来の部分については「同梱物について」をご覧ください）\n\n### 「うにゅう」というキャラクターについて\n\n「うにゅう」は、伺かの原型である「偽春菜（後のMateria）」に登場した相方キャラクターに由来します。このゴーストはその二次創作にあたります。\n\nシェルの画像はテンプレート由来のファイルを含まない自作ですが、キャラクターの概念そのものは借りているものです。\n\n### 同梱物について\n\nこのゴーストには、第三者が作ったファイルが含まれます。**そのまま使う分には、とくに気にする必要はありません。**\n\n再配布や流用をお考えの場合は、それぞれの条件をご確認ください。\n\n| ファイル | 内容 | ライセンス |\n|---|---|---|\n| `ghost/master/yaya.dll` | SHIORI「YAYA」 | 同梱の `readme-yaya.txt` を参照 |\n| `ghost/master/dic/system/` | システム辞書 yaya-dic `https://github.com/YAYA-shiori/yaya-dic` | Public Domain (Unlicense) |\n| `ghost/master/dic/normal/` のうち、テンプレート由来の部分 | 紺野ややめのテンプレート辞書 | Public Domain (Unlicense) |\n\n## クレジット\n\n「YAYA」テンプレートゴースト 紺野ややめ（ https://github.com/YAYA-shiori/konnoyayame ）をもとに作成しました。\n\n**紺野ややめのクレジット**\n\n* original author : umeici\n* change by : ukiya\n* modernized by : ponapalt and contributors\n\n## 開発中のAI利用について\n\nこのゴーストは、AI コーディングエージェント（Claude Code）を用いて開発しました。\n",
-            "summary": "伺かゴースト「作業応援うにゅう」",
-            "date_published": "2026-09-19T09:20:45Z",
-            "date_modified": "2026-09-19T09:20:49Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.0/lnx_walk_with_unyu.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "lnx_walk_with_unyu.nar",
-                    "size_in_bytes": 1278181,
-                    "_ex": {
-                        "download_count": 17
                     }
                 }
             ]
@@ -2007,39 +2040,6 @@
                     "size_in_bytes": 5099837,
                     "_ex": {
                         "download_count": 40
-                    }
-                }
-            ]
-        },
-        {
-            "id": "lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios",
-            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios",
-            "title": "LilyNovelPlayer_Prototype_Scenarios",
-            "content_text": "# りりぷれ ぷろとたいぷ\n![りりぷれ ぷろとたいぷ スクリーンショット](ss_lnp_proto.png \"りりぷれ ぷろとたいぷ スクリーンショット\")\n\n[「Lily Novel Player」](https://github.com/lost-nd-xxx/LilyNovelPlayer/wiki)用サプリメントです。<br>\nLNPへインストールすると、LNP開発中に使われていたプロトタイプシナリオをお楽しみいただけます。<br>\nこのサプリメントに含まれる`.txt`形式のファイルは、著作表記なしで改変再配布可能とします。<br>\n（※ただし、`profile`フォルダ以下を含まない）\n\n## ダウンロード\n* [lostndxxx_prototype.nar](https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/latest/download/lostndxxx_prototype.nar)\n\n## 何かありましたら\n* 責任者：ろすえん(lost_nd_xxx)\n* 連絡先：https://lnx.flop.jp/\n",
-            "summary": "りりぷれ ぷろとたいぷ（「Lily Novel Player」用サプリメント）",
-            "date_published": "2024-05-25T21:33:55Z",
-            "date_modified": "2024-05-25T21:33:57Z",
-            "authors": [
-                {
-                    "name": "lost-nd-xxx",
-                    "url": "https://github.com/lost-nd-xxx",
-                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-shell"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios/releases/download/v1.0.0/lostndxxx_prototype.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "lostndxxx_prototype.nar",
-                    "size_in_bytes": 522012,
-                    "_ex": {
-                        "download_count": 54
                     }
                 }
             ]

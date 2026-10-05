@@ -12,7 +12,34 @@
     <category>ghost</category>
     <dc:creator>JiayuYangX</dc:creator>
     <guid isPermaLink="false">JiayuYangX/sakura-restore</guid>
-    <pubDate>Thu, 03 Sep 2026 18:00:33 +0900</pubDate>
+    <pubDate>Tue, 06 Oct 2026 04:54:12 +0900</pubDate>
+</item>
+<item>
+    <title>LilyNovelPlayer</title>
+    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
+    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
+    <category>ghost</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
+    <pubDate>Sat, 03 Oct 2026 09:02:13 +0900</pubDate>
+</item>
+<item>
+    <title>LilyNovelPlayer_Prototype_Scenarios</title>
+    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</link>
+    <description>りりぷれ ぷろとたいぷ（「Lily Novel Player」用サプリメント）</description>
+    <category>shell</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</guid>
+    <pubDate>Tue, 06 Oct 2026 03:13:25 +0900</pubDate>
+</item>
+<item>
+    <title>walk_with_unyu</title>
+    <link>https://github.com/lost-nd-xxx/walk_with_unyu</link>
+    <description>伺かゴースト「作業応援うにゅう」</description>
+    <category>ghost</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/walk_with_unyu</guid>
+    <pubDate>Tue, 06 Oct 2026 02:54:04 +0900</pubDate>
 </item>
 <item>
     <title>claudia</title>
@@ -40,15 +67,6 @@
     <dc:creator>YAYA-shiori</dc:creator>
     <guid isPermaLink="false">YAYA-shiori/konnoyayame</guid>
     <pubDate>Sun, 04 Oct 2026 10:58:52 +0900</pubDate>
-</item>
-<item>
-    <title>LilyNovelPlayer</title>
-    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer</link>
-    <description>ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン</description>
-    <category>ghost</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer</guid>
-    <pubDate>Sat, 03 Oct 2026 09:02:13 +0900</pubDate>
 </item>
 <item>
     <title>ayalilith</title>
@@ -94,15 +112,6 @@
     <dc:creator>tukinami</dc:creator>
     <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
     <pubDate>Sun, 24 May 2026 12:49:35 +0900</pubDate>
-</item>
-<item>
-    <title>walk_with_unyu</title>
-    <link>https://github.com/lost-nd-xxx/walk_with_unyu</link>
-    <description>伺かゴースト「作業応援うにゅう」</description>
-    <category>ghost</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/walk_with_unyu</guid>
-    <pubDate>Sat, 19 Sep 2026 18:20:49 +0900</pubDate>
 </item>
 <item>
     <title>unyu_lunchbox</title>
@@ -544,15 +553,6 @@
     <dc:creator>Taromati2</dc:creator>
     <guid isPermaLink="false">Taromati2/Taromati2</guid>
     <pubDate>Mon, 07 Sep 2026 11:01:32 +0900</pubDate>
-</item>
-<item>
-    <title>LilyNovelPlayer_Prototype_Scenarios</title>
-    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</link>
-    <description>りりぷれ ぷろとたいぷ（「Lily Novel Player」用サプリメント）</description>
-    <category>shell</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</guid>
-    <pubDate>Sun, 26 May 2024 06:33:57 +0900</pubDate>
 </item>
 <item>
     <title>yomibito_minarai</title>

@@ -10,7 +10,7 @@
 <link rel="help" href="../../about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
-<link rel="alternate" type="application/x-nar" title="sakura-restore" href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" />
+<link rel="alternate" type="application/x-nar" title="sakura-restore" href="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" />
 <link rel="alternate" type="application/x-nar" title="tmidi_msg" href="https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar" />
 </head>
 <body>
@@ -36,21 +36,21 @@
 					<dt class="author">作者名</dt>
 					<dd class="author"><a href="./">JiayuYangX</a></dd>
 					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-09-03T09:00:23Z">2026-09-03 18:00:23</time></dd>
+					<dd class="created"><time datetime="2026-10-05T19:54:08Z">2026-10-06 04:54:08</time></dd>
 					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-09-03T09:00:33Z">2026-09-03 18:00:33</time></dd>
+					<dd class="updated"><time datetime="2026-10-05T19:54:12Z">2026-10-06 04:54:12</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" rel="nofollow" data-filesize="2675.4" data-download_count="36">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FJiayuYangX%2Fsakura-restore%2Freleases%2Fdownload%2F260902%2Ffirst.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/260902/first.nar" rel="nofollow">install</a></p>
+				<p class="download"><a href="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" rel="nofollow" data-filesize="2222.7" data-download_count="0">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FJiayuYangX%2Fsakura-restore%2Freleases%2Fdownload%2F261005%2Ffirst.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="sakura-restore">
 				<h4>readme</h4>
 <pre>
-# さくら（御影樱）人格汉化
+# さくら / 御影樱 人格汉化
 
-本仓库为伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）的汉化工程。文本内容翻译由大模型辅助完成。
+本仓库为伪春菜原基础软件 [MATERIA](http://usada.sakura.vg/) 的内置人格 さくら 的汉化及修复工程。通过修补 DLL 文件，确保其在现代基础软件 [SSP](https://ssp.shillest.net/) 上能够正常运行，并优化多处细节。
 
-![示意图](pic.png)
+![示意图](overview.png)
 
 人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；
 外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。
@@ -64,48 +64,74 @@
 - [SSP](https://ssp.shillest.net/)
 - Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）
 
-## 汉化项目描述
+## 人格介绍
+
+さくら（樱）是第一个伪春菜人格（文件里称为 first）的正式名称，也是「伪春菜」这个名字最初指代的对象。现版使用的短发版形象通常被称为「御影樱」。其配角 うにゅう（乌纽）则是早期人格最常使用的配角形象。
+
+人格修改自 2002 年 6 月 22 日「伺か」项目停止维护前的最后一次版本更新（period 583）。当时尚未形成后来成熟的通用 SHIORI + 辞书文件的形式，人格的所有功能都依靠担任 SHIORI 的 `first.dll` 实现。
+
+## 项目描述
 
 文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。
+
 原配布链接：&lt;http://usada.sakura.vg/&gt;
 
 ### 汉化
 
-该人格的所有文本都被硬编码进 SHIORI（`first.dll`）中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 CODE 段，内置图形界面文本位于 rsrc 段。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。
+该人格的所有文本都被硬编码进 `first.dll` 中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 code 节，内置窗体文本位于 rsrc 节，问答游戏的答案以反转形式存储。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。
 
-另有如环境变量等文本存于 rsrc 段的 **AITXT 资源**（自定义加密：整块反转 + MT19937 密钥流异或，并非压缩）。该算法已完全破解：`aitxt_translated.txt` 的译文由 `patch_dll.py` 重新加密后写回资源本体（早期曾用 `makoto.dll` 翻译器接口运行时替换，现已由静态写回取代）。详见 `docs/AITXT分析文档.md`。
+另有如环境变量等文本存于 rsrc 节的 AITXT 资源，以整块反转 + MT19937 密钥流异或的方式加密存储。早期曾用 `makoto.dll` 翻译器接口运行时替换，现直接将其译文重新加密后静态写回资源本体。详见 `docs/AITXT分析文档.md`。
 
 ### 图片修复
 
-外壳和对话框现均改为使用图片自身透明通道。外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。
+默认外壳和对话框现均改为使用图片自身透明通道。默认外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。
 
-### 兼容性修复
+### 兼容性及遗留问题修复
 
-人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS（932 代码页）字符集变为 GBK（936 代码页），可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。
+人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS / CP932 字符集变为 GBK / CP936，可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。
 
-外壳和对话框在现代高 DPI 显示器上建议使用与系统相同的缩放比例；时钟和提示框未经过 SSP 缩放，可能显得过小。
+本项目通过关键字节替换和新增的 cave 节对 DLL 进行了多轮修补，使其在 SSP 运行时能还原本近乎全部的重要特性，同时还对本来的多项遗留问题进行了修复。修补内容具体如下：
 
-人格编写的时代旧 SHIORI 规范未完全实现 NOTIFY 方法，除部分特殊事件外仍基本使用 GET，`first.dll` 接到 NOTIFY 请求后会直接响应 `400 Bad Request`；现代 SHIORI 规范及 SSP 基础软件在 `caltalk=0` 时 `OnSecondChange` 事件严格使用 NOTIFY 进行通信，`first.dll` 拒绝响应导致状态机卡住，无法自动退出小睡（`mode2`）和入浴（`mode3`）状态，能量值累加也会停摆。
+#### 翻译和替换
 
-故通过两步 DLL 修补解决相关问题：（1）禁用 `0x719E` 处 NOTIFY 的跳转使请求正常处理；（2）`0x79E08` 处 `\![enter,inductionmode]` 字段长度设为 0 取消进入诱导模式。
+- 字符串替换（code、rsrc、字体、问答游戏答案）
+- AITXT替换
+- DFM Font.Charset 替换为 GBK
 
-其余兼容性修复（高 DPI 缩放、退出/重载崩溃、透明窗命中掩码、输入法候选/组字窗、键盘操作、
-菜单与游戏流程等）的实现与验证详见 `docs/` 下的各分析文档。
+#### SHIORI 兼容性修复
 
+- NOTIFY 请求不再返回 400，避免状态机卡死
+- 泡澡/小睡不再进入 InductionMode
 
-## 翻译流程
+#### 链接/锚点修复
 
-1. 运行 `extract2csv.py`（first.dll 字符串）与 `extract_aitxt.py`（AITXT 词库）提取原文
-2. 人工翻译 `translated.csv`（字符串）与 `aitxt_translated.txt`（AITXT 词库）
-3. 运行 `patch_dll.py` 打全量静态补丁（文本 / 兼容 / 链接 / 窗口 / 缩放 / IME / 键盘等）
-4. 部署后测试
+- &#34;海原雄山&#34; 锚点补注册
+- RSS 网页链接打开浏览器
 
-## 环境及工具
+#### 菜单逻辑修复
 
-- MSYS2 + `mingw-w64-i686-gcc`（32 位 MinGW）
-- Python 3.x
-- Real-ESRGAN-nccn-vulkan
-- ImageMagick</pre>
+- 选择菜单、搜索输入框打开、视力检查进行时吞双击事件
+- 进入 PassiveMode 后双击返回缓存菜单
+- 输入框关闭时触发对应空输入
+- 打字、问答游戏退出时关闭输入框、打字窗、视力窗、倒计时
+
+#### 对话替换功能修复
+
+- 打字游戏文本屏蔽替换
+- 重力语修复：对话 + 窗口
+  - 统一进行 `%` `[` `]` 保护（对话逻辑不全，窗口缺失）
+  - 使用映射表模拟 SJIS 替换行为（仅同时存在于 GBK 中的字符）
+
+#### 窗口修复
+
+- 设置、Todo 退出崩溃修复
+- SSP 下窗口键盘操作失效修复
+- 窗口跟随 DPI 缩放 + 衍生问题修复：
+  - 状态栏字体放大修复 + 重影修复
+  - 退出时窗口尺寸保存放大修复 + 卸载时归还
+  - 输入法修复（双门控 + 候选框位置、组字窗位置、组字窗字体大小）
+  - 监控窗（模拟时钟和文字信息窗）非 100% 拖动掩码修复 + 跨 100% 刷新及显隐
+  - 视力窗补 `Scaled=False` 属性</pre>
 			</aside>
 		</article>
 		<article id="JiayuYangX/tmidi_msg" class="hentry">

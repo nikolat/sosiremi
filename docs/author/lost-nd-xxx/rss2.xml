@@ -15,6 +15,24 @@
     <pubDate>Sat, 03 Oct 2026 09:02:13 +0900</pubDate>
 </item>
 <item>
+    <title>LilyNovelPlayer_Prototype_Scenarios</title>
+    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</link>
+    <description>りりぷれ ぷろとたいぷ（「Lily Novel Player」用サプリメント）</description>
+    <category>shell</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</guid>
+    <pubDate>Tue, 06 Oct 2026 03:13:25 +0900</pubDate>
+</item>
+<item>
+    <title>walk_with_unyu</title>
+    <link>https://github.com/lost-nd-xxx/walk_with_unyu</link>
+    <description>伺かゴースト「作業応援うにゅう」</description>
+    <category>ghost</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/walk_with_unyu</guid>
+    <pubDate>Tue, 06 Oct 2026 02:54:04 +0900</pubDate>
+</item>
+<item>
     <title>UGMNavigator_Umechan</title>
     <link>https://github.com/lost-nd-xxx/UGMNavigator_Umechan</link>
     <description>伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」</description>
@@ -31,15 +49,6 @@
     <dc:creator>lost-nd-xxx</dc:creator>
     <guid isPermaLink="false">lost-nd-xxx/UkagakaGhostMessenger</guid>
     <pubDate>Thu, 01 Oct 2026 02:15:51 +0900</pubDate>
-</item>
-<item>
-    <title>walk_with_unyu</title>
-    <link>https://github.com/lost-nd-xxx/walk_with_unyu</link>
-    <description>伺かゴースト「作業応援うにゅう」</description>
-    <category>ghost</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/walk_with_unyu</guid>
-    <pubDate>Sat, 19 Sep 2026 18:20:49 +0900</pubDate>
 </item>
 <item>
     <title>unyu_lunchbox</title>
@@ -175,15 +184,6 @@
     <dc:creator>lost-nd-xxx</dc:creator>
     <guid isPermaLink="false">lost-nd-xxx/kumasan_with_deathplay</guid>
     <pubDate>Sat, 02 Nov 2024 00:19:38 +0900</pubDate>
-</item>
-<item>
-    <title>LilyNovelPlayer_Prototype_Scenarios</title>
-    <link>https://github.com/lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</link>
-    <description>りりぷれ ぷろとたいぷ（「Lily Novel Player」用サプリメント）</description>
-    <category>shell</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/LilyNovelPlayer_Prototype_Scenarios</guid>
-    <pubDate>Sun, 26 May 2024 06:33:57 +0900</pubDate>
 </item>
 </channel>
 </rss>
