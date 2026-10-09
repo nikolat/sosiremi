@@ -33,7 +33,7 @@
                     "title": "claudia.nar",
                     "size_in_bytes": 5390305,
                     "_ex": {
-                        "download_count": 0
+                        "download_count": 5
                     }
                 }
             ]
@@ -593,7 +593,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 268
+                        "download_count": 270
                     }
                 }
             ]
@@ -692,7 +692,7 @@
                     "title": "flele_aya.nar",
                     "size_in_bytes": 3013824,
                     "_ex": {
-                        "download_count": 147
+                        "download_count": 148
                     }
                 }
             ]
@@ -1814,7 +1814,7 @@
                     "title": "party-parrot.nar",
                     "size_in_bytes": 1173834,
                     "_ex": {
-                        "download_count": 122
+                        "download_count": 123
                     }
                 }
             ]
