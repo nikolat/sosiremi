@@ -6,6 +6,51 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>taidanaSanoSan</title>
+    <link>https://github.com/tukinami/taidanaSanoSan</link>
+    <description>伺か雑談系ゴースト</description>
+    <category>ghost</category>
+    <dc:creator>tukinami</dc:creator>
+    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
+    <pubDate>Sun, 11 Oct 2026 13:11:58 +0900</pubDate>
+</item>
+<item>
+    <title>something_like_balloon</title>
+    <link>https://github.com/lost-nd-xxx/something_like_balloon</link>
+    <description>伺かのバルーン集と加工再配布可能なテンプレート</description>
+    <category>balloon</category>
+    <dc:creator>lost-nd-xxx</dc:creator>
+    <guid isPermaLink="false">lost-nd-xxx/something_like_balloon</guid>
+    <pubDate>Sun, 01 Jun 2025 13:15:37 +0900</pubDate>
+</item>
+<item>
+    <title>POST_and_KOMAINU_V2</title>
+    <link>https://github.com/ukatech/POST_and_KOMAINU_V2</link>
+    <description></description>
+    <category>ghost</category>
+    <dc:creator>ukatech</dc:creator>
+    <guid isPermaLink="false">ukatech/POST_and_KOMAINU_V2</guid>
+    <pubDate>Sun, 11 Oct 2026 09:56:39 +0900</pubDate>
+</item>
+<item>
+    <title>ayalilith</title>
+    <link>https://github.com/YAYA-shiori/ayalilith</link>
+    <description>紺野りりす（あやりりす/EXサンプルゴースト）</description>
+    <category>ghost</category>
+    <dc:creator>YAYA-shiori</dc:creator>
+    <guid isPermaLink="false">YAYA-shiori/ayalilith</guid>
+    <pubDate>Sun, 11 Oct 2026 09:52:50 +0900</pubDate>
+</item>
+<item>
+    <title>konnoyayame</title>
+    <link>https://github.com/YAYA-shiori/konnoyayame</link>
+    <description>YAYAのテンプレートゴースト「紺野ややめ」です</description>
+    <category>ghost</category>
+    <dc:creator>YAYA-shiori</dc:creator>
+    <guid isPermaLink="false">YAYA-shiori/konnoyayame</guid>
+    <pubDate>Sun, 11 Oct 2026 09:48:02 +0900</pubDate>
+</item>
+<item>
     <title>claudia</title>
     <link>https://github.com/ponapalt/claudia</link>
     <description></description>
@@ -51,33 +96,6 @@
     <pubDate>Tue, 06 Oct 2026 02:54:04 +0900</pubDate>
 </item>
 <item>
-    <title>POST_and_KOMAINU_V2</title>
-    <link>https://github.com/ukatech/POST_and_KOMAINU_V2</link>
-    <description></description>
-    <category>ghost</category>
-    <dc:creator>ukatech</dc:creator>
-    <guid isPermaLink="false">ukatech/POST_and_KOMAINU_V2</guid>
-    <pubDate>Sun, 04 Oct 2026 15:09:52 +0900</pubDate>
-</item>
-<item>
-    <title>konnoyayame</title>
-    <link>https://github.com/YAYA-shiori/konnoyayame</link>
-    <description>YAYAのテンプレートゴースト「紺野ややめ」です</description>
-    <category>ghost</category>
-    <dc:creator>YAYA-shiori</dc:creator>
-    <guid isPermaLink="false">YAYA-shiori/konnoyayame</guid>
-    <pubDate>Sun, 04 Oct 2026 10:58:52 +0900</pubDate>
-</item>
-<item>
-    <title>ayalilith</title>
-    <link>https://github.com/YAYA-shiori/ayalilith</link>
-    <description>紺野りりす（あやりりす/EXサンプルゴースト）</description>
-    <category>ghost</category>
-    <dc:creator>YAYA-shiori</dc:creator>
-    <guid isPermaLink="false">YAYA-shiori/ayalilith</guid>
-    <pubDate>Fri, 02 Oct 2026 05:26:20 +0900</pubDate>
-</item>
-<item>
     <title>UGMNavigator_Umechan</title>
     <link>https://github.com/lost-nd-xxx/UGMNavigator_Umechan</link>
     <description>伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」</description>
@@ -103,15 +121,6 @@
     <dc:creator>ponapalt</dc:creator>
     <guid isPermaLink="false">ponapalt/ponyaduma</guid>
     <pubDate>Mon, 28 Sep 2026 16:18:11 +0900</pubDate>
-</item>
-<item>
-    <title>taidanaSanoSan</title>
-    <link>https://github.com/tukinami/taidanaSanoSan</link>
-    <description>伺か雑談系ゴースト</description>
-    <category>ghost</category>
-    <dc:creator>tukinami</dc:creator>
-    <guid isPermaLink="false">tukinami/taidanaSanoSan</guid>
-    <pubDate>Sun, 24 May 2026 12:49:35 +0900</pubDate>
 </item>
 <item>
     <title>unyu_lunchbox</title>
@@ -211,15 +220,6 @@
     <dc:creator>tukinami</dc:creator>
     <guid isPermaLink="false">tukinami/doll_at_the_bay_window</guid>
     <pubDate>Sun, 17 May 2026 10:55:31 +0900</pubDate>
-</item>
-<item>
-    <title>something_like_balloon</title>
-    <link>https://github.com/lost-nd-xxx/something_like_balloon</link>
-    <description>伺かのバルーン集と加工再配布可能なテンプレート</description>
-    <category>balloon</category>
-    <dc:creator>lost-nd-xxx</dc:creator>
-    <guid isPermaLink="false">lost-nd-xxx/something_like_balloon</guid>
-    <pubDate>Sun, 01 Jun 2025 13:15:37 +0900</pubDate>
 </item>
 <item>
     <title>flele_aya</title>
