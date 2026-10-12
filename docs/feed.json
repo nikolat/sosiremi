@@ -33,7 +33,7 @@
                     "title": "first.nar",
                     "size_in_bytes": 2276210,
                     "_ex": {
-                        "download_count": 1
+                        "download_count": 2
                     }
                 }
             ]
@@ -231,7 +231,7 @@
                     "title": "claudia.nar",
                     "size_in_bytes": 5390305,
                     "_ex": {
-                        "download_count": 9
+                        "download_count": 10
                     }
                 }
             ]
@@ -2103,7 +2103,7 @@
                     "title": "Bouyomi.nar",
                     "size_in_bytes": 2959159,
                     "_ex": {
-                        "download_count": 660
+                        "download_count": 663
                     }
                 }
             ]
