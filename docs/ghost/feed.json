@@ -330,7 +330,7 @@
                     "title": "first.nar",
                     "size_in_bytes": 2276497,
                     "_ex": {
-                        "download_count": 10
+                        "download_count": 12
                     }
                 }
             ]
@@ -769,7 +769,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 297
+                        "download_count": 299
                     }
                 }
             ]
