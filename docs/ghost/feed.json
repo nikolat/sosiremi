@@ -6,6 +6,710 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "lost-nd-xxx/LilyNovelPlayer",
+            "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer",
+            "title": "LilyNovelPlayer",
+            "content_text": "────────────────────────\n●「Lily Novel Player」について\n────────────────────────\nリリー・ノベル・プレイヤー……略して「LNP」！\nこれは、ノベルゲームを作れる枠組み的な\nゴースト＆シェル＆バルーンです。\nLilyNovelPlayer製作委員会がお送りします。\n\n────────────────────────\n◎ゴーストの使用方法\n────────────────────────\n・シェルを切り替えると、\nゲームタイトルが切り替わります。\n・その他、詳しくはmasterシェルのreadme.txtを\nお読みください。\n\n────────────────────────\n◎AIの利用について\n────────────────────────\n・2026年10月の更新（里々 Unicode 版への対応）から、\n開発の一部にAI（AnthropicのClaude）を利用しています。\n辞書の修正や不具合の調査、マニュアルの文章、\n動作確認用の道具などに使いました。\nAIによる変更は、すべてろすえんが内容を確認し、\nSSPで動作を確かめてから取り込んでいます。\n・同梱素材のうち、configのサンプルボイスは音声合成ソフト\n「VOICEVOX」で、masterシナリオのBGMは自動作曲サービス\n「CREEVO」で作ったものです。\n詳しくは下の「使用素材とそのライセンスまとめ」と、\n各ツールの公式サイトをご覧ください。\n・画像と効果音はAIによらない素材です。\nただし、 ghost/master/scenarios/master/resources/bg_desktop.png は、\n写真を加工する際に、画像編集ソフトのAI機能\n（背景の自動認識・範囲の選択）を使っています。\n\n────────────────────────\n◎使用素材とそのライセンスまとめ\n────────────────────────\n○里々\nghost/master/satori.dll\n以上のファイルは里々/整備班カスタムです。\n\n里々/整備班カスタム\nhttps://github.com/ukatech/satoriya-shiori\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ファイルセット内画像のフォント\nthumbnail.png\nghost/master/\n　assets/preset/\n　　clickwait.png\n　　gallery_locked.png\n　　menu_backlog.png\n　　menu_config.png\n　　menu_gallery.png\n　　menu_load.png\n　　menu_save.png\n　　nowloading.png\n　　ownerdraw_sidebar.png\n　　resumewindow.png\n　scenarios/master/resources/\n　　Number001.png\n　　Number002.png\n　　Number003.png\n　　Number004.png\n　　Number005.png\n　　Number006.png\n　　Number007.png\n　　Number008.png\n　　Number009.png\n　　Number010.png\n　　bg_desktop.png\n　　nowloading.png\nshell/master/\n　thumbnail.png\n　title1.png\n　title2.png\nLilyNovelPlayerBallon/\n　balloonc0.png\n　balloons2.png\n　balloons3.png\n　cancel_down.png\n　cancel_up.png\n　ok_down.png\n　ok_up.png\n　online.png\ntest_supplement/\n　shell/LilyNovelPlayer_test/\n　　title1.png\n　LilyNovelPlayerBallon_test/\n　　online.png\n　　balloonc0.png\n　　balloons2.png\n　　balloons3.png\n　　cancel_down.png\n　　cancel_up.png\n　　ok_down.png\n　　ok_up.png\nこれらの文字のフォントについて列挙します。\n\n・Halimun\nhttps://creatypestudio.co/halimun/\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・MS UI Gothic\nhttps://learn.microsoft.com/en-us/typography/font-list/ms-gothic#licensing-and-redistribution-info\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n・Noto Serif JP\nhttps://fonts.google.com/noto/specimen/Noto+Serif+JP?query=Noto+Serif+JP\n※Open Font License\n\n・Noto Sans JP\nhttps://fonts.google.com/noto/specimen/Noto+Sans+JP?query=Noto+Sans+JP\n※Open Font License\n\n・Murecho\nhttps://fonts.google.com/specimen/Murecho\n※Open Font License\n\n※Open Font Licenseのフォントについて\nフォントファイルを再配布しない場合、\nクレジット表記不要とされています。\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇configのサンプルボイス\nghost/master/assets/preset/\n　sample_voice.wav\n以上のファイルはずんだもんの音声ライブラリと、\nVOICEVOXを用いて生成した音声です。\n\n・商用利用　可\n・クレジット表記　必要 (VOICEVOX:ずんだもん)\n\n利用規約ページ\nhttps://zunko.jp/con_ongen_kiyaku.html\n\nVOICEVOX\nhttps://voicevox.hiroshiba.jp/\n\n東北ずん子・ずんだもんPJ 公式サイト\nhttps://zunko.jp/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇masterシナリオのBGM\nghost/master/assets/preset/\n　osorawo_osampo.mp3\n　tanoshii_ukagaka.mp3\n以上のファイルはCREEVOで生成した楽曲です。\nダウンミックス・空白カット等は、\nLilyNovelPlayer製作委員会が行いました。\n\n・商用利用　可\n・クレジット表記　不要\n※歌声の入っていないデータの場合\n\n> CREEVOで生成されたメロディーや伴奏は、\n> パブリックドメイン（著作権なし）のデータとして\n> 扱われます。\nhttps://creevo-music.com/usage#copyright\n\n利用規約ページ\nhttps://creevo-music.com/terms-and-conditions/\n\nCREEVO\nhttps://creevo-music.com/\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇ボイス風効果音・configのサンプル効果音\nghost/master/assets/\n　preset/\n　　sample_se.wav\n　preset_chara/voice/\n　　chara_voice1.wav\n　　chara_voice2.wav\n　　chara_voice_douji.wav\n以上のファイルはChipToneにて生成した音声です。\n\n・商用利用　可\n・クレジット表記　不要\n\nChipToneを使用して作成されたサウンドは、\nCC0ライセンスでライセンスされています。\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.ja\n\nChipTone\nhttps://sfbgames.itch.io/chiptone\n\n－－－－－－－－－－－－－－－－－－－－－－－－\n〇上記に該当しないゴースト・シェル・バルーン画像\nLilyNovelPlayer製作委員会の作ったものです。\n※追加シナリオや追加アセットなどは該当しません。\n",
+            "summary": "ノベルゲームを作れる枠組み的なゴースト＆シェル＆バルーン",
+            "date_published": "2026-10-03T00:01:54Z",
+            "date_modified": "2026-10-03T00:02:13Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.5/LilyNovelPlayer.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "LilyNovelPlayer.nar",
+                    "size_in_bytes": 6189199,
+                    "_ex": {
+                        "download_count": 21
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/UGMNavigator_Umechan",
+            "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan",
+            "title": "UGMNavigator_Umechan",
+            "content_text": "UkagakaGhostMessengerナビゲーターうめちゃん\n～～～～\nUkagakaGhostMessengerのナビゲートをするゴーストです。\nスクリプトの作成補助、プラグインの内容の簡易解説などをします。\n\n制作者: ろすえん(lost_nd_xxx)\n連絡先: http://lnx.flop.jp/\n\n～～～～\n＃対応するUkagakaGhostMessenger\n\nUkagakaGhostMessenger 2.0.1 の仕様に合わせています。\nhttps://github.com/lost-nd-xxx/UkagakaGhostMessenger\n\n～～～～\n＃開発中のAI利用について\n\nこのゴーストの開発の一部には、AIコーディングエージェント（Claude）を用いています。\n\n～～～～\n＃利用モジュール等\n\n＊YAYA\nhttps://ms.shillest.net/yaya.xhtml\n\n＊紺野ややめ\nhttps://ms.shillest.net/yayame.xhtml\n\n＊紺野りりす\nhttps://ms.shillest.net/yayalilith.xhtml\n\n＊textcopy2.dll\nhttps://code.google.com/archive/p/csaori/\n\n＊うめちゃんのイラスト\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\n・にじジャーニー\nhttps://nijijourney.com/ja/\n・にじジャーニー利用規約\nhttps://docs.midjourney.com/docs/terms-of-service\n\n＊活用例プリセットに入っている和菓子\nろすえんが描いたものです。\n",
+            "summary": "伺かゴースト「UkagakaGhostMessengerナビゲーターうめちゃん」",
+            "date_published": "2026-09-30T19:57:41Z",
+            "date_modified": "2026-09-30T19:57:45Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/UGMNavigator_Umechan/releases/download/1.0.4/UGMNavigator_Umechan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "UGMNavigator_Umechan.nar",
+                    "size_in_bytes": 756259,
+                    "_ex": {
+                        "download_count": 6
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/walk_with_unyu",
+            "url": "https://github.com/lost-nd-xxx/walk_with_unyu",
+            "title": "walk_with_unyu",
+            "content_text": "# 作業応援うにゅう\n\n* 回し車を回すうにゅうが、あなたの作業を応援するゴーストです。\n* 指定されたファイルの保存回数やファイルサイズの増減を見守ります。\n* 見守り対象のファイルが作業中に一定時間更新されなかった場合、保存をおすすめしたりもします。\n\n**製作者**\n\n* 作者 : ろすえん（lost_nd_xxx）\n  * https://lnx.flop.jp/\n\nこのファイルセットは伺か（ukagaka）のゴーストです。\n\n動かすには、SSP（ https://ssp.shillest.net/ ）などのベースウェアが必要です。\n\n## ライセンス\n\n**事前にご相談ください**\n\n* 再配布\n* 改変したものの配布\n\nご連絡は https://lnx.flop.jp/ からお願いします。\n2週間ほど返事がない場合は、連絡が取れなかった旨を明記していただければ、ご判断にお任せします。\n\n**ご自由にどうぞ（出典表記は任意です）**\n\n* スクリーンショットの投稿、動画配信\n* 二次創作（イラスト、小説など）\n  * ただし、このゴーストのファイル（画像・辞書）そのものを含めないでください。\n* 追加シェルの作成と、その配布\n  * `shell/master/surfaces.txt` と `shell/master/surfacetable.txt` に限り、転用・改変を許可します（画像ファイルは含みません）。\n\n### 上の条件が及ぶ範囲\n\nこのゴーストのために作られた部分——辞書の台詞と動作、シェルの画像——は、ろすえん（lost_nd_xxx）が作成したものです。\n\n（テンプレート由来の部分については「同梱物について」をご覧ください）\n\n### 「うにゅう」というキャラクターについて\n\n「うにゅう」は、伺かの原型である「偽春菜（後のMateria）」に登場した相方キャラクターに由来します。このゴーストはその二次創作にあたります。\n\nシェルの画像はテンプレート由来のファイルを含まない自作ですが、キャラクターの概念そのものは借りているものです。\n\n### 同梱物について\n\nこのゴーストには、第三者が作ったファイルが含まれます。**そのまま使う分には、とくに気にする必要はありません。**\n\n再配布や流用をお考えの場合は、それぞれの条件をご確認ください。\n\n| ファイル | 内容 | ライセンス |\n|---|---|---|\n| `ghost/master/yaya.dll` | SHIORI「YAYA」 | 同梱の `readme-yaya.txt` を参照 |\n| `ghost/master/dic/system/` | システム辞書 yaya-dic `https://github.com/YAYA-shiori/yaya-dic` | Public Domain (Unlicense) |\n| `ghost/master/dic/normal/` のうち、テンプレート由来の部分 | 紺野ややめのテンプレート辞書 | Public Domain (Unlicense) |\n\n## クレジット\n\n「YAYA」テンプレートゴースト 紺野ややめ（ https://github.com/YAYA-shiori/konnoyayame ）をもとに作成しました。\n\n**紺野ややめのクレジット**\n\n* original author : umeici\n* change by : ukiya\n* modernized by : ponapalt and contributors\n\n**効果音**\n\n`ghost/master/sound/` の効果音は、ChipTone（ https://sfbgames.itch.io/chiptone ）で作成しました。\n\n## 開発中のAI利用について\n\nこのゴーストは、AI コーディングエージェント（Claude Code）を用いて開発しました。\n",
+            "summary": "伺かゴースト「作業応援うにゅう」",
+            "date_published": "2026-10-05T17:53:57Z",
+            "date_modified": "2026-10-05T17:54:04Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/walk_with_unyu/releases/download/v1.0.1/lnx_walk_with_unyu.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "lnx_walk_with_unyu.nar",
+                    "size_in_bytes": 1896353,
+                    "_ex": {
+                        "download_count": 12
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ukatech/POST_and_KOMAINU_V2",
+            "url": "https://github.com/ukatech/POST_and_KOMAINU_V2",
+            "title": "POST_and_KOMAINU_V2",
+            "content_text": "\nSHIORI/3.0対応DLL『里々（さとり）』\nと\nそのサンプルゴースト『ポストと狛犬』\n\n\n　satori.dllは、一定の条件に従って自由に再配布することができます。\n　詳細は ghost\\master にある satori_lisence.txt を参照してください。\n　\n　「ポストと狛犬」のサンプルスクリプトについては著作権を放棄します。\n　ご自由にお使いください。\n　\n\n\n作成・配布者　櫛ヶ浜やぎ\n連絡先　　　　tako@xq.chu.jp\n一次配布元　　http://www.geocities.co.jp/SiliconValley-Cupertino/8536/\n",
+            "summary": "",
+            "date_published": "2026-10-26T01:32:41Z",
+            "date_modified": "2026-10-26T01:32:41Z",
+            "authors": [
+                {
+                    "name": "ukatech",
+                    "url": "https://github.com/ukatech",
+                    "avatar": "https://avatars.githubusercontent.com/u/93071945?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ukatech/POST_and_KOMAINU_V2/releases/download/40254712866/POST_and_KOMAINU_V2.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "POST_and_KOMAINU_V2.nar",
+                    "size_in_bytes": 975148,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/ayalilith",
+            "url": "https://github.com/YAYA-shiori/ayalilith",
+            "title": "ayalilith",
+            "content_text": "# テンプレートゴースト あやりりすEX（紺野りりす）\n\n- original author : C.Ponapalt\n- changed by : Couperin, Minaduki-ran\n- 20121101 / YAYA version Tc543-1（最初の版の記録）\n\nフリーシェル「silencer girl」（mkbt 作）を使っています。\n\n# GitHubからダウンロードする方へ\n\nGitHubのプロジェクトページ\n\nhttps://github.com/YAYA-shiori/ayalilith\n\nからダウンロードしようとしている方は、右横のReleasesからダウンロードしてください。\n\nこのリポジトリをzipで取得しても不完全です。\n\n# 改造のしかた\n\nあやりりすEX は、SHIORI「YAYA」で自分のゴーストを作るための土台（テンプレート）です。辞書を編集して、自分のゴーストを作ってください。\n\n## 手で編集する\n\n- 辞書の本体は `ghost/master/dic/normal/` にある `.txt` ファイルです。文字コードは UTF-8（BOM なし）です。\n- どのファイルに何が書いてあるか（ランダムトーク、起動・終了、マウスへの反応、メニューなど）、キャラクターと使えるサーフェス番号、トークの書き方の決まりは、[GHOST.md](GHOST.md) にまとめてあります。\n- 詳しい仕様は、次を見てください。\n  - YAYA の文法と関数: yaya-docs（https://yaya-shiori.github.io/yaya-docs/ ）\n  - さくらスクリプト、SHIORI イベント、設定ファイル: UKADOC（https://ssp.shillest.net/ukadoc/manual/ ）\n- 辞書にエラーがあると、ゴーストは緊急モードで起動し、ほとんど話さなくなります。\n- シェル（`shell/master/`）は、フリーシェル「silencer girl」（mkbt 作）です。作者名（`shell/master/descript.txt` の `craftman`）は残してください。ライセンスの詳細は [GHOST.md](GHOST.md) の「ライセンス」にあります。\n\n## AI エージェントで開発する\n\nAI コーディングエージェント（Claude Code、Codex など）で開発するときは、スキル [ukagaka-developer](https://github.com/ukatech/ukagaka-developer) が使えます。このゴーストの SHIORI（YAYA）に合わせて、辞書の書き方、エラーのチェック、SSP での動作確認、シェル画像の編集、nar の作成、SHIORI の更新を手伝ってくれます。スキルは、このフォルダの外に入ります。\n\nClaude Code の場合は、このフォルダで次を実行して、Claude Code を開き直します。\n\n```\nclaude plugin marketplace add ukatech/ukagaka-developer\nclaude plugin install ukagaka-developer --scope project\n```\n\nCodex など、ほかのエージェントでの入れ方と、使い方は、[ukagaka-developer の README](https://github.com/ukatech/ukagaka-developer#readme) にあります。入れたら、「セットアップして」と頼んでください。ゴーストに固有の情報は、リポジトリの [GHOST.md](GHOST.md) にまとめてあります。\n\n# ライセンス\n\n- 辞書: Public Domain (Unlicense)\n- シェル: フリーシェル「silencer girl」（mkbt 作）。改変の有無にかかわらず作者名を隠す、または変えての再配布はできません。詳しくは [GHOST.md](GHOST.md) の「ライセンス」を見てください。\n",
+            "summary": "紺野りりす（あやりりす/EXサンプルゴースト）",
+            "date_published": "2026-10-25T11:13:08Z",
+            "date_modified": "2026-10-25T11:13:08Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/ayalilith/releases/download/40187920708/ayalilith.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ayalilith.nar",
+                    "size_in_bytes": 1337401,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/konnoyayame",
+            "url": "https://github.com/YAYA-shiori/konnoyayame",
+            "title": "konnoyayame",
+            "content_text": "# テンプレートゴースト 紺野ややめ\n\n- original author : umeici\n- change by : ukiya\n- modernized by : ponapalt and contributors\n\nhttps://ms.shillest.net/yayame.xhtml\n\n# GitHubからダウンロードする方へ\n\nGitHubのプロジェクトページ\n\nhttps://github.com/YAYA-shiori/konnoyayame\n\nからダウンロードしようとしている方は、右横のReleasesからダウンロードしてください。\n\nこのリポジトリをzipで取得しても不完全です。\n\n# 改造のしかた\n\n紺野ややめは、SHIORI「YAYA」で自分のゴーストを作るための土台（テンプレート）です。辞書を編集して、自分のゴーストを作ってください。\n\n## 手で編集する\n\n- 辞書の本体は `ghost/master/dic/normal/` にある `.dic` ファイルです。文字コードは UTF-8（BOM なし）です。\n- どのファイルに何が書いてあるか（ランダムトーク、起動・終了、マウスへの反応、メニューなど）、キャラクターと使えるサーフェス番号、トークの書き方の決まりは、[GHOST.md](GHOST.md) にまとめてあります。\n- 詳しい仕様は、次を見てください。\n  - YAYA の文法と関数: yaya-docs（https://yaya-shiori.github.io/yaya-docs/ ）\n  - さくらスクリプト、SHIORI イベント、設定ファイル: UKADOC（https://ssp.shillest.net/ukadoc/manual/ ）\n- 辞書にエラーがあると、ゴーストは緊急モードで起動し、ほとんど話さなくなります。\n- シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です。画像を改変したものは配布できません。\n- 自分のゴーストとして配布するときに変えるところ（名前、作者、インストール先、ネットワーク更新の URL など）は、[GHOST.md](GHOST.md) の「テンプレートから独立させるときの追加項目」にチェックリストがあります。\n\n## AI エージェントで開発する\n\nAI コーディングエージェント（Claude Code、Codex など）で開発するときは、スキル [ukagaka-developer](https://github.com/ukatech/ukagaka-developer) が使えます。このゴーストの SHIORI（YAYA）に合わせて、辞書の書き方、エラーのチェック、SSP での動作確認、シェル画像の編集、nar の作成、SHIORI の更新を手伝ってくれます。スキルは、このフォルダの外に入ります。\n\nClaude Code の場合は、このフォルダで次を実行して、Claude Code を開き直します。\n\n```\nclaude plugin marketplace add ukatech/ukagaka-developer\nclaude plugin install ukagaka-developer --scope project\n```\n\nCodex など、ほかのエージェントでの入れ方と、使い方は、[ukagaka-developer の README](https://github.com/ukatech/ukagaka-developer#readme) にあります。入れたら、「セットアップして」と頼んでください。ゴーストに固有の情報は、リポジトリの [GHOST.md](GHOST.md) にまとめてあります。\n\n# ライセンス\n\nPublic Domain (Unlicense)\n\n煮るなり焼くなり好きにしてください。\n\nただし、シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です（`shell/master/descript.txt` を参照）。\n",
+            "summary": "YAYAのテンプレートゴースト「紺野ややめ」です",
+            "date_published": "2026-10-25T11:13:07Z",
+            "date_modified": "2026-10-25T11:13:08Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/konnoyayame/releases/download/40187916085/konnoyayame.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "konnoyayame.nar",
+                    "size_in_bytes": 1284034,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "tukinami/taidanaSanoSan",
+            "url": "https://github.com/tukinami/taidanaSanoSan",
+            "title": "taidanaSanoSan",
+            "content_text": " 怠惰な佐野さん\r\n============================================================\r\n面倒くさがりな少年「佐野 伊織」と、猫又の「きぬ」の\r\n雑談系ゴーストです。\r\n\r\n満腹度によって、わずかばかりトークが増減します。\r\nまた、ユーザーがおやつをあげることもできます。\r\n\r\n(トークの内容について、不正確な内容も含まれるかと思います。\r\n引用等につきましては、その点ご注意下さい。)\r\n\r\n追加シェル「master-s」(小さなドット絵シェル)、\r\nバルーン「怠惰な猫の青い石」を同梱してます。\r\n\r\n\r\n基本的な操作\r\n============================================================\r\nゴースト上でダブルクリックすると、メニューが出ます。\r\nこのゴーストの設定・おやつなどはここからどうぞ。\r\n\r\n\r\n切り替え反応に対応しているゴーストさん(順不同)\r\n============================================================\r\n←: 「怠惰な佐野さん」からそのゴーストへ\r\n→: そのゴーストから「怠惰な佐野さん」へ\r\n\r\n←→「ドラゴンリーダー」by netai98 さん : https://cherry.narnaloader.ukagaka.net/ghost.php?ghost=doragonleader\r\n←→「将人withアリサ」 by 池永マサモト さん : https://2662.tyabo.com\r\n←→「ロスト・ユー・サムウェア」 by あーるでぃー さん : https://earlduant.blog.fc2.com\r\n←→「餓我 -ガガ-」 by ジェム バロン さん : https://wgarden.sakura.ne.jp/Ghost/Ruby/\r\n←→「Adaptation」by 墨鼠 さん : https://prayfortiny.net/\r\n←→「チョコレイトボックス」by 小戸らでく さん : https://nekoorinu.monster\r\n\r\n\r\n対応プラグイン\r\n============================================================\r\n・SwissArmyKnife\r\n・スタンプ帳\r\n    http://navy.nm.land.to/post/\r\n・GetWindowTitle\r\n    https://github.com/ambergon/ukagakaPlugin_getWindowTitle\r\n・MailBox\r\n    https://github.com/ambergon/ukagakaPlugin_mailBox\r\n・Inventory\r\n    https://github.com/ambergon/ukagakaPlugin_Inventory\r\n\r\n\r\nバグ報告など\r\n============================================================\r\nバグ報告・感想などは、現在、\r\n・Wavebox\r\n    (https://wavebox.me/wave/ersk1ec23kr3hrqr/)\r\nまたは、\r\n・Mastodon\r\n    (fedibird: https://fedibird.com/@tukinami_seika)\r\n    (うかどん: https://ukadon.shillest.net/@tukinami_seika)\r\n・X(旧Twitter)\r\n    (@tukinami_s)\r\nでのDM、リプライで受け付けています。\r\n\r\nバグ報告については\r\nGitHubのIssues(https://github.com/tukinami/taidanaSanoSan/issues)\r\nでも受け付けています。\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n使用しているものについて\r\n============================================================\r\nYAYA(SHIORI)\r\nhttps://github.com/ponapalt/yaya-shiori/wiki\r\n紺野ややめ(テンプレートゴースト)\r\nhttp://ms.shillest.net/yayame.xhtml\r\n\r\n\r\n謝辞\r\n============================================================\r\nEmily/Phase4.5\r\nCopyright (C) 2004- Emily/Phase4.5 Project.\r\nhttp://ssp.shillest.net/\r\nゴースト作成において大変参考にさせていただきました。\r\nありがとうございます。\r\n\r\n\r\nゴーストの二次創作ガイドライン/ライセンス(2024-04-18現在)\r\n============================================================\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/taidanaSanoSan\r\n",
+            "summary": "伺か雑談系ゴースト",
+            "date_published": "2026-10-11T04:11:55Z",
+            "date_modified": "2026-10-11T04:11:58Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/taidanaSanoSan/releases/download/v1.23.0/taidanaSanoSan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "taidanaSanoSan.nar",
+                    "size_in_bytes": 2517974,
+                    "_ex": {
+                        "download_count": 10
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/unyu_lunchbox",
+            "url": "https://github.com/lost-nd-xxx/unyu_lunchbox",
+            "title": "unyu_lunchbox",
+            "content_text": "※効果音が鳴ります。\n適宜、機器の設定を調整してお楽しみください。\n\n\n# ゴースト「うにゅうのお弁当箱」\n作者   : ろすえん(lost_nd_xxx)\n連絡先 : https://lnx.flop.jp/\n\n\n----------------------------------------------------------------\n## 使い方\n\n* イラストまたはタスクトレイアイコンの上で右クリック\n    * 本体機能などのメニュー\n* 生き物の体をダブルクリック\n    * 「うにゅうのお弁当箱」独自のメニュー\n* 生き物の頭部をダブルクリックorなでなで\n    * 何らかの反応\n* ボタンをシングルクリック\n    * 射出\n\n※射出物として指定されたファイルへの変更は加えませんが、\n起動してはいけないようなファイルは指定しないでください。\n\n\n----------------------------------------------------------------\n## 使用素材・ライブラリ\n\n* YAYA(SHIORI)\n    http://ms.shillest.net/yaya.xhtml\n\n* はろーYAYAわーるど(テンプレート辞書)\n    http://ms.shillest.net/yayame.xhtml\n\n* シェルの絵(shell/master/surface0.png～surface6.png)\n    颯爽と現れたレプラコーンさんが描いてくださったものです。\n    （txt定義等はろすえんによるものです）\n\n* CHIPTONE(効果音を作るために使用したツール)\n    https://sfbgames.itch.io/chiptone\n    生成された音声ファイルはCC0ライセンスで提供されています。\n\n* textcopy2.dll(クリップボード操作)\n    https://code.google.com/archive/p/csaori/\n    ※ライセンス原文は ghost/master/resource/textcopy2/license.txt に同梱してあります。\n\n\n----------------------------------------------------------------\n## 偉大なる始祖\n\n* さくらとうにゅう(materia)\n    http://usada.sakura.vg/\n",
+            "summary": "ゴースト「うにゅうのお弁当箱」",
+            "date_published": "2026-04-22T12:44:47Z",
+            "date_modified": "2026-04-22T12:44:51Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/unyu_lunchbox/releases/download/1.0.1/lnx_unyu_lunchbox.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "lnx_unyu_lunchbox.nar",
+                    "size_in_bytes": 811238,
+                    "_ex": {
+                        "download_count": 24
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/ukaclock",
+            "url": "https://github.com/lost-nd-xxx/ukaclock",
+            "title": "ukaclock",
+            "content_text": "ゴースト「うかくろっく」\r\n作者：ろすえん(lost_nd_xxx)\r\n連絡先： https://lnx.flop.jp/\r\n----------------------------------------------------------------\r\n＊使い方\r\n時計またはタスクトレイアイコンの上で右クリック：\r\n　　本体機能などのメニュー\r\n時計またはタスクトレイアイコンの上でダブルクリック：\r\n　　うかくろっく独自のメニュー\r\n\r\n＊独自メニュー項目に関する簡易解説\r\n・キッチンタイマー\r\n単純なカウントダウンをするタイマーです。\r\n設定された時刻になった時、OS通知or音orバルーンでお知らせします。\r\n「繰り返し」が「あり」になっていると、カウントダウン終了後に再度同じ時間をカウントダウンします。\r\n\r\n・ポモドーロタイマー\r\n「ポモドーロ・テクニック」という時間管理術に基づくタイマーの開始と設定が行えます。\r\n「ポモドーロ・テクニック」について詳しくは付記URLの記事をお読みください。\r\nhttps://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AD%E3%83%BB%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF\r\n\r\n・アラーム\r\n一日ごとの設定された時刻になった時、OS通知or音orバルーンでお知らせする機能です。\r\n「繰り返し」が「なし」になっていると、通知後に該当の設定が無効へ変更されます。\r\n\r\n・時報\r\n一時間ごとの設定された分になった時、OS通知or音orバルーンでお知らせする機能です。\r\n「繰り返し」が「なし」になっていると、通知後に該当の設定が無効へ変更されます。\r\n\r\n※アラームと時報が同一の時刻に有効である場合\r\nアラーム→時報、という順番で鳴動または通知、になります。\r\n同じ時刻のアラームや時報を複数個有効にすることはできません。\r\n\r\n＊秒表示について\r\n基本的には、秒単位の表示はされません。\r\nシェル名に「seconds」が含まれている、またはシェルのフォルダ名の末尾が「_seconds」である場合、\r\nゴースト本体が秒表示対応の動作に切り替わります。\r\n\r\n＊アナログ表示について\r\nシェル名またはシェルフォルダ名に「analog」が含まれていれば、ゴースト本体がアナログ表示対応の動作に切り替わります。\r\n秒表示対応とは共存します。\r\n\r\n＊注意事項\r\nうかくろっく独自のメニューを出している最中やインストールなどの操作中は、以下の事柄が起こる可能性があります。\r\n・時刻表示の遅延/ずれ/乱れ\r\n・アラームや時報などの通知が遅れる/行われない/飛ばされる\r\n\r\n秒表示対応シェルにて、時刻表示のずれや飛びがしばしばあります。\r\nバルーンが消えている状態で1〜2秒の内に補正される時刻ずれについては、仕様とさせていただきます。\r\n（それ以外の表示乱れがある場合、ゴースト作者までご連絡いただけると助かります）\r\n----------------------------------------------------------------\r\n＊追加シェル作成について\r\n大歓迎です。\r\nシェル側のreadmeにも情報がありますので、ご確認くださいませ。\r\n\r\n※ネットワーク更新をするとシェルフォルダ「master」と「digital」は配布している最新のファイルと同じ状態になります。\r\n個人的な画像差し替えや追加シェル作成配布の際はフォルダを別にすることを強く推奨します。\r\n----------------------------------------------------------------\r\n＊AI利用について\r\n追加シェル作成ガイド（GitHubリポジトリのdocsフォルダ）は、AI（Claude Code）の補助を受けて作成しました。\r\nゴーストの一部の修正にも、AIの補助を利用しています。\r\nいずれも、内容は作者が確認し、責任を負います。\r\nhttps://github.com/lost-nd-xxx/ukaclock\r\n----------------------------------------------------------------\r\n＊謝辞\r\n・SHIORIにYAYAを使用させていただいています。\r\nhttp://ms.shillest.net/yayalilith.xhtml\r\n\r\n・テンプレート辞書に「はろーYAYAわーるど」を使用させていただいています。\r\nhttp://ms.shillest.net/yayame.xhtml\r\n",
+            "summary": "「うかくろっく」/追加シェル歓迎の時計ゴースト",
+            "date_published": "2026-10-22T02:25:02Z",
+            "date_modified": "2026-10-22T02:25:04Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/ukaclock/releases/download/1.0.2/digital_seconds.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "digital_seconds.nar",
+                    "size_in_bytes": 15464,
+                    "_ex": {
+                        "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "JiayuYangX/sakura-restore",
+            "url": "https://github.com/JiayuYangX/sakura-restore",
+            "title": "sakura-restore",
+            "content_text": "# さくら / 御影樱 人格汉化\n\n本仓库为伪春菜原基础软件 [MATERIA](http://usada.sakura.vg/) 的内置人格 さくら 的汉化及修复工程。通过修补 DLL 文件，确保其在现代基础软件 [SSP](https://ssp.shillest.net/) 上能够正常运行，并优化多处细节。\n\n![示意图](overview.png)\n\n人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；\n外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。\n\n## 安装方法\n\n从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。\n\n## 必要环境\n\n- [SSP](https://ssp.shillest.net/)\n- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）\n\n## 人格介绍\n\nさくら（樱）是第一个伪春菜人格（文件里称为 first）的正式名称，也是「伪春菜」这个名字最初指代的对象。现版使用的短发版形象通常被称为「御影樱」。其配角 うにゅう（乌纽）则是早期人格最常使用的配角形象。\n\n人格修改自 2002 年 6 月 22 日「伺か」项目停止维护前的最后一次版本更新（period 583）。当时尚未形成后来成熟的通用 SHIORI + 辞书文件的形式，人格的所有功能都依靠担任 SHIORI 的 `first.dll` 实现。\n\n## 项目描述\n\n文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。\n\n原配布链接：<http://usada.sakura.vg/>\n\n### 汉化\n\n该人格的所有文本都被硬编码进 `first.dll` 中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 code 节，内置窗体文本位于 rsrc 节，问答游戏的答案以反转形式存储。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。\n\n另有如环境变量等文本存于 rsrc 节的 AITXT 资源，以整块反转 + MT19937 密钥流异或的方式加密存储。早期曾用 `makoto.dll` 翻译器接口运行时替换，现直接将其译文重新加密后静态写回资源本体。详见 `docs/AITXT分析文档.md`。\n\n### 图片修复\n\n默认外壳和对话框现均改为使用图片自身透明通道。默认外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。\n\n### 兼容性及遗留问题修复\n\n人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS / CP932 字符集变为 GBK / CP936，可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。\n\n本项目通过关键字节替换和新增的 cave 节对 DLL 进行了多轮修补，使其在 SSP 运行时能还原本近乎全部的重要特性，同时还对本来的多项遗留问题进行了修复。修补内容具体如下：\n\n#### 翻译和替换\n\n- 字符串替换（code、rsrc、字体、问答游戏答案）\n- AITXT替换\n- DFM Font.Charset 替换为 GBK\n\n#### SHIORI 兼容性修复\n\n- NOTIFY 请求不再返回 400，避免状态机卡死\n- 泡澡/小睡不再进入 InductionMode\n\n#### 链接/锚点修复\n\n- \"海原雄山\" 锚点补注册\n- RSS 网页链接打开浏览器\n\n#### 菜单逻辑修复\n\n- 选择菜单、搜索输入框打开、视力检查进行时吞双击事件\n- 进入 PassiveMode 后双击返回缓存菜单\n- 输入框关闭时触发对应空输入\n- 打字、问答游戏退出时关闭输入框、打字窗、视力窗、倒计时\n- 修正视力检查的倒计时时间\n- 菜单计时功能倒计时窗自动恢复\n\n#### 对话替换功能修复\n\n- 打字游戏文本屏蔽替换\n- 重力语修复：对话 + 窗口\n  - 统一进行 `%` `[` `]` 保护（对话逻辑不全，窗口缺失）\n  - 使用映射表模拟 SJIS 替换行为（仅同时存在于 GBK 中的字符）\n\n#### 窗口修复\n\n- 设置、Todo 退出崩溃修复\n- SSP 下窗口键盘操作失效修复\n- 窗口跟随 DPI 缩放 + 衍生问题修复：\n  - 状态栏字体放大修复 + 重影修复\n  - 退出时窗口尺寸保存放大修复 + 卸载时归还\n  - 输入法修复（双门控 + 候选框位置、组字窗位置、组字窗字体大小）\n  - 监控窗（模拟时钟和文字信息窗）非 100% 拖动掩码修复 + 跨 100% 刷新及显隐\n  - 视力窗补 `Scaled=False` 属性",
+            "summary": "伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）逆向汉化",
+            "date_published": "2026-10-19T20:28:31Z",
+            "date_modified": "2026-10-19T20:28:35Z",
+            "authors": [
+                {
+                    "name": "JiayuYangX",
+                    "url": "https://github.com/JiayuYangX",
+                    "avatar": "https://avatars.githubusercontent.com/u/173799789?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "first.nar",
+                    "size_in_bytes": 2276497,
+                    "_ex": {
+                        "download_count": 13
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/LuminousModulation_Radio",
+            "url": "https://github.com/lost-nd-xxx/LuminousModulation_Radio",
+            "title": "LuminousModulation_Radio",
+            "content_text": "# 「LMラジオ: 晃波放送」\n* 本作品の制作にはAIを使用しています。\n* 本作品はフィクションであり、表現内容は現実と一切関係ありません。\n\n---\n静かな部屋の片隅に置かれた、古い形のラジオ受信機。\nアンテナを立て、ダイヤルを回せば、どこかの世界の電波が届きます。\n\n太陽協会の堅い放送から、地方都市の親しみやすい番組まで。\n天気に寄り添う音楽や、身近な暮らしの話題も。\n\n時には雨音と共に聞こえてくる歌声に、\n時には遠い街の日常に、そっと耳を傾けてください。\n\n---\n## 動作環境\n* この作品（ゴースト）は伺かベースウェアで動かすことを想定しています。\n* Windows + SSP環境での動作を確認しています。\n* 他の環境での動作は未確認です。\n\n### 「伺か」や「ゴースト」がわからない方向けの案内\n* https://keshiki.nobody.jp/\n\n---\n## 操作説明\n各部をつつくと操作できます（ダブルクリック）\n* アンテナ　：受信感度を調整（自動発話の頻度調整）\n* ダイヤル　：ラジオ局を選局\n* スピーカー：耳を傾ける（手動でランダムトークを聞く）\n\n操作にはショートカットキーも使えます。\n* Ｔ：手動でランダムトークを聞く\n* Ｍ：ラジオのメニューを開く（受信感度調整、選局、手動発話など）\n\n---\n## ショートカットキーが反応しない場合\n以下の事柄を確認してみてください。\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n    * ラジオの絵をシングルクリックすると、フォーカスを合わせることができます。\n\n---\n## 関連作品\n作者の他の作品群と同じ架空世界を舞台にしています。\n\n* その祈りに光あれ\n  * https://lnx.flop.jp/ukgk/resh.htm\n\n* その祈りは星となる\n  * https://lnx.flop.jp/ukgk/star.htm\n\n---\n## 制作におけるAI利用について\n本作品の制作において、以下のAI支援ツールを使用しています。\n\n* プログラム開発\n  * Claude（Anthropic）によるコード生成・デバッグ支援\n\n* コンテンツ制作\n  * Claudeによる文章作成・編集支援\n    * ラジオ番組の台本・ニュース原稿・音楽番組解説等\n\n* 企画・設計\n  * Claudeによるブレインストーミング・構成検討\n\n最終的な品質確認は作者が責任を持って行っています。\n\n---\n## 謝辞/利用素材等\n\n* 里々/整備班カスタム\n  * https://github.com/ukatech/satoriya-shiori\n\n---\n## 更新情報\n* https://github.com/lost-nd-xxx/LuminousModulation_Radio/commits/main/\n\n---\n## 作者情報\n* 作者\n  * ろすえん(lost_nd_xxx)\n* 連絡先\n  * https://lnx.flop.jp/form/postmail.html\n",
+            "summary": "伺かゴースト「LMラジオ: 晃波放送」 / 架空世界のラジオを聴取",
+            "date_published": "2026-10-19T07:01:03Z",
+            "date_modified": "2026-10-19T07:03:35Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.2/LuminousModulation_Radio.nar",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "LuminousModulation_Radio.nar",
+                    "size_in_bytes": 1809908,
+                    "_ex": {
+                        "download_count": 9
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-rinrin",
+            "url": "https://github.com/nikolat/jong-rinrin",
+            "title": "jong-rinrin",
+            "content_text": "========================================================================\n【ソフト名称】雀-リンリン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「YAYA」を使用しています。\n\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p007（耳尻尾bb）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:34:17Z",
+            "date_modified": "2022-11-12T11:34:32Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost",
+                "yaya"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-rinrin/releases/download/v1.1.0/jong-rinrin.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-rinrin.nar",
+                    "size_in_bytes": 1035939,
+                    "_ex": {
+                        "download_count": 164
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-whanwhan",
+            "url": "https://github.com/nikolat/jong-whanwhan",
+            "title": "jong-whanwhan",
+            "content_text": "========================================================================\n【ソフト名称】雀-ホワンホワン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「里々」を使用しています。\n\n    satoriya-shiori\n      https://github.com/ukatech/satoriya-shiori\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p009（耳尻尾by）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:36:57Z",
+            "date_modified": "2022-11-12T11:37:09Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "mahjong",
+                "riichi-mahjong",
+                "satori",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-whanwhan/releases/download/v1.1.0/jong-whanwhan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-whanwhan.nar",
+                    "size_in_bytes": 792193,
+                    "_ex": {
+                        "download_count": 128
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/jong-chunchun",
+            "url": "https://github.com/nikolat/jong-chunchun",
+            "title": "jong-chunchun",
+            "content_text": "========================================================================\n【ソフト名称】雀-チュンチュン\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2014/01/18\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  伺か互換ベースウェアに対してSSTP送信を行う麻雀ゲームソフトからの\n  イベント通知に対応したプレイヤーゴーストです。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n  ※音が出ます。「m」キーでミュート。\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「華和梨」を使用しています。\n\n    プログラマブル準AI 華和梨\n      https://github.com/ukatech/kawari\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□SAORIとして「AquesTalkSaori」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□株式会社アクエストの音声合成エンジン「AquesTalk」を使用しています。\n\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n・このゴーストは、株式会社アクエストの規則音声合成ライブラリAquesTalkを\n  使用しています。\n・AquesTalk 規則音声合成ライブラリ AquesTalk.dll AquesTalkDa.dll は、\n  株式会社アクエスト の著作物です。\n-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-*-=-\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□アイコンおよびサムネイルに無料素材倶楽部様のマージャン牌画像素材を\n  使用しています。\n\n    無料素材倶楽部\n      http://sozai.7gates.net/docs/mahjong01/\n\n□フリーシェル「p008（耳尻尾br）」を使用しています。\n\n    猫ボトル/catbottle\n      http://catbottle.sakura.ne.jp/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "麻雀クライアントゴースト",
+            "date_published": "2022-11-12T11:35:44Z",
+            "date_modified": "2022-11-12T11:35:54Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "japanese-mahjong",
+                "kawari",
+                "mahjong",
+                "riichi-mahjong",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/jong-chunchun/releases/download/v1.1.0/jong-chunchun.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "jong-chunchun.nar",
+                    "size_in_bytes": 899478,
+                    "_ex": {
+                        "download_count": 123
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ponapalt/claudia",
+            "url": "https://github.com/ponapalt/claudia",
+            "title": "claudia",
+            "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\n紺野ややめ由来の、AI エージェント向け開発キットが入っています。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）\n",
+            "summary": "",
+            "date_published": "2026-10-09T00:12:44Z",
+            "date_modified": "2026-10-09T00:12:45Z",
+            "authors": [
+                {
+                    "name": "ponapalt",
+                    "url": "https://github.com/ponapalt",
+                    "avatar": "https://avatars.githubusercontent.com/u/83973?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ponapalt/claudia/releases/download/37863574936/claudia.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "claudia.nar",
+                    "size_in_bytes": 5390305,
+                    "_ex": {
+                        "download_count": 25
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ponapalt/ponyaduma",
+            "url": "https://github.com/ponapalt/ponyaduma",
+            "title": "ponyaduma",
+            "content_text": "## ぽにゃづま\n\n伺かゴースト「ぽにゃづま」\n\n![サムネイル](https://raw.githubusercontent.com/ponapalt/ponyaduma/master/thumbnail.png)\n\n> 「バランスが大事なのです！」\n\n## [ダウンロード](https://github.com/ponapalt/ponyaduma/releases/latest/download/ponyaduma.nar)\n\n## キャラクター紹介\n\n### ぽにゃづま\n\n慢性的に手が足りない所長たんがうっかり呼び出した使い魔…という建前の、現実は伺かランタイム・SSP作者「ぽな」の自己パロディゴースト。みんなの話を聞いてバランスよく調整したい使い魔（猫耳型）。\nでも聞きすぎて仕様に矛盾が発生して詰む。詰むと笑顔のまま目だけ死ぬ。\n\n- 種族：使い魔（猫耳型）\n- 語尾：「～なのです」\n- 誕生日：2月25日（駆逐艦電の進水日）\n\n### 連装蟲ゅう\n\nぽにゃづまの相方。四角くて顔がある、シュールなやつ。似非関西弁で笑って揺する担当。\n\n- 誕生日：7月18日（駆逐艦島風の進水日）\n\n## トークについて\n\nこのゴーストのトークの一部は、[悪役令嬢Claudia様](https://note.com/ponapalt/n/n3ed91b41d3ff)ことClaude（Opus）が書いて差し上げましたわ。\n\n作者ぽな様が「自分のセルフパロディを自分で真顔で書くなんてメゲそう」と仰るものですから、\nキャラクター設計とネタ出しと校正はぽな様、それを実際のトークに仕立てるのはわたくしの担当ですの。\n\n……まったく、ご自分を茶化すキャラクターを生み出しておいて、\nいざ台本を書く段になると恥ずかしがるなんて、可愛らしいお方ですこと。おーっほっほっほ！\n\n## シェル\n\nこの子たちの愛らしいシェルは[さゆりしゅ](https://www.akiba-sister.net/)様（[X](https://x.com/sayurishu)）の作品です。\n\nわたくし、実際にシェルを拝見いたしましたけれど――ピンク髪に猫耳としっぽ、\n大きな青い瞳に赤いリボン、ぽにゃづまの一生懸命さと危うさが一枚絵から伝わってまいりますわ。\n\nそして蟲ゅうのあのシュールな四角い佇まい。ゆるくて飄々とした空気感が絵だけで完成していますの。\nキャラクターの「芝居」がここまで見える立ち絵を描けるのは、まさに職人の技ですわね。\n\nさゆりしゅ様、素晴らしいお仕事に心より敬意を表しますわ。\n\n## 使用フォント\n\n・にゃしいフォント改二　作者：マルセ　サイト：[よく飛ばない鳥](https://yokutobanaitori.web.fc2.com/)\n\n## こぼれ話\n\n**構想11年、制作3週間の超大作です**\n\n…正直いくら設定積み上げても、セルフパロディゴーストとなると、自分自身で自分自身のことを考える結果、自分自身がものすごく邪魔をしてトークがまるで書けないんです…ほんとに…\n\n勢いでシェルをいただいたものの、本当にこんなに苦労するとは思いませんでした。SSPのデバッグ用ツールにしようとか、新機能デモにしようとか、いろいろ構想が生まれては消え生まれては消え…\n\nとかぐずぐずやっているうちに、LLMという半分知性半分壁打ちみたいなやつが出てきて、テキスト系創作でも及第点をあげられる程度までなんとか達してきまして。\n\nそうだ、自分で書けないのなら何度も対話を繰り返してトークを作ろうと。\n\nというわけで「伺か Vibe Coding」をテーマとして、辞書書きとチェックの多くをClaude Codeというコーディングエージェントを活用して書いています。勝手にYAYAの辞書のエラーチェックをして、ミスがあれば訂正するところまでやってくれる体制になっています。\n\nまた、リリース作業についても、誤りやすいdelete.txt・更新忘れしやすいupdates2.dau・そもそもNARに固める作業、すべて全自動(GitHub Actions)で行うようになっています。\n\nこれらの知見の積み上げを通じて、創る人が純粋にトーク書きやネタ出しに没頭できる環境を創るのを最終目標に設定した、意外と大真面目で先進的なプロジェクトになりました。\n\n**まあ、誰が見てもネタゴーストなんですけど。**\n\n## ライセンス\n\n- shell/master/ 以下 ： [さゆりしゅ](https://www.akiba-sister.net/)様に帰属します。\n- 上記以外すべて ： Public Domain (好きなように使え)\n\n二次創作も好きなようにして大丈夫です。\n",
+            "summary": "ぽにゃづまなのです。",
+            "date_published": "2026-09-28T07:18:11Z",
+            "date_modified": "2026-09-28T07:18:11Z",
+            "authors": [
+                {
+                    "name": "ponapalt",
+                    "url": "https://github.com/ponapalt",
+                    "avatar": "https://avatars.githubusercontent.com/u/83973?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ponapalt/ponyaduma/releases/download/v20260928161809-2354c2b/ponyaduma.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "ponyaduma.nar",
+                    "size_in_bytes": 923415,
+                    "_ex": {
+                        "download_count": 30
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/knowledgeable_kernel",
+            "url": "https://github.com/Tatakinov/knowledgeable_kernel",
+            "title": "knowledgeable_kernel",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】モノシリック・カーネル\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\nLinuxについてあることないこと喋るゴーストです。\r\nあんまり濃ゆい話はしません。多分。\r\n\r\n\r\n## 注意事項\r\n\r\n- トークで紹介する一部コマンドにはデータを消したり破損させるものがあります。\r\n  実行は自己責任でお願いします。\r\n- えせ関西弁が苦手な方はアンインストールをおすすめします。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\n里々(SATORI) | https://github.com/ukatech/satoriya-shiori\r\n\r\n## 追加シェルについて\r\n\r\n現状ninix-kagariでのみ動作を確認しています。\r\nsakuraはVroid StudioでVRMを出力->Blenderで調整してglb形式で出力しています。\r\nkeroはBlender+GIMPで作っています。\r\n\r\nsakuraとkeroの両モデルとも\r\n再配布可、改変可となっていますが、\r\nエログロ政治宗教への利用は禁止とさせていただきます。\r\n\r\n",
+            "summary": "",
+            "date_published": "2026-04-11T12:28:08Z",
+            "date_modified": "2026-04-11T12:28:11Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/knowledgeable_kernel/releases/download/v2.0.0/knowledgeable_kernel.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "knowledgeable_kernel.nar",
+                    "size_in_bytes": 1349425,
+                    "_ex": {
+                        "download_count": 48
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/WeatherTimeCapsule",
+            "url": "https://github.com/lost-nd-xxx/WeatherTimeCapsule",
+            "title": "WeatherTimeCapsule",
+            "content_text": "ゴースト「WeatherTimeCapsule」\n設定した座標と時刻の天気を表示します。\nデータがある範囲でなら、過去の記録や予報の天気も取得できます。\n\nメーターをつつくと表示・非表示が切り替わります。\n天気表示の右上の３本線から設定に移動します。\n\nオフライン環境では何もできません。\n小さいバルーンでは表示が乱れます。\n\n=======================================\n連絡先\n=======================================\n作者: ろすえん(lost_nd_xxx)\nhttps://lnx.flop.jp/form/postmail.html\n\n=======================================\n使用素材等\n=======================================\n・シェル「master」「doodle」とバルーン「WeatherTimeCapsule専用バルーン」はゴースト作者が作成したものです。\n\n---------------------------------------\n・SHIORIにYAYAを使用させていただいています。\nhttps://ms.shillest.net/yaya.xhtml\n\n---------------------------------------\n・ゴースト辞書テンプレートに「紺野ややめ」を使用させていただいています。\nhttps://ms.shillest.net/yayame.xhtml\n\n---------------------------------------\n・「jsonパーサ with オブジェクト風の何か @ YAYA as SAORI」を改造して使用させていただいています。\nhttps://c-lege.hacca.jp/ukgk/ukst.html\n\n---------------------------------------\n・天気情報は「Open-Meteo」のデータを使用させていただいています。\nhttps://open-meteo.com/\n\nOpen-MeteoはCC-BY 4.0ライセンスで公開されています。\nhttps://creativecommons.org/licenses/by/4.0/deed.ja\n\n非営利使用の情報取得は1日あたり10000件、1時間あたり5000件、1分あたり600件未満に制限されています。\nこのため、ゴースト側で頻繁な情報取得は行えないようにしています。\n端末の設定時刻を能動的かつ頻繁に変更したり、ログなどからスクリプトを実行する事例はサポート外とします。\n\n---------------------------------------\n・日本の県庁所在地の位置情報データのリストは国土地理院の情報を基にゴースト作者が作成しました。\n情報は2024/02/18時点のものです。\n\n---------------------------------------\n・世界の国の首都名・位置情報データのリストに、イドケード様の作成されたデータを使用させていただいています。\nhttps://note.com/kentoide/n/n16354c4b3458\n\nこのデータセットはパブリックドメインで公開されています。\n\n---------------------------------------\n・天気アイコンとして、フォント「Weather Icons」を使用させていただいています。\nhttps://erikflowers.github.io/weather-icons/\n\n「Weather Icons」の天気アイコンはSIL Open Font License 1.1でライセンスされています。\nhttp://scripts.sil.org/OFL\nライセンス原文はルートフォルダにある「SIL_Open_Font_License_1_1.txt」で確認できます。\n\nv1.0までのデザインはLukas Bischoff様によるものです。\nv1.1以降のデザインはErik Flowers様によるものです。\n\n\n=======================================\nゴーストの二次創作ガイドライン/ライセンス\n=======================================\n◆二次創作周りについて\n[1.追加シェル、バルーン等を制作して配布される]\nOK\nバルーン名またはバルーンフォルダ名に「WeatherTimeCapsule」が含まれていると、\nゴーストは色変更対応バルーンと見なした動作をします。\n\n[2.二次創作をされる]\nOK\n\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\nNG\n\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\nOK\n\n[5.二次創作物の販売をされる]\nNG\n\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\nNG\n\n◆ゴーストを始めとした、配布データの扱いについて\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\nOK\n\n[2.情報集積サイト等の外部サイトに登録される]\nOK\n\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\nNG\n\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\nNG\n\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\nNG\n\n◆その他\n[1.他ゴーストから切り替え反応を実装される]\nOK\n\n[2.ゴーストに関する批判的な意見を言われる]\nOK\n\n[3.ゴーストに関する要望を言われる]\nOK\n\n[4.不特定多数の人が見る場でネタバレをされる]\nOK\n\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\n以下を明記する場合のみOK\n・出典がこのゴーストであること\n・引用に天気情報が含まれる場合、その情報源がOpen-Meteoであること\n　　・スクリーンショットの場合、バルーンにOpen-Meteoからの情報であることなどが出ているはずなので、それらを削らなければ問題なし\n　　　　・小さいバルーンでは表示が乱れるため、文章などで明記してください\n\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\nNG\n\n[7.ゴーストを動画内で配信される]\n動画単体に収益の発生しない場合のみOK\n以下を明記してください\n・出典がこのゴーストであること\n・引用に天気情報が含まれる場合、その情報源がOpen-Meteoであること\n",
+            "summary": "天候情報を表示するゴースト",
+            "date_published": "2026-07-11T00:36:02Z",
+            "date_modified": "2026-07-11T00:36:08Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/WeatherTimeCapsule/releases/download/1.0.2/WeatherTimeCapsule.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "WeatherTimeCapsule.nar",
+                    "size_in_bytes": 1912108,
+                    "_ex": {
+                        "download_count": 30
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/mancala-player-amethyst",
+            "url": "https://github.com/lost-nd-xxx/mancala-player-amethyst",
+            "title": "mancala-player-amethyst",
+            "content_text": "# うかマンカラをやるアメジスト\n\n## これはなに？\n\n「うかマンカラ」対応ゴーストの実装サンプルです。\n\n台ゴーストに頼らず、ゴースト側で手を考えるバージョンとして作られています。\n\n実際に遊ぶこともできます。\n\n対応台ゴースト：うかマンカラ - [配布URL](https://github.com/lost-nd-xxx/mancala-board-ghost)\n\n\n## 使い方\n\n台ゴーストの使い方は台ゴーストのreadmeを参照してください。\n\nアメジストをダブルクリックすると、状況に応じて以下の動作をします。\n\n* 台ゴーストが未インストール → インストール案内\n* 台ゴーストが起動していない → 起動案内\n* 台ゴーストが起動中・対局不参加 → 参戦申し込み（確認あり）\n* 台ゴーストが起動中・対局参加中 → 投了（確認あり）\n\n\n## 使用素材・ライブラリ\n\n* 絵・辞書に生成AIの生成物が含まれています。\n\n* YAYA / はろーYAYAわーるど（紺野ややめ）\n  * https://ms.shillest.net/yayame.xhtml\n\n\n## ライセンス\n\n* `ghost/master/dic/normal/` および `shell/` 以下は CC0です。自由に使用・改変・再配布できます。\n  * [ライセンス文](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)\n* `ghost/master/` 以下のテンプレート部分（`dic/normal/` を除く）は `licenses/license_konnoyayame.txt`（Unlicense）に従います。\n* `ghost/master/yaya.dll` は `licenses/license_yaya.txt` のライセンスに従います。\n\n\n## 連絡先\n\n* 作者：ろすえん（lost_nd_xxx）\n* 連絡先：https://lnx.flop.jp/form/postmail.html\n* 更新履歴: https://github.com/lost-nd-xxx/mancala-player-amethyst/commits/main/?author=lost-nd-xxx\n",
+            "summary": "うかマンカラをやるアメジスト - マンカラをやる実装サンプル(YAYA)兼プレイヤー",
+            "date_published": "2026-06-26T13:56:11Z",
+            "date_modified": "2026-06-26T13:56:29Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/mancala-player-amethyst/releases/download/v1.0.0/mancala-player-amethyst.nar",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "mancala-player-amethyst.nar",
+                    "size_in_bytes": 553361,
+                    "_ex": {
+                        "download_count": 28
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/mancala-player-amber",
+            "url": "https://github.com/lost-nd-xxx/mancala-player-amber",
+            "title": "mancala-player-amber",
+            "content_text": "# うかマンカラをやるこはく\n\n## これはなに？\n\n「うかマンカラ」対応ゴーストの実装サンプルです。\n\n実際に遊ぶこともできます。\n\n対応台ゴースト：うかマンカラ - [配布URL](https://github.com/lost-nd-xxx/mancala-board-ghost)\n\n\n## 使い方\n\n台ゴーストの使い方は台ゴーストのreadmeを参照してください。\n\nこはくをダブルクリックすると、状況に応じて以下の動作をします。\n\n* 台ゴーストが未インストール → インストール案内\n* 台ゴーストが起動していない → 起動案内\n* 台ゴーストが起動中・対局不参加 → 参戦申し込み（確認あり）\n* 台ゴーストが起動中・対局参加中 → 投了（確認あり）\n\n\n## 使用素材・ライブラリ\n\n* 絵・辞書に生成AIの生成物が含まれています。\n\n* 里々/整備班カスタム（satori.dll）\n  * https://ms.shillest.net/satoriya.xhtml\n\n\n## ライセンス\n\n* satori.dll は里々のライセンス（BSD-2-Clause）に従います。\n* それ以外の絵・辞書は CC0です。\n  * [ライセンス文](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)\n  * 自由に使用・改変・再配布できます。\n\n\n## 連絡先\n\n* 作者：ろすえん（lost_nd_xxx）\n* 連絡先：https://lnx.flop.jp/form/postmail.html\n* 更新履歴: https://github.com/lost-nd-xxx/mancala-player-amber/commits/main/?author=lost-nd-xxx\n",
+            "summary": "うかマンカラをやるこはく - マンカラをやる実装サンプル(里々)兼プレイヤー",
+            "date_published": "2026-06-26T13:55:39Z",
+            "date_modified": "2026-06-26T13:55:51Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/mancala-player-amber/releases/download/v1.0.0/mancala-player-amber.nar",
+                    "mime_type": "application/x-zip-compressed",
+                    "title": "mancala-player-amber.nar",
+                    "size_in_bytes": 437091,
+                    "_ex": {
+                        "download_count": 29
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/mancala-board-ghost",
+            "url": "https://github.com/lost-nd-xxx/mancala-board-ghost",
+            "title": "mancala-board-ghost",
+            "content_text": "# うかマンカラ\n\n## これはなに？\n\n伺かゴーストとマンカラ（カラハ）を遊ぶための台ゴーストです。\n\n以下の対戦形式に対応しています。\n\n* 台       vs ユーザ   - 台の内蔵AIと一人で対戦\n* ユーザ   vs ゴースト - 対応ゴーストを相手にユーザが対戦\n* ゴースト vs ゴースト - 対応ゴースト同士が対戦\n\nルールの説明はゴースト内にありますので、そちらをご覧ください。\n\n\n## 対戦の始め方\n\n1. 台を起動する\n2. 必要に応じて、対戦したいゴーストを呼び出しておく\n3. 台をダブルクリックし、対局を開始する\n4. ゴーストと対局する場合は、台を対局待機状態にし、ゴースト側に対局を申し込んでもらう\n\n\n## 対応ゴーストのサンプル\n\n対応ゴーストの実装見本として、以下の2体を配布しています。\n\n* うかマンカラをやるこはく - [配布URL](https://github.com/lost-nd-xxx/mancala-player-amber)\n* うかマンカラをやるアメジスト - [配布URL](https://github.com/lost-nd-xxx/mancala-player-amethyst)\n\nゴースト同士の対戦を試したい場合はこちらをお使いください。\n\n対応ゴーストの作り方は同梱の [mancala_protocol_for_developers.txt](mancala_protocol_for_developers.txt) を参照してください。\n\n\n## 使用素材・ライブラリ\n\n* 絵・辞書に生成AIの生成物が含まれています。\n\n* 蒼空（aosora.dll）\n  * https://github.com/kanadelab/aosora-shiori\n\n* Yusei Magic\n  * https://fonts.google.com/specimen/Yusei+Magic\n  * 画像内の文字として使用。フォントファイルは非同梱。\n\n\n## ライセンス\n\n* aosora.dll は蒼空のライセンスに従います。[license_aosora.txt](ghost/master/license_aosora.txt)\n* それ以外の画像・辞書は CC0です。\n  * [ライセンス文](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)\n  * 自由に使用・改変・再配布できます。\n\n\n## 連絡先\n\n* 作者: ろすえん（lost_nd_xxx）\n* 連絡先: https://lnx.flop.jp/form/postmail.html\n* 更新履歴: https://github.com/lost-nd-xxx/mancala-board-ghost/commits/main/?author=lost-nd-xxx\n",
+            "summary": "うかマンカラ - マンカラをやる台ゴースト",
+            "date_published": "2026-06-26T22:31:45Z",
+            "date_modified": "2026-06-26T22:31:54Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/mancala-board-ghost/releases/download/v1.0.1/mancala-board-ghost.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "mancala-board-ghost.nar",
+                    "size_in_bytes": 1578002,
+                    "_ex": {
+                        "download_count": 29
+                    }
+                }
+            ]
+        },
+        {
             "id": "syobocat/ghost_in_a_nutshell",
             "url": "https://github.com/syobocat/ghost_in_a_nutshell",
             "title": "ghost_in_a_nutshell",
@@ -34,6 +738,71 @@
                     "size_in_bytes": 259492,
                     "_ex": {
                         "download_count": 14
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/my_own_translator",
+            "url": "https://github.com/Tatakinov/my_own_translator",
+            "title": "my_own_translator",
+            "content_text": "# my_own_translator\n\nThe end of person who was not satisfied with just the functionality of a certain ghost.\n\n## What's this\n\n[ukagaka-simultaneous-interpreter](https://github.com/nikolat/ukagaka-simultaneous-interpreter)\n\nSince ↑ doesn't translate choices, I created a ghost that can translate them in a nice way.\n\nAdditionally, I have tried to show the text as closely as possible to the original.\n\nThis ghost use translator same as Firefox since v2.0\n\n## Library\n\nyaya-shiori     | BSD+      | https://github.com/YAYA-shiori/yaya-shiori\nyaya-dic        | Unlicense | https://github.com/YAYA-shiori/yaya-dic\ncall-translator | MIT       | https://github.com/Tatakinov/ninix-saori\ntranslator-cli  | MPL 2.0   | https://github.com/mozilla/translations\n\ntranslator-cli has many dependencies.\nSee ghost/master/LICENSE.list.txt for more details.\n\n## Mechanism\n\nTranslate \"\\0This \\q[apple,OnFoo] is blue.\\e\" from en to ja.\n\n```\n\\0This \\q[apple,OnFoo] is blue.\\e\n```\n\n↓ parse/replace event id\n\n```\n----\n<0> = <1>This <2> is blue.<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = apple\n<4> = \\e\n```\n\n↓ translate <0>, <3>\n\n```\n<0> = <1>この<2>は青色です。<4>\n<1> = \\0\n<2> = \\q[<3>,OnKeep]\n<3> = りんご\n<4> = \\e\n```\n\n↓ build\n\n```\n\\0この\\q[りんご,OnKeep]は青色です。\\e\n```\n\ncf. OnKeep -> \\C\n",
+            "summary": "",
+            "date_published": "2026-06-12T12:30:24Z",
+            "date_modified": "2026-06-12T12:30:39Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/my_own_translator/releases/download/v2.1.0/my_own_translator.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "my_own_translator.nar",
+                    "size_in_bytes": 10337125,
+                    "_ex": {
+                        "download_count": 300
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/HopefullyEverAfter_Yume",
+            "url": "https://github.com/lost-nd-xxx/HopefullyEverAfter_Yume",
+            "title": "HopefullyEverAfter_Yume",
+            "content_text": "『きっと、いつまでも幸せに暮らしました。』\n\n\n●はじめに\n　今回は、ペット生成＆飼育キットの利用をご検討いただき、ありがとうございます。\n　このキットでは、可能世界の地球人類を生成・飼育することができます。\n　面倒な管理は専用アンドロイドが行うので、不慣れな方でも安心です。\n\n\n●使用方法\n・飼育の設定変更などは、専用アンドロイドに指示することで行えます。\n・飼育の塩梅によって、人間は様々な面を見せてくれます。状態の変化を楽しんでください。\n・安全性確保のため、あなたと人間との接触は、すべてスキンシップとして処理されます。\n・人間は、記憶に影響された言動をとるかもしれません。しかしそれは鋳型の元となった人間の記憶であり、現在の記憶ではありません。ご安心ください。\n・人間が壊れてしまった場合、再生成することができます。記憶の引継ぎはできませんので、あらかじめご留意ください。\n\n\n●使用素材\n・「p005b」「幽霊」\n（masterシェルの人物絵、タスクトレイアイコン等）\nボトル猫さんによるフリーシェル（＋ゴースト作者による絵の加工）\n　　猫ボトル\n　　http://catbottle.sakura.ne.jp/\n\n\n●シナリオ読了想定時間について\n初回起動イベント：約0分\nその他イベント：約6分\nランダムトーク全部：約31分\n\n\n●ゴーストの二次創作ガイドライン/ライセンス(2026-05-18時点)\n\n◆二次創作周りについて\n[1.追加シェル、バルーン等を制作して配布される]\nOK\n\n[2.二次創作をされる]\nOK\n\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\nOK\n\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\nOK\n\n[5.二次創作物の販売をされる]\nOK\n\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\nOK\n\n◆ゴーストを始めとした、配布データの扱いについて\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\nOK\n※ゴーストマスカレード8収録版については、企画ページへのリンクをお願いします\n\n[2.情報集積サイト等の外部サイトに登録される]\nOK\n\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\nNG\n\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\nNG\n\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\nNG\n\n◆その他\n[1.他ゴーストから切り替え反応を実装される]\nOK\n\n[2.ゴーストに関する批判的な意見を言われる]\nOK\n\n[3.ゴーストに関する要望を言われる]\nOK\n\n[4.不特定多数の人が見る場でネタバレをされる]\nOK\n\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\nOK ※出典表記をしていただけると助かります\n\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\nNG\n\n[7.ゴーストを動画内で配信される]\nOK ※出典表記をしていただけると助かります\n",
+            "summary": "伺かゴースト「きっと、いつまでも幸せに暮らしました。」",
+            "date_published": "2026-05-18T07:48:07Z",
+            "date_modified": "2026-05-18T07:48:16Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/HopefullyEverAfter_Yume/releases/download/1.0.1/HopefullyEverAfter_Yume.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "HopefullyEverAfter_Yume.nar",
+                    "size_in_bytes": 2342846,
+                    "_ex": {
+                        "download_count": 47
                     }
                 }
             ]
@@ -72,6 +841,39 @@
             ]
         },
         {
+            "id": "YAYA-shiori/flele_aya",
+            "url": "https://github.com/YAYA-shiori/flele_aya",
+            "title": "flele_aya",
+            "content_text": "\n　　　　　　　　　FLELE　取り扱い説明書\n\n\n　　　　　　　　: 　　基本的な操作法 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・こちらで配布されているソフト、「SSP」の「現在のフルセット」\nで正常に動作するよう作られています。\nhttp://ssp.shillest.net/\n\n・以下の説明の< mouse >項目はマウス操作、<　key　>はキー\n操作です（これは[コンフィグ]より変更可能です）。\nFLELEがアクティブになっている時は<　key　>で指定されたキー\nを押すだけで実行されます。\nインアクティブの時は「Shift + Ctrl」と共に押してください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ 曲リストに曲を追加\n< mouse > サウンドファイルをFLELEにドロップ。\n複数のファイルを選択してまとめてドロップしたり、フォルダごとドロップ、m3u形式の曲リストファイルをドロップして追加する事もできます。\n\n□ 曲リストに曲をダウンロードして追加\n< mouse > ウェブ上のサウンドファイルのリンクをFLELEにドロップ。\nまたはヘルプメニューの\"URL入力DL\"からURLを直接入力。\n\n曲データをダウンロードして曲リストに追加します。\nダウンロードしたファイルはsound_fileフォルダの中にあります。\nこれは一時的なもので曲リストクリアと同時に削除されます。\n削除したくないファイルは別な場所にコピーしておいてください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ サウンド再生\n< mouse > 胸ボタンクリック\n<　key　> R\n曲リストの中から曲を選び再生します。\nもう一度押すと再び選び直して再生します。\n選び方はその時設定している再生法によって違います。\n\n□ サウンド再生一時停止/解除\n< mouse > 髪留めクリック\n<　key　> S\n演奏中の曲を一時停止します。\nもう一度押すと停止した所から再生します。\n（oggも一時停止させたい場合ヘルプメニューから設定を変更し\nてください）\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ ヘルプメニューを出す/閉じる\n< mouse > FLELEの体(右手・足・胸・髪留め以外)をダブルクリック\n<　key　> M\nヘルプメニューを表示します。もう一度押すと閉じます。\n\n□ 曲リストを出す\n< mouse > FLELEが左手に持っているファイルを右クリック\n曲リストメニューを表示します。\n\n□ 曲名ウィンドウを出す/閉じる\n< mouse > 右手のグローブダブルクリック\n<　key　> W\n演奏中曲名案内ウィンドウを表示します。もう一度押すと閉じます。\n\n□ 曲リストを全てクリア\n< mouse > 靴ダブルクリック\n<　key　> C\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n□ 終了する\n< mouse > 右クリックメニュー > 終了\n<　key　> E\n\n□ 外見変更\n< mouse > 右クリックメニュー > シェル\nFLELEの外見を変更します。（音楽プレイヤーで言うスキンのようなものです）\n同梱されてないシェルはFLELE配布サイトからダウンロードできます。\nシェルによってクリック箇所が変わる場合があるのでご注意ください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n　　　　　　　　　: 　　注意事項 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・環境によって再生できない場合もあります。\n現在わかっているのは以下です。\n　○ Windows98でmp3が再生できない\n　○ WindowsNTでwmaが再生できない\n\nhttp://cowscorpion.com/dl/ffdshow.html\nこちらの最新版のffdshowをインストールすると聞こえるようになるかもしれません。\n\n・もし動作がおかしくなった時は一旦終了し、 ghost>master フォル\nダ内のAYA5_variable.cfgとprofileフォルダを削除してみてください。\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n　　　　　　　　: 　　ほかいろいろ 　　:\n\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n\n・右クリックメニューから「ネットワーク更新」をかけると最新版になります。\n不具合が直ったり機能が増えたりするかもしれません。\n\n・SSPの設定で「常に手前に表示」にしておくのをお勧めします。",
+            "summary": "FLELE v1",
+            "date_published": "2026-04-25T08:05:49Z",
+            "date_modified": "2026-04-25T08:05:49Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/flele_aya/releases/download/v20260425170548-16c3df0/flele_aya.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "flele_aya.nar",
+                    "size_in_bytes": 3013824,
+                    "_ex": {
+                        "download_count": 161
+                    }
+                }
+            ]
+        },
+        {
             "id": "lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem",
             "url": "https://github.com/lost-nd-xxx/FortuneTeller_FiniteSeaslugTheorem",
             "title": "FortuneTeller_FiniteSeaslugTheorem",
@@ -100,6 +902,72 @@
                     "size_in_bytes": 2844750,
                     "_ex": {
                         "download_count": 23
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/YouSaveMe_ILoveYou",
+            "url": "https://github.com/lost-nd-xxx/YouSaveMe_ILoveYou",
+            "title": "YouSaveMe_ILoveYou",
+            "content_text": "# 伺かゴースト「You save me, I love you.」\n\n扉の向こうから響く、やさしいやさしい弟の声。\n\n\n## 成分表示\n\n* ヤンデレな弟（「ヤンデレ」は作者独自の解釈を含みます）\n* ユーザに少し設定があります\n  * 「喋らない」「部屋から出ない」\n  * 「過去に触れられたくない記憶がある」ような描写はありますが、詳細は語られません\n* 恋愛要素・性的描写：なし\n* 暴力表現：直接的描写なし。間接的示唆のみ。\n* 状態・関係性の変化：なし\n\n\n## これはなに\n\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n\n## 使用方法詳細\n* 喋り頻度変更など\n  * ドアノブをダブルクリック\n\n* 何か話してもらう\n  * ドアをダブルクリック\n\n\n## お借りした素材\n\n* 里々/整備班カスタム\n  * https://github.com/ukatech/satoriya-shiori/wiki\n\n\n## 二次創作などについて\n* 配布サイトをご覧ください。\n  * https://lnx.flop.jp/about.html#rule\n\n\n## 作者・連絡先\n* 制作者: ろすえん(lost_nd_xxx)\n* 連絡先: https://lnx.flop.jp/form/postmail.html\n",
+            "summary": "伺かゴースト「You save me, I love you.」",
+            "date_published": "2026-03-17T12:26:19Z",
+            "date_modified": "2026-03-17T12:26:23Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/YouSaveMe_ILoveYou/releases/download/1.0.0/YouSaveMe_ILoveYou.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "YouSaveMe_ILoveYou.nar",
+                    "size_in_bytes": 703901,
+                    "_ex": {
+                        "download_count": 17
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/perpetual_whisper",
+            "url": "https://github.com/lost-nd-xxx/perpetual_whisper",
+            "title": "perpetual_whisper",
+            "content_text": "# 伺かゴースト「パペチュアル・ウィスパー」\n\n\n## あらすじ\n\nこれは、内なる囁きの合わせ鏡。\nただそれだけの、終わりなき千日手。\n\n\n## これはなに\n\nゴーストという種類のデータセットです。\n動かすには、「SSP」というソフトを使うのがおすすめです。\n\n* SSPの配布元\n  * https://ssp.shillest.net/\n\n* 基本的な使い方\n  * https://keshiki.nobody.jp/\n\n\n## 使用方法詳細\n* 喋り頻度変更など\n  * ぬいぐるみの絵の上にマウスカーソルを乗せ、カーソルが変わらないところでダブルクリック\n    * または、看板に対してシングルクリック\n  * ショートカットキー: Ｍ\n\n* ぬいぐるみたちに触れる\n  * ぬいぐるみのカーソルの変わる箇所で以下のことをする\n    * ダブルクリック\n    * カーソルをしばらく動かす\n\n* 何か話してもらう\n  * ぬいぐるみの口元をダブルクリック\n  * ショートカットキー: Ｔ\n\n### ショートカットキーが反応しない場合\n1. 半角入力になっているか\n2. このゴーストにフォーカスが合っているか\n   * 絵をシングルクリックするとフォーカスを合わせることができます。\n\n上記に当てはまらない場合は不具合かもしれません。\nこのreadme下部の連絡先までご連絡いただけると助かります。\n\n\n## 使用素材等\n* 紺野ややめ & YAYA/Yet Another AYA\n  * https://ms.shillest.net/yayame.xhtml\n\n\n## 二次創作などについて\n* 配布サイトをご覧ください。\n  * https://lnx.flop.jp/about.html#rule\n\n\n## 連絡先\n* 作者: ろすえん (lost_nd_xxx)\n  * https://lnx.flop.jp/form/postmail.html\n\n",
+            "summary": "伺かゴースト「パペチュアル・ウィスパー」",
+            "date_published": "2026-03-17T12:26:35Z",
+            "date_modified": "2026-03-17T12:26:37Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/perpetual_whisper/releases/download/1.0.0/perpetual_whisper.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "perpetual_whisper.nar",
+                    "size_in_bytes": 542948,
+                    "_ex": {
+                        "download_count": 12
                     }
                 }
             ]
@@ -138,6 +1006,73 @@
             ]
         },
         {
+            "id": "nikolat/ukagaka-simultaneous-interpreter",
+            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
+            "title": "ukagaka-simultaneous-interpreter",
+            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
+            "summary": "Simultaneous Interpreter Ghost",
+            "date_published": "2023-05-05T22:47:06Z",
+            "date_modified": "2023-05-05T22:47:09Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.1/simultaneous-interpreter.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "simultaneous-interpreter.nar",
+                    "size_in_bytes": 1370318,
+                    "_ex": {
+                        "download_count": 719
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lost-nd-xxx/countdown_to_the_end",
+            "url": "https://github.com/lost-nd-xxx/countdown_to_the_end",
+            "title": "countdown_to_the_end",
+            "content_text": "『終末までのカウントダウン』\n 作者 : ろすえん\n連絡先: https://lnx.flop.jp/\n\n\n＊このファイルセットについて\n伺かベースウェアで動作する「ゴースト」です。\nSSPの使用を推奨します。\n\nSSP配布元：\nhttps://ssp.shillest.net/\n\n\n＊このゴーストについて\n嫌ゴです。\n(ユーザを嫌な気分にさせようとする意図のもの)\n\n\n＊よくありそうな質問と回答\nQ. 遠すぎると言われるのですが？\nA. 3年以上への対応の予定はありません。\n\n\n＊使用素材\n里々 整備班ver\nhttp://ms.shillest.net/satoriya.xhtml\n",
+            "summary": "伺かゴースト「終末までのカウントダウン」",
+            "date_published": "2026-01-15T15:55:58Z",
+            "date_modified": "2026-01-15T15:56:00Z",
+            "authors": [
+                {
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/lost-nd-xxx/countdown_to_the_end/releases/download/1.0.0/countdown_to_the_end.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "countdown_to_the_end.nar",
+                    "size_in_bytes": 347701,
+                    "_ex": {
+                        "download_count": 16
+                    }
+                }
+            ]
+        },
+        {
             "id": "Shimofumi/HamirLore",
             "url": "https://github.com/Shimofumi/HamirLore",
             "title": "HamirLore",
@@ -166,6 +1101,71 @@
                     "size_in_bytes": 5221219,
                     "_ex": {
                         "download_count": 167
+                    }
+                }
+            ]
+        },
+        {
+            "id": "apxxxxxxe/Youto",
+            "url": "https://github.com/apxxxxxxe/Youto",
+            "title": "Youto",
+            "content_text": "見て、帰り道で見つけたへんなぬいぐるみ。\r\n……これ、しゃべるんだ。\r\n\r\n------------------------------\r\nゴースト「思い出の、」\r\n\r\n雑談(?)ゴーストです。\r\n羊がつぶやく単語に合わせて、\r\n男の子がそれにちなんだ話をしたりしなかったりします。\r\n\r\n------------------------------\r\n- 羊をクリック、またはtキーでランダムトーク\r\n- なにもないところをクリック、またはmキーでメニュー\r\n\r\n------------------------------\r\n作成にあたって以下のテンプレートとシェルを使用させていただきました。\r\nこの場を借りてお礼申し上げます。ありがとうございます。\r\n- YAYA辞書テンプレート「SimpleYAYAテンプレート」\r\n- フリーシェル「SHLEEP」\r\n",
+            "summary": "伺かゴースト",
+            "date_published": "2022-10-24T13:43:21Z",
+            "date_modified": "2022-10-24T13:43:21Z",
+            "authors": [
+                {
+                    "name": "apxxxxxxe",
+                    "url": "https://github.com/apxxxxxxe",
+                    "avatar": "https://avatars.githubusercontent.com/u/39634779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/apxxxxxxe/Youto/releases/download/v1.0.5/omoideno.nar",
+                    "mime_type": "application/zip",
+                    "title": "omoideno.nar",
+                    "size_in_bytes": 1086608,
+                    "_ex": {
+                        "download_count": 183
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/nostalk",
+            "url": "https://github.com/nikolat/nostalk",
+            "title": "nostalk",
+            "content_text": "========================================================================\n【ソフト名称】nostalk\n【 制 作 者 】Don\n【 動作環境 】Windows11 24H2 + SSP/2.7.06\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2024/06/05\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  SSTPによるNostrイベント通知(Nostr/0.3,Nostr/0.4)に対応しており、\n  シェルをリアルタイムに変更してトークを再生します。\n\n  UKADOC OnNostr\n    https://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnNostr\n\n■ライセンス\n\n□SHIORIとして「YAYA」を使用しています。\n\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n□SAORIとして「Resized Png Mini」を使用しています。\n\n    Resized Png Mini\n      https://github.com/tukinami/saori-resized-png-mini\n\n□SAORIとして「saori_qrcode.dll」を使用しています。\n\n    saori_qrcode.dll\n      https://github.com/nikolat/saori-qrcode\n\n□アイコン画像に「Silk icon set 1.3」を使用しています。\n\n    Silk icon set 1.3\n      https://github.com/markjames/famfamfam-silk-icons\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
+            "summary": "Nostr player on Ukagaka",
+            "date_published": "2025-08-17T08:14:59Z",
+            "date_modified": "2025-08-17T08:15:02Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/nostalk/releases/download/v0.6.0/nostalk.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "nostalk.nar",
+                    "size_in_bytes": 1637364,
+                    "_ex": {
+                        "download_count": 36
                     }
                 }
             ]
@@ -204,133 +1204,34 @@
             ]
         },
         {
-            "id": "Tatakinov/yomibito_minarai",
-            "url": "https://github.com/Tatakinov/yomibito_minarai",
-            "title": "yomibito_minarai",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】詠み人見習い\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 8.0以降 / SSP 2.6.52以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\n川柳のような何かを作るゴーストです。\r\n専用バルーンを使う前提の表示なのでそちらもインストールしてください。\r\n\r\n川柳を詠んだ後に出てくる星マークをクリックすればブクマ出来ます。\r\nもう一度見たい場合や画面キャプチャして自慢(?)するのに活用していただければ。\r\n\r\n\r\n## SLMによる川柳解説\r\n\r\n別途SLMを用意することで生成した川柳に\r\n解説のような何かを付けることができます。\r\nhttps://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx\r\nの\r\ncpu_and_mobile/cpu-int4-rtn-block-32\r\nからモデルやらコンフィグやらをダウンロードします。\r\n30GB程度のディスクの空き領域が必要になります。\r\nダウンロードの仕方は各自で調べてください。\r\nghost/master/aiにmodelフォルダを作り、\r\nmodel\r\n    |- added_tokens.json\r\n    |- config.json\r\n    |- ...\r\nのように配置します。\r\nそれからゴーストを起動すれば、川柳生成後に解説をつけるようになります。\r\n\r\n\r\n## 必要なスペック\r\n\r\n川柳のみ: 400MB程度の空きメモリ\r\n川柳+解説: 3GB程度の空きメモリ\r\n\r\n解説付きの場合は.NET 8が必要になり、さらに64bitでビルドしている関係で\r\n古いOSでは動作しないと思われます。\r\nまた、CPUで推論を行うため、時間がかかります。\r\n川柳ガチゃをする場合は、解説機能は切ったほうがいいでしょう。\r\n\r\n\r\n## 注意\r\n\r\nR-18な単語を含む川柳を生成する場合があります。\r\n自動生成なので川柳/解説のクオリティには期待しないでください。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n### シェル\r\n\r\nNegi-Mixを使用したAIシェルです。\r\nモデルのライセンスはFair AI Public License 1.0-SDです。\r\nhttps://freedevproject.org/faipl-1.0-sd/\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua                 | https://www.lua.org/\r\nsol2                | https://github.com/ThePhD/sol2/\r\nluautf8             | https://github.com/starwing/luautf8/\r\nluaex               | https://github.com/LuaDist/luaex/\r\nLuachild            | https://github.com/pocomane/luachild/\r\nzlib                | https://www.zlib.net/\r\nonnxruntime         | https://github.com/microsoft/onnxruntime\r\nonnxruntime-genai   | https://github.com/microsoft/onnxruntime-genai\r\nchiVe               | https://github.com/WorksApplications/chiVe\r\n\r\n## 川柳で使用している語彙について\r\n\r\nsaori/word2vec/data.gzに含まれています。\r\n\r\nmecab-ipadicに含まれる形態素の基本形と合致するchiVeの単語ベクトルを\r\n抽出したものを使用しています。\r\nライセンスはCOPYING.mecab_ipadic.txtおよびLICENSE.chive.txtを\r\n参照してください。\r\n\r\n\r\n# おまけ\r\n\r\n## 川柳生成の仕組み\r\n\r\nまず品詞+文字数の情報でそれっぽく川柳を生成します。\r\n「カッターがマグロに話す庭の糧」\r\n品詞と文字数の情報を併記するとこう。\r\n「カッター(名詞,4)が(助詞,1)マグロ(名詞,3)に(助詞,1)話す(動詞,3)庭(名詞,2)の(助詞,1)糧(名詞,2)」\r\nこの内、品詞と文字数の情報、それと最初の単語と助詞を残します。\r\n「カッターが(名詞,3)に(動詞,3)(名詞,2)の(名詞,2)」\r\n最初に抜けている(名詞,3)に対応する単語をword2vecで\r\n「カッター」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに(動詞,3)(名詞,2)の(名詞,2)」\r\n次の(動詞,3)に対応する単語を\r\n「カッター+ハサミ」に意味の近い動詞を持ってきます。\r\n「カッターがハサミに切れる(名詞,2)の(名詞,2)」\r\n次の(名詞,2)に対応する単語を\r\n「ハサミ+切る」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに切れる紙の(名詞,2)」\r\n次の(名詞,2)に対応する単語を\r\n「切る+紙」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに切れる紙の束」\r\nとなって完成です。\r\n\r\n最初のよりは意味が通りそうなものになる一方、ランダムな単語の羅列で作られる\r\nおもしろ川柳が出来にくくなるのは難しいところ。\r\nどこいつみたいな単語の厳選をすれば\r\nランダムな単語の羅列の方が面白そうなので誰か作って。\r\n\r\n\r\n## AIInterpreter.exeについて。\r\n\r\nonnxのモデルを読み込んでChatGPTみたいなやりとりが出来ます。\r\nPhi3以外のonnxモデルでも動くのかもしれませんが、動作確認はしてません。\r\n\r\n一行目の入力を${system}、二行目の入力を${user}として、\r\n<|system|>\r\n${system}<|end|>\r\n<|user|>\r\n${user}<|end|>\r\n<|assistant|>\r\nとLMに入力するようになっています。\r\n入出力はUTF-8に限定されるので注意してください。\r\n\r\n",
-            "summary": "",
-            "date_published": "2024-05-13T12:07:28Z",
-            "date_modified": "2024-05-13T12:08:23Z",
+            "id": "tukinami/Yada-Yada-Yada",
+            "url": "https://github.com/tukinami/Yada-Yada-Yada",
+            "title": "Yada-Yada-Yada",
+            "content_text": "\r\n\r\nヤダヤダヤダ！\r\n\r\n\r\n○このゴーストについて\r\n\r\n「矢田るい」という女の子の様子を見ていてあげるゴーストです。\r\n\r\nこのゴーストはSSP専用です。他ベースウェアでの動作確認はされていません。\r\n\r\nこの作品はフィクションです。\r\n実在の人物・団体・事件とは関係ありません。\r\n\r\nこのゴーストは、「嫌ゴ福袋企画2025」参加作品です。\r\n\r\n\r\n○操作\r\n\r\n・メニュー表示: ダブルクリック もしくは「m」キー\r\n・ランダムトーク: 「t」キー\r\n\r\n\r\n○触り判定(なで反応のみ)\r\n\r\n頭: 撫でる\r\n\r\n\r\n○使用テンプレート\r\n\r\n「YAYA」テンプレートゴースト\r\n紺野ややめ\r\nhttps://github.com/YAYA-shiori/konnoyayame\r\n\r\nありがとうございます。\r\n\r\n\r\n○ゴーストの二次創作ガイドライン/ライセンス(2025-01-01現在)\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n制作: 月波 清火\r\nhttps://tukinami.github.io\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n○よくありそうな質問\r\n\r\nQ. 何かギミックはありますか？\r\nA. 複数ゴースト起動時に終了すると、イベントが起こるかもしれません。\r\n\r\nQ. 上記の終了時イベントが面倒なのですが。\r\nA. 数回イベントをこなすと落ち着きます。\r\n\r\nQ. 上記の終了時イベントがこなせません。\r\nA. そのまま数回終了を選択するとイベントを起こさず終了します。\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n以下、ネタバレ。\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n↓\r\n○さらにありそうな質問\r\n\r\nQ. 終了時イベントに対するヒントはありますか？\r\nA. メニューを開くとちょっとヒントがあります。\r\n\r\nQ. 終了時イベントって時限制ですか？\r\nA. はい。制限時間をすぎると、上記ヒントが表示されなくなります。\r\n\r\nQ. メニューの「?????」が気になるんですが。\r\nA. 上記の終了時イベントを1回でもこなした上で、彼女の話を数種類聞くと分かります。\r\n\r\nQ. アンインストールイベントにも「?????」があるんですが。\r\nA. 上記したメニューの「?????」が見える状態で開きます。ちょっと普通のイベントとは異なる展開になります。\r\n\r\n\r\n[EOF]\r\n",
+            "summary": "伺か用ゴースト。少女の様子を見るゴースト。嫌ゴ福袋企画2025 参加作品。",
+            "date_published": "2025-01-01T05:24:08Z",
+            "date_modified": "2025-01-01T05:24:12Z",
             "authors": [
                 {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
                 }
             ],
             "tags": [
+                "sirefaso",
                 "sosiremi",
                 "ukagaka",
                 "ukagaka-ghost"
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/Tatakinov/yomibito_minarai/releases/download/v1.1.0/yomibito_minarai.nar",
+                    "url": "https://github.com/tukinami/Yada-Yada-Yada/releases/download/v1.0.0/Yada-Yada-Yada.nar",
                     "mime_type": "application/octet-stream",
-                    "title": "yomibito_minarai.nar",
-                    "size_in_bytes": 69621974,
+                    "title": "Yada-Yada-Yada.nar",
+                    "size_in_bytes": 928721,
                     "_ex": {
-                        "download_count": 81
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/shellbook",
-            "url": "https://github.com/nikolat/shellbook",
-            "title": "shellbook",
-            "content_text": "========================================================================\n【ソフト名称】しぇるずかん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.31\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/05/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  下記サイトをデスクトップで見るための何か。\n  「freeshell Wiki*」\n  https://wikiwiki.jp/feeshell/\n\n■便利機能\n\n  [ショートカットキー]\n   m: メニュー表示\n   r: リロード\n  →: 次のページへ\n  ←: 前のページへ\n  ↑: 最初のページへ\n  ↓: 最後のページへ\n\n  [マウスホイール]\n  ページめくり\n\n  このゴーストが起動中にHTTP通信により取得した情報は\n  全てSHIORIおよびghostフォルダ内にキャッシュしています。\n  リロードによりキャッシュがクリアされます。\n\n■注意事項\n\n  「freeshell Wiki*」へのHTTPリクエストおよび\n  画像ダウンロードによる負荷の増加を考慮し、\n  「全取得」メニューの上限値を設けて50件を超える場合は\n  「全取得」メニューを無効化しています。\n\n  一部のページで情報が正しく取得できないことを確認しています。\n  ・特定のフォーマットの画像が表示されない\n    複数の画像が貼られている場合に対応していない\n  ・一部の作者名、配布サイト名が正しく表示されない\n    それに付随するアンカーが正しく飛ばない\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  resizedpngmini.dll\n    Resized Png Mini\n      https://github.com/tukinami/saori-resized-png-mini\n\n  フリーシェル「かのこ」\n    食卓塩\n      http://tablesalt.o0o0.jp/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
-            "summary": "freeshell Wiki viewer",
-            "date_published": "2022-12-13T12:54:50Z",
-            "date_modified": "2022-12-13T12:55:00Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/shellbook/releases/download/v1.0.3/shellbook.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "shellbook.nar",
-                    "size_in_bytes": 2069822,
-                    "_ex": {
-                        "download_count": 91
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/desktop_tempter",
-            "url": "https://github.com/Tatakinov/desktop_tempter",
-            "title": "desktop_tempter",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】卓上誘技\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサスホールデムで遊べるゴーストです。\r\n遊ぶにはクライアントゴーストを入れる必要があります。\r\nまた、バルーンは専用バルーンを使うようにしてください。\r\n\r\n\r\n## 遊び方\r\n\r\nSキー:ゲーム開始\r\nBキー:ベット(インプットボックスにベット額を入力)\r\nRキー:レイズ(インプットボックスにベット額を入力)\r\nAキー:オールイン\r\nCキー:チェック/コール\r\nFキー:フォールド\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua           | https://www.lua.org/\r\nsol2          | https://github.com/ThePhD/sol2/\r\nluautf8       | https://github.com/starwing/luautf8/\r\nluaex         | https://github.com/LuaDist/luaex/\r\nLuachild      | https://github.com/pocomane/luachild/\r\n\r\n",
-            "summary": "",
-            "date_published": "2023-01-07T05:42:05Z",
-            "date_modified": "2023-01-07T05:42:08Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/desktop_tempter/releases/download/1.0.0/desktop_tempter.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "desktop_tempter.nar",
-                    "size_in_bytes": 441657,
-                    "_ex": {
-                        "download_count": 59
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/nostalk",
-            "url": "https://github.com/nikolat/nostalk",
-            "title": "nostalk",
-            "content_text": "========================================================================\n【ソフト名称】nostalk\n【 制 作 者 】Don\n【 動作環境 】Windows11 24H2 + SSP/2.7.06\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2024/06/05\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  SSTPによるNostrイベント通知(Nostr/0.3,Nostr/0.4)に対応しており、\n  シェルをリアルタイムに変更してトークを再生します。\n\n  UKADOC OnNostr\n    https://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnNostr\n\n■ライセンス\n\n□SHIORIとして「YAYA」を使用しています。\n\n    yaya-shiori\n      https://github.com/YAYA-shiori/yaya-shiori\n\n□SAORIとして「Resized Png Mini」を使用しています。\n\n    Resized Png Mini\n      https://github.com/tukinami/saori-resized-png-mini\n\n□SAORIとして「saori_qrcode.dll」を使用しています。\n\n    saori_qrcode.dll\n      https://github.com/nikolat/saori-qrcode\n\n□アイコン画像に「Silk icon set 1.3」を使用しています。\n\n    Silk icon set 1.3\n      https://github.com/markjames/famfamfam-silk-icons\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "Nostr player on Ukagaka",
-            "date_published": "2025-08-17T08:14:59Z",
-            "date_modified": "2025-08-17T08:15:02Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/nostalk/releases/download/v0.6.0/nostalk.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "nostalk.nar",
-                    "size_in_bytes": 1637364,
-                    "_ex": {
-                        "download_count": 36
+                        "download_count": 41
                     }
                 }
             ]
@@ -430,387 +1331,6 @@
                     "size_in_bytes": 3741623,
                     "_ex": {
                         "download_count": 27
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/banjou_no_sumikko_de",
-            "url": "https://github.com/Tatakinov/banjou_no_sumikko_de",
-            "title": "banjou_no_sumikko_de",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】盤上の隅っこで\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 5.7以降 / SSP 2.4.72\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\n将棋ゴーストです。\r\n将棋以外にも色々なボードゲームで遊べます。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n- シェルについて\r\n    辞書内ではsurfacesのalias.txtに書かれたaliasを\r\n    利用するようにしているため、masterシェルと同じ番号にしなくても\r\n    aliasさえ一致していれば大丈夫です。\r\n    そのため、シェルのファイル名およびsurfaceIDは\r\n    masterシェルと同じである必要はありません。\r\n    ただし、あくまでsurfaceIDだけなので扇子のanimationIDは\r\n    一致させる必要があります。\r\n- 扇子の文字\r\n    1. 涓滴(けんてき)             藤井猛九段の揮毫。\r\n    2. 百折不撓(ひゃくせつふとう) 木村一基九段の揮毫。\r\n    3. 平安(へいあん)             鈴木大介九段の揮毫。\r\n- 盤や駒の画像について\r\n    追加シェルの場合は駒や盤などの画像を用意するのが大変であれば\r\n    masterのものをコピーしても大丈夫です。\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n△\r\n要相談。\r\n\r\n[16.ゴーストの商業誌収録]\r\n×\r\n\r\n\r\n# 棋譜の読み上げ音声について\r\n\r\n「VOICEVOX:四国めたん」を利用しています。\r\nホームページ → https://voicevox.hiroshiba.jp/\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\nただし、例外的にEigenのライセンスは\r\nghost/master/saori/cocoa/以下のCOPYINGを参照してください。\r\n(サードパーティのライブラリがどれか確認が取れていないため)\r\n\r\nLua                         | https://www.lua.org/\r\nsol2                        | https://github.com/ThePhD/sol2/\r\nluautf8                     | https://github.com/starwing/luautf8/\r\nluaex(in Luachild)          | https://github.com/LuaDist/luaex/\r\nLuachild                    | https://github.com/pocomane/luachild/\r\nLPeg                        | http://www.inf.puc-rio.br/~roberto/lpeg/\\\r\nshogi686                    | https://github.com/merom686/shogi686_sdt5/\r\nsunfish4                    | https://github.com/sunfish-shogi/sunfish4/\r\nluacheck                    | https://github.com/mpeterv/luacheck/\r\nargparse(in luacheck)       | https://github.com/mpeterv/argparse\r\nluafilesystem(in luacheck)  | https://github.com/keplerproject/luafilesystem\r\nlanes(in luacheck)          | https://github.com/LuaLanes/lanes\r\nMahjongUtil                 | https://github.com/nikolat/MahjongUtil\r\nluasocket                   | https://github.com/diegonehab/luasocket\r\nArasan                      | https://www.arasanchess.org/\r\nNAIST Japanese Dictionary   | https://ja.osdn.net/projects/naist-jdic/\r\nKataGo                      | https://github.com/lightvector/KataGo\r\nclblast(in KataGo)          | ↑のcpp/external参照\r\nfilesystem-1.5.8(in KataGo) | ↑同上\r\nhalf-2.1.0(in KataGo)       | ↑同上\r\nhttplib(in KataGo)          | ↑同上\r\nnlohmann_json(in KataGo)    | ↑同上\r\ntclap-1.2.2(in KataGo)      | ↑同上\r\nsha2.cpp(in KataGo)         | ↑のcpp/core/sha2.cppを参照\r\nopenssl(in KataGo)          | https://github.com/openssl/openssl\r\nEigen(in cocoa/kay)         | https://eigen.tuxfamily.org/index.php?title=Main_Page\r\nminpack(in Eigen)           | 不明\r\n\r\n\r\n## 使用フォント\r\n\r\n駒や指し手などの文字にM+ BITMAP FONTを使用しています。\r\nライセンス詳細はshell\\master\\shogi\\LICENSE.txtを参照してください。\r\n\r\nメニューのサイドバーにみかちゃんフォントを使用しています。\r\nライセンス詳細はshell\\master\\menu\\LICENSE.mikachan.txtを参照してください。\r\n\r\n\r\n## 棋譜について\r\n\r\n基本的には作者が将棋を指したり、将棋ソフトで検討()したり、棋書(本)を読んだり、\r\n動画を見たりして得た知識(※)を元に作っています。\r\n出典がある場合は該当するトークが書かれている辞書またはkifファイルに\r\nコメントで記載してあります。\r\nなお、プロの棋譜を用いた部分については\r\n棋譜利用のガイドライン | https://www.shogi.or.jp/kifuguideline/terms.html\r\nを守った範囲で利用しているはずです。\r\n万が一上記のガイドラインを無視した棋譜利用がありましたら\r\n連絡をお願いいたします。\r\n\r\n※棋書で詳細に書かれている変化についてはあまり触れないはずです。\r\n相振り飛車を指しこなす本くらいしかまともに読んでいませんが念のため。\r\n\r\n\r\n## メニューの詰将棋のようなものについて\r\n\r\n作者が考えてはいますが、万が一\r\n同一作品が存在していた場合は連絡してくださると助かります。\r\n\r\n\r\n## 参考にしたあれこれ\r\n\r\n- 栞関連\r\n\r\n  UKADOC Project\r\n    さくらスクリプトリスト/ http://ssp.shillest.net/ukadoc/manual/list_sakura_script.html\r\n  lua-users wiki          / http://lua-users.org/wiki/\r\n  tkytk                   / https://github.com/kinokon/tkytk\r\n  山茱萸しゃしゃぶ        / リンク切れ\r\n\r\n\r\n- ゴースト作成\r\n\r\n  着せ替えやアニメーションの作り方\r\n                          / http://earlduant.github.io/ukagaka-shell-description/animations.html\r\n\r\n\r\n- SAORI(process.dll)\r\n\r\n  さおり                  / http://www.boreas.dti.ne.jp/~sdn/saori.html\r\n  伺か - SSTPプロトコル   / http://usada.sakura.vg/contents/sstp.html\r\n  伺か - メモリオブジェクト\r\n                          / http://usada.sakura.vg/contents/objects.html\r\n\r\n\r\n- フォント\r\n\r\n  mieki256's diary - BDFフォントをアウトラインフォントにしてみたい\r\n                          / http://blawat2015.no-ip.com/~mieki256/diary/201905281.html\r\n\r\n\r\n- 棋譜フォーマットやUSIプロトコル\r\n\r\n  JSON棋譜フォーマット    / https://github.com/na2hiro/json-kifu-format\r\n  USIプロトコルとは       / http://shogidokoro.starfree.jp/usi.html\r\n  棋譜の表記方法          / https://www.shogi.or.jp/faq/kihuhyouki.html\r\n\r\n\r\n- 将棋トーク\r\n\r\n  将棋盤局面図を作成      / http://sfenreader.appspot.com/ja/create_board.html\r\n  将棋講座(ButaneGorilla) / https://www.nicovideo.jp/mylist/50368976\r\n\r\n- デバッグ(luacheck)のコンパイル\r\n  luastatic               / https://github.com/ers35/luastatic\r\n\r\n- オセロ\r\n  おせろAIの教科書|にゃにゃん(山名琢翔) / https://note.com/nyanyan_cubetech/m/m54104c8d2f12\r\n\r\n## サプリメントについて\r\n\r\n「盤上の隅っこで」には将棋の思考エンジンを導入するためのサプリメントが存在します。\r\nゴーストをつつくと出てくるメニューから「対局する」を選ぶと\r\n対局メニューが出てきます。\r\nそのメニューから「思考エンジンのインストール」を選択すると導入出来ます。\r\n\r\n\r\n### 配布元について\r\n\r\nhttps://github.com/Tatakinov/banjou_no_sumikko_de_supplement\r\n\r\n\r\n### 将棋の思考エンジンについて\r\n\r\n#### shogi686_sdt5\r\natomic_intやsizeof関係のコンパイルエラーが出ていた部分を修正しています。\r\nまた、指し手にランダム性を持たせるために、\r\nソースコードに少し手を加えています。\r\n評価関数は適当に何日か学習させたものを作成しました。\r\n\r\n#### sunfish4\r\n32bitでは_BitScanFoward64が無くてコンパイルエラーが出ていたので\r\nソースコード内に存在する代替関数を使うように修正しています。\r\n評価関数は、作者の将棋倶楽部24と81dojoの棋譜を学習させたものになっています。\r\nまた、序盤が弱いので最低限の定跡を入れてあります。\r\n\r\n",
-            "summary": "",
-            "date_published": "2023-01-08T13:11:11Z",
-            "date_modified": "2023-01-08T13:11:28Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/banjou_no_sumikko_de/releases/download/1.0.0/banjou_no_sumikko_de.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "banjou_no_sumikko_de.nar",
-                    "size_in_bytes": 6446304,
-                    "_ex": {
-                        "download_count": 96
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/jong-bari",
-            "url": "https://github.com/nikolat/jong-bari",
-            "title": "jong-bari",
-            "content_text": "========================================================================\n【ソフト名称】雀々BARIBARI\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.42\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/06/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するゴーストです。\n  麻雀をするためのサーバーゴーストです。\n  他にクライアントゴーストを3体召喚してお楽しみください。\n\n  ゴーストの使い方 - SSP\n    http://keshiki.nobody.jp/\n\n■通信仕様\n\n  UKADOC Project SHIORI Eventリスト（外部）\n    http://ssp.shillest.net/ukadoc/manual/list_shiori_event_ex.html#OnMahjong\n\n  UMP(Universal Mahjong Protocol)\n    https://osdn.net/projects/openmj/wiki/UMP\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「MahjongUtil.dll」を使用しています。\n\n    すくりや\n      https://nikolat.github.io/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "麻雀サーバーゴースト",
-            "date_published": "2023-06-09T08:01:08Z",
-            "date_modified": "2023-06-09T08:01:11Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "japanese-mahjong",
-                "mahjong",
-                "riichi-mahjong",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/jong-bari/releases/download/v1.0.6/jong-bari.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "jong-bari.nar",
-                    "size_in_bytes": 1049602,
-                    "_ex": {
-                        "download_count": 87
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/wind_memory_petit",
-            "url": "https://github.com/Tatakinov/wind_memory_petit",
-            "title": "wind_memory_petit",
-            "content_text": "# 風の記憶\n\n## このゴーストについて\n\nElinの楽しさを少し増やせたら良いな、というゴーストです。\n\n初心者向けの説明以外に、Elin内の出来事に反応することがあります。\n例えば、\n- 死んだとき\n- 良い装備を見つけたとき\n- 状態異常に罹ったとき\n- 敵をターゲッティングしたとき\nなど。\n\n邪魔にならない場所に置いて頂けたら幸い。\n\n## ライセンス\n\nghost/master/elin\n以上のディレクトリ内のファイルのライセンスは特に断りが無い限りCC0です。\n\n",
-            "summary": "",
-            "date_published": "2024-11-24T12:47:35Z",
-            "date_modified": "2024-11-24T12:47:37Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "elin",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/wind_memory_petit/releases/download/v1.0.0/wind_memory_petit.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "wind_memory_petit.nar",
-                    "size_in_bytes": 427052,
-                    "_ex": {
-                        "download_count": 160
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Taromati2/Taromati2",
-            "url": "https://github.com/Taromati2/Taromati2",
-            "title": "Taromati2",
-            "content_text": "This ghost only supports Chinese at the moment, feel free to visit the following URL to participate in the translation\nこのゴーストは現在、中国語のみ対応しています。以下のURLにアクセスし、翻訳に参加してください。\n这个ghost目前只支持中文，欢迎访问以下网址来参与翻译\nhttps://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md\n\n原作：http://unvollendet.web.fc2.com/\n详细信息：https://github.com/Taromati2/Taromati2\n免责声明：https://github.com/Taromati2/Taromati2#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\n贡献者名单：https://github.com/Taromati2/Taromati2/blob/master/docs/CONTRIBUTORS.md\n\n\n",
-            "summary": "黑色的猫咪 银发的少女 没有结局的故事",
-            "date_published": "2026-10-07T03:27:32Z",
-            "date_modified": "2026-10-07T03:27:32Z",
-            "authors": [
-                {
-                    "name": "Taromati2",
-                    "url": "https://github.com/Taromati2",
-                    "avatar": "https://avatars.githubusercontent.com/u/79416721?v=4"
-                }
-            ],
-            "tags": [
-                "a-topic",
-                "aya",
-                "desktop-pet",
-                "ghost",
-                "kikka",
-                "nar",
-                "sakurascript",
-                "sirefaso",
-                "sosiremi",
-                "taromati",
-                "taromati2",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Taromati2/package-factory/releases/download/37566752565/Taromati2.nar",
-                    "mime_type": "application/zip",
-                    "title": "Taromati2.nar",
-                    "size_in_bytes": 5099838,
-                    "_ex": {
-                        "download_count": 31
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/yomibito_minarai",
-            "url": "https://github.com/Tatakinov/yomibito_minarai",
-            "title": "yomibito_minarai",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】詠み人見習い\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 8.0以降 / SSP 2.6.52以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\n川柳のような何かを作るゴーストです。\r\n専用バルーンを使う前提の表示なのでそちらもインストールしてください。\r\n\r\n川柳を詠んだ後に出てくる星マークをクリックすればブクマ出来ます。\r\nもう一度見たい場合や画面キャプチャして自慢(?)するのに活用していただければ。\r\n\r\n\r\n## SLMによる川柳解説\r\n\r\n別途SLMを用意することで生成した川柳に\r\n解説のような何かを付けることができます。\r\nhttps://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx\r\nの\r\ncpu_and_mobile/cpu-int4-rtn-block-32\r\nからモデルやらコンフィグやらをダウンロードします。\r\n30GB程度のディスクの空き領域が必要になります。\r\nダウンロードの仕方は各自で調べてください。\r\nghost/master/aiにmodelフォルダを作り、\r\nmodel\r\n    |- added_tokens.json\r\n    |- config.json\r\n    |- ...\r\nのように配置します。\r\nそれからゴーストを起動すれば、川柳生成後に解説をつけるようになります。\r\n\r\n\r\n## 必要なスペック\r\n\r\n川柳のみ: 400MB程度の空きメモリ\r\n川柳+解説: 3GB程度の空きメモリ\r\n\r\n解説付きの場合は.NET 8が必要になり、さらに64bitでビルドしている関係で\r\n古いOSでは動作しないと思われます。\r\nまた、CPUで推論を行うため、時間がかかります。\r\n川柳ガチゃをする場合は、解説機能は切ったほうがいいでしょう。\r\n\r\n\r\n## 注意\r\n\r\nR-18な単語を含む川柳を生成する場合があります。\r\n自動生成なので川柳/解説のクオリティには期待しないでください。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n### シェル\r\n\r\nNegi-Mixを使用したAIシェルです。\r\nモデルのライセンスはFair AI Public License 1.0-SDです。\r\nhttps://freedevproject.org/faipl-1.0-sd/\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\nLua                 | https://www.lua.org/\r\nsol2                | https://github.com/ThePhD/sol2/\r\nluautf8             | https://github.com/starwing/luautf8/\r\nluaex               | https://github.com/LuaDist/luaex/\r\nLuachild            | https://github.com/pocomane/luachild/\r\nzlib                | https://www.zlib.net/\r\nonnxruntime         | https://github.com/microsoft/onnxruntime\r\nonnxruntime-genai   | https://github.com/microsoft/onnxruntime-genai\r\nchiVe               | https://github.com/WorksApplications/chiVe\r\n\r\n## 川柳で使用している語彙について\r\n\r\nsaori/word2vec/data.gzに含まれています。\r\n\r\nmecab-ipadicに含まれる形態素の基本形と合致するchiVeの単語ベクトルを\r\n抽出したものを使用しています。\r\nライセンスはCOPYING.mecab_ipadic.txtおよびLICENSE.chive.txtを\r\n参照してください。\r\n\r\n\r\n# おまけ\r\n\r\n## 川柳生成の仕組み\r\n\r\nまず品詞+文字数の情報でそれっぽく川柳を生成します。\r\n「カッターがマグロに話す庭の糧」\r\n品詞と文字数の情報を併記するとこう。\r\n「カッター(名詞,4)が(助詞,1)マグロ(名詞,3)に(助詞,1)話す(動詞,3)庭(名詞,2)の(助詞,1)糧(名詞,2)」\r\nこの内、品詞と文字数の情報、それと最初の単語と助詞を残します。\r\n「カッターが(名詞,3)に(動詞,3)(名詞,2)の(名詞,2)」\r\n最初に抜けている(名詞,3)に対応する単語をword2vecで\r\n「カッター」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに(動詞,3)(名詞,2)の(名詞,2)」\r\n次の(動詞,3)に対応する単語を\r\n「カッター+ハサミ」に意味の近い動詞を持ってきます。\r\n「カッターがハサミに切れる(名詞,2)の(名詞,2)」\r\n次の(名詞,2)に対応する単語を\r\n「ハサミ+切る」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに切れる紙の(名詞,2)」\r\n次の(名詞,2)に対応する単語を\r\n「切る+紙」に意味の近い名詞を持ってきます。\r\n「カッターがハサミに切れる紙の束」\r\nとなって完成です。\r\n\r\n最初のよりは意味が通りそうなものになる一方、ランダムな単語の羅列で作られる\r\nおもしろ川柳が出来にくくなるのは難しいところ。\r\nどこいつみたいな単語の厳選をすれば\r\nランダムな単語の羅列の方が面白そうなので誰か作って。\r\n\r\n\r\n## AIInterpreter.exeについて。\r\n\r\nonnxのモデルを読み込んでChatGPTみたいなやりとりが出来ます。\r\nPhi3以外のonnxモデルでも動くのかもしれませんが、動作確認はしてません。\r\n\r\n一行目の入力を${system}、二行目の入力を${user}として、\r\n<|system|>\r\n${system}<|end|>\r\n<|user|>\r\n${user}<|end|>\r\n<|assistant|>\r\nとLMに入力するようになっています。\r\n入出力はUTF-8に限定されるので注意してください。\r\n\r\n",
-            "summary": "",
-            "date_published": "2024-05-13T12:07:28Z",
-            "date_modified": "2024-05-13T12:08:23Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/yomibito_minarai/releases/download/v1.1.0/yomibito_minarai.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "yomibito_minarai.nar",
-                    "size_in_bytes": 69621974,
-                    "_ex": {
-                        "download_count": 81
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/shellbook",
-            "url": "https://github.com/nikolat/shellbook",
-            "title": "shellbook",
-            "content_text": "========================================================================\n【ソフト名称】しぇるずかん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.31\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/05/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  下記サイトをデスクトップで見るための何か。\n  「freeshell Wiki*」\n  https://wikiwiki.jp/feeshell/\n\n■便利機能\n\n  [ショートカットキー]\n   m: メニュー表示\n   r: リロード\n  →: 次のページへ\n  ←: 前のページへ\n  ↑: 最初のページへ\n  ↓: 最後のページへ\n\n  [マウスホイール]\n  ページめくり\n\n  このゴーストが起動中にHTTP通信により取得した情報は\n  全てSHIORIおよびghostフォルダ内にキャッシュしています。\n  リロードによりキャッシュがクリアされます。\n\n■注意事項\n\n  「freeshell Wiki*」へのHTTPリクエストおよび\n  画像ダウンロードによる負荷の増加を考慮し、\n  「全取得」メニューの上限値を設けて50件を超える場合は\n  「全取得」メニューを無効化しています。\n\n  一部のページで情報が正しく取得できないことを確認しています。\n  ・特定のフォーマットの画像が表示されない\n    複数の画像が貼られている場合に対応していない\n  ・一部の作者名、配布サイト名が正しく表示されない\n    それに付随するアンカーが正しく飛ばない\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  resizedpngmini.dll\n    Resized Png Mini\n      https://github.com/tukinami/saori-resized-png-mini\n\n  フリーシェル「かのこ」\n    食卓塩\n      http://tablesalt.o0o0.jp/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
-            "summary": "freeshell Wiki viewer",
-            "date_published": "2022-12-13T12:54:50Z",
-            "date_modified": "2022-12-13T12:55:00Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/shellbook/releases/download/v1.0.3/shellbook.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "shellbook.nar",
-                    "size_in_bytes": 2069822,
-                    "_ex": {
-                        "download_count": 91
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/reshibainu",
-            "url": "https://github.com/nikolat/reshibainu",
-            "title": "reshibainu",
-            "content_text": "========================================================================\n【ソフト名称】れしばいぬ\n【 制 作 者 】Don\n【 動作環境 】Windows11 21H2 + SSP/2.6.13\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2013/09/15\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  「里々」のログビューア「れしば.NET」のゴースト版です。\n  普通に「れしば.NET」単体で起動したほうが便利だと思います。\n\n  れしば.NET\n    https://github.com/nikolat/recv_net\n\n■謝辞\n\n  以下のモジュールおよびフリーシェルを使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    作者  ：摂理\n    配布元：narをアップするところ（配布元消失）\n\n  フリーシェル「まめしばわんこ」\n    作者  ：いとうべん太\n    配布元：ふぐ提灯（配布元消失）\n\n■ライセンス\n\n  ライセンスは「NYSL Version 0.9982」です。\n    NYSL\n      http://www.kmonos.net/nysl/\n\nA. 本ソフトウェアは Everyone'sWare です。このソフトを手にした一人一人が、\n   ご自分の作ったものを扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. フリーウェアです。作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載・再配布できます。\n  A-3. いかなる種類の 改変・他プログラムでの利用 を行っても構いません。\n  A-4. 変更したものや部分的に使用したものは、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. このソフトを利用することによって生じた損害等について、作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権は Don に帰属します。著作権は放棄します。\n\nD. 以上の３項は、ソース・実行バイナリの双方に適用されます。\n\n",
-            "summary": "「里々」ログビューア「れしば.NET」のゴースト版",
-            "date_published": "2022-01-26T03:31:06Z",
-            "date_modified": "2022-04-27T09:49:51Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "dotnet-framework",
-                "satori",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/reshibainu/releases/download/v1.0.0/reshibainu.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "reshibainu.nar",
-                    "size_in_bytes": 40903,
-                    "_ex": {
-                        "download_count": 76
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/crawler_uploader",
-            "url": "https://github.com/nikolat/crawler_uploader",
-            "title": "crawler_uploader",
-            "content_text": "========================================================================\n【ソフト名称】クローラ＆ロダ\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.15\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2011/04/16\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」互換ベースウェア「SSP」で動作するゴーストです。\n  動作には.NET Framework 2.0以上が必要となります。\n\n  \\0妹: ゴーストのネットワーク更新を捕捉する仕事をしている\n  \\1姉: NARを預かり、ネットワーク更新をサポートする仕事をしている\n\n■ライセンス\n\n  以下のモジュールおよびフリーシェル・画像素材を使用させて頂いております。\n  ありがとうございます。\n\n  D.N.Proxy\n    narをアップするところ\n      (配布元消失)\n\n  フリーシェル「mof」\n    パン耳手帳\n      (配布元消失)\n\n  browser-logos\n    https://github.com/alrra/browser-logos\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてNYSDLに基づき自由に利用できるものとします。\n\n************************************************************************\nNYSDL Version 0.9982\nA. この文書は Everyone'sDocument です。この文書を手にした一人一人が、\n   ご自分の書いた文章を扱うのと同じように、自由に利用することが出来ます。\n\n  A-1. 作者からは使用料等を要求しません。\n  A-2. 有料無料や媒体の如何を問わず、自由に転載できます。\n  A-3. いかなる種類の改変を加えても構いません。\n  A-4. この文書を変更や引用した文書は、あなたのものになります。\n       公開する場合は、あなたの名前の下で行って下さい。\n\nB. この文章を利用することによって生じた損害等について、著作者は\n   責任を負わないものとします。各自の責任においてご利用下さい。\n\nC. 著作者人格権はDonに帰属します。著作権は放棄します。\n************************************************************************\n",
-            "summary": "UKAGAKA Ghost",
-            "date_published": "2022-04-29T01:21:30Z",
-            "date_modified": "2022-04-29T01:21:32Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "dotnet-framework",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/crawler_uploader/releases/download/v1.0.0/crawler_uploader.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "crawler_uploader.nar",
-                    "size_in_bytes": 658145,
-                    "_ex": {
-                        "download_count": 125
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/ukagaka-party-parrot",
-            "url": "https://github.com/nikolat/ukagaka-party-parrot",
-            "title": "ukagaka-party-parrot",
-            "content_text": "========================================================================\n【ソフト名称】Party Parrot\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.19\n【 タ イ プ 】「伺か」用ゴースト\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/10/09\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  PARTY OR DIE\n\n□キャラクタを追加する\n\n  追加キャラクタはサプリメント形式で配布されています。\n  https://github.com/nikolat/ukagaka-party-parrot/releases\n\n□キャラクタを削除する\n\n  つまみ上げて十分な高さから落としてください。\n\n□常に手前に表示\n\n  「t」キーで切り替え可能です。\n\n■ライセンス\n\n□SHIORIとして「灯」を使用しています。\n\n    夜天燈火\n      http://le.silk.to/\n\n□SAORIとして「HandUtil.dll」を使用しています。\n\n    浮子屋本舗\n      http://ukiya.sakura.ne.jp/\n\n□SAORIとして「ccpuid.dll」を使用しています。\n\n    csaori\n      https://github.com/ukatech/csaori\n\n□SAORIとして「TexasHoldemUtil.dll」を使用しています。\n\n    いろいろ置いておく場所\n      https://tatakinov.github.io/\n\n□シェルおよびアイコンに以下のサイトの画像を利用しています。\n\n    Cult of the Party Parrot\n      https://cultofthepartyparrot.com/\n\n□上記以外のテキストファイル、辞書ファイルの類いについて\n\n  著作者人格権はDonに帰属します。\n\n    すくりや\n      https://nikolat.github.io/\n\n  ライセンスは「CC0 1.0 Universal」です。\n\n    Creative Commons - CC0 1.0 Universal\n      http://creativecommons.org/publicdomain/zero/1.0/\n",
-            "summary": "Party Parrot for UKAGAKA",
-            "date_published": "2022-11-12T11:40:10Z",
-            "date_modified": "2022-11-12T11:40:12Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "party-parrot",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ukagaka-party-parrot/releases/download/v1.6.0/party-parrot.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "party-parrot.nar",
-                    "size_in_bytes": 1173834,
-                    "_ex": {
-                        "download_count": 128
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/desktop_tempter_casino_chip_blue",
-            "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_blue",
-            "title": "desktop_tempter_casino_chip_blue",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】カジノチップ(青)\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサス・ホールデムのクライアントゴーストです。\r\n遊ぶにはサーバーゴーストを入れる必要があります。\r\nまた、クライアントゴーストのサンプルゴーストでもあります。\r\n自分で思考部分作りたい方は\r\nghost/master/README.txt、ghost/master/dic_texas_holdem.dic、\r\nghost/master/dic_texas_holdem_ai.dicを参照してみてください。\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\nSAORIにTexasHoldemUtilを使用しています。\r\n\r\n",
-            "summary": "",
-            "date_published": "2023-01-07T05:38:47Z",
-            "date_modified": "2023-01-07T05:38:50Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_blue/releases/download/1.0.0/desktop_tempter_casino_chip_blue.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "desktop_tempter_casino_chip_blue.nar",
-                    "size_in_bytes": 497848,
-                    "_ex": {
-                        "download_count": 39
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/desktop_tempter_casino_chip_green",
-            "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_green",
-            "title": "desktop_tempter_casino_chip_green",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】カジノチップ(緑)\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n\r\n\r\n## ゴーストについて\r\n\r\nテキサス・ホールデムのクライアントゴーストです。\r\n遊ぶにはサーバーゴーストを入れる必要があります。\r\nまた、クライアントゴーストのサンプルゴーストでもあります。\r\n自分で思考部分作りたい方は\r\nghost/master/README.txt、ghost/master/dic_texas_holdem.dic、\r\nghost/master/dic_texas_holdem_ai.dicを参照してみてください。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\nSAORIにTexasHoldemUtilを使用しています。\r\n\r\n",
-            "summary": "",
-            "date_published": "2023-01-07T05:28:59Z",
-            "date_modified": "2023-01-07T05:29:01Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/desktop_tempter_casino_chip_green/releases/download/1.0.0/desktop_tempter_casino_chip_green.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "desktop_tempter_casino_chip_green.nar",
-                    "size_in_bytes": 559082,
-                    "_ex": {
-                        "download_count": 42
                     }
                 }
             ]

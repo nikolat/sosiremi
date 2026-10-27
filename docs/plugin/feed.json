@@ -6,45 +6,112 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
-            "id": "apxxxxxxe/Bouyomi",
-            "url": "https://github.com/apxxxxxxe/Bouyomi",
-            "title": "Bouyomi",
-            "content_text": "プラグイン「Bouyomi」\r\nSSPでのみ動作確認\r\n\r\n------------------------------\r\nこのプラグインは、YAYA as PLUGINを使用して作られています。\r\n作成にあたり、プラグイン「第弐版仮想道頓堀水泳拡張」をテンプレートとして使用させていただきました。\r\n\r\n------------------------------\r\n## 何をするもの？\r\n棒読みちゃん(https://chi.usamimi.info/Program/Application/BouyomiChan/)\r\nと連携し、ゴーストのトークの読み上げを可能にします。\r\n\r\n## どうやって使うの？\r\n棒読みちゃんを起動した状態でゴーストを起動するだけでトークを読み上げが可能になります。\r\n「棒読みちゃん送信」と共存する場合、片方を無効化しておくことを推奨します。\r\n\r\n## 有効/無効の切り替え\r\nインストール直後は自動的に有効化されています。特別な操作は必要ありません。\r\n無効化する際は、ゴーストの上で右クリック→機能→エクスプローラ→種類→プラグインの順に選択し、\r\n本プラグインの右クリックメニューから有効/無効の切り替えが可能です。\r\n\r\n## 注意\r\nインストール直後はバージョンが古い場合があります。*必ず*ネットワーク更新を行ってください。\r\n本プラグインの右クリックメニューからネットワーク更新が可能です。\r\n",
-            "summary": "伺かプラグイン",
-            "date_published": "2023-10-28T12:22:08Z",
-            "date_modified": "2023-10-28T12:22:09Z",
+            "id": "lost-nd-xxx/UkagakaGhostMessenger",
+            "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger",
+            "title": "UkagakaGhostMessenger",
+            "content_text": "# UkagakaGhostMessenger\r\n伺かベースウェア向けプラグインです。\r\nメッセージアプリ風の画面で、対応ゴーストからメッセージを受け取ることができます。\r\n\r\n制作者: ろすえん(lost_nd_xxx)\r\n連絡先: http://lnx.flop.jp/\r\n\r\n------------------------\r\n## 取扱説明書等\r\n* ゴースト使用者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト使用者向け\r\n* ゴースト制作者向け説明書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/HowToUse#ゴースト制作者向け\r\n* 仕様書 https://github.com/lost-nd-xxx/UkagakaGhostMessenger/wiki/Specification\r\n\r\n------------------------\r\n## 1.x系（1.0.4以前）からの移行\r\n2.0.0から、プラグインの中身を作り直しました（akariを使わず、YAYAだけで動くようにしました）。\r\n1.x系の受信履歴や予約を引き継ぐには、次の順に作業してください。\r\n1. 1.0.5をインストールし、SSPを一度起動する（1.0.4からはネットワーク更新でも1.0.5になります）\r\n   1.0.5の入手先：https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/tag/1.0.5\r\n2. 2.0.0以降（最新版）を上書きでインストールする\r\n\r\n移行の結果は、UGMからのメッセージ（差出人「システム通知」）でお知らせします。\r\n1.0.5を経ずに2.0.0以降を入れた場合は、引き継げなかったことをお知らせします。\r\nその場合は、1.0.5をインストールしてSSPを一度起動してから、2.0.0以降を入れ直してください。\r\n\r\n1.x系は、GitHubのmainブランチに残しています。\r\n\r\n------------------------\r\n## メッセージ履歴について\r\nこのプラグインの使用に際してプラグインフォルダ内に蓄積される文章や画像などは、各ゴーストから送信されたものです。\r\n各データの取り扱いは、送信元ゴーストの規約に従ってください。\r\n\r\n------------------------\r\n## ファイアウォールの表示が出た場合\r\nUGM導入後、ファイアウォールから「ugm_server.exe」の動作を許可するかどうか聞かれる場合があります。\r\nugm_server.exeは、受信履歴のページ（ブラウザで開くページ）を表示するためのアプリです。\r\nプラグインが動いている間だけ起動し、プラグインを無効にしたりSSPを終了したりすると、自動で終了します。\r\n（プラグインが動いていないときにページを開けてしまうと、既読を付けられないなどの問題が起きるため、このようにしています）\r\n深刻な不具合などの無いように気を付けますが、何か不利益があっても補償はできない、ということをご理解の上で許可してください。\r\n許可しなかった場合、メッセージ受信履歴を閲覧できなくなります。\r\nugm_server.exeを有効にしていない状態でも、プラグイン自体が有効であれば、メッセージ受信のみ動作します。\r\n\r\nまた、UGM起動直後の数秒間だけ、マウスカーソルが砂時計状態になります。\r\nugm_server.exeの起動によるもので、仕様です。\r\n\r\n------------------------\r\n## ugm_config.txt の設定\r\nプラグインフォルダにある「ugm_config.txt」を書き換えると、次の設定を変更できます。\r\n※プラグインを再起動するまで設定は反映されません。\r\nプラグインエクスプローラから、UGMを右クリックし、無効にした後有効に戻してください。\r\n\r\n### ローカルホストのポート番号（localhost_number,数値）\r\nUGMの使用するポート番号を変更できます（デフォルト：8000）。\r\n以下の場合などにご活用ください。\r\n* UGM以外のツールを使おうとしてUGMのページが開かれてしまった\r\n* UGMのページを開こうとして関係ないツールのページが開かれてしまった\r\n\r\n### メッセージの受信条件を照合する間隔（check_interval,数値）\r\nメッセージの受信条件を照合する間隔を、秒単位で指定できます（デフォルト：1）。\r\n対応ゴーストが多く、メッセージが大量に予約されている場合に値を大きくすると、処理の負荷を軽減できます。\r\n\r\n### うまく動かないとき（server_log,ファイル名）\r\n受信履歴のページが開かない、ポート番号を変えたのに反映されない、といったときは、ugm_server.exeの動作ログで原因を確かめられます。\r\n1. 「ugm_config.txt」の「//server_log,server_log.txt」の行頭の「//」を消して、保存する\r\n2. プラグインを再起動する\r\n3. プラグインフォルダに作られる「server_log.txt」を開いて、中身を確かめる\r\n\r\nログには、次のようなことが記録されます。\r\n* 実際に使われたポート番号（無効な番号を指定したときは、8000番に戻したこと）\r\n* ほかのアプリがポートを使っているなどで、ページを表示するためのサーバーを起動できなかったこと\r\n* サーバーを終了したことと、その理由\r\n\r\n※記録されるのは、ugm_server.exe（受信履歴のページの表示）の動作だけです。メッセージの受信の動作は記録されません。\r\nログを書き出している間は、ファイルに追記され続けます。調べ終わったら、行頭に「//」を戻してプラグインを再起動すると、書き出しが止まります。「server_log.txt」は、不要になったら消してもかまいません。\r\n\r\n------------------------\r\n## 開発中のAI利用について\r\nこのプラグインは、AIコーディングエージェント（Claude）を用いて開発しました。\r\n\r\n------------------------\r\n## 更新履歴\r\n### 2.0.1（2026-10-01）\r\n* ゴースト名の差し替え対象に「%」を加え、仕様書の記載と揃えました。\r\n\r\n### 2.0.0（2026-10-01）\r\n* akariを廃止し、YAYA（600系）だけで動くようにしました。\r\n* 1.x系の受信履歴と予約を引き継げるようにしました（「1.x系（1.0.4以前）からの移行」を参照）。\r\n* 不具合を修正しました（本文に添付した画像が表示されない、「:ampm:」が常に「午前」になる、長いメッセージで吹き出しとアイコンの位置がずれる、など）。\r\n* ゴースト制作者向け：一部の条件や送信時の指定の動作を、仕様書どおりに直しました。詳しくは仕様書をご覧ください。\r\n* プラグインのライセンス（MIT）を定めました。\r\n\r\n------------------------\r\n## ライセンス\r\nこのプラグイン（UkagakaGhostMessenger）はMITライセンスです。全文はプラグインフォルダ/LICENSE を参照してください。\r\n改変したものの公開・再配布（フォークやプルリクエストを含む）も、MITライセンスの範囲で自由に行えます。\r\n\r\nただし、以下はMITライセンスの対象外です。\r\n* 同梱しているモジュール等：それぞれのライセンスに従います（下の「使用モジュール等のライセンス」を参照）。\r\n* うめちゃんのイラスト（localweb/html/res/image/icon_default.png、localweb/html/res/image/page_background.png）：ユスラさんの作品です。\r\n  * このプラグイン（改変したものを含む）に、イラストのファイルを改変せずに同梱して再配布することはできます。\r\n  * イラストのファイルそのものの改変や、このプラグインから切り離しての利用（他の作品の素材にするなど）はできません。\r\n  * イラストを外したり、別の画像に差し替えたりするのは自由です。\r\n\r\n------------------------\r\n## 使用モジュール等のライセンス\r\n* YAYA  https://github.com/YAYA-shiori/yaya-shiori\r\n  * ライセンスは以下のどちらかを参照のこと\r\n    * プラグインフォルダ/license_text/yaya.txt\r\n    * https://github.com/YAYA-shiori/yaya-shiori/blob/600/readme.txt\r\n  * AYA Ver.5 の元のライセンス: プラグインフォルダ/license_text/aya-original.txt\r\n\r\n* うかてん https://github.com/nikolat/ukaten\r\n  * 1.x系のmain.azrの処理を元に、2.x系の辞書（dict/system/yaya_plugin2.dic）を作成しています。\r\n> 上記以外のテキストファイル、辞書ファイルの類いは、\r\n> すべてpublic domainとして自由に利用できるものとします。\r\n\r\n* manpu_doodle https://github.com/lost-nd-xxx/manpu_doodle\r\n  * Unlicense license https://github.com/lost-nd-xxx/manpu_doodle/blob/main/LICENSE\r\n\r\n* fuwaimg https://do.gt-gt.org/product/fuwaimg/\r\n  * MITライセンス https://licenses.opensource.jp/MIT/MIT.html\r\n\r\n* Material Symbols & Icons https://fonts.google.com/icons\r\n  * Apache License Version 2.0 https://www.apache.org/licenses/LICENSE-2.0.html\r\n\r\n* jsstp https://github.com/ukatech/jsstp-lib\r\n  * WTFPL https://github.com/ukatech/jsstp-lib/blob/master/LICENSE\r\n\r\n* go https://go.dev/\r\n  * 三条項BSDライセンス https://go.dev/LICENSE\r\n\r\n* yaya-dic https://github.com/YAYA-shiori/yaya-dic\r\n  * Public Domain (Unlicense) https://github.com/YAYA-shiori/yaya-dic/blob/master/LICENSE\r\n\r\n* 紺野ややめ https://github.com/YAYA-shiori/konnoyayame\r\n  * 同梱の開発キット（開発用スクリプト）を当方で改変し、開発に使用しています（配布物には含みません）。\r\n  * Public Domain (Unlicense) https://github.com/YAYA-shiori/konnoyayame/blob/master/LICENSE\r\n\r\n* 第弐版仮想道頓堀水泳拡張（道頓堀プラグイン） https://ms.shillest.net/yaya_as.xhtml\r\n  * NYSDL Version 0.9982 プラグインフォルダ/license_text/TOMBORI.txt\r\n\r\n### うめちゃんのイラスト\r\nユスラさんがにじジャーニーで生成されたものを加工して使っています。\r\n* にじジャーニー https://nijijourney.com/ja/\r\n  * にじジャーニー利用規約 https://docs.midjourney.com/docs/terms-of-service\r\n",
+            "summary": "伺かベースウェア向けのメッセージアプリ風プラグイン",
+            "date_published": "2026-09-30T17:15:40Z",
+            "date_modified": "2026-09-30T17:15:51Z",
             "authors": [
                 {
-                    "name": "apxxxxxxe",
-                    "url": "https://github.com/apxxxxxxe",
-                    "avatar": "https://avatars.githubusercontent.com/u/39634779?v=4"
+                    "name": "lost-nd-xxx",
+                    "url": "https://github.com/lost-nd-xxx",
+                    "avatar": "https://avatars.githubusercontent.com/u/31817751?v=4"
                 }
             ],
             "tags": [
                 "sirefaso",
                 "sosiremi",
+                "ukagaka",
                 "ukagaka-plugin"
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/apxxxxxxe/Bouyomi/releases/download/v1.5.1/Bouyomi.nar",
-                    "mime_type": "application/zip",
-                    "title": "Bouyomi.nar",
-                    "size_in_bytes": 2959159,
+                    "url": "https://github.com/lost-nd-xxx/UkagakaGhostMessenger/releases/download/2.0.1/UkagakaGhostMessenger.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "UkagakaGhostMessenger.nar",
+                    "size_in_bytes": 3471449,
                     "_ex": {
-                        "download_count": 679
+                        "download_count": 24
                     }
                 }
             ]
         },
         {
-            "id": "nikolat/ukaten",
-            "url": "https://github.com/nikolat/ukaten",
-            "title": "ukaten",
-            "content_text": "========================================================================\n【ソフト名称】うかてん\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.58\n【 タ イ プ 】「伺か」用プラグイン\n【 取扱種別 】フリーウェア\n【 配布月日 】2021/03/02\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作する天気予報プラグインです。\n  単体で動作させることはできません。\n  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを\n  別途ご用意ください。\n\n  ばぐとら研究所\n    http://ssp.shillest.net/\n\n  天気予報情報は気象庁のWebサイト(非公式API)から取得しています。\n\n■ライセンス\n\n  以下のモジュールを使用させて頂いております。\n  ありがとうございます。\n\n  灯(akari.dll)\n    夜天燈火\n      http://le.silk.to/\n\n  上記以外のテキストファイル、辞書ファイルの類いは、\n  すべてpublic domainとして自由に利用できるものとします。\n\n■更新履歴\n\n2021/03/02  Ver0.1  ・新規作成\n2021/03/03  Ver0.2  ・ゴーストへのイベント通知を追加\n                      (「ついっとゅう」のイベント通知と互換)\n2021/03/05  Ver0.3  ・ゴーストから利用できるイベント関数群を追加\n                     (OnGetPluginVersion,OnGetSavedArea,OnGetWeatherInfo)\n2021/11/12  Ver1.0  ・GitHubに移行\n2024/01/29  Ver1.1  ・気象庁非公式APIの一部を正しくパースできていない不具合を修正\n",
-            "summary": "伺か天気予報プラグイン",
-            "date_published": "2021-11-12T06:46:58Z",
-            "date_modified": "2022-04-27T09:50:49Z",
+            "id": "JiayuYangX/tmidi_msg",
+            "url": "https://github.com/JiayuYangX/tmidi_msg",
+            "title": "tmidi_msg",
+            "content_text": "# TMIDI Messages 插件\n\n> [English README](README.en.md)\n\n将 TMIDI Player 连接到 SSP 桌面角色的 PLUGIN/2.0 插件，通过 DDE 实时传递播放信息。\n\n当 TMIDI Player 开始播放 MIDI 文件时，插件自动检测并注入 Sakura Script，让角色说出当前曲目信息。\n\n## 前情提要\n\nTMIDI Player 自 **ver.3.8.1**（2001 年）起搭载了 SSTP 客户端功能，可在演奏开始时向伪春菜发送曲名。但该功能使用的是**同步阻塞**模式的 Winsock，一旦连接超时就会卡住演奏；加上 SSP / 伪春菜协议历经多年更新，TMIDI 的内置 SSTP 已在现代环境下失效。\n\n本插件以 **DDE + PLUGIN/2.0** 方案替代原有的 TCP/SSTP 通路：\n- **DDE** 与 TMIDI 通信，获取播放状态和曲目信息（TMIDI 至今仍保留完整的 DDE 服务）\n- **PLUGIN/2.0** 将脚本直接注入 SSP，无需网络连接、无超时阻塞\n\n## 功能\n\n- **零配置 DDE 检测** — 自动发现所有正在运行的 TMIDI Player 实例\n- **多实例支持** — 同时跟踪所有运行中的 TMIDI Player 实例\n- **暂停/恢复不误报** — 仅在首次播放或停止后重新播放时触发\n- **自动重连** — TMIDI 重启后静默恢复连接\n- **模板可自定义** — 编辑 `sstp_sample.txt` 修改播报内容\n\n## 运行环境\n\n- **TMIDI Player**（DDE 服务名：`TMIDI`）\n- **SSP**（Sakura Script Player），需加载人格\n- **Windows**（DDE 使用系统 ANSI 代码页）\n\n## 安装方法\n\n从 Release 中下载最新版本提供的 NAR 文件。\n\n- **安装方案 1**：打开 SSP，将 NAR 文件拖入，点击确定覆盖\n\n- **安装方案 2**：将 NAR 文件的默认打开方式设为 SSP，双击运行，点击确定覆盖\n\n- **安装方案 3**：将 NAR 文件的后缀名改为 `.zip`，解压覆盖到 `SSP/plugin/tmidi_msg` 目录下\n\n```\nSSP/\n  plugin/\n    tmidi_msg/\n      descript.txt\n      install.txt\n      message.chinese.txt\n      message.english.txt\n      message.japanese.txt\n      sstp_sample.txt\n      tmidi_msg.dll\n```\n\n安装完成后，在 TMIDI Player 中播放 MIDI 文件，角色便会说出曲目信息。\n\n## 模板配置\n\n编辑 `sstp_sample.txt` 自定义播报内容。格式与 TMIDI Player 原生 `sstp_sample.txt` 类似，可直接沿用原有配置（**注意：`$target` 和 `$module` 不被支持**）。\n\n`sstp_sample.txt` 支持检测 WRD 类型，插件根据播放文件自动选择：\n\n| 节区         | 触发条件                        |\n|--------------|---------------------------------|\n| `#MIMPIWRD`  | 存在同名的 `.wrd` 或 `.dv` 文件 |\n| `#SherryWRD` | 存在同名的 `.sry` 文件          |\n| `#NeoWRD`    | 播放文件自身扩展名为 `.neo`     |\n| `#NoWRD`     | 未检测到以上任何 WRD（默认）    |\n\n### 模板变量\n\n| 变量      | 替换值     |\n|-----------|------------|\n| `$title`  | 曲目标题   |\n| `$format` | 文件格式   |\n\n## 工作原理\n\n```\nTMIDI Player ──DDE──▶ tmidi_msg.dll ──PLUGIN/2.0──▶ SSP ──Sakura Script──▶ Ghost\n```\n\n- 使用 **DDEML**（`APPCLASS_STANDARD`）建立持久会话\n- 通过 `OnSecondChange` 每秒轮询 `getstatus`\n- 检测到状态为 `\"play\"` 且文件名与上次不同时，通过 `gettitle` 获取标题并注入脚本\n- DDE 字符串使用 `CP_WINUNICODE`，数据交换使用 `CF_TEXT` + 系统 ANSI 代码页\n\n已知问题：如果在 SSP 插件的定时器周期内（最短 1 秒）快速停止再重新播放同一个文件，或不停止直接重新打开同一个文件，插件不会检测到文件名变更，因此无法触发对话（不过我想应该没人会这么做吧）。\n\n## 编译\n\n```bash\ncl /LD /O2 /MT /Fe:tmidi_msg.dll tmidi_msg.cpp user32.lib shell32.lib\n```\n\n需要 MSVC（`cl.exe`）。SSP 是 32 位程序，请使用 x86 工具链编译（如 `vcvars32.bat`）。生成单个 `tmidi_msg.dll`。\n\n## 许可证\n\n原始 TMIDI Player 许可证详见 `readme.txt`。插件代码可自由使用和修改。\n",
+            "summary": "支持 TMIDI Player 消息的伪春菜插件",
+            "date_published": "2026-06-24T03:19:12Z",
+            "date_modified": "2026-06-24T03:19:14Z",
+            "authors": [
+                {
+                    "name": "JiayuYangX",
+                    "url": "https://github.com/JiayuYangX",
+                    "avatar": "https://avatars.githubusercontent.com/u/173799789?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/JiayuYangX/tmidi_msg/releases/download/v1.1.0/tmidi_msg.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "tmidi_msg.nar",
+                    "size_in_bytes": 59867,
+                    "_ex": {
+                        "download_count": 9
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/stampcollection",
+            "url": "https://github.com/YAYA-shiori/stampcollection",
+            "title": "stampcollection",
+            "content_text": "\nスタンプ帳　version 1.4.1\n\nこれはゴーストのスタンプを収集するSSP専用プラグインです。\nあまり古すぎるSSPには対応していません。\n\n\n最初はまっさらなスタンプ帳があるだけです。\n対応しているゴーストから押してもらってください。\nスタンプを押してもらえるゴースト一覧はこちらです。\n > http://www10.atwiki.jp/postic/pages/13.html\n\n\nスタンプはゴースト一体につき一つまでです。\n貰える条件はそのゴーストによって違います。\n出会ってすぐにあっさり押して貰えるかもしれませんし、なかなか貰えないかもしれません。\n\n押してもらったスタンプは\n右クリックメニュー＞プラグイン＞スタンプ帳\nで確認できます。\n小さいバルーンでは上手く表示されません（対応法考え中）\n\nよくわからない方はこちらの解説が詳しいのでぜひ。\nhttp://d.hatena.ne.jp/hinoharu/20080507#1210173143\n\n\n\n\nほか、細かいこと。\n\n■スタンプを削除する\nスタンプは追加、上書きされるだけで削除はできません。\nどうしても一旦初期化させたい場合はゴーストが起動していない状態でssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを開き、「YAYA_variable.cfg.ays」を削除すれば元のスタンプが1つもない状態に戻ります。\n\n■スタンプをバックアップする、他のSSPに移動する\nssp.exeと同じ位置に存在する「plugin」内「stampcollection」フォルダを、移動先SSPの同じ位置にコピーすると移動できます。\n（スタンプのデータは「YAYA_variable.cfg.ays」と「icon」フォルダの中身全てです）\nバックアップする場合はこのフォルダをどこか別な場所にコピーして保管しておいてください。\n\n■スタンプをネットワーク更新する\nエクスプローラーを開き、「種類」を「プラグイン」にし、スタンプ帳項目右クリックからできます。\n（それ以外の方法もあるのかもしれませんがよくわかりません）\n\n■スタンプ帳プラグインの扱いについて\n再配布・ゴーストに同梱配布可、改変配布可です。\n（2013/12/28　改変配布不可より可に変更））\n\n\n\n謝辞\n\n「整備班 -The Maintenance Shop-」　http://ms.shillest.net/yaya_as.xhtml\nYAYA as PLUGINを使わせていただきました。\n\n「浮子屋本舗」　http://ukiya.sakura.ne.jp/\n正規表現のサンプルを流用させていただきました。\n\nどうもありがとうございました。\n\n\n一次配布元 postic　http://navy.nm.land.to/post/\nメンテナンス https://github.com/YAYA-shiori/stampcollection\n",
+            "summary": "プラグイン「スタンプ帳」",
+            "date_published": "2026-03-30T01:27:41Z",
+            "date_modified": "2026-03-30T01:27:42Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-plugin"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/stampcollection/releases/download/v20260330102740-79221c6/stampcollection.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "stampcollection.nar",
+                    "size_in_bytes": 413717,
+                    "_ex": {
+                        "download_count": 43
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/wallet_of_unyu",
+            "url": "https://github.com/nikolat/wallet_of_unyu",
+            "title": "wallet_of_unyu",
+            "content_text": "========================================================================\n【ソフト名称】Wallet of Unyu\n【 制 作 者 】Don\n【 動作環境 】Windows11 25H2 + SSP/2.7.90\n【 タ イ プ 】「伺か」用プラグイン\n【 取扱種別 】フリーウェア\n【 配布月日 】2023-03-26\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  UNYUとは、伺かの世界で広く流通している暗号通貨です。\n  昔はゆうかもなか1箱10個入りが1,800UNYUで買えたと伝えられています。\n  これはUNYUを自由に出し入れできるお財布プラグインです。\n\n■一般的な暗号通貨との違い\n\n- 暗号化されていません。取引履歴はセーブファイルに平文で記録されています。\n- 誰でも自由に発行できます。5000兆UNYU欲しい。\n- もちろん日本円その他通貨と交換はできません。\n\n■使用方法\n\n- ウォレットに入金する\n  \\![raiseplugin,c58b6320-caf8-11ed-a901-0800200c9a66,OnWalletOfUnyu,set,10000,バイト代だよ！ご苦労さま！]\n  [response]\n  ID: OnWalletOfUnyu\n  Reference0: set\n  Reference1: 10000\n\n- ウォレットから出金する\n  \\![raiseplugin,c58b6320-caf8-11ed-a901-0800200c9a66,OnWalletOfUnyu,set,-1800,ゆうかもなか一丁！まいどあり！]\n  [response]\n  ID: OnWalletOfUnyu\n  Reference0: set\n  Reference1: 8200\n\n- 現在の所持金を確認する\n  \\![raiseplugin,c58b6320-caf8-11ed-a901-0800200c9a66,OnWalletOfUnyu,get]\n  [response]\n  ID: OnWalletOfUnyu\n  Reference0: get\n  Reference1: 8200\n\n- メニューを開く\n  \\![raiseplugin,c58b6320-caf8-11ed-a901-0800200c9a66,OnWalletOfUnyu,menu]\n  [response]\n  ID: OnWalletOfUnyu\n  Reference0: menu\n  Reference1: 8200\n\n- プロパティシステムを使って所持金を表示する\n  %property[pluginlist(c58b6320-caf8-11ed-a901-0800200c9a66).ext.amount]\n\n■更新履歴\n\n2023-03-26  Ver1.0  ・新規作成\n2024-03-09  Ver1.1  ・取引毎にセーブファイルを保存(SSPクラッシュ時の保険)\n2026-03-29  Ver1.2  ・プロパティシステム対応\n",
+            "summary": "伺かの世界で流通する暗号通貨UNYUのウォレット",
+            "date_published": "2026-03-29T07:20:05Z",
+            "date_modified": "2026-03-29T07:20:07Z",
             "authors": [
                 {
                     "name": "nikolat",
@@ -53,122 +120,20 @@
                 }
             ],
             "tags": [
-                "akari",
                 "sirefaso",
                 "sosiremi",
                 "ukagaka",
                 "ukagaka-plugin",
-                "weather-forecast"
+                "yaya"
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/nikolat/ukaten/releases/download/v1.0/ukaten.nar",
+                    "url": "https://github.com/nikolat/wallet_of_unyu/releases/download/v1.2.0/wallet_of_unyu.nar",
                     "mime_type": "application/x-nar",
-                    "title": "ukaten.nar",
-                    "size_in_bytes": 874823,
+                    "title": "wallet_of_unyu.nar",
+                    "size_in_bytes": 402782,
                     "_ex": {
-                        "download_count": 192
-                    }
-                }
-            ]
-        },
-        {
-            "id": "nikolat/sudohaikuyu",
-            "url": "https://github.com/nikolat/sudohaikuyu",
-            "title": "sudohaikuyu",
-            "content_text": "========================================================================\n【ソフト名称】すどはいくゅう\n【 制 作 者 】Don\n【 動作環境 】Windows11 22H2 + SSP/2.6.28\n【 タ イ プ 】「伺か」用プラグイン\n【 取扱種別 】フリーウェア\n【 配布月日 】2021-11-29\n【 配 布 元 】https://nikolat.github.io/\n【  備  考  】後述\n========================================================================\n■概要\n\n  これは「伺か」で動作するスドハイククライアント機能拡張プラグインです。\n  単体で動作させることはできません。\n  本体となるベースウェア「SSP」およびインタフェースとなるゴーストを\n  別途ご用意ください。\n\n  Sudo Haiku\n    https://h.sudo.ne.jp/\n\n  ばぐとら研究所\n    http://ssp.shillest.net/\n\n■使用方法\n\n  設定画面にて以下のパラメータを設定してください\n\n  TL get interval     : タイムラインを取得し\n                        タスクトレイバルーン通知をする間隔（分）\n\n  上部アイコンをクリックすることで以下の動作をします。\n  左から順番に記述します。\n\n  refresh       : 全ての取得情報を更新\n  home          : メインとなるタイムラインを表示\n  settings      : 設定画面表示\n  cancel        : バルーンを閉じる\n\n  タイムライン表示中のアイコンについて\n\n  ・鉛筆アイコンクリックで\n    クリップボードにテキストをコピーします。\n\n■更新履歴\n\n2021-11-29  Ver0.1  ・新規作成\n2022-03-02  Ver0.2  ・日本語以外の環境で正常に起動できない不具合を修正\n                    ・オフライン時にベースウェアをクラッシュさせてしまう不具合を修正\n2022-03-02  Ver0.3  ・新バージョンの更新通知時にNARを直接ダウンロードできるようにした\n                    ・非同期処理の不安定化によるエラーの抑制\n2023-01-20  Ver0.4  ・新バージョンの更新通知時メニューからNARを直接ダウンロードを廃止\n                    ・新バージョンの更新通知時メニューからネットワーク更新を追加\n",
-            "summary": "スドハイククライアント",
-            "date_published": "2023-01-20T10:37:14Z",
-            "date_modified": "2023-01-20T10:37:15Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "sudo-haiku",
-                "ukagaka",
-                "ukagaka-plugin"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/sudohaikuyu/releases/download/v0.4/sudohaikuyu.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "sudohaikuyu.nar",
-                    "size_in_bytes": 1383936,
-                    "_ex": {
-                        "download_count": 53
-                    }
-                }
-            ]
-        },
-        {
-            "id": "ambergon/ukagakaPlugin_getWindowTitle",
-            "url": "https://github.com/ambergon/ukagakaPlugin_getWindowTitle",
-            "title": "ukagakaPlugin_getWindowTitle",
-            "content_text": "# GetWindowTitle\nユーザーが現在開いているウィンドウのタイトルをゴーストが覗けるようになるプラグイン。<br>\n過去に書いた記事のものをプラグイン化しました。<br>\n[【伺か】Ghostからアクションを起こしてほしかったので、ユーザーの画面の覗き込むコードを書いた【yaya】 -- 異風堂々](https://ambergonslibrary.com/ukagaka/7360/)<br>\n\n\n## 動作環境\n- Windows10\n- SSP/2.6.25 (20221225-2; Windows NT 10.0.19045)\n\n\n## 使い方\n#### 呼び出し。\nコードが実行されたタイミングで現在トップで表示されているウィンドウ名を取得します。<br>\n受け取り方は後述。<br>\nゴーストがトップの場合はゴーストの名前が取得されます。<br>\nこの挙動はベースウェアが、ゴースト名をウィンドウタイトルとして使用している様です。<br>\nこちらからsakura.nameにアクセスしているわけではありません。<br>\n\nなので、ユーザーが見つめているかどうかの判定にも使えます。<br>\n```\n\"\\![raiseplugin,GetWindowTitle,OnGetWindowTitle]\"\n```\n\nまた、下記のようにすると少したってから実行されるので、デバッグテストにでもお使いください。<br>\n```\n\"\\w9\\w9\\w9\\w9\\w9\\![raiseplugin,GetWindowTitle,OnGetWindowTitle]\"\n```\n\n\n#### ウィンドウタイトルの受け取り\nゴースト側に下記の関数を実装してください。<br>\n下記の例だと、呼び出しを受けた際にウィンドウタイトル名を読み上げるようになっています。<br>\n```\nOnRecieveGetWindowTitle {\n    _title = reference[0]\n    _title\n}\n```\n\n\n#### ウィンドウタイトルの受け取りの実装例。\n下記の実装例は、自前ゴーストに導入するつもりだったものの廃案になったものです。<br>\n参考にでもしてください。<br>\nyayaで書かれています。<br>\n```\nOnRecieveGetWindowTitle {\n    _window_title = reference[0]\n\n    //マッチしてしまうとそこで確定してしまうのでデカいカテゴリほど後ろに回すとよい。\n    if ( RE_SEARCH( _window_title , \"iTunes\") == 1 ) {\n        \"どんな曲が好き？\\n/\n        私はJAZZアレンジとかがいいな。\\n/\n        もとがアニメやゲームの曲のアレンジ曲とか大好きだよ\\e\"\n        \"私、レトロゲームのサウンドトラックとかもよく聞いちゃうんだけどね、ネットでは売ってないんだ・・・iTunesもあんまり扱ってないんだよね・・・\"\n\n    } elseif ( RE_SEARCH( _window_title , \"AviUtl\") == 1 ) || ( RE_SEARCH( _window_title , \"拡張編集\") == 1 ){\n        \"今日は動画編集の日？\\n/\n        頑張って！\"\n\n    } elseif ( RE_SEARCH( _window_title , \"Studio One\") == 1 ) {\n        \"今日は作曲？編曲の日？\"\n\n    } elseif ( RE_SEARCH( _window_title , \"ラジオ\") == 1 ) || ( RE_SEARCH( _window_title , \"radio\") == 1 ) {\n        \"実はラジオ動画の投稿なんかもしてたり。。。 \\nこれ、秘密ね。\"\n\n    } elseif ( RE_SEARCH( _window_title , \"TRPG\") == 1 ) {\n        \"TRPGって面白そうだよね。 いつかやってみたいんだけど環境がね～。 まずTRPGを楽しんでくれる友人を用意します！ ・・・ハァ。。\"\n\n\n    //以下デカいカテゴリ\n    } elseif ( RE_SEARCH( _window_title , \"ASMR\") == 1 ) {\n        \"耳舐め。。。いや、何でもないです。\"\n        \"耳をふさいでる音ってすごいよね。。\"\n\n    } elseif ( RE_SEARCH( _window_title , \"FANZA\") == 1 ) || ( RE_SEARCH( _window_title , \"アダルト\") == 1 ) || ( RE_SEARCH( _window_title , \"エロい単語とかその辺\") == 1 ) {\n        \"ッ！！。。。。！！！！ \"\n\n    } elseif ( RE_SEARCH( _window_title , \"VOICEROID2\") == 1 ) {\n        \"調声って難しいよねぇ。。。\"\n\n    } elseif ( RE_SEARCH( _window_title , \"ニコニコ動画\") == 1 ) {\n        \"ニ～コニコ動画♪  ドワンゴじゃない何かが 。。。今何時だっけ。%(hour)時過ぎをお知らせするよ～\"\n\n    } elseif ( RE_SEARCH( _window_title , \"\") == 1 ) {\n        //\"\"\n    } elseif ( RE_SEARCH( _window_title , \"\") == 1 ) {\n    } else {\n        //_window_title\n    }\n}\n```\n\n\n## お借りしたもの\nyaya.dll<br>\n[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)<br>\n\nproxy_ex.dll<br>\n[Release SAORI : proxy_ex v1.0.2 · ukatech/csaori · GitHub](https://github.com/ukatech/csaori/releases/tag/saori_proxy_ex_v1.0.2)<br>\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。<br>\nこれらをゴースト等に同梱して配布していただいて構いません。<br>\nまた、プラグインとしてではなく、ゴースト本体に組み込んでいただいてもかまいません。<br>\n\n\n## 小言\nこれを書いた当初はゴーストに可能な限りそこにいる雰囲気を出してくれることを望んでいたのですが、<br>\n迷走した果てに没になりました。<br>\nもしよければ遊んでみてください。<br>\n\n\n\n## Author\n[ambergon](https://twitter.com/Sc_lFoxGon)\n\n\n\n\n",
-            "summary": "伺か ・ゴーストがあなたの作業を覗き込むようになるプラグイン。",
-            "date_published": "2023-01-07T13:36:48Z",
-            "date_modified": "2023-01-07T13:36:50Z",
-            "authors": [
-                {
-                    "name": "ambergon",
-                    "url": "https://github.com/ambergon",
-                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-plugin"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/ambergon/ukagakaPlugin_getWindowTitle/releases/download/1.0.0/ukagakaPlugin_getWindowTitle.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "ukagakaPlugin_getWindowTitle.nar",
-                    "size_in_bytes": 951624,
-                    "_ex": {
-                        "download_count": 101
-                    }
-                }
-            ]
-        },
-        {
-            "id": "ambergon/UkagakaPlugin_DBdiary",
-            "url": "https://github.com/ambergon/UkagakaPlugin_DBdiary",
-            "title": "UkagakaPlugin_DBdiary",
-            "content_text": "# DBdiary\n簡単な日記を作成するためのプログラムです。\n\n## 使用可能な関数一覧\n```\n\"\\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]\"\n\"\\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]\"\n\"\\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]\"\n\n\n//20230104追加関数\n\"\\![raiseplugin,DBdiary,OnCheckWrittenDiary]\"\n```\n\n## 日記を書く\n二種類の方法で日記を書くことができます。\n- DirtyDiary<br>\n    保存名が日付+日記内容.txtになります。<br>\n    日記の中には「Dirty Diary」に統一されます。<br>\n\n- BeautifulDiary<br>\n    保存名が日付.txtになります。<br>\n    こちらはゴーストから日記内容を取得できるようにしています。<br>\n\n#### 日記の保存先\nプラグインフォルダ/Diary/yyyymmdd{Dirty Diary only}.txt\n\n\n## DirtyDiaryを呼び出す。\nこのプラグインをインストールしている状態で下記のサクラスクリプトを打ち込んでください。<br>\n入力欄が出てきます。<br>\nゴーストに発言させる場合はbefore_textやafter_textの部分を適時書き換えてください。<br>\n他のテキストと相性が悪かったためこのような形になりました。<br>\n```\n\"\\![raiseplugin,DBdiary,OnCallInputDirtyDiary,before_text,after_text]\"\n```\n\n## BeautifulDiaryを呼び出す。\n使用方法は同じです。\n```\n\"\\![raiseplugin,DBdiary,OnCallInputBeautifulDiary,before_text,after_text]\"\n```\n\n## 日記の内容を引っ張り出す。\n同じくbefore_text,after_textをうまく使ってやってください。<br>\n指定した日付の日記の内容を取得します。<br>\nnotWriteは何も書かれていなかった時、<br>\nnotExistは日記がなかった時に表示されます。<br>\n```\n\"\\![raiseplugin,DBdiary,OnGetBeautifulDiary,yyyymmdd,before_text,after_text,notWrite,notExist]\"\n```\n\n\n## 日記の内容を引っ張り出す。2\n先ほどの関数ではゴーストから扱いづらいので別の関数を用意しました。\n引数は不要でこのサクラスクリプトを実行するだけです。\n```\n\"\\![raiseplugin,DBdiary,OnCheckWrittenDiary]\"\n```\nただし、ゴースト側で下記のOnRecieveCheckWrittenDiary関数を実装してください。\nこの関数はreference0に ファイルが存在してかつ、空のファイルじゃなかった場合はBeautifulDiaryの本文が格納されています。\n\n以下は実装例。\n```\nOnRecieveCheckWrittenDiary {\n    _res = reference[0]\n    if ( _res == \"notExist\" ) {\n        \"書いてないやんけ。\"\n\n    } elseif ( _res == \"notWrite\" ) {\n        \"白紙やぞ。\"\n\n    } else {\n        _text = \"この日の日記は \" + _res + \"だったんだね。\"\n    }\n}\n```\n\n\n\n## お借りしたもの\nyaya.dll\n[Releases · YAYA-shiori/yaya-shiori · GitHub](https://github.com/YAYA-shiori/yaya-shiori/releases)\n\n\n## Other\nこのプログラムを利用することによるいかなる問題や損害に対して、私は責任を負いません。<br>\nまたゴースト等に同梱して配布していただいて構いません。<br>\nmain.uka内部を好きに書き換えてくれて構いません。<br>\n\n\n## 小言\n実際に作ってみたものの、raisepluginが使いづらく、<br>\nプラグイン化のメリットはゴーストのデータを汚さないことぐらいでしょうか.<br>\n\nFREADで読み込めるのは一行だけの都合、日記を読み込む際に複数行書かれた場合(追記モードに変更したのであり得る)最初の一行しか引っ張れない問題がある。\n\n\n\n\n## Author\n[ambergon](https://twitter.com/Sc_lFoxGon)\n\no\n\n\n\n\n\n\n\n\n\n\n\n",
-            "summary": "伺か・ゴーストから日記を書いたり読んだりするyaya as plugin",
-            "date_published": "2023-01-04T07:56:09Z",
-            "date_modified": "2023-01-04T07:56:15Z",
-            "authors": [
-                {
-                    "name": "ambergon",
-                    "url": "https://github.com/ambergon",
-                    "avatar": "https://avatars.githubusercontent.com/u/30527985?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-plugin"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/ambergon/UkagakaPlugin_DBdiary/releases/download/1.0.1/UkagakaPlugin_DBdiary.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "UkagakaPlugin_DBdiary.nar",
-                    "size_in_bytes": 832334,
-                    "_ex": {
-                        "download_count": 64
+                        "download_count": 41
                     }
                 }
             ]
