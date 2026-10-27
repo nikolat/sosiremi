@@ -6,42 +6,6 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/author/YAYA-shiori/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
-    <title>ayalilith</title>
-    <link>https://github.com/YAYA-shiori/ayalilith</link>
-    <description>紺野りりす（あやりりす/EXサンプルゴースト）</description>
-    <category>ghost</category>
-    <dc:creator>YAYA-shiori</dc:creator>
-    <guid isPermaLink="false">YAYA-shiori/ayalilith</guid>
-    <pubDate>Sun, 25 Oct 2026 20:13:08 +0900</pubDate>
-</item>
-<item>
-    <title>konnoyayame</title>
-    <link>https://github.com/YAYA-shiori/konnoyayame</link>
-    <description>YAYAのテンプレートゴースト「紺野ややめ」です</description>
-    <category>ghost</category>
-    <dc:creator>YAYA-shiori</dc:creator>
-    <guid isPermaLink="false">YAYA-shiori/konnoyayame</guid>
-    <pubDate>Sun, 25 Oct 2026 20:13:08 +0900</pubDate>
-</item>
-<item>
-    <title>flele_aya</title>
-    <link>https://github.com/YAYA-shiori/flele_aya</link>
-    <description>FLELE v1</description>
-    <category>ghost</category>
-    <dc:creator>YAYA-shiori</dc:creator>
-    <guid isPermaLink="false">YAYA-shiori/flele_aya</guid>
-    <pubDate>Sat, 25 Apr 2026 17:05:49 +0900</pubDate>
-</item>
-<item>
-    <title>stampcollection</title>
-    <link>https://github.com/YAYA-shiori/stampcollection</link>
-    <description>プラグイン「スタンプ帳」</description>
-    <category>plugin</category>
-    <dc:creator>YAYA-shiori</dc:creator>
-    <guid isPermaLink="false">YAYA-shiori/stampcollection</guid>
-    <pubDate>Mon, 30 Mar 2026 10:27:42 +0900</pubDate>
-</item>
-<item>
     <title>_the_hand_</title>
     <link>https://github.com/YAYA-shiori/_the_hand_</link>
     <description>嫌ゴ「The Hand」Phase &#34;xxxx&#34;</description>
