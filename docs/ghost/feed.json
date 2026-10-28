@@ -165,7 +165,7 @@
                     "title": "ayalilith.nar",
                     "size_in_bytes": 1337401,
                     "_ex": {
-                        "download_count": 0
+                        "download_count": 1
                     }
                 }
             ]
@@ -198,7 +198,7 @@
                     "title": "konnoyayame.nar",
                     "size_in_bytes": 1284034,
                     "_ex": {
-                        "download_count": 1
+                        "download_count": 2
                     }
                 }
             ]
@@ -362,7 +362,7 @@
                     "title": "LuminousModulation_Radio.nar",
                     "size_in_bytes": 1809908,
                     "_ex": {
-                        "download_count": 9
+                        "download_count": 10
                     }
                 }
             ]
@@ -539,7 +539,7 @@
                     "title": "ponyaduma.nar",
                     "size_in_bytes": 923415,
                     "_ex": {
-                        "download_count": 30
+                        "download_count": 31
                     }
                 }
             ]
@@ -605,7 +605,7 @@
                     "title": "WeatherTimeCapsule.nar",
                     "size_in_bytes": 1912108,
                     "_ex": {
-                        "download_count": 30
+                        "download_count": 31
                     }
                 }
             ]
@@ -1576,7 +1576,7 @@
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099838,
                     "_ex": {
-                        "download_count": 31
+                        "download_count": 33
                     }
                 }
             ]
