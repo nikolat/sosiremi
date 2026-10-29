@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "YAYA-shiori/konnoyayame",
+            "url": "https://github.com/YAYA-shiori/konnoyayame",
+            "title": "konnoyayame",
+            "content_text": "# テンプレートゴースト 紺野ややめ\n\n- original author : umeici\n- change by : ukiya\n- modernized by : ponapalt and contributors\n\nhttps://ms.shillest.net/yayame.xhtml\n\n# GitHubからダウンロードする方へ\n\nGitHubのプロジェクトページ\n\nhttps://github.com/YAYA-shiori/konnoyayame\n\nからダウンロードしようとしている方は、右横のReleasesからダウンロードしてください。\n\nこのリポジトリをzipで取得しても不完全です。\n\n# 改造のしかた\n\n紺野ややめは、SHIORI「YAYA」で自分のゴーストを作るための土台（テンプレート）です。辞書を編集して、自分のゴーストを作ってください。\n\n## 手で編集する\n\n- 辞書の本体は `ghost/master/dic/normal/` にある `.dic` ファイルです。文字コードは UTF-8（BOM なし）です。\n- どのファイルに何が書いてあるか（ランダムトーク、起動・終了、マウスへの反応、メニューなど）、キャラクターと使えるサーフェス番号、トークの書き方の決まりは、[GHOST.md](GHOST.md) にまとめてあります。\n- 詳しい仕様は、次を見てください。\n  - YAYA の文法と関数: yaya-docs（https://yaya-shiori.github.io/yaya-docs/ ）\n  - さくらスクリプト、SHIORI イベント、設定ファイル: UKADOC（https://ssp.shillest.net/ukadoc/manual/ ）\n- 辞書にエラーがあると、ゴーストは緊急モードで起動し、ほとんど話さなくなります。\n- シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です。画像を改変したものは配布できません。\n- 自分のゴーストとして配布するときに変えるところ（名前、作者、インストール先、ネットワーク更新の URL など）は、[GHOST.md](GHOST.md) の「テンプレートから独立させるときの追加項目」にチェックリストがあります。\n\n## AI エージェントで開発する\n\nAI コーディングエージェント（Claude Code、Codex など）で開発するときは、スキル [ukagaka-developer](https://github.com/ukatech/ukagaka-developer) が使えます。このゴーストの SHIORI（YAYA）に合わせて、辞書の書き方、エラーのチェック、SSP での動作確認、シェル画像の編集、nar の作成、SHIORI の更新を手伝ってくれます。スキルは、このフォルダの外に入ります。\n\nClaude Code の場合は、このフォルダで次を実行して、Claude Code を開き直します。\n\n```\nclaude plugin marketplace add ukatech/ukagaka-developer\nclaude plugin install ukagaka-developer --scope project\n```\n\nCodex など、ほかのエージェントでの入れ方と、使い方は、[ukagaka-developer の README](https://github.com/ukatech/ukagaka-developer#readme) にあります。入れたら、「セットアップして」と頼んでください。ゴーストに固有の情報は、リポジトリの [GHOST.md](GHOST.md) にまとめてあります。\n\n# ライセンス\n\nPublic Domain (Unlicense)\n\n煮るなり焼くなり好きにしてください。\n\nただし、シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です（`shell/master/descript.txt` を参照）。\n",
+            "summary": "YAYAのテンプレートゴースト「紺野ややめ」です",
+            "date_published": "2026-10-29T06:27:34Z",
+            "date_modified": "2026-10-29T06:27:35Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/konnoyayame/releases/download/40829307071/konnoyayame.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "konnoyayame.nar",
+                    "size_in_bytes": 1310683,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
             "id": "YAYA-shiori/flele_aya",
             "url": "https://github.com/YAYA-shiori/flele_aya",
             "title": "flele_aya",
@@ -33,7 +66,7 @@
                     "title": "flele_aya.nar",
                     "size_in_bytes": 3228835,
                     "_ex": {
-                        "download_count": 2
+                        "download_count": 3
                     }
                 }
             ]
@@ -199,39 +232,6 @@
                     "size_in_bytes": 1337401,
                     "_ex": {
                         "download_count": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "YAYA-shiori/konnoyayame",
-            "url": "https://github.com/YAYA-shiori/konnoyayame",
-            "title": "konnoyayame",
-            "content_text": "# テンプレートゴースト 紺野ややめ\n\n- original author : umeici\n- change by : ukiya\n- modernized by : ponapalt and contributors\n\nhttps://ms.shillest.net/yayame.xhtml\n\n# GitHubからダウンロードする方へ\n\nGitHubのプロジェクトページ\n\nhttps://github.com/YAYA-shiori/konnoyayame\n\nからダウンロードしようとしている方は、右横のReleasesからダウンロードしてください。\n\nこのリポジトリをzipで取得しても不完全です。\n\n# 改造のしかた\n\n紺野ややめは、SHIORI「YAYA」で自分のゴーストを作るための土台（テンプレート）です。辞書を編集して、自分のゴーストを作ってください。\n\n## 手で編集する\n\n- 辞書の本体は `ghost/master/dic/normal/` にある `.dic` ファイルです。文字コードは UTF-8（BOM なし）です。\n- どのファイルに何が書いてあるか（ランダムトーク、起動・終了、マウスへの反応、メニューなど）、キャラクターと使えるサーフェス番号、トークの書き方の決まりは、[GHOST.md](GHOST.md) にまとめてあります。\n- 詳しい仕様は、次を見てください。\n  - YAYA の文法と関数: yaya-docs（https://yaya-shiori.github.io/yaya-docs/ ）\n  - さくらスクリプト、SHIORI イベント、設定ファイル: UKADOC（https://ssp.shillest.net/ukadoc/manual/ ）\n- 辞書にエラーがあると、ゴーストは緊急モードで起動し、ほとんど話さなくなります。\n- シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です。画像を改変したものは配布できません。\n- 自分のゴーストとして配布するときに変えるところ（名前、作者、インストール先、ネットワーク更新の URL など）は、[GHOST.md](GHOST.md) の「テンプレートから独立させるときの追加項目」にチェックリストがあります。\n\n## AI エージェントで開発する\n\nAI コーディングエージェント（Claude Code、Codex など）で開発するときは、スキル [ukagaka-developer](https://github.com/ukatech/ukagaka-developer) が使えます。このゴーストの SHIORI（YAYA）に合わせて、辞書の書き方、エラーのチェック、SSP での動作確認、シェル画像の編集、nar の作成、SHIORI の更新を手伝ってくれます。スキルは、このフォルダの外に入ります。\n\nClaude Code の場合は、このフォルダで次を実行して、Claude Code を開き直します。\n\n```\nclaude plugin marketplace add ukatech/ukagaka-developer\nclaude plugin install ukagaka-developer --scope project\n```\n\nCodex など、ほかのエージェントでの入れ方と、使い方は、[ukagaka-developer の README](https://github.com/ukatech/ukagaka-developer#readme) にあります。入れたら、「セットアップして」と頼んでください。ゴーストに固有の情報は、リポジトリの [GHOST.md](GHOST.md) にまとめてあります。\n\n# ライセンス\n\nPublic Domain (Unlicense)\n\n煮るなり焼くなり好きにしてください。\n\nただし、シェル（`shell/master/`）は SATO M 氏の作品で、CC BY-NC-ND 2.1 JP です（`shell/master/descript.txt` を参照）。\n",
-            "summary": "YAYAのテンプレートゴースト「紺野ややめ」です",
-            "date_published": "2026-10-25T11:13:07Z",
-            "date_modified": "2026-10-25T11:13:08Z",
-            "authors": [
-                {
-                    "name": "YAYA-shiori",
-                    "url": "https://github.com/YAYA-shiori",
-                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/YAYA-shiori/konnoyayame/releases/download/40187916085/konnoyayame.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "konnoyayame.nar",
-                    "size_in_bytes": 1284034,
-                    "_ex": {
-                        "download_count": 2
                     }
                 }
             ]
