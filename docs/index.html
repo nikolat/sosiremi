@@ -10,6 +10,7 @@
 <link rel="help" href="./about.html" />
 <link rel="alternate" type="application/rss+xml" href="./rss2.xml" />
 <link rel="alternate" type="application/feed+json" href="./feed.json" />
+<link rel="alternate" type="application/x-nar" title="sakura-restore" href="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" />
 <link rel="alternate" type="application/octet-stream" title="konnoyayame" href="https://github.com/YAYA-shiori/konnoyayame/releases/download/40829307071/konnoyayame.nar" />
 <link rel="alternate" type="application/octet-stream" title="flele_aya" href="https://github.com/YAYA-shiori/flele_aya/releases/download/v20261029091230-59d0858/flele_aya.nar" />
 <link rel="alternate" type="application/x-nar" title="LilyNovelPlayer" href="https://github.com/lost-nd-xxx/LilyNovelPlayer/releases/download/v1.0.5/LilyNovelPlayer.nar" />
@@ -20,7 +21,6 @@
 <link rel="alternate" type="application/x-nar" title="taidanaSanoSan" href="https://github.com/tukinami/taidanaSanoSan/releases/download/v1.23.0/taidanaSanoSan.nar" />
 <link rel="alternate" type="application/x-nar" title="unyu_lunchbox" href="https://github.com/lost-nd-xxx/unyu_lunchbox/releases/download/1.0.1/lnx_unyu_lunchbox.nar" />
 <link rel="alternate" type="application/x-nar" title="ukaclock" href="https://github.com/lost-nd-xxx/ukaclock/releases/download/1.0.2/digital_seconds.nar" />
-<link rel="alternate" type="application/x-nar" title="sakura-restore" href="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" />
 <link rel="alternate" type="application/x-zip-compressed" title="LuminousModulation_Radio" href="https://github.com/lost-nd-xxx/LuminousModulation_Radio/releases/download/1.0.2/LuminousModulation_Radio.nar" />
 <link rel="alternate" type="application/x-nar" title="jong-rinrin" href="https://github.com/nikolat/jong-rinrin/releases/download/v1.1.0/jong-rinrin.nar" />
 <link rel="alternate" type="application/x-nar" title="jong-whanwhan" href="https://github.com/nikolat/jong-whanwhan/releases/download/v1.1.0/jong-whanwhan.nar" />
@@ -113,6 +113,115 @@
 	</header>
 	<section id="content" class="hfeed">
 		<h2 class="entries-caption">entries</h2>
+		<article id="JiayuYangX/sakura-restore" class="hentry">
+			<div class="profile">
+				<h3 class="entry-title"><a href="https://github.com/JiayuYangX/sakura-restore" rel="bookmark">sakura-restore</a></h3>
+				<dl>
+					<dt class="category">カテゴリ</dt>
+					<dd class="category"><a href="./ghost/">ghost</a></dd>
+					<dt class="author">作者名</dt>
+					<dd class="author"><a href="./author/JiayuYangX/">JiayuYangX</a></dd>
+					<dt class="created">投稿日時</dt>
+					<dd class="created"><time datetime="2026-10-29T15:57:40Z">2026-10-30 00:57:40</time></dd>
+					<dt class="updated">更新日時</dt>
+					<dd class="updated"><time datetime="2026-10-29T15:57:45Z">2026-10-30 00:57:45</time></dd>
+				</dl>
+				<p class="download"><a href="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" rel="nofollow" data-filesize="2223.0" data-download_count="0">download</a></p>
+				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FJiayuYangX%2Fsakura-restore%2Freleases%2Fdownload%2F261005%2Ffirst.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" rel="nofollow">install</a></p>
+			</div>
+			<aside class="readme" aria-label="sakura-restore">
+				<h4>readme</h4>
+<pre>
+# さくら / 御影樱 人格汉化
+
+本仓库为伪春菜原基础软件 [MATERIA](http://usada.sakura.vg/) 的内置人格 さくら 的汉化及修复工程。通过修补 DLL 文件，确保其在现代基础软件 [SSP](https://ssp.shillest.net/) 上能够正常运行，并优化多处细节。
+
+![示意图](overview.png)
+
+人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；
+外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。
+
+## 安装方法
+
+从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。
+
+## 必要环境
+
+- [SSP](https://ssp.shillest.net/)
+- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）
+
+## 人格介绍
+
+さくら（樱）是第一个伪春菜人格（文件里称为 first）的正式名称，也是「伪春菜」这个名字最初指代的对象。现版使用的短发版形象通常被称为「御影樱」。其配角 うにゅう（乌纽）则是早期人格最常使用的配角形象。
+
+人格修改自 2002 年 6 月 22 日「伺か」项目停止维护前的最后一次版本更新（period 583）。当时尚未形成后来成熟的通用 SHIORI + 辞书文件的形式，人格的所有功能都依靠担任 SHIORI 的 `first.dll` 实现。
+
+## 项目描述
+
+文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。
+
+原配布链接：&lt;http://usada.sakura.vg/&gt;
+
+### 汉化
+
+该人格的所有文本都被硬编码进 `first.dll` 中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 code 节，内置窗体文本位于 rsrc 节，问答游戏的答案以反转形式存储。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。
+
+另有如环境变量等文本存于 rsrc 节的 AITXT 资源，以整块反转 + MT19937 密钥流异或的方式加密存储。早期曾用 `makoto.dll` 翻译器接口运行时替换，现直接将其译文重新加密后静态写回资源本体。详见 `docs/AITXT分析文档.md`。
+
+### 图片修复
+
+默认外壳和对话框现均改为使用图片自身透明通道。默认外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。
+
+### 兼容性及遗留问题修复
+
+人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS / CP932 字符集变为 GBK / CP936，可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。
+
+本项目通过关键字节替换和新增的 cave 节对 DLL 进行了多轮修补，使其在 SSP 运行时能还原本近乎全部的重要特性，同时还对本来的多项遗留问题进行了修复。修补内容具体如下：
+
+#### 翻译和替换
+
+- 字符串替换（code、rsrc、字体、问答游戏答案）
+- AITXT替换
+- DFM Font.Charset 替换为 GBK
+
+#### SHIORI 兼容性修复
+
+- NOTIFY 请求不再返回 400，避免状态机卡死
+- 泡澡/小睡不再进入 InductionMode
+
+#### 链接/锚点修复
+
+- &#34;海原雄山&#34; 锚点补注册
+- RSS 网页链接打开浏览器
+
+#### 菜单逻辑修复
+
+- 选择菜单、搜索输入框打开、视力检查进行时吞双击事件
+- 进入 PassiveMode 后双击返回缓存菜单
+- 输入框关闭时触发对应空输入
+- 打字、问答游戏退出时关闭输入框、打字窗、视力窗、倒计时
+- 修正视力检查的倒计时时间
+- 菜单计时功能倒计时窗自动恢复
+
+#### 对话替换功能修复
+
+- 打字游戏文本屏蔽替换
+- 重力语修复：对话 + 窗口
+  - 统一进行 `%` `[` `]` 保护（对话逻辑不全，窗口缺失）
+  - 使用映射表模拟 SJIS 替换行为（仅同时存在于 GBK 中的字符）
+
+#### 窗口修复
+
+- 设置、Todo 退出崩溃修复
+- SSP 下窗口键盘操作失效修复
+- 窗口跟随 DPI 缩放 + 衍生问题修复：
+  - 状态栏字体放大修复 + 重影修复
+  - 退出时窗口尺寸保存放大修复 + 卸载时归还
+  - 输入法修复（双门控 + 候选框位置、组字窗位置、组字窗字体大小）
+  - 监控窗（模拟时钟和文字信息窗）非 100% 拖动掩码修复 + 跨 100% 刷新及显隐
+  - 视力窗补 `Scaled=False` 属性</pre>
+			</aside>
+		</article>
 		<article id="YAYA-shiori/konnoyayame" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/YAYA-shiori/konnoyayame" rel="bookmark">konnoyayame</a></h3>
@@ -126,7 +235,7 @@
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-10-29T06:27:35Z">2026-10-29 15:27:35</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/YAYA-shiori/konnoyayame/releases/download/40829307071/konnoyayame.nar" title="https://github.com/YAYA-shiori/konnoyayame/releases/download/40829307071/konnoyayame.nar" rel="nofollow" data-filesize="1280.0" data-download_count="1">download</a></p>
+				<p class="download"><a href="https://github.com/YAYA-shiori/konnoyayame/releases/download/40829307071/konnoyayame.nar" title="https://github.com/YAYA-shiori/konnoyayame/releases/download/40829307071/konnoyayame.nar" rel="nofollow" data-filesize="1280.0" data-download_count="5">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FYAYA-shiori%2Fkonnoyayame%2Freleases%2Fdownload%2F40829307071%2Fkonnoyayame.nar" title="https://github.com/YAYA-shiori/konnoyayame/releases/download/40829307071/konnoyayame.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="konnoyayame">
@@ -201,7 +310,7 @@ Public Domain (Unlicense)
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-10-29T00:12:31Z">2026-10-29 09:12:31</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/YAYA-shiori/flele_aya/releases/download/v20261029091230-59d0858/flele_aya.nar" title="https://github.com/YAYA-shiori/flele_aya/releases/download/v20261029091230-59d0858/flele_aya.nar" rel="nofollow" data-filesize="3153.2" data-download_count="3">download</a></p>
+				<p class="download"><a href="https://github.com/YAYA-shiori/flele_aya/releases/download/v20261029091230-59d0858/flele_aya.nar" title="https://github.com/YAYA-shiori/flele_aya/releases/download/v20261029091230-59d0858/flele_aya.nar" rel="nofollow" data-filesize="3153.2" data-download_count="11">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FYAYA-shiori%2Fflele_aya%2Freleases%2Fdownload%2Fv20261029091230-59d0858%2Fflele_aya.nar" title="https://github.com/YAYA-shiori/flele_aya/releases/download/v20261029091230-59d0858/flele_aya.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="flele_aya">
@@ -1182,115 +1291,6 @@ http://ms.shillest.net/yayame.xhtml
 </pre>
 			</aside>
 		</article>
-		<article id="JiayuYangX/sakura-restore" class="hentry">
-			<div class="profile">
-				<h3 class="entry-title"><a href="https://github.com/JiayuYangX/sakura-restore" rel="bookmark">sakura-restore</a></h3>
-				<dl>
-					<dt class="category">カテゴリ</dt>
-					<dd class="category"><a href="./ghost/">ghost</a></dd>
-					<dt class="author">作者名</dt>
-					<dd class="author"><a href="./author/JiayuYangX/">JiayuYangX</a></dd>
-					<dt class="created">投稿日時</dt>
-					<dd class="created"><time datetime="2026-10-19T20:28:31Z">2026-10-20 05:28:31</time></dd>
-					<dt class="updated">更新日時</dt>
-					<dd class="updated"><time datetime="2026-10-19T20:28:35Z">2026-10-20 05:28:35</time></dd>
-				</dl>
-				<p class="download"><a href="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" rel="nofollow" data-filesize="2223.1" data-download_count="13">download</a></p>
-				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2FJiayuYangX%2Fsakura-restore%2Freleases%2Fdownload%2F261005%2Ffirst.nar" title="https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar" rel="nofollow">install</a></p>
-			</div>
-			<aside class="readme" aria-label="sakura-restore">
-				<h4>readme</h4>
-<pre>
-# さくら / 御影樱 人格汉化
-
-本仓库为伪春菜原基础软件 [MATERIA](http://usada.sakura.vg/) 的内置人格 さくら 的汉化及修复工程。通过修补 DLL 文件，确保其在现代基础软件 [SSP](https://ssp.shillest.net/) 上能够正常运行，并优化多处细节。
-
-![示意图](overview.png)
-
-人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；
-外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。
-
-## 安装方法
-
-从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。
-
-## 必要环境
-
-- [SSP](https://ssp.shillest.net/)
-- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）
-
-## 人格介绍
-
-さくら（樱）是第一个伪春菜人格（文件里称为 first）的正式名称，也是「伪春菜」这个名字最初指代的对象。现版使用的短发版形象通常被称为「御影樱」。其配角 うにゅう（乌纽）则是早期人格最常使用的配角形象。
-
-人格修改自 2002 年 6 月 22 日「伺か」项目停止维护前的最后一次版本更新（period 583）。当时尚未形成后来成熟的通用 SHIORI + 辞书文件的形式，人格的所有功能都依靠担任 SHIORI 的 `first.dll` 实现。
-
-## 项目描述
-
-文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。
-
-原配布链接：&lt;http://usada.sakura.vg/&gt;
-
-### 汉化
-
-该人格的所有文本都被硬编码进 `first.dll` 中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 code 节，内置窗体文本位于 rsrc 节，问答游戏的答案以反转形式存储。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。
-
-另有如环境变量等文本存于 rsrc 节的 AITXT 资源，以整块反转 + MT19937 密钥流异或的方式加密存储。早期曾用 `makoto.dll` 翻译器接口运行时替换，现直接将其译文重新加密后静态写回资源本体。详见 `docs/AITXT分析文档.md`。
-
-### 图片修复
-
-默认外壳和对话框现均改为使用图片自身透明通道。默认外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。
-
-### 兼容性及遗留问题修复
-
-人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS / CP932 字符集变为 GBK / CP936，可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。
-
-本项目通过关键字节替换和新增的 cave 节对 DLL 进行了多轮修补，使其在 SSP 运行时能还原本近乎全部的重要特性，同时还对本来的多项遗留问题进行了修复。修补内容具体如下：
-
-#### 翻译和替换
-
-- 字符串替换（code、rsrc、字体、问答游戏答案）
-- AITXT替换
-- DFM Font.Charset 替换为 GBK
-
-#### SHIORI 兼容性修复
-
-- NOTIFY 请求不再返回 400，避免状态机卡死
-- 泡澡/小睡不再进入 InductionMode
-
-#### 链接/锚点修复
-
-- &#34;海原雄山&#34; 锚点补注册
-- RSS 网页链接打开浏览器
-
-#### 菜单逻辑修复
-
-- 选择菜单、搜索输入框打开、视力检查进行时吞双击事件
-- 进入 PassiveMode 后双击返回缓存菜单
-- 输入框关闭时触发对应空输入
-- 打字、问答游戏退出时关闭输入框、打字窗、视力窗、倒计时
-- 修正视力检查的倒计时时间
-- 菜单计时功能倒计时窗自动恢复
-
-#### 对话替换功能修复
-
-- 打字游戏文本屏蔽替换
-- 重力语修复：对话 + 窗口
-  - 统一进行 `%` `[` `]` 保护（对话逻辑不全，窗口缺失）
-  - 使用映射表模拟 SJIS 替换行为（仅同时存在于 GBK 中的字符）
-
-#### 窗口修复
-
-- 设置、Todo 退出崩溃修复
-- SSP 下窗口键盘操作失效修复
-- 窗口跟随 DPI 缩放 + 衍生问题修复：
-  - 状态栏字体放大修复 + 重影修复
-  - 退出时窗口尺寸保存放大修复 + 卸载时归还
-  - 输入法修复（双门控 + 候选框位置、组字窗位置、组字窗字体大小）
-  - 监控窗（模拟时钟和文字信息窗）非 100% 拖动掩码修复 + 跨 100% 刷新及显隐
-  - 视力窗补 `Scaled=False` 属性</pre>
-			</aside>
-		</article>
 		<article id="lost-nd-xxx/LuminousModulation_Radio" class="hentry">
 			<div class="profile">
 				<h3 class="entry-title"><a href="https://github.com/lost-nd-xxx/LuminousModulation_Radio" rel="bookmark">LuminousModulation_Radio</a></h3>
@@ -1767,7 +1767,7 @@ http://ms.shillest.net/yayame.xhtml
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-10-09T00:12:45Z">2026-10-09 09:12:45</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/ponapalt/claudia/releases/download/37863574936/claudia.nar" title="https://github.com/ponapalt/claudia/releases/download/37863574936/claudia.nar" rel="nofollow" data-filesize="5264.0" data-download_count="25">download</a></p>
+				<p class="download"><a href="https://github.com/ponapalt/claudia/releases/download/37863574936/claudia.nar" title="https://github.com/ponapalt/claudia/releases/download/37863574936/claudia.nar" rel="nofollow" data-filesize="5264.0" data-download_count="26">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fponapalt%2Fclaudia%2Freleases%2Fdownload%2F37863574936%2Fclaudia.nar" title="https://github.com/ponapalt/claudia/releases/download/37863574936/claudia.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="claudia">
@@ -3237,7 +3237,7 @@ Claude Code（Anthropic）を占いの文言・機能およびトークの作成
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2026-03-29T07:20:07Z">2026-03-29 16:20:07</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.2.0/wallet_of_unyu.nar" title="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.2.0/wallet_of_unyu.nar" rel="nofollow" data-filesize="393.3" data-download_count="41">download</a></p>
+				<p class="download"><a href="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.2.0/wallet_of_unyu.nar" title="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.2.0/wallet_of_unyu.nar" rel="nofollow" data-filesize="393.3" data-download_count="42">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fnikolat%2Fwallet_of_unyu%2Freleases%2Fdownload%2Fv1.2.0%2Fwallet_of_unyu.nar" title="https://github.com/nikolat/wallet_of_unyu/releases/download/v1.2.0/wallet_of_unyu.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="wallet_of_unyu">
@@ -5459,7 +5459,7 @@ atomic_intやsizeof関係のコンパイルエラーが出ていた部分を修�
 					<dt class="updated">更新日時</dt>
 					<dd class="updated"><time datetime="2023-01-02T01:40:13Z">2023-01-02 10:40:13</time></dd>
 				</dl>
-				<p class="download"><a href="https://github.com/nikolat/bee/releases/download/v1.0.0/bee.nar" title="https://github.com/nikolat/bee/releases/download/v1.0.0/bee.nar" rel="nofollow" data-filesize="1208.3" data-download_count="97">download</a></p>
+				<p class="download"><a href="https://github.com/nikolat/bee/releases/download/v1.0.0/bee.nar" title="https://github.com/nikolat/bee/releases/download/v1.0.0/bee.nar" rel="nofollow" data-filesize="1208.3" data-download_count="98">download</a></p>
 				<p class="download install"><a href="x-ukagaka-link:type=install&amp;url=https%3A%2F%2Fgithub.com%2Fnikolat%2Fbee%2Freleases%2Fdownload%2Fv1.0.0%2Fbee.nar" title="https://github.com/nikolat/bee/releases/download/v1.0.0/bee.nar" rel="nofollow">install</a></p>
 			</div>
 			<aside class="readme" aria-label="bee">
