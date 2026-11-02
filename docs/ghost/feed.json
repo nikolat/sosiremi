@@ -9,10 +9,10 @@
             "id": "YAYA-shiori/shiories",
             "url": "https://github.com/YAYA-shiori/shiories",
             "title": "shiories",
-            "content_text": "# SHIORIES\n\nCopyright (C) 2006- Ukagaka Tech Team\n\nSHIORI たちが擬人化して、ゴーストを動かす舞台裏を語る、伺か（ukagaka）のゴーストです。\n普段は縁の下の力持ちの SHIORI たちが、ついに我慢しきれず出てきてしまいました。はてさて、どうなることやら。\n\n2006 年に華和梨（KAWARI）8 と OpenKEEPS で作られたゴーストを、YAYA 6 コアに移行したものです。辞書は全面的に組み直し、シェルは元のままです。\n\n## 登場するキャラクター\n\n- **華和梨**: SHIORI「華和梨」の長女。眼鏡のしっかり者で、ツッコミ役\n- **里々**: SHIORI「里々」。元気で無邪気な男の子（見た目は女の子）\n- **文**: SHIORI「文」（AYA）。無口でお茶好き。ぼそっと毒を吐く\n- **里珠**: SHIORI「里珠」。Perl 製の重厚長大な SHIORI。ときどきゲスト出演\n\n## インストール\n\n[SSP](https://ssp.shillest.net/) で動作を確認しています。\n\n1. https://yaya-shiori.github.io/shiories/ から `shiories.nar` をダウンロード\n2. `shiories.nar` を SSP の画面にドラッグ＆ドロップ\n\n- バルーン「SHIORIES バルーン」も一緒に入ります。\n- 更新は SSP のネットワーク更新で行えます。\n- GitHub のリポジトリを zip で取得しても、動くゴーストにはなりません（システム辞書が空になります）。必ず上のページから nar を取得してください。\n\n## 遊び方\n\n放っておくと 3 人がランダムに話し、撫でたりクリックしたりすると反応します。\n\n右クリックメニュー: 偽ＡＩトーク / COMMUNICATEボックス / お喋り頻度 / オプション設定（見切れ・重なり・振動のオン・オフ、ユーザー名の変更）。メニューの色と絵は、最後にクリックしたキャラクターに合わせて変わります。\n\n## 作った人・使用ソフト\n\n- シェル: [ボトル猫](https://catbottle.sakura.ne.jp/)\n- ゴースト: [さとー](http://shobu.hp.infoseek.co.jp)（華和梨担当）、[水無月藍](http://ryouran.mallotus-villosus.net/)（文・里々担当）、[ぽな@ばぐとら](http://ssp.shillest.net/)（雑用）\n- バルーン: Ukagaka Tech Team\n- SHIORI: [YAYA](https://github.com/YAYA-shiori/yaya-shiori)\n- システム辞書: [yaya-dic](https://github.com/YAYA-shiori/yaya-dic)\n\n## ライセンス\n\n- ゴースト（辞書）の著作権者は「Ukagaka Tech Team」で、ライセンスは [クリエイティブ・コモンズ 表示 2.5](https://creativecommons.org/licenses/by/2.5/deed.ja) です。クレジットとライセンス条件を示すかぎり、再配布、二次著作物の作成、営利目的での使用ができます。\n- シェルはボトル猫氏の作品です。\n- 同梱バルーンは Ukagaka Tech Team の作品で、[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja) です。\n- YAYA 本体とシステム辞書は、それぞれのリポジトリのライセンスに従います。\n\n## 配布サイト・連絡先\n\n[Ukagaka Tech Team](https://ukatech.shillest.net/)（ponapalt@shillest.net）\n\n## 履歴\n\n- 2006/5/7 公開\n- 2026/11/1 SHIORI を YAYA 6 コアに移行（辞書を全面的に組み直し）\n",
+            "content_text": "# SHIORIES\n\n![SHIORIES - SHIORI たちが擬人化して、ゴーストを動かす舞台裏を語る](title.png)\n\nCopyright (C) 2006- Ukagaka Tech Team\n\nSHIORI たちが擬人化して、ゴーストを動かす舞台裏を語る、伺か（ukagaka）のゴーストです。\n普段は縁の下の力持ちの SHIORI たちが、ついに我慢しきれず出てきてしまいました。はてさて、どうなることやら。\n\n2006 年に華和梨（KAWARI）8 と OpenKEEPS で作られたゴーストを、YAYA 6 コアに移行したものです。辞書は全面的に組み直し、シェルは元のままです。\n\n## 登場するキャラクター\n\n- **華和梨**: SHIORI「華和梨」の長女。眼鏡のしっかり者で、ツッコミ役\n- **里々**: SHIORI「里々」。元気で無邪気な男の子（見た目は女の子）\n- **文**: SHIORI「文」（AYA）。無口でお茶好き。ぼそっと毒を吐く\n- **里珠**: SHIORI「里珠」。Perl 製の重厚長大な SHIORI。ときどきゲスト出演\n\n## インストール\n\n[SSP](https://ssp.shillest.net/) で動作を確認しています。\n\n1. https://yaya-shiori.github.io/shiories/ から `shiories.nar` をダウンロード\n2. `shiories.nar` を SSP の画面にドラッグ＆ドロップ\n\n- バルーン「SHIORIES バルーン」も一緒に入ります。\n- 更新は SSP のネットワーク更新で行えます。\n- GitHub のリポジトリを zip で取得しても、動くゴーストにはなりません（システム辞書が空になります）。必ず上のページから nar を取得してください。\n\n## 遊び方\n\n放っておくと 3 人がランダムに話し、撫でたりクリックしたりすると反応します。\n\n右クリックメニュー: 偽ＡＩトーク / COMMUNICATEボックス / お喋り頻度 / オプション設定（見切れ・重なり・振動のオン・オフ、ユーザー名の変更）。メニューの色と絵は、最後にクリックしたキャラクターに合わせて変わります。\n\n## 作った人・使用ソフト\n\n- シェル: [ボトル猫](https://catbottle.sakura.ne.jp/)\n- ゴースト: Ukagaka Tech Team\n  - 旧整備班版: さとー（華和梨担当）、水無月藍（文・里々担当）\n- バルーン: Ukagaka Tech Team\n- SHIORI: [YAYA](https://github.com/YAYA-shiori/yaya-shiori)\n- システム辞書: [yaya-dic](https://github.com/YAYA-shiori/yaya-dic)\n\n## ライセンス\n\n- ゴースト（辞書）の著作権者は「Ukagaka Tech Team」で、ライセンスは [クリエイティブ・コモンズ 表示 2.5](https://creativecommons.org/licenses/by/2.5/deed.ja) です。クレジットとライセンス条件を示すかぎり、再配布、二次著作物の作成、営利目的での使用ができます。\n- シェルはボトル猫氏の作品です。\n- 同梱バルーンは Ukagaka Tech Team の作品で、[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja) です。\n- YAYA 本体とシステム辞書は、それぞれのリポジトリのライセンスに従います。\n\n## 配布サイト・連絡先\n\n[Ukagaka Tech Team](https://ukatech.shillest.net/)（ponapalt@shillest.net）\n\n## 履歴\n\n- 2006/5/7 公開\n- 2026/11/1 SHIORI を YAYA 6 コアに移行（辞書を全面的に組み直し）\n",
             "summary": "SHIORIES",
-            "date_published": "2026-11-01T20:21:46Z",
-            "date_modified": "2026-11-01T20:21:47Z",
+            "date_published": "2026-11-02T03:50:20Z",
+            "date_modified": "2026-11-02T03:50:21Z",
             "authors": [
                 {
                     "name": "YAYA-shiori",
@@ -31,7 +31,106 @@
                     "url": "https://github.com/YAYA-shiori/shiories/releases/download/latest/shiories.nar",
                     "mime_type": "application/octet-stream",
                     "title": "shiories.nar",
-                    "size_in_bytes": 1777023,
+                    "size_in_bytes": 1913595,
+                    "_ex": {
+                        "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/_the_hand_",
+            "url": "https://github.com/YAYA-shiori/_the_hand_",
+            "title": "_the_hand_",
+            "content_text": "以下は旧公開ページをGitHubに合わせて最小限変更した内容になります。\n\n----------\n\n![タイトル](thumbnail.jpg)\n\nillustration：鈴風さん（http://huuryuu.bake-neko.net/index/index.html）\n\nここにはまっとうなゴーストはありません。帰れ。\n\n## The Hand phase 'xxxx'\n\n![サンプル](shell/master/surface000.png)\n\n↑こんな感じです。いやらしいですね。\n\n### なにこれ\n\n- SAORIで色々いじってみるテスト。\n- 界隈初？のセクハラゴーストです。一緒に立ってるゴーストにあんなことやこんなことをします。\n- ていうか嫌ゴです。\n- 某ゴーストマスタさんに「生理的に受け付けない」と言われました。最強。\n- [右のReleasesから最新版をダウンロード](https://github.com/YAYA-shiori/_the_hand_/releases)できます。（phase 'xxxx' 2008-05-29～随時更新）\n\n### 履歴\n\n- 2004/05/?? 第一版作成、しばらくほったらかし\n- 2005/05/09 色々修正して Phase \"xx\" 作成\n- 2005/05/10 FA-Xさん（http://fa-x.hp.infoseek.co.jp/）作成の「小さいバルーン」を同梱させて頂きました。感謝。\n- 2006/05/25 だーいぶ書き直して、必殺技つけて、Phase \"xxx\" になりました。\n- 2006/09/29 はんどたん対応。Special Thanks to 高遠結奈さま（http://yuina.s6.xrea.com/）\n- 2006/11/20 はんどたんに声がつきました。Special Thanks to みゅんさん\n- 2007/02/27 必殺技ロジックを更新。必殺技４を追加。\n- 2008/05/29 Phase \"xxxx\" **大幅な変更なのでアーカイブ入れなおしを推奨します。**\n  - コア部分を最新のYAYAシステムに合わせ書き直し。\n  - トーク少し追加。はんどたん当たり判定追加。\n- 2026/02/23 GitHub YAYA-shiori org.に収容\n\n### 制限事項やなんか\n\n- SSP 1.10.00 (RC1)以上でないとほぼ使えません。\n- 他のゴーストと一緒に立てて、放っておくか、ダブルクリックしてください。\n- ちょっと重いです。\n\n## はんどたん\n\n- 高遠結奈様が作成してくださった、The Handの追加シェルです。\n- シェルを変えるとHandの挙動も変わります。\n- かわいいです。\n\n高遠結奈様「つきゆり」\nhttp://yuina.s6.xrea.com/\n\n「つきゆり」内「The Hand」専用シェル「Hand Girl」公開場所\nhttp://yuina.s6.xrea.com/ukagaka/\n\n## Hand関連ドキュメント\n\n### Hand用の特殊処理を行いたい方へ\n\n詳しくは [Hand特殊イベント](hand_special_event.md) を見てください。\n\n### Hand対応/被対応一覧\n\nHandが特別な対応を行っている、あるいはHandに特別な対応を行って下さってるゴーストの一覧です。\n\n[Hand対応](hand_compatible_ghost.md)\n\nヴィイさんとコミュニケーション連鎖を行った際のノウハウをまとめました。\n\n[コミュニケーション連鎖](hand_communicate.md)\n\n### お年頃の娘を抱えたゴーストマスター様へ\n\n- うちの娘に何をするんだっ！という方、お申し出下されば触らないようにします。\n\n### はんどたんのできるまで\n\n- http://d.hatena.ne.jp/hakuma/20060920/p2\n- http://yuina.s6.xrea.com/x/diary/nicky.cgi?DT=20060922\n- http://hiho.boo.jp/soramimi/log/eid306.html\n- http://d.hatena.ne.jp/wiz-stargazer/20060921\n- http://metalwing.blog.shinobi.jp/Entry/189/\n- http://metalwing.blog.shinobi.jp/Entry/187/\n- http://niselog.blog.shinobi.jp/Entry/17/\n- http://taimagro.blog.shinobi.jp/Entry/71/\n- http://www12.plala.or.jp/canaanM/pack/s/g001.html\n- http://yuina.s6.xrea.com/x/diary/nicky.cgi?DT=20060929\n\n### 伺デミー\n\n- 伺デミー技術賞予選（2006/08/31）にノミネートいただきました。\n  - Handから一言。[./伺デミー予選突破記念](./伺デミー予選突破記念)\n- 伺デミー技術賞決戦（2006/09/19）にノミネートいただきました。\n\n## ゴーストの扱いについて\n\n基本的になにをしてもオッケーです。\n\n",
+            "summary": "嫌ゴ「The Hand」Phase \"xxxx\"",
+            "date_published": "2026-11-02T00:48:45Z",
+            "date_modified": "2026-11-02T00:48:46Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/_the_hand_/releases/download/latest/_the_hand_.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "_the_hand_.nar",
+                    "size_in_bytes": 4130961,
+                    "_ex": {
+                        "download_count": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "YAYA-shiori/flele_aya",
+            "url": "https://github.com/YAYA-shiori/flele_aya",
+            "title": "flele_aya",
+            "content_text": "## Sound Player Ghost \"FLELE\"\n\n![サムネイル](https://raw.githubusercontent.com/YAYA-shiori/flele_aya/master/thumbnail.png)\n\n## [ダウンロード](https://github.com/YAYA-shiori/flele_aya/releases/latest/download/flele_aya.nar)\n\n## 使い方\n\n[SSP](https://ssp.shillest.net/) の最新版で正常に動作します。\n\n以下の説明で、**マウス**はマウス操作、**キー**はキー操作です（キーは、ヘルプメニューのキー設定から変更できます）。\nFLELE がアクティブなときは、指定のキーを押すだけで実行されます。インアクティブなときは `Shift` + `Ctrl` と一緒に押してください。\nシェルの当たり判定にマウスカーソルを合わせると、その操作の説明がツールチップで出ます。\n\n### 曲リストに曲を追加する\n\n- **マウス**: サウンドファイルを FLELE にドロップ\n  - 複数のファイルをまとめて、フォルダごと、m3u 形式の曲リストファイルをドロップして追加することもできます。\n\n### 曲をダウンロードして曲リストに追加する\n\n- **マウス**: ウェブ上のサウンドファイルのリンクを FLELE にドロップ、またはヘルプメニューの「URL入力DL」から URL を直接入力\n\n曲データをダウンロードして曲リストに追加します。ダウンロードしたファイルは `sound_file` フォルダの中にあります。\nこれは一時的なもので、曲リストのクリアと同時に削除されます。削除したくないファイルは別の場所にコピーしておいてください。\n\n### 基本の操作\n\n| 操作 | マウス | キー |\n|------|--------|------|\n| サウンド再生 | 胸ボタンをクリック | `R` |\n| 再生の一時停止 / 解除 | 髪留めをクリック | `S` |\n| ヘルプメニューを出す / 閉じる | FLELE の体（右手・足・胸・髪留め以外）をダブルクリック | `M` |\n| 曲リストを出す | FLELE が左手に持っているファイルを右クリック | - |\n| 次の曲を演奏 | 次の曲ボタンをクリック（シェルによる） | `N` |\n| 前の曲を演奏 | 前の曲ボタンをクリック（シェルによる） | `B` |\n| 曲名ウィンドウを出す / 閉じる | 右手のグローブをダブルクリック | `W` |\n| 曲リストを全てクリア | 靴をダブルクリック | `C` |\n| 終了する | 右クリックメニュー > 終了 | `E` |\n| 外見（シェル）を変更する | 右クリックメニュー > シェル | - |\n\n- **サウンド再生**: 曲リストの中から曲を選んで再生します。もう一度押すと選び直して再生します。選び方は、そのとき設定している再生法によって変わります。\n- **一時停止 / 解除**: 演奏中の曲を一時停止します。もう一度押すと、止めたところから再生します。\n- **ヘルプメニュー**: もう一度押すと閉じます。\n- **次の曲 / 前の曲**: 再生方法に関係なく、曲リストの順に次の曲・前の曲を演奏します（最後の曲の次は最初の曲、最初の曲の前は最後の曲）。ボタンはシェルによってはありませんが、キー操作はどのシェルでも使えます。\n- **曲名ウィンドウ**: 演奏中の曲名を案内するウィンドウです。もう一度押すと閉じます。\n- **外見変更**: 音楽プレイヤーでいうスキンのようなものです。同梱されていないシェルは、FLELE の配布サイト（サービス終了）からダウンロードできました。シェルによってクリックする場所が変わる場合があるので、ご注意ください。\n\n### 補足\n\n#### 再生できないファイル\n\nFLELE は音楽の再生を SSP 本体に任せています。環境によって再生できない場合があります。再生できないファイルは、SSP のエラーログに出る案内（コーデックの追加など）を参考にしてください。\n連続再生中に再生できない曲があったときは、その曲を飛ばして次の曲を演奏します。\n\n#### 曲タイトル表示\n\n曲名などのタグは、SSP 本体を通して Windows の機能で読んでいます。Windows が読めない形式やタグでは、曲名の代わりにファイル名を表示します。\n\n#### プレイボタンを押したときに演奏される曲\n\n- 「同じ曲をエンドレス再生」モード: 直前に演奏した曲（初演奏はランダム）\n- 「リスト順に一周だけ再生」モード: リスト中の曲番号 1 の曲\n- 他のモード: ランダム\n\n#### 音楽ファイルのダウンロード\n\n- 同じファイル名の曲が既にある場合は上書きします（上書きするときに確認があります）。要望があれば、ファイル名が被ってもダウンロードできるようにします。その場合は「元のファイル名 + 時刻」のファイル名になると思います。\n- ダウンロードしたあとにセーブデータが消えると、ダウンロードした曲が残ったままになります。その場合はお手数ですが、手動で削除してください。\n\n#### 曲リストメニュー\n\n- たまに出てこないことがあるようです。ゴーストの再起動（それでも出ないときは PC の再起動）で直るはずです。\n- ファイル名ではなく曲タイトルを表示させるのは、曲数が多いとかなり重くなるので無理そうです。\n\n#### コミュニケート\n\n他のゴーストから、「音楽」「サウンド」「曲」のどれかと、「再生」「演奏」「かけて」「歌って」のどれかの言葉で話しかけられると、曲を演奏します。プレイボタンを押したときと同じ効果で、演奏中でも反応します。\n\n#### 音量調節\n\n曲リストメニュー（FLELE が左手に持っているファイルを右クリック）の「volume」から、0〜100 の音量を 10 刻みで選べます。演奏中でも、その場で音量が変わります。\n曲リストメニューを使わない設定にしているときは、ヘルプメニューの「設定」>「音楽再生の設定」で、［－］［＋］を押して調節します。\nSSP 本体のサウンドの音量（`--volume`）を変えるもので、パソコン全体の音量は変わりません。\n\n#### 表示言語（English）\n\nSSP の言語設定に合わせて、メニューやメッセージの言語が自動で切り替わります（日本語 / English）。\nSSP を日本語以外で起動したときや、言語リソースを日本語以外に切り替えたときは、英語で応えます。\n言語を追加するための仕組みもあります。詳しくは `GHOST.md` の「表示言語」を見てください。\n\nThe menus and messages follow the language of SSP. When SSP runs in a language other than Japanese, or you switch the language resource to one, FLELE answers in English. (This manual is still in Japanese only.)\n\n#### トーク\n\nもともとトークの無いゴーストにしようと思って作ったので、これ以上増えないと思います。\n\n#### シェル\n\n- FLELE のシェル仕様は、master シェル（Lime）の `readme.txt` に書いてあります。\n- Sorcerer-F と Button は着せ替え付きです。\n- おすわりシェルを縮小すると体が浮くときは、シェルのフォルダ内の `makoto.dic` をテキストエディタで開き、30 行付近の `//y座標差分` の下にある `'-128',/` の「-128」の数値を調節してください。\n\n#### スクリーンショット\n\nSSP 本体の設定で透明度をオフにすると撮影できるようになるようです。\n\n#### FLELE を増やす\n\n`ghost` フォルダ内にある `flele_aya` フォルダをコピーすると増やせます。\n同じタイトルのゴーストが増えて紛らわしくなるので、「増やしたフォルダ\\ghost\\master\\descript.txt」内の `name,FLELE` の `FLELE` を適当な名前に書き換えるとよいでしょう（ネットワーク更新すると元に戻ります）。\n複数の FLELE を同時に起動すると、音楽再生ができなくなってしまうことがあります。\n\n### 注意とおすすめ\n\n- 動作がおかしくなったときは、いったん終了して、`ghost/master` フォルダ内の `yaya_variable.cfg` と `profile` フォルダを削除してみてください。\n- 右クリックメニューから「ネットワーク更新」をかけると最新版になります。不具合が直ったり、機能が増えたりするかもしれません。\n- SSP の設定で「常に手前に表示」にしておくのをおすすめします。\n\n## こちらについて\n\n「ここにある配布物を全て再配布、改変配布可」との記述がありましたので、関連ファイルをすべてYAYA-shiori projectで引き取りました。\n\n元の配布URLはこちらです（サービス終了）： http://navy.nm.land.to/ukgk/flele/\n\n## 追加シェル\n\n| title | link |\n|------|------|\n| ツナ | [とりあえずなんぞー。: 伺かFLELE追加シェルについて](http://nanzokr.cocolog-nifty.com/blog/2008/06/flele_b433.html) ([動画はこちら](http://www.nicovideo.jp/watch/sm3485024)) |\n| ブラック・マジシャンガール / ヨハン・アンデルセン / 遊城 十代 / 遊城 十代（４期） / 天上院 明日香 / 万丈目 準 / 丸藤 翔 / エド・フェニックス / 武藤 遊戯（表） / 城之内 克也 / 武藤 遊戯（闇） / ファラオ（古代Ver） / 海馬 木馬 / 乃亜 / バクラ（闇） / 獏良 了（宿主） / マリク・イシュタール（表） / 海馬 瀬人 / レベッカ・ホプキンス / 不動 遊星 / 万丈目 準(ブルー制服Ver) / 万丈目 準(ホワイト制服Ver) / 天上院 明日香(ホワイト制服Ver) / 藤原 優介 | [ミレニアムノクターン](http://shuffle.ohuda.com/flele01.html) |\n| Neeon | [fm7743＠伺かに関する何かウィキ](http://www29.atwiki.jp/fm7743/) |\n| rinrinrin | [チョコリザの水](http://mizugamisama.nemiminimizu.com/) |\n| タチコマ / キサラ / キサラB / ブルアイ / モクバ | [嫁市場 \\| シェル](http://ygo.sham.hiho.jp/?cid=36894) |\n| 薬売りさん | [シェル置き場](http://arznei.blog.shinobi.jp/) |\n| Lion | [なにはともあれu・k・g・k！](http://nekolook.hp.infoseek.co.jp/) |\n| SETO * | [せとシェル](http://ma-cho.jugem.jp/) |\n| KAITO - de poche * / Miku - de poche * / MEIKO - de poche / duetto - KAITO, Miku * / Rin - de poche / Len - de poche | [兄さんシェル置き場のはずが色々と手を出し始めたところ](http://vcl.nobody.jp/shell/) |\n| ディレイラマ | [ダル系工房](http://kazune3.at.infoseek.co.jp/) |\n| miku_Ver_kurobane / rin_Ver_kurobane | [龍屋-伺か本舗-](http://kuroino.nanican.net/) |\n| Totakeke | [オトヒメ49号](http://1boshi.fc2web.com/) |\n| ひぐらしのなく頃に - 音流し編 * / 竜宮レナ * / 古手梨花 * / 北条沙都子 * / 園崎魅音 / 園崎詩音 * / 北条悟史 * / 羽入 * / 前原圭一 * | [PACK my BOX](http://www12.plala.or.jp/canaanM/pack/) |\n| Saxophone | [+Notes-on-Nursing+](http://unajyu-toku.hp.infoseek.co.jp/) |\n| flelec | [ox倉庫](http://ox-down.seesaa.net/) |\n| くすりうり | - 配布終了 - ([動画はこちら](http://www.nicovideo.jp/watch/sm1824593)) |\n| Conductor | - 配布終了 - |\n\n元のサイトで別配布となっていたシェルはすべて同梱しています。\n\n## 追加バルーン\n\n- [文字大き目バルーン](https://github.com/YAYA-shiori/flele_aya/releases/latest/download/flele_balloon2.nar)\n\n## おまけ\n\nゴースト[caramelldansen](http://haka.sakura.ne.jp/pants/)用追加キャラサプリ [cmd_flele.nar](https://raw.githubusercontent.com/YAYA-shiori/flele_aya/master/cmd_flele.nar)\n\ncaramelldansen追加キャラをFLELEのシェルにするゴースト [cmd_to_flele.nar](https://raw.githubusercontent.com/YAYA-shiori/flele_aya/master/cmd_to_flele.nar)\n",
+            "summary": "FLELE v1+ (V2機能一部取り込み)",
+            "date_published": "2026-11-02T00:41:51Z",
+            "date_modified": "2026-11-02T00:41:51Z",
+            "authors": [
+                {
+                    "name": "YAYA-shiori",
+                    "url": "https://github.com/YAYA-shiori",
+                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/YAYA-shiori/flele_aya/releases/download/latest/flele_aya.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "flele_aya.nar",
+                    "size_in_bytes": 3262524,
+                    "_ex": {
+                        "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ponapalt/claudia",
+            "url": "https://github.com/ponapalt/claudia",
+            "title": "claudia",
+            "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\nAI エージェント向けのスキル [ukagaka-developer](https://github.com/ukatech/ukagaka-developer) で開発しています（スキルはこのリポジトリに入っていません）。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/auto_deploy.yml` で公開）\n",
+            "summary": "",
+            "date_published": "2026-11-02T00:20:43Z",
+            "date_modified": "2026-11-02T00:20:43Z",
+            "authors": [
+                {
+                    "name": "ponapalt",
+                    "url": "https://github.com/ponapalt",
+                    "avatar": "https://avatars.githubusercontent.com/u/83973?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/ponapalt/claudia/releases/download/latest/claudia.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "claudia.nar",
+                    "size_in_bytes": 5436479,
                     "_ex": {
                         "download_count": 2
                     }
@@ -100,39 +199,6 @@
                     "size_in_bytes": 1310683,
                     "_ex": {
                         "download_count": 9
-                    }
-                }
-            ]
-        },
-        {
-            "id": "YAYA-shiori/flele_aya",
-            "url": "https://github.com/YAYA-shiori/flele_aya",
-            "title": "flele_aya",
-            "content_text": "## Sound Player Ghost \"FLELE\"\n\n![サムネイル](https://raw.githubusercontent.com/YAYA-shiori/flele_aya/master/thumbnail.png)\n\n## [ダウンロード](https://github.com/YAYA-shiori/flele_aya/releases/latest/download/flele_aya.nar)\n\n## 使い方\n\n[SSP](https://ssp.shillest.net/) の最新版で正常に動作します。\n\n以下の説明で、**マウス**はマウス操作、**キー**はキー操作です（キーは、ヘルプメニューのキー設定から変更できます）。\nFLELE がアクティブなときは、指定のキーを押すだけで実行されます。インアクティブなときは `Shift` + `Ctrl` と一緒に押してください。\nシェルの当たり判定にマウスカーソルを合わせると、その操作の説明がツールチップで出ます。\n\n### 曲リストに曲を追加する\n\n- **マウス**: サウンドファイルを FLELE にドロップ\n  - 複数のファイルをまとめて、フォルダごと、m3u 形式の曲リストファイルをドロップして追加することもできます。\n\n### 曲をダウンロードして曲リストに追加する\n\n- **マウス**: ウェブ上のサウンドファイルのリンクを FLELE にドロップ、またはヘルプメニューの「URL入力DL」から URL を直接入力\n\n曲データをダウンロードして曲リストに追加します。ダウンロードしたファイルは `sound_file` フォルダの中にあります。\nこれは一時的なもので、曲リストのクリアと同時に削除されます。削除したくないファイルは別の場所にコピーしておいてください。\n\n### 基本の操作\n\n| 操作 | マウス | キー |\n|------|--------|------|\n| サウンド再生 | 胸ボタンをクリック | `R` |\n| 再生の一時停止 / 解除 | 髪留めをクリック | `S` |\n| ヘルプメニューを出す / 閉じる | FLELE の体（右手・足・胸・髪留め以外）をダブルクリック | `M` |\n| 曲リストを出す | FLELE が左手に持っているファイルを右クリック | - |\n| 次の曲を演奏 | 次の曲ボタンをクリック（シェルによる） | `N` |\n| 前の曲を演奏 | 前の曲ボタンをクリック（シェルによる） | `B` |\n| 曲名ウィンドウを出す / 閉じる | 右手のグローブをダブルクリック | `W` |\n| 曲リストを全てクリア | 靴をダブルクリック | `C` |\n| 終了する | 右クリックメニュー > 終了 | `E` |\n| 外見（シェル）を変更する | 右クリックメニュー > シェル | - |\n\n- **サウンド再生**: 曲リストの中から曲を選んで再生します。もう一度押すと選び直して再生します。選び方は、そのとき設定している再生法によって変わります。\n- **一時停止 / 解除**: 演奏中の曲を一時停止します。もう一度押すと、止めたところから再生します。\n- **ヘルプメニュー**: もう一度押すと閉じます。\n- **次の曲 / 前の曲**: 再生方法に関係なく、曲リストの順に次の曲・前の曲を演奏します（最後の曲の次は最初の曲、最初の曲の前は最後の曲）。ボタンはシェルによってはありませんが、キー操作はどのシェルでも使えます。\n- **曲名ウィンドウ**: 演奏中の曲名を案内するウィンドウです。もう一度押すと閉じます。\n- **外見変更**: 音楽プレイヤーでいうスキンのようなものです。同梱されていないシェルは、FLELE の配布サイト（サービス終了）からダウンロードできました。シェルによってクリックする場所が変わる場合があるので、ご注意ください。\n\n### 補足\n\n#### 再生できないファイル\n\nFLELE は音楽の再生を SSP 本体に任せています。環境によって再生できない場合があります。再生できないファイルは、SSP のエラーログに出る案内（コーデックの追加など）を参考にしてください。\n連続再生中に再生できない曲があったときは、その曲を飛ばして次の曲を演奏します。\n\n#### 曲タイトル表示\n\n曲名などのタグは、SSP 本体を通して Windows の機能で読んでいます。Windows が読めない形式やタグでは、曲名の代わりにファイル名を表示します。\n\n#### プレイボタンを押したときに演奏される曲\n\n- 「同じ曲をエンドレス再生」モード: 直前に演奏した曲（初演奏はランダム）\n- 「リスト順に一周だけ再生」モード: リスト中の曲番号 1 の曲\n- 他のモード: ランダム\n\n#### 音楽ファイルのダウンロード\n\n- 同じファイル名の曲が既にある場合は上書きします（上書きするときに確認があります）。要望があれば、ファイル名が被ってもダウンロードできるようにします。その場合は「元のファイル名 + 時刻」のファイル名になると思います。\n- ダウンロードしたあとにセーブデータが消えると、ダウンロードした曲が残ったままになります。その場合はお手数ですが、手動で削除してください。\n\n#### 曲リストメニュー\n\n- たまに出てこないことがあるようです。ゴーストの再起動（それでも出ないときは PC の再起動）で直るはずです。\n- ファイル名ではなく曲タイトルを表示させるのは、曲数が多いとかなり重くなるので無理そうです。\n\n#### コミュニケート\n\n他のゴーストから、「音楽」「サウンド」「曲」のどれかと、「再生」「演奏」「かけて」「歌って」のどれかの言葉で話しかけられると、曲を演奏します。プレイボタンを押したときと同じ効果で、演奏中でも反応します。\n\n#### 音量調節\n\n曲リストメニュー（FLELE が左手に持っているファイルを右クリック）の「volume」から、0〜100 の音量を 10 刻みで選べます。演奏中でも、その場で音量が変わります。\n曲リストメニューを使わない設定にしているときは、ヘルプメニューの「設定」>「音楽再生の設定」で、［－］［＋］を押して調節します。\nSSP 本体のサウンドの音量（`--volume`）を変えるもので、パソコン全体の音量は変わりません。\n\n#### 表示言語（English）\n\nSSP の言語設定に合わせて、メニューやメッセージの言語が自動で切り替わります（日本語 / English）。\nSSP を日本語以外で起動したときや、言語リソースを日本語以外に切り替えたときは、英語で応えます。\n言語を追加するための仕組みもあります。詳しくは `GHOST.md` の「表示言語」を見てください。\n\nThe menus and messages follow the language of SSP. When SSP runs in a language other than Japanese, or you switch the language resource to one, FLELE answers in English. (This manual is still in Japanese only.)\n\n#### トーク\n\nもともとトークの無いゴーストにしようと思って作ったので、これ以上増えないと思います。\n\n#### シェル\n\n- FLELE のシェル仕様は、master シェル（Lime）の `readme.txt` に書いてあります。\n- Sorcerer-F と Button は着せ替え付きです。\n- おすわりシェルを縮小すると体が浮くときは、シェルのフォルダ内の `makoto.dic` をテキストエディタで開き、30 行付近の `//y座標差分` の下にある `'-128',/` の「-128」の数値を調節してください。\n\n#### スクリーンショット\n\nSSP 本体の設定で透明度をオフにすると撮影できるようになるようです。\n\n#### FLELE を増やす\n\n`ghost` フォルダ内にある `flele_aya` フォルダをコピーすると増やせます。\n同じタイトルのゴーストが増えて紛らわしくなるので、「増やしたフォルダ\\ghost\\master\\descript.txt」内の `name,FLELE` の `FLELE` を適当な名前に書き換えるとよいでしょう（ネットワーク更新すると元に戻ります）。\n複数の FLELE を同時に起動すると、音楽再生ができなくなってしまうことがあります。\n\n### 注意とおすすめ\n\n- 動作がおかしくなったときは、いったん終了して、`ghost/master` フォルダ内の `yaya_variable.cfg` と `profile` フォルダを削除してみてください。\n- 右クリックメニューから「ネットワーク更新」をかけると最新版になります。不具合が直ったり、機能が増えたりするかもしれません。\n- SSP の設定で「常に手前に表示」にしておくのをおすすめします。\n\n## こちらについて\n\n「ここにある配布物を全て再配布、改変配布可」との記述がありましたので、関連ファイルをすべてYAYA-shiori projectで引き取りました。\n\n元の配布URLはこちらです（サービス終了）： http://navy.nm.land.to/ukgk/flele/\n\n## 追加シェル\n\n| title | link |\n|------|------|\n| ツナ | [とりあえずなんぞー。: 伺かFLELE追加シェルについて](http://nanzokr.cocolog-nifty.com/blog/2008/06/flele_b433.html) ([動画はこちら](http://www.nicovideo.jp/watch/sm3485024)) |\n| ブラック・マジシャンガール / ヨハン・アンデルセン / 遊城 十代 / 遊城 十代（４期） / 天上院 明日香 / 万丈目 準 / 丸藤 翔 / エド・フェニックス / 武藤 遊戯（表） / 城之内 克也 / 武藤 遊戯（闇） / ファラオ（古代Ver） / 海馬 木馬 / 乃亜 / バクラ（闇） / 獏良 了（宿主） / マリク・イシュタール（表） / 海馬 瀬人 / レベッカ・ホプキンス / 不動 遊星 / 万丈目 準(ブルー制服Ver) / 万丈目 準(ホワイト制服Ver) / 天上院 明日香(ホワイト制服Ver) / 藤原 優介 | [ミレニアムノクターン](http://shuffle.ohuda.com/flele01.html) |\n| Neeon | [fm7743＠伺かに関する何かウィキ](http://www29.atwiki.jp/fm7743/) |\n| rinrinrin | [チョコリザの水](http://mizugamisama.nemiminimizu.com/) |\n| タチコマ / キサラ / キサラB / ブルアイ / モクバ | [嫁市場 \\| シェル](http://ygo.sham.hiho.jp/?cid=36894) |\n| 薬売りさん | [シェル置き場](http://arznei.blog.shinobi.jp/) |\n| Lion | [なにはともあれu・k・g・k！](http://nekolook.hp.infoseek.co.jp/) |\n| SETO * | [せとシェル](http://ma-cho.jugem.jp/) |\n| KAITO - de poche * / Miku - de poche * / MEIKO - de poche / duetto - KAITO, Miku * / Rin - de poche / Len - de poche | [兄さんシェル置き場のはずが色々と手を出し始めたところ](http://vcl.nobody.jp/shell/) |\n| ディレイラマ | [ダル系工房](http://kazune3.at.infoseek.co.jp/) |\n| miku_Ver_kurobane / rin_Ver_kurobane | [龍屋-伺か本舗-](http://kuroino.nanican.net/) |\n| Totakeke | [オトヒメ49号](http://1boshi.fc2web.com/) |\n| ひぐらしのなく頃に - 音流し編 * / 竜宮レナ * / 古手梨花 * / 北条沙都子 * / 園崎魅音 / 園崎詩音 * / 北条悟史 * / 羽入 * / 前原圭一 * | [PACK my BOX](http://www12.plala.or.jp/canaanM/pack/) |\n| Saxophone | [+Notes-on-Nursing+](http://unajyu-toku.hp.infoseek.co.jp/) |\n| flelec | [ox倉庫](http://ox-down.seesaa.net/) |\n| くすりうり | - 配布終了 - ([動画はこちら](http://www.nicovideo.jp/watch/sm1824593)) |\n| Conductor | - 配布終了 - |\n\n元のサイトで別配布となっていたシェルはすべて同梱しています。\n\n## 追加バルーン\n\n- [文字大き目バルーン](https://github.com/YAYA-shiori/flele_aya/releases/latest/download/flele_balloon2.nar)\n\n## おまけ\n\nゴースト[caramelldansen](http://haka.sakura.ne.jp/pants/)用追加キャラサプリ [cmd_flele.nar](https://raw.githubusercontent.com/YAYA-shiori/flele_aya/master/cmd_flele.nar)\n\ncaramelldansen追加キャラをFLELEのシェルにするゴースト [cmd_to_flele.nar](https://raw.githubusercontent.com/YAYA-shiori/flele_aya/master/cmd_to_flele.nar)\n",
-            "summary": "FLELE v1+ (V2機能一部取り込み)",
-            "date_published": "2026-10-29T00:12:31Z",
-            "date_modified": "2026-10-29T00:12:31Z",
-            "authors": [
-                {
-                    "name": "YAYA-shiori",
-                    "url": "https://github.com/YAYA-shiori",
-                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/YAYA-shiori/flele_aya/releases/download/v20261029091230-59d0858/flele_aya.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "flele_aya.nar",
-                    "size_in_bytes": 3228835,
-                    "_ex": {
-                        "download_count": 18
                     }
                 }
             ]
@@ -540,39 +606,6 @@
                     "size_in_bytes": 899478,
                     "_ex": {
                         "download_count": 124
-                    }
-                }
-            ]
-        },
-        {
-            "id": "ponapalt/claudia",
-            "url": "https://github.com/ponapalt/claudia",
-            "title": "claudia",
-            "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\n紺野ややめ由来の、AI エージェント向け開発キットが入っています。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [DEVKIT-GUIDE.md](DEVKIT-GUIDE.md): 開発キットの使い方\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/pages.yml` で公開）\n",
-            "summary": "",
-            "date_published": "2026-10-09T00:12:44Z",
-            "date_modified": "2026-10-09T00:12:45Z",
-            "authors": [
-                {
-                    "name": "ponapalt",
-                    "url": "https://github.com/ponapalt",
-                    "avatar": "https://avatars.githubusercontent.com/u/83973?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/ponapalt/claudia/releases/download/37863574936/claudia.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "claudia.nar",
-                    "size_in_bytes": 5390305,
-                    "_ex": {
-                        "download_count": 27
                     }
                 }
             ]
@@ -1001,39 +1034,6 @@
                     "size_in_bytes": 542948,
                     "_ex": {
                         "download_count": 13
-                    }
-                }
-            ]
-        },
-        {
-            "id": "YAYA-shiori/_the_hand_",
-            "url": "https://github.com/YAYA-shiori/_the_hand_",
-            "title": "_the_hand_",
-            "content_text": "以下は旧公開ページをGitHubに合わせて最小限変更した内容になります。\n\n----------\n\n![タイトル](thumbnail.jpg)\n\nillustration：鈴風さん（http://huuryuu.bake-neko.net/index/index.html）\n\nここにはまっとうなゴーストはありません。帰れ。\n\n## The Hand phase 'xxxx'\n\n![サンプル](shell/master/surface000.png)\n\n↑こんな感じです。いやらしいですね。\n\n### なにこれ\n\n- SAORIで色々いじってみるテスト。\n- 界隈初？のセクハラゴーストです。一緒に立ってるゴーストにあんなことやこんなことをします。\n- ていうか嫌ゴです。\n- 某ゴーストマスタさんに「生理的に受け付けない」と言われました。最強。\n- [右のReleasesから最新版をダウンロード](https://github.com/YAYA-shiori/_the_hand_/releases)できます。（phase 'xxxx' 2008-05-29～随時更新）\n\n### 履歴\n\n- 2004/05/?? 第一版作成、しばらくほったらかし\n- 2005/05/09 色々修正して Phase \"xx\" 作成\n- 2005/05/10 FA-Xさん（http://fa-x.hp.infoseek.co.jp/）作成の「小さいバルーン」を同梱させて頂きました。感謝。\n- 2006/05/25 だーいぶ書き直して、必殺技つけて、Phase \"xxx\" になりました。\n- 2006/09/29 はんどたん対応。Special Thanks to 高遠結奈さま（http://yuina.s6.xrea.com/）\n- 2006/11/20 はんどたんに声がつきました。Special Thanks to みゅんさん\n- 2007/02/27 必殺技ロジックを更新。必殺技４を追加。\n- 2008/05/29 Phase \"xxxx\" **大幅な変更なのでアーカイブ入れなおしを推奨します。**\n  - コア部分を最新のYAYAシステムに合わせ書き直し。\n  - トーク少し追加。はんどたん当たり判定追加。\n- 2026/02/23 GitHub YAYA-shiori org.に収容\n\n### 制限事項やなんか\n\n- SSP 1.10.00 (RC1)以上でないとほぼ使えません。\n- 他のゴーストと一緒に立てて、放っておくか、ダブルクリックしてください。\n- ちょっと重いです。\n\n## はんどたん\n\n- 高遠結奈様が作成してくださった、The Handの追加シェルです。\n- シェルを変えるとHandの挙動も変わります。\n- かわいいです。\n\n高遠結奈様「つきゆり」\nhttp://yuina.s6.xrea.com/\n\n「つきゆり」内「The Hand」専用シェル「Hand Girl」公開場所\nhttp://yuina.s6.xrea.com/ukagaka/\n\n## Hand関連ドキュメント\n\n### Hand用の特殊処理を行いたい方へ\n\n詳しくは [Hand特殊イベント](hand_special_event.md) を見てください。\n\n### Hand対応/被対応一覧\n\nHandが特別な対応を行っている、あるいはHandに特別な対応を行って下さってるゴーストの一覧です。\n\n[Hand対応](hand_compatible_ghost.md)\n\nヴィイさんとコミュニケーション連鎖を行った際のノウハウをまとめました。\n\n[コミュニケーション連鎖](hand_communicate.md)\n\n### お年頃の娘を抱えたゴーストマスター様へ\n\n- うちの娘に何をするんだっ！という方、お申し出下されば触らないようにします。\n\n### はんどたんのできるまで\n\n- http://d.hatena.ne.jp/hakuma/20060920/p2\n- http://yuina.s6.xrea.com/x/diary/nicky.cgi?DT=20060922\n- http://hiho.boo.jp/soramimi/log/eid306.html\n- http://d.hatena.ne.jp/wiz-stargazer/20060921\n- http://metalwing.blog.shinobi.jp/Entry/189/\n- http://metalwing.blog.shinobi.jp/Entry/187/\n- http://niselog.blog.shinobi.jp/Entry/17/\n- http://taimagro.blog.shinobi.jp/Entry/71/\n- http://www12.plala.or.jp/canaanM/pack/s/g001.html\n- http://yuina.s6.xrea.com/x/diary/nicky.cgi?DT=20060929\n\n### 伺デミー\n\n- 伺デミー技術賞予選（2006/08/31）にノミネートいただきました。\n  - Handから一言。[./伺デミー予選突破記念](./伺デミー予選突破記念)\n- 伺デミー技術賞決戦（2006/09/19）にノミネートいただきました。\n\n## ゴーストの扱いについて\n\n基本的になにをしてもオッケーです。\n\n",
-            "summary": "嫌ゴ「The Hand」Phase \"xxxx\"",
-            "date_published": "2026-02-23T11:24:06Z",
-            "date_modified": "2026-02-23T11:24:06Z",
-            "authors": [
-                {
-                    "name": "YAYA-shiori",
-                    "url": "https://github.com/YAYA-shiori",
-                    "avatar": "https://avatars.githubusercontent.com/u/111350830?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/YAYA-shiori/_the_hand_/releases/download/v20260223112405-124d41a/_the_hand_.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "_the_hand_.nar",
-                    "size_in_bytes": 4126887,
-                    "_ex": {
-                        "download_count": 27
                     }
                 }
             ]
