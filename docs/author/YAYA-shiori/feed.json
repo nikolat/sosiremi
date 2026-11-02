@@ -11,8 +11,8 @@
             "title": "shiories",
             "content_text": "# SHIORIES\n\n![SHIORIES - SHIORI たちが擬人化して、ゴーストを動かす舞台裏を語る](title.png)\n\nCopyright (C) 2006- Ukagaka Tech Team\n\nSHIORI たちが擬人化して、ゴーストを動かす舞台裏を語る、伺か（ukagaka）のゴーストです。\n普段は縁の下の力持ちの SHIORI たちが、ついに我慢しきれず出てきてしまいました。はてさて、どうなることやら。\n\n2006 年に華和梨（KAWARI）8 と OpenKEEPS で作られたゴーストを、YAYA 6 コアに移行したものです。辞書は全面的に組み直し、シェルは元のままです。\n\n## 登場するキャラクター\n\n- **華和梨**: SHIORI「華和梨」の長女。眼鏡のしっかり者で、ツッコミ役\n- **里々**: SHIORI「里々」。元気で無邪気な男の子（見た目は女の子）\n- **文**: SHIORI「文」（AYA）。無口でお茶好き。ぼそっと毒を吐く\n- **里珠**: SHIORI「里珠」。Perl 製の重厚長大な SHIORI。ときどきゲスト出演\n\n## インストール\n\n[SSP](https://ssp.shillest.net/) で動作を確認しています。\n\n1. https://yaya-shiori.github.io/shiories/ から `shiories.nar` をダウンロード\n2. `shiories.nar` を SSP の画面にドラッグ＆ドロップ\n\n- バルーン「SHIORIES バルーン」も一緒に入ります。\n- 更新は SSP のネットワーク更新で行えます。\n- GitHub のリポジトリを zip で取得しても、動くゴーストにはなりません（システム辞書が空になります）。必ず上のページから nar を取得してください。\n\n## 遊び方\n\n放っておくと 3 人がランダムに話し、撫でたりクリックしたりすると反応します。\n\n右クリックメニュー: 偽ＡＩトーク / COMMUNICATEボックス / お喋り頻度 / オプション設定（見切れ・重なり・振動のオン・オフ、ユーザー名の変更）。メニューの色と絵は、最後にクリックしたキャラクターに合わせて変わります。\n\n## 作った人・使用ソフト\n\n- シェル: [ボトル猫](https://catbottle.sakura.ne.jp/)\n- ゴースト: Ukagaka Tech Team\n  - 旧整備班版: さとー（華和梨担当）、水無月藍（文・里々担当）\n- バルーン: Ukagaka Tech Team\n- SHIORI: [YAYA](https://github.com/YAYA-shiori/yaya-shiori)\n- システム辞書: [yaya-dic](https://github.com/YAYA-shiori/yaya-dic)\n\n## ライセンス\n\n- ゴースト（辞書）の著作権者は「Ukagaka Tech Team」で、ライセンスは [クリエイティブ・コモンズ 表示 2.5](https://creativecommons.org/licenses/by/2.5/deed.ja) です。クレジットとライセンス条件を示すかぎり、再配布、二次著作物の作成、営利目的での使用ができます。\n- シェルはボトル猫氏の作品です。\n- 同梱バルーンは Ukagaka Tech Team の作品で、[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja) です。\n- YAYA 本体とシステム辞書は、それぞれのリポジトリのライセンスに従います。\n\n## 配布サイト・連絡先\n\n[Ukagaka Tech Team](https://ukatech.shillest.net/)（ponapalt@shillest.net）\n\n## 履歴\n\n- 2006/5/7 公開\n- 2026/11/1 SHIORI を YAYA 6 コアに移行（辞書を全面的に組み直し）\n",
             "summary": "SHIORIES",
-            "date_published": "2026-11-02T03:50:20Z",
-            "date_modified": "2026-11-02T03:50:21Z",
+            "date_published": "2026-11-02T12:28:14Z",
+            "date_modified": "2026-11-02T12:28:14Z",
             "authors": [
                 {
                     "name": "YAYA-shiori",
@@ -31,9 +31,9 @@
                     "url": "https://github.com/YAYA-shiori/shiories/releases/download/latest/shiories.nar",
                     "mime_type": "application/octet-stream",
                     "title": "shiories.nar",
-                    "size_in_bytes": 1913595,
+                    "size_in_bytes": 1920513,
                     "_ex": {
-                        "download_count": 2
+                        "download_count": 5
                     }
                 }
             ]
@@ -66,7 +66,7 @@
                     "title": "_the_hand_.nar",
                     "size_in_bytes": 4130961,
                     "_ex": {
-                        "download_count": 1
+                        "download_count": 2
                     }
                 }
             ]
@@ -99,7 +99,7 @@
                     "title": "flele_aya.nar",
                     "size_in_bytes": 3262524,
                     "_ex": {
-                        "download_count": 2
+                        "download_count": 6
                     }
                 }
             ]
@@ -132,7 +132,7 @@
                     "title": "konnoyayame.nar",
                     "size_in_bytes": 1310683,
                     "_ex": {
-                        "download_count": 9
+                        "download_count": 10
                     }
                 }
             ]
@@ -165,7 +165,7 @@
                     "title": "ayalilith.nar",
                     "size_in_bytes": 1337401,
                     "_ex": {
-                        "download_count": 2
+                        "download_count": 3
                     }
                 }
             ]
