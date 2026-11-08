@@ -6,6 +6,139 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "tukinami/taidanaSanoSan",
+            "url": "https://github.com/tukinami/taidanaSanoSan",
+            "title": "taidanaSanoSan",
+            "content_text": " 怠惰な佐野さん\r\n============================================================\r\n面倒くさがりな少年「佐野 伊織」と、猫又の「きぬ」の\r\n雑談系ゴーストです。\r\n\r\n満腹度によって、わずかばかりトークが増減します。\r\nまた、ユーザーがおやつをあげることもできます。\r\n\r\n(トークの内容について、不正確な内容も含まれるかと思います。\r\n引用等につきましては、その点ご注意下さい。)\r\n\r\n追加シェル「master-s」(小さなドット絵シェル)、\r\nバルーン「怠惰な猫の青い石」を同梱してます。\r\n\r\n\r\n基本的な操作\r\n============================================================\r\nゴースト上でダブルクリックすると、メニューが出ます。\r\nこのゴーストの設定・おやつなどはここからどうぞ。\r\n\r\n\r\n切り替え反応に対応しているゴーストさん(順不同)\r\n============================================================\r\n←: 「怠惰な佐野さん」からそのゴーストへ\r\n→: そのゴーストから「怠惰な佐野さん」へ\r\n\r\n←→「ドラゴンリーダー」by netai98 さん : https://cherry.narnaloader.ukagaka.net/ghost.php?ghost=doragonleader\r\n←→「将人withアリサ」 by 池永マサモト さん : https://2662.tyabo.com\r\n←→「ロスト・ユー・サムウェア」 by あーるでぃー さん : https://earlduant.blog.fc2.com\r\n←→「餓我 -ガガ-」 by ジェム バロン さん : https://wgarden.sakura.ne.jp/Ghost/Ruby/\r\n←→「Adaptation」by 墨鼠 さん : https://prayfortiny.net/\r\n←→「チョコレイトボックス」by 小戸らでく さん : https://nekoorinu.monster\r\n\r\n\r\n対応プラグイン\r\n============================================================\r\n・SwissArmyKnife\r\n・スタンプ帳\r\n    http://navy.nm.land.to/post/\r\n・GetWindowTitle\r\n    https://github.com/ambergon/ukagakaPlugin_getWindowTitle\r\n・MailBox\r\n    https://github.com/ambergon/ukagakaPlugin_mailBox\r\n・Inventory\r\n    https://github.com/ambergon/ukagakaPlugin_Inventory\r\n\r\n\r\nバグ報告など\r\n============================================================\r\nバグ報告・感想などは、現在、\r\n・Wavebox\r\n    (https://wavebox.me/wave/ersk1ec23kr3hrqr/)\r\nまたは、\r\n・Mastodon\r\n    (fedibird: https://fedibird.com/@tukinami_seika)\r\n    (うかどん: https://ukadon.shillest.net/@tukinami_seika)\r\n・X(旧Twitter)\r\n    (@tukinami_s)\r\nでのDM、リプライで受け付けています。\r\n\r\nバグ報告については\r\nGitHubのIssues(https://github.com/tukinami/taidanaSanoSan/issues)\r\nでも受け付けています。\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n使用しているものについて\r\n============================================================\r\nYAYA(SHIORI)\r\nhttps://github.com/ponapalt/yaya-shiori/wiki\r\n紺野ややめ(テンプレートゴースト)\r\nhttp://ms.shillest.net/yayame.xhtml\r\n\r\n\r\n謝辞\r\n============================================================\r\nEmily/Phase4.5\r\nCopyright (C) 2004- Emily/Phase4.5 Project.\r\nhttp://ssp.shillest.net/\r\nゴースト作成において大変参考にさせていただきました。\r\nありがとうございます。\r\n\r\n\r\nゴーストの二次創作ガイドライン/ライセンス(2024-04-18現在)\r\n============================================================\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/taidanaSanoSan\r\n",
+            "summary": "伺か雑談系ゴースト",
+            "date_published": "2026-10-11T04:11:55Z",
+            "date_modified": "2026-10-11T04:11:58Z",
+            "authors": [
+                {
+                    "name": "tukinami",
+                    "url": "https://github.com/tukinami",
+                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/tukinami/taidanaSanoSan/releases/download/v1.23.0/taidanaSanoSan.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "taidanaSanoSan.nar",
+                    "size_in_bytes": 2517974,
+                    "_ex": {
+                        "download_count": 13
+                    }
+                }
+            ]
+        },
+        {
+            "id": "nikolat/ukagaka-simultaneous-interpreter",
+            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
+            "title": "ukagaka-simultaneous-interpreter",
+            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
+            "summary": "Simultaneous Interpreter Ghost",
+            "date_published": "2023-05-05T22:47:06Z",
+            "date_modified": "2023-05-05T22:47:09Z",
+            "authors": [
+                {
+                    "name": "nikolat",
+                    "url": "https://github.com/nikolat",
+                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
+                }
+            ],
+            "tags": [
+                "akari",
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.1/simultaneous-interpreter.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "simultaneous-interpreter.nar",
+                    "size_in_bytes": 1370318,
+                    "_ex": {
+                        "download_count": 730
+                    }
+                }
+            ]
+        },
+        {
+            "id": "JiayuYangX/sakura-restore",
+            "url": "https://github.com/JiayuYangX/sakura-restore",
+            "title": "sakura-restore",
+            "content_text": "# さくら / 御影樱 人格汉化\n\n本仓库为伪春菜原基础软件 [MATERIA](http://usada.sakura.vg/) 的内置人格 さくら 的汉化及修复工程。通过修补 DLL 文件，确保其在现代基础软件 [SSP](https://ssp.shillest.net/) 上能够正常运行，并优化多处细节。\n\n![示意图](overview.png)\n\n人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；\n外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。\n\n## 安装方法\n\n从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。\n\n## 必要环境\n\n- [SSP](https://ssp.shillest.net/)\n- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）\n\n## 人格介绍\n\nさくら（樱）是第一个伪春菜人格（文件里称为 first）的正式名称，也是「伪春菜」这个名字最初指代的对象。现版使用的短发版形象通常被称为「御影樱」。其配角 うにゅう（乌纽）则是早期人格最常使用的配角形象。\n\n人格修改自 2002 年 6 月 22 日「伺か」项目停止维护前的最后一次版本更新（period 583）。当时尚未形成后来成熟的通用 SHIORI + 辞书文件的形式，人格的所有功能都依靠担任 SHIORI 的 `first.dll` 实现。\n\n## 项目描述\n\n文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。\n\n原配布链接：<http://usada.sakura.vg/>\n\n### 汉化\n\n该人格的所有文本都被硬编码进 `first.dll` 中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 code 节，内置窗体文本位于 rsrc 节，问答游戏的答案以反转形式存储。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。\n\n另有如环境变量等文本存于 rsrc 节的 AITXT 资源，以整块反转 + MT19937 密钥流异或的方式加密存储。早期曾用 `makoto.dll` 翻译器接口运行时替换，现直接将其译文重新加密后静态写回资源本体。详见 `docs/AITXT分析文档.md`。\n\n### 图片修复\n\n默认外壳和对话框现均改为使用图片自身透明通道。默认外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。\n\n### 兼容性及遗留问题修复\n\n人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS / CP932 字符集变为 GBK / CP936，可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。\n\n本项目通过关键字节替换和新增的 cave 节对 DLL 进行了多轮修补，使其在 SSP 运行时能还原本近乎全部的重要特性，同时还对本来的多项遗留问题进行了修复。修补内容具体如下：\n\n#### 翻译和替换\n\n- 字符串替换（code、rsrc、字体、问答游戏答案）\n- AITXT替换\n- DFM Font.Charset 替换为 GBK\n- 修改更新检查 URL\n\n#### SHIORI 兼容性修复\n\n- NOTIFY 请求不再返回 400，避免状态机卡死\n- 泡澡/小睡不再进入 InductionMode\n\n#### 链接/锚点修复\n\n- \"海原雄山\" 锚点补注册\n- RSS 网页链接打开浏览器\n\n#### 菜单逻辑修复\n\n- 选择菜单、搜索输入框打开、视力检查进行时吞双击事件\n- 进入 PassiveMode 后双击返回缓存菜单\n- 输入框关闭时触发对应空输入\n- 打字、问答游戏退出时关闭输入框、打字窗、视力窗、倒计时\n- 修正视力检查的倒计时时间\n- 菜单计时功能倒计时窗自动恢复\n\n#### 对话替换功能修复\n\n- 打字游戏文本屏蔽替换\n- 重力语修复：对话 + 窗口\n  - 统一进行 `%` `[` `]` 保护（对话逻辑不全，窗口缺失）\n  - 使用映射表模拟 SJIS 替换行为（仅同时存在于 GBK 中的字符）\n\n#### 窗口修复\n\n- 设置、Todo 退出崩溃修复\n- SSP 下窗口键盘操作失效修复\n- 窗口跟随 DPI 缩放 + 衍生问题修复：\n  - 状态栏字体放大修复 + 重影修复\n  - 退出时窗口尺寸保存放大修复 + 卸载时归还\n  - 输入法修复（双门控 + 候选框位置、组字窗位置、组字窗字体大小）\n  - 监控窗（模拟时钟和文字信息窗）非 100% 拖动掩码修复 + 跨 100% 刷新及显隐\n  - 视力窗补 `Scaled=False` 属性",
+            "summary": "伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）逆向汉化",
+            "date_published": "2026-11-06T06:13:33Z",
+            "date_modified": "2026-11-06T06:13:37Z",
+            "authors": [
+                {
+                    "name": "JiayuYangX",
+                    "url": "https://github.com/JiayuYangX",
+                    "avatar": "https://avatars.githubusercontent.com/u/173799789?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar",
+                    "mime_type": "application/x-nar",
+                    "title": "first.nar",
+                    "size_in_bytes": 2276457,
+                    "_ex": {
+                        "download_count": 5
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Tatakinov/knowledgeable_kernel",
+            "url": "https://github.com/Tatakinov/knowledgeable_kernel",
+            "title": "knowledgeable_kernel",
+            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】モノシリック・カーネル\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\nLinuxについてあることないこと喋るゴーストです。\r\nあんまり濃ゆい話はしません。多分。\r\n\r\n\r\n## 注意事項\r\n\r\n- トークで紹介する一部コマンドにはデータを消したり破損させるものがあります。\r\n  実行は自己責任でお願いします。\r\n- えせ関西弁が苦手な方はアンインストールをおすすめします。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\n里々(SATORI) | https://github.com/ukatech/satoriya-shiori\r\n\r\n## 追加シェルについて\r\n\r\n現状ninix-kagariでのみ動作を確認しています。\r\nsakuraはVroid StudioでVRMを出力->Blenderで調整してglb形式で出力しています。\r\nkeroはBlender+GIMPで作っています。\r\n\r\nsakuraとkeroの両モデルとも\r\n再配布可、改変可となっていますが、\r\nエログロ政治宗教への利用は禁止とさせていただきます。\r\n\r\n",
+            "summary": "",
+            "date_published": "2026-11-08T04:28:30Z",
+            "date_modified": "2026-11-08T04:28:43Z",
+            "authors": [
+                {
+                    "name": "Tatakinov",
+                    "url": "https://github.com/Tatakinov",
+                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Tatakinov/knowledgeable_kernel/releases/download/v3.0.0/knowledgeable_kernel.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "knowledgeable_kernel.nar",
+                    "size_in_bytes": 7989527,
+                    "_ex": {
+                        "download_count": 0
+                    }
+                }
+            ]
+        },
+        {
             "id": "YAYA-shiori/shiories",
             "url": "https://github.com/YAYA-shiori/shiories",
             "title": "shiories",
@@ -33,7 +166,7 @@
                     "title": "shiories.nar",
                     "size_in_bytes": 1920513,
                     "_ex": {
-                        "download_count": 9
+                        "download_count": 10
                     }
                 }
             ]
@@ -99,7 +232,7 @@
                     "title": "flele_aya.nar",
                     "size_in_bytes": 3262524,
                     "_ex": {
-                        "download_count": 12
+                        "download_count": 15
                     }
                 }
             ]
@@ -132,40 +265,7 @@
                     "title": "claudia.nar",
                     "size_in_bytes": 5436479,
                     "_ex": {
-                        "download_count": 11
-                    }
-                }
-            ]
-        },
-        {
-            "id": "JiayuYangX/sakura-restore",
-            "url": "https://github.com/JiayuYangX/sakura-restore",
-            "title": "sakura-restore",
-            "content_text": "# さくら / 御影樱 人格汉化\n\n本仓库为伪春菜原基础软件 [MATERIA](http://usada.sakura.vg/) 的内置人格 さくら 的汉化及修复工程。通过修补 DLL 文件，确保其在现代基础软件 [SSP](https://ssp.shillest.net/) 上能够正常运行，并优化多处细节。\n\n![示意图](overview.png)\n\n人格文件请见 [ghost](https://github.com/JiayuYangX/sakura-restore/tree/ghost) 分支；\n外壳图片处理见 [shell](https://github.com/JiayuYangX/sakura-restore/tree/shell) 分支。\n\n## 安装方法\n\n从 [Release](https://github.com/JiayuYangX/sakura-restore/releases) 中下载最新版本提供的 NAR 文件，拖入 SSP 进行安装。支持在线更新。\n\n## 必要环境\n\n- [SSP](https://ssp.shillest.net/)\n- Windows（未开启「Beta 版: 使用 Unicode UTF-8 提供全球语言支持」选项）\n\n## 人格介绍\n\nさくら（樱）是第一个伪春菜人格（文件里称为 first）的正式名称，也是「伪春菜」这个名字最初指代的对象。现版使用的短发版形象通常被称为「御影樱」。其配角 うにゅう（乌纽）则是早期人格最常使用的配角形象。\n\n人格修改自 2002 年 6 月 22 日「伺か」项目停止维护前的最后一次版本更新（period 583）。当时尚未形成后来成熟的通用 SHIORI + 辞书文件的形式，人格的所有功能都依靠担任 SHIORI 的 `first.dll` 实现。\n\n## 项目描述\n\n文件提取自 [伺か period 583](http://usada.sakura.vg/contents/files/materia583.exe)。\n\n原配布链接：<http://usada.sakura.vg/>\n\n### 汉化\n\n该人格的所有文本都被硬编码进 `first.dll` 中，其中绝大部分以明文形式存储。对话和菜单、提示文本位于 code 节，内置窗体文本位于 rsrc 节，问答游戏的答案以反转形式存储。原来使用的 SJIS 编码文本在中文系统环境中运行会显示乱码，故直接将其替换为 GBK 译文（字节长度不超过原文）。\n\n另有如环境变量等文本存于 rsrc 节的 AITXT 资源，以整块反转 + MT19937 密钥流异或的方式加密存储。早期曾用 `makoto.dll` 翻译器接口运行时替换，现直接将其译文重新加密后静态写回资源本体。详见 `docs/AITXT分析文档.md`。\n\n### 图片修复\n\n默认外壳和对话框现均改为使用图片自身透明通道。默认外壳图片使用 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) 的 realesrgan-x4plus-anime 模型进行四倍放大；再使用 [ImageMagick](https://imagemagick.org) 透明填充红色背景、边缘 2 像素勾线后再缩放回原大小，可形成平滑自然的半透明边缘。\n\n### 兼容性及遗留问题修复\n\n人格需依赖原来的 `materia.exe` 才能正常运行，故将其置于 `ghost/master` 目录之下。硬编码字符串由原本的 Shift-JIS / CP932 字符集变为 GBK / CP936，可能仅在中文系统环境下（未启用 UTF-8 Beta 设置）正常显示。\n\n本项目通过关键字节替换和新增的 cave 节对 DLL 进行了多轮修补，使其在 SSP 运行时能还原本近乎全部的重要特性，同时还对本来的多项遗留问题进行了修复。修补内容具体如下：\n\n#### 翻译和替换\n\n- 字符串替换（code、rsrc、字体、问答游戏答案）\n- AITXT替换\n- DFM Font.Charset 替换为 GBK\n\n#### SHIORI 兼容性修复\n\n- NOTIFY 请求不再返回 400，避免状态机卡死\n- 泡澡/小睡不再进入 InductionMode\n\n#### 链接/锚点修复\n\n- \"海原雄山\" 锚点补注册\n- RSS 网页链接打开浏览器\n\n#### 菜单逻辑修复\n\n- 选择菜单、搜索输入框打开、视力检查进行时吞双击事件\n- 进入 PassiveMode 后双击返回缓存菜单\n- 输入框关闭时触发对应空输入\n- 打字、问答游戏退出时关闭输入框、打字窗、视力窗、倒计时\n- 修正视力检查的倒计时时间\n- 菜单计时功能倒计时窗自动恢复\n\n#### 对话替换功能修复\n\n- 打字游戏文本屏蔽替换\n- 重力语修复：对话 + 窗口\n  - 统一进行 `%` `[` `]` 保护（对话逻辑不全，窗口缺失）\n  - 使用映射表模拟 SJIS 替换行为（仅同时存在于 GBK 中的字符）\n\n#### 窗口修复\n\n- 设置、Todo 退出崩溃修复\n- SSP 下窗口键盘操作失效修复\n- 窗口跟随 DPI 缩放 + 衍生问题修复：\n  - 状态栏字体放大修复 + 重影修复\n  - 退出时窗口尺寸保存放大修复 + 卸载时归还\n  - 输入法修复（双门控 + 候选框位置、组字窗位置、组字窗字体大小）\n  - 监控窗（模拟时钟和文字信息窗）非 100% 拖动掩码修复 + 跨 100% 刷新及显隐\n  - 视力窗补 `Scaled=False` 属性",
-            "summary": "伪春菜原基础软件 MATERIA 的内置人格 さくら（樱）逆向汉化",
-            "date_published": "2026-10-29T15:57:40Z",
-            "date_modified": "2026-10-29T15:57:45Z",
-            "authors": [
-                {
-                    "name": "JiayuYangX",
-                    "url": "https://github.com/JiayuYangX",
-                    "avatar": "https://avatars.githubusercontent.com/u/173799789?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/JiayuYangX/sakura-restore/releases/download/261005/first.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "first.nar",
-                    "size_in_bytes": 2276369,
-                    "_ex": {
-                        "download_count": 8
+                        "download_count": 13
                     }
                 }
             ]
@@ -297,7 +397,7 @@
                     "title": "lnx_walk_with_unyu.nar",
                     "size_in_bytes": 1896353,
                     "_ex": {
-                        "download_count": 15
+                        "download_count": 16
                     }
                 }
             ]
@@ -369,39 +469,6 @@
             ]
         },
         {
-            "id": "tukinami/taidanaSanoSan",
-            "url": "https://github.com/tukinami/taidanaSanoSan",
-            "title": "taidanaSanoSan",
-            "content_text": " 怠惰な佐野さん\r\n============================================================\r\n面倒くさがりな少年「佐野 伊織」と、猫又の「きぬ」の\r\n雑談系ゴーストです。\r\n\r\n満腹度によって、わずかばかりトークが増減します。\r\nまた、ユーザーがおやつをあげることもできます。\r\n\r\n(トークの内容について、不正確な内容も含まれるかと思います。\r\n引用等につきましては、その点ご注意下さい。)\r\n\r\n追加シェル「master-s」(小さなドット絵シェル)、\r\nバルーン「怠惰な猫の青い石」を同梱してます。\r\n\r\n\r\n基本的な操作\r\n============================================================\r\nゴースト上でダブルクリックすると、メニューが出ます。\r\nこのゴーストの設定・おやつなどはここからどうぞ。\r\n\r\n\r\n切り替え反応に対応しているゴーストさん(順不同)\r\n============================================================\r\n←: 「怠惰な佐野さん」からそのゴーストへ\r\n→: そのゴーストから「怠惰な佐野さん」へ\r\n\r\n←→「ドラゴンリーダー」by netai98 さん : https://cherry.narnaloader.ukagaka.net/ghost.php?ghost=doragonleader\r\n←→「将人withアリサ」 by 池永マサモト さん : https://2662.tyabo.com\r\n←→「ロスト・ユー・サムウェア」 by あーるでぃー さん : https://earlduant.blog.fc2.com\r\n←→「餓我 -ガガ-」 by ジェム バロン さん : https://wgarden.sakura.ne.jp/Ghost/Ruby/\r\n←→「Adaptation」by 墨鼠 さん : https://prayfortiny.net/\r\n←→「チョコレイトボックス」by 小戸らでく さん : https://nekoorinu.monster\r\n\r\n\r\n対応プラグイン\r\n============================================================\r\n・SwissArmyKnife\r\n・スタンプ帳\r\n    http://navy.nm.land.to/post/\r\n・GetWindowTitle\r\n    https://github.com/ambergon/ukagakaPlugin_getWindowTitle\r\n・MailBox\r\n    https://github.com/ambergon/ukagakaPlugin_mailBox\r\n・Inventory\r\n    https://github.com/ambergon/ukagakaPlugin_Inventory\r\n\r\n\r\nバグ報告など\r\n============================================================\r\nバグ報告・感想などは、現在、\r\n・Wavebox\r\n    (https://wavebox.me/wave/ersk1ec23kr3hrqr/)\r\nまたは、\r\n・Mastodon\r\n    (fedibird: https://fedibird.com/@tukinami_seika)\r\n    (うかどん: https://ukadon.shillest.net/@tukinami_seika)\r\n・X(旧Twitter)\r\n    (@tukinami_s)\r\nでのDM、リプライで受け付けています。\r\n\r\nバグ報告については\r\nGitHubのIssues(https://github.com/tukinami/taidanaSanoSan/issues)\r\nでも受け付けています。\r\n\r\nご気軽にどうぞ。\r\n\r\n\r\n使用しているものについて\r\n============================================================\r\nYAYA(SHIORI)\r\nhttps://github.com/ponapalt/yaya-shiori/wiki\r\n紺野ややめ(テンプレートゴースト)\r\nhttp://ms.shillest.net/yayame.xhtml\r\n\r\n\r\n謝辞\r\n============================================================\r\nEmily/Phase4.5\r\nCopyright (C) 2004- Emily/Phase4.5 Project.\r\nhttp://ssp.shillest.net/\r\nゴースト作成において大変参考にさせていただきました。\r\nありがとうございます。\r\n\r\n\r\nゴーストの二次創作ガイドライン/ライセンス(2024-04-18現在)\r\n============================================================\r\n\r\nhttps://emily.shillest.net/specwiki/index.php?%E7%A5%9E%E5%A4%9C%E3%81%BF%E3%82%85%E3%82%93/%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AE%E4%BA%8C%E6%AC%A1%E5%89%B5%E4%BD%9C%E3%82%AC%E3%82%A4%E3%83%89%E3%83%A9%E3%82%A4%E3%83%B3\r\n\r\n◆二次創作周りについて\r\n\r\n[1.追加シェル、バルーン等を制作して配布される]\r\n    可 喜びます\r\n[2.二次創作をされる]\r\n    可 嬉しいです\r\n[3.性的又はグロテスクな表現を含む、閲覧に年齢制限の掛かる二次創作をされる]\r\n    可 個人の責で\r\n[4.ゴースト本体の設定と大きくかけ離れた二次創作をされる]\r\n    可\r\n[5.二次創作物の販売をされる]\r\n    可\r\n[6.コミッションサービス等でゴーストに関連する創作物を依頼される]\r\n    可\r\n\r\n◆ゴーストを始めとした、配布データの扱いについて\r\n\r\n[1.ゴーストのダウンロードページ、又はアーカイブへ直接リンクされる]\r\n    ダウンロードベージ: 可\r\n    アーカイブ: 不可(転送量が不安なのとURL変更の可能性のため)\r\n[2.情報集積サイト等の外部サイトに登録される]\r\n    可\r\n[3.公開中、又は配布終了したゴーストを再配布される(個人間でのやり取りを含む)]\r\n    可\r\n[4.ゴーストの中身（辞書、シェル等）を改変した上で再配布]（3がOKの人のみ回答）\r\n    月波 清火の著作物なら可 改変したこと、ゴースト名、月波 清火の名前を明記の上\r\n[5.マスターシェルを素材とした追加シェルの制作/配布について]\r\n    月波 清火の著作物なら可 改変したこと、元の素材の名前、月波 清火の名前を明記の上\r\n\r\n◆その他\r\n\r\n[1.他ゴーストから切り替え反応を実装される]\r\n    可 喜びます\r\n[2.ゴーストに関する批判的な意見を言われる]\r\n    可\r\n[3.ゴーストに関する要望を言われる]\r\n    可 お気軽にどうぞ\r\n[4.不特定多数の人が見る場でネタバレをされる]\r\n    可\r\n[5.トークの引用、又は撮ったスクリーンショットを公開される]\r\n    可\r\n[6.シェル、バルーン等の画像を(SNSアイコン等に)素材として使用される]\r\n    月波 清火の著作物なら可  改変の有無、元の素材の名前、月波 清火の名前を明記の上\r\n[7.ゴーストを動画内で配信される]\r\n    可\r\n\r\n\r\n\r\n制作: 月波 清火\r\nhttps://github.com/tukinami/taidanaSanoSan\r\n",
-            "summary": "伺か雑談系ゴースト",
-            "date_published": "2026-10-11T04:11:55Z",
-            "date_modified": "2026-10-11T04:11:58Z",
-            "authors": [
-                {
-                    "name": "tukinami",
-                    "url": "https://github.com/tukinami",
-                    "avatar": "https://avatars.githubusercontent.com/u/48230779?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/tukinami/taidanaSanoSan/releases/download/v1.23.0/taidanaSanoSan.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "taidanaSanoSan.nar",
-                    "size_in_bytes": 2517974,
-                    "_ex": {
-                        "download_count": 13
-                    }
-                }
-            ]
-        },
-        {
             "id": "lost-nd-xxx/unyu_lunchbox",
             "url": "https://github.com/lost-nd-xxx/unyu_lunchbox",
             "title": "unyu_lunchbox",
@@ -429,7 +496,7 @@
                     "title": "lnx_unyu_lunchbox.nar",
                     "size_in_bytes": 811238,
                     "_ex": {
-                        "download_count": 27
+                        "download_count": 28
                     }
                 }
             ]
@@ -638,40 +705,7 @@
                     "title": "ponyaduma.nar",
                     "size_in_bytes": 923415,
                     "_ex": {
-                        "download_count": 38
-                    }
-                }
-            ]
-        },
-        {
-            "id": "Tatakinov/knowledgeable_kernel",
-            "url": "https://github.com/Tatakinov/knowledgeable_kernel",
-            "title": "knowledgeable_kernel",
-            "content_text": "# ソフトウェアについて\r\n\r\n【名    称】モノシリック・カーネル\r\n【種    別】ゴースト\r\n【制 作 者】タタキノフ\r\n【動作確認】Windows 10 and Wine 7.9以降 / SSP 2.6.07以降\r\n【配 布 元】https://tatakinov.github.io/\r\n【連 絡 先】tatakinov_at_gmail.com\r\n            https://twitter.com/tatakinov_ukgk\r\n            https://ukadon.shillest.net/@tatakinov\r\n\r\n\r\n## ゴーストについて\r\n\r\nLinuxについてあることないこと喋るゴーストです。\r\nあんまり濃ゆい話はしません。多分。\r\n\r\n\r\n## 注意事項\r\n\r\n- トークで紹介する一部コマンドにはデータを消したり破損させるものがあります。\r\n  実行は自己責任でお願いします。\r\n- えせ関西弁が苦手な方はアンインストールをおすすめします。\r\n\r\n\r\n## ゴースト著作権について\r\n\r\n[1.ゴーストダウンロードページに直接リンクされる]\r\n○\r\n\r\n[2.ゴーストのネタバレをされる]\r\n○\r\n\r\n[3.ゴーストに対し批判的な意見を言われる]\r\n○\r\n作者の髪が薄くなります。\r\n\r\n[4.二次創作物の配布をされる(HP素材フリー配布、同人誌販売等)]\r\n[5.原作の設定と大きくかけ離れた二次創作をされる]\r\n[6.18禁二次創作をされる]\r\n○\r\nただし二次創作物である旨を目につく場所に記載すること。\r\n\r\n[7.追加シェル、バルーン等を配布される]\r\n○\r\n\r\n[8.マスターシェル、バルーン等を改変したものを配布される]（7がOKの人のみ）\r\n○\r\n\r\n[9.トークをウェブ上に転載]\r\n○\r\n\r\n[10.マスターシェルを素材(掲示板のアイコンなど)として使用]\r\n○\r\n\r\n[11.ゴーストアーカイブへの直リンク]\r\n○\r\n\r\n[12.公開中ゴーストをウェブ上で再配布]\r\n○\r\nでもオリジナルをダウンロードしてほしくもある。\r\n\r\n[13.配布終了したゴーストをウェブ上で再配布]\r\n○\r\n\r\n[14.中身を改変した上でウェブ上で再配布]（12と13のどちらかがOKの人のみ）\r\n○\r\nただし、改変している旨を目のつく場所に記載すること。\r\n\r\n[15.ゴーストの同人誌収録]\r\n[16.ゴーストの商業誌収録]\r\n○\r\nご自由に。\r\n\r\n\r\n## 使用ライブラリなど\r\n\r\n以下のライブラリ/ソフトウェアを使用しています。\r\nそれぞれのライセンス詳細はLICENSE.txtを参照してください。\r\n\r\n里々(SATORI) | https://github.com/ukatech/satoriya-shiori\r\n\r\n## 追加シェルについて\r\n\r\n現状ninix-kagariでのみ動作を確認しています。\r\nsakuraはVroid StudioでVRMを出力->Blenderで調整してglb形式で出力しています。\r\nkeroはBlender+GIMPで作っています。\r\n\r\nsakuraとkeroの両モデルとも\r\n再配布可、改変可となっていますが、\r\nエログロ政治宗教への利用は禁止とさせていただきます。\r\n\r\n",
-            "summary": "",
-            "date_published": "2026-04-11T12:28:08Z",
-            "date_modified": "2026-04-11T12:28:11Z",
-            "authors": [
-                {
-                    "name": "Tatakinov",
-                    "url": "https://github.com/Tatakinov",
-                    "avatar": "https://avatars.githubusercontent.com/u/75240817?v=4"
-                }
-            ],
-            "tags": [
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/Tatakinov/knowledgeable_kernel/releases/download/v2.0.0/knowledgeable_kernel.nar",
-                    "mime_type": "application/octet-stream",
-                    "title": "knowledgeable_kernel.nar",
-                    "size_in_bytes": 1349425,
-                    "_ex": {
-                        "download_count": 52
+                        "download_count": 40
                     }
                 }
             ]
@@ -868,7 +902,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 318
+                        "download_count": 319
                     }
                 }
             ]
@@ -1039,40 +1073,6 @@
             ]
         },
         {
-            "id": "nikolat/ukagaka-simultaneous-interpreter",
-            "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter",
-            "title": "ukagaka-simultaneous-interpreter",
-            "content_text": "This is a ghost that simultaneously interprets the talk of the ghost beside it.\n",
-            "summary": "Simultaneous Interpreter Ghost",
-            "date_published": "2023-05-05T22:47:06Z",
-            "date_modified": "2023-05-05T22:47:09Z",
-            "authors": [
-                {
-                    "name": "nikolat",
-                    "url": "https://github.com/nikolat",
-                    "avatar": "https://avatars.githubusercontent.com/u/496156?v=4"
-                }
-            ],
-            "tags": [
-                "akari",
-                "sirefaso",
-                "sosiremi",
-                "ukagaka",
-                "ukagaka-ghost"
-            ],
-            "attachments": [
-                {
-                    "url": "https://github.com/nikolat/ukagaka-simultaneous-interpreter/releases/download/v1.0.1/simultaneous-interpreter.nar",
-                    "mime_type": "application/x-nar",
-                    "title": "simultaneous-interpreter.nar",
-                    "size_in_bytes": 1370318,
-                    "_ex": {
-                        "download_count": 726
-                    }
-                }
-            ]
-        },
-        {
             "id": "lost-nd-xxx/countdown_to_the_end",
             "url": "https://github.com/lost-nd-xxx/countdown_to_the_end",
             "title": "countdown_to_the_end",
@@ -1133,7 +1133,7 @@
                     "title": "HamirLore.nar",
                     "size_in_bytes": 5221219,
                     "_ex": {
-                        "download_count": 172
+                        "download_count": 174
                     }
                 }
             ]
@@ -1165,7 +1165,7 @@
                     "title": "omoideno.nar",
                     "size_in_bytes": 1086608,
                     "_ex": {
-                        "download_count": 186
+                        "download_count": 187
                     }
                 }
             ]
@@ -1578,8 +1578,8 @@
             "title": "Taromati2",
             "content_text": "This ghost only supports Chinese at the moment, feel free to visit the following URL to participate in the translation\nこのゴーストは現在、中国語のみ対応しています。以下のURLにアクセスし、翻訳に参加してください。\n这个ghost目前只支持中文，欢迎访问以下网址来参与翻译\nhttps://github.com/Taromati2/Taromati2/blob/master/docs/i18n.md\n\n原作：http://unvollendet.web.fc2.com/\n详细信息：https://github.com/Taromati2/Taromati2\n免责声明：https://github.com/Taromati2/Taromati2#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\n贡献者名单：https://github.com/Taromati2/Taromati2/blob/master/docs/CONTRIBUTORS.md\n\n\n",
             "summary": "黑色的猫咪 银发的少女 没有结局的故事",
-            "date_published": "2026-10-07T03:27:32Z",
-            "date_modified": "2026-10-07T03:27:32Z",
+            "date_published": "2026-11-07T03:51:19Z",
+            "date_modified": "2026-11-07T03:51:20Z",
             "authors": [
                 {
                     "name": "Taromati2",
@@ -1604,12 +1604,12 @@
             ],
             "attachments": [
                 {
-                    "url": "https://github.com/Taromati2/package-factory/releases/download/37566752565/Taromati2.nar",
+                    "url": "https://github.com/Taromati2/package-factory/releases/download/42335781701/Taromati2.nar",
                     "mime_type": "application/zip",
                     "title": "Taromati2.nar",
                     "size_in_bytes": 5099838,
                     "_ex": {
-                        "download_count": 53
+                        "download_count": 1
                     }
                 }
             ]
