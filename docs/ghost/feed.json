@@ -6,6 +6,39 @@
     "description": "GitHubで公開されているNARファイルを一覧表示する",
     "items": [
         {
+            "id": "Shimofumi/toritoritori",
+            "url": "https://github.com/Shimofumi/toritoritori",
+            "title": "toritoritori",
+            "content_text": "----------------\r\nとり、籠に入りやしない\r\n----------------\r\n\r\n\r\n\r\n【概要】\r\n  \r\n　キンカチョウがいます。\r\n　文鳥もいます。\r\n　\r\n　あと、ドラゴンガールもいます。\r\n\r\n【登場人物】\r\n\r\n　キンカチョウ（白）：とろ\r\n　キンカチョウ（灰）：てば\r\n　見分けがつかないキンカチョウA（暴）：ちくわ\r\n　見分けがつかないキンカチョウB（小）：つくね\r\n　文鳥（白）：たらこ\r\n　竜（緑）：ティエンナ\r\n\r\n【推奨環境】\r\n\r\n　ＳＳＰ最新版をご利用下さい。\r\n\r\n【使用素材】\r\n\r\n　・SHIORI「蒼空」\r\n　　https://github.com/kanadelab/aosora-shiori\r\n\r\n　・それ以外:自作\r\n\r\n【おことわり】\r\n\r\n　当ゴーストを利用した事によって発生したいかなる不利益、\r\n　損害にも著作者は関知しません。\r\n\r\n【二次創作等】\r\n\r\n　制限はありません。一枚絵から同人誌まで、\r\n　創作されたものを教えて頂けると、とても嬉しく思います。\r\n\r\n【再配布・改変等】\r\n\r\n　・シェルを含め、本作品の再配布は基本的にＯＫ\r\n　・改変したものを配布する場合は、改変した方の名前で配布してください。\r\n　・改変後のものに関して、製作者は関知しません。\r\n\r\n　この緩い規約は、本作品（とり、籠に入りやしない）に限って、\r\n　実験的に創作・再配布・改変の規約を緩くしてみる意図で設けています。\r\n　製作者のそれ以外の創作物には一切言及していないことに留意してください。\r\n　別のゴーストや別製作者さんのイラストなどに、この規約を持ち出さないでください。\r\n\r\n　なお、同梱している蒼空（aosora.dll）の扱いは、蒼空の配布条件に従います。\r\n\r\n【製作者】\r\n\r\n　しもふみ\r\n\r\n　https://ukadon.shillest.net/@Shimofumi\r\n　twitter：@Shimofumi\r\n　個人サイト\r\n　https://dragontail.monster",
+            "summary": "伺かゴースト「とり、籠に入りやしない」",
+            "date_published": "2026-11-10T13:24:46Z",
+            "date_modified": "2026-11-10T13:24:49Z",
+            "authors": [
+                {
+                    "name": "Shimofumi",
+                    "url": "https://github.com/Shimofumi",
+                    "avatar": "https://avatars.githubusercontent.com/u/48890286?v=4"
+                }
+            ],
+            "tags": [
+                "sirefaso",
+                "sosiremi",
+                "ukagaka",
+                "ukagaka-ghost"
+            ],
+            "attachments": [
+                {
+                    "url": "https://github.com/Shimofumi/toritoritori/releases/download/v1.0.0/toritoritori.nar",
+                    "mime_type": "application/octet-stream",
+                    "title": "toritoritori.nar",
+                    "size_in_bytes": 1007117,
+                    "_ex": {
+                        "download_count": 2
+                    }
+                }
+            ]
+        },
+        {
             "id": "tukinami/taidanaSanoSan",
             "url": "https://github.com/tukinami/taidanaSanoSan",
             "title": "taidanaSanoSan",
@@ -67,7 +100,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 733
+                        "download_count": 734
                     }
                 }
             ]
@@ -265,7 +298,7 @@
                     "title": "claudia.nar",
                     "size_in_bytes": 5436479,
                     "_ex": {
-                        "download_count": 13
+                        "download_count": 14
                     }
                 }
             ]
@@ -430,7 +463,7 @@
                     "title": "POST_and_KOMAINU_V2.nar",
                     "size_in_bytes": 975148,
                     "_ex": {
-                        "download_count": 11
+                        "download_count": 12
                     }
                 }
             ]
@@ -1567,7 +1600,7 @@
                     "title": "wind_memory_petit.nar",
                     "size_in_bytes": 427052,
                     "_ex": {
-                        "download_count": 163
+                        "download_count": 164
                     }
                 }
             ]
@@ -1743,7 +1776,7 @@
                     "title": "shellbook.nar",
                     "size_in_bytes": 2069822,
                     "_ex": {
-                        "download_count": 95
+                        "download_count": 96
                     }
                 }
             ]
