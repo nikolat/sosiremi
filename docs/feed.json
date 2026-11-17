@@ -496,7 +496,7 @@
                     "title": "ayalilith.nar",
                     "size_in_bytes": 1337401,
                     "_ex": {
-                        "download_count": 9
+                        "download_count": 11
                     }
                 }
             ]
@@ -1067,7 +1067,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 334
+                        "download_count": 337
                     }
                 }
             ]
@@ -1233,7 +1233,7 @@
                     "title": "wallet_of_unyu.nar",
                     "size_in_bytes": 402782,
                     "_ex": {
-                        "download_count": 48
+                        "download_count": 49
                     }
                 }
             ]
