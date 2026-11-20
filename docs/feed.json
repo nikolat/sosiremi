@@ -11,8 +11,8 @@
             "title": "claudia",
             "content_text": "# 悪役令嬢クローディア\n\n![悪役令嬢クローディア](thumbnail.png)\n\n伺か（ukagaka）のゴーストです。SHIORI は YAYA、ベースウェアは SSP を想定しています。\n\n登場人物、できること、制作後記は、紹介ページにまとめてあります。\n\n**紹介ページ: https://ponadocs.shillest.net/claudia/**\n\n## ダウンロード\n\n右横の Releases から nar ファイルをダウンロードして、SSP にドラッグ＆ドロップしてください。\nこのリポジトリを zip で取得しても動きますが、開発用のファイルが含まれています。\n\n## ライセンス\n\n辞書、シェル画像を含め、このゴーストのすべてを [Unlicense](LICENSE)（パブリックドメイン）とします。改変、再配布、二次利用はご自由にどうぞ。連絡も不要です。\n\n## 開発\n\nAI エージェント向けのスキル [ukagaka-developer](https://github.com/ukatech/ukagaka-developer) で開発しています（スキルはこのリポジトリに入っていません）。\n\n- [GHOST.md](GHOST.md): このゴーストに固有の情報（キャラクター、サーフェス、辞書の構成）\n- [AGENTS.md](AGENTS.md): エージェント向けの指示書\n- [site/](site/): 紹介ページ（GitHub Pages。`.github/workflows/auto_deploy.yml` で公開）\n",
             "summary": "",
-            "date_published": "2026-11-19T22:54:21Z",
-            "date_modified": "2026-11-19T22:54:22Z",
+            "date_published": "2026-11-20T06:40:27Z",
+            "date_modified": "2026-11-20T06:40:28Z",
             "authors": [
                 {
                     "name": "ponapalt",
@@ -31,9 +31,9 @@
                     "url": "https://github.com/ponapalt/claudia/releases/download/latest/claudia.nar",
                     "mime_type": "application/octet-stream",
                     "title": "claudia.nar",
-                    "size_in_bytes": 5476320,
+                    "size_in_bytes": 6001964,
                     "_ex": {
-                        "download_count": 1
+                        "download_count": 3
                     }
                 }
             ]
@@ -265,7 +265,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 746
+                        "download_count": 748
                     }
                 }
             ]
@@ -837,7 +837,7 @@
                     "title": "ponyaduma.nar",
                     "size_in_bytes": 923415,
                     "_ex": {
-                        "download_count": 45
+                        "download_count": 48
                     }
                 }
             ]
@@ -1067,7 +1067,7 @@
                     "title": "my_own_translator.nar",
                     "size_in_bytes": 10337125,
                     "_ex": {
-                        "download_count": 344
+                        "download_count": 345
                     }
                 }
             ]
