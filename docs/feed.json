@@ -33,7 +33,7 @@
                     "title": "claudia.nar",
                     "size_in_bytes": 6001964,
                     "_ex": {
-                        "download_count": 3
+                        "download_count": 4
                     }
                 }
             ]
@@ -265,7 +265,7 @@
                     "title": "simultaneous-interpreter.nar",
                     "size_in_bytes": 1370318,
                     "_ex": {
-                        "download_count": 748
+                        "download_count": 749
                     }
                 }
             ]
@@ -1166,7 +1166,7 @@
                     "title": "stampcollection.nar",
                     "size_in_bytes": 413717,
                     "_ex": {
-                        "download_count": 46
+                        "download_count": 48
                     }
                 }
             ]
@@ -2443,7 +2443,7 @@
                     "title": "crawler_uploader.nar",
                     "size_in_bytes": 658145,
                     "_ex": {
-                        "download_count": 129
+                        "download_count": 130
                     }
                 }
             ]
@@ -2476,7 +2476,7 @@
                     "title": "ukagakaPlugin_CeVIO-Talker.nar",
                     "size_in_bytes": 460161,
                     "_ex": {
-                        "download_count": 117
+                        "download_count": 118
                     }
                 }
             ]
@@ -2645,7 +2645,7 @@
                     "title": "ukagakaPlugin_getWindowTitle.nar",
                     "size_in_bytes": 951624,
                     "_ex": {
-                        "download_count": 104
+                        "download_count": 105
                     }
                 }
             ]
@@ -2777,7 +2777,7 @@
                     "title": "UkagakaPlugin_DBdiary.nar",
                     "size_in_bytes": 832334,
                     "_ex": {
-                        "download_count": 66
+                        "download_count": 67
                     }
                 }
             ]
