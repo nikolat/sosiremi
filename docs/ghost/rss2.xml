@@ -6,13 +6,22 @@
 <description>GitHubで公開されているNARファイルを一覧表示する</description>
 <atom:link href="https://nikolat.github.io/sosiremi/ghost/rss2.xml" rel="self" type="application/rss+xml" />
 <item>
+    <title>ponyaduma</title>
+    <link>https://github.com/ponapalt/ponyaduma</link>
+    <description>ぽにゃづまなのです。</description>
+    <category>ghost</category>
+    <dc:creator>ponapalt</dc:creator>
+    <guid isPermaLink="false">ponapalt/ponyaduma</guid>
+    <pubDate>Sat, 21 Nov 2026 20:20:05 +0900</pubDate>
+</item>
+<item>
     <title>claudia</title>
     <link>https://github.com/ponapalt/claudia</link>
     <description></description>
     <category>ghost</category>
     <dc:creator>ponapalt</dc:creator>
     <guid isPermaLink="false">ponapalt/claudia</guid>
-    <pubDate>Fri, 20 Nov 2026 15:40:28 +0900</pubDate>
+    <pubDate>Sat, 21 Nov 2026 20:20:04 +0900</pubDate>
 </item>
 <item>
     <title>_the_hand_</title>
@@ -193,15 +202,6 @@
     <dc:creator>nikolat</dc:creator>
     <guid isPermaLink="false">nikolat/jong-chunchun</guid>
     <pubDate>Sat, 12 Nov 2022 20:35:54 +0900</pubDate>
-</item>
-<item>
-    <title>ponyaduma</title>
-    <link>https://github.com/ponapalt/ponyaduma</link>
-    <description>ぽにゃづまなのです。</description>
-    <category>ghost</category>
-    <dc:creator>ponapalt</dc:creator>
-    <guid isPermaLink="false">ponapalt/ponyaduma</guid>
-    <pubDate>Mon, 28 Sep 2026 16:18:11 +0900</pubDate>
 </item>
 <item>
     <title>WeatherTimeCapsule</title>
